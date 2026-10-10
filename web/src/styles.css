@@ -297,3 +297,9 @@ input[type="checkbox"], input[type="radio"] { width: 18px; min-height: 18px; hei
 .footer h2, .footer ul { max-width: 920px; margin-left: auto; margin-right: auto; }
 .footer h2 { font-size: 0.875rem; font-weight: 600; }
 .footer ul { padding-left: 1.2em; color: var(--muted-foreground); font-size: 0.8125rem; display: grid; gap: 6px; }
+
+/* AI fill box on the Submit page */
+.ai-fill { margin-bottom: 16px; border-style: dashed; }
+.ai-fill h2 { font-size: 1rem; margin-bottom: 4px; }
+.ai-fill .actions { margin-top: 10px; }
+.ai-fill .hint { margin-top: 8px; min-height: 1.2em; }

@@ -2,7 +2,7 @@
 // is published until a person approves it in the review queue.
 import { useState } from "react";
 import type { FormEvent } from "react";
-import { submitResource } from "../api.ts";
+import { draftResource, submitResource } from "../api.ts";
 import { useI18n } from "../i18n.tsx";
 import { HREF } from "../router.ts";
 import { BOROUGHS, LANGUAGE_CODES, NEEDS, ORG_TYPES } from "../types.ts";
@@ -24,6 +24,37 @@ export function Submit() {
   const [sending, setSending] = useState(false);
   const [error, setError] = useState("");
   const [thanks, setThanks] = useState("");
+
+  const [aiInput, setAiInput] = useState("");
+  const [aiBusy, setAiBusy] = useState(false);
+  const [aiMsg, setAiMsg] = useState("");
+  const AI = lang === "en"
+    ? { title: "Have a link or a flyer?", body: "Paste a web link or the text of a flyer or post. AI fills in the form below; you check it before sending.", ph: "https://... or paste the text here", btn: "Fill in the form with AI", busy: "Reading…", ok: "Done. Check every field below before you send it.", err: "We couldn't fill it in. Please type it in below." }
+    : { title: "¿Tiene un enlace o un volante?", body: "Pegue un enlace o el texto de un volante o una publicación. La IA llena el formulario de abajo; usted lo revisa antes de enviarlo.", ph: "https://... o pegue el texto aquí", btn: "Llenar el formulario con IA", busy: "Leyendo…", ok: "Listo. Revise cada campo de abajo antes de enviarlo.", err: "No pudimos llenarlo. Escríbalo abajo, por favor." };
+
+  const fillWithAI = async () => {
+    const v = aiInput.trim();
+    if (!v) return;
+    setAiBusy(true);
+    setAiMsg("");
+    try {
+      const isUrl = /^(https?:\/\/)?[\w-]+(\.[\w-]+)+(\/\S*)?$/i.test(v);
+      const { draft } = await draftResource(isUrl ? { url: v, ui_language: lang } : { text: v, ui_language: lang });
+      setF({
+        ...f,
+        name: draft.name || f.name, org: draft.org || f.org, org_type: draft.org_type || f.org_type,
+        address: draft.address || f.address, borough: draft.borough || f.borough, zip: draft.zip || f.zip,
+        hours: draft.hours || f.hours, phone: draft.phone || f.phone, source_url: draft.source_url || f.source_url,
+      });
+      if (draft.needs.length) setNeeds(draft.needs);
+      if (draft.languages.length) setLanguages(draft.languages);
+      setAiMsg(AI.ok);
+    } catch (err) {
+      setAiMsg(err instanceof Error && err.message && err.message !== "network" ? err.message : AI.err);
+    } finally {
+      setAiBusy(false);
+    }
+  };
 
   const set = (k: keyof typeof EMPTY) => (e: { target: { value: string } }) => setF({ ...f, [k]: e.target.value });
 
@@ -73,6 +104,21 @@ export function Submit() {
         <h1>{t("sub_title")}</h1>
         <p>{t("sub_intro")}</p>
         <p className="notice">{t("sub_privacy")}</p>
+      </section>
+
+      <section className="card ai-fill" aria-labelledby="ai-fill-title">
+        <h2 id="ai-fill-title">{AI.title}</h2>
+        <p className="muted small">{AI.body}</p>
+        <label className="field">
+          <span className="sr-only">{AI.ph}</span>
+          <textarea value={aiInput} onChange={(e) => setAiInput(e.target.value)} placeholder={AI.ph} rows={3} maxLength={12000} />
+        </label>
+        <div className="actions">
+          <button type="button" className="btn btn-primary" onClick={fillWithAI} disabled={aiBusy || !aiInput.trim()}>
+            {aiBusy ? AI.busy : AI.btn}
+          </button>
+        </div>
+        <p className="hint" role="status" aria-live="polite">{aiMsg}</p>
       </section>
 
       <form className="card form" onSubmit={onSubmit} noValidate>

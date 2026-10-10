@@ -101,3 +101,13 @@ export function getInsights() {
 export function getHealth() {
   return call<{ ok: boolean; counts?: { Program?: number; Place?: number; Link?: number } }>("health", {});
 }
+
+export interface ResourceDraft {
+  name: string; org: string; org_type: string; address: string; borough: string; zip: string;
+  hours: string; phone: string; languages: string[]; needs: string[]; source_url: string;
+}
+
+/** AI fills the Submit form from a link or pasted text. Nothing is saved. */
+export function draftResource(input: { url?: string; text?: string; ui_language?: string }) {
+  return call<{ draft: ResourceDraft; filled: string[] }>("draft_resource", input);
+}
