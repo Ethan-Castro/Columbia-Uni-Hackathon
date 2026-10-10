@@ -1,0 +1,75 @@
+{
+ "query": "28-19 Steinway Street, 2nd Floor, Astoria, NY 11103",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "28-19 Steinway Street, 2nd Floor, Astoria, NY 11103"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59697149"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36081",
+        "CENTLAT": "+40.6545736",
+        "AREAWATER": 188444380,
+        "STATE": "36",
+        "BASENAME": "Queens",
+        "OID": "27590307869814",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.6546581",
+        "NAME": "Queens County",
+        "OBJECTID": 440,
+        "CENTLON": "-073.8408699",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974139",
+        "AREALAND": 281594058,
+        "INTPTLON": "-073.8412089",
+        "MTFCC": "G4020",
+        "COUNTY": "081"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.913898794705,
+      "y": 40.765127420081
+     },
+     "addressComponents": {
+      "zip": "11103",
+      "streetName": "STEINWAY",
+      "preType": "",
+      "city": "ASTORIA",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "28-01",
+      "state": "NY",
+      "suffixType": "ST",
+      "toAddress": "28-99",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "28-19 STEINWAY ST, ASTORIA, NY, 11103"
+    }
+   ]
+  }
+ }
+}

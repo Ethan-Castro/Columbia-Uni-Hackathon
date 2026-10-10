@@ -1,0 +1,216 @@
+"""Phase 3 hand-sourced places (Corona focus). Every field value comes from the cited source page; `evidence` holds
+quotes that build_places_local.py checks against the saved copy of that page (raw/tavily or raw/manual), so a value
+with no matching quote fails the build.
+
+trust: 'official' = the facts come from a government source (nyc.gov, NYC H+H, NYC Public Schools, NYS, a consulate's
+own government site). It says nothing about current capacity, cost or wait times. Provider and agent pages are
+'unverified'. Nothing is 'verified' here: that only happens after Felix's manual review (see verified_ids.txt).
+"""
+
+NYS_WIC = "https://agriculture.ny.gov/local-agencies-providing-wic-services"
+HH_WIC = "https://www.nychealthandhospitals.org/elmhurst/services/wic"
+HH_CENTERS = "https://www.nychealthandhospitals.org/elmhurst/community-medical-centers"
+HH_ELMHURST = "https://www.nychealthandhospitals.org/elmhurst/"
+UHP = "https://www.urbanhealthplan.org/locations/plaza-del-sol-family-health-center"
+QPL = "https://www.queenslibrary.org/about-us/locations/corona"
+IDNYC = "https://www.nyc.gov/site/idnyc/card/locations.page"
+HRA = "https://www.nyc.gov/site/hra/locations/job-locations.page"
+HRA_SNAP = "https://www.nyc.gov/site/hra/locations/snap-locations.page"
+FWC = "https://enrollmentsupport.schools.nyc/app/answers/detail/a_id/3682/~/contact-a-family-welcome-center"
+PAYO = "https://www.payomatic.com/stores/ny/corona/102-10-roosevelt-ave/409"
+PLS_J = "https://pls247.com/ny/store-locator/store/142-38-10-junction-blvd-corona.html"
+PLS_N = "https://pls247.com/ny/store-locator/store/10-105-22-northern-blvd-corona.html"
+WU = "https://location.westernunion.com/us/ny/corona"                    # rendered copy: raw/manual/wu_corona_rendered.html
+NEWLIFE = "https://www.newlifecdc.nyc/food-and-clothing-pantry"
+MX = "https://consulmex.sre.gob.mx/nuevayork/index.php/espanol/test-nueva-plantilla-1/prueba-nuevo-articulo"
+MX_HOURS = "https://consulmex.sre.gob.mx/nuevayork/index.php/en/component/content/article/171"
+DR = "https://usa.mirex.gob.do/consular/new-york/contacto"
+CO = "https://nuevayork.consulado.gov.co/ayuda/datos-contacto"
+EC = "https://www.cancilleria.gob.ec/newyork/2021/03/09/contactenos"    # copy: raw/manual/cons_ec_contacto.html
+SV = "https://rree.gob.sv/cancilleria-inaugura-instalaciones-del-consulado-general-de-el-salvador-en-nueva-york"
+
+MANUAL_FILES = {WU: "raw/manual/wu_corona_rendered.html", EC: "raw/manual/cons_ec_contacto.html"}
+
+PLACES = [
+    # ---------------- WIC / health
+    dict(id="place-phs-neighborhood-wic-corona", name="Public Health Solutions Neighborhood WIC (Corona)",
+         org="Public Health Solutions", org_type="clinic", address="103-24 Roosevelt Ave 3rd Fl, Corona, NY 11368",
+         zip="11368", phone="(718) 335-7563", trust="official", source_url=NYS_WIC, offers=["prog-wic"],
+         evidence={"address": "103-24 Roosevelt Ave 3rd Fl Corona, NY 11368", "phone": "(718) 335-7563",
+                   "offers": "Public Health Solutions"}),
+    dict(id="place-urban-health-plan-wic-corona", name="Urban Health Plan WIC (Corona Ave)", org="Urban Health Plan Inc",
+         org_type="clinic", address="104-01 Corona Ave, Corona, NY 11368", zip="11368", phone="(347) 686-3700",
+         trust="official", source_url=NYS_WIC, offers=["prog-wic"],
+         evidence={"address": "104-01 Corona Ave Corona, NY 11368", "phone": "(347) 686-3700", "offers": "Urban Health Plan Inc"}),
+    dict(id="place-nyc-hh-elmhurst-wic", name="NYC Health + Hospitals/Elmhurst WIC Program", org="NYC Health + Hospitals",
+         org_type="clinic", address="81-06 Baxter Ave, MC-4, Elmhurst, NY 11373", zip="11373", phone="718-334-3265",
+         hours="Mon-Fri 9am-5pm", open_evenings="false", open_weekends="false", trust="official", source_url=HH_WIC,
+         offers=["prog-wic"],
+         evidence={"address": "81-06 Baxter Ave. MC-4 Elmhurst, NY 11373", "phone": "718.334.3265",
+                   "hours": "Mon – Fri: 9:00 am – 5:00 pm", "offers": "Elmhurst WIC Program Locations"}),
+    dict(id="place-nyc-hh-elmhurst-hospital", name="NYC Health + Hospitals/Elmhurst", org="NYC Health + Hospitals",
+         org_type="clinic", address="79-01 Broadway, Elmhurst, NY 11373", zip="11373", phone="1-718-334-4000",
+         trust="official", source_url=HH_ELMHURST,
+         evidence={"address": "79-01 BroadwayElmhurst, New York 11373", "phone": "1-718-334-4000"}),
+    dict(id="place-nyc-hh-gotham-jackson-heights", name="NYC Health + Hospitals/Gotham Health (Jackson Heights)",
+         org="NYC Health + Hospitals", org_type="clinic", address="34-33 Junction Boulevard, Jackson Heights, NY 11372",
+         zip="11372", phone="718-334-6150", trust="official", source_url=HH_CENTERS,
+         evidence={"address": "34-33 Junction Boulevard (between 34th Ave. & 35th Ave.) Jackson Heights, NY 11372",
+                   "phone": "718-334-6150"}),
+    dict(id="place-nyc-hh-gotham-womens-health-corona", name="NYC Health + Hospitals/Gotham Health (Women's Health Center)",
+         org="NYC Health + Hospitals", org_type="clinic", address="59-17 Junction Blvd., Corona, NY 11368", zip="11368",
+         phone="718-334-6300", trust="official", source_url=HH_CENTERS,
+         evidence={"address": "59-17 Junction Blvd. Corona, NY 11368", "phone": "718-334-6300"}),
+    dict(id="place-urban-health-plan-plaza-del-sol", name="Urban Health Plan - Plaza Del Sol Family Health Center",
+         org="Urban Health Plan", org_type="clinic", address="37-12 108th Street, Corona, NY 11368", zip="11368",
+         hours="Mon-Fri 7am-5pm; Sat 7am-1:30pm", open_evenings="false", open_weekends="true", trust="unverified",
+         source_url=UHP,
+         evidence={"address": "37-12 108th Street Corona, NY 11368", "hours": "Monday – Friday: 7 am to 5 pm Saturday: 7 am to 1:30 pm"}),
+    # ---------------- library, ID, benefits, schools
+    dict(id="place-queens-public-library-corona", name="Queens Public Library at Corona", org="Queens Public Library",
+         org_type="other", address="38-23 104 Street, Corona, NY 11368", zip="11368", phone="(718) 426-2844",
+         hours="Tue 1pm-6pm; Wed 10am-6pm; Thu 12pm-8pm; Fri 10am-6pm; Sat 10am-5pm", open_evenings="true",
+         open_weekends="true", trust="unverified", source_url=QPL,
+         evidence={"address": "38-23 104 Street Corona, NY 11368", "phone": "(718) 426-2844",
+                   "hours": "Sunday: Closed Monday: Closed Tuesday: 1:00 pm/6:00 pm Wednesday: 10:00 am/6:00 pm Thursday: 12:00 pm/8:00 pm Friday: 10:00 am/6:00 pm Saturday: 10:00 am/5:00 pm"}),
+    dict(id="place-idnyc-queens-public-library-central", name="IDNYC Enrollment Center - Queens Public Library at Central",
+         org="IDNYC", org_type="idnyc", address="89-11 Merrick Boulevard, 1st Floor, Jamaica, NY 11432", zip="11432",
+         hours="Mon-Fri 10am-6pm", open_evenings="false", open_weekends="false", trust="official", source_url=IDNYC,
+         offers=["prog-idnyc"],
+         evidence={"address": "89-11 Merrick Boulevard 1st Floor Jamaica, NY 11432", "hours": "Mon-Fri: 10:00am - 6:00pm",
+                   "offers": "Enrollment Centers"}),
+    dict(id="place-idnyc-queens-business-center", name="IDNYC Enrollment Center - Queens Business Center (DOF)",
+         org="IDNYC", org_type="idnyc", address="144-06 94th Avenue, 1st Floor, Jamaica, NY 11435", zip="11435",
+         hours="Mon-Fri 8:30am-4:30pm (closed 1pm-2pm for lunch)", open_evenings="false", open_weekends="false",
+         trust="official", source_url=IDNYC, offers=["prog-idnyc"],
+         evidence={"address": "144-06 94th Avenue 1st Floor Jamaica, NY 11435",
+                   "hours": "Mon-Fri: 8:30am – 4:30pm Closed from 1:00 – 2:00pm every day for lunch", "offers": "Enrollment Centers"}),
+    dict(id="place-hra-benefits-access-center-queens", name="HRA Benefits Access Center Queens", org="NYC Human Resources Administration",
+         org_type="benefits_office", address="32-20 Northern Blvd, 4th Floor, Queens, NY 11101", zip="11101",
+         phone="718-784-5919", hours="Mon-Fri 8:30am-5pm", open_evenings="false", open_weekends="false", trust="official",
+         source_url=HRA,
+         evidence={"address": "32-20 Northern Blvd, 4th Floor, Queens 11101", "phone": "718-784-5919",
+                   "hours": "HRA Benefits Access Center Queens Address: 32-20 Northern Blvd, 4th Floor, Queens 11101 Phone: 718-784-5919 | 718-784-6043 Fax: 917-639-2493 | HDU FAX: 917-639-1120 Monday – Friday 8:30am to 5:00pm"}),
+    dict(id="place-hra-benefits-access-center-jamaica", name="HRA Benefits Access Center Jamaica", org="NYC Human Resources Administration",
+         org_type="benefits_office", address="165-08 88th Avenue, Queens, NY 11432", zip="11432", phone="718-523-2146",
+         hours="Mon-Fri 8:30am-5pm", open_evenings="false", open_weekends="false", trust="official", source_url=HRA,
+         evidence={"address": "165-08 88th Avenue, Queens, NY 11432", "phone": "718-523-2146",
+                   "hours": "HDU Fax: 917-639-2478 Monday – Friday 8:30am to 5:00pm"}),
+    dict(id="place-hra-benefits-access-center-rockaway", name="HRA Benefits Access Center Rockaway", org="NYC Human Resources Administration",
+         org_type="benefits_office", address="219 Beach 59th Street, Queens, NY 11692", zip="11692", phone="718-637-2144",
+         hours="Mon-Fri 8:30am-5pm", open_evenings="false", open_weekends="false", trust="official", source_url=HRA,
+         evidence={"address": "219 Beach 59th Street, Queens, NY 11692", "phone": "718-637-2144",
+                   "hours": "HDU Fax: 917-639-2522 Monday – Friday 8:30am to 5:00pm"}),
+    dict(id="place-hra-queens-snap-center", name="HRA Queens SNAP Center", org="NYC Human Resources Administration",
+         org_type="benefits_office", address="32-20 Northern Blvd., 2nd Fl., LIC, NY 11101", zip="11101",
+         hours="Mon-Fri 8:30am-5pm (entrance on One Honeywell Street)", open_evenings="false", open_weekends="false",
+         trust="official", source_url=HRA_SNAP, offers=["prog-snap"],
+         evidence={"address": "Queens SNAP Center:** Address: 32-20 Northern Blvd., 2nd Fl., LIC, NY 11101 (Entrance on One Honeywell Street) Monday – Friday 8:30am to 5:00pm",
+                   "offers": "Supplemental Nutrition Assistance Program (SNAP) center locations"}),
+    dict(id="place-hra-jamaica-snap-center", name="HRA Jamaica SNAP Center", org="NYC Human Resources Administration",
+         org_type="benefits_office", address="165-08 88th Avenue, 3rd Fl., Jamaica, NY 11432", zip="11432",
+         hours="Mon-Fri 8:30am-5pm", open_evenings="false", open_weekends="false", trust="official", source_url=HRA_SNAP,
+         offers=["prog-snap"],
+         evidence={"address": "Jamaica SNAP Center:** Address: 165-08 88th Avenue, 3rd Fl., Jamaica, NY 11432 Monday - Friday 8:30am to 5:00pm",
+                   "offers": "Supplemental Nutrition Assistance Program (SNAP) center locations"}),
+    dict(id="place-family-welcome-center-queens-plaza", name="NYC Public Schools Family Welcome Center (Districts 24, 30)",
+         org="NYC Public Schools", org_type="school", address="28-11 Queens Plaza North, 3rd Floor, Long Island City, NY 11101",
+         zip="11101", phone="718-391-6270", hours="Mon-Thu 8am-5pm; Fri 8am-3pm", open_evenings="false", open_weekends="false",
+         trust="official", source_url=FWC, offers=["prog-school-enrollment"],
+         evidence={"address": "28-11 Queens Plaza North, 3rd Floor, Long Island City, NY 11101", "phone": "718-391-6270",
+                   "hours": "Offices are open Monday through Thursday from 8 a.m. to 5 p.m. and, on Friday from 8 a.m. to 3 p.m."}),
+    dict(id="place-family-welcome-center-linden-place", name="NYC Public Schools Family Welcome Center (Districts 25, 26)",
+         org="NYC Public Schools", org_type="school", address="30-48 Linden Place, 2nd Floor, Flushing, NY 11354", zip="11354",
+         phone="718-281-3538", hours="Mon-Thu 8am-5pm; Fri 8am-3pm", open_evenings="false", open_weekends="false",
+         trust="official", source_url=FWC, offers=["prog-school-enrollment"],
+         evidence={"address": "30-48 Linden Place, 2nd Floor, Flushing, NY 11354", "phone": "718-281-3538",
+                   "hours": "Offices are open Monday through Thursday from 8 a.m. to 5 p.m. and, on Friday from 8 a.m. to 3 p.m."}),
+    dict(id="place-family-welcome-center-sutphin", name="NYC Public Schools Family Welcome Center (Districts 27, 28, 29)",
+         org="NYC Public Schools", org_type="school", address="90-27 Sutphin Boulevard, 1st Floor, Jamaica, NY 11435", zip="11435",
+         phone="718-557-2786", hours="Mon-Thu 8am-5pm; Fri 8am-3pm", open_evenings="false", open_weekends="false",
+         trust="official", source_url=FWC, offers=["prog-school-enrollment"],
+         evidence={"address": "90-27 Sutphin Boulevard, 1st Floor, Jamaica, NY 11435", "phone": "718-557-2786",
+                   "hours": "Offices are open Monday through Thursday from 8 a.m. to 5 p.m. and, on Friday from 8 a.m. to 3 p.m."}),
+    # ---------------- money: check cashers (store pages) and Western Union agents (WU locator, rendered)
+    dict(id="place-payomatic-102-10-roosevelt-ave", name="PAYOMATIC (102-10 Roosevelt Ave)", org="PAYOMATIC",
+         org_type="check_casher", address="102-10 Roosevelt Ave, Corona, NY 11368", zip="11368", phone="(516) 496-1970",
+         hours="Sun-Tue 7am-11pm; Wed-Fri 7am-12am; Sat 7am-11pm", open_evenings="true", open_weekends="true",
+         trust="unverified", source_url=PAYO,
+         evidence={"address": "102-10 Roosevelt Ave, Corona, NY, 11368", "phone": "+15164961970",
+                   "hours": "Sunday7:00 AM - 11:00 PM * Monday7:00 AM - 11:00 PM * Tuesday7:00 AM - 11:00 PM * Wednesday7:00 AM - 12:00 AM * Thursday7:00 AM - 12:00 AM * Friday7:00 AM - 12:00 AM * Saturday7:00 AM - 11:00 PM"}),
+    dict(id="place-pls-38-10-junction-blvd", name="PLS Check Cashers (38-10 Junction Blvd)", org="PLS", org_type="check_casher",
+         address="38-10 Junction Blvd., Corona, NY 11368", zip="11368", phone="718-898-0100", hours="24/7",
+         open_evenings="true", open_weekends="true", trust="unverified", source_url=PLS_J,
+         evidence={"address": "38-10 Junction Blvd., Corona, New York 11368", "phone": "718-898-0100", "hours": "Open 24/7"}),
+    dict(id="place-pls-105-22-northern-blvd", name="PLS Check Cashers (105-22 Northern Blvd)", org="PLS", org_type="check_casher",
+         address="105-22 Northern Blvd., Corona, NY 11368", zip="11368", phone="718-458-3344", hours="24/7",
+         open_evenings="true", open_weekends="true", trust="unverified", source_url=PLS_N,
+         evidence={"address": "105-22 Northern Blvd., Corona, New York 11368", "phone": "718-458-3344", "hours": "Open 24/7"}),
+    dict(id="place-payomatic-412-108th-st", name="PAY-O-MATIC #412", org="PAYOMATIC", org_type="check_casher",
+         address="5305 108th St, Corona, NY 11368", zip="11368", phone="718-760-3553", trust="unverified", source_url=WU,
+         evidence={"name": "PAY-O-MATIC #412", "address": "5305 108th St, Corona NY , 11368-3205", "phone": "718-760-3553"}),
+    dict(id="place-atn-check-cashing-5", name="ATN Check Cashing #5", org="ATN Check Cashing", org_type="check_casher",
+         address="9703 57th Ave, Corona, NY 11368", zip="11368", phone="718-699-0062", trust="unverified", source_url=WU,
+         evidence={"name": "ATN CHECK CASHING #5", "address": "9703 57th Ave, Corona NY , 11368-3540", "phone": "718-699-0062"}),
+    dict(id="place-atn-check-cashing-7", name="ATN Check Cashing #7", org="ATN Check Cashing", org_type="check_casher",
+         address="9472 Corona Ave, Elmhurst, NY 11373", zip="11373", phone="718-271-2824", trust="unverified", source_url=WU,
+         evidence={"name": "ATN CHECK CASHING #7", "address": "9472 Corona Ave, Elmhurst NY , 11373-2831", "phone": "718-271-2824"}),
+    dict(id="place-travel-multiservices-express", name="Travel Multiservices Express (Western Union agent)",
+         org="Travel Multiservices Express I", org_type="remittance", address="9220 Corona Suite A, Corona, NY 11368",
+         zip="11368", phone="718-592-7460", trust="unverified", source_url=WU,
+         evidence={"name": "TRAVEL MULTISERVICES EXPRESS I", "address": "9220 Corona Suite A, Corona NY , 11368", "phone": "718-592-7460"}),
+    dict(id="place-ginbri-express", name="Ginbri Express (Western Union agent)", org="Ginbri Express LLC", org_type="remittance",
+         address="96-02 37th Ave, Queens, NY 11368", zip="11368", phone="347-888-6047", trust="unverified", source_url=WU,
+         evidence={"name": "GINBRI EXPRESS LLC", "address": "96-02 37th Ave, Queens NY , 11368", "phone": "347-888-6047"}),
+    dict(id="place-ecuaprinting", name="Ecuaprinting (Western Union agent)", org="Ecuaprinting Inc", org_type="remittance",
+         address="10220 37th Ave Rear Store, Corona, NY 11368", zip="11368", phone="347-258-2888", trust="unverified",
+         source_url=WU,
+         evidence={"name": "ECUAPRINTING INC", "address": "10220 37th Ave Rear Store, Corona NY , 11368", "phone": "347-258-2888"}),
+    # ---------------- food: provider page (City layer lists this program as Inactive -> review)
+    dict(id="place-new-life-cdc-food-pantry", name="New Life Food Pantry (New Life CDC)", org="New Life Community Development Corporation",
+         org_type="pantry", address="82-10 Queens Blvd, Elmhurst, NY 11373", zip="11373",
+         hours="Tue 5pm-7pm; Sat 10am-12pm", open_evenings="true", open_weekends="true", trust="unverified", source_url=NEWLIFE,
+         hold=True,
+         review="HELD from live import. Provider page lists hours; the City's Food Help NYC layer lists this program as Inactive. Address is from the City record (provider page gives none). Confirm it is running.",
+         evidence={"hours": "Tuesdays, 5 pm - 7 pm / Saturdays, 10 am - 12 pm", "name": "New Life Food Pantry"}),
+    # ---------------- consulates (each country's own government site)
+    dict(id="place-consulate-mexico-new-york", name="Consulado General de México en Nueva York", org="Government of Mexico",
+         org_type="consulate", address="27 East 39th Street, New York, NY 10016", zip="10016", phone="(212) 217 6400",
+         hours="Mon-Fri 8am-1pm; Mon-Fri 3pm-7pm (with appointment)", open_evenings="true", open_weekends="false",
+         trust="official", source_url=MX,
+         evidence={"address": "27 East 39th Street New York, NY 10016"}, evidence_more={MX_HOURS: {
+             "phone": "(212) 217 6400",
+             "hours": "lunes a viernes de 8:00 a.m. la 1:00 p.m. y de 3:00 p.m. a 7:00 p.m."}}),
+    dict(id="place-consulate-dominican-republic-new-york", name="Consulado General de la República Dominicana en Nueva York",
+         org="Government of the Dominican Republic", org_type="consulate", address="1501 Broadway, Suite 410, New York, NY 10036",
+         zip="10036", phone="(212) 768-2480", hours="Mon-Fri 8am-4pm", open_evenings="false", open_weekends="false",
+         trust="official", source_url=DR,
+         evidence={"address": "1501 Broadway, Suite 410 New York, NY 10036", "phone": "(212) 768-2480",
+                   "hours": "Lunes to viernes 08:00 am a 4:00 pm"}),
+    dict(id="place-consulate-colombia-new-york", name="Consulado General Central de Colombia en Nueva York",
+         org="Government of Colombia", org_type="consulate", address="10 East 46th Street, New York, NY 10017", zip="10017",
+         hours="Mon-Fri 8am-2pm", open_evenings="false", open_weekends="false", trust="official", source_url=CO,
+         evidence={"address": "10East 46th Street New York, NY, 10017", "hours": "Lunes a viernes de 8:00 a.m. a 2:00 p.m."}),
+    dict(id="place-consulate-ecuador-new-york", name="Consulado General del Ecuador en Nueva York", org="Government of Ecuador",
+         org_type="consulate", address="800 Second Ave, 2nd Floor, New York, NY 10017", zip="10017", phone="(212) 808 0170",
+         trust="official", source_url=EC,
+         review="Source gives 8:30-14:30 as the window for phone/email contact, not walk-in hours, so hours are blank.",
+         evidence={"address": "800 Second Ave, 2nd Floor New York, NY, 10017", "phone": "(212) 808 0170"}),
+    dict(id="place-consulate-el-salvador-new-york", name="Consulado General de El Salvador en Nueva York",
+         org="Government of El Salvador", org_type="consulate", address="14 W 37th st, New York, NY", zip="",
+         trust="official", source_url=SV,
+         review="Source states the street address without a ZIP, so ZIP, borough and coordinates are blank.",
+         evidence={"address": "14 W 37th st, New York, NY"}),
+]
+
+# Demo requirements the available sources could not confirm (reported in out/phase3_review.md)
+UNCONFIRMED = [
+    "Spanish spoken at any demo-zip food pantry: no City or provider source states the language; ask during the manual review call.",
+    "What to bring to a food pantry: only New Life CDC's page says 'ID not required' (a place fact; the contract has no place-level 'bring'), so no pantry program 'bring' text was added.",
+    "Fees or current availability at any place: not stated by the sources; left blank.",
+    "Full weekly hours for Western Union agent locations: the locator shows only today's closing time, so hours are blank.",
+    "Hours at the two NYS-listed WIC sites in Corona (PHS 103-24 Roosevelt Ave, Urban Health Plan 104-01 Corona Ave): the NYS list gives address and phone only.",
+    "Consulates of Guatemala and Honduras: Guatemala's site blocked our requests, and Honduras's page lists its UN mission, not a consulate. Not added.",
+    "IDNYC accepted for a bank account: needs a named bank's own rule before any 'unlocks' link; none sourced yet.",
+    "A Family Welcome Center serving Corona specifically: the source lists centers by district number; it does not say which district Corona is in.",
+]

@@ -1,0 +1,55 @@
+{
+ "query": "NYC community boards role advisory charter land use city services complaints",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Community_boards_of_New_York_City",
+   "title": "Community boards of New York City - Wikipedia",
+   "content": "In other projects\n\n Wikidata item\n\nAppearance\n\nFrom Wikipedia, the free encyclopedia\n\nStructures in New York City's government\n\n\"). There are currently 59 community districts: twelve in the Bronx, eighteen in Brooklyn, twelve in Manhattan, fourteen in Queens, and three in Staten Island.\n\nThey advise on land use and zoning, participate in the city budget process, and address service delivery in their district. Regarding land use they are only advisory and mostly serve as mobilizing institutions for communities opposed to specific projects. The City Charter also allows boards to submit their own plans for the development, growth, and improvement of their communities. [...] ## Responsibilities\n\n[edit]\n\nCommunity Boards are defined as public bodies and governmental agencies under law,: 28 however they act in an advisory capacity, wielding no official authority to make or enforce laws.\n\n### Land use and zoning\n\n[edit]\n\nUnder the City Charter's Uniform Land Use Review Procedure (ULURP), after the Department of City Planning certifies as complete an application respecting the use, development, or improvement of real property, affected community boards (along with borough boards) may hold public hearings and submit recommendations for consideration to the City Planning Commission before its decision. Such applications include those that involve city land or facilities, changes to zoning, and the use of public street and sidewalks. [...] The 1975 revision of the New York City (NYC) Charter set the number of Community Districts/Boards to 59, established the position of the district manager for the community districts, and created the Uniform Land Use Review Procedure (ULURP) (pronounced \"you-lurp\") which gave the community boards the authority to review land use proposals such as zoning actions, and special permits.\n\nThe 1990 revision of the NYC Charter, in section 197-a, granted community boards the authority to prepare plans for development within their district, and submit them to the City Planning Commission and the city council for approval. Plans submitted under this rule are known as \"197-a\" plans.\n\nThe 2018 NYC Charter Revision Commission proposed term limits for community board members.",
+   "score": 0.81418616,
+   "raw_content": null,
+   "id": "97034b-00"
+  },
+  {
+   "url": "https://www.openplans.org/community-boards",
+   "title": "Community Boards — Open Plans",
+   "content": "get involved\n\n### What are community boards?\n\nCommunity Boards are New York City Charter-mandated advisory boards made up of community members. They make important recommendations about land use, zoning, and other local issues. There are 59 Community Boards in New York City’s five boroughs with up to 50 members each; applications are open yearly, and new members are appointed to the Board each year.\n\nTo find your community board, click here.\n\n### Why are they important?",
+   "score": 0.79732054,
+   "raw_content": null,
+   "id": "1037e1-01"
+  },
+  {
+   "url": "https://www.beta.nyc/publications/data-design-challenges-and-opportunities-for-nyc-community-boards",
+   "title": "Data Design Challenges and Opportunities for NYC Community Boards - BetaNYC",
+   "content": "Today, NYC’s 59 community boards each represent a community district (or a subdivision of one of the City’s five boroughs). Each board is made up of 50 volunteer members that live, work, or have some significant interest within the district. Community board members meet several nights a month to deliberate around issues in their community and produce advisory resolutions to city and state departments and offices. As the most local city government entity, community boards aim to balance neighborhood concerns against the push for more city development. They are specifically tasked with reviewing and producing recommendations on whether to approve, amend, or reject land use and zoning applications, as well as various license applications (including liquor licenses and sidewalk cafe [...] # Background\n\n## About NYC Community Boards\n\nNew York City community boards play an important intermediary role between city government and local communities. Community boards have their origins in the 1950s at a time when there had been calls to incorporate more citizen input into city government operations.(#_ftn1) Then Manhattan Borough President Robert Wagner established 12 community planning councils (composed of 15-20 community members) to advise the Borough President’s Office on issues around planning and budgeting. With a NYC Charter Revision in 1963, community planning councils were established in all five boroughs, and with a Charter Revision in 1975, they were given formal responsibilities to review land use proposals and to participate in the city’s budgeting process. [...] (#_ftnref) A heat map displays the saturation of complaints in a given location by shading areas with many complaints darker than areas with fewer complaints, whereas a point map displays a single point for every complaint made at a location.\n\n(#_ftnref) The user journey model mapped here is adapted from a template provided by the NYC Service Design Studio. See: \n\n(#_ftnref) See: \n\n(#_ftnref) ULURP is a process by which NYC land use and zoning changes are publicly reviewed. After an application for a zoning change (such as an upzoning) is certified by DCP, Community Boards have 60 days to hold a public hearing, review the proposal, and develop an advisory resolution to be sent to the City Planning Commission (CPC), the applicant, and the Borough President.",
+   "score": 0.7680558,
+   "raw_content": null,
+   "id": "881f87-02"
+  },
+  {
+   "url": "https://www.nyccfb.info/PDF/CharterRevisionCommission_Abstract_Question3.pdf",
+   "title": "7 Question #3: Community Boards",
+   "content": "7 Question #3: Community Boards The City’s community boards are advisory bodies with a formal role designated by the City Charter in various matters, including land use. This Charter amendment would: (a) impose term limits of a maximum of four consecutive full two-year terms for community board members with certain exceptions for the initial transition to the new term limits system; (b) require Borough Presidents to seek out persons of diverse backgrounds in making appointments to community boards and set forth application and reporting mandates related to such appointments; and (c) require the proposed Civic Engagement Commission to provide resources, assistance, and training related to land use and other matters to community boards. Term Limits. Community board members are appointed by",
+   "score": 0.756376,
+   "raw_content": null,
+   "id": "92f035-03"
+  },
+  {
+   "url": "https://cb14brooklyn.com/about/future-of-community-boards-report",
+   "title": "Future of Community Boards Report | Brooklyn Community Board 14",
+   "content": "New York City’s 59 community boards serve a vital function as connectors between residents and City government services. The paid staff and 50+ volunteer members of each board dedicate time and energy to serving their communities every day. Each board currently represents approximately 50,000 to more than 200,000 people, which on the higher end is a population larger than that of Birmingham, Alabama or Akron, Ohio. We inform the public about government programs and proposals, help constituents resolve issues with City agencies, advise on local land use proposals and City budget allocations, liaise with local elected officials, and hold monthly meetings and public hearings so stakeholders’ voices can be heard. And those are just the most common responsibilities.",
+   "score": 0.75421005,
+   "raw_content": null,
+   "id": "80b9e1-04"
+  }
+ ],
+ "response_time": 3.24,
+ "request_id": "e348fe00-c46d-43f5-9e0e-a2c97c523309",
+ "_request": {
+  "query": "NYC community boards role advisory charter land use city services complaints",
+  "max_results": 5,
+  "search_depth": "advanced"
+ }
+}

@@ -1,0 +1,37 @@
+from_id,to_id,type,reason
+prog-idnyc,prog-snap,unlocks,IDNYC can be used as ID when applying for SNAP.
+prog-idnyc,prog-cash-assistance,unlocks,IDNYC can be used as ID when applying for Cash Assistance.
+prog-idnyc,prog-section-8,unlocks,IDNYC can be used as ID when applying for Section 8.
+prog-idnyc,prog-library-card,unlocks,An IDNYC card works at any public library in New York City.
+prog-idnyc,prog-nycsa,unlocks,IDNYC is one of the photo IDs accepted to register for a NYC Schools Account at school.
+prog-nycsa,prog-school-enrollment,requires,"NYCSA registration needs your child's NYC student ID number, so the child must be enrolled first."
+prog-school-enrollment,prog-sth-transportation,pairs_with,Students in temporary housing can enroll right away and have a right to transportation to school.
+prog-cash-assistance,prog-snap,pairs_with,"One ACCESS HRA application covers Cash Assistance, SNAP and Medicaid."
+prog-cash-assistance,prog-medicaid,pairs_with,"One ACCESS HRA application covers Cash Assistance, SNAP and Medicaid."
+prog-snap,prog-wic,unlocks,Being in SNAP counts toward WIC eligibility.
+prog-medicaid,prog-wic,unlocks,Being in Medicaid counts toward WIC eligibility.
+prog-essential-plan,prog-wic,unlocks,Being in the Essential Plan counts toward WIC eligibility.
+prog-snap,prog-summer-ebt,unlocks,Children enrolled in SNAP are approved for Summer EBT automatically.
+prog-medicaid,prog-summer-ebt,unlocks,Children enrolled in Medicaid are approved for Summer EBT automatically.
+prog-snap,prog-head-start,unlocks,Families receiving SNAP can qualify for Head Start or Early Head Start.
+prog-child-health-plus,prog-medicaid,refers_to,"Child Health Plus is for children who don't qualify for Medicaid, so check Medicaid too."
+prog-essential-plan,prog-medicaid,refers_to,The Essential Plan is for people not eligible for Medicaid or Child Health Plus.
+prog-nurse-family-partnership,prog-wic,pairs_with,Nurse-Family Partnership asks whether you are or may be eligible for Medicaid or WIC.
+prog-eitc,prog-free-tax-prep,refers_to,Get help claiming the EITC through NYC Free Tax Prep.
+prog-child-tax-credit,prog-free-tax-prep,refers_to,Get help claiming the Child Tax Credit through NYC Free Tax Prep.
+prog-tandas,prog-lending-circles,pairs_with,Lending Circles turn the community practice of lending in a group into a credit-building loan.
+prog-idnyc-bank-account,prog-financial-empowerment-centers,refers_to,The City points people opening a bank account to its Financial Empowerment Centers.
+place-queens-public-library-corona,prog-library-card,offers,"A public library in NYC, where an IDNYC card can be used."
+place-nyc-hh-elmhurst-hospital,prog-nyc-care,offers,NYC Care services are at NYC Health + Hospitals locations.
+place-nyc-hh-gotham-jackson-heights,prog-nyc-care,offers,NYC Care services are at NYC Health + Hospitals locations.
+place-nyc-hh-gotham-womens-health-corona,prog-nyc-care,offers,NYC Care services are at NYC Health + Hospitals locations.
+place-phs-neighborhood-wic-corona,prog-wic,offers,Listed as a WIC site by its official source.
+place-urban-health-plan-wic-corona,prog-wic,offers,Listed as a WIC site by its official source.
+place-nyc-hh-elmhurst-wic,prog-wic,offers,Listed as a WIC site by its official source.
+place-idnyc-queens-public-library-central,prog-idnyc,offers,Listed by the City as an IDNYC enrollment center.
+place-idnyc-queens-business-center,prog-idnyc,offers,Listed by the City as an IDNYC enrollment center.
+place-hra-queens-snap-center,prog-snap,offers,Listed by HRA as a SNAP center.
+place-hra-jamaica-snap-center,prog-snap,offers,Listed by HRA as a SNAP center.
+place-family-welcome-center-queens-plaza,prog-school-enrollment,offers,NYC Public Schools Family Welcome Center that helps families enroll students.
+place-family-welcome-center-linden-place,prog-school-enrollment,offers,NYC Public Schools Family Welcome Center that helps families enroll students.
+place-family-welcome-center-sutphin,prog-school-enrollment,offers,NYC Public Schools Family Welcome Center that helps families enroll students.

@@ -1,0 +1,79 @@
+{
+ "query": "consulate general New York address Mexico Ecuador Dominican Republic Colombia Guatemala Honduras El Salvador",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://www.waze.com/live-map/directions/consulate-general-of-mexico-in-new-york-e-39th-st-27-manhattan?to=place.w.187433368.1874464747.3178390",
+   "title": "Consulate General of Mexico in New York",
+   "content": "Consulate General of Mexico in New York 27 E 39th St, Manhattan, New York, United States Open in Waze (212) 217-6400 Onsite services Air conditioning",
+   "score": 0.8252664,
+   "raw_content": null,
+   "id": "b7fb9f-00"
+  },
+  {
+   "url": "https://embassies.net/ecuador-in-united-states/new-york",
+   "title": "Ecuador Consulate General in New York, United States",
+   "content": "Consulate General Information. Address: No. 588, Middle Section Of Tianfu Avenue New York, Ny 10017 United States. Phone:",
+   "score": 0.81665546,
+   "raw_content": null,
+   "id": "c363df-01"
+  },
+  {
+   "url": "https://www.yelp.com/biz/consulado-general-de-mexico-en-nueva-york-new-york",
+   "title": "CONSULADO GENERAL DE MEXICO EN NUEVA YORK",
+   "content": "27 E 39th St New York, NY 10016 Wingate Directions (212) 217-6400 Call Now Visit Website http://consulmex.sre.gob.mx/nuevayork/index.php/en/home",
+   "score": 0.81025416,
+   "raw_content": null,
+   "id": "39a555-02"
+  },
+  {
+   "url": "https://migrantinfo.iom.int/en/node/2998",
+   "title": "Consulate General of Mexico in New York, U.S.A. - MigrantInfo",
+   "content": "Address. 27 East 39th Street, New York, NY 10016, USA. Location. Locate. To navigate the map with touch gestures double-tap and hold your finger on the map",
+   "score": 0.79542017,
+   "raw_content": null,
+   "id": "cdd3b1-03"
+  },
+  {
+   "url": "https://www.milpafamilia.org/consulates",
+   "title": "Consulates | Milpa",
+   "content": "milpa real blue .png\n\nHome\n\nTake Action\n\nCampaigns\n\nRadio MILPA\n\nResources\n\nContact\n\nRadio MILPA\n\n# Consulates\n\nMexico\n\nMexican Consulate of Philadelphia\n\n1650 Arch St. 2nd Fl.\n\nEntrada por la calle 17.\n\nPhiladelphia, PA 19103\n\nT: (215) 266-3740\n\nW: \n\n​\n\nGuatemala\n\nGeneral Consulate of Guatemala in Philadelphia\n\n417 N 8th St #201, Philadelphia, PA 19123 \n\nT: (267) 322-2044 \n\nE: registrocivilph@minex.gob.gt\n\nW: \n\nEl Salvador\n\nConsulate General of El Salvador \n\n926 Philadelphia Ave, Silver Spring, MD 20910\n\nT: 1-(888) 301-1130\n\nW: \n\nHonduras\n\nConsulate General of Honduras in Washington D.C. \n\n120 W 23rd St, New York, NY 10011\n\nT: (646) 370-3608\n\nW: \n\n​\n\nDominican Republic\n\nConsulate of the Dominican Republic in New York\n\n1501 Broadway Floor 4r, New York, NY 10036\n\nT: (212) 768-2480 [...] T: (212) 768-2480\n\nE: info@consuladord-ny.org\n\nW: \n\n​\n\nPeru\n\nGeneral Consulate of Peru in New Jersey\n\n100 Hamilton Plaza #1220, Paterson, NJ 07505\n\nT: (973) 278-3324\n\nW: \n\n​\n\nEcuador\n\nConsulate of Ecuador in Washington D.C.\n\n2535 15th St. NW Washington, DC 20009\n\nT: (202) 234-7200\n\nW: embassy@ecuador.org\n\nMILPA\n\nEmail: info@milpafamilia.org\n\nTikTok\nFacebook\nTwitter\nInstagram\nYoutube\n\nQuick Links\n\nAbout\n\nCampaigns\n\nResources\n\nContact\n\nPrivacy Policy​\n\n#### Follow us on\n\n© 2023 by MILPA.   |  Terms of Use  |  Privacy Policy",
+   "score": 0.7946564,
+   "raw_content": null,
+   "id": "03a1bd-04"
+  },
+  {
+   "url": "https://maps.apple.com/place?place-id=I323465660AD2F58E",
+   "title": "Consulado General de México en Nueva York",
+   "content": "Phone +1 (212) 217-6400 Address 27 E 39th St New York, NY 10016 United States",
+   "score": 0.780947,
+   "raw_content": null,
+   "id": "9aa4c0-05"
+  },
+  {
+   "url": "https://cnyor.cancilleria.gob.ar/en/content/diplomatic-no-visa",
+   "title": "Diplomatic - No Visa",
+   "content": "Dominican Republic, Ecuador, Egypt, El Salvador, Contact Address: 12 West 56 Street - New York Postal code: 10019 Tel: 1 212 603 0400 E-mail: cnyor@mrecic.gov.",
+   "score": 0.76002824,
+   "raw_content": null,
+   "id": "f87553-06"
+  },
+  {
+   "url": "https://www.facebook.com/consulmexnuevayork",
+   "title": "Consulado General de México en Nueva York",
+   "content": "Don Paco (167 Post Ave., Westbury, NY 11590) (90 Beaufort Pl., New Rochelle, NY 10801)",
+   "score": 0.7507177,
+   "raw_content": null,
+   "id": "c551ed-07"
+  }
+ ],
+ "response_time": 4.81,
+ "request_id": "41527e9d-495b-494b-bcc8-41fba227749a",
+ "_request": {
+  "query": "consulate general New York address Mexico Ecuador Dominican Republic Colombia Guatemala Honduras El Salvador",
+  "max_results": 8,
+  "search_depth": "advanced"
+ }
+}

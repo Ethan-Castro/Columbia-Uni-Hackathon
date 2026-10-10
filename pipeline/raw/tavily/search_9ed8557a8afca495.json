@@ -1,0 +1,38 @@
+{
+ "query": "tanda rotating savings",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://www.nyc.gov/assets/dca/downloads/pdf/partners/Research-ImmigrantFinancialStudy-FullReport.pdf",
+   "title": "[PDF] Immigrant Financial Services Study - NYC.gov",
+   "content": "“If my salary were paid by check, it would be useful.” It can help develop a credit history, but “I don’t need credit.” “There are no advantages.” Informal Savings Despite the low level of formal savings in the two Hispanic groups, informal savings are common. It is especially important to note that 74 percent of unbanked Mexicans and 69 percent of unbanked Ecuadorians reported that they have some savings, albeit small amounts (more than half of these sav-ings are under $1,500). A common tool among Mexican immi-grants in New York City for managing informal savings is “tandas” or rotating savings groups. One Mexican woman who works in the care industry noted that she is part of a 50-person group administered by a man who employs some of the people in the group. She saves $300 per week. The [...] Total Savings Banked Unbanked 0 11.0 29.3 $1–500 16.0 35.2 Mexican Ecuadorian Chinese Overall SAVE (short term) Have short-term investments 51.7 61.0 56.2 56.2 U.S. bank account 42.8 54.7 94.6 68.2 Jewelry 29.9 26.5 19.6 25.2 Vehicle 13.3 26.4 18.3 19.2 Personal loan 13.5 13.0 25.4 17.6 26 Post-survey focus group interviews with Chinese immigrants pointed to informal savings as a complement to, rather than replacement of, formal savings. The Trust Bank model that Chinese immigrants reported using is similar to the Mexican tanda or rotating savings groups. However, while the Mexican and other Hispanic communities seem to perceive this type of structure as a savings vehicle, where participants put away money weekly to then withdraw a larger amount dur-ing their turn, the Chinese Trust Bank [...] Fringe Service Providers: Businesses that do not offer conventional checking or savings accounts and often charge high fees and interest rates for services. Examples include check cashers and payday lenders.\nTanda: A credit association comprised of a core group of participants who make regular contributions to a fund, which is then distributed back to participants according to a set rotation.1 Trust Bank: A mutual savings and loan club that collects and pays interest. Individuals borrowing from the Trust Bank pay an interest rate to the others, who in turn gain from their investment.",
+   "score": 0.6356076,
+   "raw_content": null,
+   "id": "ee9566-00"
+  },
+  {
+   "url": "https://www.federalreserve.gov/boarddocs/rptcongress/annual07/sec1/c2.htm",
+   "title": "FRB: Annual Report 2007, Recent Economic and Financial Developments",
+   "content": "Subprime ARMs account for about 7 percent of all first-lien mortgages outstanding. Delinquency rates on subprime ARMs began to increase in 2006, and by December 2007, more than one-fifth of these loans were seriously delinquent (that is, ninety days or more delinquent or in foreclosure). Moreover, an increasing fraction of subprime ARMs in the past few years have become seriously delinquent soon after they were originated and often well before the initial rate was due to reset.5 For subprime ARMs originated in 2006, about 10 percent had defaulted in the first twelve months, more than double the fraction for mortgages originated in earlier years. Furthermore, the path of the default rate for subprime ARMs originated in 2007 has run even higher. For subprime mortgages with fixed interest [...] The downturn in housing activity followed a multi-year period of soaring home sales and construction and rapidly escalating home prices. The earlier strength in housing reflected a number of factors. One was a low level of global real interest rates. Another was that many homebuyers apparently expected that home prices would continue to rise briskly into the indefinite future, thereby adding a speculative element to the market. In addition, toward the end of the boom, housing demand was supported by an upsurge in nonprime mortgage lending--in many cases fed by lax lending standards.1 By the middle of the decade, house prices had reached very high levels in many parts of the United States, and housing was becoming progressively less affordable. Declining affordability and waning optimism [...] Although the U.S. economy had generally performed well in the first half of 2007, the economic landscape was subsequently reshaped by the emergence of substantial strains in financial markets in the United States and abroad, the intensifying downturn in the housing market, and higher prices for crude oil and some other commodities. Rising delinquencies on subprime mortgages led to large losses on related structured credit products, sparking concerns about the structures of other financial products and reducing investors' appetite for risk. The resulting dislocations generated unanticipated pressures on bank balance sheets, and those pressures combined with uncertainty about the size and distribution of credit losses to impair short-term funding markets. Consequently, the Federal Reserve",
+   "score": 0.016254053,
+   "raw_content": null,
+   "id": "665fc1-01"
+  }
+ ],
+ "response_time": 3.59,
+ "request_id": "e8cf03c5-ef26-4535-90ad-d5555c930a2c",
+ "_request": {
+  "query": "tanda rotating savings",
+  "max_results": 6,
+  "search_depth": "advanced",
+  "include_domains": [
+   "consumerfinance.gov",
+   "fdic.gov",
+   "nyc.gov",
+   "ny.gov",
+   "federalreserve.gov"
+  ]
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "query": "Consulado General de Mexico en Nueva York horario direccion",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://consulmex.sre.gob.mx/nuevayork/index.php/espanol/test-nueva-plantilla-1/prueba-nuevo-articulo",
+   "title": "Consulado General de México en Nueva York",
+   "content": "Ubicación Ubicación 27 East 39th Street New York, NY 10016 Estados Unidos. General (212) 217 6400 prensany@sre.gob.mx",
+   "score": 0.86713725,
+   "raw_content": null,
+   "id": "841354-00"
+  },
+  {
+   "url": "https://portales.sre.gob.mx/directorio/consulados-de-mexico-en-el-exterior/nueva-york",
+   "title": "Nueva York - Portales SRE",
+   "content": "CONSULADO GENERAL DE MÉXICO … 39TH. STREET, NUEVA YORK N.Y., 10016 E.U.A. TELEFONOS: (212) 217-6400 (917) 459 2143 FAX: CORREO: connyork@sre.",
+   "score": 0.8536326,
+   "raw_content": null,
+   "id": "5cc620-01"
+  },
+  {
+   "url": "https://consulmex.sre.gob.mx/nuevayork/index.php?option=com_content&view=article&id=1501",
+   "title": "Consulmex Nueva York - Consulado De México",
+   "content": "General de México en Nueva York, ... Dirección en México 📞 Para más información, comunícate al: 212 217 6412 a: comunuy2@sre.gob.mx 🌐",
+   "score": 0.8512743,
+   "raw_content": null,
+   "id": "e698b4-02"
+  },
+  {
+   "url": "https://consulmex.sre.gob.mx/nuevayork/index.php/en/component/content/article/171",
+   "title": "Horario de Atención al Público - Consulmex Nueva York",
+   "content": "Si ya tienes una cita, el horario de atención es de lunes a viernes de 8:00 a.m. la 1:00 p.m. y de 3:00 p.m. a 7:00 p.m. (última cita 6:45 p.m.).",
+   "score": 0.8245895,
+   "raw_content": null,
+   "id": "01480e-03"
+  },
+  {
+   "url": "https://consulmex.sre.gob.mx/nuevayork/index.php/en/component/content/article/164",
+   "title": "Consulate General of Mexico in New York",
+   "content": "Consulate General of Mexico in New York, ... de Nueva York y Nueva ・ +1 (424) 309 0009 ・ la dirección juridiconuy2@sre.gob.mx,",
+   "score": 0.82220376,
+   "raw_content": null,
+   "id": "8be91a-04"
+  },
+  {
+   "url": "https://consulmex.sre.gob.mx/nuevayork/index.php/en/test-nueva-plantilla-1/servicios-a-mexicanos",
+   "title": "SERVICIOS A MEXICANOS - Consulado De México",
+   "content": "En caso de emergencia comprobada, puede acudir sin cita al Consulado General de lunes a viernes, entre las 8:00 y 13:00 o de 15:00 a 18:45 p.m.",
+   "score": 0.6455898,
+   "raw_content": null,
+   "id": "db4b4c-05"
+  }
+ ],
+ "response_time": 2.28,
+ "request_id": "447a2817-7820-4eac-b898-00f75f988a57",
+ "_request": {
+  "query": "Consulado General de Mexico en Nueva York horario direccion",
+  "max_results": 6,
+  "search_depth": "advanced",
+  "include_domains": [
+   "sre.gob.mx",
+   "consulmex.sre.gob.mx"
+  ]
+ }
+}

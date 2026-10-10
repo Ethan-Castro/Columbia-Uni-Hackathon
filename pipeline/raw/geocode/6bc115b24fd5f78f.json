@@ -1,0 +1,75 @@
+{
+ "query": "34-33 Junction Boulevard, Jackson Heights, NY 11372",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "34-33 Junction Boulevard, Jackson Heights, NY 11372"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59704319"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36081",
+        "CENTLAT": "+40.6545736",
+        "AREAWATER": 188444380,
+        "STATE": "36",
+        "BASENAME": "Queens",
+        "OID": "27590307869814",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.6546581",
+        "NAME": "Queens County",
+        "OBJECTID": 440,
+        "CENTLON": "-073.8408699",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974139",
+        "AREALAND": 281594058,
+        "INTPTLON": "-073.8412089",
+        "MTFCC": "G4020",
+        "COUNTY": "081"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.872234502363,
+      "y": 40.754316132447
+     },
+     "addressComponents": {
+      "zip": "11372",
+      "streetName": "JUNCTION",
+      "preType": "",
+      "city": "JACKSON HEIGHTS",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "34-01",
+      "state": "NY",
+      "suffixType": "BLVD",
+      "toAddress": "34-45",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "34-33 JUNCTION BLVD, JACKSON HEIGHTS, NY, 11372"
+    }
+   ]
+  }
+ }
+}

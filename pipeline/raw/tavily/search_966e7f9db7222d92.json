@@ -1,0 +1,34 @@
+{
+ "query": "Western Union agent location Corona NY 11368 Roosevelt Ave",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://location.westernunion.com/global-services/find-locations?WUCountry=US&WULanguage=en",
+   "title": "Western Union in the United States | Find a Location Near You",
+   "content": "svg-icon-logo-bigsvg-icon-logo-bigsvg-icon-logo-smallsvg-icon-logo-small\n\nSend money\n\nPick up cash\n\nTrack a transfer\n\nFind locations\n\nLog in\n\nRegister\n\nLanguage\n\nEnglish\n\nSpanish\n\nHaitian Creole\n\nChinese\n\nFrench\n\nVietnamese\n\nEN\n\nEnglish\n\nSpanish\n\nHaitian Creole\n\nChinese\n\nFrench\n\nVietnamese\n\nRegister\n\nLog in\n\nsvg-icon-logo-bigsvg-icon-logo-bigsvg-icon-logo-smallsvg-icon-logo-small\n\nX\n\n Home\n About us\n Contact us\n Fraud awareness\n Online Privacy Statement\n Terms & Conditions\n\n Refer a friend\n Blog\n Help\n Careers\n News\n Become an agent\n Payment solutions\n State licensing\n WU Foundation\n Report a security bug\n Investor relations\n Law enforcement subpoena information\n Cookie Information\n How to find your WU tracking number\n Send money with confidence [...] © 2026 Western Union Holdings, Inc. All Rights Reserved\n\n© 2026 Western Union Holdings, Inc. All Rights Reserved\n\nsvg-icon-logo-textsvg-icon-logo-text",
+   "score": 0.24772386,
+   "raw_content": null,
+   "id": "79d0f6-00"
+  },
+  {
+   "url": "https://location.westernunion.com",
+   "title": "WU - Find a Location Near You in the US - Western Union",
+   "content": "svg-icon-logo-bigsvg-icon-logo-bigsvg-icon-logo-smallsvg-icon-logo-small\n\nSend money\n\nTrack a transfer\n\nFind locations\n\nLanguage\n\nEnglish\n\nSpanish\n\nEN\n\nEnglish\n\nSpanish\n\nsvg-icon-logo-bigsvg-icon-logo-bigsvg-icon-logo-smallsvg-icon-logo-small\n\nX\n\n Home\n About us\n Contact us\n Fraud awareness\n Online Privacy Statement\n Terms & Conditions\n\n Blog\n Careers\n WU Foundation\n Report a security bug\n Investor relations\n Intellectual Property\n Cookie Information\n\n© 2026 Western Union Holdings, Inc. All Rights Reserved\n\n© 2026 Western Union Holdings, Inc. All Rights Reserved\n\nsvg-icon-logo-textsvg-icon-logo-text",
+   "score": 0.21423115,
+   "raw_content": null,
+   "id": "fcc0ef-01"
+  }
+ ],
+ "response_time": 1.72,
+ "request_id": "a03f3012-0054-4510-afce-a84b9aba0ad1",
+ "_request": {
+  "query": "Western Union agent location Corona NY 11368 Roosevelt Ave",
+  "max_results": 6,
+  "search_depth": "advanced",
+  "include_domains": [
+   "location.westernunion.com"
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "query": "IDNYC open a bank account credit union accepts IDNYC",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://www.nyc.gov/site/idnyc/benefits/banks-and-credit-unions.page",
+   "title": "Banks & Credit Unions - IDNYC",
+   "content": "NYC\n\nID NYC\nLanguage\n\n# Banks and Credit Unions\n\nPrint icon\n\n# Banks and Credit Unions\n\nWith your new IDNYC Card, you can open a bank or credit union account at one of several financial institutions across New York City.\n\nThe banks and credit unions listed below accept IDNYC as a primary form of ID to open an account.\n\nDepending on the policies of the financial institution, you may be required to provide additional documentation such as proof of address, Social Security number or Individual Taxpayer Identification Number (ITIN), or a small initial deposit. Credit unions have additional membership requirements. [...] ### IDNYC Financial Brochure\n\nThis multi-language brochure explains the advantages of opening a bank or credit union account, and lists the financial institutions that accept IDNYC as primary identification when opening an account. The brochure is written in English, Spanish (Español), Chinese (简化字), Russian (Русский язык), Haitian Creole (Kreyòl Ayisyen), Korean (한국어), and Arabic (العربية).\n\nClick on a bank, or press the enter key on a bank, to reveal more information.\n\nAmalgamated Bank\n\nAmalgamated Bank logo\n\nAmalgamated Bank logo\n\nVisit the Amalgamated Bank website\n\n## Branch Locations\n\nFor branch hours, please call: 800-662-0860\n\nCo-Op City - Bronx  \n2067 Bartow Ave.  \n(at Co-Op City Blvd)  \nBronx, NY 10475 [...] You can also learn more about opening a bank account at one of the City's Financial Empowerment Centers operated by the Department of Consumer Affairs, where you can schedule free one-on-one financial counseling sessions in English or Spanish.\n\nThe appearance of any financial institution on this list does not constitute an endorsement by the IDNYC Program or the City of New York. The listing is provided as a convenience for persons who are looking for institutions that accept IDNYC as a primary form of ID to open an account.\n\n### IDNYC Financial Brochure",
+   "score": 0.91306627,
+   "raw_content": null,
+   "id": "a61289-00"
+  },
+  {
+   "url": "https://www.nyc.gov/site/dca/news/008-24/department-consumer-worker-protection-research-finds-305-700-nyc-households-unbanked",
+   "title": "Department of Consumer and Worker Protection Research ...",
+   "content": "Many of the participating banks and credit unions also accept IDNYC as a primary form of identification to open an account.",
+   "score": 0.8752871,
+   "raw_content": null,
+   "id": "ec8410-01"
+  },
+  {
+   "url": "https://www.nyc.gov/site/dca/news/024-16/idnyc-mayor-s-office-immigrant-affairs-department-consumer-affairs-new-york-city-housing",
+   "title": "New IDNYC Pop-Up Enrollment Center in Red Hook ...",
+   "content": "IDNYC is accepted as the primary form of identification to open an account at 12 banks and credit unions with more than 70 branches across the",
+   "score": 0.8548001,
+   "raw_content": null,
+   "id": "f1c6fc-02"
+  },
+  {
+   "url": "https://www.nyc.gov/site/dca/talk-money/financial-literacy-for-youth-in-school-banking.page",
+   "title": "In-School Banking Program - DCWP",
+   "content": "With an IDNYC Card, you can open a bank or credit union account at one of several financial institutions across New York City. Learn more at nyc.gov/idnycbanks.",
+   "score": 0.8215175,
+   "raw_content": null,
+   "id": "a4e14f-03"
+  },
+  {
+   "url": "https://www.nyc.gov/site/dca/media/idnyc-savings-account.page",
+   "title": "IDNYC Banking Access Campaign - DCWP",
+   "content": "Apply for an IDNYC at nyc.gov/idnyc and view a list of participating banks and credit unions where you can open an account with your IDNYC card.",
+   "score": 0.8091708,
+   "raw_content": null,
+   "id": "b9fad7-04"
+  },
+  {
+   "url": "https://www.nyc.gov/site/idnyc/benefits/benefits.page",
+   "title": "Benefits - IDNYC",
+   "content": "Latest IDNYC Benefits\n\nWe're always working to make IDNYC better. Visit the Latest IDNYC Benefits page to find out more about the newest IDNYC card benefits below.\n\nMuseums and Cultural Institutions\n\nIDNYC cardholders are now eligible for free one-year memberships at over 35 participating institutions. Visit the Museums and Cultural Institutions page to find out more about the Museums and Cultural Institutions.\n\nBanks and Credit Unions\n\nWith your IDNYC Card, you can open a bank or credit union account at one of several financial institutions across New York City. Visit the Banks and Credit Unions page to find out more about the Banks and Credit Unions below.\n\nEntertainment Discounts [...] NYC\n\nID NYC\nLanguage\n\n# Benefits\n\nPrint icon\n\n# Benefits\n\nYour IDNYC card is a broadly accepted, official form of identification. IDNYC is accepted:\n\nYour IDNYC card also offers a wide variety of exciting benefits that make it more than just an ID card. Your card can help you experience everything New York has to offer.\n\nFor your convenience, we have included information from our benefit providers. For the most accurate and up-to-date information about these benefits or if you have any questions about accessing them, please contact the organizations listed below. IDNYC is not responsible for determining your access to these benefits.\n\nClick a topic, or press the enter key on a topic, to reveal more information.\n\nLatest IDNYC Benefits [...] Teens & Young Adults\n\nUse your IDNYC card to enjoy your city! Visit the Teens & Young Adults page to learn more about the benefits listed below.\n\nLibraries\n\nYou can use your IDNYC card at any public library in New York City. Visit the Libraries page to learn more about each library below.\n\nThe IDNYC U.S. Veteran Designation\n\nIf you are a U.S. Veteran you can have \"Veteran\" printed on the front of your IDNYC card. Visit the IDNYC U.S. Veteran Designation page to learn more about the organizations below that accept the designation as proof of veteran status.\n\nSupermarkets\n\n### FOOD BAZAAR\n\nShop at Home",
+   "score": 0.7923522,
+   "raw_content": null,
+   "id": "f35407-05"
+  }
+ ],
+ "response_time": 4.19,
+ "request_id": "357696fd-eca7-4b3d-8c1d-20d910357181",
+ "_request": {
+  "query": "IDNYC open a bank account credit union accepts IDNYC",
+  "max_results": 6,
+  "search_depth": "advanced",
+  "include_domains": [
+   "nyc.gov"
+  ]
+ }
+}

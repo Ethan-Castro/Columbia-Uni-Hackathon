@@ -1,0 +1,75 @@
+{
+ "query": "133-29 41st Avenue, Suite 202, Flushing, NY 11355",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "133-29 41st Avenue, Suite 202, Flushing, NY 11355"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "652213321"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36081",
+        "CENTLAT": "+40.6545736",
+        "AREAWATER": 188444380,
+        "STATE": "36",
+        "BASENAME": "Queens",
+        "OID": "27590307869814",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.6546581",
+        "NAME": "Queens County",
+        "OBJECTID": 440,
+        "CENTLON": "-073.8408699",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974139",
+        "AREALAND": 281594058,
+        "INTPTLON": "-073.8412089",
+        "MTFCC": "G4020",
+        "COUNTY": "081"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.832284351697,
+      "y": 40.757007128959
+     },
+     "addressComponents": {
+      "zip": "11355",
+      "streetName": "41ST",
+      "preType": "",
+      "city": "FLUSHING",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "133-01",
+      "state": "NY",
+      "suffixType": "AVE",
+      "toAddress": "133-99",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "133-29 41ST AVE, FLUSHING, NY, 11355"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "query": "349 East 149th Street, 10th Floor, Bronx, NY 10451",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "349 East 149th Street, 10th Floor, Bronx, NY 10451"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "642559021"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36005",
+        "CENTLAT": "+40.8492050",
+        "AREAWATER": 39287123,
+        "STATE": "36",
+        "BASENAME": "Bronx",
+        "OID": "27590287318864",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.8487111",
+        "NAME": "Bronx County",
+        "OBJECTID": 1062,
+        "CENTLON": "-073.8530773",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974101",
+        "AREALAND": 109301867,
+        "INTPTLON": "-073.8529390",
+        "MTFCC": "G4020",
+        "COUNTY": "005"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.919592079625,
+      "y": 40.81662777398
+     },
+     "addressComponents": {
+      "zip": "10451",
+      "streetName": "149TH",
+      "preType": "",
+      "city": "BRONX",
+      "preDirection": "E",
+      "suffixDirection": "",
+      "fromAddress": "257",
+      "state": "NY",
+      "suffixType": "ST",
+      "toAddress": "349",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "349 E 149TH ST, BRONX, NY, 10451"
+    }
+   ]
+  }
+ }
+}

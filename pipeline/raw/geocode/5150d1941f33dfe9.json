@@ -1,0 +1,75 @@
+{
+ "query": "89-11 Merrick Boulevard, 1st Floor, Jamaica, NY 11432",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "89-11 Merrick Boulevard, 1st Floor, Jamaica, NY 11432"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59712129"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36081",
+        "CENTLAT": "+40.6545736",
+        "AREAWATER": 188444380,
+        "STATE": "36",
+        "BASENAME": "Queens",
+        "OID": "27590307869814",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.6546581",
+        "NAME": "Queens County",
+        "OBJECTID": 440,
+        "CENTLON": "-073.8408699",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974139",
+        "AREALAND": 281594058,
+        "INTPTLON": "-073.8412089",
+        "MTFCC": "G4020",
+        "COUNTY": "081"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.795275746477,
+      "y": 40.707947867029
+     },
+     "addressComponents": {
+      "zip": "11432",
+      "streetName": "MERRICK",
+      "preType": "",
+      "city": "JAMAICA",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "89-01",
+      "state": "NY",
+      "suffixType": "BLVD",
+      "toAddress": "89-99",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "89-11 MERRICK BLVD, JAMAICA, NY, 11432"
+    }
+   ]
+  }
+ }
+}

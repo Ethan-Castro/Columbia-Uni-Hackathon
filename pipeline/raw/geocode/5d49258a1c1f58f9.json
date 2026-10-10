@@ -1,0 +1,75 @@
+{
+ "query": "191 Joralemon Street, Brooklyn, NY 11201",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "191 Joralemon Street, Brooklyn, NY 11201"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59075014"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36047",
+        "CENTLAT": "+40.6343536",
+        "AREAWATER": 71158757,
+        "STATE": "36",
+        "BASENAME": "Kings",
+        "OID": "27590297862198",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.6350451",
+        "NAME": "Kings County",
+        "OBJECTID": 1841,
+        "CENTLON": "-073.9502286",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974122",
+        "AREALAND": 179684484,
+        "INTPTLON": "-073.9506398",
+        "MTFCC": "G4020",
+        "COUNTY": "047"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.991429118203,
+      "y": 40.692670961974
+     },
+     "addressComponents": {
+      "zip": "11201",
+      "streetName": "JORALEMON",
+      "preType": "",
+      "city": "BROOKLYN",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "159",
+      "state": "NY",
+      "suffixType": "ST",
+      "toAddress": "199",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "191 JORALEMON ST, BROOKLYN, NY, 11201"
+    }
+   ]
+  }
+ }
+}

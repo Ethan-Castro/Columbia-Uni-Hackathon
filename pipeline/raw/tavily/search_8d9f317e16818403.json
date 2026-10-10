@@ -1,0 +1,67 @@
+{
+ "query": "Consulado General de El Salvador Nueva York direccion horario",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://rree.gob.sv/consulado-de-el-salvador-en-long-island-traslada-su-sede-a-plainview",
+   "title": "Consulado de El Salvador en Long Island traslada su sede ...",
+   "content": "El Consulado General de El Salvador en Plainview, Nueva York, ubicadas en 111 Express St, Plainview, NY 11803. de 8:00 a.m. a 4:00 p.m. 1-888-",
+   "score": 0.9119436,
+   "raw_content": null,
+   "id": "e55927-00"
+  },
+  {
+   "url": "https://rree.gob.sv/consulados-generales-de-el-salvador-en-estados-unidos-realizaran-jornadas-extraordinarias-y-consulados-moviles-de-emision-de-pasaportes",
+   "title": "Consulados Generales de El Salvador en Estados Unidos ...",
+   "content": "Los horarios de atención serán: sábado 8:00 a.m. a 4:00 p.m. y domingo de 7:00 a.m. a 11:00 a.m. en Nueva York, s serán atendidos desde las 9:",
+   "score": 0.846159,
+   "raw_content": null,
+   "id": "c84ebb-01"
+  },
+  {
+   "url": "https://rree.gob.sv/representaciones-consulares-el-salvador-en-el-mundo-continuan-con-jornadas-extraordinarias-y-consulados-moviles-de-emision-de-pasaportes",
+   "title": "Representaciones consulares de El Salvador en el mundo ...",
+   "content": "Los horarios de atención serán: sábado 8:00 am a 4:00 pm y domingo de 7:00 am a 11:00 am. Consulado General de El Salvador en Nueva York,",
+   "score": 0.8452414,
+   "raw_content": null,
+   "id": "ee67c3-02"
+  },
+  {
+   "url": "https://rree.gob.sv/representaciones-consulares-de-el-salvador-en-el-mundo-realizaran-jornadas-extraordinarias-y-consulados-moviles",
+   "title": "Representaciones consulares de El Salvador en el mundo ...",
+   "content": "Nueva York. 5:00 de la tarde; y, el domingo desde las 9:00 am hasta las 4:00 pm. 8:00 a.m. a 12:00 p.m. (503) 7070-1071.",
+   "score": 0.83678174,
+   "raw_content": null,
+   "id": "e307b5-03"
+  },
+  {
+   "url": "https://rree.gob.sv/representaciones-consulares-de-el-salvador-en-diferentes-partes-del-mundo-realizaron-jornadas-extraordinarias-y-consulados-moviles",
+   "title": "Representaciones consulares de El Salvador en diferentes ...",
+   "content": "Consulado General de El Salvador. A partir de las 10:00 de la mañana hasta las 5:00 de la tarde. atención desde las de la 9:00 de la mañana",
+   "score": 0.64880073,
+   "raw_content": null,
+   "id": "d71ac3-04"
+  },
+  {
+   "url": "https://rree.gob.sv/cancilleria-inaugura-instalaciones-del-consulado-general-de-el-salvador-en-nueva-york",
+   "title": "Cancillería inaugura instalaciones del Consulado General ...",
+   "content": "Los connacionales pueden acudir a 14 W 37th st, New York, NY, Estados Unidos. www.facebook.com/ConNuevaYorkSV",
+   "score": 0.6366926,
+   "raw_content": null,
+   "id": "c9018d-05"
+  }
+ ],
+ "response_time": 4.01,
+ "request_id": "77f56d65-48b8-4f5f-8b78-1626f4a1fc35",
+ "_request": {
+  "query": "Consulado General de El Salvador Nueva York direccion horario",
+  "max_results": 6,
+  "search_depth": "advanced",
+  "include_domains": [
+   "rree.gob.sv",
+   "consuladosv.org"
+  ]
+ }
+}
