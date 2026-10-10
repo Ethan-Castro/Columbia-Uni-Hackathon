@@ -128,16 +128,16 @@ code { font: 0.875em ui-monospace, SFMono-Regular, Menlo, monospace; background:
   background: var(--background);
   border-bottom: 1px solid color-mix(in srgb, var(--foreground) 10%, transparent); position: sticky; top: 0; z-index: 5;
 }
-.header-inner { max-width: 920px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.header-inner { max-width: 1152px; margin: 0 auto; padding: 12px 24px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--foreground); min-width: 0; }
-.brand-mark { width: 30px; height: 30px; color: var(--primary); flex: none; }
-.brand strong { display: block; font-size: 1.05rem; font-weight: 600; color: var(--brand); letter-spacing: -0.01em; }
+.brand-mark { width: 26px; height: 26px; color: var(--brand); flex: none; }
+.brand strong { display: block; font-size: 1.125rem; font-weight: 500; color: var(--foreground); letter-spacing: -0.02em; }
 .brand small { display: block; color: var(--muted-foreground); font-size: 0.78rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* Language switch: shadcn Tabs list */
 .lang-switch { flex: none; display: inline-flex; padding: 3px; gap: 2px; border-radius: 999px; background: var(--card); border: 1px solid var(--border); }
 .lang-switch button {
-  min-height: 38px; min-width: 44px; padding: 0 14px; border: 0; border-radius: 999px;
+  min-height: 36px; min-width: 44px; padding: 0 14px; border: 0; border-radius: 999px;
   background: transparent; color: var(--muted-foreground); font: inherit; font-size: 0.875rem; font-weight: 500; cursor: pointer;
   transition: background 0.15s, color 0.15s, box-shadow 0.15s;
 }
@@ -145,7 +145,7 @@ code { font: 0.875em ui-monospace, SFMono-Regular, Menlo, monospace; background:
 .lang-short { display: none; }
 @media (max-width: 420px) { .lang-long { display: none; } .lang-short { display: inline; } }
 
-.nav { max-width: 920px; margin: 0 auto; padding: 0 10px; display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
+.nav { max-width: 1152px; margin: 0 auto; padding: 0 14px; display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
 .nav::-webkit-scrollbar { display: none; }
 .nav a {
   flex: none; display: inline-flex; align-items: center; min-height: 44px; padding: 0 10px;
@@ -153,7 +153,7 @@ code { font: 0.875em ui-monospace, SFMono-Regular, Menlo, monospace; background:
   font-size: 0.9375rem; font-weight: 500; transition: color 0.15s;
 }
 .nav a:hover { color: var(--foreground); }
-.nav a.active { color: var(--foreground); border-bottom-color: var(--primary); }
+.nav a.active { color: var(--foreground); border-bottom-color: var(--brand); }
 
 /* Common blocks */
 .intro { margin: 0 0 20px; }
