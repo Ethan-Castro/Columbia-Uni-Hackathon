@@ -305,7 +305,7 @@ async function startLive() {
     await navigator.mediaDevices.getUserMedia({ audio: true }).then((s) => s.getTracks().forEach((t) => t.stop()));
     convo = await Conversation.startSession({
       agentId: AGENT_ID,
-      connectionType: "webrtc",
+      connectionType: "websocket", // webrtc: this agent hangs up right away
       clientTools: {
         show_call_button: ({ name, phone }) => {
           const digits = String(phone || "").replace(/\D/g, "").replace(/^1(?=\d{10}$)/, "");
@@ -319,6 +319,10 @@ async function startLive() {
       },
       onConnect: async () => {
         setState("listening"); meter();
+        convo?.sendContextualUpdate(
+          "Esta es la app de voz en el teléfono (sin pantalla de texto). Responde corto: recomienda UN solo lugar, el mejor y más cercano, " +
+          "en una o dos frases (nombre y qué tan cerca), y enseguida usa show_call_button con su nombre y teléfono exactos. " +
+          "No leas listas ni direcciones completas. Si la persona interrumpe, escúchala.");
         const zip = await where;
         if (zip && convo) convo.sendContextualUpdate(
           `Ubicación del teléfono: código postal ${zip}. Úsalo como "near" en las herramientas; no preguntes dónde está la persona salvo que diga otro lugar.`);
