@@ -1,3 +1,4 @@
+import { HttpError } from "./http.ts";
 // Where is "near"? Turns a zip, borough, or neighborhood into zips to search.
 //
 //   resolveNear("11368")          -> { zip: "11368", borough: "Queens", neighborhood: "Corona", zips: [11368, 11373, ...] }
@@ -318,4 +319,19 @@ export function distanceKm(place: { lat?: number; lng?: number }, near: NearResu
   if (near.lat === undefined || near.lng === undefined) return undefined;
   if (typeof place.lat !== "number" || typeof place.lng !== "number") return undefined;
   return Math.round(haversineKm(near.lat, near.lng, place.lat, place.lng) * 10) / 10;
+}
+
+/**
+ * Plans and nearby searches need a real place: a zip, neighborhood or borough.
+ * "NYC" or an unknown word would rank places from all five boroughs, so instead
+ * the tool fails with a message that tells the assistant to ask the person.
+ */
+export function requireSpecificNear(near: NearResult): void {
+  if (near.zip || near.borough || near.neighborhood) return;
+  const what = near.input ? `"${near.input}" is too broad or not a place we know.` : "No location was given.";
+  throw new HttpError(
+    400,
+    `${what} Ask the person for their zip code, neighborhood or borough (for example 10032, Bushwick, the Bronx) ` +
+      `and call again. Do not guess a location. / Pregunte su código postal, barrio o condado.`,
+  );
 }

@@ -1,5 +1,6 @@
 // The one MCP Apps widget (ChatGPT plugin + Claude interactive connector).
-// A single HTML file: inline CSS and JS, no CDN, no fetches, so its CSP is empty.
+// A single HTML file: inline CSS and JS, no CDN, no fetches. The only remote
+// resources are OpenStreetMap tiles for the map thumbnail (declared in the CSP).
 // It renders find_resources (places), make_plan (steps) and check_provider
 // (DOJ-listed options) from the tool's structuredContent.
 //
@@ -7,7 +8,8 @@
 //   app -> host  ui/initialize (request, no timeout), then ui/notifications/initialized
 //   host -> app  ui/notifications/tool-input | tool-result | host-context-changed
 //   app -> host  ui/notifications/size-changed (only after initialized; html max-content measure)
-//   links        window.openai.openExternal first, else ui/open-link. tel: is shown as text only.
+//   links        window.openai.openExternal first, else ui/open-link. Phones are real tel: links
+//                (and stay readable as text if a host blocks tel: navigation).
 // ChatGPT compat: window.openai.toolOutput / theme / locale / displayMode, openai:set_globals.
 //
 // Bump CARD_URI (card-v2, ...) on ANY change to CARD_HTML: the URI is the
@@ -15,7 +17,7 @@
 // The page lives in String.raw, so the inline JS must never contain a backtick
 // or a dollar sign followed by a brace.
 
-export const CARD_URI = "ui://navigator/card-v2.html";
+export const CARD_URI = "ui://navigator/card-v3.html";
 export const CARD_MIME = "text/html;profile=mcp-app";
 
 /** resources/list entry. */
@@ -29,7 +31,7 @@ export const CARD_RESOURCE = {
 
 /** _meta on the resources/read content item. No ui.domain on purpose (each host wants its own format). */
 export const CARD_META = {
-  ui: { prefersBorder: true, csp: { connectDomains: [], resourceDomains: [] } },
+  ui: { prefersBorder: true, csp: { connectDomains: [], resourceDomains: ["https://tile.openstreetmap.org"] } },
   "openai/widgetDescription":
     "Muestra lugares con dirección, horario, idiomas, fuente y fecha de revisión; o un plan paso a paso; " +
     "o si un notario o consultor aparece en las listas del DOJ, con opciones de esas listas cerca.",
@@ -37,8 +39,8 @@ export const CARD_META = {
   // openExternal destinations ChatGPT should trust. Real source_url hosts go here once the data is real.
   "openai/widgetCSP": {
     connect_domains: [],
-    resource_domains: [],
-    redirect_domains: ["https://www.google.com", "https://maps.apple.com", "https://www.justice.gov"],
+    resource_domains: ["https://tile.openstreetmap.org"],
+    redirect_domains: ["https://www.google.com", "https://maps.apple.com", "https://www.justice.gov", "https://inmigracion-nyc.com"],
   },
 };
 
@@ -115,6 +117,22 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .disc{color:var(--fg2);font-size:12px;margin-top:4px}
 ul{margin:4px 0;padding-left:20px}
 details summary{min-height:44px;display:flex;align-items:center;cursor:pointer;color:var(--accent)}
+.place{padding:0;overflow:hidden}
+.place .in{padding:12px 14px 4px}
+.map{position:relative;height:120px;overflow:hidden;background:var(--bg2)}
+.map .tiles{position:absolute;width:768px;height:768px;display:grid;grid-template-columns:repeat(3,256px)}
+.map img{width:256px;height:256px;display:block}
+.map .pin{position:absolute;left:50%;top:50%;width:18px;height:18px;margin:-18px 0 0 -9px;border-radius:50% 50% 50% 0;
+  background:var(--accent);transform:rotate(-45deg);border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.35)}
+.map .attr{position:absolute;right:4px;bottom:2px;font-size:9px;color:#333;background:rgba(255,255,255,.75);padding:0 3px;border-radius:3px}
+.help{font-size:14px;margin:4px 0 6px;color:var(--fg)}
+.facts{font-size:14px;color:var(--fg2);margin:2px 0}
+.cta{display:flex;gap:8px;margin:10px 0 4px}
+.cta a,.cta button{flex:1 1 0;display:flex;align-items:center;justify-content:center;gap:6px;min-height:44px;border-radius:10px;
+  font:inherit;font-size:15px;font-weight:600;text-decoration:none;padding:8px 10px;cursor:pointer}
+.cta .call{background:var(--accent);color:var(--accent-fg);border:1px solid var(--accent)}
+.cta .mapbtn{background:var(--bg);color:var(--fg);border:1px solid var(--line)}
+.place .foot{font-size:12px;border-top:0;margin-top:0}
 .sk{background:var(--bg2);border-radius:6px;height:14px;margin:8px 0;animation:pulse 1.2s ease-in-out infinite}
 .sk.t{height:18px;width:60%} .sk.s{width:40%}
 @keyframes pulse{50%{opacity:.45}}
@@ -138,7 +156,7 @@ var ctx = {}, lastKey = "", lastData = null, lastResult = null;
 var S = {
   es: {
     open: "Abierto ahora", later: "Abre más tarde hoy", hours: "Horario", langs: "Idiomas", bring: "Traer",
-    source: "Fuente", checked: "revisado el", noSource: "Sin enlace de fuente", directions: "Cómo llegar",
+    source: "Fuente", checked: "revisado el", noSource: "Sin enlace de fuente", directions: "Cómo llegar", call: "Llamar", map: "Mapa", mapOf: "Mapa de",
     phone: "Teléfono", all: "Ver todos", steps: "Ver todos los pasos", why: "Por qué en este orden",
     places: "lugares", near: "cerca de", empty: "No encontramos resultados.", error: "No se pudo mostrar este resultado.",
     whatsapp: "Enviar a mi WhatsApp", sayWa: "Quiero recibir este plan por WhatsApp",
@@ -150,7 +168,7 @@ var S = {
   },
   en: {
     open: "Open now", later: "Opens later today", hours: "Hours", langs: "Languages", bring: "Bring",
-    source: "Source", checked: "checked", noSource: "No source link", directions: "Directions",
+    source: "Source", checked: "checked", noSource: "No source link", directions: "Directions", call: "Call", map: "Map", mapOf: "Map of",
     phone: "Phone", all: "See all", steps: "See all steps", why: "Why this order",
     places: "places", near: "near", empty: "No results found.", error: "This result could not be shown.",
     whatsapp: "Send to my WhatsApp", sayWa: "I want to get this plan on WhatsApp",
@@ -239,34 +257,68 @@ function sourceFoot(p) {
   if (dateText) kids.push(h("span", "muted", "· " + dateText));
   return h("div", "foot", kids);
 }
-// One place: name, type, open pill, address, hours, phone as text, languages, bring, trust, source.
+// OpenStreetMap thumbnail centered on the place: 3x3 tiles at zoom 16, a pin in the middle.
+function mapThumb(p) {
+  var lat = Number(p.lat), lng = Number(p.lng);
+  if (!isFinite(lat) || !isFinite(lng) || (lat === 0 && lng === 0)) return null;
+  var z = 16, n = Math.pow(2, z), xf = (lng + 180) / 360 * n;
+  var r = lat * Math.PI / 180, yf = (1 - Math.log(Math.tan(r) + 1 / Math.cos(r)) / Math.PI) / 2 * n;
+  var tx = Math.floor(xf), ty = Math.floor(yf), fx = xf - tx, fy = yf - ty;
+  var tiles = h("div", "tiles");
+  for (var dy = -1; dy <= 1; dy++) for (var dx = -1; dx <= 1; dx++) {
+    var img = document.createElement("img");
+    img.alt = ""; img.loading = "lazy"; img.decoding = "async"; img.referrerPolicy = "no-referrer";
+    img.src = "https://tile.openstreetmap.org/" + z + "/" + (tx + dx) + "/" + (ty + dy) + ".png";
+    img.onerror = function () { this.style.visibility = "hidden"; };
+    tiles.appendChild(img);
+  }
+  tiles.style.left = "calc(50% - " + Math.round(256 + fx * 256) + "px)";
+  tiles.style.top = "calc(50% - " + Math.round(256 + fy * 256) + "px)";
+  var box = h("div", "map", [tiles, h("span", "pin"), h("span", "attr", "© OpenStreetMap")]);
+  box.setAttribute("role", "img");
+  box.setAttribute("aria-label", T("mapOf") + " " + (str(p.name) || ""));
+  return box;
+}
+function telHref(phone) {
+  var d = str(phone).replace(/[^0-9+]/g, "");
+  if (/^[0-9]{10}$/.test(d)) d = "+1" + d; else if (/^1[0-9]{10}$/.test(d)) d = "+" + d;
+  return d.length >= 8 ? "tel:" + d : "";
+}
+// One place, simple: map, name, how they help, address + hours, Call / Map buttons, source line.
 function placeCard(p, opts) {
   opts = opts || {};
   if (!p || typeof p !== "object") return null;
-  var langs = arr(p.languages).join(", "), bring = arr(p.bring).join(", ");
-  var pills = [];
-  if (p.open_now === true) pills.push(h("span", "pill ok", T("open")));
-  else if (p.open_today === true) pills.push(h("span", "pill info", T("later")));
-  pills.push(trustPill(p));
-  if (typeof p.distance_km === "number") pills.push(h("span", "muted", p.distance_km.toFixed(1) + " " + T("km")));
+  var openPill = p.open_now === true ? h("span", "pill ok", T("open")) : p.open_today === true ? h("span", "pill info", T("later")) : null;
+  var help = str(p.summary) || str(p.type_label);
+  var addr = str(p.address) ? p.address + (str(p.zip) && p.address.indexOf(p.zip) < 0 ? ", " + p.zip : "") : "";
   var extra = [];
-  ["fee", "cost"].forEach(function (k) { if (k in p) extra.push(h("p", null, [h("span", "lbl", T("fee") + ": "), unknownText(p[k])])); });
-  ["intake", "intake_how", "how_to_get_help"].forEach(function (k) { if (k in p) extra.push(h("p", null, [h("span", "lbl", T("intake") + ": "), unknownText(p[k])])); });
-  var actions = [];
-  if (str(p.address)) actions.push(btn(T("directions"), "primary", function () { openLink(mapsUrl(p)); }));
-  return h("div", opts.flat ? null : "card", [
-    h("h2", null, str(p.name) || str(p.org)),
-    str(p.type_label) ? h("div", "muted", p.type_label) : null,
-    h("div", "row", pills),
-    !opts.compact && str(p.summary) ? h("p", null, p.summary) : null,
-    str(p.address) ? h("p", null, [p.address, str(p.zip) && p.address.indexOf(p.zip) < 0 ? ", " + p.zip : ""]) : null,
-    str(p.hours) ? h("p", null, [h("span", "lbl", T("hours") + ": "), p.hours]) : null,
-    str(p.phone) ? h("p", null, [h("span", "lbl", T("phone") + ": "), h("span", "phone", p.phone)]) : null,
-    langs ? h("p", null, [h("span", "lbl", T("langs") + ": "), langs]) : null,
-    !opts.compact && bring ? h("p", null, [h("span", "lbl", T("bring") + ": "), bring]) : null,
-    extra,
-    actions.length ? h("div", "actions", actions) : null,
-    sourceFoot(p)
+  ["fee", "cost"].forEach(function (k) { if (k in p) extra.push(h("p", "facts", [h("span", "lbl", T("fee") + ": "), unknownText(p[k])])); });
+  ["intake", "intake_how", "how_to_get_help"].forEach(function (k) { if (k in p) extra.push(h("p", "facts", [h("span", "lbl", T("intake") + ": "), unknownText(p[k])])); });
+  var cta = [];
+  var tel = telHref(p.phone);
+  if (tel) {
+    var a = document.createElement("a");
+    a.className = "call"; a.href = tel; a.target = "_top"; a.rel = "noopener";
+    a.textContent = "\u260E " + T("call") + " " + str(p.phone);
+    a.setAttribute("aria-label", T("call") + " " + (str(p.name) || "") + ", " + str(p.phone));
+    cta.push(a);
+  }
+  if (addr) cta.push(btn("\u{1F5FA} " + T("map"), "mapbtn", function () { openLink(mapsUrl(p)); }));
+  var meta = [str(p.type_label), typeof p.distance_km === "number" ? p.distance_km.toFixed(1) + " " + T("km") : "", str(p.trust_label)].filter(Boolean).join(" \u00B7 ");
+  return h("div", opts.flat ? "place" : "card place", [
+    opts.flat ? null : mapThumb(p),
+    h("div", "in", [
+      h("h2", null, str(p.name) || str(p.org)),
+      !opts.compact && help ? h("p", "help", help) : null,
+      openPill ? h("div", "row", [openPill]) : null,
+      addr ? h("p", "facts", addr) : null,
+      str(p.hours) ? h("p", "facts", [h("span", "lbl", T("hours") + ": "), p.hours]) : null,
+      !tel && str(p.phone) ? h("p", "facts", [h("span", "lbl", T("phone") + ": "), h("span", "phone", p.phone)]) : null,
+      extra,
+      cta.length ? h("div", "cta", cta) : null,
+      meta ? h("p", "muted", meta) : null,
+      sourceFoot(p)
+    ])
   ]);
 }
 function banners(sc) {

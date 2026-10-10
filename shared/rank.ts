@@ -140,8 +140,8 @@ export interface Ranked {
   trustRank: number;
   openNow: boolean | null;
   openToday: boolean | null;
-  openEvenings: boolean;
-  openWeekends: boolean;
+  openEvenings: boolean | null;
+  openWeekends: boolean | null;
   speaksLanguage: boolean;
   distanceKm?: number;
 }
@@ -169,7 +169,8 @@ const triRank = (v: boolean | null) => (v === true ? 0 : v === null ? 1 : 2);
  *   1. trust (official/verified, community, unverified)
  *   2. legal: DOJ roster / pro bono providers first; id: IDNYC desks first
  *   3. (preferPrimary true) org_type serves the need itself
- *   4. location: same zip, adjacent zips, same borough, rest (geo.nearRank)
+ *   4. location: nearby (same or adjacent zip), same borough, rest (geo.nearRank);
+ *      within a tier, hand-verified places first, then same zip before adjacent
  *      (preferPrimary "within_area": org_type serves the need itself, within the same location tier)
  *   5. (openNow) open right now, then evening + weekend hours
  *   6. open later today, speaks the requested language, distance, name
@@ -199,10 +200,13 @@ export function rankPlaces(cat: Catalog, need: Need, near: NearResult, opts: Ran
       // ID: IDNYC (any NYC resident) before consulates (only that country's nationals).
       need === "id" ? (place.org_type === "idnyc" ? 0 : 1) : 0,
       opts.preferPrimary === true ? primary : 0,
+      // Same or adjacent zip count as "nearby"; within that, a place a person verified by phone wins.
+      r.near <= 1 ? 0 : r.near,
+      place.trust === "verified" ? 0 : 1,
       r.near,
       opts.preferPrimary === "within_area" ? primary : 0,
       opts.openNow ? triRank(r.openNow) : 0,
-      opts.openNow ? (r.openEvenings ? 0 : 1) + (r.openWeekends ? 0 : 1) : 0,
+      opts.openNow ? (r.openEvenings === true ? 0 : 1) + (r.openWeekends === true ? 0 : 1) : 0,
       triRank(r.openToday),
       r.speaksLanguage ? 0 : 1,
       r.distanceKm ?? 999,
@@ -273,6 +277,7 @@ export function verifiedProviderOut(r: Ranked, lang: string) {
     ...sourceOf(p, lang),
     last_checked: p.last_checked ?? "",
     note: `${freeProvidersTitle(lang, [p.trust])} ${p.name}, ${p.address ?? ""}${p.phone ? `, ${p.phone}` : ""}.`,
+    ...(typeof p.lat === "number" && typeof p.lng === "number" ? { lat: p.lat, lng: p.lng } : {}),
   };
 }
 
@@ -323,13 +328,16 @@ export interface PlaceOut {
   hours: string;
   open_now: boolean | null;
   open_today: boolean | null;
-  open_evenings: boolean;
-  open_weekends: boolean;
+  open_evenings: boolean | null;
+  open_weekends: boolean | null;
   languages: string[];
   speaks_your_language: boolean;
   trust: string;
   trust_label: string;
   distance_km?: number;
+  /** For the card's map thumbnail. */
+  lat?: number;
+  lng?: number;
   bring: string[];
   programs: ProgramOut[];
   summary: string;
@@ -374,6 +382,10 @@ export function placeOut(r: Ranked, lang: string, summary: string): PlaceOut {
     last_checked: p.last_checked ?? "",
   };
   if (r.distanceKm !== undefined) out.distance_km = r.distanceKm;
+  if (typeof p.lat === "number" && typeof p.lng === "number") {
+    out.lat = p.lat;
+    out.lng = p.lng;
+  }
   return out;
 }
 
@@ -422,8 +434,8 @@ export const ORG_TYPE_DESCRIPTIONS_EN: Record<string, string> = {
   clinic: "community health clinic",
   benefits_office: "office where people apply for public benefits such as food, cash and health coverage",
   idnyc: "enrollment desk for IDNYC, the free New York City ID card",
-  remittance: "money transfer business for sending money to family (fees apply)",
-  check_casher: "check cashing business (fees apply)",
+  remittance: "money transfer business for sending money to family (we have no data on its fees: tell people to ask the price before sending; never say fees are charged or free)",
+  check_casher: "check cashing business (we have no data on its fees: tell people to ask the price first; never say fees are charged or free)",
   school: "public school enrollment and family welcome center",
   other: "community service",
 };

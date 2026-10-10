@@ -248,8 +248,8 @@ export async function reviewQueue(req: Request, body: Body) {
         ? { lat: centroid[0], lng: centroid[1] }
         : {}),
       hours,
-      open_evenings: typeof m.open_evenings === "boolean" ? m.open_evenings : placeOpenEvenings({ hours }),
-      open_weekends: typeof m.open_weekends === "boolean" ? m.open_weekends : placeOpenWeekends({ hours }),
+      open_evenings: typeof m.open_evenings === "boolean" ? m.open_evenings : placeOpenEvenings({ hours }) === true,
+      open_weekends: typeof m.open_weekends === "boolean" ? m.open_weekends : placeOpenWeekends({ hours }) === true,
       languages: m.languages ?? [],
       phone: m.phone ?? "",
       trust: "community",

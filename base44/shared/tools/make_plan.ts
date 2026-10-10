@@ -14,7 +14,7 @@
 
 import { NEEDS } from "../schema.ts";
 import type { Need, Program } from "../schema.ts";
-import { resolveNear } from "../geo.ts";
+import { requireSpecificNear, resolveNear } from "../geo.ts";
 import type { NearResult } from "../geo.ts";
 import { disclaimer, langOf, needLabel, t } from "../i18n.ts";
 import { logRequest } from "../logRequest.ts";
@@ -233,7 +233,7 @@ export const makePlan: Tool = {
         },
         near: {
           type: "string",
-          description: "Zip code, neighborhood, or borough, e.g. '11368', 'Corona, Queens'.",
+          description: "Zip code, neighborhood, or borough, e.g. '10032', 'Sunset Park, Brooklyn', 'Corona, Queens'. Any NYC borough works. If the person has not said where they are, ask for their zip code or neighborhood first; never guess.",
         },
         language: {
           type: "string",
@@ -259,6 +259,7 @@ export const makePlan: Tool = {
     // Status statements are dropped before anything else sees the text.
     const situation = withoutStatusStatements(getString(input, "situation", { max: 1500 }));
     const near = resolveNear(nearText);
+    requireSpecificNear(near);
     const cat = await loadCatalog(req);
 
     const drafts = draftSteps(cat, needs, near, language);

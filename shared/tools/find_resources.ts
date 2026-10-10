@@ -9,7 +9,7 @@
 import { HttpError } from "../http.ts";
 import { NEEDS } from "../schema.ts";
 import type { Need } from "../schema.ts";
-import { resolveNear } from "../geo.ts";
+import { requireSpecificNear, resolveNear } from "../geo.ts";
 import { similarity } from "../text.ts";
 import { disclaimer, needLabel, t } from "../i18n.ts";
 import { logRequest } from "../logRequest.ts";
@@ -80,10 +80,10 @@ export async function writeSummaries(
   const byId = new Map(ranked.map((r) => [r.place.id, templateSummary(r, language)]));
   if (!ranked.length) return { byId, source: "template" };
   const prompt = [
-    `You write short, plain summaries of free community services in New York City for immigrant families.`,
+    `You write short, plain summaries of community services in New York City for immigrant families.`,
     `Write in ${languageName(language)} (language code "${language}"), simple everyday words, warm and direct.`,
-    `For EACH place below, write 1 or 2 sentences (max 35 words) saying what it offers for "${need}", when it is open, and which languages are spoken.`,
-    `Rules: use ONLY the facts given; if no programs are listed, describe the kind of place; never say what a place does not offer; do not invent prices, eligibility or documents; never mention or ask about immigration status; no legal advice; do not repeat the place name.`,
+    `For EACH place below, write ONE short sentence (max 18 words) saying how it can help with "${need}": what people can get or do there. Hours and address are shown separately: do not repeat them.`,
+    `Rules: use ONLY the facts given; if no programs are listed, describe the kind of place; never mention missing information (no "no information about languages"); never say what a place does not offer; never say something is free or that fees are charged unless the facts say so (for money services say to ask the price first); do not invent prices, eligibility or documents; never mention or ask about immigration status; no legal advice; do not repeat the place name.`,
     SPANISH_TONE,
     `Return JSON {"summaries":[{"id","summary"}]} with one entry per place id.`,
     ``,
@@ -149,7 +149,7 @@ export const findResources: Tool = {
         need: { type: "string", enum: [...NEEDS], description: "The kind of help needed." },
         near: {
           type: "string",
-          description: "Zip code, neighborhood, or borough, e.g. '11368', 'Corona', 'Queens', 'El Bronx'.",
+          description: "Zip code, neighborhood, or borough, e.g. '11368', 'Bushwick', 'Washington Heights', 'El Bronx', 'Staten Island'. Any NYC borough works. If the person has not said where they are, ask for their zip code or neighborhood first; never guess.",
         },
         language: {
           type: "string",
@@ -193,6 +193,7 @@ export const findResources: Tool = {
     const wanted = getString(input, "name", { max: 200 });
 
     const near = resolveNear(nearText);
+    requireSpecificNear(near);
     const cat = await loadCatalog(req);
     // Among equally near places, ones whose own type serves the need first (pantry before a WIC clinic for food).
     let ranked = rankPlaces(cat, need, near, { language, openNow, preferPrimary: "within_area" });

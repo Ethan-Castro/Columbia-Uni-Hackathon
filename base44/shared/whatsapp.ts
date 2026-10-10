@@ -213,6 +213,7 @@ export async function answerMessage(req: Request, rawText: string): Promise<stri
     const data = await findResources.run(req, { need: u.needs[0], near: u.near, language: l }, ctx) as Data;
     return capReply(`${formatPlaces(data, l)}\n\n${s.footer}`);
   } catch (err) {
+    if ((err as { status?: unknown } | null)?.status === 400) return s.need_near;
     console.error("whatsapp: tool failed:", err instanceof Error ? err.name : "unknown");
     return s.error;
   }

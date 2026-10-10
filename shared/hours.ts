@@ -278,12 +278,16 @@ export function opensWeekends(hours: string | ParsedHours): boolean | null {
 }
 
 /** Place booleans win; fall back to the hours string when they are missing. */
-export function placeOpenEvenings(place: { open_evenings?: unknown; hours?: unknown }): boolean {
+/** Evening hours: true/false when we know the hours, null when hours are blank (unknown, not "closed"). */
+export function placeOpenEvenings(place: { open_evenings?: unknown; hours?: unknown }): boolean | null {
+  if (!String(place.hours ?? "").trim()) return null;
   if (typeof place.open_evenings === "boolean") return place.open_evenings;
-  return opensEvenings(String(place.hours ?? "")) === true;
+  return opensEvenings(String(place.hours ?? "")) ?? null;
 }
 
-export function placeOpenWeekends(place: { open_weekends?: unknown; hours?: unknown }): boolean {
+/** Weekend hours: true/false when we know the hours, null when hours are blank (unknown, not "closed"). */
+export function placeOpenWeekends(place: { open_weekends?: unknown; hours?: unknown }): boolean | null {
+  if (!String(place.hours ?? "").trim()) return null;
   if (typeof place.open_weekends === "boolean") return place.open_weekends;
-  return opensWeekends(String(place.hours ?? "")) === true;
+  return opensWeekends(String(place.hours ?? "")) ?? null;
 }

@@ -255,6 +255,7 @@ function providerView(p: Place, near: NearResult, lang: Lang, all: Place[] = [])
     fee: TEXT[lang].unknown,
     intake: TEXT[lang].unknown,
     ...(km !== undefined ? { distance_km: km } : {}),
+    ...(typeof p.lat === "number" && typeof p.lng === "number" ? { lat: p.lat, lng: p.lng } : {}),
     ...sourceOf(p, lang),
     last_checked: p.last_checked,
   };
@@ -284,7 +285,7 @@ export const checkProvider: Tool = {
         },
         near: {
           type: "string",
-          description: "Zip code, neighborhood, or borough for nearby DOJ-listed options, e.g. '11368' or 'Corona'.",
+          description: "Zip code, neighborhood, or borough for nearby DOJ-listed options, e.g. '11368', 'Sunset Park' or 'El Bronx'.",
         },
         language: {
           type: "string",
