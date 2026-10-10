@@ -2,6 +2,7 @@
 // how much to trust it, and where the information came from.
 import { useI18n } from "../i18n.tsx";
 import type { DirectoryPlace } from "../types.ts";
+import { WhatWeKnow } from "./WhatWeKnow.tsx";
 
 export function TrustBadge({ trust }: { trust: string }) {
   const { label } = useI18n();
@@ -89,6 +90,8 @@ export function PlaceCard({ place }: { place: DirectoryPlace }) {
           </ul>
         </details>
       )}
+
+      <WhatWeKnow place={place} />
 
       <div className="place-foot">
         {tel && <a className="btn btn-secondary" href={`tel:${tel}`}>{t("card_phone")} {place.phone}</a>}

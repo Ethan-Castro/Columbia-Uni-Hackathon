@@ -6,6 +6,11 @@ This prototype uses 661 places from `pipeline/hf_release/places.csv`. That is th
 
 It does not touch the live Base44 app, HumHub, or `pipeline/`.
 
+## On the live site
+
+- The same panel is built into every directory card at `#/` (`web/src/components/WhatWeKnow.tsx`), in the site's chosen language, with the call questions in both languages.
+- This static demo page is served at `/before-you-go/` (copied to `web/public/before-you-go/`). After changing `index.html` here, copy it and `places-data.js` there again.
+
 ## Run it
 
 Open `index.html` in a browser. No server needed. Data is embedded in `places-data.js`.

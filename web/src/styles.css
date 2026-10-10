@@ -260,6 +260,19 @@ input[type="checkbox"], input[type="radio"] { width: 18px; min-height: 18px; hei
 .programs ul { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 10px; }
 .programs li { padding: 10px 12px; border-radius: var(--radius); background: var(--muted); }
 .programs li p { margin: 2px 0; }
+/* "What we know" panel on each place card */
+.know { margin-top: 14px; border-top: 1px solid var(--border); padding-top: 6px; }
+.know summary { cursor: pointer; font-weight: 500; font-size: 0.875rem; min-height: 44px; display: flex; align-items: center; }
+.know-body { display: grid; gap: 10px; font-size: 0.875rem; }
+.know-body p { margin: 0; }
+.know-facts { border-collapse: collapse; width: 100%; }
+.know-facts th { text-align: left; font-weight: 500; color: var(--muted-foreground); width: 32%; padding: 4px 8px 4px 0; vertical-align: top; }
+.know-facts td { padding: 4px 0; border-bottom: 1px solid var(--border); vertical-align: top; }
+.know-stated { color: var(--ok); font-weight: 500; }
+.know-unknown { color: var(--warn); font-weight: 500; }
+.know-trust { padding: 8px 10px; border-radius: var(--radius); border: 1px solid var(--border); }
+.know-ask { margin: 0; padding-left: 20px; }
+.know-ask li { margin: 2px 0; }
 .place-foot { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
 .source { font-size: 0.8125rem; color: var(--muted-foreground); margin: 0; }
 .notes { white-space: pre-wrap; }
