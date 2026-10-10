@@ -6,6 +6,6 @@ from the repo-root `handlers/` and `shared/`, with `base44-overrides/shared/` co
 
 Edit the repo-root copies (or the overrides), then run the sync again. Hand edits here are wiped.
 
-Last sync: 2026-10-10T18:40:34.356Z
-Functions: check_provider, draft_resource, find_resources, health, insights, list_places, make_plan, mcp, review_queue, scout, send_to_phone, submit_resource, whatsapp
+Last sync: 2026-10-10T18:51:13.239Z
+Functions: check_provider, draft_resource, find_resources, health, insights, list_places, make_plan, mcp, review_queue, scout, send_to_phone, speak, submit_resource, transcribe, voice, whatsapp
 Overrides: logRequest.ts, llm.ts, db.ts, auth.ts
