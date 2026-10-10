@@ -92,9 +92,9 @@
   "address": "48-08 91st Pl, Elmhurst, New York, 11373",
   "zip": "11373",
   "phone": "(917) 533-1679",
-  "hours": "Sat 9am-10am (pantry)",
+  "hours": "Sat 9am-10am (pantry; you can call ahead to have a bag prepared)",
   "languages": "",
-  "trust": "official",
+  "trust": "verified",
   "source_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D36&outFields=*&f=json",
   "to_confirm": [
    "Still operating here?",

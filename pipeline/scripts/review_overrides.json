@@ -19,5 +19,11 @@
   "open_evenings": "false",
   "open_weekends": "false",
   "note": "hours from recorded message on 2026-10-10, entered by the review team"
+ },
+ "place-fh-bethany-pantry": {
+  "hours": "Sat 9am-10am (pantry; you can call ahead to have a bag prepared)",
+  "open_evenings": "false",
+  "open_weekends": "true",
+  "note": "hours from phone call on 2026-10-10, entered by the review team"
  }
 }

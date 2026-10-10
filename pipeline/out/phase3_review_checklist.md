@@ -20,8 +20,8 @@ Always confirm: still operating at this address; phone answers; hours as listed;
    - 33-27 97th St, Corona, New York, 11368 | (718) 478-0780 | hours: Mon-Wed 10am-2pm
    - source: https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D34&outFields=*&f=json
    - check: languages not stated
-5. [ ] **BETHANY PANTRY** (`place-fh-bethany-pantry`, pantry, trust official)
-   - 48-08 91st Pl, Elmhurst, New York, 11373 | (917) 533-1679 | hours: Sat 9am-10am (pantry)
+5. [ ] **BETHANY PANTRY** (`place-fh-bethany-pantry`, pantry, trust verified)
+   - 48-08 91st Pl, Elmhurst, New York, 11373 | (917) 533-1679 | hours: Sat 9am-10am (pantry; you can call ahead to have a bag prepared)
    - source: https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D36&outFields=*&f=json
    - check: languages not stated
 6. [ ] **LOVE WINS NYC - ELMHURST** (`place-fh-love-wins-nyc-elmhurst`, pantry, trust official)

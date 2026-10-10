@@ -37,6 +37,7 @@ def flags(hours):
     """open_evenings / open_weekends for strings like 'Mon, Fri 8am-5pm; Tue-Thu 10am-6pm'. None if unreadable."""
     import re
     eve = wkd = False
+    hours = re.sub(r"\([^)]*\)", "", hours)          # notes in parentheses may contain ";"
     for group in hours.split(";"):
         m = re.match(r"\s*([A-Za-z ,\-]+?)\s+(\d[\d:]*\s*[ap]m)\s*-\s*(\d[\d:]*\s*[ap]m)", group.strip(), re.I)
         if not m:
