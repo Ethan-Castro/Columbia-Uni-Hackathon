@@ -28,6 +28,13 @@ const DOOR_LINKS = [
 /** Real screenshots of the result cards in Claude and ChatGPT. */
 const DOOR_SHOTS = ["doors/claude.jpg", "doors/chatgpt.jpg", "", ""];
 
+/** Setup and result screenshots for the "See it working" section. */
+const SETUP_SHOTS = [
+  { src: "doors/chatgpt-full.jpg", es: "ChatGPT: despensas en Bay Ridge, con botón para llamar, mapa y fuente.", en: "ChatGPT: pantries in Bay Ridge, with a call button, map and source." },
+  { src: "doors/claude-settings.jpg", es: "Claude: el conector Immigracion NYC y sus herramientas.", en: "Claude: the Immigracion NYC connector and its tools." },
+  { src: "doors/chatgpt-app.jpg", es: "ChatGPT: la app Inmigracion NYC, conectada.", en: "ChatGPT: the Inmigracion NYC app, connected." },
+];
+
 const COPY = {
   es: {
     title: "Los servicios de Nueva York,",
@@ -259,6 +266,23 @@ export function Home() {
         </div>
       </Section>
 
+      <Section
+        kicker={lang === "es" ? "Así se ve" : "See it working"}
+        title={lang === "es" ? "Ya conectado en Claude y ChatGPT" : "Already connected in Claude and ChatGPT"}
+        intro={lang === "es" ? "Capturas reales: se agrega una vez y responde con tarjetas que se pueden llamar." : "Real screenshots: add it once and it answers with cards you can call from."}
+      >
+        <div className="grid gap-4 md:grid-cols-5">
+          {SETUP_SHOTS.map((shot, i) => (
+            <figure key={shot.src} className={`m-0 min-w-0 ${i === 0 ? "md:col-span-3 md:row-span-2" : "md:col-span-2"}`}>
+              <a href={shot.src} target="_blank" rel="noreferrer" className="bg-card border-border block overflow-hidden rounded-xl border no-underline">
+                <img src={shot.src} alt={shot[lang]} loading="lazy" className={`w-full object-cover object-top ${i === 0 ? "aspect-[4/5]" : "aspect-[4/3]"}`} />
+              </a>
+              <figcaption className="text-muted-foreground mt-2 text-sm">{shot[lang]}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </Section>
+
       <div className="bg-muted/50 border-border border-y">
         <Section id="how" kicker={c.howKicker} title={c.howTitle}>
           <ol className="grid list-none gap-4 p-0 sm:grid-cols-2 lg:grid-cols-4">
@@ -318,7 +342,7 @@ export function Home() {
           </div>
         </div>
         <p className="text-muted-foreground mx-auto mt-10 max-w-3xl text-center text-xs">
-          {c.builtWith} · <a href="lugares/index.html">{lang === "es" ? "Todos los lugares (A–Z)" : "All places (A–Z)"}</a> · <a href={`como-lo-hicimos.html?lang=${lang}`}>{lang === "es" ? "Cómo lo hicimos" : "How we built it"}</a> · <a href="privacy.html">{c.privacy}</a> · <a href="terms.html">{c.terms}</a>
+          {c.builtWith} · <a href="https://www.instagram.com/inmigracionnyc/" target="_blank" rel="noreferrer">Instagram @inmigracionnyc</a> · <a href="lugares/index.html">{lang === "es" ? "Todos los lugares (A–Z)" : "All places (A–Z)"}</a> · <a href={`como-lo-hicimos.html?lang=${lang}`}>{lang === "es" ? "Cómo lo hicimos" : "How we built it"}</a> · <a href="privacy.html">{c.privacy}</a> · <a href="terms.html">{c.terms}</a>
         </p>
       </section>
     </div>
