@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Before you go / Antes de ir</title>
+<style>
+  :root { --bg:#fbf8f1; --ink:#1d2a22; --muted:#5d6b62; --line:#cfd8cf; --green:#1f6b45; --green-soft:#e6f2ea; --amber:#8a5a00; --amber-soft:#fff4d6; --card:#fff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { padding:20px 16px 8px; max-width:960px; margin:0 auto; }
+  h1 { font-weight:500; font-size:1.6rem; margin:0 0 4px; }
+  .sub { color:var(--muted); margin:0 0 12px; }
+  .version { display:inline-block; font-size:.8rem; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:3px 10px; background:#fff; }
+  .controls { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 4px; }
+  .controls input, .controls select { font:inherit; padding:8px 10px; border:1px solid var(--line); border-radius:10px; background:#fff; min-width:0; }
+  .controls input { flex:1 1 220px; }
+  .count { color:var(--muted); font-size:.9rem; margin:4px 0 0; }
+  main { max-width:960px; margin:0 auto; padding:8px 16px 40px; display:grid; gap:12px; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px; display:flex; flex-direction:column; gap:6px; }
+  .card h2 { font-size:1.05rem; font-weight:500; margin:0; }
+  .meta { color:var(--muted); font-size:.9rem; }
+  .pill { display:inline-block; font-size:.78rem; padding:2px 9px; border-radius:999px; border:1px solid var(--line); background:#f6f6f2; margin-right:4px; }
+  .pill.official { background:#eef1ff; border-color:#c6cdf5; color:#2b3a8c; }
+  .pill.verified { background:var(--green-soft); border-color:#9fc9b0; color:var(--green); }
+  .pill.unverified { background:var(--amber-soft); border-color:#e6c97a; color:var(--amber); }
+  .actions { display:flex; gap:8px; flex-wrap:wrap; margin-top:4px; }
+  .btn { display:inline-block; text-decoration:none; font-size:.9rem; padding:7px 13px; border-radius:999px; border:1px solid var(--green); color:var(--green); background:#fff; }
+  .btn.primary { background:var(--green); color:#fff; }
+  a.plain { color:var(--green); text-decoration:underline; text-underline-offset:2px; }
+  details.know { margin-top:6px; border-top:1px dashed var(--line); padding-top:8px; }
+  details.know summary { cursor:pointer; color:var(--green); font-weight:500; list-style:none; display:flex; align-items:center; gap:6px; }
+  details.know summary::-webkit-details-marker { display:none; }
+  details.know summary::before { content:"▸"; font-size:.9rem; transition:transform .15s; }
+  details.know[open] summary::before { transform:rotate(90deg); }
+  .know-body { font-size:.92rem; display:grid; gap:10px; margin-top:8px; }
+  .know-body h3 { font-size:.8rem; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); font-weight:600; margin:0 0 3px; }
+  .es { color:var(--muted); }
+  table.facts { border-collapse:collapse; width:100%; }
+  table.facts td { padding:3px 0; vertical-align:top; border-bottom:1px solid #eee; }
+  table.facts td:first-child { width:38%; color:var(--muted); }
+  .stated { color:var(--green); font-weight:500; }
+  .unknown { color:var(--amber); font-weight:500; }
+  .trust-box { border-radius:10px; padding:8px 10px; }
+  .trust-box.official { background:#eef1ff; }
+  .trust-box.verified { background:var(--green-soft); }
+  .trust-box.unverified { background:var(--amber-soft); }
+  ol.ask { margin:4px 0 0; padding-left:20px; }
+  ol.ask li { margin:2px 0; }
+  .word { overflow-wrap:anywhere; }
+  footer { max-width:960px; margin:0 auto; padding:0 16px 32px; color:var(--muted); font-size:.85rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Before you go / Antes de ir</h1>
+  <p class="sub">Call first. The listing tells you where; the phone tells you if it is open today. <span class="es">Llame primero. La lista dice dónde; el teléfono dice si está abierto hoy.</span></p>
+  <span class="version" id="version">Loading data…</span>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search name, address or ZIP / Buscar nombre, dirección o código postal" aria-label="Search">
+    <select id="borough" aria-label="Borough"><option value="">All boroughs / Todos</option></select>
+    <select id="type" aria-label="Type"><option value="">All types / Todos los tipos</option></select>
+  </div>
+  <p class="count" id="count"></p>
+</header>
+<main id="cards"></main>
+<footer>
+  Information and referrals only, never legal advice. Every card shows its source and last-checked date. <span class="es">Solo información y referencias, nunca asesoría legal.</span>
+</footer>
+
+<script src="places-data.js"></script>
+<script>
+(function () {
+  var DATA = window.BYG_DATA || { places: [], count: 0, source_file: "pipeline/hf_release/places.csv" };
+  var REPORT_URL = "https://inmigracion-nyc.com/#/submit";
+  var MAX_CARDS = 120;
+
+  // The bilingual questions to ask when you call. One short list, Spanish first.
+  var ASK = [
+    ["¿Están abiertos hoy y a qué hora?", "Are you open today, and what hours?"],
+    ["¿Hay alguien que hable español?", "Is there someone who speaks Spanish?"],
+    ["¿Necesito cita o puedo llegar sin cita?", "Do I need an appointment, or can I walk in?"],
+    ["¿Qué debo traer?", "What should I bring?"],
+    ["¿Tiene algún costo?", "Is there any cost?"]
+  ];
+
+  var TYPE_LABEL = {
+    pantry: ["Food pantry", "Despensa de comida"], doj_roster: ["DOJ-listed legal office", "Oficina legal en lista del DOJ"],
+    doj_pro_bono: ["DOJ pro bono legal", "Legal pro bono (DOJ)"], clinic: ["Clinic", "Clínica"],
+    benefits_office: ["Benefits office", "Oficina de beneficios"], consulate: ["Consulate", "Consulado"],
+    school: ["School", "Escuela"], check_casher: ["Check casher", "Casa de cambio de cheques"],
+    idnyc: ["IDNYC center", "Centro IDNYC"], other: ["Other", "Otro"]
+  };
+  var LANG_NAME = { es: "Spanish / español", en: "English / inglés", zh: "Chinese / chino", fr: "French / francés", ht: "Haitian Creole / criollo haitiano", ar: "Arabic / árabe", bn: "Bengali / bengalí", ru: "Russian / ruso", ko: "Korean / coreano", pt: "Portuguese / portugués" };
+
+  // Trust wording. "official" is a listing by a government source; only "verified" means a person confirmed it by phone.
+  var TRUST = {
+    official: { pill: "Official listing / Lista oficial",
+      en: "Listed by an official source (government data). Nobody on our team has called this place. An official listing is not a hand-verified listing.",
+      es: "Aparece en una fuente oficial (datos del gobierno). Nadie de nuestro equipo ha llamado a este lugar. Una lista oficial no es una verificación personal." },
+    verified: { pill: "Confirmed by phone / Confirmado por teléfono",
+      en: "A person on our team confirmed this by phone on the check date.",
+      es: "Una persona de nuestro equipo lo confirmó por teléfono en la fecha de revisión." },
+    unverified: { pill: "Provider's own page / Página del proveedor",
+      en: "From the provider's own web page. Not an official listing and not confirmed by phone.",
+      es: "De la página web del proveedor. No es una lista oficial y no está confirmado por teléfono." }
+  };
+
+  function h(tag, cls, kids) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    (function add(k) {
+      if (Array.isArray(k)) { k.forEach(add); return; }
+      if (k == null || k === false || k === "") return;
+      e.appendChild(typeof k === "object" ? k : document.createTextNode(String(k)));
+    })(kids);
+    return e;
+  }
+  function link(href, text, cls) { var a = h("a", cls || "plain", text); a.href = href; a.target = "_blank"; a.rel = "noopener noreferrer"; return a; }
+  function host(url) { try { return new URL(url).hostname.replace(/^www\./, ""); } catch (e) { return url; } }
+  function stated(v) { return !!(v && String(v).trim()); }
+  function fact(en, es, value, shownValue) {
+    var status = stated(value)
+      ? h("span", "stated", ["Stated / Indicado", shownValue ? ": " : "", shownValue ? h("span", "word", shownValue) : null])
+      : h("span", "unknown", "Unknown, ask when you call / No sabemos, pregunte al llamar");
+    return h("tr", null, [h("td", null, [en, " ", h("span", "es", "/ " + es)]), h("td", null, status)]);
+  }
+  function langNames(codes) { return codes.split("|").filter(Boolean).map(function (c) { return LANG_NAME[c] || c; }).join(", "); }
+  function typeLabel(t) { var l = TYPE_LABEL[t] || [t, t]; return l[0] + " / " + l[1]; }
+
+  function knowPanel(p) {
+    var trust = TRUST[p.trust] || TRUST.unverified;
+    var trustKey = TRUST[p.trust] ? p.trust : "unverified";
+    var body = h("div", "know-body", [
+      h("div", null, [
+        h("h3", null, "Source and date / Fuente y fecha"),
+        h("div", null, ["Source / Fuente: ", stated(p.source_url) ? link(p.source_url, host(p.source_url)) : h("span", "unknown", "none / ninguna")]),
+        h("div", null, ["Last checked / Última revisión: ", stated(p.last_checked) ? p.last_checked : h("span", "unknown", "unknown / desconocida")])
+      ]),
+      h("div", null, [
+        h("h3", null, "Stated or unknown / Indicado o desconocido"),
+        h("table", "facts", [
+          fact("Hours", "Horario", p.hours, p.hours),
+          fact("Language", "Idioma", p.languages, stated(p.languages) ? langNames(p.languages) : ""),
+          fact("Phone", "Teléfono", p.phone, p.phone),
+          fact("Address", "Dirección", p.address, p.address)
+        ])
+      ]),
+      h("div", "trust-box " + trustKey, [
+        h("h3", null, "How we know / Cómo lo sabemos"),
+        h("div", null, trust.en),
+        h("div", "es", trust.es)
+      ]),
+      h("div", null, [
+        h("h3", null, "Next action / Siguiente paso"),
+        h("div", null, [stated(p.phone) ? ["Call first: ", link("tel:" + p.phone.replace(/[^\d+]/g, ""), p.phone), ". "] : "No phone listed; check the source link before going. ",
+          h("span", "es", stated(p.phone) ? "Llame primero y pregunte:" : "Sin teléfono en la lista; revise la fuente antes de ir.")]),
+        h("ol", "ask", ASK.map(function (q) { return h("li", null, [q[0], " ", h("span", "es", "/ " + q[1])]); }))
+      ]),
+      h("div", null, [link(REPORT_URL, "Report a change / Reportar un cambio", "btn"),
+        h("div", "meta", "Wrong hours, closed, moved? Tell us. / ¿Horario incorrecto, cerrado, se mudó? Avísenos.")])
+    ]);
+    var d = h("details", "know", [h("summary", null, "What we know / Lo que sabemos"), body]);
+    d.dataset.placeId = p.id;
+    return d;
+  }
+
+  function card(p) {
+    var trust = TRUST[p.trust] || TRUST.unverified;
+    var c = h("article", "card", [
+      h("h2", null, p.name),
+      h("div", "meta", [typeLabel(p.org_type), p.borough ? " · " + p.borough : ""]),
+      h("div", "meta word", stated(p.address) ? p.address : h("span", "unknown", "Address unknown / Dirección desconocida")),
+      h("div", "meta", ["Hours / Horario: ", stated(p.hours) ? p.hours : h("span", "unknown", "unknown / desconocido")]),
+      h("div", null, h("span", "pill " + (TRUST[p.trust] ? p.trust : "unverified"), trust.pill)),
+      h("div", "actions", [
+        stated(p.phone) ? link("tel:" + p.phone.replace(/[^\d+]/g, ""), "Call / Llamar " + p.phone, "btn primary") : null,
+        stated(p.address) ? link("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(p.address), "Map / Mapa", "btn") : null
+      ]),
+      knowPanel(p)
+    ]);
+    c.dataset.placeId = p.id;
+    return c;
+  }
+
+  var q = document.getElementById("q"), bSel = document.getElementById("borough"), tSel = document.getElementById("type");
+  var cards = document.getElementById("cards"), count = document.getElementById("count");
+  document.getElementById("version").textContent = "This prototype uses " + DATA.count + " places from " + DATA.source_file + ". Prototype only; not the live site's count.";
+
+  function uniq(key) { var s = {}; DATA.places.forEach(function (p) { if (p[key]) s[p[key]] = 1; }); return Object.keys(s).sort(); }
+  uniq("borough").forEach(function (b) { bSel.appendChild(h("option", null, b)).value = b; });
+  uniq("org_type").forEach(function (t) { var o = h("option", null, typeLabel(t)); o.value = t; tSel.appendChild(o); });
+
+  function render() {
+    var text = q.value.trim().toLowerCase(), b = bSel.value, t = tSel.value;
+    var only = (location.hash.match(/ids=([^&]+)/) || [])[1]; // #ids=a,b shows a shortlist (used by the demo screenshot)
+    var onlyIds = only ? decodeURIComponent(only).split(",") : null;
+    var hits = DATA.places.filter(function (p) {
+      if (onlyIds && onlyIds.indexOf(p.id) < 0) return false;
+      if (b && p.borough !== b) return false;
+      if (t && p.org_type !== t) return false;
+      if (!text) return true;
+      return (p.name + " " + p.address + " " + p.zip).toLowerCase().indexOf(text) >= 0;
+    });
+    cards.textContent = "";
+    hits.slice(0, MAX_CARDS).forEach(function (p) { cards.appendChild(card(p)); });
+    count.textContent = hits.length + " places / lugares" + (hits.length > MAX_CARDS ? " (showing first " + MAX_CARDS + "; search to narrow / mostrando " + MAX_CARDS + "; busque para filtrar)" : "");
+  }
+  window.addEventListener("hashchange", render);
+  q.addEventListener("input", render); bSel.addEventListener("change", render); tSel.addEventListener("change", render);
+  render();
+})();
+</script>
+</body>
+</html>
