@@ -8,7 +8,7 @@ All the code lives in this repo. Base44 gets a generated copy of it, and nobody 
 | What | Where |
 |---|---|
 | Our code (edit this) | `functions/`, `shared/` |
-| Base44-only versions of 3 files | `base44-overrides/shared/` (`db.ts`, `auth.ts`, `logRequest.ts`) |
+| Base44-only versions of 4 files | `base44-overrides/shared/` (`db.ts`, `auth.ts`, `logRequest.ts`, `llm.ts`) |
 | Generated copy that gets deployed (never edit) | `base44/functions/`, `base44/shared/` (see `base44/GENERATED.md`) |
 | Entity schemas | `base44/entities/*.jsonc` |
 | Commands | `scripts/base44-sync.ts`, `scripts/base44-seed.ts` |
@@ -37,11 +37,12 @@ What the sync does:
   - `db.ts` uses `createClientFromRequest(req).asServiceRole.entities`.
   - `auth.ts` accepts either `x-admin-token` or a signed-in Base44 user with role admin.
   - `logRequest.ts` wraps the write in `waitUntil`.
+  - `llm.ts` keeps the repo-root OpenRouter call when the `OPENROUTER_API_KEY` secret is set, and falls back to Base44's `Core.InvokeLLM` only when it is not.
   - An override that imports `./X.local.ts` builds on the repo-root original, which the sync copies in under that name.
 - It fails if an override no longer exports everything that the repo-root file exports. If someone adds an export to `shared/db.ts`, add it to the override as well.
 - It fails if a relative import resolves outside `base44/`, or if a bare import is not one of `npm:` / `jsr:` / `node:` / `https:` / `base44:runtime`. Base44 ignores `deno.json` import maps.
 - It runs `deno check` with a throwaway config that stubs `base44:runtime`, and writes nothing into the repo for this. `--no-check` skips it.
-- It removes `"automations"` from the generated `function.jsonc`. This app uses Base44 Workflows, which reject legacy automations with error 409 and fail the whole deploy. To schedule Scout nightly, create a Workflow in the dashboard instead.
+- It removes `"automations"` from the generated `function.jsonc`. This app uses Base44 Workflows, which reject legacy automations with error 409 and fail the whole deploy. Scout is not scheduled on Base44; see (f).
 - Flags: `--no-check` and `--no-prune`.
 
 To deploy a single function after a sync: `base44 functions deploy find_resources`.
@@ -114,7 +115,9 @@ curl -s -X POST $U/mcp -H 'content-type: application/json' -d '{"jsonrpc":"2.0",
 **Ethan**
 - Invite Felix and Gil from the dashboard: https://app.base44.com/apps/6aca64c59c3d35bc8bab2330. Use the invite or share button in the app's dashboard settings. Editor access lets them view data and logs.
 - Run the sync, seed and secrets commands above (or ask Claude to).
-- Optional: to make Scout run nightly, add a Workflow in the dashboard that calls the `scout` function.
+- **Scout runs by hand for the demo**, with the admin token (the admin page has no Scout button):
+  `curl -s -X POST $U/scout -H "x-admin-token: $ADMIN_TOKEN" -H 'content-type: application/json' -d '{"query":"food pantry Corona Queens","max_results":5}'`
+  New drafts land in the review queue as pending Submissions. A nightly Workflow that just calls `scout` gets 401, because `scout` requires the admin token. The repo's `scout` now also accepts a `SCOUT_TOKEN` secret sent in the body (`scout_token`), which is the path for a Workflow, but that version is not deployed yet and `SCOUT_TOKEN` is not set. Leave nightly runs off for the demo.
 
 **Felix**
 - Send the three CSVs (`programs.csv`, `places.csv`, `links.csv`). `deno task import` and then `base44-seed --replace` put them live. Felix needs nothing in Base44 besides viewing data.
@@ -123,19 +126,24 @@ curl -s -X POST $U/mcp -H 'content-type: application/json' -d '{"jsonrpc":"2.0",
 - View data in the dashboard's **Data** tab: Program, Place, Link, Submission and RequestLog.
 - Programs and places come from Felix's files, and the next seed overwrites edits to them. Send fixes to Ethan or Felix instead of editing records.
 - Check the site on phones in Spanish and English once the web app is deployed.
-- **Twilio WhatsApp sandbox.** `send_to_phone` texts through it. Do this on every demo phone:
-  1. In the Twilio Console, open Messaging > Try it out > Send a WhatsApp message. Note the sandbox number (+1 415 523 8886, the `TWILIO_WHATSAPP_FROM` we set) and the `join <two-words>` code shown there. Ethan can share Twilio console access. Never paste the Account SID or Auth Token into chats or docs.
-  2. From each demo phone, send `join <two-words>` to that number on WhatsApp and wait for the confirmation.
-  3. Each phone must have messaged the sandbox in the last 24 hours, so re-send any message to it on demo morning. Otherwise Twilio refuses (codes 63015 "not joined" and 63016 "outside 24h window"; `send_to_phone` explains both in plain words).
-  4. Leave the sandbox's "When a message comes in" webhook alone. There is no inbound WhatsApp chat function yet, and the bot only sends.
-  5. Base44 already has the Twilio secrets. Gil sets nothing in Base44 for this.
-- **Voice line.** In the voice-agent tool you use, add an MCP server or tool with the connector URL above (no auth, no trailing slash). Attach our Twilio phone number to that tool; it asks for the Account SID and Auth Token, which Ethan shares privately. Test by asking for "comida cerca de 11368".
+- **Twilio and the voice line: the team checklist is the source of truth.** Gil's prompt on https://claude.ai/artifact/2yW8hwuCAqNudm2W2hZ8b6 has the full steps. The short version, checked against Twilio's API at 12:45:
+  - **The account is still on Trial.** If the Console shows no Trial banner, skip the trial-only steps.
+  - **Our number, +1 743 330 7616 (voice + SMS), still points at Twilio's demo** (`demo.twilio.com`) for both calls and texts. Calling it plays Twilio's demo message until ElevenLabs takes it over.
+  - **WhatsApp sandbox.** `TWILIO_WHATSAPP_FROM` is the sandbox number, +1 415 523 8886. On every demo phone, send exactly `join package-question` to it on WhatsApp and wait for the reply. A join lasts 3 days. The phrase and a QR code are also in Console > Messaging > Try it out > Send a WhatsApp message.
+  - **Trial only: verify each demo phone** in Console > Phone Numbers > Manage > Verified Caller IDs (4 free slots, SMS code). On a trial, Twilio only messages and takes calls from verified numbers (error 21608 otherwise).
+  - **24-hour window.** Between 4:00 and 4:45, each demo phone sends "hola" to the sandbox. Errors: 63015 = not joined, 63016 = no message from that phone in 24 hours. The sandbox sends at most one message every 3 seconds.
+  - **Leave the sandbox's "When a message comes in" setting alone.** There is no inbound WhatsApp function; the bot only sends.
+  - **Voice, step 0: make one test call first.** Import +1 743 330 7616 into ElevenLabs (Phone Numbers > Import > Twilio, with the Account SID and Auth Token Ethan shares privately, never in chats or docs) and call it from a verified phone. If it says "The Stream verb is not available on trial accounts", the trial blocks voice agents: upgrade Twilio (about $20), use a free Vapi number, or demo the agent from the laptop.
+  - **ElevenLabs MCP server:** Integrations > Add Custom MCP Server, URL = the connector URL in (e), no token or headers, transport Streamable HTTP (not SSE), approval No Approval or Fine-Grained with every tool auto-approved (not Always Ask). 5 tools should appear. **Set the tool timeout to 15 s or more:** `find_resources` and `make_plan` take 6 to 9 seconds on Base44 right now (see (g)). `check_provider` takes under half a second.
+  - Gil sets nothing in Base44 for any of this; the Twilio secrets are already there.
 - Slides and the demo video.
 
 ## (g) Known limits
 
 - **Free plan.** Expect function rate and usage limits. Don't load-test. Every `secrets set` redeploys the functions.
 - **URLs.** No trailing slash. The gateway answers `OPTIONS` (CORS preflight) itself, with 200, so the handler never sees it. `GET /mcp` returns 405 because there is no SSE stream.
+- **Validation.** Base44 enforces only `required`. `pattern` and `format` are not checked (a Submission with zip `"abc"` was stored), so ids, zips and URLs are validated in our code (`scripts/import.ts`, the seed's `keyed()`, `cleanFields`). Unset fields read back as `null`, not missing. Booleans that the code derives from hours (`open_evenings`, `open_weekends`) have no schema default, so an unset value stays `null` and the hours fallback runs on approval.
+- **AI latency.** At 12:30 and again after the last sync, `find_resources` took 7 to 9 seconds through the public URL and often hit its 8-second LLM cap, returning `summaries_by: "template"`. `make_plan` took 6 to 8 seconds. The same OpenRouter call takes about 2 seconds from a laptop. The fix in `shared/llm.ts` (reasoning off) is synced into `base44/` but **not deployed yet**. After `--deploy`, time it again (see (d)). If it is still slow, log per-call time in the OpenRouter fetch on the Workers runtime.
 - **Unknown fields are silently dropped.** Base44 stores only fields that are defined in `base44/entities/*.jsonc`. If code writes a new field, add it to the schema, or the value disappears. We already added Place `key` and `needs`, Program `key`, and Submission `needs`, `notes`, `place_id` and `reviewed_at`.
 - **Filters.** Scalar-vs-array filters work natively, as in Mongo: `{needs: "food"}` matches arrays that contain `food`, and an array value means "any of". `$in` works.
 - **No unique constraints.** Uniqueness of `key` is enforced by our data layer (`create` returns 409 on a duplicate) and by upsert in the seed, not by Base44.
