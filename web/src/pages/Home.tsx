@@ -25,6 +25,9 @@ const DOOR_LINKS = [
   `tel:${VOICE_NUMBER.replace(/[^\d+]/g, "")}`,
 ];
 
+/** Real screenshots of the result cards in Claude and ChatGPT. */
+const DOOR_SHOTS = ["doors/claude.jpg", "doors/chatgpt.jpg", "", ""];
+
 const COPY = {
   es: {
     title: "Los servicios de Nueva York,",
@@ -227,7 +230,13 @@ export function Home() {
             const Icon = DOOR_ICONS[i];
             return (
               <div key={d.name} className="bg-card border-border flex min-w-0 flex-col rounded-xl border p-5">
-                <div className="bg-muted mb-4 grid size-10 place-items-center rounded-lg"><Icon className="size-5" /></div>
+                {DOOR_SHOTS[i] ? (
+                  <a href={DOOR_SHOTS[i]} target="_blank" rel="noreferrer" className="border-border mb-4 block aspect-[4/3] overflow-hidden rounded-lg border no-underline">
+                    <img src={DOOR_SHOTS[i]} alt={lang === "es" ? `Respuesta real en ${d.name}` : `A real answer in ${d.name}`} loading="lazy" className="size-full object-cover object-top" />
+                  </a>
+                ) : (
+                  <div className="bg-muted mb-4 grid size-10 place-items-center rounded-lg"><Icon className="size-5" /></div>
+                )}
                 <h3 className="text-base font-semibold">{d.name}</h3>
                 <p className="text-muted-foreground mt-1 flex-1 text-sm">{d.body}</p>
                 <p className="text-foreground mt-3 text-xs font-medium">
