@@ -326,7 +326,7 @@ async function startLive() {
           call.setAttribute("aria-label", "Llamar a " + (name || "el lugar"));
           found = true; setState("listening");
           pendingDial = call.href; sawSpeech = mode === "speaking";
-          clearTimeout(dialTimer); dialTimer = setTimeout(dialNow, 9000); // never wait forever
+          clearTimeout(dialTimer); dialTimer = setTimeout(dialNow, 4000); // about one short sentence
           live.textContent = "Botón para llamar a " + (name || "el lugar");
           return "Listo: la persona ve el botón verde para llamar a " + (name || "el lugar") + ".";
         },
