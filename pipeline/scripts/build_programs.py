@@ -17,6 +17,11 @@ COLUMNS = ["id", "name", "needs", "who_can_use", "status_note", "bring", "how_to
 NEEDS = {"food", "legal", "health", "benefits", "money", "school", "id", "housing", "work", "transit"}
 SOURCE_URL = "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number={}"
 STATUS_TAG = "Open to all New Yorkers regardless of immigration status (NYC Benefits dataset tag)."
+# Ethan 12:50: programs whose eligibility depends on status/SSN get a plain referral line. It never asks for or
+# assumes the reader's status. Added to curated notes that state a status or SSN requirement.
+LEGAL_REFERRAL = " If you have questions about how this applies to you, talk with a free legal provider before applying."
+STATUS_DEPENDENT = re.compile(r"citizen|lawful|legal immigration|qualified non|immigration status requirements|"
+                              r"social security|\bSSN\b|work permit|employment authorization|citizenship or immigration", re.I)
 
 
 def clean(s):
@@ -65,6 +70,8 @@ def main():
         pid, needs, en, es, status = DATASET[r["unique_id_number"]]
         if status is None:
             status = STATUS_TAG if "regardless of" in (r["population_served"] or "") else ""
+        elif STATUS_DEPENDENT.search(status) and "regardless of" not in status:
+            status += LEGAL_REFERRAL
         who = clean(r["plain_language_eligibility"])
         if not who and clean(r["population_served"]):
             who = "Population served: " + clean(r["population_served"]).replace(",", ", ")
@@ -79,7 +86,10 @@ def main():
             "source_url": SOURCE_URL.format(r["unique_id_number"]), "last_checked": TODAY,
         })
     for m in MANUAL:
-        out.append({**{k: m.get(k, "") for k in COLUMNS}, "last_checked": TODAY})
+        row = {**{k: m.get(k, "") for k in COLUMNS}, "last_checked": TODAY}
+        if row["status_note"] and STATUS_DEPENDENT.search(row["status_note"]):
+            row["status_note"] += LEGAL_REFERRAL
+        out.append(row)
 
     # light self-checks; scripts/validate.py does the full contract check in phase 5
     ids = [o["id"] for o in out]
