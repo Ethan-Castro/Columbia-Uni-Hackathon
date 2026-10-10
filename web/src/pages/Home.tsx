@@ -198,16 +198,16 @@ export function Home() {
       <section className="mx-auto w-full max-w-6xl px-6 pt-12 sm:pt-16" aria-labelledby="community-band">
         <a
           href={HREF.community}
-          className="bg-foreground text-background flex flex-col gap-6 rounded-3xl p-8 no-underline sm:flex-row sm:items-center sm:justify-between sm:p-10"
+          className="bg-card border-foreground text-foreground flex flex-col gap-6 rounded-3xl border p-8 no-underline sm:flex-row sm:items-center sm:justify-between sm:p-10"
         >
           <div className="flex min-w-0 items-start gap-4">
-            <Users className="mt-1 size-8 shrink-0 opacity-80" />
+            <Users className="text-brand mt-1 size-8 shrink-0" />
             <div className="min-w-0">
               <h2 id="community-band" className="font-sans text-3xl font-bold tracking-tight sm:text-4xl">{c.commTitle}</h2>
-              <p className="mt-2 max-w-2xl text-base opacity-80 sm:text-lg">{c.commBody}</p>
+              <p className="text-muted-foreground mt-2 max-w-2xl text-base sm:text-lg">{c.commBody}</p>
             </div>
           </div>
-          <span className="bg-background text-foreground inline-flex min-h-14 shrink-0 items-center justify-center rounded-full px-8 text-lg font-semibold">
+          <span className="bg-primary text-primary-foreground border-foreground inline-flex min-h-14 shrink-0 items-center justify-center rounded-full border px-8 text-lg font-semibold">
             {c.commCta}<ArrowRight className="ml-2 size-5" />
           </span>
         </a>
