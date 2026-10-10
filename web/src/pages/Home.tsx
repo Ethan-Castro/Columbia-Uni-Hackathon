@@ -38,7 +38,7 @@ const COPY = {
     proof: (p: number, g: number) => `${p} lugares · ${g} programas · revisados el 10 oct 2026`,
     cta1: "Buscar un servicio",
     cta2: "Cómo funciona",
-    alts: ["Respuesta por WhatsApp con despensas en Corona", "Plan de tres pasos en Claude", "Directorio en el teléfono"],
+    alts: ["Respuesta por WhatsApp con despensas en Corona", "Despensas en Sunset Park en Claude", "Comida en Bay Ridge en ChatGPT"],
     doorsKicker: "Una pregunta, cuatro puertas",
     doorsTitle: "Pregunte donde ya está",
     doorsIntro: "No hay que bajar otra app. Las cuatro puertas leen el mismo mapa al mismo tiempo.",
@@ -94,7 +94,7 @@ const COPY = {
     proof: (p: number, g: number) => `${p} places · ${g} programs · checked Oct 10, 2026`,
     cta1: "Find a service",
     cta2: "How it works",
-    alts: ["WhatsApp reply with pantries in Corona", "Three-step plan in Claude", "Directory on a phone"],
+    alts: ["WhatsApp reply with pantries in Corona", "Pantries in Sunset Park in Claude", "Food in Bay Ridge in ChatGPT"],
     doorsKicker: "One question, four doors",
     doorsTitle: "Ask where you already are",
     doorsIntro: "No new app to download. All four doors read the same map at the same time.",
@@ -197,7 +197,7 @@ export function Home() {
         titleHighlight={c.highlight}
         description={c.description}
         socialProof={c.proof(counts.Place, counts.Program)}
-        images={["hero/wa.png", "hero/claude.png", "hero/directory.png"]}
+        images={["hero/wa.png", "hero/claude-live.jpg", "hero/chatgpt-live.jpg"]}
         imageAlts={c.alts}
         animation="subtle"
         primaryCTA={{ ctaEnabled: true, text: c.cta1, link: HREF.directory, variant: "default", size: "lg" }}
