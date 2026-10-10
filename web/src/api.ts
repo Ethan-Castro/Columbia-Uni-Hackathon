@@ -12,6 +12,8 @@
 // "admin" instead (see shared/auth.ts), so the token helpers become no-ops.
 
 import type {
+  CommunityPost,
+  CommunityPostInput,
   Insights,
   ListPlacesResult,
   ReviewActionResult,
@@ -83,7 +85,20 @@ export function submitResource(input: SubmitInput) {
   return call<SubmitResult>("submit_resource", input);
 }
 
+/** Community page posts (discussion only; never directory results). */
+export function listCommunityPosts() {
+  return call<{ posts: CommunityPost[] }>("community", { action: "list" });
+}
+
+export function postToCommunity(input: CommunityPostInput) {
+  return call<{ ok: boolean; message: string; post?: CommunityPost }>("community", { action: "post", ...input });
+}
+
 // ---------- admin ----------
+
+export function hideCommunityPost(id: string) {
+  return call<{ ok: boolean }>("community", { action: "hide", id }, { admin: true });
+}
 
 export function listSubmissions(status: "pending" | "approved" | "rejected" = "pending") {
   return call<ReviewListResult>("review_queue", { action: "list", status }, { admin: true });

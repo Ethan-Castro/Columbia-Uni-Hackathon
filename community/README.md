@@ -1,5 +1,7 @@
 # Corona community pilot (HumHub)
 
+> The demo version now lives inside the Base44 app at `#/community` (https://inmigracion-nyc.com/#/community once deployed). See `web/src/pages/Community.tsx` and `shared/web/community.ts`. This HumHub setup is an optional, separate local experiment.
+
 An isolated HumHub community for the demo. It is separate from the NYC Navigator app: own Compose project (`corona-community-pilot`), own port (**8090**), own MariaDB container and volumes. Stopping or deleting it cannot affect `pipeline/`, the CSVs, Base44 entities, imports, or the live MCP functions.
 
 Image: the official `humhub/humhub:1.18.6`, pulled through `mirror.gcr.io` because Docker Hub rate-limited direct pulls (it is the same image).

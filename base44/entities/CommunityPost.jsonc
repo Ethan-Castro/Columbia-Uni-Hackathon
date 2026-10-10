@@ -1,0 +1,58 @@
+// Base44 entity schema. Keep in sync with shared/schema.ts. Built-in fields (id, created_date, ...) are not defined here.
+{
+  "name": "CommunityPost",
+  "type": "object",
+  "title": "CommunityPost",
+  "description": "A community page post: a local question, a resource correction, or a reply. Discussion only; never a directory result. No names, phones or emails.",
+  "properties": {
+    "kind": {
+      "type": "string",
+      "enum": [
+        "question",
+        "correction",
+        "reply"
+      ]
+    },
+    "body": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000
+    },
+    "need": {
+      "type": "string",
+      "enum": [
+        "food",
+        "legal",
+        "health",
+        "benefits",
+        "money",
+        "school",
+        "id",
+        "housing",
+        "work",
+        "transit"
+      ]
+    },
+    "zip": {
+      "type": "string",
+      "pattern": "^([0-9]{5})?$"
+    },
+    "parent_id": {
+      "type": "string",
+      "description": "Replies: id of the post they answer (demo-... for the built-in examples)"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "published",
+        "hidden"
+      ],
+      "default": "published"
+    }
+  },
+  "required": [
+    "kind",
+    "body",
+    "status"
+  ]
+}

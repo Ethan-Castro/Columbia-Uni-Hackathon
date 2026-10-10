@@ -43,6 +43,12 @@ export type LinkType = typeof LINK_TYPES[number];
 export const SUBMISSION_STATUS = ["pending", "approved", "rejected"] as const;
 export type SubmissionStatus = typeof SUBMISSION_STATUS[number];
 
+export const COMMUNITY_KINDS = ["question", "correction", "reply"] as const;
+export type CommunityKind = typeof COMMUNITY_KINDS[number];
+
+export const COMMUNITY_STATUS = ["published", "hidden"] as const;
+export type CommunityStatus = typeof COMMUNITY_STATUS[number];
+
 export const CHANNELS = ["mcp", "whatsapp", "voice", "web"] as const;
 export type Channel = typeof CHANNELS[number];
 
@@ -123,6 +129,20 @@ export interface RequestLog extends BuiltIn {
   results_found: number;
   unmet: boolean;
   created_at: string; // ISO datetime
+}
+
+/**
+ * A post on the community page: a local question, a resource correction, or a
+ * reply. Discussion only: posts never become directory results (only an
+ * approved Submission does). No names, phones or emails are stored.
+ */
+export interface CommunityPost extends BuiltIn {
+  kind: CommunityKind;
+  body: string;
+  need?: Need;
+  zip?: string;
+  parent_id?: string; // replies: id of the post they answer ("demo-..." for the built-in examples)
+  status: CommunityStatus;
 }
 
 export const REQUEST_LOG_FIELDS = [
@@ -214,7 +234,7 @@ export const PROGRAM_ENUMS = { needs: NEEDS } as const;
 export const PLACE_ENUMS = { org_type: ORG_TYPES, trust: TRUST } as const;
 export const LINK_ENUMS = { type: LINK_TYPES } as const;
 
-export const ENTITY_NAMES = ["Program", "Place", "Link", "Submission", "RequestLog"] as const;
+export const ENTITY_NAMES = ["Program", "Place", "Link", "Submission", "RequestLog", "CommunityPost"] as const;
 export type EntityName = typeof ENTITY_NAMES[number];
 
 export interface EntityMap {
@@ -223,4 +243,5 @@ export interface EntityMap {
   Link: Link;
   Submission: Submission;
   RequestLog: RequestLog;
+  CommunityPost: CommunityPost;
 }

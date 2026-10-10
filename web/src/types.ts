@@ -144,3 +144,26 @@ export interface Insights {
   channels: Count[];
   by_day: Count[];
 }
+
+export type CommunityKind = "question" | "correction" | "reply";
+
+export interface CommunityPost {
+  id: string;
+  kind: CommunityKind;
+  body: string;
+  need?: Need;
+  zip?: string;
+  parent_id?: string;
+  created_date?: string;
+  synthetic?: boolean; // built-in demo example, labeled on the page
+}
+
+export interface CommunityPostInput {
+  kind?: "question" | "correction";
+  body: string;
+  need?: string;
+  zip?: string;
+  parent_id?: string;
+  website?: string; // honeypot, always empty for people
+  ui_language?: string;
+}

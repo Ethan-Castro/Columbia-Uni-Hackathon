@@ -6,6 +6,7 @@ React 18 + Vite 6, plain CSS, no UI or chart libraries. Spanish by default, with
 |---|---|---|
 | `#/` | Directory: filter by need, borough and language spoken, plus text search. Cards show hours, languages, what to bring, a trust badge, a source link and "Revisado el ..." | public |
 | `#/submit` | Suggest a resource. It becomes a **pending** Submission, and a person reviews every entry | public |
+| `#/community` | Corona community: neighbors post local questions (including housing) and directory corrections, and reply. Discussion only: posts never become directory results. A pinned card sends tips to `#/submit`. Built-in examples are labeled synthetic. Admins (token set) see a Hide button | public |
 | `#/admin` | Review queue: approve (with optional edits) or reject. Approving publishes a Place with `trust: community` | admin |
 | `#/insights` | "Tráfico de prueba / Test traffic" dashboard: requests by need, unmet by zip, language mix, channel mix | admin |
 
@@ -42,6 +43,7 @@ Build: `npm run build` writes to `web/dist/`. `npm run preview` serves that buil
 |---|---|---|
 | `list_places` | `{need?, borough?, language?, q?, ui_language?}` | Sorted by trust, then name. Writes one RequestLog row (channel `web`) **only** when `need` is set. The UI filters search text in the browser, so typing creates no log rows |
 | `submit_resource` | `{name, address, org?, org_type?, borough?, zip?, hours?, languages?, phone?, needs?, source_url?, notes?, website}` | `website` is a honeypot: when it is filled, the function returns the same thank-you and stores nothing. Rejects duplicate pending entries (same name and address). Never publishes |
+| `community` | `{action: "list"}` · `{action: "post", kind?, body, need?, zip?, parent_id?, website}` · `{action: "hide", id}` (admin) | Stores a `CommunityPost`. Posts publish right away; admins can hide them. Phone numbers and emails are replaced before saving, and posts about immigration status are refused and not stored. Flood guard: 60 posts per hour. Never touches Place or Submission |
 | `review_queue` | `{action:"list", status?}` / `{action:"approve", id, edits?}` / `{action:"reject", id}` | Admin only. Approve creates `place-<slug>` (made unique), `trust: community`, `last_checked` today, and `source_url` from the submission or `community-submission:<id>`. Needs a 5-digit zip |
 | `insights` | `{}` | Admin only. Aggregates RequestLog and always returns `test_traffic: true` |
 

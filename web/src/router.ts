@@ -1,13 +1,14 @@
-// Tiny hash router (no dependency): #/ (home), #/directory , #/graph , #/submit , #/admin , #/insights
+// Tiny hash router (no dependency): #/ (home), #/directory , #/graph , #/submit , #/community , #/admin , #/insights
 import { useEffect, useState } from "react";
 
-export type Route = "home" | "directory" | "graph" | "submit" | "admin" | "insights";
+export type Route = "home" | "directory" | "graph" | "submit" | "community" | "admin" | "insights";
 
 const ROUTES: Record<string, Route> = {
   "": "home",
   directory: "directory",
   graph: "graph",
   submit: "submit",
+  community: "community",
   admin: "admin",
   insights: "insights",
 };
@@ -17,6 +18,7 @@ export const HREF: Record<Route, string> = {
   directory: "#/directory",
   graph: "#/graph",
   submit: "#/submit",
+  community: "#/community",
   admin: "#/admin",
   insights: "#/insights",
 };
