@@ -66,6 +66,17 @@ MD],
         ];
 
         foreach ($posts as $p) {
+            if ($p['pin']) {
+                // Keep one pinned how-to post; update its text in place (e.g. when the form URL changes).
+                $pinned = Post::find()->contentContainer($space)->andWhere(['content.pinned' => 1])->one();
+                if ($pinned !== null) {
+                    if ($pinned->message !== $p['message']) {
+                        $pinned->message = $p['message'];
+                        $pinned->save();
+                    }
+                    continue;
+                }
+            }
             $exists = Post::find()->contentContainer($space)->andWhere(['message' => $p['message']])->exists();
             if ($exists) {
                 continue;

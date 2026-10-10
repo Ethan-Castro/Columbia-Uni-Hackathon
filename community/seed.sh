@@ -3,7 +3,7 @@
 # Usage: ./seed.sh [suggest-a-resource-form-url]
 set -euo pipefail
 cd "$(dirname "$0")"
-FORM_URL="${1:-https://nyc-navigator.base44.app/#/submit}"
+FORM_URL="${1:-https://inmigracion-nyc.com/#/submit}"
 docker compose exec -T humhub mkdir -p /data/pilot-seed
 docker compose cp seed/SeedController.php humhub:/data/pilot-seed/SeedController.php
 docker compose cp seed/run.php humhub:/data/pilot-seed/run.php

@@ -7,7 +7,7 @@ Image: the official `humhub/humhub:1.18.6`, pulled through `mirror.gcr.io` becau
 ## What it shows
 
 - A public **Corona community** Space at `http://localhost:8090/s/corona-community/` for local questions (including housing) and resource corrections.
-- A pinned post linking to the Base44 **suggest a resource** form (`#/submit`). A tip sent there becomes a **pending** Submission. Only a reviewed, approved tip can become a directory result.
+- A pinned post linking to the Base44 **suggest a resource** form: https://inmigracion-nyc.com/#/submit. A tip sent there becomes a **pending** Submission. Only a reviewed, approved tip can become a directory result.
 - Two posts labeled **[SYNTHETIC DEMO POST: not a real person]**: a housing question (stays a discussion post) and a resource correction.
 
 HumHub posts are **not** synced into directory search. An API bridge is a later step.
@@ -26,7 +26,7 @@ $Y installer/create-admin-account admin pilot-admin@example.com '<choose-a-passw
 $Y installer/set-base-url "http://localhost:8090"
 
 ./seed.sh                            # creates the Space and synthetic posts (safe to re-run)
-./seed.sh https://other-form-url     # optional: use a different form URL in the pinned post
+./seed.sh https://other-form-url     # optional: point the pinned post at another form URL (updated in place)
 ```
 
 Guests can read the Space without logging in. Log in as `admin` to post or moderate.
@@ -37,7 +37,3 @@ Guests can read the Space without logging in. Log in as `admin` to post or moder
 docker compose stop        # pause; data is kept
 docker compose down -v     # delete the pilot and its database volumes
 ```
-
-## Known gap
-
-The Base44 site is not published yet (`https://nyc-navigator.base44.app/` returns "App not found"), so the pinned link to `https://nyc-navigator.base44.app/#/submit` will 404 until `base44 site deploy` is run. Re-run `./seed.sh` with a new URL if the form ends up elsewhere (it adds the pinned post only if the text differs, so delete the old one in the UI first).
