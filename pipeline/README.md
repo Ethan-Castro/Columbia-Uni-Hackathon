@@ -18,7 +18,11 @@ python3 scripts/fetch_raw.py        # downloads raw sources (skips files already
 python3 scripts/build_programs.py   # phase 1 -> out/programs.csv
 python3 scripts/build_places_doj.py # phase 2 -> out/places.csv (DOJ rows) + out/places_doj_detail.csv (geocodes cached in raw/geocode/)
 python3 scripts/report_phase2.py    # phase 2 checks + out/phase2_review.md (exits non-zero if a scope check fails)
+python3 scripts/build_places_local.py  # phase 3 -> adds Food Help NYC + hand-sourced places to out/places.csv (keeps DOJ rows)
+python3 scripts/build_links.py      # phase 4 -> out/links.csv (every link quote-checked against its source)
+python3 scripts/validate.py         # phase 5 contract check of all three files (exits 1 on any error)
 ```
+Order matters: `build_places_doj.py` rewrites places.csv with DOJ rows only; `build_places_local.py` then adds the rest.
 
 ## Phase 1 notes (programs.csv)
 - 97 programs come from the NYC Benefits and Programs dataset (kvhd-5fmu). The download is English only.
@@ -43,3 +47,15 @@ python3 scripts/report_phase2.py    # phase 2 checks + out/phase2_review.md (exi
   - Conflicts are kept with borough and coordinates blank, and listed in `out/phase2_review.md`.
   - Pro bono offices outside NYC that are listed for a NYC court are kept with borough blank and are never counted as NYC.
 - `out/places_doj_detail.csv` holds what the contract can't: record kind, courts, "DHS only" accreditation, expiration dates, review flags, geocoder match and source page.
+
+## Phase 3 notes (neighborhood depth)
+- Food Help NYC: 523 open pantries and soup kitchens from the City's public ArcGIS layer behind finder.nyc.gov/foodhelp (`raw/foodhelp_nyc*.json`). Hours come from the City's structured fields. Rows where the City's own free-text schedule disagrees are flagged in `out/places_local_detail.csv`.
+- Hand-sourced places live in `scripts/phase3_curation.py`. Every field has a quote that must match the saved source page, or the build stops.
+- `trust`: `official` means the facts come from a government source; it does not certify current capacity or cost. Provider and agent pages are `unverified`.
+- **`verified` only comes from `scripts/verified_ids.txt`.** Felix adds an id there after personally reviewing that place (checklist: `out/phase3_review_checklist.md`). No script writes to this file, and it must never be re-initialized.
+- `hold=True` in the curation keeps a row out of the live `places.csv` (written to `out/places_held.csv` instead) while its sources conflict. Example: New Life CDC.
+- Unknown language, requirements, fees and availability stay blank. `out/phase3_review.md` lists what the sources could not confirm.
+
+## Phase 4 notes (links)
+- `scripts/build_links.py` lists each relationship with the quote that supports it, taken from a NYC Benefits dataset row or a saved page. "Offers" links for WIC sites, IDNYC centers, SNAP centers and Family Welcome Centers come from the Phase 3 curation.
+- Deliberately not linked (no source): IDNYC unlocks a bank account (the City list exists, but there's no named bank's own page yet), and WIC pairs_with Child Health Plus.

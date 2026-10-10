@@ -22,7 +22,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "out"
 TODAY = datetime.date.today().isoformat()
 FH_LAYER = "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0"
-BORO = {"QN": "Queens", "BK": "Brooklyn", "MN": "Manhattan", "BX": "Bronx", "SI": "Staten Island"}
+BORO = {"QN": "Queens", "BK": "Brooklyn", "MN": "Manhattan", "MH": "Manhattan", "NY": "Manhattan", "BX": "Bronx", "SI": "Staten Island"}
 NEIGHBORHOOD = {"11368": "Corona", "11373": "Elmhurst", "11372": "Jackson Heights", "11369": "East Elmhurst",
                 "11370": "East Elmhurst"}
 DAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
@@ -70,7 +70,7 @@ def fh_hours(a):
             span = DAYS[i].title() if i == j else f"{DAYS[i].title()}-{DAYS[j].title()}"
             groups.append((i, f"{span} {per_day[i]}", label))
             i = j + 1
-    notes = {"pantry": (a.get("fp_notes") or "").strip(), "soup kitchen": (a.get("sk_notes") or "").strip()}
+    notes = {"pantry": (a.get("fp_notes") or "").strip(" ()"), "soup kitchen": (a.get("sk_notes") or "").strip(" ()")}
     out = []
     for _, txt, label in sorted(groups):
         note = f"{label}: {notes[label]}" if notes[label] else label
@@ -98,7 +98,10 @@ def foodhelp_rows(used):
         hours, eve, wkd = fh_hours(a)
         orig = " / ".join(x for x in [f"pantry: {a.get('fp_days_orig')} {a.get('fp_hours_orig')}" if a.get("fp_days_orig") else "",
                                       f"soup kitchen: {a.get('sk_days_orig')} {a.get('sk_hours_orig')}" if a.get("sk_days_orig") else ""] if x)
-        if orig and hours:
+        def toks(x):
+            x = x.upper().replace("THUR", "THU")
+            return set(re.findall(r"MON|TUE|WED|THU|FRI|SAT|SUN", x)) | {n.lstrip("0") for n in re.findall(r"\d+", x)}
+        if orig and hours and toks(orig) - {""} != toks(hours.replace(":00", "")) - {""}:
             flags.append(f"confirm hours: shown hours come from the structured fields the City finder displays; the layer's free-text schedule says '{orig}'")
         good_geo = (a.get("address_score") or 0) >= 95 and a.get("lat") and a.get("lon")
         base = "place-fh-" + slug(name, 44)
@@ -181,6 +184,13 @@ def main():
     vfile = ROOT / "scripts" / "verified_ids.txt"
     if vfile.exists():
         verified = {l.split("#")[0].strip() for l in vfile.read_text().splitlines() if l.split("#")[0].strip()}
+    # rows marked hold=True (conflicting sources) stay out of the live import until resolved
+    held_ids = {p["id"] for p in PLACES if p.get("hold")}
+    held = [r for r in hs if r["id"] in held_ids]
+    hs = [r for r in hs if r["id"] not in held_ids]
+    offers = [o for o in offers if o["from_id"] not in held_ids]
+    with (OUT / "places_held.csv").open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=COLUMNS); w.writeheader(); w.writerows(held)
     rows = doj + fh + hs
     for r in rows:
         if r["id"] in verified:
@@ -191,9 +201,9 @@ def main():
     with (OUT / "places_local_detail.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(det[0].keys())); w.writeheader(); w.writerows(det)
     (OUT / "phase3_offers.json").write_text(json.dumps(offers, indent=1))
-    print(f"wrote out/places.csv: {len(rows)} rows ({len(doj)} DOJ, {len(fh)} Food Help NYC, {len(hs)} hand-sourced); "
+    print(f"wrote out/places.csv: {len(rows)} rows ({len(doj)} DOJ, {len(fh)} Food Help NYC, {len(hs)} hand-sourced, {len(held)} held out in out/places_held.csv); "
           f"{len(verified & {r['id'] for r in rows})} marked verified")
-    report(rows, det, doj)
+    report(rows + held, det, doj)
 
 
 def report(rows, det, doj):

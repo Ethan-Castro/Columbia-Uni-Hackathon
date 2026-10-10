@@ -1,0 +1,75 @@
+{
+ "query": "165-08 88th Avenue, 3rd Fl., Jamaica, NY 11432",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "165-08 88th Avenue, 3rd Fl., Jamaica, NY 11432"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "R",
+      "tigerLineId": "59712123"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36081",
+        "CENTLAT": "+40.6545736",
+        "AREAWATER": 188444380,
+        "STATE": "36",
+        "BASENAME": "Queens",
+        "OID": "27590307869814",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.6546581",
+        "NAME": "Queens County",
+        "OBJECTID": 440,
+        "CENTLON": "-073.8408699",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974139",
+        "AREALAND": 281594058,
+        "INTPTLON": "-073.8412089",
+        "MTFCC": "G4020",
+        "COUNTY": "081"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.79672616885,
+      "y": 40.708596304596
+     },
+     "addressComponents": {
+      "zip": "11432",
+      "streetName": "88TH",
+      "preType": "",
+      "city": "JAMAICA",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "165-00",
+      "state": "NY",
+      "suffixType": "AVE",
+      "toAddress": "165-98",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "165-08 88TH AVE, JAMAICA, NY, 11432"
+    }
+   ]
+  }
+ }
+}

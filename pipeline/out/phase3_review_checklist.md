@@ -15,11 +15,11 @@ Always confirm: still operating at this address; phone answers; hours as listed;
 3. [ ] **IGLESIA CRISTIANA EVANGELICA** (`place-fh-iglesia-cristiana-evangelica`, pantry, trust official)
    - 34-35 96th St, Corona, New York, 11368 | (347) 938-9368 | hours: Sat 11am-12pm (pantry)
    - source: https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D33&outFields=*&f=json
-   - check: languages not stated; confirm hours: shown hours come from the structured fields the City finder displays; the layer's free-text schedule says 'pantry: SAT 11AM-12PM'
+   - check: languages not stated
 4. [ ] **MT. OLIVET GOSPEL CHURCH** (`place-fh-mt-olivet-gospel-church`, pantry, trust official)
    - 33-27 97th St, Corona, New York, 11368 | (718) 478-0780 | hours: Wed 5:30pm-6:30pm (pantry)
    - source: https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D34&outFields=*&f=json
-   - check: languages not stated; confirm hours: shown hours come from the structured fields the City finder displays; the layer's free-text schedule says 'pantry: WED 5:30-6:30PM'
+   - check: languages not stated
 5. [ ] **NYC Health + Hospitals/Gotham Health (Women's Health Center)** (`place-nyc-hh-gotham-womens-health-corona`, clinic, trust official)
    - 59-17 Junction Blvd., Corona, NY 11368 | 718-334-6300 | hours: unknown
    - source: https://www.nychealthandhospitals.org/elmhurst/community-medical-centers
@@ -79,7 +79,7 @@ Always confirm: still operating at this address; phone answers; hours as listed;
 19. [ ] **BETHANY PANTRY** (`place-fh-bethany-pantry`, pantry, trust official)
    - 48-08 91st Pl, Elmhurst, New York, 11373 | (917) 533-1679 | hours: Sat 9am-10am (pantry)
    - source: https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D36&outFields=*&f=json
-   - check: languages not stated; confirm hours: shown hours come from the structured fields the City finder displays; the layer's free-text schedule says 'pantry: SAT  9-10AM'
+   - check: languages not stated
 20. [ ] **LOVE WINS NYC - ELMHURST** (`place-fh-love-wins-nyc-elmhurst`, pantry, trust official)
    - 3763 83RD STREET, JACKSON HEIGHTS, NY 11372 | (201) 701-1024 | hours: Fri 1pm-5pm (pantry: 4TH FRI ONLY)
    - source: https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D711&outFields=*&f=json
@@ -99,7 +99,7 @@ Always confirm: still operating at this address; phone answers; hours as listed;
 24. [ ] **New Life Food Pantry (New Life CDC)** (`place-new-life-cdc-food-pantry`, pantry, trust unverified)
    - 82-10 Queens Blvd, Elmhurst, NY 11373 | (no phone) | hours: Tue 5pm-7pm; Sat 10am-12pm
    - source: https://www.newlifecdc.nyc/food-and-clothing-pantry
-   - check: languages not stated; no phone in source; Provider page lists hours; the City's Food Help NYC layer lists this program as Inactive. Address is from the City record (provider page gives none). Confirm it is running.
+   - check: languages not stated; no phone in source; HELD from live import. Provider page lists hours; the City's Food Help NYC layer lists this program as Inactive. Address is from the City record (provider page gives none). Confirm it is running.
 25. [ ] **ST. MARK AME CHURCH/THE VOICE OF HAGAR** (`place-fh-st-mark-ame-church-the-voice-of-hagar`, pantry, trust official)
    - 95-18 Northern Blvd, Jackson Heights, New York, 11372 | (718) 205-0506 | hours: Tue 10am-12:30pm (pantry: 1st 2nd 3rd 4th Tuesdays)
    - source: https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D603&outFields=*&f=json

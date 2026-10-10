@@ -43,7 +43,7 @@ COUNTY_BOROUGH = {"New York County": "Manhattan", "Kings County": "Brooklyn", "Q
 CITY_BOROUGH = {"new york": "Manhattan", "new york city": "Manhattan", "manhattan": "Manhattan",
                 "brooklyn": "Brooklyn", "bronx": "Bronx", "the bronx": "Bronx", "staten island": "Staten Island",
                 "queens": "Queens"}
-QUEENS_POSTAL = {"astoria", "long island city", "sunnyside", "woodside", "jackson heights", "elmhurst", "corona",
+QUEENS_POSTAL = {"astoria", "long island city", "lic", "sunnyside", "woodside", "jackson heights", "elmhurst", "corona",
                  "east elmhurst", "flushing", "forest hills", "rego park", "kew gardens", "richmond hill", "jamaica",
                  "queens village", "bellerose", "hollis", "ridgewood", "maspeth", "middle village", "ozone park",
                  "south ozone park", "howard beach", "far rockaway", "bayside", "fresh meadows", "whitestone",

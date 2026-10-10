@@ -515,4 +515,57 @@ MANUAL = [
                        "las tres agencias de crédito principales para crear historial."),
         "source_url": "https://www.missionassetfund.org/lending-circles/",
     },
+    {
+        "id": "prog-school-enrollment",
+        "name": "NYC Public Schools enrollment help (Family Welcome Centers)",
+        "needs": "school",
+        "who_can_use": (
+            "Families enrolling a student in NYC Public Schools with specific enrollment needs: new, returning, or "
+            "switching from a charter or private school, and transfers between NYC public schools. If your child has a "
+            "zoned school or received an offer from a school through the admissions process, contact that school directly."),
+        "status_note": "",
+        "bring": "",
+        "how_to_apply": (
+            "Schedule a virtual or in-person appointment at any Family Welcome Center. Family Welcome Centers are open "
+            "Monday-Thursday 8am-5pm and Friday 8am-3pm. Required documents can be submitted online."),
+        "summary_en": ("Family Welcome Centers help you enroll a child in NYC public schools, including new students "
+                       "and transfers. Book a virtual or in-person appointment."),
+        "summary_es": ("Los Family Welcome Centers le ayudan a inscribir a su hijo en las escuelas públicas de NYC, "
+                       "incluso estudiantes nuevos y traslados. Pida una cita virtual o en persona."),
+        "source_url": "https://www.schools.nyc.gov/enrollment/enrollment-help/family-welcome-centers",
+    },
+    {
+        "id": "prog-library-card",
+        "name": "Public library access with IDNYC",
+        "needs": "school|id",
+        "who_can_use": "IDNYC cardholders. You can use your IDNYC card at any public library in New York City.",
+        "status_note": "",
+        "bring": "Your IDNYC card.",
+        "how_to_apply": "Show your IDNYC card at any public library in New York City.",
+        "summary_en": "Your IDNYC card can be used at any public library in New York City.",
+        "summary_es": "Su tarjeta IDNYC se puede usar en cualquier biblioteca pública de la Ciudad de Nueva York.",
+        "source_url": "https://www.nyc.gov/site/idnyc/benefits/benefits.page",
+    },
+    {
+        "id": "prog-idnyc-bank-account",
+        "name": "Open a bank or credit union account with IDNYC",
+        "needs": "money|id",
+        "who_can_use": (
+            "IDNYC cardholders. The City lists banks and credit unions that accept IDNYC as a primary form of ID to open "
+            "an account (for example Amalgamated Bank, Carver Federal Savings Bank and East West Bank). The City says the "
+            "list is provided as a convenience and is not an endorsement. Credit unions have additional membership requirements."),
+        "status_note": "Depending on the bank, a Social Security number or ITIN may be required.",
+        "bring": (
+            "Your IDNYC card. Depending on the institution, you may also need proof of address, a Social Security number "
+            "or Individual Taxpayer Identification Number (ITIN), or a small initial deposit."),
+        "how_to_apply": (
+            "Choose an institution from the City's list (https://www.nyc.gov/site/idnyc/benefits/banks-and-credit-unions.page) "
+            "and call the branch before going. Free one-on-one help is available at NYC Financial Empowerment Centers, in "
+            "English or Spanish."),
+        "summary_en": ("Some NYC banks and credit unions accept IDNYC as primary ID to open an account. They may also ask "
+                       "for proof of address, SSN or ITIN."),
+        "summary_es": ("Algunos bancos y cooperativas de crédito de NYC aceptan la IDNYC como identificación principal para "
+                       "abrir una cuenta. Pueden pedir comprobante de domicilio, SSN o ITIN."),
+        "source_url": "https://www.nyc.gov/site/idnyc/benefits/banks-and-credit-unions.page",
+    },
 ]

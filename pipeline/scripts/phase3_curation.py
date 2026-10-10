@@ -15,6 +15,7 @@ UHP = "https://www.urbanhealthplan.org/locations/plaza-del-sol-family-health-cen
 QPL = "https://www.queenslibrary.org/about-us/locations/corona"
 IDNYC = "https://www.nyc.gov/site/idnyc/card/locations.page"
 HRA = "https://www.nyc.gov/site/hra/locations/job-locations.page"
+HRA_SNAP = "https://www.nyc.gov/site/hra/locations/snap-locations.page"
 FWC = "https://enrollmentsupport.schools.nyc/app/answers/detail/a_id/3682/~/contact-a-family-welcome-center"
 PAYO = "https://www.payomatic.com/stores/ny/corona/102-10-roosevelt-ave/409"
 PLS_J = "https://pls247.com/ny/store-locator/store/142-38-10-junction-blvd-corona.html"
@@ -100,22 +101,34 @@ PLACES = [
          hours="Mon-Fri 8:30am-5pm", open_evenings="false", open_weekends="false", trust="official", source_url=HRA,
          evidence={"address": "219 Beach 59th Street, Queens, NY 11692", "phone": "718-637-2144",
                    "hours": "HDU Fax: 917-639-2522 Monday – Friday 8:30am to 5:00pm"}),
+    dict(id="place-hra-queens-snap-center", name="HRA Queens SNAP Center", org="NYC Human Resources Administration",
+         org_type="benefits_office", address="32-20 Northern Blvd., 2nd Fl., LIC, NY 11101", zip="11101",
+         hours="Mon-Fri 8:30am-5pm (entrance on One Honeywell Street)", open_evenings="false", open_weekends="false",
+         trust="official", source_url=HRA_SNAP, offers=["prog-snap"],
+         evidence={"address": "Queens SNAP Center:** Address: 32-20 Northern Blvd., 2nd Fl., LIC, NY 11101 (Entrance on One Honeywell Street) Monday – Friday 8:30am to 5:00pm",
+                   "offers": "Supplemental Nutrition Assistance Program (SNAP) center locations"}),
+    dict(id="place-hra-jamaica-snap-center", name="HRA Jamaica SNAP Center", org="NYC Human Resources Administration",
+         org_type="benefits_office", address="165-08 88th Avenue, 3rd Fl., Jamaica, NY 11432", zip="11432",
+         hours="Mon-Fri 8:30am-5pm", open_evenings="false", open_weekends="false", trust="official", source_url=HRA_SNAP,
+         offers=["prog-snap"],
+         evidence={"address": "Jamaica SNAP Center:** Address: 165-08 88th Avenue, 3rd Fl., Jamaica, NY 11432 Monday - Friday 8:30am to 5:00pm",
+                   "offers": "Supplemental Nutrition Assistance Program (SNAP) center locations"}),
     dict(id="place-family-welcome-center-queens-plaza", name="NYC Public Schools Family Welcome Center (Districts 24, 30)",
          org="NYC Public Schools", org_type="school", address="28-11 Queens Plaza North, 3rd Floor, Long Island City, NY 11101",
          zip="11101", phone="718-391-6270", hours="Mon-Thu 8am-5pm; Fri 8am-3pm", open_evenings="false", open_weekends="false",
-         trust="official", source_url=FWC,
+         trust="official", source_url=FWC, offers=["prog-school-enrollment"],
          evidence={"address": "28-11 Queens Plaza North, 3rd Floor, Long Island City, NY 11101", "phone": "718-391-6270",
                    "hours": "Offices are open Monday through Thursday from 8 a.m. to 5 p.m. and, on Friday from 8 a.m. to 3 p.m."}),
     dict(id="place-family-welcome-center-linden-place", name="NYC Public Schools Family Welcome Center (Districts 25, 26)",
          org="NYC Public Schools", org_type="school", address="30-48 Linden Place, 2nd Floor, Flushing, NY 11354", zip="11354",
          phone="718-281-3538", hours="Mon-Thu 8am-5pm; Fri 8am-3pm", open_evenings="false", open_weekends="false",
-         trust="official", source_url=FWC,
+         trust="official", source_url=FWC, offers=["prog-school-enrollment"],
          evidence={"address": "30-48 Linden Place, 2nd Floor, Flushing, NY 11354", "phone": "718-281-3538",
                    "hours": "Offices are open Monday through Thursday from 8 a.m. to 5 p.m. and, on Friday from 8 a.m. to 3 p.m."}),
     dict(id="place-family-welcome-center-sutphin", name="NYC Public Schools Family Welcome Center (Districts 27, 28, 29)",
          org="NYC Public Schools", org_type="school", address="90-27 Sutphin Boulevard, 1st Floor, Jamaica, NY 11435", zip="11435",
          phone="718-557-2786", hours="Mon-Thu 8am-5pm; Fri 8am-3pm", open_evenings="false", open_weekends="false",
-         trust="official", source_url=FWC,
+         trust="official", source_url=FWC, offers=["prog-school-enrollment"],
          evidence={"address": "90-27 Sutphin Boulevard, 1st Floor, Jamaica, NY 11435", "phone": "718-557-2786",
                    "hours": "Offices are open Monday through Thursday from 8 a.m. to 5 p.m. and, on Friday from 8 a.m. to 3 p.m."}),
     # ---------------- money: check cashers (store pages) and Western Union agents (WU locator, rendered)
@@ -157,7 +170,8 @@ PLACES = [
     dict(id="place-new-life-cdc-food-pantry", name="New Life Food Pantry (New Life CDC)", org="New Life Community Development Corporation",
          org_type="pantry", address="82-10 Queens Blvd, Elmhurst, NY 11373", zip="11373",
          hours="Tue 5pm-7pm; Sat 10am-12pm", open_evenings="true", open_weekends="true", trust="unverified", source_url=NEWLIFE,
-         review="Provider page lists hours; the City's Food Help NYC layer lists this program as Inactive. Address is from the City record (provider page gives none). Confirm it is running.",
+         hold=True,
+         review="HELD from live import. Provider page lists hours; the City's Food Help NYC layer lists this program as Inactive. Address is from the City record (provider page gives none). Confirm it is running.",
          evidence={"hours": "Tuesdays, 5 pm - 7 pm / Saturdays, 10 am - 12 pm", "name": "New Life Food Pantry"}),
     # ---------------- consulates (each country's own government site)
     dict(id="place-consulate-mexico-new-york", name="Consulado General de México en Nueva York", org="Government of Mexico",

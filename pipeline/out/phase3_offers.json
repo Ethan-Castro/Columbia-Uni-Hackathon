@@ -23,5 +23,30 @@
   "from_id": "place-idnyc-queens-business-center",
   "to_id": "prog-idnyc",
   "source_url": "https://www.nyc.gov/site/idnyc/card/locations.page"
+ },
+ {
+  "from_id": "place-hra-queens-snap-center",
+  "to_id": "prog-snap",
+  "source_url": "https://www.nyc.gov/site/hra/locations/snap-locations.page"
+ },
+ {
+  "from_id": "place-hra-jamaica-snap-center",
+  "to_id": "prog-snap",
+  "source_url": "https://www.nyc.gov/site/hra/locations/snap-locations.page"
+ },
+ {
+  "from_id": "place-family-welcome-center-queens-plaza",
+  "to_id": "prog-school-enrollment",
+  "source_url": "https://enrollmentsupport.schools.nyc/app/answers/detail/a_id/3682/~/contact-a-family-welcome-center"
+ },
+ {
+  "from_id": "place-family-welcome-center-linden-place",
+  "to_id": "prog-school-enrollment",
+  "source_url": "https://enrollmentsupport.schools.nyc/app/answers/detail/a_id/3682/~/contact-a-family-welcome-center"
+ },
+ {
+  "from_id": "place-family-welcome-center-sutphin",
+  "to_id": "prog-school-enrollment",
+  "source_url": "https://enrollmentsupport.schools.nyc/app/answers/detail/a_id/3682/~/contact-a-family-welcome-center"
  }
 ]
