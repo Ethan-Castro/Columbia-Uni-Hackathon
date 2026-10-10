@@ -39,6 +39,13 @@ export function App() {
               <small>{t("app_tagline")}</small>
             </span>
           </a>
+          <nav className="nav" aria-label={t("nav_directory")}>
+            {nav.map(([r, label]) => (
+              <a key={r} href={HREF[r]} className={route === r ? "active" : ""} aria-current={route === r ? "page" : undefined}>
+                {label}
+              </a>
+            ))}
+          </nav>
           <div className="lang-switch" role="group" aria-label={lang === "es" ? "Idioma" : "Language"}>
             {(["es", "en"] as const).map((l) => (
               <button
@@ -54,13 +61,6 @@ export function App() {
             ))}
           </div>
         </div>
-        <nav className="nav" aria-label={t("nav_directory")}>
-          {nav.map(([r, label]) => (
-            <a key={r} href={HREF[r]} className={route === r ? "active" : ""} aria-current={route === r ? "page" : undefined}>
-              {label}
-            </a>
-          ))}
-        </nav>
       </header>
 
       {route === "home" ? (

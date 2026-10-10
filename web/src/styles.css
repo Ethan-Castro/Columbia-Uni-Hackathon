@@ -145,15 +145,24 @@ code { font: 0.875em ui-monospace, SFMono-Regular, Menlo, monospace; background:
 .lang-short { display: none; }
 @media (max-width: 420px) { .lang-long { display: none; } .lang-short { display: inline; } }
 
-.nav { max-width: 1152px; margin: 0 auto; padding: 0 14px; display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
+/* Page links: one pill, like the language switch. Inline in the top bar on wide screens, its own row below. */
+.header-inner { flex-wrap: wrap; }
+.header-inner .brand { flex: 1 1 0; }
+.brand > span { min-width: 0; }
+.nav { order: 3; flex: 1 1 100%; display: flex; gap: 2px; padding: 3px; border-radius: 999px; background: var(--card);
+  border: 1px solid var(--border); overflow-x: auto; scrollbar-width: none; }
 .nav::-webkit-scrollbar { display: none; }
 .nav a {
-  flex: none; display: inline-flex; align-items: center; min-height: 44px; padding: 0 10px;
-  text-decoration: none; color: var(--muted-foreground); border-bottom: 3px solid transparent;
-  font-size: 0.9375rem; font-weight: 500; transition: color 0.15s;
+  flex: none; display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px;
+  text-decoration: none; color: var(--muted-foreground); font-size: 0.875rem; font-weight: 500; transition: background 0.15s, color 0.15s;
 }
-.nav a:hover { color: var(--foreground); }
-.nav a.active { color: var(--foreground); border-bottom-color: var(--brand); }
+.nav a:hover { color: var(--foreground); background: var(--muted); }
+.nav a.active { color: var(--primary-foreground); background: var(--primary); }
+@media (min-width: 1100px) {
+  .header-inner .brand { flex: 0 0 auto; }
+  .nav { order: 0; flex: 0 1 auto; margin: 0 auto; }
+  .brand small { display: none; }
+}
 
 /* Common blocks */
 .intro { margin: 0 0 20px; }
