@@ -164,11 +164,11 @@ function templateIntake(needs: Need[], near: NearResult, words: string) {
   ].filter(Boolean).join("\n");
   const person = [
     "Resumen para su cita legal, solo con lo que usted nos contó:",
-    "- Busca: una consulta legal gratuita.",
+    "- Busca: una consulta con un abogado con licencia o un representante acreditado por el DOJ.",
     `- Zona: ${near.label || "no indicada"}.`,
     others.length ? `- Otras necesidades: ${others.map((n) => needLabel("es", n)).join(", ")}.` : "",
     words ? `- Lo que usted contó: "${words}"` : "",
-    "Lleve los documentos que tenga y sus preguntas. No firme ni pague nada antes de hablar con un proveedor legal gratuito y verificado.",
+    "Lleve los documentos que tenga y sus preguntas. No firme ni pague nada antes de hablar con un abogado con licencia o un representante acreditado por el DOJ.",
   ].filter(Boolean).join("\n");
   return { for_lawyer_en: lawyer, for_person_es: person };
 }

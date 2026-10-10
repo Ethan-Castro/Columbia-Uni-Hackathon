@@ -10,6 +10,7 @@ import { HttpError } from "../http.ts";
 import { NEEDS } from "../schema.ts";
 import type { Need } from "../schema.ts";
 import { resolveNear } from "../geo.ts";
+import { similarity } from "../text.ts";
 import { disclaimer, needLabel, t } from "../i18n.ts";
 import { logRequest } from "../logRequest.ts";
 import {
@@ -140,7 +141,7 @@ export const findResources: Tool = {
       "then closest), each with hours, open now, languages, what to bring, trust level, source link and " +
       "last-checked date, and a 1-2 sentence summary in the person's language. Show the source and last-checked " +
       "date. When few places match, related_programs lists programs for that need and what to get first " +
-      "(for example IDNYC before a bank account). Legal answers include a free_legal_provider: end with it. " +
+      "(for example IDNYC before a bank account). Legal answers include a DOJ-listed option (free_legal_provider field): end with it, naming its list and check date; cost and intake are unknown. " +
       "Never ask about immigration status. For several needs at once, use make_plan instead.",
     inputSchema: {
       type: "object",
@@ -159,6 +160,11 @@ export const findResources: Tool = {
           type: "boolean",
           description: "Put places open right now first, then ones with evening and weekend hours.",
           default: false,
+        },
+        name: {
+          type: "string",
+          description: "Optional: the name of a specific place the person asks about, e.g. 'Iglesia San Pablo'. " +
+            "Matching places come first, including new community places a person approved.",
         },
         limit: {
           type: "integer",
@@ -184,10 +190,17 @@ export const findResources: Tool = {
     const n = Number(input.limit);
     const limit = Number.isInteger(n) && n >= 1 ? Math.min(n, MAX_LIMIT) : DEFAULT_LIMIT;
 
+    const wanted = getString(input, "name", { max: 200 });
+
     const near = resolveNear(nearText);
     const cat = await loadCatalog(req);
     // Among equally near places, ones whose own type serves the need first (pantry before a WIC clinic for food).
-    const ranked = rankPlaces(cat, need, near, { language, openNow, preferPrimary: "within_area" });
+    let ranked = rankPlaces(cat, need, near, { language, openNow, preferPrimary: "within_area" });
+    // A named place ("¿está la despensa de la Iglesia San Pablo?") goes first when it matches; the rest keep their order.
+    if (wanted) {
+      const named = ranked.filter((r) => Math.max(similarity(wanted, r.place.name), similarity(wanted, r.place.org ?? "")) >= 0.6);
+      ranked = [...named, ...ranked.filter((r) => !named.includes(r))];
+    }
     let top = ranked.slice(0, limit);
 
     // Legal: make sure a DOJ-listed provider (official/verified first) is in the list when one exists.
