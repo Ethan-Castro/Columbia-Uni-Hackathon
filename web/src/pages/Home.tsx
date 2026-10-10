@@ -202,7 +202,7 @@ export function Home() {
                 {i < 2 && <CopyUrl label={c.copy} done={c.copied} />}
                 {i === 3 && (
                   <Button asChild variant="outline" size="sm" className="mt-3 no-underline">
-                    <a href="voz/">{c.openVoice}<ArrowRight className="ml-1.5 size-4" /></a>
+                    <a href="voz/index.html">{c.openVoice}<ArrowRight className="ml-1.5 size-4" /></a>
                   </Button>
                 )}
                 {i === 2 && (
