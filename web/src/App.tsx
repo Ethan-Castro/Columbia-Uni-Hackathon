@@ -16,7 +16,6 @@ export function App() {
     ["home", t("nav_home")],
     ["directory", t("nav_directory")],
     ["submit", t("nav_submit")],
-    ["admin", t("nav_admin")],
     ["insights", t("nav_insights")],
   ];
 
@@ -78,6 +77,7 @@ export function App() {
           <li>{t("footer_rule_status")}</li>
           <li>{t("footer_rule_review")}</li>
           <li>{t("footer_rule_privacy")}</li>
+          <li><a href={HREF.admin}>{t("nav_admin")}</a> · <a href="privacy.html">{lang === "es" ? "Privacidad" : "Privacy"}</a> · <a href="terms.html">{lang === "es" ? "Términos" : "Terms"}</a></li>
         </ul>
       </footer>
     </div>

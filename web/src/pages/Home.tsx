@@ -12,7 +12,7 @@ import { getHealth } from "../api.ts";
 import { useI18n } from "../i18n.tsx";
 import { HREF } from "../router.ts";
 
-const MCP_URL = "https://nyc-navigator.base44.app/api/apps/6aca64c59c3d35bc8bab2330/functions/mcp";
+const MCP_URL = "https://inmigracion-nyc.com/functions/mcp";
 const WA_NUMBER = "+1 415 523 8886";
 const WA_LINK = "https://wa.me/14155238886?text=join%20package-question";
 const VOICE_NUMBER = "+1 743 330 7616";

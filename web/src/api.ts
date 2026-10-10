@@ -23,7 +23,10 @@ import type {
 
 // Where functions live. Locally "/functions/" (Vite proxy). On Base44 the site is
 // built with VITE_FUNCTIONS_BASE=/api/apps/<app id>/functions/ (same origin).
-const FUNCTIONS_BASE: string = import.meta.env.VITE_FUNCTIONS_BASE || "/functions/";
+const BASE44_FUNCTIONS = "/api/apps/6aca64c59c3d35bc8bab2330/functions/";
+// On Base44 (or our domain) use Base44's function path even if a build forgot VITE_FUNCTIONS_BASE.
+const ON_BASE44 = /(^|\.)base44\.app$|(^|\.)inmigracion-nyc\.com$/.test(location.hostname);
+const FUNCTIONS_BASE: string = import.meta.env.VITE_FUNCTIONS_BASE || (ON_BASE44 ? BASE44_FUNCTIONS : "/functions/");
 
 export class ApiError extends Error {
   constructor(public status: number, message: string) {
