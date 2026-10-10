@@ -219,6 +219,30 @@ export function Home() {
 
       <div className="border-border border-t" />
 
+      <Section
+        kicker={lang === "es" ? "En video" : "On video"}
+        title={lang === "es" ? "Hable y llame" : "Talk, then call"}
+        intro={lang === "es" ? "Dos maneras de pedir ayuda solo con la voz." : "Two ways to ask for help with just your voice."}
+      >
+        <div className="mx-auto grid max-w-3xl gap-6 sm:grid-cols-2">
+          {VIDEOS.map((v) => (
+            <figure key={v.id} className="m-0 min-w-0">
+              <div className="border-border mx-auto aspect-[9/16] w-full max-w-xs overflow-hidden rounded-xl border bg-black">
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${v.id}?rel=0&playsinline=1`}
+                  title={v[lang]}
+                  className="size-full"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <figcaption className="text-muted-foreground mx-auto mt-2 max-w-xs text-sm">{v[lang]}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </Section>
+
       <section className="mx-auto w-full max-w-6xl px-6 pt-12 sm:pt-16" aria-labelledby="community-band">
         <a
           href={HREF.community}
@@ -284,30 +308,6 @@ export function Home() {
                 <img src={shot.src} alt={shot[lang]} loading="lazy" className={`w-full object-cover object-top ${i === 0 ? "aspect-[4/5]" : "aspect-[4/3]"}`} />
               </a>
               <figcaption className="text-muted-foreground mt-2 text-sm">{shot[lang]}</figcaption>
-            </figure>
-          ))}
-        </div>
-      </Section>
-
-      <Section
-        kicker={lang === "es" ? "En video" : "On video"}
-        title={lang === "es" ? "Hable y llame" : "Talk, then call"}
-        intro={lang === "es" ? "Dos maneras de pedir ayuda solo con la voz." : "Two ways to ask for help with just your voice."}
-      >
-        <div className="mx-auto grid max-w-3xl gap-6 sm:grid-cols-2">
-          {VIDEOS.map((v) => (
-            <figure key={v.id} className="m-0 min-w-0">
-              <div className="border-border mx-auto aspect-[9/16] w-full max-w-xs overflow-hidden rounded-xl border bg-black">
-                <iframe
-                  src={`https://www.youtube-nocookie.com/embed/${v.id}?rel=0&playsinline=1`}
-                  title={v[lang]}
-                  className="size-full"
-                  loading="lazy"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-              <figcaption className="text-muted-foreground mx-auto mt-2 max-w-xs text-sm">{v[lang]}</figcaption>
             </figure>
           ))}
         </div>
