@@ -6,7 +6,7 @@
 // footer, capped at 1500 chars -> Twilio WhatsApp Sandbox (shared/twilio.ts).
 //
 // The phone number is never logged, stored, or returned (only "•••• ••61").
-// RequestLog: channel "whatsapp", no needs, no zip, results_found 1 if sent.
+// RequestLog: the caller's channel (ctx), no needs, no zip, results_found 1 if sent.
 
 import { langOf, t } from "../i18n.ts";
 import type { Lang } from "../i18n.ts";
@@ -114,7 +114,7 @@ export const sendToPhone: Tool = {
     annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: true },
   },
 
-  async run(req, input, _ctx) {
+  async run(req, input, ctx) {
     const language = getLanguage(input);
     const lang = langOf(language);
 
@@ -124,7 +124,7 @@ export const sendToPhone: Tool = {
         needs: [],
         zip: "",
         language,
-        channel: "whatsapp",
+        channel: ctx.channel, // where the request came from (mcp, web...), not the delivery medium
         results_found: result.sent ? 1 : 0,
         unmet: false,
       });

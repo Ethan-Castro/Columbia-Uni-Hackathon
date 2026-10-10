@@ -111,6 +111,39 @@ Deno.test("redactStatus removes status sentences and intake sections", () => {
   ok(!mentionsStatus("Free ice cream on Saturdays") === false, "ice is always treated as ICE (conservative)");
 });
 
+Deno.test("redactStatus: adversarial status phrasings never reach the phone", () => {
+  const leaks = [
+    "I overstayed my tourist permit",
+    "No tengo estatus.",
+    "Entré sin inspección por la frontera.",
+    "Soy ilegal aquí.",
+    "I have no status.",
+    "Mi caso de inmigración sigue abierto.",
+    "Tengo corte el 3 de mayo.",
+    "Bring your I94 and I 589",
+    "La migra me paró ayer",
+    "Soy mojado",
+    "a​sylum hearing next week",
+  ];
+  for (const s of leaks) {
+    const { text, removed } = redactStatus(`Despensa: martes 10am-2pm.\n${s}`);
+    eq(text, "Despensa: martes 10am-2pm.", `leaked: ${s}`);
+    ok(removed >= 1, `counted: ${s}`);
+  }
+  // A phrase split across lines drops both lines.
+  const split = redactStatus("1. Despensa, martes 10am-2pm\nAviso: todavía no tengo\npapeles\nLleve una bolsa");
+  eq(split.text, "1. Despensa, martes 10am-2pm\nLleve una bolsa");
+  // An intake section does not end at a "Label:" line; it ends at a blank line + plan step.
+  const intake = redactStatus(
+    'Intake summary\nNeeds: legal\nArea: Corona\nIn their own words:\n"I entered without inspection in 2021"\n\n2. Pantry, Tue 10am-2pm',
+  );
+  eq(intake.text, "2. Pantry, Tue 10am-2pm");
+  // Plain plan lines survive.
+  for (const s of ["Horario: Mon-Fri 9am-5pm", "Dirección: 104-10 Sample Ave, Corona NY 11368", "Qué llevar: pasaporte; prueba de domicilio"]) {
+    ok(!mentionsStatus(s), `kept: ${s}`);
+  }
+});
+
 Deno.test("consent false or not strictly true: nothing sent, no fetch", opts, async () => {
   const f = mockFetch(() => new Response("{}"), false);
   try {

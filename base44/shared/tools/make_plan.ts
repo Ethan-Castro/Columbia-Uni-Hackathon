@@ -38,6 +38,7 @@ import {
   verifiedProviderOut,
 } from "../rank.ts";
 import type { Catalog, PlaceOut, Ranked } from "../rank.ts";
+import { statesStatus } from "../redact.ts";
 import { getLanguage, getNeeds, getString } from "./input.ts";
 import type { Tool } from "./types.ts";
 
@@ -136,20 +137,19 @@ function orderSteps(drafts: Draft[], edges: Edge[]): Draft[] {
   return out;
 }
 
-// Statements about a person's status are dropped from the template intake
-// (the lawyer asks in private). Words like "papeles" alone are kept: "fix my
-// papers for $3,000" is exactly what the lawyer needs to hear.
-const STATUS_STATEMENT_RE =
-  /indocumentad|undocumented|sin papeles|no tengo papeles|ilegal|illegal|visa vencida|overstay|deport|green card|residen|ciudadan|citizen|\bTPS\b|\bDACA\b|asilo|asylum|parole|refugiad|refugee/i;
-
+// Statements about a person's status are dropped before the text reaches the
+// LLM or the template intake (the lawyer asks in private). One vocabulary for
+// the whole app: shared/redact.ts statesStatus. It deliberately lets "someone
+// says he can fix my papers for $3,000" through: that is exactly what the
+// lawyer needs to hear.
 function withoutStatusStatements(text: string): string {
-  return text.split(/(?<=[.!?])\s+/).filter((s) => !STATUS_STATEMENT_RE.test(s)).join(" ").trim();
+  return text.split(/(?<=[.!?])\s+|\n+/).filter((s) => s.trim() && !statesStatus(s)).join(" ").trim();
 }
 
 /** LLM intake text, unless it is missing, too long, or states a status. */
 function safeIntake(v: unknown): string | null {
   const text = cleanLLMText(v, 1500, true);
-  return text && !STATUS_STATEMENT_RE.test(text) ? text : null;
+  return text && !statesStatus(text) ? text : null;
 }
 
 function templateIntake(needs: Need[], near: NearResult, words: string) {
@@ -191,6 +191,14 @@ function planText(steps: Array<{ need: Need; place: PlaceOut | null; bring: stri
     if (s.place.last_checked) lines.push(`   ${t(language, "label_last_checked")}: ${s.place.last_checked}`);
   });
   return lines.join("\n");
+}
+
+/** The LLM's translation of a bring list, only if it kept every item (same count, short strings). */
+function translatedBring(v: unknown, original: string[], language: string): string[] {
+  if (langOf(language) === "en") return original;
+  if (!Array.isArray(v) || v.length !== original.length) return original;
+  const out = v.map((x) => cleanLLMText(x, 200));
+  return out.every((x): x is string => x !== null) ? out : original;
 }
 
 /** Trimmed place for a plan step. */
@@ -270,7 +278,8 @@ export const makePlan: Tool = {
           languages: d.best.place.languages,
         }
         : null,
-      programs: d.programs.map((p) => ({ name: p.name, summary: p.summary_en, bring: p.bring })),
+      programs: d.programs.map((p) => ({ name: p.name, summary: p.summary_en })),
+      bring: bringOf(d.programs),
       comes_first_because: edges.filter((e) => e.from === d.index).map((e) => e.reason).join(" ") || "",
     }));
     const schema: Record<string, unknown> = {
@@ -285,8 +294,9 @@ export const makePlan: Tool = {
               title: { type: "string" },
               summary: { type: "string" },
               why_this_order: { type: "string" },
+              bring: { type: "array", items: { type: "string" } },
             },
-            required: ["step", "title", "summary", "why_this_order"],
+            required: ["step", "title", "summary", "why_this_order", "bring"],
           },
         },
         ...(hasLegal
@@ -304,7 +314,7 @@ export const makePlan: Tool = {
     const prompt = [
       `You help immigrant families in New York City follow a short plan of free services.`,
       `Write in ${languageName(language)} (language code "${language}"), simple everyday words, warm and direct.`,
-      `For EACH step below write: title (max 8 words, plain action, e.g. "Get your free city ID"), summary (1-2 sentences, max 35 words: what to do there and why it helps), why_this_order (rewrite "comes_first_because" in one plain sentence, or "" if it is empty).`,
+      `For EACH step below write: title (max 8 words, plain action, e.g. "Get your free city ID"), summary (1-2 sentences, max 35 words: what to do there and why it helps), why_this_order (rewrite "comes_first_because" in one plain sentence, or "" if it is empty), bring (the step's "bring" list translated into the answer language: same items, same order, short; copy unchanged if already in that language).`,
       `Rules: use ONLY the facts given; never mention, guess or ask about immigration status; no legal advice; do not invent documents, prices or eligibility.`,
       SPANISH_TONE,
       ...(hasLegal
@@ -333,7 +343,7 @@ export const makePlan: Tool = {
         : null;
       const place = d.best ? placeOut(d.best, language, "") : null;
       const programsOut = d.programs.map((p) => programOut(p, language));
-      const bring = bringOf(d.programs);
+      const bring = translatedBring(fromAI?.bring, bringOf(d.programs), language);
       const title = cleanLLMText(fromAI?.title, 120) ?? templateTitle(d.need, d.best?.place.name, language);
       const summary = cleanLLMText(fromAI?.summary, 400) ??
         (d.best ? templateSummary(d.best, language) : t(language, "no_results_anywhere", { need: needLabel(language, d.need) }));
@@ -371,7 +381,7 @@ export const makePlan: Tool = {
         for_person_es: safeIntake(aiIntake?.for_person_es) ?? tmpl.for_person_es,
       };
       const provider = bestDojProvider(cat, near, language);
-      if (provider) response.verified_free_provider = verifiedProviderOut(provider, language);
+      if (provider) response.free_legal_provider = verifiedProviderOut(provider, language);
     }
     response.plan_text = planText(steps, near, language);
     const unmet = drafts.some((d) => !d.met);

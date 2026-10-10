@@ -74,7 +74,8 @@ function keyed(rows: Row[], prefix: "prog" | "place", entity: string): Row[] {
     seen.add(key);
     const out = clean(r);
     delete out.key;
-    // Base44 rejects "" for constrained fields (zip pattern, uri format); leave them unset instead.
+    // Base44 enforces only `required` (not pattern/format), so keyed() above and import.ts do the
+    // real validation. Leave empty optional fields unset rather than "" so they read back as null.
     for (const [k, v] of Object.entries(out)) if (v === "" && ["zip", "source_url", "last_checked"].includes(k)) delete out[k];
     return { key, ...out };
   });

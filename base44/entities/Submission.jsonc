@@ -52,11 +52,11 @@
     },
     "open_evenings": {
       "type": "boolean",
-      "default": false
+      "description": "Unset = derive from hours"
     },
     "open_weekends": {
       "type": "boolean",
-      "default": false
+      "description": "Unset = derive from hours"
     },
     "languages": {
       "type": "array",

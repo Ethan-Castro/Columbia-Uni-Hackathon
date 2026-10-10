@@ -22,17 +22,21 @@ import {
   loadCatalog,
   ORG_TYPE_DESCRIPTIONS_EN,
   placeOut,
+  programOut,
   rankPlaces,
   SPANISH_TONE,
   templateSummary,
   verifiedProviderOut,
 } from "../rank.ts";
-import type { Ranked } from "../rank.ts";
+import type { Catalog, Ranked } from "../rank.ts";
 import { getBool, getLanguage, getString, parseNeed } from "./input.ts";
 import type { Tool } from "./types.ts";
 
 const DEFAULT_LIMIT = 5;
 const MAX_LIMIT = 10;
+/** Fewer places than this: also list catalog programs for the need (e.g. a bank account for "money"). */
+const FEW_RESULTS = 3;
+const MAX_RELATED = 3;
 
 const SUMMARY_SCHEMA = {
   type: "object",
@@ -99,6 +103,29 @@ export async function writeSummaries(
   return { byId, source: used ? "ai" : "template" };
 }
 
+/**
+ * Programs for this need that none of the returned places offers, with what
+ * unlocks them (Links: unlocks / requires / refers_to). Don Luis asks about
+ * money: besides the remittance shop he hears that IDNYC opens a bank account.
+ */
+function relatedPrograms(cat: Catalog, need: Need, top: Ranked[], language: string) {
+  const shown = new Set(top.flatMap((r) => r.programs.map((p) => p.id)));
+  const nameOf = (id: string) => cat.programById.get(id)?.name ?? cat.placeById.get(id)?.name ?? id;
+  return cat.programs
+    .filter((p) => (Array.isArray(p.needs) ? p.needs : []).includes(need) && !shown.has(p.id))
+    .slice(0, MAX_RELATED)
+    .map((p) => {
+      const steps = cat.links
+        .filter((l) => (l.type === "unlocks" || l.type === "refers_to") && l.to_id === p.id ||
+          l.type === "requires" && l.from_id === p.id)
+        .map((l) => {
+          const other = l.type === "requires" ? l.to_id : l.from_id;
+          return { id: other, name: nameOf(other), type: l.type, reason: l.reason };
+        });
+      return { ...programOut(p, language), ...(steps.length ? { first_get: steps } : {}) };
+    });
+}
+
 export const findResources: Tool = {
   definition: {
     name: "find_resources",
@@ -112,7 +139,9 @@ export const findResources: Tool = {
       "'donde hay una despensa cerca de 11368'. Returns up to 5 places, best first (official and verified first, " +
       "then closest), each with hours, open now, languages, what to bring, trust level, source link and " +
       "last-checked date, and a 1-2 sentence summary in the person's language. Show the source and last-checked " +
-      "date. Never ask about immigration status. For several needs at once, use make_plan instead.",
+      "date. When few places match, related_programs lists programs for that need and what to get first " +
+      "(for example IDNYC before a bank account). Legal answers include a free_legal_provider: end with it. " +
+      "Never ask about immigration status. For several needs at once, use make_plan instead.",
     inputSchema: {
       type: "object",
       properties: {
@@ -157,7 +186,8 @@ export const findResources: Tool = {
 
     const near = resolveNear(nearText);
     const cat = await loadCatalog(req);
-    const ranked = rankPlaces(cat, need, near, { language, openNow });
+    // Among equally near places, ones whose own type serves the need first (pantry before a WIC clinic for food).
+    const ranked = rankPlaces(cat, need, near, { language, openNow, preferPrimary: "within_area" });
     let top = ranked.slice(0, limit);
 
     // Legal: make sure a DOJ-listed provider (official/verified first) is in the list when one exists.
@@ -195,7 +225,9 @@ export const findResources: Tool = {
       unmet,
     };
     if (message) response.message = message;
-    if (need === "legal" && provider) response.verified_free_provider = verifiedProviderOut(provider, language);
+    if (need === "legal" && provider) response.free_legal_provider = verifiedProviderOut(provider, language);
+    const related = results.length < FEW_RESULTS ? relatedPrograms(cat, need, top, language) : [];
+    if (related.length) response.related_programs = related;
     if (hasSampleData(results)) response.note = t(language, "sample_data_note");
     response.summaries_by = source;
     response.disclaimer = disclaimer(language);

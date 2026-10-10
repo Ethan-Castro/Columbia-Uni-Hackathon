@@ -2,8 +2,11 @@
 // Format: https://docs.base44.com/developers/backend/resources/backend-functions/automations
 // Times are UTC. 07:00 UTC = 3:00 AM New York (EDT), 2:00 AM (EST).
 // function_args reach entry.ts as body.args.
-// is_active is false until the PORTING auth change lands (a scheduled run has
-// no signed-in admin, so requireAdmin would reject it; see functions/scout/entry.ts).
+// is_active is false in the repo on purpose: a scheduled run has no signed-in
+// admin, so it must carry the SCOUT_TOKEN secret as function_args.scout_token.
+// Add that value in the Base44 dashboard (never commit it here), then turn the
+// schedule on. This app uses Base44 Workflows, which reject this block (409);
+// scripts/base44-sync.ts strips it, so recreate these as Workflows (PORTING.md).
 // Local dev ignores this file.
 {
   "name": "scout",

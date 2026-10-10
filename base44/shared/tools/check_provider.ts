@@ -1,4 +1,4 @@
-// check_provider: is this person or office on the DOJ lists? Plus 3 free verified providers nearby.
+// check_provider: is this person or office on the DOJ lists? Plus up to 3 free legal providers nearby.
 //
 // Fast and deterministic (no LLM). Fuzzy-matches the name against Places whose
 // org_type is doj_roster (DOJ recognized organizations / accredited
@@ -20,10 +20,11 @@
 import { getDb } from "../db.ts";
 import { distanceKm, nearRank, resolveNear } from "../geo.ts";
 import type { NearResult } from "../geo.ts";
-import { disclaimer, langOf, t, trustLabel } from "../i18n.ts";
+import { disclaimer, freeProvidersTitle, langOf, trustLabel } from "../i18n.ts";
 import type { Lang } from "../i18n.ts";
 import { logRequest } from "../logRequest.ts";
 import type { Place } from "../schema.ts";
+import { sourceOf, speaks } from "../rank.ts";
 import { ratio, similarity, tokens } from "../text.ts";
 import { getLanguage, getString } from "./input.ts";
 import type { Tool } from "./types.ts";
@@ -156,6 +157,14 @@ export function matchProvider(query: string, places: Place[]): { match: ScoredPl
   return { match, possible };
 }
 
+/** In the asked area: the zip or neighborhood zips; the borough if only a borough was given; anywhere otherwise. */
+function inArea(p: Place, near: NearResult): boolean {
+  if (!near.matched) return true;
+  if (near.primaryZips.length) return nearRank(p, near) === 0;
+  if (near.borough) return nearRank(p, near) <= 2;
+  return true;
+}
+
 function isVerified(p: Place): boolean {
   return p.trust === "official" || p.trust === "verified";
 }
@@ -195,7 +204,7 @@ function providerView(p: Place, near: NearResult, lang: Lang) {
     trust: p.trust,
     trust_label: trustLabel(lang, p.trust),
     ...(km !== undefined ? { distance_km: km } : {}),
-    source_url: p.source_url,
+    ...sourceOf(p, lang),
     last_checked: p.last_checked,
   };
 }
@@ -209,7 +218,8 @@ export const checkProvider: Tool = {
       "says they can fix papers (\"me arregla los papeles\", \"someone says they can fix my papers\"), or asks \"is " +
       "this person legit?\" / \"¿es de confianza?\", especially if they ask for money. Looks the name up in the " +
       "Department of Justice lists (recognized organizations, accredited representatives, EOIR pro bono list) and " +
-      "always returns 3 free verified legal providers nearby plus links to verify. Only licensed attorneys and " +
+      "returns up to 3 free legal providers nearby (DOJ-listed; verified ones first, each with its trust level) " +
+      "plus links to verify. End your answer with one of those free providers. Only licensed attorneys and " +
       "DOJ-accredited representatives can give immigration legal help; notarios cannot. Do not ask about the " +
       "person's immigration status. Information and referrals only, not legal advice.",
     inputSchema: {
@@ -242,7 +252,8 @@ export const checkProvider: Tool = {
     const lang = langOf(language);
     const text = TEXT[lang];
 
-    const places = await getDb(req).Place.filter({ org_type: { $in: DOJ_ORG_TYPES } });
+    // Whole table, filtered here: portable (no $in operator needed on Base44), and Place is small.
+    const places = (await getDb(req).Place.list("name", 5000)).filter((p) => DOJ_ORG_TYPES.includes(p.org_type));
     const { match, possible } = matchProvider(name, places);
     const providers = pickProviders(places, near);
     const found = match !== null;
@@ -265,7 +276,7 @@ export const checkProvider: Tool = {
           address: match.place.address,
           phone: match.place.phone,
           trust: match.place.trust,
-          source_url: match.place.source_url,
+          ...sourceOf(match.place, lang),
           last_checked: match.place.last_checked,
           score: match.score,
         }
@@ -281,8 +292,9 @@ export const checkProvider: Tool = {
       })),
       what_this_means: what,
       warning: found ? null : text.warning,
-      free_providers_title: providers.length ? t(lang, "free_providers_nearby") : text.none_nearby,
-      free_verified_providers: providers.map((p) => providerView(p, near, lang)),
+      // "verified" only when every listed provider is official/verified; otherwise "on the DOJ lists".
+      free_providers_title: providers.length ? freeProvidersTitle(lang, providers.map((p) => p.trust)) : text.none_nearby,
+      free_legal_providers: providers.map((p) => providerView(p, near, lang)),
       ...(providers.some((p) => !isVerified(p)) ? { trust_note: text.trust_note } : {}),
       how_to_verify: HOW_TO_VERIFY[lang],
       near: near.matched ? near.label : null,
@@ -297,7 +309,8 @@ export const checkProvider: Tool = {
       language,
       channel: ctx.channel,
       results_found: providers.length,
-      unmet: !found && providers.length === 0,
+      // Spec: unmet when nothing matched in that area and language.
+      unmet: !providers.some((p) => inArea(p, near) && speaks(p, language)),
     });
     return result;
   },

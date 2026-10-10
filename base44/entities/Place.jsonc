@@ -56,11 +56,11 @@
     },
     "open_evenings": {
       "type": "boolean",
-      "default": false
+      "description": "Set by the importer, or derived from hours on approval"
     },
     "open_weekends": {
       "type": "boolean",
-      "default": false
+      "description": "Set by the importer, or derived from hours on approval"
     },
     "languages": {
       "type": "array",

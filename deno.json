@@ -4,7 +4,8 @@
     "dev:watch": "deno run --watch=functions/,shared/ --allow-net --allow-read --allow-write --allow-env dev.ts",
     "check": "deno check dev.ts shared/*.ts shared/tools/*.ts functions/*/entry.ts",
     "test": "deno test --allow-read --allow-env tests/",
-    "import": "deno run --allow-read --allow-write --allow-env scripts/import.ts"
+    "import": "deno run --allow-read --allow-write --allow-env scripts/import.ts",
+    "test-send": "deno run --allow-net --allow-read --allow-env scripts/test-send.ts"
   },
   "compilerOptions": {
     "strict": true

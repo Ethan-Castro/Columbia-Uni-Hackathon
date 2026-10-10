@@ -16,7 +16,7 @@ import type { NearResult } from "./geo.ts";
 import { distanceKm, nearRank, zipToNeighborhood } from "./geo.ts";
 import { isOpenAt, isOpenLaterToday, parseHours, placeOpenEvenings, placeOpenWeekends } from "./hours.ts";
 import type { Lang } from "./i18n.ts";
-import { langOf, needLabel, t, trustLabel } from "./i18n.ts";
+import { freeProvidersTitle, langOf, needLabel, t, trustLabel } from "./i18n.ts";
 import { invokeLLM } from "./llm.ts";
 
 // ---------- catalog ----------
@@ -97,8 +97,15 @@ export function offeredFor(cat: Catalog, placeId: string, need?: Need): Program[
 
 // Notes that say status does NOT matter. Anything else that mentions status or
 // eligibility means "talk with a free legal provider before applying".
-const STATUS_SAFE_RE =
-  /not asked|not needed|regardless|does not matter|doesn't matter|not required|no se pregunta|no importa|sin importar|referrals only/i;
+const STATUS_SAFE_RE = new RegExp(
+  [
+    "not asked", "not needed", "regardless", "does not matter", "doesn't matter", "not required",
+    "do(es)? not ask", "don'?t ask", "doesn'?t ask", "never ask", "open to all", "any (immigration )?status",
+    "no (se )?pregunta", "no preguntan", "no importa", "sin importar", "cualquier (estatus|situaci)",
+    "abierto a tod", "referrals only",
+  ].join("|"),
+  "i",
+);
 const STATUS_WORDS_RE = /status|immigra|eligib|depend|estatus|situaci|migratori/i;
 
 /** True when a program's status_note says eligibility may depend on status. */
@@ -115,8 +122,13 @@ export interface RankOptions {
   language: string;
   /** Prefer places open right now, then evening/weekend hours. */
   openNow?: boolean;
-  /** Prefer places whose own org_type serves the need (a pantry over a clinic for food). make_plan uses it. */
-  preferPrimary?: boolean;
+  /**
+   * Prefer places whose own org_type serves the need (a pantry over a clinic for food).
+   * true: before location (make_plan: the best place of the right kind). "within_area":
+   * after location, so among equally near places the pantry comes before the WIC clinic
+   * (find_resources). false/omitted: ignore.
+   */
+  preferPrimary?: boolean | "within_area";
   now?: Date;
 }
 
@@ -156,8 +168,9 @@ const triRank = (v: boolean | null) => (v === true ? 0 : v === null ? 1 : 2);
  * All places serving `need`, best first:
  *   1. trust (official/verified, community, unverified)
  *   2. legal: DOJ roster / pro bono providers first; id: IDNYC desks first
- *   3. (preferPrimary) org_type serves the need itself
+ *   3. (preferPrimary true) org_type serves the need itself
  *   4. location: same zip, adjacent zips, same borough, rest (geo.nearRank)
+ *      (preferPrimary "within_area": org_type serves the need itself, within the same location tier)
  *   5. (openNow) open right now, then evening + weekend hours
  *   6. open later today, speaks the requested language, distance, name
  */
@@ -179,13 +192,15 @@ export function rankPlaces(cat: Catalog, need: Need, near: NearResult, opts: Ran
       speaksLanguage: speaks(place, opts.language),
       distanceKm: distanceKm(place, near),
     };
+    const primary = (PLACE_ORG_NEEDS[place.org_type] ?? []).includes(need) ? 0 : 1;
     const keys = [
       r.trustRank,
       need === "legal" ? (DOJ_ORG_TYPES.includes(place.org_type) ? 0 : 1) : 0,
       // ID: IDNYC (any NYC resident) before consulates (only that country's nationals).
       need === "id" ? (place.org_type === "idnyc" ? 0 : 1) : 0,
-      opts.preferPrimary ? ((PLACE_ORG_NEEDS[place.org_type] ?? []).includes(need) ? 0 : 1) : 0,
+      opts.preferPrimary === true ? primary : 0,
       r.near,
+      opts.preferPrimary === "within_area" ? primary : 0,
       opts.openNow ? triRank(r.openNow) : 0,
       opts.openNow ? (r.openEvenings ? 0 : 1) + (r.openWeekends ? 0 : 1) : 0,
       triRank(r.openToday),
@@ -222,7 +237,24 @@ export function bestDojProvider(cat: Catalog, near: NearResult, language: string
   return legal[0];
 }
 
-/** The "talk with a free verified provider" block every legal answer ends with. */
+/**
+ * source_url only when it is a real http(s) link. Approved community places
+ * without a link carry "community-submission:<id>", which must not look like a
+ * URL to a model; they get a plain source_label instead.
+ */
+export function sourceOf(p: { source_url?: string; last_checked?: string }, lang: string): { source_url: string; source_label?: string } {
+  const url = String(p.source_url ?? "");
+  if (/^https?:\/\//i.test(url)) return { source_url: url };
+  if (url.startsWith("community-submission:")) {
+    return { source_url: "", source_label: t(lang, "source_community", { date: p.last_checked ?? "" }) };
+  }
+  return { source_url: "" };
+}
+
+/**
+ * The free legal provider block every legal answer ends with. `verified` and
+ * the note's heading follow the data: "verified" only for official/verified places.
+ */
 export function verifiedProviderOut(r: Ranked, lang: string) {
   const p = r.place;
   return {
@@ -233,10 +265,11 @@ export function verifiedProviderOut(r: Ranked, lang: string) {
     hours: p.hours ?? "",
     on_doj_list: DOJ_ORG_TYPES.includes(p.org_type),
     trust: p.trust,
+    trust_label: trustLabel(lang, p.trust),
     verified: trustRank(p.trust) === 0,
-    source_url: p.source_url ?? "",
+    ...sourceOf(p, lang),
     last_checked: p.last_checked ?? "",
-    note: `${t(lang, "free_providers_nearby")} ${p.name}, ${p.address ?? ""}${p.phone ? `, ${p.phone}` : ""}.`,
+    note: `${freeProvidersTitle(lang, [p.trust])} ${p.name}, ${p.address ?? ""}${p.phone ? `, ${p.phone}` : ""}.`,
   };
 }
 
@@ -298,6 +331,8 @@ export interface PlaceOut {
   programs: ProgramOut[];
   summary: string;
   source_url: string;
+  /** Only when there is no http(s) source link (e.g. an approved community submission). */
+  source_label?: string;
   last_checked: string;
 }
 
@@ -332,7 +367,7 @@ export function placeOut(r: Ranked, lang: string, summary: string): PlaceOut {
     bring: bringOf(r.programs),
     programs: r.programs.map((prog) => programOut(prog, lang)),
     summary,
-    source_url: p.source_url ?? "",
+    ...sourceOf(p, lang),
     last_checked: p.last_checked ?? "",
   };
   if (r.distanceKm !== undefined) out.distance_km = r.distanceKm;
@@ -439,7 +474,8 @@ export function templateSummary(r: Ranked, language: string): string {
   const p = r.place;
   const area = zipToNeighborhood(p.zip ?? "") ?? p.borough ?? "";
   const parts: string[] = [];
-  const offers = r.programs.map((x) => x.name);
+  // Spanish: drop English glosses like "WIC (food for women, infants and children)" -> "WIC".
+  const offers = r.programs.map((x) => (lang === "en" ? x.name : x.name.replace(/\s*\([^)]*\)/g, "").trim()));
   const where = area ? (lang === "en" ? ` in ${area}` : ` en ${area}`) : "";
   parts.push(
     `${orgTypeLabel(lang, p.org_type)}${where}` +
@@ -474,8 +510,8 @@ export const LLM_TIMEOUT_MS = 8000;
 /**
  * One structured LLM call that never throws and never waits longer than
  * `ms`: returns the parsed object, or null on timeout/error/no key (callers
- * then use their templates). A timed-out request keeps running in the
- * background; its result is ignored.
+ * then use their templates). Locally the HTTP call is aborted at the deadline
+ * (AbortSignal); on Base44 the signal is ignored and the race still caps the wait.
  */
 export async function llmJson(
   req: Request,
@@ -488,8 +524,11 @@ export async function llmJson(
     timer = setTimeout(() => resolve(null), ms);
   });
   try {
-    const call = invokeLLM(req, { prompt, response_json_schema: schema }).catch((err) => {
-      console.error("llmJson: LLM failed, using template:", err instanceof Error ? err.message.slice(0, 120) : "unknown");
+    const signal = typeof AbortSignal.timeout === "function" ? AbortSignal.timeout(ms + 250) : undefined;
+    const call = invokeLLM(req, { prompt, response_json_schema: schema, signal }).catch((err) => {
+      // Name and status only: provider error text can echo parts of the prompt.
+      const e = err as { name?: unknown; status?: unknown } | null;
+      console.error("llmJson: LLM failed, using template:", String(e?.name ?? "unknown"), e?.status ?? "");
       return null;
     });
     return await Promise.race([call, timeout]);

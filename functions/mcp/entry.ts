@@ -7,6 +7,7 @@
 
 import { CORS_HEADERS, json } from "../../shared/http.ts";
 import { findTool, TOOLS } from "../../shared/tools/index.ts";
+import { logFailedCall } from "../../shared/tools/wrap.ts";
 
 const SERVER_INFO = { name: "nyc-navigator", version: "1.0.0" };
 const DEFAULT_PROTOCOL = "2025-06-18";
@@ -66,6 +67,7 @@ async function handle(req: Request, msg: RpcMessage): Promise<unknown | null> {
         const data = await tool.run(req, args, { channel: "mcp" });
         return rpcResult(id, textResult(data));
       } catch (err) {
+        logFailedCall(req, args, "mcp", err); // bad input (400) still counts as unmet demand
         const e = err as { expose?: boolean; message?: string };
         const message = e?.expose && e.message ? e.message : "The tool failed. Please try again.";
         if (!e?.expose) console.error(`tools/call ${name} failed:`, err instanceof Error ? err.name : typeof err);

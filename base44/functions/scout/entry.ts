@@ -25,17 +25,23 @@
 // fails with HTTP 409 if the app has Workflows enabled (then recreate the
 // schedule as a Workflow and delete the "automations" block).
 //
-// PORTING:
-//  - requireAdmin becomes base44.auth.me() role === "admin" (shared/auth.ts).
-//    A scheduled run has no signed-in admin, so in Base44 let a request with
-//    body.args through only when it comes from the automation (check how the
-//    platform marks automation calls; the docs do not say). Until confirmed,
-//    run Scout from the admin page and leave is_active false.
-//  - Submission.jsonc needs two optional fields Scout writes: "notes" (string)
-//    and "needs" (array of need enums). Base44 may drop unknown fields.
-//  - Add TAVILY_API_KEY to Base44 secrets.
+// AUTH: an admin (x-admin-token, or a Base44 admin user after the port), OR a
+// scheduled run carrying the SCOUT_TOKEN secret. Base44 automations cannot set
+// headers, so the token travels in the body: function_args.scout_token (arrives
+// as body.args.scout_token), body.scout_token, or header x-scout-token.
+// Compared in constant time. With SCOUT_TOKEN unset, only admins can run Scout.
+// To turn the nightly runs on in Base44: `base44 secrets set SCOUT_TOKEN=...`,
+// put the same value in each schedule's function_args.scout_token in the Base44
+// dashboard (never commit it into function.jsonc), then set is_active true.
+// This app uses Base44 Workflows, which reject legacy "automations" (HTTP 409),
+// so scripts/base44-sync.ts strips them; recreate the 4 schedules as Workflows
+// that POST the same body. See PORTING.md.
+//
+// Submission.jsonc has the optional "notes" and "needs" fields Scout writes.
+// Add TAVILY_API_KEY to Base44 secrets.
 
-import { requireAdmin } from "../../shared/auth.ts";
+import { requireAdmin, timingSafeEqual } from "../../shared/auth.ts";
+import { getSecret } from "../../shared/secrets.ts";
 import { CORS_HEADERS, errorResponse, HttpError, json, readJson } from "../../shared/http.ts";
 import { runScout } from "../../shared/scout.ts";
 
@@ -43,17 +49,27 @@ export default async function (req: Request): Promise<Response> {
   if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS_HEADERS });
   try {
     if (req.method !== "POST") throw new HttpError(405, "Method not allowed. POST a JSON object.");
-    await requireAdmin(req);
     const body = await readJson<unknown>(req);
     if (!body || typeof body !== "object" || Array.isArray(body)) {
       throw new HttpError(400, "Request body must be a JSON object");
     }
     const b = body as Record<string, unknown>;
-    const input = b.args && typeof b.args === "object" && !Array.isArray(b.args)
+    const { scout_token: _t, ...input } = b.args && typeof b.args === "object" && !Array.isArray(b.args)
       ? b.args as Record<string, unknown>
       : b;
+    if (!hasScoutToken(req, b)) await requireAdmin(req);
     return json(await runScout(req, input));
   } catch (err) {
     return errorResponse(err);
   }
+}
+
+/** True when the request carries the SCOUT_TOKEN secret (scheduled runs). False when the secret is unset. */
+function hasScoutToken(req: Request, body: Record<string, unknown>): boolean {
+  const expected = getSecret("SCOUT_TOKEN");
+  if (!expected) return false;
+  const args = body.args && typeof body.args === "object" ? body.args as Record<string, unknown> : {};
+  const given = [args.scout_token, body.scout_token, req.headers.get("x-scout-token")]
+    .find((v) => typeof v === "string" && v) as string | undefined;
+  return Boolean(given && timingSafeEqual(given, expected));
 }

@@ -95,7 +95,7 @@ Deno.test("check_provider: notario not found (Spanish) + log row", opts, async (
     await waitForLogs(before + 1);
     const rows = await getDb(req).RequestLog.list("-created_date", 1);
     const row = rows[0] as unknown as Record<string, unknown>;
-    eq([row.needs, row.zip, row.language, row.channel, row.results_found, row.unmet], [["legal"], "11368", "es", "mcp", 2, false]);
+    eq([row.needs, row.zip, row.language, row.channel, row.results_found, row.unmet], [["legal"], "11368", "es", "mcp", 2, true]); // unmet: no provider in 11368 itself (spec: that zip + language)
     const file = await Deno.readTextFile(`${Deno.env.get("DATA_DIR")}/RequestLog.json`);
     ok(!/perez|notario/i.test(file), "searched name never logged");
   }

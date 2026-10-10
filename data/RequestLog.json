@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "mcp",
+    "results_found": 4,
+    "unmet": false,
+    "created_at": "2026-10-10T16:41:20.397Z",
+    "id": "b77e4bc37aa948a481b09600",
+    "created_date": "2026-10-10T16:41:20.401Z",
+    "updated_date": "2026-10-10T16:41:20.401Z"
+  },
+  {
+    "needs": [
+      "food",
+      "health",
+      "id"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "mcp",
+    "results_found": 3,
+    "unmet": false,
+    "created_at": "2026-10-10T16:46:02.454Z",
+    "id": "54045cc47f1c4251b51d8e9f",
+    "created_date": "2026-10-10T16:46:02.475Z",
+    "updated_date": "2026-10-10T16:46:02.475Z"
+  },
+  {
+    "needs": [],
+    "zip": "",
+    "language": "es",
+    "channel": "mcp",
+    "results_found": 1,
+    "unmet": false,
+    "created_at": "2026-10-10T16:46:02.670Z",
+    "id": "5425fa92359040468cf19501",
+    "created_date": "2026-10-10T16:46:02.674Z",
+    "updated_date": "2026-10-10T16:46:02.674Z"
+  }
+]

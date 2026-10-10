@@ -2,10 +2,11 @@
 //   invokeLLM(req, { prompt, response_json_schema?, add_context_from_internet?, file_urls? })
 //   -> string, or a parsed object when response_json_schema is given.
 //
-// PORTING: in Base44, replace the body of invokeLLM with one line:
+// PORTING: base44-overrides/shared/llm.ts replaces this file in the Base44 copy
+// (scripts/base44-sync.ts). It keeps this OpenRouter call when the
+// OPENROUTER_API_KEY secret is set on Base44, and otherwise calls
 //
-//   return await createClientFromRequest(req).asServiceRole.integrations.Core.InvokeLLM(params);
-//
+//   createClientFromRequest(req).asServiceRole.integrations.Core.InvokeLLM(params)
 // `req` is unused locally but required, so call sites stay the same after the port.
 // There is deliberately no `model` param: Base44 only accepts its own preset
 // ids and picks a good one when it is omitted. Locally set OPENROUTER_MODEL.

@@ -30,6 +30,8 @@ const es = {
   provider_not_found:
     "No encontramos \"{name}\" en las listas oficiales del Departamento de Justicia (DOJ) de abogados y representantes acreditados.",
   free_providers_nearby: "Proveedores legales gratuitos y verificados cerca de usted:",
+  free_providers_doj: "Proveedores legales gratuitos en las listas del Departamento de Justicia (DOJ) cerca de usted:",
+  source_community: "Enviado por la comunidad y revisado por nuestro equipo el {date}.",
   plan_intro: "Su plan, paso a paso. El primer paso le ayuda con los siguientes.",
   intake_title_person: "Resumen para llevar a su cita legal",
   intake_title_lawyer: "Intake summary for the attorney",
@@ -97,6 +99,8 @@ const en: Record<I18nKey, string> = {
   provider_not_found:
     "We did not find \"{name}\" on the official Department of Justice (DOJ) lists of attorneys and accredited representatives.",
   free_providers_nearby: "Free, verified legal providers near you:",
+  free_providers_doj: "Free legal providers on the Department of Justice (DOJ) lists near you:",
+  source_community: "Sent by the community and reviewed by our team on {date}.",
   plan_intro: "Your plan, step by step. The first step helps with the next ones.",
   intake_title_person: "Summary to bring to your legal appointment",
   intake_title_lawyer: "Intake summary for the attorney",
@@ -163,6 +167,15 @@ export function disclaimer(lang: unknown): string {
 export function needLabel(lang: unknown, need: string): string {
   const key = `need_${need}` as I18nKey;
   return key in es ? t(lang, key) : need;
+}
+
+/**
+ * Heading for a list of free legal providers. Says "verified" only when every
+ * provider listed is official or verified; otherwise "on the DOJ lists".
+ */
+export function freeProvidersTitle(lang: unknown, trusts: unknown[]): string {
+  const allVerified = trusts.length > 0 && trusts.every((x) => x === "official" || x === "verified");
+  return t(lang, allVerified ? "free_providers_nearby" : "free_providers_doj");
 }
 
 /** Human label for a trust level ("verified" -> "Verificado"). */
