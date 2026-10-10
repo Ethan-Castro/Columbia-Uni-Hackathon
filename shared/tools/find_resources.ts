@@ -232,6 +232,7 @@ export const findResources: Tool = {
 
     const response: Record<string, unknown> = {
       need,
+      need_label: label,
       near: near.label,
       language,
       open_now: openNow,
