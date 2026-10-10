@@ -10,6 +10,8 @@ React 18 + Vite 6, plain CSS, no UI or chart libraries. Spanish by default, with
 | `#/admin` | Review queue: approve (with optional edits) or reject. Approving publishes a Place with `trust: community` | admin |
 | `#/insights` | "Tráfico de prueba / Test traffic" dashboard: requests by need, unmet by zip, language mix, channel mix | admin |
 
+Unlisted page: `/huggingface` (also `/hugging face`, `/hugging-face`) shows the open dataset on Hugging Face (`Felixr1/nyc-immigrant-services`) with a searchable table loaded from its CSVs. It is a static file (`public/huggingface/index.html`, `noindex`), has no menu link and is not in the sitemap; `src/main.tsx` redirects the path variants to it.
+
 `src/api.ts` is the only file that calls the backend (`POST /functions/<name>`).
 
 ## Run locally
