@@ -11,7 +11,7 @@ export type Lang = "es" | "en";
 
 const es = {
   app_name: "Mapa de Servicios NYC",
-  app_tagline: "Servicios gratuitos para inmigrantes en Nueva York",
+  app_tagline: "Servicios para inmigrantes en Nueva York, en español e inglés",
   nav_directory: "Directorio",
   nav_submit: "Sugerir un recurso",
   nav_admin: "Revisión",
@@ -28,7 +28,7 @@ const es = {
 
   // Directory
   dir_title: "¿Qué necesita hoy?",
-  dir_intro: "Busque comida, ayuda legal, salud y más cerca de usted. Todo es gratis o de bajo costo.",
+  dir_intro: "Busque comida, ayuda legal, salud y más cerca de usted. Cada lugar muestra su fuente y cuándo lo revisamos.",
   dir_search: "Buscar por nombre, dirección o código postal",
   dir_search_placeholder: "Ej.: Corona, 11368, IDNYC",
   dir_need_all: "Todo",
@@ -196,7 +196,7 @@ export type Key = keyof typeof es;
 
 const en: Record<Key, string> = {
   app_name: "NYC Services Map",
-  app_tagline: "Free services for immigrant New Yorkers",
+  app_tagline: "Services for immigrant New Yorkers, in Spanish and English",
   nav_directory: "Directory",
   nav_submit: "Suggest a resource",
   nav_admin: "Review",
@@ -212,7 +212,7 @@ const en: Record<Key, string> = {
   sample_banner: "Sample data for the demo. Places marked (sample) are not real.",
 
   dir_title: "What do you need today?",
-  dir_intro: "Find food, legal help, health care and more near you. Everything is free or low cost.",
+  dir_intro: "Find food, legal help, health care and more near you. Every place shows its source and when we checked it.",
   dir_search: "Search by name, address or zip code",
   dir_search_placeholder: "e.g. Corona, 11368, IDNYC",
   dir_need_all: "Everything",
@@ -373,6 +373,9 @@ export const STRINGS: Record<Lang, Record<Key, string>> = { es, en };
 const LANG_KEY = "nyc-nav-lang";
 
 function initialLang(): Lang {
+  // A shared link can pick the language: ?lang=en or #/directory?lang=en
+  const m = /[?&]lang=(es|en)\b/.exec(location.search + location.hash);
+  if (m) return m[1] as Lang;
   try {
     const saved = localStorage.getItem(LANG_KEY);
     if (saved === "es" || saved === "en") return saved;

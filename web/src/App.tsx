@@ -27,22 +27,27 @@ export function App() {
             <svg className="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
               <circle cx="16" cy="13" r="8" fill="currentColor" />
               <path d="M16 30 L9 18 H23 Z" fill="currentColor" />
-              <circle cx="16" cy="13" r="3" fill="var(--surface)" />
+              <circle cx="16" cy="13" r="3" fill="var(--background)" />
             </svg>
             <span>
               <strong>{t("app_name")}</strong>
               <small>{t("app_tagline")}</small>
             </span>
           </a>
-          <button
-            type="button"
-            className="lang-toggle"
-            onClick={() => setLang(lang === "es" ? "en" : "es")}
-            aria-label={t("lang_toggle_label")}
-            lang={lang === "es" ? "en" : "es"}
-          >
-            {t("lang_toggle")}
-          </button>
+          <div className="lang-switch" role="group" aria-label={lang === "es" ? "Idioma" : "Language"}>
+            {(["es", "en"] as const).map((l) => (
+              <button
+                key={l}
+                type="button"
+                lang={l}
+                aria-pressed={lang === l}
+                onClick={() => setLang(l)}
+              >
+                <span className="lang-long">{l === "es" ? "Español" : "English"}</span>
+                <span className="lang-short" aria-hidden="true">{l.toUpperCase()}</span>
+              </button>
+            ))}
+          </div>
         </div>
         <nav className="nav" aria-label={t("nav_directory")}>
           {nav.map(([r, label]) => (
