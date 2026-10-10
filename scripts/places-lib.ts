@@ -113,12 +113,12 @@ export const ORG_TYPE_MEANING: Record<OrgType, { es: string; en: string; prompt:
   remittance: {
     es: "Envío de dinero",
     en: "Money transfer agent",
-    prompt: "A money transfer (remittance) agent. It is a business and fees apply.",
+    prompt: "A money transfer (remittance) agent. It is a business. We have no data on its fees: tell people to ask the price before sending money.",
   },
   check_casher: {
     es: "Cambio de cheques",
     en: "Check casher",
-    prompt: "A licensed check cashing business. It is a business and fees apply.",
+    prompt: "A licensed check cashing business. We have no data on its fees: tell people to ask the price first.",
   },
   school: {
     es: "Centro de bienvenida escolar",

@@ -1,6 +1,7 @@
 // The one MCP Apps widget (ChatGPT plugin + Claude interactive connector).
 // A single HTML file: inline CSS and JS, no CDN, no fetches. The only remote
-// resources are OpenStreetMap tiles for the map thumbnail (declared in the CSP).
+// resources are NYC Basemap tiles from the City of New York (maps.nyc.gov) for the map
+// thumbnail, declared in the CSP. (OSM blocks Referer-less requests; CARTO needs a key.)
 // It renders find_resources (places), make_plan (steps) and check_provider
 // (DOJ-listed options) from the tool's structuredContent.
 //
@@ -17,7 +18,7 @@
 // The page lives in String.raw, so the inline JS must never contain a backtick
 // or a dollar sign followed by a brace.
 
-export const CARD_URI = "ui://navigator/card-v4.html";
+export const CARD_URI = "ui://navigator/card-v5.html";
 export const CARD_MIME = "text/html;profile=mcp-app";
 
 /** resources/list entry. */
@@ -31,7 +32,7 @@ export const CARD_RESOURCE = {
 
 /** _meta on the resources/read content item. No ui.domain on purpose (each host wants its own format). */
 export const CARD_META = {
-  ui: { prefersBorder: true, csp: { connectDomains: [], resourceDomains: ["https://tile.openstreetmap.org"] } },
+  ui: { prefersBorder: true, csp: { connectDomains: [], resourceDomains: ["https://maps.nyc.gov"] } },
   "openai/widgetDescription":
     "Muestra lugares con dirección, horario, idiomas, fuente y fecha de revisión; o un plan paso a paso; " +
     "o si un notario o consultor aparece en las listas del DOJ, con opciones de esas listas cerca.",
@@ -39,7 +40,7 @@ export const CARD_META = {
   // openExternal destinations ChatGPT should trust. Real source_url hosts go here once the data is real.
   "openai/widgetCSP": {
     connect_domains: [],
-    resource_domains: ["https://tile.openstreetmap.org"],
+    resource_domains: ["https://maps.nyc.gov"],
     redirect_domains: ["https://www.google.com", "https://maps.apple.com", "https://www.justice.gov", "https://inmigracion-nyc.com"],
   },
 };
@@ -254,7 +255,7 @@ function sourceFoot(p) {
   if (dateText) kids.push(h("span", "muted", "· " + dateText));
   return h("div", "foot", kids);
 }
-// OpenStreetMap thumbnail centered on the place: 3x3 tiles at zoom 16, a pin in the middle.
+// Map thumbnail (NYC Basemap tiles) centered on the place: 3x3 tiles at zoom 16, a pin in the middle.
 function mapThumb(p) {
   var lat = Number(p.lat), lng = Number(p.lng);
   if (!isFinite(lat) || !isFinite(lng) || (lat === 0 && lng === 0)) return null;
@@ -265,13 +266,13 @@ function mapThumb(p) {
   for (var dy = -1; dy <= 1; dy++) for (var dx = -1; dx <= 1; dx++) {
     var img = document.createElement("img");
     img.alt = ""; img.loading = "lazy"; img.decoding = "async"; img.referrerPolicy = "no-referrer";
-    img.src = "https://tile.openstreetmap.org/" + z + "/" + (tx + dx) + "/" + (ty + dy) + ".png";
+    img.src = "https://maps.nyc.gov/xyz/1.0.0/carto/basemap/" + z + "/" + (tx + dx) + "/" + (ty + dy) + ".jpg";
     img.onerror = function () { this.style.visibility = "hidden"; };
     tiles.appendChild(img);
   }
   tiles.style.left = "calc(50% - " + Math.round(256 + fx * 256) + "px)";
   tiles.style.top = "calc(50% - " + Math.round(256 + fy * 256) + "px)";
-  var box = h("div", "map", [tiles, h("span", "pin"), h("span", "attr", "© OpenStreetMap")]);
+  var box = h("div", "map", [tiles, h("span", "pin"), h("span", "attr", "© City of New York")]);
   box.setAttribute("role", "img");
   box.setAttribute("aria-label", T("mapOf") + " " + (str(p.name) || ""));
   return box;

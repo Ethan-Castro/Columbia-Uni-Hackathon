@@ -1,61 +1,61 @@
 {
   "place_id": "place-ginbri-express",
   "model": "z-ai/glm-5.3-flash",
-  "generated_at": "2026-10-10T18:44:03.062Z",
-  "facts_hash": "dad57fb63a2956bc",
+  "generated_at": "2026-10-10T19:06:05.229Z",
+  "facts_hash": "4597358d3cf9714a",
   "article": {
-    "title_es": "Ginbri Express: agencia de envíos de dinero en Queens",
+    "title_es": "Ginbri Express: agente de envíos de dinero en Queens",
     "title_en": "Ginbri Express: money transfer agent in Queens",
-    "summary_es": "Ginbri Express es una agencia de envíos de dinero (agente de Western Union) ubicada en Queens. Es un negocio y se cobran tarifas por el servicio.",
-    "summary_en": "Ginbri Express is a money transfer agent (a Western Union agent) located in Queens. It is a business and fees apply.",
+    "summary_es": "Ginbri Express es un negocio en Corona, Queens, que actúa como agente de Western Union para enviar dinero. No tenemos datos sobre sus tarifas.",
+    "summary_en": "Ginbri Express is a business in Corona, Queens, that works as a Western Union agent for sending money. We have no data on its fees.",
     "how_they_help_es": [
-      "Es una agencia de envíos de dinero, agente de Western Union.",
-      "Está ubicada en 96-02 37th Ave, Queens, NY 11368.",
-      "Puede llamar al 347-888-6047 para preguntar por el servicio.",
-      "Las tarifas y los detalles del servicio no están en la lista; pregunte directamente."
+      "Es un agente de Western Union para envíos de dinero.",
+      "Está en 96-02 37th Ave, Queens, NY 11368.",
+      "Puede llamar al 347-888-6047 para preguntar.",
+      "No tenemos datos de sus tarifas: pregunte el precio antes de enviar dinero."
     ],
     "how_they_help_en": [
-      "It is a money transfer agent, a Western Union agent.",
-      "It is located at 96-02 37th Ave, Queens, NY 11368.",
-      "You can call 347-888-6047 to ask about the service.",
-      "Fees and service details are not listed; ask directly."
+      "It is a Western Union agent for sending money.",
+      "Located at 96-02 37th Ave, Queens, NY 11368.",
+      "You can call 347-888-6047 to ask questions.",
+      "We have no data on its fees: ask the price before sending money."
     ],
     "visit_tips_es": [
-      "Es un negocio privado, por lo que se cobran tarifas por cada envío.",
-      "Llame antes de ir para confirmar el horario y preguntar por las tarifas.",
-      "El horario de atención no está en la lista; confírmelo por teléfono."
+      "Pregunte cuánto cuesta el envío antes de pagar.",
+      "Este negocio no ha sido verificado por nosotros.",
+      "La información fue revisada por última vez el 10 de octubre de 2026."
     ],
     "visit_tips_en": [
-      "It is a private business, so fees apply for each transfer.",
-      "Call before you go to confirm hours and ask about fees.",
-      "Hours are not listed; confirm by phone."
+      "Ask how much the transfer costs before you pay.",
+      "This business has not been verified by us.",
+      "The information was last checked on October 10, 2026."
     ],
     "faq_es": [
       {
         "q": "¿Qué es Ginbri Express?",
-        "a": "Es una agencia de envíos de dinero, agente de Western Union, ubicada en Queens."
+        "a": "Es un negocio en Queens que actúa como agente de Western Union para envíos de dinero."
       },
       {
-        "q": "¿Cuánto cuesta enviar dinero?",
-        "a": "Es un negocio y se cobran tarifas. Los montos no están en la lista; pregunte llamando al 347-888-6047."
+        "q": "¿Cuánto cobran por enviar dinero?",
+        "a": "No tenemos datos sobre sus tarifas. Pregunte el precio antes de enviar dinero."
       },
       {
-        "q": "¿Cuál es el horario de atención?",
-        "a": "El horario no está en la lista. Llame al 347-888-6047 para confirmarlo antes de ir."
+        "q": "¿Cómo los contacto?",
+        "a": "Puede llamar al 347-888-6047 o visitar 96-02 37th Ave, Queens, NY 11368."
       }
     ],
     "faq_en": [
       {
         "q": "What is Ginbri Express?",
-        "a": "It is a money transfer agent, a Western Union agent, located in Queens."
+        "a": "It is a business in Queens that works as a Western Union agent for money transfers."
       },
       {
-        "q": "How much does it cost to send money?",
-        "a": "It is a business and fees apply. Amounts are not listed; ask by calling 347-888-6047."
+        "q": "How much do they charge to send money?",
+        "a": "We have no data on its fees. Ask the price before sending money."
       },
       {
-        "q": "What are the hours?",
-        "a": "Hours are not listed. Call 347-888-6047 to confirm before you go."
+        "q": "How do I contact them?",
+        "a": "You can call 347-888-6047 or visit 96-02 37th Ave, Queens, NY 11368."
       }
     ]
   }

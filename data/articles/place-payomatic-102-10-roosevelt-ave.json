@@ -1,61 +1,63 @@
 {
   "place_id": "place-payomatic-102-10-roosevelt-ave",
   "model": "z-ai/glm-5.3-flash",
-  "generated_at": "2026-10-10T18:44:26.292Z",
-  "facts_hash": "ff49d022e03b10d0",
+  "generated_at": "2026-10-10T19:05:26.137Z",
+  "facts_hash": "5e3178e2e3d53f18",
   "article": {
-    "title_es": "PAYOMATIC (102-10 Roosevelt Ave): negocio de cobro de cheques en Queens",
-    "title_en": "PAYOMATIC (102-10 Roosevelt Ave): check cashing business in Queens",
-    "summary_es": "PAYOMATIC es un negocio autorizado de cobro de cheques en Corona, Queens. Cobra tarifas por sus servicios.",
-    "summary_en": "PAYOMATIC is a licensed check cashing business in Corona, Queens. Fees apply for its services.",
+    "title_es": "PAYOMATIC (102-10 Roosevelt Ave): negocio de cobro de cheques en Corona, Queens",
+    "title_en": "PAYOMATIC (102-10 Roosevelt Ave): check cashing business in Corona, Queens",
+    "summary_es": "PAYOMATIC en Corona, Queens es un negocio autorizado de cobro de cheques. No tenemos datos sobre sus tarifas, así que pregunte el precio antes de usar el servicio.",
+    "summary_en": "PAYOMATIC in Corona, Queens is a licensed check cashing business. We have no data on its fees, so ask the price first before using the service.",
     "how_they_help_es": [
       "Es un negocio autorizado de cobro de cheques.",
       "Está ubicado en 102-10 Roosevelt Ave, Corona, NY 11368.",
-      "Abre temprano y hasta tarde, incluyendo fines de semana.",
-      "Tiene teléfono: (516) 496-1970 para preguntas."
+      "Abre temprano, a las 7 am, todos los días de la semana.",
+      "Abre noches y fines de semana.",
+      "No tenemos datos sobre sus tarifas: pregunte el precio primero."
     ],
     "how_they_help_en": [
       "It is a licensed check cashing business.",
       "Located at 102-10 Roosevelt Ave, Corona, NY 11368.",
-      "Open early and late, including weekends.",
-      "Phone available: (516) 496-1970 for questions."
+      "Opens early, at 7 am, every day of the week.",
+      "Open evenings and weekends.",
+      "We have no data on its fees: ask the price first."
     ],
     "visit_tips_es": [
-      "Recuerde que este negocio cobra tarifas por sus servicios.",
-      "Llame al (516) 496-1970 antes de ir para confirmar servicios y tarifas.",
-      "Los horarios pueden cambiar; confirme por teléfono."
+      "Horario: dom-mié 7 am-11 pm; jue-vie 7 am-12 am; sáb 7 am-11 pm.",
+      "Llame antes de ir: (516) 496-1970.",
+      "Pregunte cuánto cobran antes de canjear un cheque."
     ],
     "visit_tips_en": [
-      "Remember this business charges fees for its services.",
-      "Call (516) 496-1970 before going to confirm services and fees.",
-      "Hours may change; confirm by phone."
+      "Hours: Sun-Tue 7am-11pm; Wed-Fri 7am-12am; Sat 7am-11pm.",
+      "Call before you go: (516) 496-1970.",
+      "Ask how much they charge before cashing a check."
     ],
     "faq_es": [
       {
-        "q": "¿Cobra tarifas?",
-        "a": "Sí. Es un negocio de cobro de cheques y se aplican tarifas. Pregunte por teléfono cuáles son."
+        "q": "¿Qué es PAYOMATIC en Corona?",
+        "a": "Es un negocio autorizado de cobro de cheques en 102-10 Roosevelt Ave, Corona, NY 11368."
+      },
+      {
+        "q": "¿Cuánto cobran por cobrar un cheque?",
+        "a": "No tenemos datos sobre sus tarifas. Pregunte el precio primero, antes de usar el servicio."
       },
       {
         "q": "¿Qué horario tiene?",
-        "a": "Dom-mar 7am-11pm; mié-vie 7am-12am; sáb 7am-11pm."
-      },
-      {
-        "q": "¿Qué otros servicios ofrece?",
-        "a": "La información no lo indica. Llame al (516) 496-1970 para preguntar."
+        "a": "Dom-mié 7 am-11 pm; jue-vie 7 am-12 am; sáb 7 am-11 pm. También puede llamar al (516) 496-1970."
       }
     ],
     "faq_en": [
       {
-        "q": "Does it charge fees?",
-        "a": "Yes. It is a check cashing business and fees apply. Call to ask what they are."
+        "q": "What is PAYOMATIC in Corona?",
+        "a": "It is a licensed check cashing business at 102-10 Roosevelt Ave, Corona, NY 11368."
+      },
+      {
+        "q": "How much do they charge to cash a check?",
+        "a": "We have no data on its fees. Ask the price first, before using the service."
       },
       {
         "q": "What are the hours?",
-        "a": "Sun-Tue 7am-11pm; Wed-Fri 7am-12am; Sat 7am-11pm."
-      },
-      {
-        "q": "What other services does it offer?",
-        "a": "The listing does not say. Call (516) 496-1970 to ask."
+        "a": "Sun-Tue 7am-11pm; Wed-Fri 7am-12am; Sat 7am-11pm. You can also call (516) 496-1970."
       }
     ]
   }

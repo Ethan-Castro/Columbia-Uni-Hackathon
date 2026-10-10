@@ -63,7 +63,7 @@ Rules:
 2. Never mention, ask about or hint at immigration status, papers or legal presence. Do not write "regardless of status" or similar either.
 3. This is information and referrals, not legal advice. Never give legal advice or predict outcomes.
 4. If type is doj_roster or doj_pro_bono: say it appears on the U.S. Department of Justice (EOIR) list described in type_meaning, and that fees and how to get an appointment are not listed (unless the FACTS give them). Never say its services are free.
-5. If type is check_casher or remittance: say it is a business and fees apply. Never say it is free.
+5. If type is check_casher or remittance: say it is a business, that we have no data on its fees, and that people should ask the price first. Never say fees are charged, and never say it is free.
 6. Never say anything is free, "gratis" or "no cost" unless the FACTS say so.
 7. Copy hours, phone numbers and the address exactly as given. You may translate day names and "am/pm" words into Spanish, but keep the same numbers. Do not convert to 24-hour time. Do not add numbers that are not in the FACTS.
 8. Do not include any URL.

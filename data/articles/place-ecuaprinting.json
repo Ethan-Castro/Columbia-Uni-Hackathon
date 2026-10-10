@@ -1,63 +1,63 @@
 {
   "place_id": "place-ecuaprinting",
   "model": "z-ai/glm-5.3-flash",
-  "generated_at": "2026-10-10T18:44:02.367Z",
-  "facts_hash": "ff4e1bc26cd16e27",
+  "generated_at": "2026-10-10T19:06:08.494Z",
+  "facts_hash": "b2adc7bd61d80bf0",
   "article": {
     "title_es": "Ecuaprinting: agente de Western Union en Corona, Queens",
     "title_en": "Ecuaprinting: Western Union agent in Corona, Queens",
-    "summary_es": "Ecuaprinting Inc es un agente de Western Union para enviar giros de dinero en Corona, Queens. Es un negocio y se cobran tarifas por el servicio.",
-    "summary_en": "Ecuaprinting Inc is a Western Union agent for sending money transfers in Corona, Queens. It is a business and fees apply.",
+    "summary_es": "Ecuaprinting es un negocio en Corona, Queens, que aparece como agente de Western Union para enviar dinero. No tenemos datos sobre sus tarifas.",
+    "summary_en": "Ecuaprinting is a business in Corona, Queens, listed as a Western Union agent for sending money. We have no data on its fees.",
     "how_they_help_es": [
-      "Es un agente de Western Union para envíos de dinero.",
-      "Está ubicado en 10220 37th Ave Rear Store, Corona, NY 11368.",
-      "El teléfono que aparece en la lista es 347-258-2888.",
-      "Es un negocio: se aplican tarifas por las transferencias.",
-      "La lista no detalla tarifas ni horarios; pregunte directamente."
+      "Es un negocio que aparece como agente de Western Union.",
+      "Sirve para enviar dinero (remesas).",
+      "Está en el 10220 de la 37th Ave, tienda trasera, Corona, Queens.",
+      "Teléfono: 347-258-2888.",
+      "No hay horarios ni tarifas en la información disponible; pregunte antes de enviar."
     ],
     "how_they_help_en": [
-      "It is a Western Union agent for sending money transfers.",
-      "It is located at 10220 37th Ave Rear Store, Corona, NY 11368.",
-      "The listed phone number is 347-258-2888.",
-      "It is a business: fees apply for transfers.",
-      "The listing does not include fees or hours; ask directly."
+      "A business listed as a Western Union agent.",
+      "It handles money transfers (remittances).",
+      "Located at 10220 37th Ave, Rear Store, Corona, Queens.",
+      "Phone: 347-258-2888.",
+      "No hours or fees are listed; ask before sending money."
     ],
     "visit_tips_es": [
-      "Llame al 347-258-2888 antes de ir para confirmar horarios y tarifas.",
-      "Recuerde que es un negocio y las transferencias tienen costo.",
-      "La información fue verificada por última vez el 10 de octubre de 2026."
+      "Pregunte el precio y la tarifa antes de enviar dinero.",
+      "Llame al 347-258-2888 para confirmar horarios y servicios.",
+      "La información fue revisada por última vez el 10 de octubre de 2026."
     ],
     "visit_tips_en": [
-      "Call 347-258-2888 before going to confirm hours and fees.",
-      "Remember it is a business and transfers cost money.",
-      "The information was last checked on October 10, 2026."
+      "Ask the price and fee before sending money.",
+      "Call 347-258-2888 to confirm hours and services.",
+      "Information was last checked on October 10, 2026."
     ],
     "faq_es": [
       {
         "q": "¿Qué es Ecuaprinting?",
-        "a": "Es un agente de Western Union para envíos de dinero en Corona, Queens."
+        "a": "Es un negocio en Corona, Queens, que aparece como agente de Western Union para enviar dinero."
       },
       {
         "q": "¿Cuánto cuesta enviar dinero?",
-        "a": "Es un negocio y se cobran tarifas. La lista no indica los montos; llame al 347-258-2888."
+        "a": "No tenemos datos sobre sus tarifas. Pregunte el precio antes de enviar dinero."
       },
       {
         "q": "¿Qué horario tiene?",
-        "a": "El horario no aparece en la lista. Llame al 347-258-2888 para confirmarlo."
+        "a": "El horario no aparece en la información disponible. Llame al 347-258-2888 para preguntar."
       }
     ],
     "faq_en": [
       {
         "q": "What is Ecuaprinting?",
-        "a": "It is a Western Union agent for money transfers in Corona, Queens."
+        "a": "It is a business in Corona, Queens, listed as a Western Union agent for sending money."
       },
       {
         "q": "How much does it cost to send money?",
-        "a": "It is a business and fees apply. The listing does not show amounts; call 347-258-2888."
+        "a": "We have no data on its fees. Ask the price before sending money."
       },
       {
         "q": "What are the hours?",
-        "a": "Hours are not listed. Call 347-258-2888 to confirm."
+        "a": "Hours are not listed in the available information. Call 347-258-2888 to ask."
       }
     ]
   }

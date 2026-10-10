@@ -40,5 +40,623 @@
     "id": "5425fa92359040468cf19501",
     "created_date": "2026-10-10T16:46:02.674Z",
     "updated_date": "2026-10-10T16:46:02.674Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "mcp",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T17:00:41.443Z",
+    "id": "94cd5cd81d83432a982b622d",
+    "created_date": "2026-10-10T17:00:41.452Z",
+    "updated_date": "2026-10-10T17:00:41.452Z"
+  },
+  {
+    "needs": [
+      "food",
+      "health",
+      "id"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "mcp",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T17:15:01.355Z",
+    "id": "eb75118366b4495e9f7a10dc",
+    "created_date": "2026-10-10T17:15:01.365Z",
+    "updated_date": "2026-10-10T17:15:01.365Z"
+  },
+  {
+    "needs": [
+      "legal"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "mcp",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T17:15:01.420Z",
+    "id": "2b6637bc50e747c086d7b1fb",
+    "created_date": "2026-10-10T17:15:01.424Z",
+    "updated_date": "2026-10-10T17:15:01.424Z"
+  },
+  {
+    "needs": [
+      "money"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "mcp",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T17:15:04.110Z",
+    "id": "61f32b2c685d4ba9bb7bf96d",
+    "created_date": "2026-10-10T17:15:04.115Z",
+    "updated_date": "2026-10-10T17:15:04.115Z"
+  },
+  {
+    "needs": [
+      "legal"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "mcp",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T17:22:36.485Z",
+    "id": "21b412e03e7c45b888b9e4c7",
+    "created_date": "2026-10-10T17:22:36.488Z",
+    "updated_date": "2026-10-10T17:22:36.488Z"
+  },
+  {
+    "needs": [
+      "legal"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "mcp",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T17:22:36.510Z",
+    "id": "93eb53dd2cec4fd881155f12",
+    "created_date": "2026-10-10T17:22:36.511Z",
+    "updated_date": "2026-10-10T17:22:36.511Z"
+  },
+  {
+    "needs": [
+      "legal"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "mcp",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T17:22:53.872Z",
+    "id": "485a6548b3f34498a435930b",
+    "created_date": "2026-10-10T17:22:53.875Z",
+    "updated_date": "2026-10-10T17:22:53.875Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "whatsapp",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:00:33.614Z",
+    "id": "bcb0498133f3420396f9a2e0",
+    "created_date": "2026-10-10T18:00:33.617Z",
+    "updated_date": "2026-10-10T18:00:33.617Z"
+  },
+  {
+    "needs": [
+      "food",
+      "health",
+      "id"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "whatsapp",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:00:38.596Z",
+    "id": "adc72e7b875f407dadbd7513",
+    "created_date": "2026-10-10T18:00:38.602Z",
+    "updated_date": "2026-10-10T18:00:38.602Z"
+  },
+  {
+    "needs": [
+      "legal"
+    ],
+    "zip": "",
+    "language": "es",
+    "channel": "whatsapp",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:00:39.941Z",
+    "id": "0dad2d0d6a2342d58e5a7386",
+    "created_date": "2026-10-10T18:00:39.951Z",
+    "updated_date": "2026-10-10T18:00:39.951Z"
+  },
+  {
+    "needs": [
+      "money"
+    ],
+    "zip": "11372",
+    "language": "en",
+    "channel": "whatsapp",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:00:43.213Z",
+    "id": "2be7971e35dc43e9b5427588",
+    "created_date": "2026-10-10T18:00:43.217Z",
+    "updated_date": "2026-10-10T18:00:43.217Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "11368",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:29:57.456Z",
+    "id": "b207c4ace54f45c8a85c7997",
+    "created_date": "2026-10-10T18:29:57.463Z",
+    "updated_date": "2026-10-10T18:29:57.463Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "11368",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:30:00.416Z",
+    "id": "45b9d7d47eb04ad1baee6dde",
+    "created_date": "2026-10-10T18:30:00.422Z",
+    "updated_date": "2026-10-10T18:30:00.422Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:30:02.946Z",
+    "id": "2983053d74af4899b9d23589",
+    "created_date": "2026-10-10T18:30:02.951Z",
+    "updated_date": "2026-10-10T18:30:02.951Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "11368",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:30:05.818Z",
+    "id": "c1c37ff8786242abb705dd19",
+    "created_date": "2026-10-10T18:30:05.833Z",
+    "updated_date": "2026-10-10T18:30:05.833Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "11368",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:30:08.623Z",
+    "id": "abbcc00123ad48fcacf2a2a8",
+    "created_date": "2026-10-10T18:30:08.627Z",
+    "updated_date": "2026-10-10T18:30:08.627Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:30:18.743Z",
+    "id": "8b4ebee31aee4efd8fd397d7",
+    "created_date": "2026-10-10T18:30:18.749Z",
+    "updated_date": "2026-10-10T18:30:18.749Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:30:21.445Z",
+    "id": "0ef3987d3d914994b1a1765a",
+    "created_date": "2026-10-10T18:30:21.449Z",
+    "updated_date": "2026-10-10T18:30:21.449Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:30:24.156Z",
+    "id": "626e2cdb2b2e4b89871d9698",
+    "created_date": "2026-10-10T18:30:24.162Z",
+    "updated_date": "2026-10-10T18:30:24.162Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:30:26.797Z",
+    "id": "b6b1d316f0c847a58b97263e",
+    "created_date": "2026-10-10T18:30:26.845Z",
+    "updated_date": "2026-10-10T18:30:26.845Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:30:29.249Z",
+    "id": "d929eaf9806c4a4baeee1c05",
+    "created_date": "2026-10-10T18:30:29.255Z",
+    "updated_date": "2026-10-10T18:30:29.255Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "11372",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:30:32.268Z",
+    "id": "53a3d5a84fc642a9844e06ef",
+    "created_date": "2026-10-10T18:30:32.275Z",
+    "updated_date": "2026-10-10T18:30:32.275Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "11373",
+    "language": "en",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:30:34.978Z",
+    "id": "12f63f9e654e4929b7497c56",
+    "created_date": "2026-10-10T18:30:34.983Z",
+    "updated_date": "2026-10-10T18:30:34.983Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:32:26.555Z",
+    "id": "e34e6e83cfb8472eb2f9480d",
+    "created_date": "2026-10-10T18:32:26.563Z",
+    "updated_date": "2026-10-10T18:32:26.563Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:32:29.165Z",
+    "id": "bba540764bba4615a88d7940",
+    "created_date": "2026-10-10T18:32:29.174Z",
+    "updated_date": "2026-10-10T18:32:29.174Z"
+  },
+  {
+    "needs": [],
+    "zip": "",
+    "language": "es",
+    "channel": "web",
+    "results_found": 0,
+    "unmet": true,
+    "created_at": "2026-10-10T18:32:29.199Z",
+    "id": "e0f7e96ad3954be68726686d",
+    "created_date": "2026-10-10T18:32:29.201Z",
+    "updated_date": "2026-10-10T18:32:29.201Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11220",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:32:38.414Z",
+    "id": "596aa0aaf9354d0dab494ec0",
+    "created_date": "2026-10-10T18:32:38.415Z",
+    "updated_date": "2026-10-10T18:32:38.415Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "10032",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:32:40.849Z",
+    "id": "56c9ffe7e3454904b5902589",
+    "created_date": "2026-10-10T18:32:40.854Z",
+    "updated_date": "2026-10-10T18:32:40.854Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11221",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:32:43.315Z",
+    "id": "d1c67ef6548946a3b52aaf6b",
+    "created_date": "2026-10-10T18:32:43.321Z",
+    "updated_date": "2026-10-10T18:32:43.321Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:34:43.656Z",
+    "id": "a15b67fc350b476b87146892",
+    "created_date": "2026-10-10T18:34:43.663Z",
+    "updated_date": "2026-10-10T18:34:43.663Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:36:20.038Z",
+    "id": "85bbd7b2a474446bbbe6b9aa",
+    "created_date": "2026-10-10T18:36:20.062Z",
+    "updated_date": "2026-10-10T18:36:20.062Z"
+  },
+  {
+    "needs": [
+      "money"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:36:22.430Z",
+    "id": "47153766598a4459a50451b7",
+    "created_date": "2026-10-10T18:36:22.435Z",
+    "updated_date": "2026-10-10T18:36:22.435Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:36:25.631Z",
+    "id": "3c0c9bee9580470f9d65d5aa",
+    "created_date": "2026-10-10T18:36:25.634Z",
+    "updated_date": "2026-10-10T18:36:25.634Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "voice",
+    "results_found": 1,
+    "unmet": false,
+    "created_at": "2026-10-10T18:48:42.186Z",
+    "id": "1d7974033f774e5f90116509",
+    "created_date": "2026-10-10T18:48:42.200Z",
+    "updated_date": "2026-10-10T18:48:42.200Z"
+  },
+  {
+    "needs": [
+      "legal"
+    ],
+    "zip": "11385",
+    "language": "en",
+    "channel": "voice",
+    "results_found": 1,
+    "unmet": false,
+    "created_at": "2026-10-10T18:48:43.572Z",
+    "id": "d04a81df82da49069d37c215",
+    "created_date": "2026-10-10T18:48:43.580Z",
+    "updated_date": "2026-10-10T18:48:43.580Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "voice",
+    "results_found": 1,
+    "unmet": false,
+    "created_at": "2026-10-10T18:49:05.278Z",
+    "id": "8376a8e6d29e4fc4a5b2b455",
+    "created_date": "2026-10-10T18:49:05.284Z",
+    "updated_date": "2026-10-10T18:49:05.284Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11371",
+    "language": "es",
+    "channel": "voice",
+    "results_found": 1,
+    "unmet": false,
+    "created_at": "2026-10-10T18:49:06.559Z",
+    "id": "585a78948bbe44b2aa2eb3af",
+    "created_date": "2026-10-10T18:49:06.608Z",
+    "updated_date": "2026-10-10T18:49:06.608Z"
+  },
+  {
+    "needs": [
+      "id",
+      "food",
+      "health"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "web",
+    "results_found": 3,
+    "unmet": true,
+    "created_at": "2026-10-10T18:58:17.553Z",
+    "id": "9f605f38baf2444bb304c164",
+    "created_date": "2026-10-10T18:58:17.555Z",
+    "updated_date": "2026-10-10T18:58:17.555Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11221",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:58:19.911Z",
+    "id": "e645c4873c46427b9209f14f",
+    "created_date": "2026-10-10T18:58:19.923Z",
+    "updated_date": "2026-10-10T18:58:19.923Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11221",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:58:33.206Z",
+    "id": "a161e6c99ee542bba6102d53",
+    "created_date": "2026-10-10T18:58:33.211Z",
+    "updated_date": "2026-10-10T18:58:33.211Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11221",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T18:58:52.508Z",
+    "id": "45ca7bc469884a419d4eaca6",
+    "created_date": "2026-10-10T18:58:52.580Z",
+    "updated_date": "2026-10-10T18:58:52.580Z"
+  },
+  {
+    "needs": [
+      "food"
+    ],
+    "zip": "11368",
+    "language": "es",
+    "channel": "web",
+    "results_found": 5,
+    "unmet": true,
+    "created_at": "2026-10-10T19:07:27.132Z",
+    "id": "f838091bdb0e43259b896df3",
+    "created_date": "2026-10-10T19:07:27.152Z",
+    "updated_date": "2026-10-10T19:07:27.152Z"
   }
 ]
