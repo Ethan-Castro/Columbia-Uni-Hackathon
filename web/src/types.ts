@@ -41,8 +41,8 @@ export interface DirectoryPlace {
   hours: string;
   open_now: boolean | null;
   open_today: boolean | null;
-  open_evenings: boolean;
-  open_weekends: boolean;
+  open_evenings: boolean | null;
+  open_weekends: boolean | null;
   languages: string[];
   phone: string;
   needs: Need[];
