@@ -211,8 +211,9 @@ def main():
         if o.get("hold"):
             reasons[oid] = o["hold"]
     def apply_lang(r):
+        """Apply review overrides: languages, hours (+ evening/weekend flags) and a blanked wrong phone."""
         o = overrides.get(r["id"], {})
-        return {**r, "languages": o["languages"]} if o.get("languages") else r
+        return {**r, **{k: o[k] for k in ("languages", "hours", "open_evenings", "open_weekends", "phone") if k in o}}
     keep_fh = []
     for r in fh:
         if r["id"] in reasons:

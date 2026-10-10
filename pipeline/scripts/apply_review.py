@@ -21,6 +21,42 @@ OVERRIDES = ROOT / "scripts" / "review_overrides.json"
 ISO = {"es", "en", "zh", "bn", "ne", "quc", "qu"}
 
 
+DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+
+
+def to_min(t):
+    import re
+    m = re.match(r"(\d{1,2})(?::(\d{2}))?\s*(am|pm)", t.strip(), re.I)
+    if not m:
+        return None
+    h = int(m[1]) % 12 + (12 if m[3].lower() == "pm" else 0)
+    return h * 60 + int(m[2] or 0)
+
+
+def flags(hours):
+    """open_evenings / open_weekends for strings like 'Mon, Fri 8am-5pm; Tue-Thu 10am-6pm'. None if unreadable."""
+    import re
+    eve = wkd = False
+    for group in hours.split(";"):
+        m = re.match(r"\s*([A-Za-z ,\-]+?)\s+(\d[\d:]*\s*[ap]m)\s*-\s*(\d[\d:]*\s*[ap]m)", group.strip(), re.I)
+        if not m:
+            return None
+        days = set()
+        for part in m[1].split(","):
+            part = part.strip()[:3].title() if "-" not in part else part.strip()
+            if "-" in part:
+                a, b = [x.strip()[:3].title() for x in part.split("-")]
+                days |= set(DAYS[DAYS.index(a):DAYS.index(b) + 1])
+            elif part in DAYS:
+                days.add(part)
+        close = to_min(m[3])
+        if days & set(DAYS[:5]) and close and close > 18 * 60:
+            eve = True
+        if days & {"Sat", "Sun"}:
+            wkd = True
+    return str(eve).lower(), str(wkd).lower()
+
+
 def load_checks():
     out = {}
     for f in sorted(CHECKS.glob("*.json")):
@@ -45,9 +81,22 @@ def main():
             langs = [l for l in c.get("languages") or [] if l in ISO]
             if langs:
                 overrides.setdefault(pid, {})["languages"] = "|".join(langs)
+        # hours from a call or the place's own recorded message update the listing (this never verifies a place)
+        if st in ("confirmed", "changes") and c.get("hours") and method in ("phone call", "in person", "recorded message"):
+            fl = flags(c["hours"])
+            if fl:
+                overrides.setdefault(pid, {}).update({"hours": c["hours"], "open_evenings": fl[0], "open_weekends": fl[1],
+                                                      "note": f"hours from {method} on {when}, entered by the review team"})
+            else:
+                manual.append((pid, st, {"hours (unreadable, apply by hand)": c["hours"]}))
+        if c.get("phone_bad"):
+            if pid.startswith("place-doj-"):
+                manual.append((pid, st, {"phone": "DOJ-listed number did not work; kept because it is the official listing"}))
+            else:
+                overrides.setdefault(pid, {})["phone"] = ""
         if st == "closed":
             overrides.setdefault(pid, {})["hold"] = f"reported closed or moved in tracker check {when}: {c.get('notes', '')}".strip()
-        extra = {k: c.get(k) for k in ("hours", "bring", "access", "fee", "notes") if c.get(k)}
+        extra = {k: c.get(k) for k in ("bring", "access", "fee", "notes") if c.get(k)}
         if extra:
             manual.append((pid, st, extra))
     if new_lines:

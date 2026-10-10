@@ -13,11 +13,11 @@ Always confirm: still operating at this address; phone answers; hours as listed;
    - source: https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D563&outFields=*&f=json
    - check: languages not stated
 3. [ ] **IGLESIA CRISTIANA EVANGELICA** (`place-fh-iglesia-cristiana-evangelica`, pantry, trust official)
-   - 34-35 96th St, Corona, New York, 11368 | (347) 938-9368 | hours: Sat 11am-12pm (pantry)
+   - 34-35 96th St, Corona, New York, 11368 | (no phone) | hours: Sat 11am-12pm (pantry)
    - source: https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D33&outFields=*&f=json
-   - check: languages not stated
+   - check: languages not stated; no phone in source
 4. [ ] **MT. OLIVET GOSPEL CHURCH** (`place-fh-mt-olivet-gospel-church`, pantry, trust official)
-   - 33-27 97th St, Corona, New York, 11368 | (718) 478-0780 | hours: Wed 5:30pm-6:30pm (pantry)
+   - 33-27 97th St, Corona, New York, 11368 | (718) 478-0780 | hours: Mon-Wed 10am-2pm
    - source: https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D34&outFields=*&f=json
    - check: languages not stated
 5. [ ] **BETHANY PANTRY** (`place-fh-bethany-pantry`, pantry, trust official)
@@ -61,9 +61,9 @@ Always confirm: still operating at this address; phone answers; hours as listed;
    - source: https://www.nychealthandhospitals.org/elmhurst/community-medical-centers
    - check: hours unknown: get the weekly schedule; languages not stated; no coordinates; geocoder: no_match; coordinates withheld, borough from stated city and ZIP
 15. [ ] **Public Health Solutions Neighborhood WIC (Corona)** (`place-phs-neighborhood-wic-corona`, clinic, trust official)
-   - 103-24 Roosevelt Ave 3rd Fl, Corona, NY 11368 | (718) 335-7563 | hours: unknown
+   - 103-24 Roosevelt Ave 3rd Fl, Corona, NY 11368 | (718) 335-7563 | hours: Mon-Thu 8:30am-4pm
    - source: https://agriculture.ny.gov/local-agencies-providing-wic-services
-   - check: hours unknown: get the weekly schedule; languages not stated
+   - check: languages not stated
 16. [ ] **Urban Health Plan - Plaza Del Sol Family Health Center** (`place-urban-health-plan-plaza-del-sol`, clinic, trust unverified)
    - 37-12 108th Street, Corona, NY 11368 | (no phone) | hours: Mon-Fri 7am-5pm; Sat 7am-1:30pm
    - source: https://www.urbanhealthplan.org/locations/plaza-del-sol-family-health-center
@@ -77,7 +77,7 @@ Always confirm: still operating at this address; phone answers; hours as listed;
    - source: https://www.nychealthandhospitals.org/elmhurst/
    - check: hours unknown: get the weekly schedule; languages not stated; no coordinates; geocoder: no_match; coordinates withheld, borough from stated city and ZIP
 19. [ ] **NYC Health + Hospitals/Elmhurst WIC Program** (`place-nyc-hh-elmhurst-wic`, clinic, trust official)
-   - 81-06 Baxter Ave, MC-4, Elmhurst, NY 11373 | 718-334-3265 | hours: Mon-Fri 9am-5pm
+   - 81-06 Baxter Ave, MC-4, Elmhurst, NY 11373 | 718-334-3265 | hours: Mon, Fri 8am-5pm; Tue, Thu 10am-6pm
    - source: https://www.nychealthandhospitals.org/elmhurst/services/wic
    - check: languages not stated
 20. [ ] **NYC Health + Hospitals/Gotham Health (Jackson Heights)** (`place-nyc-hh-gotham-jackson-heights`, clinic, trust official)
