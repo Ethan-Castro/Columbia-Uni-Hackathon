@@ -8,6 +8,7 @@
   // The web app (web/) is built with the Base44 functions path and served as the site.
   "site": {
     "installCommand": "npm --prefix web install",
+    "serveCommand": "npm --prefix web run dev",
     "buildCommand": "VITE_FUNCTIONS_BASE=/api/apps/6aca64c59c3d35bc8bab2330/functions/ npm --prefix web run build",
     "outputDirectory": "./web/dist"
   }

@@ -1,0 +1,19 @@
+{
+  "name": "nyc-navigator",
+  "private": true,
+  "version": "1.0.0",
+  "comment": "Root manifest for the Base44 editor's npm run dev/build/lint/preview checks. The real app lives in web/ (see README/PORTING.md); production is deployed via base44/config.jsonc `site` settings. These scripts delegate to web/ so the editor and the CLI deploy stay in sync without moving the project.",
+  "scripts": {
+    "dev": "(test -d web/node_modules || npm --prefix web install --silent) && npm --prefix web run dev",
+    "build": "(test -d web/node_modules || npm --prefix web install --silent) && npm --prefix web run build --",
+    "preview": "npm --prefix web run preview",
+    "lint": "node -e \"const fs=require('fs');const files=['web/index.html','web/src/main.tsx','web/package.json','web/vite.config.ts'];const missing=files.filter(f=>!fs.existsSync(f));if(missing.length){console.error('lint: missing '+missing.join(', '));process.exit(1)}console.log('lint: ok (web app source present; vite build is the source of truth)')\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
