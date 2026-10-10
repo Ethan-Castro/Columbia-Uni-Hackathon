@@ -8637,12 +8637,12 @@
     "open_evenings": false,
     "open_weekends": true,
     "languages": [],
-    "phone": "(347) 938-9368",
+    "phone": "",
     "trust": "official",
     "source_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D33&outFields=*&f=json",
     "last_checked": "2026-10-10",
     "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "updated_date": "2026-10-10T17:56:15.264Z"
   },
   {
     "id": "place-fh-mt-olivet-gospel-church",
@@ -8654,8 +8654,8 @@
     "zip": "11368",
     "lat": 40.756074,
     "lng": -73.871005,
-    "hours": "Wed 5:30pm-6:30pm (pantry)",
-    "open_evenings": true,
+    "hours": "Mon-Wed 10am-2pm",
+    "open_evenings": false,
     "open_weekends": false,
     "languages": [],
     "phone": "(718) 478-0780",
@@ -8663,7 +8663,7 @@
     "source_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D34&outFields=*&f=json",
     "last_checked": "2026-10-10",
     "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "updated_date": "2026-10-10T17:56:15.264Z"
   },
   {
     "id": "place-fh-bethany-pantry",
@@ -19301,7 +19301,7 @@
     "zip": "11368",
     "lat": 40.74984,
     "lng": -73.862439,
-    "hours": "",
+    "hours": "Mon-Thu 8:30am-4pm",
     "open_evenings": false,
     "open_weekends": false,
     "languages": [],
@@ -19310,7 +19310,7 @@
     "source_url": "https://agriculture.ny.gov/local-agencies-providing-wic-services",
     "last_checked": "2026-10-10",
     "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "updated_date": "2026-10-10T17:56:15.264Z"
   },
   {
     "id": "place-urban-health-plan-wic-corona",
@@ -19343,7 +19343,7 @@
     "zip": "11373",
     "lat": 40.745361,
     "lng": -73.884057,
-    "hours": "Mon-Fri 9am-5pm",
+    "hours": "Mon, Fri 8am-5pm; Tue, Thu 10am-6pm",
     "open_evenings": false,
     "open_weekends": false,
     "languages": [],
@@ -19352,7 +19352,7 @@
     "source_url": "https://www.nychealthandhospitals.org/elmhurst/services/wic",
     "last_checked": "2026-10-10",
     "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "updated_date": "2026-10-10T17:56:15.264Z"
   },
   {
     "id": "place-nyc-hh-elmhurst-hospital",
