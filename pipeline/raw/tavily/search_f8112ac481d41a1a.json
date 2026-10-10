@@ -1,0 +1,68 @@
+{
+ "query": "Consulado General Republica Dominicana Nueva York direccion",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://usa.mirex.gob.do/consular/new-york/consul-general",
+   "title": "Despacho del Cónsul - Consulado General ...",
+   "content": "Dominicana 1501 Broadway Floor 4r, New York, NY 10036 Tel. (212) 768-2480 | E-mail: infony@mirex.gob.do. E-mail: infony@mirex.gob.do",
+   "score": 0.9108078,
+   "raw_content": null,
+   "id": "d401ae-00"
+  },
+  {
+   "url": "https://usa.mirex.gob.do/consular/new-york/noticias",
+   "title": "Noticias - Consulado General de la República Dominicana ...",
+   "content": "1501 Broadway Floor 4r, New York, NY 10036 Tel. (212) 768-2480 | E-mail: infony@mirex.gob.do",
+   "score": 0.9106172,
+   "raw_content": null,
+   "id": "f516bd-01"
+  },
+  {
+   "url": "https://usa.mirex.gob.do/consular/new-york/contacto",
+   "title": "Contacto - Consulado General de la República Dominicana ...",
+   "content": "1501 Broadway, Suite 410 New York, NY 10036 Estados Unidos · (212) 768-2480 · Lunes to viernes 08:00 am a 4:00 pm · Jefe de la Misión: Jesús Vásquez Martínez ,",
+   "score": 0.90771407,
+   "raw_content": null,
+   "id": "d580f4-02"
+  },
+  {
+   "url": "https://usa.mirex.gob.do/consulados",
+   "title": "Consulados - Embajada de la República Dominicana en los ...",
+   "content": "Consulado General 1501 Broadway Floor 4r, New York, NY 10036 (212) 768-2480 informacion@consuladord-ny.org … 8540 (787) 945-0740",
+   "score": 0.9037116,
+   "raw_content": null,
+   "id": "4313df-03"
+  },
+  {
+   "url": "https://usa.mirex.gob.do/consular/new-york/oficinas-alternas",
+   "title": "Oficinas Alternas - Consulado General de la República Dominicana en New York, EE. UU.",
+   "content": "Skip to content\n\n\n\n##### Consulado General de la República Dominicana en New York, EE. UU.\n\nCONTACTO |\n\nInstagram     Twitter     Facebook-f\n\n##### Consulado General de la República Dominicana en New York, EE. UU.\n\n \n\n## Oficinas Alternas\n\nEstás aquí: Inicio » Oficinas Alternas\n\n### Oficinas Alternas\n\nNuestra Misión es estar cada vez más cerca de la comunidad\n\n##### Bronx\n\n (212) 768-2480\n 305 E Fordham Rd, Bronx NY 10458\n\n##### Long Island\n\n 516-442-4742\n 60 Guy Lombardo Ave. Freeport, NY 11520\n\n##### Brooklyn\n\n (212) 768-2480\n 2777 Atlantic Ave, Brooklyn, NY 11207\n\n##### Connecticut\n\n Lunes a viernes\n 8:00 AM - 4:00 PM\n 100 Grand St 3er Nivel 3A Waterbury, CT 06702",
+   "score": 0.8963332,
+   "raw_content": null,
+   "id": "c6377b-04"
+  },
+  {
+   "url": "https://usa.mirex.gob.do/consular/new-york/consulado-de-republica-dominicana-en-la-ciudad-de-new-york-extiende-horario-a-los-sabados",
+   "title": "Consulado de República Dominicana en la ciudad de New ...",
+   "content": "1501 Broadway Floor 4r, New York, NY 10036 Tel. (212) 768-2480 | E-mail: infony@mirex.gob.do",
+   "score": 0.8941352,
+   "raw_content": null,
+   "id": "079e97-05"
+  }
+ ],
+ "response_time": 3.84,
+ "request_id": "c6ddb2b6-c662-4669-9fb7-8e6b0a826205",
+ "_request": {
+  "query": "Consulado General Republica Dominicana Nueva York direccion",
+  "max_results": 6,
+  "search_depth": "advanced",
+  "include_domains": [
+   "consuladord.com",
+   "mirex.gob.do",
+   "consuladordny.com"
+  ]
+ }
+}

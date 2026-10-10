@@ -1,0 +1,27 @@
+{
+ "query": "La Nacional envios Corona Queens NY",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://www.lanacional.com",
+   "title": "La Nacional, Send Money to Latin America. Safe, secure and easy",
+   "content": "## LEGAL\n\nFollow Us\n\n facebook\n linkedin\n instagram\n\nServices provided by Intermex Wire Transfer, LLC (NMLS#897906; Massachusetts Foreign Transmittal License FT5621; Georgia Money Transmitter License 18921), Intermex Wire Transfer II, LLC (NMLS#1024987), and Intermex Wire Transfer, Corp. (NMLS#1024984), licensed as a Money Transmitter by various states and may be verified through the NMLS Consumer Access website . Intermex Wire Transfer II, LLC, is licensed as a Money Transmitter by the New York State Department of Financial Services. Intermex Wire Transfer, LLC is licensed to Transmit Money By Check, Draft or Money Order By The Department of Banking and Securities, Commonwealth of Pennsylvania. [...] Help \n\nCheck our frequent questions\n\n FAQ\n\nOr contact our customer service  \nHours of operation: 8:00 am - 12:00 am EST\n\n## MONEY TRANSFERS RELIABLE SAFE FAST\n\nlogo_appheader-blanco\n\n## MONEY TRANSFER\n\n## CUSTOMER SUPPORT\n\n## LEGAL\n\nFollow Us\n\n facebook\n linkedin\n instagram [...] Transfer fees may vary from USD $2.99 based on different factors such as destination country, payment method, amount to be sent, or use of any promotion code.\n\nIntermex Wire Transfer, LLC 9100 South Dadeland Blvd. Suite 1100, Miami, Florida 33156.\n\n### This website uses cookies\n\nWe and our third-party partners use cookies and similar technologies on our website. Some cookies are strictly necessary or essential (meaning they must be placed for the website to function). We also use optional cookies to provide a more personalized experience, improve the way our websites work, and support our marketing operations. Optional cookies will only be set with your consent. For more information, see our Privacy Policy",
+   "score": 0.3394777,
+   "raw_content": null,
+   "id": "89bb73-00"
+  }
+ ],
+ "response_time": 2.0,
+ "request_id": "353c7a82-3b5b-45c3-b11f-4d0cbed4593e",
+ "_request": {
+  "query": "La Nacional envios Corona Queens NY",
+  "max_results": 6,
+  "search_depth": "advanced",
+  "include_domains": [
+   "lanacional.com",
+   "lanacionalcorp.com"
+  ]
+ }
+}

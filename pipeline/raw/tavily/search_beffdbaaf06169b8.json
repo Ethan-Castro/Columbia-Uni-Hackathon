@@ -1,0 +1,66 @@
+{
+ "query": "Consulado del Ecuador Nueva York Queens direccion horario",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://www.cancilleria.gob.ec/newyork/2021/03/09/contactenos",
+   "title": "Contáctenos – New York",
+   "content": "Consulado General del Ecuador en New York ・ dentro del horario de 8:30 a 14:30. 914-863-1702 / 551-258-4035 682-248-5599 ・ 732-707-6510 / 732",
+   "score": 0.8886914,
+   "raw_content": null,
+   "id": "0b738d-00"
+  },
+  {
+   "url": "https://www.cancilleria.gob.ec/oficinas-consulares",
+   "title": "Oficinas Consulares",
+   "content": "Queens (718) 517 1571 cecuqueens@cancilleria.gob.ec. New York (718) 517 1571. Consulado + (506) 22321506, ext. (503) 2263 5258",
+   "score": 0.8619225,
+   "raw_content": null,
+   "id": "80b8a3-01"
+  },
+  {
+   "url": "https://www.cancilleria.gob.ec/map_maps/estados-unidos",
+   "title": "Misiones Diplomáticas del Ecuador en Estados Unidos",
+   "content": "irección 866 United Nations Plaza Suite 516, New York, NY 10017 📞 Teléfono 212-935-1680 … ⏰ Horario 8h30 a 15h00 📞 Teléfono +1 203 752 1947",
+   "score": 0.85967577,
+   "raw_content": null,
+   "id": "178908-02"
+  },
+  {
+   "url": "https://www.cancilleria.gob.ec/newyork",
+   "title": "New York – MREMH",
+   "content": "Consular del Ecuador en Queens Servicios … 800 Second Ave, 2nd Floor New York, NY, 10017 Teléfono: (212) 808 0170",
+   "score": 0.85216236,
+   "raw_content": null,
+   "id": "c1c5ac-03"
+  },
+  {
+   "url": "https://www.cancilleria.gob.ec/newyork/citas-consulado-general-del-ecuador-en-nueva-york",
+   "title": "Citas Consulado General del Ecuador en Nueva York",
+   "content": "800 Second Ave, 2nd Floor New York, NY, 10017 Teléfono: (212) 808 0170",
+   "score": 0.8464638,
+   "raw_content": null,
+   "id": "a1f66c-04"
+  },
+  {
+   "url": "https://www.cancilleria.gob.ec/newyork/category/servicios",
+   "title": "Programas/Servicios – New York",
+   "content": "Consulado General del Ecuador en Nueva York … 800 Second Ave, 2nd Floor New York, NY, 10017 Teléfono: (212) 808 0170",
+   "score": 0.8315952,
+   "raw_content": null,
+   "id": "3a2936-05"
+  }
+ ],
+ "response_time": 4.59,
+ "request_id": "ae9777de-9609-48a4-9e75-1a4a279b16fc",
+ "_request": {
+  "query": "Consulado del Ecuador Nueva York Queens direccion horario",
+  "max_results": 6,
+  "search_depth": "advanced",
+  "include_domains": [
+   "cancilleria.gob.ec"
+  ]
+ }
+}

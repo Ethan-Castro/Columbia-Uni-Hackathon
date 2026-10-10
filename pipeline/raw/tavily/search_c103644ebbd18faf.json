@@ -1,0 +1,34 @@
+{
+ "query": "Intermex envios Corona NY 11368",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://www.intermexonline.com/es/payout-network",
+   "title": "Red | Pagadores y ubicación de tiendas",
+   "content": "## LEGAL\n\nSíguenos\n\n facebook\n linkedin\n instagram\n\nServicios prestados por Intermex Wire Transfer, LLC (NMLS#897906; Massachusetts Money Transmitter License MT897906; Georgia Money Transmitter License 18921), Intermex Wire Transfer II, LLC (NMLS#1024987), y Intermex Wire Transfer Corp. (NMLS#1024984), autorizadas como transmisoras de dinero por varios estados y pueden verificarse a través de la página web - . Intermex Wire Transfer II, LLC tiene licencia como transmisor de dinero por parte del Departamento de Servicios Financieros del Estado de Nueva York. Intermex Wire Transfer, LLC tiene licencia para transmitir dinero mediante cheque, giro bancario u orden postal por parte del Departamento de Banca y Valores de la Mancomunidad de Pensilvania [...] Las tarifas de transferencia pueden variar desde USD $2.99 según diferentes factores como el país de destino, el método de pago, el monto a enviar o el uso de cualquier código promocional.\n\nIntermex Wire Transfer, LLC 9100 South Dadeland Blvd. Suite 1100, Miami, Florida 33156. [...] ### Este sitio web utiliza cookies\n\nNosotros y nuestros socios externos utilizamos cookies y tecnologías similares en nuestro sitio web. Algunas cookies son estrictamente necesarias o esenciales (lo que significa que son imprescindibles para el funcionamiento del sitio web). También utilizamos cookies opcionales para ofrecer una experiencia más personalizada, mejorar el funcionamiento de nuestros sitios web y respaldar nuestras actividades de marketing. Las cookies opcionales solo se instalarán con su consentimiento. Para obtener más información, consulte nuestra Política de Privacidad\n\n## INTERMEX\n\n## TRANSFERENCIAS\n\n## SOPORTE\n\n## LEGAL\n\nSíguenos\n\n facebook\n linkedin\n instagram",
+   "score": 0.3746997,
+   "raw_content": null,
+   "id": "73d864-00"
+  },
+  {
+   "url": "https://www.intermexonline.com/payout-network",
+   "title": "Network | Payout Locations and Store Locations",
+   "content": "## LEGAL\n\nFollow Us\n\n facebook\n linkedin\n instagram\n\nServices provided by Intermex Wire Transfer, LLC (NMLS#897906; Massachusetts Money Transmitter License MT897906; Georgia Money Transmitter License 18921), Intermex Wire Transfer II, LLC (NMLS#1024987), and Intermex Wire Transfer Corp. (NMLS#1024984), licensed as a Money Transmitter by various states and may be verified through the NMLS Consumer Access website - . Intermex Wire Transfer II, LLC is licensed as a Money Transmitter by the New York State Department of Financial Services. Intermex Wire Transfer, LLC is licensed to Transmit Money By Check, Draft or Money Order By The Department of Banking and Securities, Commonwealth of Pennsylvania. [...] Intermex Logo and home page link\n\n# Payout Network Find where to send or receive your money transfers\n\n### For additional information about the location of our retail stores, please call 1-800-670-8611.\n\n### This website uses cookies\n\nWe and our third-party partners use cookies and similar technologies on our website. Some cookies are strictly necessary or essential (meaning they must be placed for the website to function). We also use optional cookies to provide a more personalized experience, improve the way our websites work, and support our marketing operations. Optional cookies will only be set with your consent. For more information, see our Privacy Policy\n\n## INTERMEX\n\n## MONEY TRANSFER\n\n## CUSTOMER SUPPORT\n\n## LEGAL\n\nFollow Us\n\n facebook\n linkedin\n instagram [...] Transfer fees may vary from USD $2.99 based on different factors such as destination country, payment method, amount to be sent, or use of any promotion code.\n\nIntermex Wire Transfer, LLC 9100 South Dadeland Blvd. Suite 1100, Miami, Florida 33156.",
+   "score": 0.3649365,
+   "raw_content": null,
+   "id": "aab3c4-01"
+  }
+ ],
+ "response_time": 3.05,
+ "request_id": "030382f7-f3a4-4cc4-a6c3-edc1931718e3",
+ "_request": {
+  "query": "Intermex envios Corona NY 11368",
+  "max_results": 6,
+  "search_depth": "advanced",
+  "include_domains": [
+   "intermexonline.com"
+  ]
+ }
+}

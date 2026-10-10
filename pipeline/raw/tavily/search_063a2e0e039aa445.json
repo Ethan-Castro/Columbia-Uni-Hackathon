@@ -1,0 +1,67 @@
+{
+ "query": "Consulado General de Honduras Nueva York direccion",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://sreci.gob.hn/node/2424",
+   "title": "Eillim Flores Iráchez | Secretaría de Relaciones Exteriores y Cooperación Internacional",
+   "content": "de Conectividad, Mercados y Finanzas, en Washington, D.C., entre 2021 y 2024, brindando apoyo técnico en procesos de fortalecimiento institucional y coordinación multisectorial. En el ámbito del servicio exterior, ejerció funciones como Representante de Seguridades Internacionales y Oficial de Candidaturas en la Misión Permanente de Honduras ante las Naciones Unidas en Nueva York, entre 2018 y 2020, así como Agente Consular en el Consulado General de Honduras en esa ciudad entre 2014 y 2018. Domina los idiomas español e inglés y posee conocimientos básicos del francés. [...] Eillim Flores Iráchez es licenciada en Ciencias Políticas y Relaciones Internacionales por la University of Louisiana at Lafayette, cuenta con una maestría en Dirección Estratégica de Procesos por la Universidad Internacional de La Rioja. Cuenta con experiencia profesional en el ámbito de la cooperación internacional, el servicio exterior y la gestión institucional, con participación en procesos vinculados al análisis y ejecución de políticas públicas. Cuenta con más de una década de experiencia profesional en el trabajo con gobiernos, sector privado y organismos internacionales. Se desempeñó como consultora en el Banco Interamericano de Desarrollo (BID), específicamente en el Departamento de Instituciones para el Desarrollo, División de Conectividad, Mercados y Finanzas, en Washington, [...] Porto\n\nEillim Flores Iráchez\n\nSubsecretaria de Estado en el Despacho de Asuntos Consulares y Migratorios",
+   "score": 0.5942929,
+   "raw_content": null,
+   "id": "b18abf-00"
+  },
+  {
+   "url": "https://sreci.gob.hn",
+   "title": "Secretaría de Relaciones Exteriores y Cooperación ...",
+   "content": "Secretaría General Dirección. Teléfonos (504) 2236-0200 (504) 2236-0300. Tegucigalpa, Honduras.",
+   "score": 0.55912215,
+   "raw_content": null,
+   "id": "56af4d-01"
+  },
+  {
+   "url": "https://sreci.gob.hn/dgac",
+   "title": "Dirección General de Asuntos Consulares | Secretaría de Relaciones Exteriores y Cooperación Internacional",
+   "content": "La Dirección General de Asuntos Consulares tiene como misión Dirigir, coordinar, monitorear y supervisar al Cuerpo Consular hondureño para garantizar el eficiente cumplimiento de actividades y atención a los hondureños en materia notarial, registro civil, fiscal y la emisión de pasaportes de acuerdo con las normas legales vigentes. Es responsable de dirigir, coordinar, controlar y evaluar la aplicación de las disposiciones legales vigentes para el buen funcionamiento en el área consular y la prestación de servicios de forma transparente.\n\nOficina de Supervisión Consular\n\nFunciones de la Oficina de Supervisión Consular: [...] Supervisar la remisión de transferencias por ingresos Consulares y verificar los informes de las actuaciones de las Oficinas Consulares\n Demandar el estricto cumplimiento de la presentación y custodia de fianzas por parte de los funcionarios consulares.\n Colaborar con la Dirección General en la inducción del Cuerpo Consular.\n Procesar la solicitud de especies fiscales y documentos migratorios.\n La recepción, revisión, contabilización y análisis de los informes de los ingresos consulares por la prestación de los servicios consulares.\n La supervisión de inventarios de libretas para pasaportes y timbres consulares.\n Solicitudes y descargos de especies fiscales ante el Instituto Nacional de Migración y Banco Central de Honduras respectivamente. [...] Porto\n\nLa Dirección General de Asuntos Consulares creada bajo el marco legal del Decreto Ejecutivo PCM-008-97 y el Reglamento de la Organización, Funcionamiento y Competencias del Poder Ejecutivo y Decreto Legislativo Número 218-96 de reformas a la Ley General de la Administración Pública, es una dependencia funcional de la Subsecretaría de Asuntos Consulares y Migratorios de la Secretaría de Relaciones Exteriores y Cooperación Internacional.\n\n La Dirección General de Asuntos Consulares, tiene en su estructura funcional:\n La Subdirección de Supervisión Consular\n La Subdirección de Servicios Consulares\n El Observatorio Consular y Migratorio de Honduras (CONMIGHO) y\n Sistema Integral de Atención al Migrante Hondureño, SIAMIGH@",
+   "score": 0.5008063,
+   "raw_content": null,
+   "id": "59606b-02"
+  },
+  {
+   "url": "https://sreci.gob.hn/Estados-Unidos",
+   "title": "Secretaría de Relaciones Exteriores y Cooperación ...",
+   "content": "Dirección. 866 United Nations Plaza Suite. 4117 New York N.Y. ZIP 10017, Usa · Telefónos. 001-212-752-3370; 001-212-752-3371; 001-212-223-0498 (Directo del",
+   "score": 0.493043,
+   "raw_content": null,
+   "id": "e0c310-03"
+  },
+  {
+   "url": "https://sreci.gob.hn/node/1522",
+   "title": "Arancel Consular",
+   "content": "Bulevar Kuwait, contiguo a la Corte Suprema de Justicia (CSJ), Tegucigalpa, Honduras.",
+   "score": 0.26567787,
+   "raw_content": null,
+   "id": "0bfd92-04"
+  },
+  {
+   "url": "https://sreci.gob.hn/preguntas-frecuentes",
+   "title": "Preguntas frecuentes de la ciudadanía",
+   "content": "Teléfonos (504) 2236-0200 (504) 2236-0300. Tegucigalpa, Honduras.",
+   "score": 0.22978613,
+   "raw_content": null,
+   "id": "ccc830-05"
+  }
+ ],
+ "response_time": 2.82,
+ "request_id": "2deda141-0ec1-40cb-a50f-9790a20ec94e",
+ "_request": {
+  "query": "Consulado General de Honduras Nueva York direccion",
+  "max_results": 6,
+  "search_depth": "advanced",
+  "include_domains": [
+   "sreci.gob.hn",
+   "consuladohondurasny.org"
+  ]
+ }
+}

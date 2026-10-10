@@ -1,0 +1,66 @@
+{
+ "query": "Consulado General de Guatemala Nueva York direccion",
+ "follow_up_questions": null,
+ "answer": null,
+ "images": [],
+ "results": [
+  {
+   "url": "https://www.minex.gob.gt/detalle_sede/162",
+   "title": "Consulado General de Guatemala en Nueva York Estados ...",
+   "content": "Dirección: 276 Park Avenue South, 2do piso New York, New York, 10010 ; Teléfonos: (001-212) 686-3837 ; Correo electrónico: consnewyork@minex.gob.",
+   "score": 0.94135845,
+   "raw_content": null,
+   "id": "70a4a1-00"
+  },
+  {
+   "url": "https://www.minex.gob.gt/4221-consulado-de-guatemala-en-nueva-york-suscribe-acuerdo-para-apoyar-a-victimas-de-trata-de-personas",
+   "title": "Consulado de Guatemala en Nueva York suscribe acuerdo ...",
+   "content": "Consulado General de Guatemala en Nueva York 123 2 av. 4-17 zona 10, Ciudad de Guatemala Código postal 01010 Teléfono (502) 2410-0000",
+   "score": 0.93295,
+   "raw_content": null,
+   "id": "cd5180-01"
+  },
+  {
+   "url": "https://www.minex.gob.gt/4519-consulado-guatemalteco-recibe-visita-del-presidente-del-distrito-de-brooklyn-nueva-york",
+   "title": "Consulado guatemalteco recibe visita del presidente del ...",
+   "content": "Consulado General de Guatemala en Nueva York 123 2 av. 4-17 zona 10, Ciudad de Guatemala Código postal 01010 Teléfono (502) 2410-0000",
+   "score": 0.9229352,
+   "raw_content": null,
+   "id": "4fa76d-02"
+  },
+  {
+   "url": "https://www.minex.gob.gt/Uploads/NuevaYork04072023.pdf",
+   "title": "CONSULADOS DE GUATEMALA EN ESTADOS UNIDOS",
+   "content": "Teléfonos: (001-212) 686-3837. Dirección: 276 Park Avenue South, 2do piso New York, New York, 10010. Av. 4-17 zona 10. Teléfono: (502) 2410-0000",
+   "score": 0.9145431,
+   "raw_content": null,
+   "id": "a9e2e0-03"
+  },
+  {
+   "url": "https://www.minex.gob.gt/4323-guatemala-promueve-oportunidades-comerciales-ante-empresarios-de-riverhead-nueva-york-estados-unidos",
+   "title": "Guatemala promueve oportunidades comerciales ante ...",
+   "content": "Consulado General de Guatemala en Nueva York Consulado de Guatemala en Riverhead 123 2 av. 4-17 zona 10, Ciudad de Guatemala Código postal",
+   "score": 0.9092728,
+   "raw_content": null,
+   "id": "914161-04"
+  },
+  {
+   "url": "https://www.minex.gob.gt/4437-guatemala-promueve-oportunidades-de-inversion-y-comercio-en-el-marco-de-la-asamblea-general-de-la-onu",
+   "title": "Guatemala promueve oportunidades de inversión y ...",
+   "content": "Consulado General de Guatemala en Nueva York ONU diplomacia comercial 123 2 av. 4-17 zona 10, Ciudad de Guatemala Código postal 01010 Teléfono",
+   "score": 0.8987045,
+   "raw_content": null,
+   "id": "c47fe0-05"
+  }
+ ],
+ "response_time": 3.67,
+ "request_id": "03e658af-78eb-4d33-82f5-cc4d8f02f046",
+ "_request": {
+  "query": "Consulado General de Guatemala Nueva York direccion",
+  "max_results": 6,
+  "search_depth": "advanced",
+  "include_domains": [
+   "minex.gob.gt"
+  ]
+ }
+}

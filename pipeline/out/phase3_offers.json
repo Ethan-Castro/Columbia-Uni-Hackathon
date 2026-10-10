@@ -1,0 +1,27 @@
+[
+ {
+  "from_id": "place-phs-neighborhood-wic-corona",
+  "to_id": "prog-wic",
+  "source_url": "https://agriculture.ny.gov/local-agencies-providing-wic-services"
+ },
+ {
+  "from_id": "place-urban-health-plan-wic-corona",
+  "to_id": "prog-wic",
+  "source_url": "https://agriculture.ny.gov/local-agencies-providing-wic-services"
+ },
+ {
+  "from_id": "place-nyc-hh-elmhurst-wic",
+  "to_id": "prog-wic",
+  "source_url": "https://www.nychealthandhospitals.org/elmhurst/services/wic"
+ },
+ {
+  "from_id": "place-idnyc-queens-public-library-central",
+  "to_id": "prog-idnyc",
+  "source_url": "https://www.nyc.gov/site/idnyc/card/locations.page"
+ },
+ {
+  "from_id": "place-idnyc-queens-business-center",
+  "to_id": "prog-idnyc",
+  "source_url": "https://www.nyc.gov/site/idnyc/card/locations.page"
+ }
+]
