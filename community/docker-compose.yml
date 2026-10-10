@@ -1,0 +1,41 @@
+# Isolated HumHub community pilot. Separate project name, port, network,
+# volumes and database from the NYC Navigator app. `docker compose down -v`
+# here removes only this pilot.
+name: corona-community-pilot
+
+services:
+  db:
+    image: mirror.gcr.io/library/mariadb:10.11   # Docker Hub image via Google's mirror
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: humhub_pilot
+      MARIADB_USER: humhub_pilot
+      MARIADB_PASSWORD: ${HUMHUB_DB_PASSWORD:-pilot-only-not-secret}
+      MARIADB_RANDOM_ROOT_PASSWORD: "yes"
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      retries: 20
+
+  humhub:
+    image: mirror.gcr.io/humhub/humhub:1.18.6     # official humhub/humhub image
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8090:80"
+    environment:
+      SERVER_NAME: ":80"
+      HUMHUB_CONFIG__COMPONENTS__DB__DSN: mysql:host=db;dbname=humhub_pilot
+      HUMHUB_CONFIG__COMPONENTS__DB__USERNAME: humhub_pilot
+      HUMHUB_CONFIG__COMPONENTS__DB__PASSWORD: ${HUMHUB_DB_PASSWORD:-pilot-only-not-secret}
+    volumes:
+      - data:/data
+
+volumes:
+  db:
+  data:
