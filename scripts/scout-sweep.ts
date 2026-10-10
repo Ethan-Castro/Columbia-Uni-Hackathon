@@ -24,7 +24,11 @@ const TOPICS = [
   "credit union open account IDNYC", "public library immigrant services", "consulate", "baby supplies diapers free",
 ];
 const BOROUGHS = ["Queens", "Brooklyn", "Bronx", "Manhattan", "Staten Island"];
-const queries = TOPICS.flatMap((t) => BOROUGHS.map((b) => `${t} ${b}`));
+// --queries <file>: one query per line (e.g. to retry the ones that failed).
+const qfile = arg("queries", "");
+const queries = qfile
+  ? (await Deno.readTextFile(qfile)).split("\n").map((l) => l.trim()).filter(Boolean)
+  : TOPICS.flatMap((t) => BOROUGHS.map((b) => `${t} ${b}`));
 
 let done = 0, drafted = 0, dupes = 0, failed = 0;
 async function run(q: string) {
