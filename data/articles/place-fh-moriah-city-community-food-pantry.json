@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-moriah-city-community-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:01.778Z",
+  "facts_hash": "ed4554ddcaab714f",
+  "article": {
+    "title_es": "Moriah City Community Food Pantry: despensa en Queens",
+    "title_en": "Moriah City Community Food Pantry: pantry in Queens",
+    "summary_es": "Moriah City Community Food Pantry es una despensa de alimentos en Cambria Heights, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 3pm a 5pm.",
+    "summary_en": "Moriah City Community Food Pantry is a food pantry in Cambria Heights, Queens, listed on the City's Food Help NYC map. It is open Wednesdays 3pm-5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 206-14 Linden Blvd, Cambria Heights, Nueva York, 11411.",
+      "Abre los miércoles de 3pm a 5pm (despensa).",
+      "Puede llamar al (718) 276-1908 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 206-14 Linden Blvd, Cambria Heights, New York, 11411.",
+      "It is open Wednesdays 3pm-5pm (pantry).",
+      "You can call (718) 276-1908 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es miércoles de 3pm a 5pm.",
+      "Llame al (718) 276-1908 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The listed hours are Wednesdays 3pm-5pm.",
+      "Call (718) 276-1908 before going to confirm hours and ask what you need.",
+      "The listing does not say what food is given or if there are requirements, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 206-14 Linden Blvd, Cambria Heights, Nueva York, 11411, en Queens."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Miércoles de 3pm a 5pm (despensa)."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "No está indicado en la lista. Llame al (718) 276-1908 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry?",
+        "a": "At 206-14 Linden Blvd, Cambria Heights, New York, 11411, in Queens."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Wednesdays 3pm-5pm (pantry)."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "This is not listed. Call (718) 276-1908 to ask."
+      }
+    ]
+  }
+}

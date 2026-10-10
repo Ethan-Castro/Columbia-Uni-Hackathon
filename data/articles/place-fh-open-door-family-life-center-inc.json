@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-open-door-family-life-center-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:17.926Z",
+  "facts_hash": "7829e79b21cda698",
+  "article": {
+    "title_es": "Open Door Family Life Center: despensa de alimentos en Brooklyn",
+    "title_en": "Open Door Family Life Center: food pantry in Brooklyn",
+    "summary_es": "Open Door Family Life Center Inc es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados por la mañana.",
+    "summary_en": "Open Door Family Life Center Inc is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open on Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 999 Greene Ave, Brooklyn, NY 11221.",
+      "Abre los sábados de 8:30am a 10:30am para la despensa.",
+      "Puede llamar al (718) 455-3545 para preguntar.",
+      "No se indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 999 Greene Ave, Brooklyn, NY 11221.",
+      "It is open Saturdays 8:30am-10:30am for the pantry.",
+      "You can call (718) 455-3545 with questions.",
+      "What food is given and any requirements are not listed."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los sábados de 8:30am a 10:30am.",
+      "Llame antes al (718) 455-3545 para confirmar horarios y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Saturdays 8:30am-10:30am.",
+      "Call ahead at (718) 455-3545 to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "No se indica en la información disponible. Llame al (718) 455-3545 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 8:30am a 10:30am, según la información de la ciudad."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 999 Greene Ave, Brooklyn, New York, 11221."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "That is not listed in the available information. Call (718) 455-3545 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays 8:30am-10:30am, according to the city's information."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 999 Greene Ave, Brooklyn, New York, 11221."
+      }
+    ]
+  }
+}

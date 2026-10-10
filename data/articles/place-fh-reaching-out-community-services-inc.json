@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-reaching-out-community-services-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:37.175Z",
+  "facts_hash": "1e2f4f9c007762bc",
+  "article": {
+    "title_es": "Reaching-Out Community Services: despensa de alimentos en Brooklyn",
+    "title_en": "Reaching-Out Community Services: food pantry in Brooklyn",
+    "summary_es": "Reaching-Out Community Services Inc. es una despensa de alimentos en Brooklyn, incluida en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Reaching-Out Community Services Inc. is a food pantry in Brooklyn, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 7708 New Utrecht Ave, Brooklyn, NY 11214.",
+      "Abre de lunes a viernes, con horarios de día.",
+      "Puede llamar al (718) 373-4565 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 7708 New Utrecht Ave, Brooklyn, NY 11214.",
+      "It is open Monday through Friday, during daytime hours.",
+      "You can call (718) 373-4565 with questions."
+    ],
+    "visit_tips_es": [
+      "Horario indicado: lunes 9am-5pm (despensa); martes a viernes 9am-5am (despensa).",
+      "El horario de martes a viernes parece tener un error; confirme llamando al (718) 373-4565.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte antes de ir."
+    ],
+    "visit_tips_en": [
+      "Listed hours: Mon 9am-5pm (pantry); Tue-Fri 9am-5am (pantry).",
+      "The Tuesday-Friday hours appear to have a typo; confirm by calling (718) 373-4565.",
+      "The listing does not say what food is given or if there are requirements; ask before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Brooklyn, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Lunes 9am-5pm (despensa); martes a viernes 9am-5am (despensa). El horario parece tener un error; llame para confirmar."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "La lista no indica requisitos ni documentos. Llame al (718) 373-4565 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Brooklyn, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Mon 9am-5pm (pantry); Tue-Fri 9am-5am (pantry). The hours appear to have a typo; call to confirm."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "The listing does not give requirements or documents. Call (718) 373-4565 to ask before going."
+      }
+    ]
+  }
+}

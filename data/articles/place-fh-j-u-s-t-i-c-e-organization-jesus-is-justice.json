@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-j-u-s-t-i-c-e-organization-jesus-is-justice",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:56.732Z",
+  "facts_hash": "df505a23e3b97f3c",
+  "article": {
+    "title_es": "J.U.S.T.I.C.E. Organization: despensa de alimentos en Far Rockaway",
+    "title_en": "J.U.S.T.I.C.E. Organization: food pantry in Far Rockaway",
+    "summary_es": "J.U.S.T.I.C.E. Organization/Jesus Is Justice Mission Inc. es una despensa de alimentos en Far Rockaway, Queens, que aparece en el mapa Food Help NYC. Abre los miércoles de 12pm a 2pm.",
+    "summary_en": "J.U.S.T.I.C.E. Organization/Jesus Is Justice Mission Inc. is a food pantry in Far Rockaway, Queens, listed on the Food Help NYC map. It is open Wednesdays from 12pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los miércoles de 12pm a 2pm.",
+      "Está ubicada en 223 Beach 28th St, Far Rockaway, Queens.",
+      "Puede llamar al (718) 772-7951 para preguntar qué alimentos ofrece y si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Wednesdays from 12pm to 2pm.",
+      "It is located at 223 Beach 28th St, Far Rockaway, Queens.",
+      "You can call (718) 772-7951 to ask what food is offered and if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es miércoles de 12pm a 2pm.",
+      "Llame antes al (718) 772-7951 para confirmar el horario y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesdays from 12pm to 2pm.",
+      "Call ahead at (718) 772-7951 to confirm hours and ask what to bring.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos reparte esta despensa?",
+        "a": "La lista no dice qué alimentos se entregan. Llame al (718) 772-7951 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 12pm a 2pm, según la información de la ciudad."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 223 Beach 28th St, Far Rockaway, Nueva York, 11691."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give out?",
+        "a": "The listing does not say what food is given. Call (718) 772-7951 to ask."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 12pm to 2pm, according to the City's information."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 223 Beach 28th St, Far Rockaway, New York, 11691."
+      }
+    ]
+  }
+}

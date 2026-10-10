@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-christian-fellowship-seventh-day-adventist-c",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:26.262Z",
+  "facts_hash": "fbb61b9f397bed72",
+  "article": {
+    "title_es": "Christian Fellowship Seventh Day Adventist: despensa y comidas en Brooklyn",
+    "title_en": "Christian Fellowship Seventh Day Adventist: food pantry in Brooklyn",
+    "summary_es": "Una despensa de alimentos y cocina comunitaria en Brooklyn, en el mapa Food Help NYC de la ciudad. Tiene horarios distintos para cada servicio.",
+    "summary_en": "A food pantry and soup kitchen in Brooklyn, listed on the City's Food Help NYC map. It has different hours for each service.",
+    "how_they_help_es": [
+      "Cocina comunitaria (comida servida) de lunes a miércoles de 5pm a 6pm.",
+      "Despensa de alimentos los miércoles de 10:30am a 12:30pm.",
+      "La despensa abre solo el primer, segundo, tercer y cuarto miércoles del mes.",
+      "Está en 777 Schenectady Ave, Brooklyn, NY 11203.",
+      "Puede llamar al (718) 916-0956 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "Soup kitchen (meals served) Monday to Wednesday, 5pm to 6pm.",
+      "Food pantry on Wednesdays, 10:30am to 12:30pm.",
+      "The pantry is open only on the 1st, 2nd, 3rd, and 4th Wednesday of the month.",
+      "Located at 777 Schenectady Ave, Brooklyn, NY 11203.",
+      "You can call (718) 916-0956 to ask before visiting."
+    ],
+    "visit_tips_es": [
+      "Vaya a la cocina comunitaria entre las 5pm y las 6pm de lunes a miércoles.",
+      "Para la despensa, confirme que el miércoles sea el primero, segundo, tercero o cuarto del mes.",
+      "Llame al (718) 916-0956 si tiene preguntas; no se indica qué alimentos dan ni si piden requisitos."
+    ],
+    "visit_tips_en": [
+      "Go to the soup kitchen between 5pm and 6pm, Monday to Wednesday.",
+      "For the pantry, check that the Wednesday is the 1st, 2nd, 3rd, or 4th of the month.",
+      "Call (718) 916-0956 with questions; what food is given and any requirements are not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Una cocina comunitaria de lunes a miércoles de 5pm a 6pm y una despensa de alimentos los miércoles de 10:30am a 12:30pm."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Solo el primer, segundo, tercer y cuarto miércoles del mes, de 10:30am a 12:30pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No se indica en la información disponible. Llame al (718) 916-0956 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "A soup kitchen Monday to Wednesday, 5pm to 6pm, and a food pantry on Wednesdays, 10:30am to 12:30pm."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Only on the 1st, 2nd, 3rd, and 4th Wednesday of the month, from 10:30am to 12:30pm."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "That is not listed in the available information. Call (718) 916-0956 to ask before you go."
+      }
+    ]
+  }
+}

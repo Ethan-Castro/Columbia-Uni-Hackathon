@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-revelacion-divina-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:09.630Z",
+  "facts_hash": "854b766a39988a34",
+  "article": {
+    "title_es": "Revelacion Divina Food Pantry: despensa de alimentos en el Bronx",
+    "title_en": "Revelacion Divina Food Pantry: food pantry in the Bronx",
+    "summary_es": "Revelacion Divina Food Pantry es una despensa de alimentos en el Bronx, en la lista del mapa Food Help NYC de la ciudad. Abre los lunes de 5pm a 7pm.",
+    "summary_en": "Revelacion Divina Food Pantry is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Mondays 5pm-7pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 240 E 175th St, Bronx, NY, 10457.",
+      "Abre los lunes de 5pm a 7pm (horario de la despensa).",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 240 E 175th St, Bronx, NY, 10457.",
+      "Open Mondays 5pm-7pm (pantry hours).",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es los lunes de 5pm a 7pm, por la tarde.",
+      "La lista no menciona documentos ni requisitos; consulte antes de ir si tiene dudas.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The listed hours are Mondays 5pm-7pm, in the evening.",
+      "The listing does not mention documents or requirements; check ahead if you have questions.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Revelacion Divina Food Pantry?",
+        "a": "Es una despensa de alimentos en el Bronx, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los lunes de 5pm a 7pm, según el horario de la despensa."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no lo indica. Le recomendamos preguntar directamente en el lugar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Revelacion Divina Food Pantry?",
+        "a": "It is a food pantry in the Bronx, included on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Mondays 5pm-7pm, according to the pantry hours listed."
+      },
+      {
+        "q": "What food is given, and are there requirements?",
+        "a": "The listing does not say. We suggest asking directly at the location."
+      }
+    ]
+  }
+}

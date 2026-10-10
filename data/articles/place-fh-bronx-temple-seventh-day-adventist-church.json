@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-bronx-temple-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:07.100Z",
+  "facts_hash": "090c8a688ac256e9",
+  "article": {
+    "title_es": "Bronx Temple Seventh Day Adventist: despensa de alimentos en el Bronx",
+    "title_en": "Bronx Temple Seventh Day Adventist: food pantry in the Bronx",
+    "summary_es": "Esta iglesia aparece en el mapa Food Help NYC como despensa de alimentos en el Bronx. Reparte alimentos lunes, miércoles y jueves.",
+    "summary_en": "This church appears on the Food Help NYC map as a food pantry in the Bronx. It distributes food on Mondays, Wednesdays, and Thursdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 495 Willis Ave, Bronx, NY 10455.",
+      "Atiende lunes de 11:30am a 2:30pm y miércoles y jueves de 11:30am a 2:30pm.",
+      "Puede llamar al (718) 842-4504 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry according to the Food Help NYC map.",
+      "It is located at 495 Willis Ave, Bronx, NY 10455.",
+      "It is open Mondays 11:30am-2:30pm and Wednesdays and Thursdays 11:30am-2:30pm.",
+      "You can call (718) 842-4504 to ask before going."
+    ],
+    "visit_tips_es": [
+      "Las horas de despensa son: lunes 11:30am-2:30pm; miércoles y jueves 11:30am-2:30pm.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono.",
+      "Llame al (718) 842-4504 para confirmar que está abierta antes de ir."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are: Mon 11:30am-2:30pm; Wed-Thu 11:30am-2:30pm.",
+      "The listing does not say what food is given or if there are requirements; ask by phone.",
+      "Call (718) 842-4504 to confirm it is open before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (718) 842-4504 para preguntar qué ofrece."
+      },
+      {
+        "q": "¿Dónde está ubicada la despensa?",
+        "a": "En 495 Willis Ave, Bronx, New York, 10455."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Lunes de 11:30am a 2:30pm, y miércoles y jueves de 11:30am a 2:30pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give out?",
+        "a": "The listing does not say. Call (718) 842-4504 to ask what they offer."
+      },
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 495 Willis Ave, Bronx, New York, 10455."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Mondays 11:30am-2:30pm, and Wednesdays and Thursdays 11:30am-2:30pm."
+      }
+    ]
+  }
+}

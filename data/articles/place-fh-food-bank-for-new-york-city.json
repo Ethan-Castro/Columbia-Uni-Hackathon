@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-food-bank-for-new-york-city",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:16.820Z",
+  "facts_hash": "c2e25080e7c92e3c",
+  "article": {
+    "title_es": "Food Bank For New York City: despensa de alimentos en Manhattan",
+    "title_en": "Food Bank For New York City: food pantry in Manhattan",
+    "summary_es": "Food Bank For New York City es una despensa de alimentos y cocina de sopa en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Sirve comidas algunas tardes y ofrece despensa el segundo y cuarto martes del mes.",
+    "summary_en": "Food Bank For New York City is a food pantry and soup kitchen in Manhattan listed on the City's Food Help NYC map. It serves meals on some evenings and offers a pantry on the 2nd and 4th Tuesday of the month.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos y cocina de sopa en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 252 W 116th St en Manhattan, código postal 10026.",
+      "La cocina de sopa atiende lunes, miércoles y viernes de 4pm a 6pm.",
+      "La despensa atiende el segundo y cuarto martes de 10am a 1pm.",
+      "Puede llamar al (212) 566-7855 para preguntar qué alimentos dan y si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry and soup kitchen on the City's Food Help NYC map.",
+      "It is located at 252 W 116th St in Manhattan, zip code 10026.",
+      "Soup kitchen hours are Monday, Wednesday and Friday, 4pm to 6pm.",
+      "Pantry hours are the 2nd and 4th Tuesday, 10am to 1pm.",
+      "You can call (212) 566-7855 to ask about the food given and any requirements."
+    ],
+    "visit_tips_es": [
+      "Revise bien el horario: la despensa solo atiende el segundo y cuarto martes del mes.",
+      "Llame al (212) 566-7855 antes de ir para confirmar los horarios y hacer sus preguntas.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Check the schedule carefully: the pantry is only on the 2nd and 4th Tuesday of the month.",
+      "Call (212) 566-7855 before going to confirm hours and ask any questions.",
+      "What food is given and any requirements are not listed, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo puedo recibir comida aquí?",
+        "a": "Según la lista: cocina de sopa lunes, miércoles y viernes de 4pm a 6pm, y despensa el segundo y cuarto martes de 10am a 1pm."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme con ellos?",
+        "a": "El teléfono es (212) 566-7855. Es mejor llamar antes de ir para confirmar el horario."
+      },
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos y cocina de sopa que aparece en el mapa Food Help NYC de la ciudad."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When can I get food here?",
+        "a": "The listing says: soup kitchen Monday, Wednesday and Friday from 4pm to 6pm, and pantry on the 2nd and 4th Tuesday from 10am to 1pm."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "The phone number is (212) 566-7855. It is best to call before you go to confirm the schedule."
+      },
+      {
+        "q": "What kind of place is it?",
+        "a": "It is a food pantry and soup kitchen listed on the City's Food Help NYC map."
+      }
+    ]
+  }
+}

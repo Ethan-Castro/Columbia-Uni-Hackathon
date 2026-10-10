@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-kehilat-sephardim-of-ahavat-achim",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:04.312Z",
+  "facts_hash": "f70b0410be07216a",
+  "article": {
+    "title_es": "Kehilat Sephardim of Ahavat Achim: despensa de alimentos en Queens",
+    "title_en": "Kehilat Sephardim of Ahavat Achim: food pantry in Queens",
+    "summary_es": "Kehilat Sephardim of Ahavat Achim es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. Está en Flushing, Queens, y abre varios días entre semana y los domingos.",
+    "summary_en": "Kehilat Sephardim of Ahavat Achim is a food pantry listed on the City's Food Help NYC map. It is located in Flushing, Queens, and is open several weekdays and on Sundays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos en horarios específicos de lunes a jueves y domingos.",
+      "Está ubicada en 150-62 78th Rd, Flushing, NY, 11367.",
+      "Puede llamar al (718) 591-9574 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food at set hours Monday through Thursday and on Sundays.",
+      "It is located at 150-62 78th Rd, Flushing, NY, 11367.",
+      "You can call (718) 591-9574 to ask questions before visiting.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Los horarios de la despensa son: lunes 10am-2pm; martes 11am-1pm; miércoles 10am-2pm; jueves 11am-1pm; domingo 10am-4pm.",
+      "Llame al (718) 591-9574 antes de ir para confirmar los horarios y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are: Mon 10am-2pm; Tue 11am-1pm; Wed 10am-2pm; Thu 11am-1pm; Sun 10am-4pm.",
+      "Call (718) 591-9574 before going to confirm hours and ask what you need.",
+      "The listing does not mention documents or requirements, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no indica qué alimentos da ni si hay requisitos. Llame al (718) 591-9574 para preguntar."
+      },
+      {
+        "q": "¿Abre los fines de semana?",
+        "a": "Sí, abre los domingos de 10am a 4pm. No hay horario los sábados según la lista."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "The listing does not say what food is given or if there are requirements. Call (718) 591-9574 to ask."
+      },
+      {
+        "q": "Is it open on weekends?",
+        "a": "Yes, it is open Sundays from 10am to 4pm. The listing shows no Saturday hours."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-thurston-memorial-outreach-ministries",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:03.825Z",
+  "facts_hash": "ac5fdb471786ccbf",
+  "article": {
+    "title_es": "Thurston Memorial Outreach Ministries: despensa en Brooklyn",
+    "title_en": "Thurston Memorial Outreach Ministries: food pantry in Brooklyn",
+    "summary_es": "Thurston Memorial Outreach Ministries es una despensa de alimentos en Brooklyn, en el mapa Food Help NYC de la ciudad. Abre los viernes de 2pm a 4:30pm.",
+    "summary_en": "Thurston Memorial Outreach Ministries is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Fridays 2pm-4:30pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1243 Bushwick Ave, Brooklyn, NY 11221.",
+      "Abre los viernes de 2pm a 4:30pm para la despensa.",
+      "Tiene teléfono: (718) 452-3646."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1243 Bushwick Ave, Brooklyn, NY 11221.",
+      "It is open Fridays 2pm-4:30pm for the pantry.",
+      "It has a phone number: (718) 452-3646."
+    ],
+    "visit_tips_es": [
+      "Visite los viernes de 2pm a 4:30pm.",
+      "Llame al (718) 452-3646 antes de ir para confirmar horarios y preguntar qué alimentos ofrece y si hay algún requisito.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Visit on Fridays from 2pm to 4:30pm.",
+      "Call (718) 452-3646 before going to confirm hours and ask what food is offered and any requirements.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no indica qué alimentos se entregan. Llame al (718) 452-3646 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "No hay requisitos indicados en la información disponible. Llame antes de ir para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los viernes de 2pm a 4:30pm, según la información de la ciudad."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give out?",
+        "a": "The listing does not say what food is given. Call (718) 452-3646 to ask."
+      },
+      {
+        "q": "Do I need documents or is there any requirement?",
+        "a": "No requirements are listed in the available information. Call before going to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays 2pm-4:30pm, according to the City's information."
+      }
+    ]
+  }
+}

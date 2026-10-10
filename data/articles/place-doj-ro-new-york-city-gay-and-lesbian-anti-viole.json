@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-new-york-city-gay-and-lesbian-anti-viole",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:35.833Z",
+  "facts_hash": "b0e75b1963ea1e55",
+  "article": {
+    "title_es": "NYC Gay and Lesbian Anti-Violence Project: ayuda legal en Manhattan",
+    "title_en": "NYC Gay and Lesbian Anti-Violence Project: legal help in Manhattan",
+    "summary_es": "El New York City Gay and Lesbian Anti-Violence Project en Manhattan aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas cuyos representantes acreditados pueden brindar ayuda legal de inmigración.",
+    "summary_en": "The New York City Gay and Lesbian Anti-Violence Project in Manhattan appears on the U.S. Department of Justice (EOIR) list of recognized organizations whose accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+      "Los representantes acreditados por el DOJ de organizaciones reconocidas pueden brindar ayuda legal de inmigración.",
+      "Está ubicado en 116 Nassau Street, Third Floor, en Manhattan.",
+      "Teléfono: (212) 714-1184.",
+      "Las tarifas y cómo obtener una cita no aparecen en la lista; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "DOJ-accredited representatives at recognized organizations may give immigration legal help.",
+      "Located at 116 Nassau Street, Third Floor, in Manhattan.",
+      "Phone: (212) 714-1184.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (212) 714-1184 antes de visitar para preguntar por los servicios y las citas.",
+      "Las tarifas y el proceso de admisión no aparecen en la lista; pregunte por ellos cuando llame.",
+      "El horario de atención no aparece en la lista; confírmelo por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call (212) 714-1184 before visiting to ask about services and appointments.",
+      "Fees and the intake process are not listed, so ask about them when you call.",
+      "Hours of operation are not listed, so confirm them by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas cuyos representantes acreditados pueden brindar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la lista. Llame al (212) 714-1184 para preguntar sobre los costos."
+      },
+      {
+        "q": "¿Cómo hago una cita?",
+        "a": "El proceso de admisión no aparece en la lista. Llame al (212) 714-1184 para preguntar cómo obtener una cita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) list of recognized organizations whose accredited representatives may give immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (212) 714-1184 to ask about costs."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The intake process is not listed. Call (212) 714-1184 to ask how to get an appointment."
+      }
+    ]
+  }
+}

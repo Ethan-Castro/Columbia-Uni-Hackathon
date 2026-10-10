@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-the-center-for-family-representation",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:37.279Z",
+  "facts_hash": "322228129c0a9653",
+  "article": {
+    "title_es": "The Center for Family Representation: organización legal en Manhattan",
+    "title_en": "The Center for Family Representation: legal organization in Manhattan",
+    "summary_es": "The Center for Family Representation es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está ubicada en el bajo Manhattan y su personal acreditado puede ofrecer ayuda legal en inmigración.",
+    "summary_en": "The Center for Family Representation is a non-profit listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations. It is located in lower Manhattan, and its accredited representatives may provide immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista de organizaciones reconocidas del DOJ (EOIR).",
+      "Sus representantes acreditados pueden dar ayuda legal en inmigración.",
+      "Está en 40 Worth Street, Suite 605, Nueva York, NY 10013.",
+      "Puede llamar al (212) 691-0950 para preguntar por sus servicios.",
+      "La lista no indica tarifas ni cómo pedir una cita; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) Roster of Recognized Organizations.",
+      "Its accredited representatives may provide immigration legal help.",
+      "Located at 40 Worth Street, Suite 605, New York, NY 10013.",
+      "You can call (212) 691-0950 to ask about its services.",
+      "The listing does not show fees or how to get an appointment; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Antes de ir, llame al (212) 691-0950 para confirmar horarios y servicios.",
+      "La dirección exacta es 40 Worth Street, Suite 605, Nueva York, NY 10013.",
+      "El listado no indica los horarios de atención; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Before visiting, call (212) 691-0950 to confirm hours and services.",
+      "The exact address is 40 Worth Street, Suite 605, New York, NY 10013.",
+      "The listing does not show office hours; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en el listado. Llame al (212) 691-0950 para preguntar."
+      },
+      {
+        "q": "¿Cómo puedo pedir una cita?",
+        "a": "El proceso para obtener una cita no está en el listado. Llame al (212) 691-0950 para preguntar cómo empezar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit listed on the DOJ (EOIR) Roster of Recognized Organizations and Accredited Representatives."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (212) 691-0950 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. Call (212) 691-0950 to ask how to start."
+      }
+    ]
+  }
+}

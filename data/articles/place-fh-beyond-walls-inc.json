@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-beyond-walls-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:44.847Z",
+  "facts_hash": "3b5782dc8a786c79",
+  "article": {
+    "title_es": "Beyond Walls, Inc: despensa de alimentos en Brooklyn",
+    "title_en": "Beyond Walls, Inc: food pantry in Brooklyn",
+    "summary_es": "Beyond Walls, Inc es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Atiende los martes de 1:30pm a 3pm.",
+    "summary_en": "Beyond Walls, Inc is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open for pantry service on Tuesdays from 1:30pm to 3pm.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 188 E 53rd St, Brooklyn, código postal 11203.",
+      "El horario de la despensa indicado es martes de 1:30pm a 3pm.",
+      "Puede llamar al (347) 406-5878 para más información.",
+      "Qué alimentos entrega y si hay requisitos no está indicado, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 188 E 53rd St in Brooklyn, zip code 11203.",
+      "The pantry hours listed are Tuesday 1:30pm-3pm.",
+      "You can call (347) 406-5878 for more information.",
+      "What food is given and any requirements are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes de 1:30pm a 3pm, así que planifique su visita para esa hora.",
+      "Llame al (347) 406-5878 antes para preguntar sobre los alimentos y si hay requisitos.",
+      "La dirección es 188 E 53rd St, Brooklyn, NY 11203."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Tuesday 1:30pm-3pm, so plan your visit for that time.",
+      "Call (347) 406-5878 ahead to ask about food offered and any requirements.",
+      "The address is 188 E 53rd St, Brooklyn, NY 11203."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de alimentos entrega?",
+        "a": "Aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos. Qué alimentos entrega y si hay requisitos no está indicado, así que es mejor preguntar directamente."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "El listado indica martes de 1:30pm a 3pm para la despensa. Llame al (347) 406-5878 para confirmar antes de ir."
+      },
+      {
+        "q": "¿Hay algo más que deba saber antes de visitar?",
+        "a": "El listado no lo indica. Llame al (347) 406-5878 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of food does it give?",
+        "a": "It is listed on the City's Food Help NYC map as a food pantry. What food is given and any requirements are not listed, so it is best to ask directly."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The listing shows Tuesday 1:30pm-3pm for the pantry. Call (347) 406-5878 to confirm before going."
+      },
+      {
+        "q": "Is there anything else I should know before visiting?",
+        "a": "The listing does not say. Call (347) 406-5878 to ask."
+      }
+    ]
+  }
+}

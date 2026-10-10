@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-mount-moriah-seventh-day-adventist-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:52.909Z",
+  "facts_hash": "0845e7636713fdd8",
+  "article": {
+    "title_es": "Iglesia Mount Moriah Adventista: despensa de alimentos en Queens",
+    "title_en": "Mount Moriah Seventh Day Adventist Church: food pantry in Queens",
+    "summary_es": "La Iglesia Mount Moriah Adventista del Séptimo Día aparece en el mapa Food Help NYC como despensa de alimentos en Queens. Reparte alimentos los sábados por la mañana, solo el primer y tercer sábado del mes.",
+    "summary_en": "Mount Moriah Seventh Day Adventist Church appears on the Food Help NYC map as a food pantry in Queens. It gives out food on Saturday mornings, only on the 1st and 3rd Saturday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 1834 Decatur Stree, NY 11385, en Queens.",
+      "Abre los sábados de 8:30 am a 9:30 am, solo el primer y tercer sábado del mes.",
+      "Puede llamar al (347) 217-4988 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 1834 DECATUR STREE, NY 11385, in Queens.",
+      "It is open Saturdays 8:30am-9:30am, 1st and 3rd Saturday only.",
+      "You can call (347) 217-4988 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado: la despensa solo funciona el primer y tercer sábado del mes.",
+      "Llegue dentro del horario de 8:30 am a 9:30 am.",
+      "Llame al (347) 217-4988 antes de ir para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday: the pantry runs on the 1st and 3rd Saturday only.",
+      "Come within the 8:30am-9:30am hours.",
+      "Call (347) 217-4988 before going to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 8:30 am a 9:30 am, pero solo el primer y tercer sábado de cada mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "La lista no lo indica. Llame al (347) 217-4988 para preguntar."
+      },
+      {
+        "q": "¿Está abierta los fines de semana?",
+        "a": "Sí, abre los sábados de 8:30 am a 9:30 am, solo el primer y tercer sábado del mes."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays 8:30am-9:30am, but only on the 1st and 3rd Saturday of each month."
+      },
+      {
+        "q": "What food does it give out?",
+        "a": "The listing does not say. Call (347) 217-4988 to ask."
+      },
+      {
+        "q": "Is it open on weekends?",
+        "a": "Yes, it is open Saturdays 8:30am-9:30am, on the 1st and 3rd Saturday of the month only."
+      }
+    ]
+  }
+}

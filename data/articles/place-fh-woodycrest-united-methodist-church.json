@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-woodycrest-united-methodist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:57.716Z",
+  "facts_hash": "8853d2e5cb29e00e",
+  "article": {
+    "title_es": "Woodycrest United Methodist Church: cocina comunitaria en el Bronx",
+    "title_en": "Woodycrest United Methodist Church: soup kitchen in the Bronx",
+    "summary_es": "La Woodycrest United Methodist Church aparece en el mapa Food Help NYC como cocina comunitaria (soup kitchen) en el Bronx. Sirve comida los miércoles de 12pm a 1:30pm.",
+    "summary_en": "Woodycrest United Methodist Church appears on the Food Help NYC map as a soup kitchen in the Bronx. It serves food on Wednesdays from 12pm to 1:30pm.",
+    "how_they_help_es": [
+      "Es una cocina comunitaria (soup kitchen) según el mapa Food Help NYC.",
+      "Está en 89 W 166th St, Bronx, NY 10452.",
+      "Abre los miércoles de 12pm a 1:30pm.",
+      "Tiene teléfono: (718) 538-7500.",
+      "La lista no dice qué comida da ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a soup kitchen according to the Food Help NYC map.",
+      "It is located at 89 W 166th St, Bronx, NY 10452.",
+      "It is open Wednesdays from 12pm to 1:30pm.",
+      "It has a phone number: (718) 538-7500.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es miércoles de 12pm a 1:30pm; llegue dentro de ese horario.",
+      "Antes de ir, puede llamar al (718) 538-7500 para confirmar el servicio.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "The listed hours are Wednesdays from 12pm to 1:30pm; go within that time.",
+      "Before going, you can call (718) 538-7500 to confirm the service.",
+      "The information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de ayuda ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como cocina comunitaria (soup kitchen). La lista no detalla qué comida sirve."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Los miércoles de 12pm a 1:30pm, según la información publicada."
+      },
+      {
+        "q": "¿Cómo puedo obtener más información?",
+        "a": "Puede llamar al (718) 538-7500 para preguntar sobre el servicio antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of help does this place offer?",
+        "a": "It appears on the Food Help NYC map as a soup kitchen. The listing does not detail what food it serves."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays from 12pm to 1:30pm, according to the published information."
+      },
+      {
+        "q": "How can I get more information?",
+        "a": "You can call (718) 538-7500 to ask about the service before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-pb-central-american-legal-assistance-cala",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:52.204Z",
+  "facts_hash": "35ab155a4a057d49",
+  "article": {
+    "title_es": "Central American Legal Assistance: ayuda legal en Brooklyn",
+    "title_en": "Central American Legal Assistance: legal help in Brooklyn",
+    "summary_es": "Central American Legal Assistance (CALA) aparece en la lista de proveedores de servicios legales \"Pro Bono\" del Departamento de Justicia de EE. UU. (EOIR). Está ubicada en 240 Hooper Street, Brooklyn, NY 11211.",
+    "summary_en": "Central American Legal Assistance (CALA) appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers. It is located at 240 Hooper Street, Brooklyn, NY 11211.",
+    "how_they_help_es": [
+      "Aparece en la lista de proveedores de servicios legales \"Pro Bono\" del EOIR del Departamento de Justicia.",
+      "Su dirección es 240 Hooper Street, Brooklyn, NY 11211.",
+      "Teléfono: (718) 486-6800.",
+      "La lista no indica si acepta casos nuevos, cuotas ni cómo funciona la inscripción; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the U.S. Department of Justice EOIR List of Pro Bono Legal Service Providers.",
+      "Address: 240 Hooper Street, Brooklyn, NY 11211.",
+      "Phone: (718) 486-6800.",
+      "The list does not say whether it takes new cases, its fees, or how intake works; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (718) 486-6800 para preguntar si aceptan casos nuevos y cómo solicitar ayuda.",
+      "Los horarios de atención no aparecen en la información disponible; confírmelos por teléfono.",
+      "Pregunte por teléfono qué servicios ofrece y qué necesita para su consulta."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 486-6800 to ask whether they take new cases and how to request help.",
+      "Hours are not listed in the available information; confirm them by phone.",
+      "Ask by phone what services they offer and what you need for a consultation."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es CALA?",
+        "a": "Es una organización que aparece en la lista de proveedores de servicios legales \"Pro Bono\" del Departamento de Justicia (EOIR)."
+      },
+      {
+        "q": "¿Dónde está y cómo los contacto?",
+        "a": "Está en 240 Hooper Street, Brooklyn, NY 11211. Teléfono: (718) 486-6800."
+      },
+      {
+        "q": "¿Cuánto cuesta y cómo pido una cita?",
+        "a": "La lista no incluye cuotas ni el proceso para obtener cita. Llame al (718) 486-6800 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is CALA?",
+        "a": "It is an organization listed on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "It is at 240 Hooper Street, Brooklyn, NY 11211. Phone: (718) 486-6800."
+      },
+      {
+        "q": "How much does it cost and how do I get an appointment?",
+        "a": "The list does not include fees or how to get an appointment. Call (718) 486-6800 to ask."
+      }
+    ]
+  }
+}

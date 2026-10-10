@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-the-ozone-park-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:25.116Z",
+  "facts_hash": "ae5b847099de644f",
+  "article": {
+    "title_es": "The Ozone Park Pantry: despensa de alimentos en Queens",
+    "title_en": "The Ozone Park Pantry: food pantry in Queens",
+    "summary_es": "The Ozone Park Pantry es una despensa de alimentos en Ozone Park, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados.",
+    "summary_en": "The Ozone Park Pantry is a food pantry in Ozone Park, Queens, listed on the City's Food Help NYC map. It is open on Saturdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 83-10 Rockaway Blvd, Ozone Park, Queens.",
+      "Abre los sábados de 9:30 am a 12:30 pm.",
+      "Puede llamar al (646) 851-0885 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 83-10 Rockaway Blvd, Ozone Park, Queens.",
+      "It is open Saturdays from 9:30am to 12:30pm.",
+      "You can call (646) 851-0885 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es sábado de 9:30 am a 12:30 pm.",
+      "La página no indica qué alimentos entrega ni si pide algún requisito; llame al (646) 851-0885 para preguntar.",
+      "Verifique el horario antes de viajar, ya que la información fue revisada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturday, 9:30am to 12:30pm.",
+      "The listing does not say what food is given or if there are any requirements; call (646) 851-0885 to ask.",
+      "Check the hours before traveling, since the information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 83-10 Rockaway Blvd, Ozone Park, Queens, NY 11416."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 9:30 am a 12:30 pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado. Llame al (646) 851-0885 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry?",
+        "a": "At 83-10 Rockaway Blvd, Ozone Park, Queens, NY 11416."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 9:30am to 12:30pm."
+      },
+      {
+        "q": "What should I bring, and what food is given?",
+        "a": "This is not listed. Call (646) 851-0885 to ask before going."
+      }
+    ]
+  }
+}

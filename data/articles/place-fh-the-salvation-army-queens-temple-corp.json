@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-salvation-army-queens-temple-corp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:21.944Z",
+  "facts_hash": "ba0b7dfc1d76471a",
+  "article": {
+    "title_es": "The Salvation Army Queens Temple: comida en Jackson Heights",
+    "title_en": "The Salvation Army Queens Temple: food help in Jackson Heights",
+    "summary_es": "El Ejército de Salvación en Jackson Heights ofrece un comedor social de lunes a viernes y una despensa de alimentos los jueves. Está en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "The Salvation Army in Jackson Heights offers a soup kitchen Monday to Friday and a food pantry on Thursdays. It is listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Comedor social de lunes a viernes, 11:30am a 1pm.",
+      "Despensa de alimentos los jueves, 10am a 11am.",
+      "Dirección: 86-07 35th Ave, Jackson Heights, Queens, 11372.",
+      "Teléfono: (718) 335-3693 para preguntas.",
+      "La lista no detalla qué alimentos dan ni los requisitos."
+    ],
+    "how_they_help_en": [
+      "Soup kitchen open Monday to Friday, 11:30am to 1pm.",
+      "Food pantry on Thursdays, 10am to 11am.",
+      "Address: 86-07 35th Ave, Jackson Heights, Queens, 11372.",
+      "Phone: (718) 335-3693 for questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "El comedor social funciona de lunes a viernes, 11:30am a 1pm.",
+      "La despensa de alimentos abre solo los jueves, 10am a 11am.",
+      "Llame al (718) 335-3693 antes de ir para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen runs Monday to Friday, 11:30am to 1pm.",
+      "The food pantry is open only on Thursdays, 10am to 11am.",
+      "Call (718) 335-3693 before visiting to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 86-07 35th Ave, Jackson Heights, Queens, NY 11372."
+      },
+      {
+        "q": "¿Cuándo puedo recibir comida?",
+        "a": "Comedor social de lunes a viernes, 11:30am a 1pm. Despensa los jueves, 10am a 11am."
+      },
+      {
+        "q": "¿Qué necesito para recibir alimentos?",
+        "a": "La lista no indica requisitos. Llame al (718) 335-3693 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 86-07 35th Ave, Jackson Heights, Queens, NY 11372."
+      },
+      {
+        "q": "When can I get food?",
+        "a": "Soup kitchen Monday to Friday, 11:30am to 1pm. Pantry on Thursdays, 10am to 11am."
+      },
+      {
+        "q": "What do I need to receive food?",
+        "a": "The listing does not state requirements. Call (718) 335-3693 to ask."
+      }
+    ]
+  }
+}

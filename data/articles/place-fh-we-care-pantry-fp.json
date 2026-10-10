@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-we-care-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:18.083Z",
+  "facts_hash": "fcf8129ba52c0761",
+  "article": {
+    "title_es": "WE CARE Pantry: despensa de alimentos en Saint Albans, Queens",
+    "title_en": "WE CARE Pantry: food pantry in Saint Albans, Queens",
+    "summary_es": "WE CARE Pantry es una despensa de alimentos en Saint Albans, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 10am a 12pm, solo el segundo y cuarto sábado del mes.",
+    "summary_en": "WE CARE Pantry is a food pantry in Saint Albans, Queens, listed on the City's Food Help NYC map. It is open Saturdays 10am-12pm, on the 2nd and 4th Saturday only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 201-14 Hollis Ave, Saint Albans, Queens, NY 11412.",
+      "Abre los sábados de 10am a 12pm, solo el segundo y cuarto sábado del mes.",
+      "Puede llamar al (718) 774-7041 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 201-14 Hollis Ave, Saint Albans, Queens, NY 11412.",
+      "It is open Saturdays 10am-12pm, on the 2nd and 4th Saturday only.",
+      "You can call (718) 774-7041 to ask before you go.",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado de 10am a 12pm; recuerde que solo abre el segundo y cuarto sábado del mes.",
+      "Llame al (718) 774-7041 antes de ir para confirmar que está abierta.",
+      "La lista no menciona documentos ni requisitos; puede preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday from 10am to 12pm; remember it is open only on the 2nd and 4th Saturday of the month.",
+      "Call (718) 774-7041 before going to confirm it is open.",
+      "The listing does not mention documents or requirements; you can ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 10am a 12pm, solo el segundo y cuarto sábado del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 201-14 Hollis Ave, Saint Albans, Queens, NY 11412."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no lo indica. Llame al (718) 774-7041 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays 10am-12pm, on the 2nd and 4th Saturday of the month only."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 201-14 Hollis Ave, Saint Albans, Queens, NY 11412."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "The listing does not say. Call (718) 774-7041 to ask."
+      }
+    ]
+  }
+}

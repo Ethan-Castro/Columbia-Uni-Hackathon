@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-christ-church-united-methodist",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:02.034Z",
+  "facts_hash": "b0101ef16f7098e3",
+  "article": {
+    "title_es": "Christ Church United Methodist: comedor en Manhattan",
+    "title_en": "Christ Church United Methodist: soup kitchen in Manhattan",
+    "summary_es": "Christ Church United Methodist aparece en el mapa Food Help NYC como lugar de comida. Ofrece un comedor (soup kitchen) los domingos por la tarde en Manhattan.",
+    "summary_en": "Christ Church United Methodist is listed on the City's Food Help NYC map. It offers a soup kitchen on Sunday afternoons in Manhattan.",
+    "how_they_help_es": [
+      "Aparece en el mapa oficial Food Help NYC como lugar de comida.",
+      "Ofrece un comedor (soup kitchen) los domingos de 4:30pm a 6pm.",
+      "Está ubicado en 524 Park Ave, Nueva York, NY 10065, en Manhattan.",
+      "Se puede llamar al (212) 838-3036 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "Listed on the official Food Help NYC map as a food help location.",
+      "Offers a soup kitchen on Sundays from 4:30pm to 6pm.",
+      "Located at 524 Park Ave, New York, NY 10065, in Manhattan.",
+      "You can call (212) 838-3036 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es domingo de 4:30pm a 6pm (comedor).",
+      "La lista no dice qué alimentos se entregan ni si hay requisitos, así que conviene preguntar por teléfono.",
+      "Llame al (212) 838-3036 antes de ir para confirmar el servicio."
+    ],
+    "visit_tips_en": [
+      "The listed hours are Sunday 4:30pm-6pm (soup kitchen).",
+      "The listing does not say what food is given or any requirements, so it is best to ask by phone.",
+      "Call (212) 838-3036 before visiting to confirm the service."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es un lugar de comida con un comedor (soup kitchen) los domingos de 4:30pm a 6pm."
+      },
+      {
+        "q": "¿Qué no se sabe sobre este lugar?",
+        "a": "La lista no dice qué alimentos se entrega ni si hay requisitos. Llame al (212) 838-3036 para preguntar."
+      },
+      {
+        "q": "¿Abre otros días de la semana?",
+        "a": "El único horario indicado es el domingo de 4:30pm a 6pm. Llame para confirmar si hay más horarios."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food help location with a soup kitchen on Sundays from 4:30pm to 6pm."
+      },
+      {
+        "q": "What is not known about this place?",
+        "a": "The listing does not say what food is given or any requirements. Call (212) 838-3036 to ask."
+      },
+      {
+        "q": "Is it open on other days?",
+        "a": "The only hours listed are Sunday 4:30pm-6pm. Call to confirm if there are other times."
+      }
+    ]
+  }
+}

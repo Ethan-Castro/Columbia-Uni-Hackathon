@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-church-of-god-of-bronxwood-avenue",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:25.275Z",
+  "facts_hash": "eac4741053c7ff46",
+  "article": {
+    "title_es": "Church of God of Bronxwood Avenue: despensa de alimentos en el Bronx",
+    "title_en": "Church of God of Bronxwood Avenue: food pantry in the Bronx",
+    "summary_es": "Esta iglesia en el Bronx aparece en el mapa Food Help NYC como despensa de alimentos. Abre los miércoles y sábados de 10am a 2pm.",
+    "summary_en": "This Bronx church appears on the Food Help NYC map as a food pantry. It is open Wednesdays and Saturdays from 10am to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los miércoles de 10am a 2pm.",
+      "También reparte alimentos los sábados de 10am a 2pm.",
+      "La lista no dice qué alimentos da ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It distributes food on Wednesdays from 10am to 2pm.",
+      "It also distributes food on Saturdays from 10am to 2pm.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Dirección: 3232 Lurting Avenue, Bronx, NY 10469.",
+      "Horario de la despensa: miércoles y sábados, 10am a 2pm.",
+      "Antes de ir, puede llamar al (718) 652-0337 para preguntar qué ofrece la despensa."
+    ],
+    "visit_tips_en": [
+      "Address: 3232 Lurting Avenue, Bronx, NY 10469.",
+      "Pantry hours: Wednesdays and Saturdays, 10am to 2pm.",
+      "Before going, you can call (718) 652-0337 to ask what the pantry offers."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos. La lista no detalla qué alimentos reparte."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "Los miércoles y sábados de 10am a 2pm, según la información publicada."
+      },
+      {
+        "q": "¿Cómo puedo obtener más información?",
+        "a": "La lista no detalla qué alimentos da ni si hay requisitos. Puede llamar al (718) 652-0337 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry. The listing does not detail what food it gives out."
+      },
+      {
+        "q": "When can I go?",
+        "a": "Wednesdays and Saturdays from 10am to 2pm, according to the published information."
+      },
+      {
+        "q": "How can I get more information?",
+        "a": "The listing does not detail what food is given or if there are requirements. You can call (718) 652-0337 to ask."
+      }
+    ]
+  }
+}

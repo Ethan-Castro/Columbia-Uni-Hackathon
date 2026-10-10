@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-immigrant-justice-corps",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:29.901Z",
+  "facts_hash": "f8aef8d2b5024e43",
+  "article": {
+    "title_es": "Immigrant Justice Corps: organización en la lista del DOJ en Manhattan",
+    "title_en": "Immigrant Justice Corps: DOJ-listed organization in Manhattan",
+    "summary_es": "Immigrant Justice Corps aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está ubicada en el sur de Manhattan.",
+    "summary_en": "Immigrant Justice Corps appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in Lower Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados por el DOJ pueden ofrecer ayuda legal en inmigración.",
+      "Dirección: 17 Battery Place, Suite 331, New York, NY 10004.",
+      "Teléfono: (212) 407-3417.",
+      "Los honorarios y el proceso para obtener una cita no están indicados; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations and accredited representatives.",
+      "Recognized organizations are non-profits whose DOJ-accredited representatives may give immigration legal help.",
+      "Address: 17 Battery Place, Suite 331, New York, NY 10004.",
+      "Phone: (212) 407-3417.",
+      "Fees and how to get an appointment are not listed; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (212) 407-3417 para preguntar por los servicios y las citas.",
+      "El horario de atención no está indicado en esta información.",
+      "Pregunte sobre los costos, ya que no aparecen en la lista."
+    ],
+    "visit_tips_en": [
+      "Call first at (212) 407-3417 to ask about services and appointments.",
+      "Hours of operation are not listed in this information.",
+      "Ask about costs, since fees are not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué significa que esté en la lista del DOJ?",
+        "a": "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas cuyos representantes acreditados pueden dar ayuda legal en inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los honorarios no están indicados. Llame al (212) 407-3417 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Llame al (212) 407-3417 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does it mean to be on the DOJ list?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) roster of recognized organizations whose accredited representatives may give immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (212) 407-3417 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The appointment process is not listed. Call (212) 407-3417 to ask."
+      }
+    ]
+  }
+}

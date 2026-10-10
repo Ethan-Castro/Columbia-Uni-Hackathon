@@ -1,0 +1,62 @@
+{
+  "place_id": "place-ginbri-express",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T19:06:05.229Z",
+  "facts_hash": "4597358d3cf9714a",
+  "article": {
+    "title_es": "Ginbri Express: agente de envíos de dinero en Queens",
+    "title_en": "Ginbri Express: money transfer agent in Queens",
+    "summary_es": "Ginbri Express es un negocio en Corona, Queens, que actúa como agente de Western Union para enviar dinero. No tenemos datos sobre sus tarifas.",
+    "summary_en": "Ginbri Express is a business in Corona, Queens, that works as a Western Union agent for sending money. We have no data on its fees.",
+    "how_they_help_es": [
+      "Es un agente de Western Union para envíos de dinero.",
+      "Está en 96-02 37th Ave, Queens, NY 11368.",
+      "Puede llamar al 347-888-6047 para preguntar.",
+      "No tenemos datos de sus tarifas: pregunte el precio antes de enviar dinero."
+    ],
+    "how_they_help_en": [
+      "It is a Western Union agent for sending money.",
+      "Located at 96-02 37th Ave, Queens, NY 11368.",
+      "You can call 347-888-6047 to ask questions.",
+      "We have no data on its fees: ask the price before sending money."
+    ],
+    "visit_tips_es": [
+      "Pregunte cuánto cuesta el envío antes de pagar.",
+      "Este negocio no ha sido verificado por nosotros.",
+      "La información fue revisada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Ask how much the transfer costs before you pay.",
+      "This business has not been verified by us.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Ginbri Express?",
+        "a": "Es un negocio en Queens que actúa como agente de Western Union para envíos de dinero."
+      },
+      {
+        "q": "¿Cuánto cobran por enviar dinero?",
+        "a": "No tenemos datos sobre sus tarifas. Pregunte el precio antes de enviar dinero."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Puede llamar al 347-888-6047 o visitar 96-02 37th Ave, Queens, NY 11368."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Ginbri Express?",
+        "a": "It is a business in Queens that works as a Western Union agent for money transfers."
+      },
+      {
+        "q": "How much do they charge to send money?",
+        "a": "We have no data on its fees. Ask the price before sending money."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "You can call 347-888-6047 or visit 96-02 37th Ave, Queens, NY 11368."
+      }
+    ]
+  }
+}

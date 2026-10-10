@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-beraca-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:43.812Z",
+  "facts_hash": "4040d7637fb638b3",
+  "article": {
+    "title_es": "Beraca Seventh Day Adventist Church: despensa de alimentos en Hollis, Queens",
+    "title_en": "Beraca Seventh Day Adventist Church: food pantry in Hollis, Queens",
+    "summary_es": "Esta iglesia en Hollis, Queens, aparece en el mapa Food Help NYC como despensa de alimentos. Abre los miércoles de 9:30am a 12pm.",
+    "summary_en": "This church in Hollis, Queens, is listed on the City's Food Help NYC map as a food pantry. It is open Wednesdays from 9:30am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 91-19 191st St, Hollis, New York, 11423.",
+      "Abre los miércoles de 9:30am a 12pm.",
+      "Puede llamar al (718) 740-1916 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 91-19 191st St, Hollis, New York, 11423.",
+      "It is open Wednesdays from 9:30am to 12pm.",
+      "You can call (718) 740-1916 to ask questions before visiting.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los miércoles de 9:30am a 12pm.",
+      "Llame al (718) 740-1916 antes de ir para confirmar los detalles.",
+      "No hay información sobre qué alimentos se entregan; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesdays from 9:30am to 12pm.",
+      "Call (718) 740-1916 before going to confirm details.",
+      "There is no information about what food is given; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Puede llamar al (718) 740-1916 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos. Se recomienda llamar antes de ir."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los miércoles de 9:30am a 12pm, según la información más reciente (10 de octubre de 2026)."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. You can call (718) 740-1916 to ask."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "The listing does not mention any requirements. It is best to call before going."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays from 9:30am to 12pm, according to the most recent information (October 10, 2026)."
+      }
+    ]
+  }
+}

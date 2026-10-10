@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-st-peters-yvonne-gittens-food",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:16.386Z",
+  "facts_hash": "548a36e7bf3c727c",
+  "article": {
+    "title_es": "St. Peters - Yvonne Gittens Food: despensa de alimentos en Queens",
+    "title_en": "St. Peters - Yvonne Gittens Food: food pantry in Queens",
+    "summary_es": "St. Peters - Yvonne Gittens Food es una despensa de alimentos en Rosedale, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 11am a 1pm.",
+    "summary_en": "St. Peters - Yvonne Gittens Food is a food pantry in Rosedale, Queens, listed on the City's Food Help NYC map. It is open Saturdays 11am-1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 137-28 244th St, Rosedale, NY, 11422, en Queens.",
+      "Abre los sábados de 11am a 1pm para la despensa.",
+      "Puede llamar al (718) 360-7650 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 137-28 244th St, Rosedale, NY, 11422, in Queens.",
+      "It is open Saturdays 11am-1pm for the pantry.",
+      "You can call (718) 360-7650 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los sábados de 11am a 1pm.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; llame al (718) 360-7650 para preguntar.",
+      "Verifique el horario antes de viajar, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturdays only, 11am-1pm.",
+      "The listing does not say what food is given or if there are any requirements; call (718) 360-7650 to ask.",
+      "Check the hours before you travel, as they can change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos en Rosedale, Queens. No se detalla qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "La despensa abre los sábados de 11am a 1pm."
+      },
+      {
+        "q": "¿Necesito algún documento o cita?",
+        "a": "La lista no menciona requisitos ni citas. Llame al (718) 360-7650 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry in Rosedale, Queens. What food it gives out is not detailed."
+      },
+      {
+        "q": "When can I go?",
+        "a": "The pantry is open Saturdays 11am-1pm."
+      },
+      {
+        "q": "Do I need documents or an appointment?",
+        "a": "The listing does not mention requirements or appointments. Call (718) 360-7650 to ask before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-every-day-is-a-miracle-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:13.059Z",
+  "facts_hash": "309138c3c8ded444",
+  "article": {
+    "title_es": "Every Day Is A Miracle: despensa de alimentos en el Bronx",
+    "title_en": "Every Day Is A Miracle: food pantry in the Bronx",
+    "summary_es": "Every Day Is A Miracle, Inc es una despensa de alimentos en el Bronx, inscrita en el mapa Food Help NYC de la Ciudad. Abre los jueves por la mañana.",
+    "summary_en": "Every Day Is A Miracle, Inc is a food pantry in the Bronx, listed on the City's Food Help NYC map. It opens Thursday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 2424 Jerome Ave, Bronx, NY 10468.",
+      "Atiende los jueves de 8:30am a 12pm (despensa).",
+      "Puede llamar al (347) 618-1162 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni qué requisitos pide; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2424 Jerome Ave, Bronx, NY 10468.",
+      "It is open Thursdays 8:30am-12pm (pantry).",
+      "You can call (347) 618-1162 to ask before going.",
+      "The listing does not say what food is given or what is required; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es jueves de 8:30am a 12pm.",
+      "Llame al (347) 618-1162 antes de ir para confirmar detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Thursday 8:30am-12pm.",
+      "Call (347) 618-1162 before going to confirm details.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos inscrita en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "La despensa atiende los jueves de 8:30am a 12pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué requisitos hay?",
+        "a": "La lista no indica requisitos ni documentos. Llame al (347) 618-1162 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry on the City's Food Help NYC map."
+      },
+      {
+        "q": "When can I go?",
+        "a": "The pantry is open Thursdays 8:30am-12pm."
+      },
+      {
+        "q": "What should I bring or what are the requirements?",
+        "a": "The listing does not state requirements or documents. Call (347) 618-1162 to ask before going."
+      }
+    ]
+  }
+}

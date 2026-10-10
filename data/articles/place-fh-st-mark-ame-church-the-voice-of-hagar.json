@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-st-mark-ame-church-the-voice-of-hagar",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:11.288Z",
+  "facts_hash": "780afe333c78832c",
+  "article": {
+    "title_es": "St. Mark AME Church/The Voice of Hagar: despensa de alimentos en Queens",
+    "title_en": "St. Mark AME Church/The Voice of Hagar: food pantry in Queens",
+    "summary_es": "St. Mark AME Church/The Voice of Hagar es una despensa de alimentos en Jackson Heights, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los martes de 10am a 12:30pm.",
+    "summary_en": "St. Mark AME Church/The Voice of Hagar is a food pantry in Jackson Heights, Queens, listed on the City's Food Help NYC map. It is open on Tuesdays from 10am to 12:30pm.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está en 95-18 Northern Blvd, en Jackson Heights, Queens.",
+      "Abre los martes de 10am a 12:30pm (despensa el 1.er, 2.º, 3.er y 4.º martes).",
+      "Puede llamar al (718) 205-0506 para preguntar qué alimentos entrega y qué requisitos hay."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 95-18 Northern Blvd in Jackson Heights, Queens.",
+      "Open Tuesdays from 10am to 12:30pm (pantry on the 1st, 2nd, 3rd and 4th Tuesdays).",
+      "You can call (718) 205-0506 to ask about the food given and any requirements."
+    ],
+    "visit_tips_es": [
+      "Visite un martes entre 10am y 12:30pm; la despensa funciona el 1.er, 2.º, 3.er y 4.º martes.",
+      "Llame antes al (718) 205-0506 para confirmar que la despensa estará abierta ese día.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Visit on a Tuesday between 10am and 12:30pm; the pantry runs on the 1st, 2nd, 3rd and 4th Tuesdays.",
+      "Call (718) 205-0506 ahead to confirm the pantry is open that day.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los martes de 10am a 12:30pm, el 1.er, 2.º, 3.er y 4.º martes del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 95-18 Northern Blvd, Jackson Heights, New York, 11372, en Queens."
+      },
+      {
+        "q": "¿Necesito cumplir algún requisito?",
+        "a": "La lista no lo indica. Llame al (718) 205-0506 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays from 10am to 12:30pm, on the 1st, 2nd, 3rd and 4th Tuesdays of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 95-18 Northern Blvd, Jackson Heights, New York, 11372, in Queens."
+      },
+      {
+        "q": "Do I need to meet any requirements?",
+        "a": "The listing does not say. Call (718) 205-0506 to ask before you visit."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-gods-deliverance-temple-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:07.584Z",
+  "facts_hash": "78f3b7841c081c5a",
+  "article": {
+    "title_es": "God's Deliverance Temple: despensa de alimentos en Brooklyn",
+    "title_en": "God's Deliverance Temple: food pantry in Brooklyn",
+    "summary_es": "God's Deliverance Temple, Inc es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Ofrece servicio de despensa los miércoles.",
+    "summary_en": "God's Deliverance Temple, Inc is a food pantry in Brooklyn listed on the City's Food Help NYC map. It offers pantry hours on Wednesdays.",
+    "how_they_help_es": [
+      "Despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad",
+      "Ubicada en 438 Ralph Ave, en Brooklyn",
+      "Abre los miércoles de 12pm a 2pm para el servicio de despensa",
+      "Llame al (347) 234-3828 para más información"
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the City's Food Help NYC map",
+      "Located at 438 Ralph Ave in Brooklyn",
+      "Open Wednesdays from 12pm to 2pm for pantry service",
+      "Call (347) 234-3828 for more information"
+    ],
+    "visit_tips_es": [
+      "La despensa atiende los miércoles de 12pm a 2pm",
+      "Llame antes al (347) 234-3828 para preguntar qué alimentos entregan y si hay requisitos",
+      "El listado no incluye detalles sobre los alimentos que se ofrecen"
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wednesdays, 12pm to 2pm",
+      "Call ahead at (347) 234-3828 to ask what food is given and any requirements",
+      "The listing does not include details about what food is offered"
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 12pm a 2pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "El listado no lo indica. Llame al (347) 234-3828 para preguntar."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 438 Ralph Ave, Brooklyn, New York, 11233."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 12pm to 2pm."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "The listing does not say. Call (347) 234-3828 to ask."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "438 Ralph Ave, Brooklyn, New York, 11233."
+      }
+    ]
+  }
+}

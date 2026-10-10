@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-morris-brown-helping-hand-food-program",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:38.391Z",
+  "facts_hash": "8d8545d54b5d980f",
+  "article": {
+    "title_es": "Morris Brown Helping Hand: despensa de alimentos en Jamaica, Queens",
+    "title_en": "Morris Brown Helping Hand: food pantry in Jamaica, Queens",
+    "summary_es": "Morris Brown Helping Hand Food Program es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 10am a 12pm.",
+    "summary_en": "Morris Brown Helping Hand Food Program is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map. It is open Wednesdays from 10am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 145-03 Rockaway Blvd, Jamaica, NY 11436.",
+      "Atiende los miércoles de 10am a 12pm (despensa).",
+      "Puede llamar al (718) 322-7596 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 145-03 Rockaway Blvd, Jamaica, NY 11436.",
+      "It is open Wednesdays from 10am to 12pm (pantry).",
+      "You can call (718) 322-7596 to ask before visiting.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es miércoles de 10am a 12pm.",
+      "Llame al (718) 322-7596 para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesdays from 10am to 12pm.",
+      "Call (718) 322-7596 to confirm hours and ask what you need.",
+      "The listing does not mention documents or requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde queda la despensa?",
+        "a": "En 145-03 Rockaway Blvd, Jamaica, Nueva York, 11436, en Queens."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Miércoles de 10am a 12pm, según la lista."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "La lista no lo indica. Llame al (718) 322-7596 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 145-03 Rockaway Blvd, Jamaica, New York, 11436, in Queens."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Wednesdays from 10am to 12pm, according to the listing."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "The listing does not say. Call (718) 322-7596 to ask."
+      }
+    ]
+  }
+}

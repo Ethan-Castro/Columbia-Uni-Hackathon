@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-community-church-of-christ-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:44.751Z",
+  "facts_hash": "47d42cb2707b0d63",
+  "article": {
+    "title_es": "Community Church of Christ: despensa de alimentos en Jamaica, Queens",
+    "title_en": "Community Church of Christ: food pantry in Jamaica, Queens",
+    "summary_es": "La Community Church of Christ aparece en el mapa Food Help NYC como despensa de alimentos en Jamaica, Queens. Abre los miércoles de 1pm a 3pm.",
+    "summary_en": "The Community Church of Christ is listed on the Food Help NYC map as a food pantry in Jamaica, Queens. It is open Wednesdays 1pm-3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 167-04 108th Ave, Jamaica, NY, 11433.",
+      "Atiende los miércoles de 1pm a 3pm (despensa).",
+      "Puede llamar al (718) 523-2612 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry according to the City's Food Help NYC map.",
+      "It is located at 167-04 108th Ave, Jamaica, NY, 11433.",
+      "It is open Wednesdays 1pm-3pm (pantry).",
+      "You can call (718) 523-2612 to ask before visiting.",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es miércoles de 1pm a 3pm.",
+      "Llame al (718) 523-2612 antes de ir para confirmar detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesdays 1pm-3pm.",
+      "Call (718) 523-2612 before going to confirm details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los miércoles de 1pm a 3pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 167-04 108th Ave, Jamaica, NY, 11433."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is listed on the Food Help NYC map as a food pantry."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 1pm to 3pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 167-04 108th Ave, Jamaica, NY, 11433."
+      }
+    ]
+  }
+}

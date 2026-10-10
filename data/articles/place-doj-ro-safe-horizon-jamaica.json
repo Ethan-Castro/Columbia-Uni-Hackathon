@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-safe-horizon-jamaica",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:23.301Z",
+  "facts_hash": "c46085bcd2829465",
+  "article": {
+    "title_es": "Safe Horizon Jamaica Extension Office: ayuda legal migratoria en Queens",
+    "title_en": "Safe Horizon Jamaica Extension Office: immigration legal help in Queens",
+    "summary_es": "Safe Horizon (Jamaica Extension Office) es una organización sin fines de lucro en Jamaica, Queens que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal migratoria.",
+    "summary_en": "Safe Horizon (Jamaica Extension Office) is a non-profit organization in Jamaica, Queens that appears on the U.S. Department of Justice (EOIR) list of recognized organizations. Its DOJ-accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+      "Representantes acreditados por el DOJ pueden ofrecer ayuda legal migratoria.",
+      "Ubicada en 151-20 Jamaica Avenue, 2do piso, Jamaica, NY 11432.",
+      "Llame al (718) 262-0202 para más información.",
+      "Los precios y cómo obtener una cita no aparecen en la lista; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 151-20 Jamaica Avenue, 2nd Floor, Jamaica, NY 11432.",
+      "Call (718) 262-0202 for more information.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 262-0202 antes de visitar para preguntar sobre los servicios y las citas.",
+      "El horario no aparece en la lista, así que confírmelo por teléfono.",
+      "Pregunte sobre los precios y el proceso de admisión, ya que no aparecen en la lista."
+    ],
+    "visit_tips_en": [
+      "Call (718) 262-0202 before visiting to ask about services and appointments.",
+      "Hours are not listed, so confirm them by phone.",
+      "Ask about fees and the intake process, since these are not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Safe Horizon (Jamaica Extension Office)?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los precios no aparecen en la lista. Llame al (718) 262-0202 para preguntar sobre los costos."
+      },
+      {
+        "q": "¿Cómo hago una cita?",
+        "a": "El proceso de admisión no aparece en la lista. Llame al (718) 262-0202 para preguntar cómo recibir ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Safe Horizon (Jamaica Extension Office)?",
+        "a": "It is a non-profit organization listed on the U.S. Department of Justice (EOIR) roster of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (718) 262-0202 to ask about costs."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The intake process is not listed. Call (718) 262-0202 to ask how to get help."
+      }
+    ]
+  }
+}

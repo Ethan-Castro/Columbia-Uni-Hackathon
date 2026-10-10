@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-agape-christian-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:43.702Z",
+  "facts_hash": "e19f59ce46ce6f4c",
+  "article": {
+    "title_es": "Agape Christian Center: despensa de alimentos en Ridgewood, Queens",
+    "title_en": "Agape Christian Center: food pantry in Ridgewood, Queens",
+    "summary_es": "Agape Christian Center es una despensa de alimentos en Ridgewood, Queens, que aparece en el mapa Food Help NYC de la ciudad. Atiende los sábados por la mañana.",
+    "summary_en": "Agape Christian Center is a food pantry in Ridgewood, Queens, listed on the City's Food Help NYC map. It is open on Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 59-02 Summerfield St, Ridgewood, Queens, código postal 11385.",
+      "Abre los sábados de 10am a 11:30am para la despensa.",
+      "Atiende por teléfono al (718) 635-0674 si tiene preguntas.",
+      "La lista no indica qué alimentos entrega ni qué requisitos pide; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 59-02 Summerfield St, Ridgewood, Queens, ZIP code 11385.",
+      "Open Saturdays from 10am to 11:30am for the pantry.",
+      "Call (718) 635-0674 with questions.",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona solo los sábados de 10am a 11:30am, planifique su visita con tiempo.",
+      "Llame al (718) 635-0674 antes de ir para confirmar los detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry runs only on Saturdays from 10am to 11:30am, so plan your visit.",
+      "Call (718) 635-0674 before going to confirm details.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 59-02 Summerfield St, Ridgewood, Queens, Nueva York, 11385."
+      },
+      {
+        "q": "¿Qué días y horas abre?",
+        "a": "Los sábados de 10am a 11:30am para la despensa."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "No está indicado en la lista. Llame al (718) 635-0674 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 59-02 Summerfield St, Ridgewood, Queens, New York, 11385."
+      },
+      {
+        "q": "What days and hours is it open?",
+        "a": "Saturdays from 10am to 11:30am for the pantry."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "The listing does not say. Call (718) 635-0674 to ask."
+      }
+    ]
+  }
+}

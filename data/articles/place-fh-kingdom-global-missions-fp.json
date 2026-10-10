@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-kingdom-global-missions-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:10.858Z",
+  "facts_hash": "8441a99f46299acc",
+  "article": {
+    "title_es": "Kingdom Global Missions: despensa de alimentos en Brooklyn",
+    "title_en": "Kingdom Global Missions: food pantry in Brooklyn",
+    "summary_es": "Kingdom Global Missions es una despensa de alimentos en Brooklyn, incluida en el mapa Food Help NYC de la ciudad. Atiende los sábados de 12pm a 3pm.",
+    "summary_en": "Kingdom Global Missions is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Saturdays from 12pm to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 2945 W 33rd St, Brooklyn, NY 11224.",
+      "Abre los sábados de 12pm a 3pm.",
+      "La despensa atiende el primer y tercer sábado del mes.",
+      "La lista no indica qué alimentos se entregan; pregunte al llegar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2945 W 33rd St, Brooklyn, NY 11224.",
+      "It is open Saturdays from 12pm to 3pm.",
+      "The pantry runs on the 1st and 3rd Saturday of the month.",
+      "The listing does not say what food is given; ask when you visit."
+    ],
+    "visit_tips_es": [
+      "Planifique su visita para el primer o tercer sábado del mes, de 12pm a 3pm.",
+      "La lista no menciona requisitos ni documentos; puede llamar o preguntar al llegar.",
+      "Verifique el horario antes de ir, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "Plan your visit for the 1st or 3rd Saturday of the month, from 12pm to 3pm.",
+      "The listing does not mention requirements or documents; you can ask when you arrive.",
+      "Check the hours before going, as they may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Kingdom Global Missions?",
+        "a": "Es una despensa de alimentos en Brooklyn, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los sábados de 12pm a 3pm; la despensa atiende el primer y tercer sábado del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué requisitos pide?",
+        "a": "La lista no lo indica. Pregunte al llegar o consulte la fuente oficial antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Kingdom Global Missions?",
+        "a": "It is a food pantry in Brooklyn, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 12pm to 3pm; the pantry runs on the 1st and 3rd Saturday of the month."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "The listing does not say. Ask when you arrive or check the official source before going."
+      }
+    ]
+  }
+}

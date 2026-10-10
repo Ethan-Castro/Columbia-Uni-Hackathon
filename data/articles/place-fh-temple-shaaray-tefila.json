@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-temple-shaaray-tefila",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:59.474Z",
+  "facts_hash": "402fce5ddd2e59d7",
+  "article": {
+    "title_es": "Temple Shaaray Tefila: despensa de alimentos en Manhattan",
+    "title_en": "Temple Shaaray Tefila: food pantry in Manhattan",
+    "summary_es": "Temple Shaaray Tefila es una despensa de alimentos o cocina comunitaria que aparece en el mapa Food Help NYC de la ciudad, ubicado en 250 E 79th St, en Manhattan. Ofrece una cocina comunitaria los miércoles de 11:15am a 12pm.",
+    "summary_en": "Temple Shaaray Tefila is a food pantry or soup kitchen on the City's Food Help NYC map, located at 250 E 79th St in Manhattan. It offers a soup kitchen on Wednesdays from 11:15am to 12pm.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos o cocina comunitaria.",
+      "Ofrece una cocina comunitaria los miércoles de 11:15am a 12pm.",
+      "Está ubicado en 250 E 79th St, en Manhattan.",
+      "Puede llamar al (212) 535-8008 para más información.",
+      "Qué alimentos entrega y si hay requisitos no está indicado, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the City's Food Help NYC map as a food pantry or soup kitchen.",
+      "Offers a soup kitchen on Wednesdays from 11:15am to 12pm.",
+      "Located at 250 E 79th St in Manhattan.",
+      "You can call (212) 535-8008 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La cocina comunitaria atiende los miércoles de 11:15am a 12pm.",
+      "Llame al (212) 535-8008 antes de visitar para confirmar los detalles.",
+      "El listado no indica qué alimentos entrega ni si hay requisitos, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen hours are Wednesday 11:15am-12pm.",
+      "Call (212) 535-8008 before visiting to confirm details.",
+      "The listing does not say what food is given or if there are requirements, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de ayuda ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos o cocina comunitaria. Qué alimentos entrega no está indicado."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "El listado indica miércoles de 11:15am a 12pm para la cocina comunitaria. Llame al (212) 535-8008 para confirmar antes de ir."
+      },
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "Está ubicado en 250 E 79th St, New York, New York, 10075, en Manhattan."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of help does this place offer?",
+        "a": "It appears on the City's Food Help NYC map as a food pantry or soup kitchen. What food is given is not listed."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The listing shows Wednesday 11:15am-12pm for the soup kitchen. Call (212) 535-8008 to confirm before going."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "It is located at 250 E 79th St, New York, New York, 10075, in Manhattan."
+      }
+    ]
+  }
+}

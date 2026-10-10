@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-dewitt-reformed-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:55.135Z",
+  "facts_hash": "361d977fd91ca42c",
+  "article": {
+    "title_es": "Iglesia Reformada DeWitt: despensa de alimentos en Manhattan",
+    "title_en": "DeWitt Reformed Church: food pantry in Manhattan",
+    "summary_es": "La Iglesia Reformada DeWitt aparece en el mapa Food Help NYC como despensa de alimentos. Está en el 280 Rivington St, en Manhattan.",
+    "summary_en": "DeWitt Reformed Church is listed on the Food Help NYC map as a food pantry. It is located at 280 Rivington St, in Manhattan.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Abre los sábados de 10am a 12pm.",
+      "La despensa funciona solo el primer y el tercer sábado del mes.",
+      "Para saber qué alimentos entrega, llame al (646) 609-3327."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry according to the City's Food Help NYC map.",
+      "Open Saturdays from 10am to 12pm.",
+      "The pantry runs on the 1st and 3rd Saturday only.",
+      "Call (646) 609-3327 to ask what food is given."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado de 10am a 12pm, y recuerde que la despensa solo atiende el primer y el tercer sábado del mes.",
+      "Llame al (646) 609-3327 antes de ir para confirmar los detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday from 10am to 12pm, and remember the pantry runs on the 1st and 3rd Saturday only.",
+      "Call (646) 609-3327 before visiting to confirm details.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos. Qué alimentos entrega no está indicado; pregunte llamando al (646) 609-3327."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los sábados de 10am a 12pm, pero la despensa funciona solo el primer y el tercer sábado del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada la despensa?",
+        "a": "En el 280 Rivington St, Nueva York, NY 10002, en Manhattan. Si tiene dudas, llame al (646) 609-3327."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry. What food is given is not listed; ask by calling (646) 609-3327."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 10am to 12pm, but the pantry runs on the 1st and 3rd Saturday only."
+      },
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 280 Rivington St, New York, NY 10002, in Manhattan. If you have questions, call (646) 609-3327."
+      }
+    ]
+  }
+}

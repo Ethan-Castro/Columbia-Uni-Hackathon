@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-project-hospitality-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:56.739Z",
+  "facts_hash": "c3e0c4a5945860b3",
+  "article": {
+    "title_es": "Project Hospitality: despensa de alimentos en Staten Island",
+    "title_en": "Project Hospitality: food pantry in Staten Island",
+    "summary_es": "Project Hospitality es una despensa de alimentos en Staten Island, aparecida en el mapa Food Help NYC de la ciudad. Reparte alimentos los martes y jueves por la mañana.",
+    "summary_en": "Project Hospitality is a food pantry in Staten Island, listed on the City's Food Help NYC map. It gives out food on Tuesday and Thursday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Abre los martes de 9am a 11am (despensa).",
+      "También abre los jueves de 9am a 11am (despensa).",
+      "Está en 205 Canal St, Staten Island, NY 10304.",
+      "Puede llamar al (718) 815-0800 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Open Tuesdays 9am-11am (pantry).",
+      "Also open Thursdays 9am-11am (pantry).",
+      "Located at 205 Canal St, Staten Island, NY 10304.",
+      "You can call (718) 815-0800 with questions."
+    ],
+    "visit_tips_es": [
+      "Las horas de despensa son martes y jueves, 9am-11am.",
+      "Llame antes de ir para confirmar los detalles.",
+      "La lista no dice qué alimentos se entregan ni qué requisitos hay; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday and Thursday, 9am-11am.",
+      "Call ahead to confirm details before visiting.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni con qué frecuencia puede visitar."
+      },
+      {
+        "q": "¿Cuándo puede ir?",
+        "a": "Los martes y jueves de 9am a 11am, hora de despensa."
+      },
+      {
+        "q": "¿Cómo puede comunicarse?",
+        "a": "Puede llamar al (718) 815-0800. No hay sitio web ni correo en la lista."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. It does not say what food is given or how often you can visit."
+      },
+      {
+        "q": "When can you go?",
+        "a": "Tuesdays and Thursdays, 9am-11am, pantry hours."
+      },
+      {
+        "q": "How can you contact them?",
+        "a": "You can call (718) 815-0800. No website or email is listed."
+      }
+    ]
+  }
+}

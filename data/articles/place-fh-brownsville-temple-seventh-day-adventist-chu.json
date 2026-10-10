@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-brownsville-temple-seventh-day-adventist-chu",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:27.129Z",
+  "facts_hash": "0e23554eec89a02c",
+  "article": {
+    "title_es": "Brownsville Temple Seventh Day Adventist Church: despensa en Brooklyn",
+    "title_en": "Brownsville Temple Seventh Day Adventist Church: food pantry in Brooklyn",
+    "summary_es": "Esta iglesia en Brooklyn aparece en el mapa Food Help NYC como despensa de alimentos. Abre los domingos de 11am a 1pm, pero la despensa solo está abierta el primer y tercer domingo del mes.",
+    "summary_en": "This Brooklyn church is listed on the City's Food Help NYC map as a food pantry. It is open Sundays 11am-1pm, but the pantry is ONLY open the 1st and 3rd Sunday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 1089 Clarkson Ave, Brooklyn, NY 11212.",
+      "Abre los domingos de 11am a 1pm.",
+      "La despensa solo abre el primer y tercer domingo del mes.",
+      "Puede llamar al (929) 944-2520 para preguntar qué alimentos ofrece."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1089 Clarkson Ave, Brooklyn, NY 11212.",
+      "It is open Sundays 11am-1pm.",
+      "The pantry is only open the 1st and 3rd Sunday of the month.",
+      "You can call (929) 944-2520 to ask what food is offered."
+    ],
+    "visit_tips_es": [
+      "Verifique que el domingo que visite sea el primero o el tercero del mes.",
+      "El horario es de 11am a 1pm los domingos.",
+      "Si tiene preguntas, llame al (929) 944-2520 antes de ir."
+    ],
+    "visit_tips_en": [
+      "Check that the Sunday you visit is the 1st or 3rd Sunday of the month.",
+      "Hours are 11am-1pm on Sundays.",
+      "If you have questions, call (929) 944-2520 before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "No se indica en la información disponible. Puede llamar al (929) 944-2520 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los domingos de 11am a 1pm, pero solo el primer y tercer domingo del mes."
+      },
+      {
+        "q": "¿Necesito algún documento para recibir alimentos?",
+        "a": "La información no lo indica. Le recomendamos llamar al (929) 944-2520 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give out?",
+        "a": "This is not listed. You can call (929) 944-2520 to ask."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Sundays 11am-1pm, but only on the 1st and 3rd Sunday of the month."
+      },
+      {
+        "q": "Do I need any documents to get food?",
+        "a": "This is not listed. We suggest calling (929) 944-2520 to ask."
+      }
+    ]
+  }
+}

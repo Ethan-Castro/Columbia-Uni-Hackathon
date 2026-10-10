@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-brigada-de-esperanza-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:02.689Z",
+  "facts_hash": "e9c53bda9d267c18",
+  "article": {
+    "title_es": "Brigada de Esperanza Inc: despensa de alimentos en Queens",
+    "title_en": "Brigada de Esperanza Inc: food pantry in Queens",
+    "summary_es": "Brigada de Esperanza Inc es una despensa de alimentos en Queens que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 12pm a 3pm.",
+    "summary_en": "Brigada de Esperanza Inc is a food pantry in Queens listed on the City's Food Help NYC map. It is open Saturdays from 12pm to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está en 89-07 Astoria Blvd, Queens, NY 11369.",
+      "Abre los sábados de 12pm a 3pm para la despensa.",
+      "Teléfono: (718) 530-8638.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry on the City's Food Help NYC map.",
+      "Located at 89-07 Astoria Blvd, Queens, NY 11369.",
+      "Open Saturdays from 12pm to 3pm for the pantry.",
+      "Phone: (718) 530-8638.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende los sábados de 12pm a 3pm.",
+      "Llame antes al (718) 530-8638 para preguntar qué alimentos entrega y si hay requisitos.",
+      "La dirección es 89-07 Astoria Blvd, Queens, NY 11369."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Saturdays, 12pm to 3pm.",
+      "Call (718) 530-8638 ahead to ask what food is given and if there are requirements.",
+      "The address is 89-07 Astoria Blvd, Queens, NY 11369."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Brigada de Esperanza Inc?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los sábados de 12pm a 3pm (despensa)."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "No se indican requisitos. Llame al (718) 530-8638 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Brigada de Esperanza Inc?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. What food is given is not listed."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 12pm to 3pm (pantry)."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "No requirements are listed. Call (718) 530-8638 to ask before visiting."
+      }
+    ]
+  }
+}

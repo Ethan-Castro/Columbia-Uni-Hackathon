@@ -1,0 +1,62 @@
+{
+  "place_id": "place-payomatic-412-108th-st",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T19:05:43.750Z",
+  "facts_hash": "2124ec0f75ac6d32",
+  "article": {
+    "title_es": "PAY-O-MATIC #412: cobro de cheques en Corona, Queens",
+    "title_en": "PAY-O-MATIC #412: check cashing in Corona, Queens",
+    "summary_es": "PAY-O-MATIC #412 es un negocio autorizado de cobro de cheques en Corona, Queens. No tenemos datos sobre sus tarifas, así que pregunte el precio primero.",
+    "summary_en": "PAY-O-MATIC #412 is a licensed check cashing business in Corona, Queens. We have no data on its fees, so ask the price first.",
+    "how_they_help_es": [
+      "Es un negocio autorizado de cobro de cheques.",
+      "Está ubicado en 5305 108th St, Corona, NY 11368.",
+      "Puede llamar al 718-760-3553 para preguntar.",
+      "No tenemos información sobre tarifas ni otros servicios."
+    ],
+    "how_they_help_en": [
+      "It is a licensed check cashing business.",
+      "It is located at 5305 108th St, Corona, NY 11368.",
+      "You can call 718-760-3553 with questions.",
+      "We have no information on fees or other services."
+    ],
+    "visit_tips_es": [
+      "Pregunte el precio antes de usar cualquier servicio.",
+      "Los horarios no están publicados; llame al 718-760-3553 para confirmarlos.",
+      "Esta información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Ask the price before using any service.",
+      "Hours are not listed; call 718-760-3553 to confirm them.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es PAY-O-MATIC #412?",
+        "a": "Es un negocio autorizado de cobro de cheques en Corona, Queens."
+      },
+      {
+        "q": "¿Cuánto cobra por cobrar un cheque?",
+        "a": "No tenemos datos sobre sus tarifas. Pregunte el precio primero, antes de usar el servicio."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Los horarios no están publicados. Puede llamar al 718-760-3553 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is PAY-O-MATIC #412?",
+        "a": "It is a licensed check cashing business in Corona, Queens."
+      },
+      {
+        "q": "How much does it charge to cash a check?",
+        "a": "We have no data on its fees. Ask the price first, before using the service."
+      },
+      {
+        "q": "What are its hours?",
+        "a": "Hours are not listed. You can call 718-760-3553 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-trinitys-services-and-food-for-the-homeless",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:17.910Z",
+  "facts_hash": "8283f71c6f2b49a9",
+  "article": {
+    "title_es": "Trinity's Services: cocina y despensa de alimentos en Manhattan",
+    "title_en": "Trinity's Services: soup kitchen and food pantry in Manhattan",
+    "summary_es": "Trinity's Services and Food for the Homeless, Inc. ofrece comida en el East Side de Manhattan. Tiene cocina comunitaria y despensa de alimentos entre semana.",
+    "summary_en": "Trinity's Services and Food for the Homeless, Inc. serves food on Manhattan's East Side. It has a soup kitchen and a food pantry on weekdays.",
+    "how_they_help_es": [
+      "Cocina comunitaria de lunes a viernes, de 11 am a 12 pm.",
+      "Despensa de alimentos de lunes a viernes, de 12:30 pm a 1:30 pm.",
+      "Está en 602 E 9th St, Nueva York, NY 10009 (Manhattan).",
+      "Aparece en el mapa oficial Food Help NYC de la ciudad.",
+      "Qué alimentos entrega y si hay requisitos no están indicados; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Soup kitchen Monday to Friday, 11am to 12pm.",
+      "Food pantry Monday to Friday, 12:30pm to 1:30pm.",
+      "Located at 602 E 9th St, New York, NY 10009 (Manhattan).",
+      "Listed on the City's official Food Help NYC map.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La cocina comunitaria y la despensa tienen horarios distintos, así que planifique su visita según lo que necesite.",
+      "Llame al (212) 228-5254 antes de ir para confirmar horarios y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen and the pantry have different hours, so plan your visit based on what you need.",
+      "Call (212) 228-5254 before going to confirm hours and ask what is needed.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo puedo recibir comida?",
+        "a": "La cocina comunitaria sirve de lunes a viernes de 11 am a 12 pm, y la despensa de 12:30 pm a 1:30 pm."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito llevar?",
+        "a": "No está indicado en la información disponible. Llame al (212) 228-5254 para preguntar."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto al lugar?",
+        "a": "Está en 602 E 9th St, Nueva York, NY 10009. Teléfono: (212) 228-5254."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When can I get food?",
+        "a": "The soup kitchen serves Monday to Friday, 11am to 12pm, and the pantry from 12:30pm to 1:30pm."
+      },
+      {
+        "q": "What food do they give and what should I bring?",
+        "a": "That is not listed in the available information. Call (212) 228-5254 to ask."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "It is at 602 E 9th St, New York, NY 10009. Phone: (212) 228-5254."
+      }
+    ]
+  }
+}

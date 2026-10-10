@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-flushing-jewish-community-council-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:26.079Z",
+  "facts_hash": "8f1f332fc54f65a6",
+  "article": {
+    "title_es": "Flushing Jewish Community Council: despensa de alimentos en Queens",
+    "title_en": "Flushing Jewish Community Council: food pantry in Queens",
+    "summary_es": "Esta es una despensa de alimentos en Flushing, Queens, que aparece en el mapa Food Help NYC de la ciudad. Reparte alimentos el tercer martes de cada mes.",
+    "summary_en": "This is a food pantry in Flushing, Queens, listed on the City's Food Help NYC map. It distributes food on the third Tuesday of the month only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 171-39 Northern Blvd, Flushing, NY 11358.",
+      "Abre los martes de 9am a 10:30am, solo el tercer martes del mes.",
+      "Puede llamar al (718) 463-8937 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 171-39 Northern Blvd, Flushing, NY 11358.",
+      "It is open Tuesdays 9am-10:30am, on the third Tuesday of the month only.",
+      "You can call (718) 463-8937 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "La despensa solo abre el tercer martes de cada mes, de 9am a 10:30am.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono.",
+      "Verifique el horario llamando al (718) 463-8937 antes de viajar."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on the third Tuesday of the month, 9am-10:30am.",
+      "The listing does not say what food is given or if there are requirements; ask by phone.",
+      "Confirm the schedule by calling (718) 463-8937 before you go."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos en Flushing, Queens."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes de 9am a 10:30am, pero solo el tercer martes del mes."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme con ellos?",
+        "a": "Puede llamar al (718) 463-8937 para hacer preguntas."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry in Flushing, Queens."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays 9am-10:30am, but only on the third Tuesday of the month."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "You can call (718) 463-8937 with questions."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-imigra-foundation-ltd",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:30.919Z",
+  "facts_hash": "250215bf6b93a64a",
+  "article": {
+    "title_es": "Imigra Foundation LTD: organización en la lista del DOJ en Manhattan",
+    "title_en": "Imigra Foundation LTD: DOJ-listed organization in Manhattan",
+    "summary_es": "Imigra Foundation LTD aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas y representantes acreditados. Está ubicada en el centro de Manhattan.",
+    "summary_en": "Imigra Foundation LTD appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives. It is located in midtown Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados por el DOJ pueden ofrecer ayuda legal en temas de inmigración.",
+      "Está ubicada en 12 East 41st Street, Suite 1401, Nueva York, NY 10017.",
+      "Puede llamar al (646) 590-2476 para preguntar por sus servicios.",
+      "Los honorarios y el proceso para obtener una cita no aparecen en esta información; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) Roster of Recognized Organizations and Accredited Representatives.",
+      "Recognized organizations are non-profits whose DOJ-accredited representatives may give immigration legal help.",
+      "Located at 12 East 41st Street, Suite 1401, New York, NY 10017.",
+      "You can call (646) 590-2476 to ask about their services.",
+      "Fees and how to get an appointment are not listed in this information; ask them directly."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (646) 590-2476 para confirmar cómo recibir ayuda y si hay costos.",
+      "El horario de atención no aparece en esta información; pregunte por teléfono.",
+      "Esta información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call first at (646) 590-2476 to confirm how to get help and whether there are costs.",
+      "Hours of operation are not listed in this information; ask by phone.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Imigra Foundation LTD?",
+        "a": "Es una organización que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados, ubicada en Manhattan."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "Los honorarios no aparecen en esta información. Llame al (646) 590-2476 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no aparece aquí. Llame al (646) 590-2476 para preguntar cómo solicitar ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Imigra Foundation LTD?",
+        "a": "It is an organization listed on the DOJ (EOIR) Roster of Recognized Organizations and Accredited Representatives, located in Manhattan."
+      },
+      {
+        "q": "How much do their services cost?",
+        "a": "Fees are not listed in this information. Call (646) 590-2476 to ask before going."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The process for getting an appointment is not listed here. Call (646) 590-2476 to ask how to request help."
+      }
+    ]
+  }
+}

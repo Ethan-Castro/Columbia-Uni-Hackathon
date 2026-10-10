@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-nazareth-housing-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:34.722Z",
+  "facts_hash": "88092b1a4eabfd5a",
+  "article": {
+    "title_es": "Nazareth Housing: despensa de alimentos en el East Village, Manhattan",
+    "title_en": "Nazareth Housing: food pantry in the East Village, Manhattan",
+    "summary_es": "Nazareth Housing aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos. Está en el East Village de Manhattan y abre los martes por la mañana.",
+    "summary_en": "Nazareth Housing is listed on the City's Food Help NYC map as a food pantry. It is located in the East Village of Manhattan and opens on Tuesday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 206 E 4th St, Nueva York, NY 10009, en Manhattan.",
+      "Atiende los martes de 8:30 am a 10 am, según la información publicada.",
+      "Puede llamar al (212) 777-1010 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry according to the City's Food Help NYC map.",
+      "It is located at 206 E 4th St, New York, NY 10009, in Manhattan.",
+      "It is open Tuesdays from 8:30am to 10am, according to the listing.",
+      "You can call (212) 777-1010 to ask questions before going.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los martes de 8:30 am a 10 am, según la lista.",
+      "Llame al (212) 777-1010 antes de ir para confirmar los detalles.",
+      "La lista no indica qué alimentos da ni qué se necesita; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Tuesdays from 8:30am to 10am, according to the listing.",
+      "Call (212) 777-1010 before going to confirm the details.",
+      "The listing does not say what food is given or what is needed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Nazareth Housing?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los martes de 8:30 am a 10 am, según la información publicada."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "La lista no lo indica. Llame al (212) 777-1010 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Nazareth Housing?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays from 8:30am to 10am, according to the listing."
+      },
+      {
+        "q": "What should I bring, and what food is given?",
+        "a": "The listing does not say. Call (212) 777-1010 to ask before going."
+      }
+    ]
+  }
+}

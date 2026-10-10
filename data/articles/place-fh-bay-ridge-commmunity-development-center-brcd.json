@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bay-ridge-commmunity-development-center-brcd",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:25.828Z",
+  "facts_hash": "cb76c099d7654ef5",
+  "article": {
+    "title_es": "BRCDC: despensa de alimentos en Bay Ridge, Brooklyn",
+    "title_en": "BRCDC: food pantry in Bay Ridge, Brooklyn",
+    "summary_es": "La BAY RIDGE COMMUNITY DEVELOPMENT CENTER (BRCDC) es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. Atiende los sábados de 11 am a 2 pm.",
+    "summary_en": "BAY RIDGE COMMUNITY DEVELOPMENT CENTER (BRCDC) is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Saturdays from 11am to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Reparte alimentos los sábados de 11 am a 2 pm.",
+      "Está ubicada en 9818 Fort Hamilton Parkway, Brooklyn, NY 11209.",
+      "Puede llamar al (347) 560-6700 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Saturdays from 11am to 2pm.",
+      "It is located at 9818 Fort Hamilton Parkway, Brooklyn, NY 11209.",
+      "You can call (347) 560-6700 to ask before visiting.",
+      "The listing does not say what food is given or if there are requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es sábado de 11 am a 2 pm.",
+      "Llame al (347) 560-6700 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturday 11am-2pm.",
+      "Call (347) 560-6700 before going to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 11 am a 2 pm, según la lista."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 9818 Fort Hamilton Parkway, Brooklyn, NY 11209."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está indicado en la lista. Llame al (347) 560-6700 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 11am to 2pm, according to the listing."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 9818 Fort Hamilton Parkway, Brooklyn, NY 11209."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "This is not listed. Call (347) 560-6700 to ask."
+      }
+    ]
+  }
+}

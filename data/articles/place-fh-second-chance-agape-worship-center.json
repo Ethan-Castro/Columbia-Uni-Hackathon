@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-second-chance-agape-worship-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:05.103Z",
+  "facts_hash": "ce7afe0c697d39e0",
+  "article": {
+    "title_es": "Second Chance Agape Worship Center: despensa de alimentos en Queens",
+    "title_en": "Second Chance Agape Worship Center: food pantry in Queens",
+    "summary_es": "Second Chance Agape Worship Center es una despensa de alimentos en Saint Albans, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los jueves de 12pm a 2pm.",
+    "summary_en": "Second Chance Agape Worship Center is a food pantry in Saint Albans, Queens, listed on the City's Food Help NYC map. It is open Thursdays from 12pm to 2pm.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 200-12 Hollis Ave, Saint Albans, Queens, 11412.",
+      "Abre los jueves de 12pm a 2pm para la despensa.",
+      "Puede llamar al (917) 416-3697 para más información.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 200-12 Hollis Ave, Saint Albans, Queens, 11412.",
+      "Open Thursdays from 12pm to 2pm for the pantry.",
+      "You can call (917) 416-3697 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los jueves de 12pm a 2pm.",
+      "Llame al (917) 416-3697 antes de ir para confirmar el horario.",
+      "Pregunte qué alimentos hay disponibles y si necesita llevar algo, ya que la lista no lo indica."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Thursdays, 12pm to 2pm.",
+      "Call (917) 416-3697 before going to confirm the schedule.",
+      "Ask what food is available and if anything is needed, since this is not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Los jueves de 12pm a 2pm."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme con ellos?",
+        "a": "Llame al (917) 416-3697. La lista no incluye sitio web ni correo electrónico."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "La lista no lo indica. Llame con anticipación para preguntar sobre los requisitos."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Thursdays from 12pm to 2pm."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "Call (917) 416-3697. The listing does not include a website or email."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "The listing does not say. Call ahead to ask about requirements."
+      }
+    ]
+  }
+}

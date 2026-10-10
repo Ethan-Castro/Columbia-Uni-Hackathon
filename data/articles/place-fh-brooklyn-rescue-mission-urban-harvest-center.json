@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-brooklyn-rescue-mission-urban-harvest-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:26.075Z",
+  "facts_hash": "ecd016734e957822",
+  "article": {
+    "title_es": "Brooklyn Rescue Mission: despensa de alimentos en Brooklyn",
+    "title_en": "Brooklyn Rescue Mission: food pantry in Brooklyn",
+    "summary_es": "Brooklyn Rescue Mission Urban Harvest Center es una despensa de alimentos en Brooklyn, en el mapa Food Help NYC de la ciudad. Abre martes y miércoles por la mañana.",
+    "summary_en": "Brooklyn Rescue Mission Urban Harvest Center is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Tuesday and Wednesday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 426 Decatur St, Brooklyn, NY 11233.",
+      "Atiende los martes y miércoles de 9:45 am a 10:45 am.",
+      "Puede llamar al (917) 426-3001 para preguntar.",
+      "La lista no dice qué alimentos entrega ni qué requisitos hay."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 426 Decatur St, Brooklyn, NY 11233.",
+      "It is open Tuesdays and Wednesdays, 9:45am to 10:45am.",
+      "You can call (917) 426-3001 with questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre martes y miércoles de 9:45 am a 10:45 am.",
+      "Llame al (917) 426-3001 antes de ir para confirmar los detalles.",
+      "Pregunte por teléfono qué alimentos dan y si necesita algo para recibirlos."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Tuesdays and Wednesdays, 9:45am to 10:45am.",
+      "Call (917) 426-3001 before going to confirm details.",
+      "Ask by phone what food is given and if you need anything to receive it."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo dice. Llame al (917) 426-3001 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "No se menciona ningún requisito en la lista. Es mejor preguntar por teléfono antes de ir."
+      },
+      {
+        "q": "¿Cuándo y dónde atiende?",
+        "a": "En 426 Decatur St, Brooklyn, NY 11233, martes y miércoles de 9:45 am a 10:45 am."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (917) 426-3001 to ask."
+      },
+      {
+        "q": "Do I need documents or meet requirements?",
+        "a": "No requirements are mentioned in the listing. It is best to call before going."
+      },
+      {
+        "q": "When and where is it open?",
+        "a": "At 426 Decatur St, Brooklyn, NY 11233, Tuesdays and Wednesdays from 9:45am to 10:45am."
+      }
+    ]
+  }
+}

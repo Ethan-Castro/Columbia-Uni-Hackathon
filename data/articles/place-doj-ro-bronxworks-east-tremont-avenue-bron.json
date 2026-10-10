@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-bronxworks-east-tremont-avenue-bron",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:37:52.819Z",
+  "facts_hash": "424aabb356b16a3f",
+  "article": {
+    "title_es": "BronxWorks (oficina de East Tremont Avenue): ayuda legal de inmigración en el Bronx",
+    "title_en": "BronxWorks (East Tremont Avenue Office): immigration legal help in the Bronx",
+    "summary_es": "BronxWorks, en su oficina de East Tremont Avenue en el Bronx, aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración.",
+    "summary_en": "BronxWorks, at its East Tremont Avenue office in the Bronx, appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 60 East Tremont Avenue, primer piso, Bronx, NY 10453.",
+      "Se puede llamar al (718) 731-3114 para preguntar por sus servicios.",
+      "La lista no indica los precios ni cómo pedir una cita; conviene preguntar por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the U.S. Department of Justice (EOIR) roster of recognized organizations.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 60 East Tremont Avenue, First Floor, Bronx, NY 10453.",
+      "You can call (718) 731-3114 to ask about its services.",
+      "The listing does not show fees or how to get an appointment; it is best to ask by phone."
+    ],
+    "visit_tips_es": [
+      "La dirección es 60 East Tremont Avenue, primer piso, Bronx, NY 10453.",
+      "Llame al (718) 731-3114 antes de ir para preguntar por los servicios y las citas.",
+      "Los horarios de atención no aparecen en la información disponible; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The address is 60 East Tremont Avenue, First Floor, Bronx, NY 10453.",
+      "Call (718) 731-3114 before going to ask about services and appointments.",
+      "Hours of operation are not listed in the available information; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es una oficina de BronxWorks que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas que pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "La lista no indica los precios ni el proceso para obtener una cita. Llame al (718) 731-3114 para preguntar."
+      },
+      {
+        "q": "¿Dónde está y cuándo atiende?",
+        "a": "Está en 60 East Tremont Avenue, primer piso, Bronx, NY 10453. Los horarios no aparecen en la información disponible; pregunte por teléfono."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is a BronxWorks office that appears on the U.S. Department of Justice (EOIR) roster of recognized organizations that may provide immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "The roster does not list fees or the process for getting an appointment. Call (718) 731-3114 to ask."
+      },
+      {
+        "q": "Where is it and when is it open?",
+        "a": "It is at 60 East Tremont Avenue, First Floor, Bronx, NY 10453. Hours are not listed in the available information; ask by phone."
+      }
+    ]
+  }
+}

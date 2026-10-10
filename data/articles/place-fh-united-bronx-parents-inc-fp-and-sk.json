@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-united-bronx-parents-inc-fp-and-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:26.951Z",
+  "facts_hash": "fb24459ede372255",
+  "article": {
+    "title_es": "United Bronx Parents: despensa y comedor en el Bronx",
+    "title_en": "United Bronx Parents: food pantry and soup kitchen in the Bronx",
+    "summary_es": "United Bronx Parents, Inc. aparece en el mapa Food Help NYC como despensa de alimentos y comedor social en el Bronx, en la avenida Prospect.",
+    "summary_en": "United Bronx Parents, Inc. appears on the Food Help NYC map as a food pantry and soup kitchen in the Bronx, on Prospect Avenue.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos y comedor social.",
+      "El comedor social está abierto de lunes a viernes, de 2:30 pm a 4 pm.",
+      "La despensa de alimentos está abierta de miércoles a viernes, de 10 am a 12 pm.",
+      "Está ubicada en 603 Prospect Ave, Bronx, NY 10455.",
+      "Se puede llamar al (718) 991-7100 para preguntar por los servicios."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry and soup kitchen.",
+      "The soup kitchen is open Monday to Friday, 2:30pm to 4pm.",
+      "The food pantry is open Wednesday to Friday, 10am to 12pm.",
+      "Located at 603 Prospect Ave, Bronx, NY 10455.",
+      "You can call (718) 991-7100 to ask about services."
+    ],
+    "visit_tips_es": [
+      "El comedor social y la despensa tienen horarios distintos, así que planifique su visita según lo que necesite.",
+      "Llame al (718) 991-7100 antes de ir para confirmar los horarios y preguntar por los servicios.",
+      "La ficha no indica qué alimentos se entregan ni si hay requisitos, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen and the pantry have different hours, so plan your visit based on what you need.",
+      "Call (718) 991-7100 before going to confirm the hours and ask about services.",
+      "The listing does not say what food is given or if there are any requirements, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos y también un comedor social."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "Comedor social: lunes a viernes, 2:30 pm a 4 pm. Despensa: miércoles a viernes, 10 am a 12 pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La ficha no lo indica. Llame al (718) 991-7100 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry and also a soup kitchen."
+      },
+      {
+        "q": "When can I go?",
+        "a": "Soup kitchen: Monday to Friday, 2:30pm to 4pm. Pantry: Wednesday to Friday, 10am to 12pm."
+      },
+      {
+        "q": "What food does the pantry give?",
+        "a": "The listing does not say. Call (718) 991-7100 to ask before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-rewrite-corporation",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:28.814Z",
+  "facts_hash": "b2b6670f53896a76",
+  "article": {
+    "title_es": "Rewrite Corporation: despensa de alimentos en Brooklyn",
+    "title_en": "Rewrite Corporation: food pantry in Brooklyn",
+    "summary_es": "Rewrite Corporation es una despensa de alimentos en Brooklyn, aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 11am a 2pm.",
+    "summary_en": "Rewrite Corporation is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Saturdays from 11am to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 425 Howard Ave, Brooklyn, NY 11233.",
+      "Abre los sábados de 11am a 2pm.",
+      "La despensa funciona el primer y tercer sábado del mes."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 425 Howard Ave, Brooklyn, NY 11233.",
+      "It is open Saturdays from 11am to 2pm.",
+      "The pantry runs on the 1st and 3rd Saturday of the month."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado entre 11am y 2pm; recuerde que la despensa es solo el primer y tercer sábado.",
+      "No se indica qué alimentos entrega ni si pide algún requisito; pregunte al llegar.",
+      "Verifique el horario antes de ir, ya que la información fue revisada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday between 11am and 2pm; remember the pantry runs only on the 1st and 3rd Saturday.",
+      "The listing does not say what food is given or if there are any requirements; ask when you arrive.",
+      "Check ahead before visiting, since the information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Rewrite Corporation?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 11am a 2pm. La despensa funciona el primer y tercer sábado del mes."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "La información no lo indica. Pregunte al llegar qué alimentos entrega y si pide algún requisito."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Rewrite Corporation?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 11am to 2pm. The pantry runs on the 1st and 3rd Saturday of the month."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "The listing does not say. Ask when you arrive what food is given and if there are any requirements."
+      }
+    ]
+  }
+}

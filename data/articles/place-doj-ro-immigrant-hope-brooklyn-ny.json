@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-immigrant-hope-brooklyn-ny",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:10.528Z",
+  "facts_hash": "fd40e140e1cc7219",
+  "article": {
+    "title_es": "Immigrant Hope: organización en la lista del DOJ en Brooklyn",
+    "title_en": "Immigrant Hope: DOJ-listed organization in Brooklyn",
+    "summary_es": "Immigrant Hope es una organización sin fines de lucro en Brooklyn que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas con representantes acreditados.",
+    "summary_en": "Immigrant Hope is a nonprofit in Brooklyn that appears on the U.S. Department of Justice (EOIR) list of recognized organizations with accredited representatives.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 6501 6th Avenue, Brooklyn, NY 11220.",
+      "Puede llamar al (718) 745-7702 para preguntar por sus servicios.",
+      "Los precios y el proceso de cita no aparecen en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations.",
+      "Its DOJ-accredited representatives may give immigration legal help.",
+      "Located at 6501 6th Avenue, Brooklyn, NY 11220.",
+      "You can call (718) 745-7702 to ask about its services.",
+      "Fees and the intake process are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (718) 745-7702 para confirmar cómo recibir ayuda.",
+      "Pregunte por teléfono si hay algún costo por los servicios.",
+      "Los horarios no aparecen en la información disponible; confírmelos al llamar."
+    ],
+    "visit_tips_en": [
+      "Call (718) 745-7702 first to confirm how to get help.",
+      "Ask by phone whether there is any cost for services.",
+      "Hours are not listed in the available information; confirm when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Immigrant Hope?",
+        "a": "Es una organización sin fines de lucro en Brooklyn que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 6501 6th Avenue, Brooklyn, NY 11220."
+      },
+      {
+        "q": "¿Cómo pido una cita?",
+        "a": "El proceso de citas no aparece en la lista. Llame al (718) 745-7702 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Immigrant Hope?",
+        "a": "It is a nonprofit in Brooklyn that appears on the DOJ (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 6501 6th Avenue, Brooklyn, NY 11220."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The intake process is not listed. Call (718) 745-7702 to ask."
+      }
+    ]
+  }
+}

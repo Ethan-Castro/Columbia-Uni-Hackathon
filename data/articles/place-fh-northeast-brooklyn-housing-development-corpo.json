@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-northeast-brooklyn-housing-development-corpo",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:18.613Z",
+  "facts_hash": "2a6f2d6ee0696615",
+  "article": {
+    "title_es": "Northeast Brooklyn Housing Development Corp: despensa en Brooklyn",
+    "title_en": "Northeast Brooklyn Housing Development Corp: food pantry in Brooklyn",
+    "summary_es": "Esta organización aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, en la calle Throop Ave. Abre martes, jueves y sábado.",
+    "summary_en": "This organization is listed on the City's Food Help NYC map as a food pantry in Brooklyn, on Throop Ave. It is open Tuesday, Thursday and Saturday.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 376 Throop Ave, Brooklyn, NY 11221.",
+      "Atiende martes y jueves de 9am a 12pm, y sábado de 10am a 12pm.",
+      "Puede llamar al (718) 453-9490 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry according to the City's Food Help NYC map.",
+      "It is located at 376 Throop Ave, Brooklyn, NY 11221.",
+      "It is open Tuesday and Thursday 9am-12pm, and Saturday 10am-12pm.",
+      "You can call (718) 453-9490 to ask before visiting."
+    ],
+    "visit_tips_es": [
+      "Los horarios de despensa son: martes 9am-12pm, jueves 9am-12pm y sábado 10am-12pm.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito; pregunte por teléfono.",
+      "Abre los fines de semana, el sábado."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are: Tuesday 9am-12pm, Thursday 9am-12pm, and Saturday 10am-12pm.",
+      "The listing does not say what food is given or if there are any requirements; ask by phone.",
+      "It is open on weekends, on Saturday."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad, en 376 Throop Ave, Brooklyn."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Martes y jueves de 9am a 12pm, y sábado de 10am a 12pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado en la lista. Llame al (718) 453-9490 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map, at 376 Throop Ave, Brooklyn."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday and Thursday 9am-12pm, and Saturday 10am-12pm."
+      },
+      {
+        "q": "What should I bring, and what food is given?",
+        "a": "That is not listed. Call (718) 453-9490 to ask before going."
+      }
+    ]
+  }
+}

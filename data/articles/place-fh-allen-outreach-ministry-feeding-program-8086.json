@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-allen-outreach-ministry-feeding-program-8086",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:49.152Z",
+  "facts_hash": "2f90bca8dbb1e7fb",
+  "article": {
+    "title_es": "Allen Outreach Ministry: despensa de alimentos en Jamaica, Queens",
+    "title_en": "Allen Outreach Ministry: food pantry in Jamaica, Queens",
+    "summary_es": "Allen Outreach Ministry Feeding Program es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Allen Outreach Ministry Feeding Program is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Ofrece despensa de alimentos los lunes de 3pm a 5pm.",
+      "También ofrece despensa los jueves de 11am a 1pm.",
+      "Está ubicada en 110-31 Merrick Blvd, Jamaica, NY 11433.",
+      "Puede llamar al (718) 526-3510 para preguntar por los alimentos que entregan.",
+      "La lista no indica requisitos, así que conviene preguntar por teléfono."
+    ],
+    "how_they_help_en": [
+      "Offers a food pantry on Mondays from 3pm to 5pm.",
+      "Also offers a pantry on Thursdays from 11am to 1pm.",
+      "Located at 110-31 Merrick Blvd, Jamaica, NY 11433.",
+      "You can call (718) 526-3510 to ask what food is provided.",
+      "The listing does not state requirements, so it is best to ask by phone."
+    ],
+    "visit_tips_es": [
+      "Horario de despensa: lunes de 3pm a 5pm y jueves de 11am a 1pm.",
+      "Llame antes de ir al (718) 526-3510 para confirmar el horario.",
+      "La lista no indica qué alimentos entrega ni qué se necesita; pregunte al llamar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Mondays 3pm-5pm and Thursdays 11am-1pm.",
+      "Call ahead at (718) 526-3510 to confirm the schedule.",
+      "The listing does not say what food is given or what is needed; ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 110-31 Merrick Blvd, Jamaica, Nueva York, 11433, en Queens."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Lunes de 3pm a 5pm y jueves de 11am a 1pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué requisitos hay?",
+        "a": "No aparece en la lista. Llame al (718) 526-3510 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 110-31 Merrick Blvd, Jamaica, New York, 11433, in Queens."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Mondays 3pm-5pm and Thursdays 11am-1pm."
+      },
+      {
+        "q": "What food is given, and are there requirements?",
+        "a": "Not listed. Call (718) 526-3510 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-pauls-lutheran-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:46.226Z",
+  "facts_hash": "3be51833f3507e64",
+  "article": {
+    "title_es": "St. Paul's Lutheran Church: despensa de alimentos en el Bronx",
+    "title_en": "St. Paul's Lutheran Church: food pantry in the Bronx",
+    "summary_es": "St. Paul's Lutheran Church aparece en el mapa Food Help NYC como despensa de alimentos en el Bronx, en la avenida McGraw. Abre los viernes de 8 am a 10 am.",
+    "summary_en": "St. Paul's Lutheran Church appears on the Food Help NYC map as a food pantry in the Bronx, on McGraw Avenue. It is open Fridays from 8am to 10am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Atiende los viernes de 8 am a 10 am.",
+      "Está ubicada en 1891 Mcgraw Ave, Bronx, NY 10462.",
+      "Puede llamar al (718) 822-4535 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is open Fridays from 8am to 10am.",
+      "It is located at 1891 Mcgraw Ave, Bronx, NY 10462.",
+      "You can call (718) 822-4535 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los viernes de 8 am a 10 am, así que planifique su visita con tiempo.",
+      "Llame al (718) 822-4535 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; confirme los detalles actuales por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are only Fridays from 8am to 10am, so plan your visit ahead of time.",
+      "Call (718) 822-4535 before going to confirm the hours and ask what you need.",
+      "The information was last checked on October 10, 2026; confirm current details by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos. La lista no detalla qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "Los viernes de 8 am a 10 am, según el horario de la despensa."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos. Llame al (718) 822-4535 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does this place offer?",
+        "a": "It appears on the Food Help NYC map as a food pantry. The listing does not say what food is given."
+      },
+      {
+        "q": "When can I go?",
+        "a": "Fridays from 8am to 10am, according to the pantry hours."
+      },
+      {
+        "q": "Do I need any documents or requirements?",
+        "a": "The listing does not mention any requirements. Call (718) 822-4535 to ask before going."
+      }
+    ]
+  }
+}

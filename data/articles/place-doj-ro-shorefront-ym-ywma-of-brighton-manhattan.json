@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-shorefront-ym-ywma-of-brighton-manhattan",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:12.158Z",
+  "facts_hash": "1daca1ec7ca015fd",
+  "article": {
+    "title_es": "Shorefront YM-YWMA: organización en la lista del DOJ en Brooklyn",
+    "title_en": "Shorefront YM-YWMA: DOJ-listed organization in Brooklyn",
+    "summary_es": "Shorefront YM-YWMA of Brighton Manhattan Beach aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en Brooklyn y puede ofrecer ayuda legal de inmigración a través de representantes acreditados.",
+    "summary_en": "Shorefront YM-YWMA of Brighton Manhattan Beach appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in Brooklyn and may offer immigration legal help through accredited representatives.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 3300 Coney Island Avenue, Brooklyn, NY 11235.",
+      "Teléfono: (347) 689-1880.",
+      "Los servicios, horarios y costos no aparecen en la información disponible."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its accredited representatives may provide immigration legal help.",
+      "Located at 3300 Coney Island Avenue, Brooklyn, NY 11235.",
+      "Phone: (347) 689-1880.",
+      "Services, hours, and fees are not listed in the available information."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (347) 689-1880 para preguntar por los servicios y cómo agendar una cita.",
+      "Pregunte sobre los costos, ya que no aparecen en la información disponible.",
+      "La dirección es 3300 Coney Island Avenue, Brooklyn, NY 11235."
+    ],
+    "visit_tips_en": [
+      "Call first at (347) 689-1880 to ask about services and how to make an appointment.",
+      "Ask about fees, since they are not listed in the available information.",
+      "The address is 3300 Coney Island Avenue, Brooklyn, NY 11235."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los costos no aparecen en la información disponible. Llame al (347) 689-1880 para preguntar."
+      },
+      {
+        "q": "¿Cómo agendo una cita?",
+        "a": "El proceso para agendar no aparece en la información disponible. Llame al (347) 689-1880 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit that appears on the DOJ (EOIR) roster of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (347) 689-1880 to ask."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The intake process is not listed in the available information. Call (347) 689-1880 to ask."
+      }
+    ]
+  }
+}

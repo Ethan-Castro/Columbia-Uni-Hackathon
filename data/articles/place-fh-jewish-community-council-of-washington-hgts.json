@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-jewish-community-council-of-washington-hgts",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:45.235Z",
+  "facts_hash": "52877249a8e00244",
+  "article": {
+    "title_es": "Jewish Community Council of Washington Heights: despensa de alimentos en Manhattan",
+    "title_en": "Jewish Community Council of Washington Heights: food pantry in Manhattan",
+    "summary_es": "El Jewish Community Council of Washington Heights aparece en el mapa Food Help NYC como despensa de alimentos en el barrio de Washington Heights, en Manhattan.",
+    "summary_en": "The Jewish Community Council of Washington Heights appears on the Food Help NYC map as a food pantry in the Washington Heights area of Manhattan.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 121 Bennett Ave, Nueva York, NY 10033.",
+      "Abre los miércoles de 10am a 1pm.",
+      "La despensa funciona el primer, segundo y tercer miércoles del mes.",
+      "Puede llamar al (212) 568-5450 para preguntar por los alimentos que entregan."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 121 Bennett Ave, New York, NY 10033.",
+      "It is open Wednesdays from 10am to 1pm.",
+      "The pantry runs on the 1st, 2nd, and 3rd Wednesday of the month.",
+      "You can call (212) 568-5450 to ask about the food they give out."
+    ],
+    "visit_tips_es": [
+      "Planifique su visita para un miércoles entre 10am y 1pm, en el primer, segundo o tercer miércoles del mes.",
+      "Llame antes al (212) 568-5450 para confirmar que la despensa está abierta.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Plan your visit for a Wednesday between 10am and 1pm, on the 1st, 2nd, or 3rd Wednesday of the month.",
+      "Call ahead at (212) 568-5450 to confirm the pantry is open.",
+      "The listing does not say what food is given or if there are any requirements, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada la despensa?",
+        "a": "En 121 Bennett Ave, Nueva York, NY 10033, en Manhattan."
+      },
+      {
+        "q": "¿Qué días y horarios atiende?",
+        "a": "Miércoles de 10am a 1pm, el primer, segundo y tercer miércoles del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "La lista no lo indica. Llame al (212) 568-5450 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 121 Bennett Ave, New York, NY 10033, in Manhattan."
+      },
+      {
+        "q": "What days and hours is it open?",
+        "a": "Wednesdays from 10am to 1pm, on the 1st, 2nd, and 3rd Wednesday of the month."
+      },
+      {
+        "q": "What food does it give out?",
+        "a": "The listing does not say. Call (212) 568-5450 to ask."
+      }
+    ]
+  }
+}

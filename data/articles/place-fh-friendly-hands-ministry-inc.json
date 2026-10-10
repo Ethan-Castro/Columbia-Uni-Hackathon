@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-friendly-hands-ministry-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:52.510Z",
+  "facts_hash": "3829998feaa6df53",
+  "article": {
+    "title_es": "Friendly Hands Ministry: despensa de alimentos en Harlem, Manhattan",
+    "title_en": "Friendly Hands Ministry: food pantry in Harlem, Manhattan",
+    "summary_es": "Friendly Hands Ministry Inc es una despensa de alimentos en el 115 E 125th St, Manhattan, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Friendly Hands Ministry Inc is a food pantry at 115 E 125th St, Manhattan, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Abre para la despensa los miércoles y jueves de 10am a 12pm.",
+      "Está ubicada en 115 E 125th St, Nueva York, NY 10035.",
+      "Puede llamar al (646) 370-3978 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Pantry hours are Wednesday and Thursday, 10am to 12pm.",
+      "It is located at 115 E 125th St, New York, NY 10035.",
+      "You can call (646) 370-3978 to ask questions before going.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende los miércoles y jueves de 10am a 12pm.",
+      "Llame al (646) 370-3978 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesday and Thursday, 10am to 12pm.",
+      "Call (646) 370-3978 before going to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Friendly Hands Ministry?",
+        "a": "Es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué requisitos hay?",
+        "a": "No está indicado en la lista. Llame al (646) 370-3978 para preguntar."
+      },
+      {
+        "q": "¿Cuándo y dónde atiende?",
+        "a": "En 115 E 125th St, Nueva York, NY 10035, los miércoles y jueves de 10am a 12pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Friendly Hands Ministry?",
+        "a": "It is a food pantry in Manhattan listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "What food does it give and are there requirements?",
+        "a": "That is not listed. Call (646) 370-3978 to ask."
+      },
+      {
+        "q": "When and where is it open?",
+        "a": "At 115 E 125th St, New York, NY 10035, Wednesday and Thursday, 10am to 12pm."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-la-victoria-foundation",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:49.701Z",
+  "facts_hash": "4905ce937d2aaf28",
+  "article": {
+    "title_es": "La Victoria Foundation: ayuda legal de inmigración en Queens",
+    "title_en": "La Victoria Foundation: immigration legal help in Queens",
+    "summary_es": "La Victoria Foundation es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR). Está en Jackson Heights, Queens.",
+    "summary_en": "La Victoria Foundation is a non-profit organization listed on the U.S. Department of Justice (EOIR) roster. It is located in Jackson Heights, Queens.",
+    "how_they_help_es": [
+      "Aparece en la lista de organizaciones reconocidas del DOJ (EOIR).",
+      "Sus representantes acreditados pueden ofrecer ayuda legal de inmigración.",
+      "Está ubicada en 3753 90th Street, Suite 13B, Jackson Heights, NY 11372.",
+      "Teléfono: (347) 985-4079.",
+      "Los servicios, tarifas y cómo pedir una cita no están en la información; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its accredited representatives may provide immigration legal help.",
+      "Located at 3753 90th Street, Suite 13B, Jackson Heights, NY 11372.",
+      "Phone: (347) 985-4079.",
+      "Services, fees, and how to get an appointment are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame al (347) 985-4079 antes de ir para preguntar por los servicios y las citas.",
+      "El horario no está incluido en la información disponible.",
+      "Pregunte si hay tarifas y cuánto cuestan los servicios."
+    ],
+    "visit_tips_en": [
+      "Call (347) 985-4079 before visiting to ask about services and appointments.",
+      "Hours are not included in the available information.",
+      "Ask whether there are fees and how much services cost."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es La Victoria Foundation?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Dónde está y cómo la contacto?",
+        "a": "Está en 3753 90th Street, Suite 13B, Jackson Heights, NY 11372. Teléfono: (347) 985-4079."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están en la información disponible. Llame al (347) 985-4079 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is La Victoria Foundation?",
+        "a": "It is a non-profit organization listed on the DOJ (EOIR) roster of recognized organizations."
+      },
+      {
+        "q": "Where is it and how do I contact it?",
+        "a": "It is at 3753 90th Street, Suite 13B, Jackson Heights, NY 11372. Phone: (347) 985-4079."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (347) 985-4079 to ask."
+      }
+    ]
+  }
+}

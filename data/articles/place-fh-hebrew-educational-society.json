@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-hebrew-educational-society",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:26.472Z",
+  "facts_hash": "d3e531990c702e7f",
+  "article": {
+    "title_es": "Hebrew Educational Society: despensa de alimentos en Brooklyn",
+    "title_en": "Hebrew Educational Society: food pantry in Brooklyn",
+    "summary_es": "Hebrew Educational Society es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Hebrew Educational Society is a food pantry in Brooklyn listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 9502 Seaview Ave, Brooklyn, NY 11236.",
+      "Abre como despensa lunes de 9am a 2pm y martes de 1pm a 6pm.",
+      "También abre miércoles y jueves de 9am a 2pm.",
+      "Se puede llamar al (718) 241-3000 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the Food Help NYC map.",
+      "Located at 9502 Seaview Ave, Brooklyn, NY 11236.",
+      "Open as a pantry Mondays 9am-2pm and Tuesdays 1pm-6pm.",
+      "Also open Wednesdays and Thursdays 9am-2pm.",
+      "You can call (718) 241-3000 with questions."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 241-3000 antes de ir para confirmar los horarios.",
+      "Los horarios de la despensa cambian según el día: lunes 9am-2pm, martes 1pm-6pm, miércoles y jueves 9am-2pm.",
+      "La información fue verificada el 10 de octubre de 2026; confirme los detalles por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call (718) 241-3000 before going to confirm the schedule.",
+      "Pantry hours change by day: Mon 9am-2pm, Tue 1pm-6pm, Wed-Thu 9am-2pm.",
+      "This information was last checked on October 10, 2026; confirm details by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La información no lo indica. Llame al (718) 241-3000 para preguntar qué alimentos ofrece y si hay algún requisito."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Lunes 9am-2pm, martes 1pm-6pm, y miércoles y jueves 9am-2pm."
+      },
+      {
+        "q": "¿Necesito hacer una cita o traer documentos?",
+        "a": "La información no lo indica. Se recomienda llamar al (718) 241-3000 antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give out?",
+        "a": "That is not listed. Call (718) 241-3000 to ask what food is offered and if there are any requirements."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Mon 9am-2pm, Tue 1pm-6pm, and Wed-Thu 9am-2pm."
+      },
+      {
+        "q": "Do I need an appointment or documents?",
+        "a": "That is not listed. It is best to call (718) 241-3000 before going."
+      }
+    ]
+  }
+}

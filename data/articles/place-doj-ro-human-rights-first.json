@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-human-rights-first",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:29.422Z",
+  "facts_hash": "f830c9dfb83aba5e",
+  "article": {
+    "title_es": "Human Rights First: organización en la lista del DOJ en Manhattan",
+    "title_en": "Human Rights First: DOJ-listed organization in Manhattan",
+    "summary_es": "Human Rights First es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en el Bajo Manhattan, en 75 Broad Street.",
+    "summary_en": "Human Rights First is a non-profit listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations. It is located in Lower Manhattan, at 75 Broad Street.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son sin fines de lucro cuyos representantes acreditados pueden dar ayuda legal de inmigración.",
+      "Dirección: 75 Broad Street, piso 31, New York, NY 10004 (Manhattan).",
+      "Teléfono: (212) 845-5200.",
+      "No se indican los servicios exactos, los horarios ni cómo pedir una cita; llame para preguntar."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations and accredited representatives.",
+      "Recognized organizations are non-profits whose accredited representatives may give immigration legal help.",
+      "Address: 75 Broad Street, 31st Floor, New York, NY 10004 (Manhattan).",
+      "Phone: (212) 845-5200.",
+      "Exact services, hours, and how to get an appointment are not listed; call to ask."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (212) 845-5200 para preguntar por sus servicios y si necesita cita.",
+      "La oficina está en el piso 31 de 75 Broad Street, en Manhattan.",
+      "No se indican los horarios ni los documentos necesarios; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call first at (212) 845-5200 to ask about services and whether an appointment is needed.",
+      "The office is on the 31st floor of 75 Broad Street, in Manhattan.",
+      "Hours and required documents are not listed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Human Rights First?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "La lista no indica si hay costos. Llame al (212) 845-5200 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para pedir cita no está indicado. Llame al (212) 845-5200 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Human Rights First?",
+        "a": "It is a non-profit listed on the DOJ (EOIR) Roster of Recognized Organizations."
+      },
+      {
+        "q": "How much do its services cost?",
+        "a": "The listing does not say whether there are fees. Call (212) 845-5200 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. Call (212) 845-5200 to ask."
+      }
+    ]
+  }
+}

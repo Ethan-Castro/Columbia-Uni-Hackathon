@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-food-and-nutrition-services-program",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:14.323Z",
+  "facts_hash": "268f20d296feebd8",
+  "article": {
+    "title_es": "Food and Nutrition Services Program: despensa de alimentos en el Bronx",
+    "title_en": "Food and Nutrition Services Program: food pantry in the Bronx",
+    "summary_es": "Food and Nutrition Services Program es una despensa de alimentos en el Bronx, listada en el mapa Food Help NYC de la ciudad. Abre los miércoles de 10am a 4pm.",
+    "summary_en": "Food and Nutrition Services Program is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Wednesdays from 10am to 4pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1802 Crotona Ave, Bronx, NY, 10457.",
+      "Atiende los miércoles de 10am a 4pm (despensa).",
+      "Puede llamar al (347) 974-7397 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1802 Crotona Ave, Bronx, NY, 10457.",
+      "It is open Wednesdays from 10am to 4pm (pantry).",
+      "You can call (347) 974-7397 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es el miércoles de 10am a 4pm.",
+      "Llame al (347) 974-7397 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesday from 10am to 4pm.",
+      "Call (347) 974-7397 before going to confirm the hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en el Bronx, listada en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo atiende?",
+        "a": "Los miércoles de 10am a 4pm, según el horario de despensa que aparece en la lista."
+      },
+      {
+        "q": "¿Qué alimentos da y qué necesito para recibirlos?",
+        "a": "No está indicado en la lista. Llame al (347) 974-7397 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in the Bronx, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays from 10am to 4pm, according to the pantry hours in the listing."
+      },
+      {
+        "q": "What food does it give and what do I need to receive it?",
+        "a": "That is not listed. Call (347) 974-7397 to ask before you go."
+      }
+    ]
+  }
+}

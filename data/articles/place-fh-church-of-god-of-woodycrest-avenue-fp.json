@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-church-of-god-of-woodycrest-avenue-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:17.518Z",
+  "facts_hash": "6d1973677612d982",
+  "article": {
+    "title_es": "Church of God of Woodycrest Ave: despensa de alimentos en el Bronx",
+    "title_en": "Church of God of Woodycrest Ave: food pantry in the Bronx",
+    "summary_es": "Esta iglesia en el Bronx aparece en el mapa Food Help NYC como despensa de alimentos. Atiende los sábados de 10 am a 1 pm, el segundo y cuarto sábado del mes.",
+    "summary_en": "This Bronx church is listed on the City's Food Help NYC map as a food pantry. It is open Saturdays 10am-1pm, on the 2nd and 4th Saturday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 923 Woodycrest Ave, Bronx, NY 10452.",
+      "Abre los sábados de 10 am a 1 pm, el segundo y cuarto sábado del mes.",
+      "Puede llamar al (718) 992-4087 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 923 Woodycrest Ave, Bronx, NY 10452.",
+      "It is open Saturdays 10am-1pm, on the 2nd and 4th Saturday of the month.",
+      "You can call (718) 992-4087 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado: solo el segundo y cuarto sábado del mes, de 10 am a 1 pm.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito; pregunte por teléfono.",
+      "Guarde el número (718) 992-4087 para confirmar antes de viajar."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday: only the 2nd and 4th Saturday of the month, 10am-1pm.",
+      "The listing does not say what food is given or if there are any requirements; ask by phone.",
+      "Keep the number (718) 992-4087 handy to confirm before you travel."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué días atiende la despensa?",
+        "a": "Los sábados de 10 am a 1 pm, solo el segundo y cuarto sábado de cada mes."
+      },
+      {
+        "q": "¿Necesito hacer una cita o traer documentos?",
+        "a": "La lista no lo indica. Llame al (718) 992-4087 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No está en la lista. Es mejor llamar para saber qué ofrece."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays 10am-1pm, only on the 2nd and 4th Saturday of each month."
+      },
+      {
+        "q": "Do I need an appointment or documents?",
+        "a": "The listing does not say. Call (718) 992-4087 to ask before going."
+      },
+      {
+        "q": "What food does it give out?",
+        "a": "That is not listed. It is best to call to find out what it offers."
+      }
+    ]
+  }
+}

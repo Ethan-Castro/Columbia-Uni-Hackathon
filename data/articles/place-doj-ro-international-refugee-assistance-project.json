@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-ro-international-refugee-assistance-project",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:35.514Z",
+  "facts_hash": "e5ffbbd9cb9a16d2",
+  "article": {
+    "title_es": "IRAP: organización en la lista del DOJ en Manhattan",
+    "title_en": "IRAP: DOJ-listed organization in Manhattan",
+    "summary_es": "IRAP es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en el bajo Manhattan y puede ofrecer ayuda legal de inmigración a través de representantes acreditados por el DOJ.",
+    "summary_en": "IRAP is a nonprofit that appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in lower Manhattan and may offer immigration legal help through DOJ-accredited representatives.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son sin fines de lucro cuyos representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en One Battery Park Plaza, piso 33, Nueva York, NY 10004 (Manhattan).",
+      "Los servicios, tarifas y el proceso para obtener una cita no aparecen en esta información; pregunte directamente llamando al (516) 238-5195."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations and accredited representatives.",
+      "Recognized organizations are nonprofits whose DOJ-accredited representatives may give immigration legal help.",
+      "Located at One Battery Park Plaza, 33rd Floor, New York, NY 10004 (Manhattan).",
+      "Services, fees, and how to get an appointment are not listed; ask directly by calling (516) 238-5195."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (516) 238-5195 para preguntar por los servicios, las tarifas y cómo pedir una cita.",
+      "La dirección es One Battery Park Plaza, piso 33, Nueva York, NY 10004.",
+      "Esta página no incluye horarios de atención; confírmelos por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call first at (516) 238-5195 to ask about services, fees, and how to request an appointment.",
+      "The address is One Battery Park Plaza, 33rd Floor, New York, NY 10004.",
+      "Hours of operation are not included here; confirm them by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es IRAP?",
+        "a": "Es una organización que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto a IRAP?",
+        "a": "Está en One Battery Park Plaza, piso 33, Nueva York, NY 10004. Teléfono: (516) 238-5195."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en esta información. Llame al (516) 238-5195 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is IRAP?",
+        "a": "It is an organization listed on the U.S. Department of Justice (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "Where is IRAP and how do I contact it?",
+        "a": "It is at One Battery Park Plaza, 33rd Floor, New York, NY 10004. Phone: (516) 238-5195."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in this information. Call (516) 238-5195 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-city-of-grace-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:59.638Z",
+  "facts_hash": "54718fd29c7db6c9",
+  "article": {
+    "title_es": "The City of Grace Inc: despensa de alimentos en Brooklyn",
+    "title_en": "The City of Grace Inc: food pantry in Brooklyn",
+    "summary_es": "The City of Grace Inc es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Atiende los martes de 11am a 1pm.",
+    "summary_en": "The City of Grace Inc is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Tuesdays from 11am to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Ofrece servicio de despensa los martes de 11am a 1pm.",
+      "Está ubicada en 3402 Tilden Ave, Brooklyn, NY 11203.",
+      "Se puede llamar al (718) 693-7074 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Pantry service is offered Tuesdays from 11am to 1pm.",
+      "Located at 3402 Tilden Ave, Brooklyn, NY 11203.",
+      "You can call (718) 693-7074 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es solo los martes de 11am a 1pm.",
+      "Llame antes al (718) 693-7074 para confirmar el horario y preguntar qué necesita llevar.",
+      "La dirección es 3402 Tilden Ave, Brooklyn, NY 11203."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesdays only, 11am to 1pm.",
+      "Call ahead at (718) 693-7074 to confirm hours and ask what to bring.",
+      "The address is 3402 Tilden Ave, Brooklyn, NY 11203."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Los martes de 11am a 1pm, según la lista."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no indica requisitos. Se recomienda llamar al (718) 693-7074 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is listed as a food pantry on the City's Food Help NYC map. What food is given is not listed."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays from 11am to 1pm, according to the listing."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "The listing does not mention requirements. It is best to call (718) 693-7074 and ask before going."
+      }
+    ]
+  }
+}

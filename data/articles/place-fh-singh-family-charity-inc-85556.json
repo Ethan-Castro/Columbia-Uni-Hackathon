@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-singh-family-charity-inc-85556",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:06.087Z",
+  "facts_hash": "4d5b7d094c0df769",
+  "article": {
+    "title_es": "Singh Family Charity: despensa de alimentos en Jamaica, Queens",
+    "title_en": "Singh Family Charity: food pantry in Jamaica, Queens",
+    "summary_es": "Singh Family Charity Inc es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Singh Family Charity Inc is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Abre los sábados de 8am a 10am para la despensa.",
+      "Está ubicada en 121-13 Sutphin Blvd, Jamaica, Queens.",
+      "Puede llamar al (718) 480-6700 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Open Saturdays 8am-10am for the pantry.",
+      "Located at 121-13 Sutphin Blvd, Jamaica, Queens.",
+      "You can call (718) 480-6700 to ask before you go.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los sábados de 8am a 10am.",
+      "Antes de ir, puede llamar al (718) 480-6700 para preguntar qué ofrece y si pide requisitos.",
+      "La lista no indica qué alimentos entrega ni qué documentos se necesitan, así que conviene preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Saturdays 8am-10am.",
+      "Before going, you can call (718) 480-6700 to ask what they offer and if there are any requirements.",
+      "The listing does not say what food is given or what documents are needed, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (718) 480-6700 para preguntar qué ofrece."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 8am a 10am, según la lista."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos. Se recomienda llamar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (718) 480-6700 to ask what they offer."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays 8am-10am, according to the listing."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "The listing does not mention any requirements. It is best to call before going."
+      }
+    ]
+  }
+}

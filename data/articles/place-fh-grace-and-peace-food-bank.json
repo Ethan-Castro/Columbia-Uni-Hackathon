@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-grace-and-peace-food-bank",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:38.407Z",
+  "facts_hash": "668cc98972f463c7",
+  "article": {
+    "title_es": "GRACE & PEACE FOOD BANK: despensa de alimentos en el Bronx",
+    "title_en": "GRACE & PEACE FOOD BANK: food pantry in the Bronx",
+    "summary_es": "GRACE & PEACE FOOD BANK es una despensa de alimentos en el Bronx, ubicada en 525 Compton Ave. Abre los sábados de 9 am a 12 pm, pero la despensa funciona solo el primer y tercer sábado del mes.",
+    "summary_en": "GRACE & PEACE FOOD BANK is a food pantry in the Bronx, located at 525 Compton Ave. It is open Saturdays from 9am to 12pm, but the pantry runs only on the 1st and 3rd Saturday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Entrega alimentos los sábados de 9 am a 12 pm.",
+      "La despensa abre solo el primer y tercer sábado de cada mes.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It gives out food on Saturdays from 9am to 12pm.",
+      "The pantry is open only on the 1st and 3rd Saturday of each month.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo el primer y tercer sábado del mes, de 9 am a 12 pm.",
+      "Llame al (718) 924-8839 antes de ir para confirmar los detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on the 1st and 3rd Saturday of the month, 9am-12pm.",
+      "Call (718) 924-8839 before going to confirm details.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 9 am a 12 pm, pero solo el primer y tercer sábado de cada mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 525 Compton Ave, Bronx, NY, 10473."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No se indica en la información disponible. Llame al (718) 924-8839 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 9am to 12pm, but only on the 1st and 3rd Saturday of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 525 Compton Ave, Bronx, NY, 10473."
+      },
+      {
+        "q": "What food does it give out, and are there requirements?",
+        "a": "This is not listed in the available information. Call (718) 924-8839 to ask."
+      }
+    ]
+  }
+}

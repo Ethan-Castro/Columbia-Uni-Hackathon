@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-community-alliance-initiative",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:53.594Z",
+  "facts_hash": "0ca38dd66815a72a",
+  "article": {
+    "title_es": "Community Alliance Initiative: despensa de alimentos en Ridgewood, Queens",
+    "title_en": "Community Alliance Initiative: food pantry in Ridgewood, Queens",
+    "summary_es": "Community Alliance Initiative es una despensa de alimentos en Ridgewood, Queens, que aparece en el mapa Food Help NYC de la Ciudad. Abre viernes de 10am a 12pm, y la despensa funciona solo el primer viernes del mes.",
+    "summary_en": "Community Alliance Initiative is a food pantry in Ridgewood, Queens, listed on the City's Food Help NYC map. It is open Fri 10am-12pm, with the pantry on the 1st Friday of the month only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Ubicada en 60-85 Myrtle Ave, Ridgewood, Queens.",
+      "Abre viernes de 10am a 12pm; la despensa solo el primer viernes del mes.",
+      "Teléfono: (718) 305-4888.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte antes."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 60-85 Myrtle Ave, Ridgewood, Queens.",
+      "Open Fri 10am-12pm; pantry on the 1st Friday of the month only.",
+      "Phone: (718) 305-4888.",
+      "What food is given and any requirements are not listed, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "La despensa solo abre el primer viernes del mes, así que planifique su visita para ese día.",
+      "Llame al (718) 305-4888 antes para confirmar los detalles.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "The pantry is only open on the 1st Friday of the month, so plan your visit for that day.",
+      "Call (718) 305-4888 ahead to confirm details.",
+      "What food is given and any requirements are not listed, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Community Alliance Initiative?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Viernes de 10am a 12pm. La despensa funciona solo el primer viernes del mes."
+      },
+      {
+        "q": "¿Cómo puedo hacer preguntas?",
+        "a": "Llame al (718) 305-4888 antes de visitar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Community Alliance Initiative?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fri 10am-12pm. The pantry runs on the 1st Friday of the month only."
+      },
+      {
+        "q": "How can I ask questions?",
+        "a": "Call (718) 305-4888 before visiting."
+      }
+    ]
+  }
+}

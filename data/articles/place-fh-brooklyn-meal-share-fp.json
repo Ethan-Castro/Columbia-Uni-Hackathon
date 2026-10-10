@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-brooklyn-meal-share-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:27.103Z",
+  "facts_hash": "538b1502440eb22b",
+  "article": {
+    "title_es": "Brooklyn Meal Share: despensa de alimentos en Brooklyn",
+    "title_en": "Brooklyn Meal Share: food pantry in Brooklyn",
+    "summary_es": "Brooklyn Meal Share es una despensa de alimentos en Brooklyn, en la calle Foster Avenue, que aparece en el mapa oficial Food Help NYC de la ciudad.",
+    "summary_en": "Brooklyn Meal Share is a food pantry in Brooklyn on Foster Avenue, listed on the City's official Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa oficial Food Help NYC.",
+      "Está ubicada en 1323 Foster Ave, Brooklyn, NY 11230.",
+      "Abre los sábados de 5pm a 7pm para la despensa.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte al llegar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's official Food Help NYC map.",
+      "It is located at 1323 Foster Ave, Brooklyn, NY 11230.",
+      "It is open Saturdays from 5pm to 7pm for the pantry.",
+      "The listing does not say what food is given or if there are requirements; ask when you visit."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona solo los sábados de 5pm a 7pm.",
+      "No hay teléfono en la lista, así que no se puede confirmar por adelantado.",
+      "Los detalles sobre los alimentos y los requisitos no aparecen en la lista; pregunte en el lugar."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Saturdays from 5pm to 7pm.",
+      "No phone number is listed, so you cannot confirm ahead of time.",
+      "Details about the food and any requirements are not listed; ask on site."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Brooklyn Meal Share?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa oficial Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los sábados de 5pm a 7pm, según la lista."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "La lista no indica requisitos ni documentos. Pregunte en el lugar cuando visite."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Brooklyn Meal Share?",
+        "a": "It is a food pantry in Brooklyn listed on the City's official Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 5pm to 7pm, according to the listing."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "The listing does not mention requirements or documents. Ask on site when you visit."
+      }
+    ]
+  }
+}

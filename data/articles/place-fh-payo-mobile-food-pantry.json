@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-payo-mobile-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:31.738Z",
+  "facts_hash": "ebadeba27ae342a2",
+  "article": {
+    "title_es": "PAYO Mobile Food Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "PAYO Mobile Food Pantry: food pantry in Brooklyn",
+    "summary_es": "PAYO Mobile Food Pantry es una despensa de alimentos en Brooklyn, según el mapa Food Help NYC de la ciudad. Abre los viernes de 1:30pm a 2:30pm.",
+    "summary_en": "PAYO Mobile Food Pantry is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Fridays from 1:30pm to 2:30pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos (pantry) según el mapa Food Help NYC.",
+      "Está ubicada en 2483 65th St, Brooklyn, NY, 11204.",
+      "Atiende los viernes de 1:30pm a 2:30pm.",
+      "Tiene un teléfono para llamar antes de ir: (718) 713-2000."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2483 65th St, Brooklyn, NY, 11204.",
+      "It is open Fridays from 1:30pm to 2:30pm.",
+      "It has a phone number to call before visiting: (718) 713-2000."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los viernes de 1:30pm a 2:30pm.",
+      "La lista no indica qué alimentos se entregan ni si hay algún requisito; pregunte al llamar.",
+      "Llame al (718) 713-2000 antes de ir para confirmar el horario y los detalles."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are only on Fridays from 1:30pm to 2:30pm.",
+      "The listing does not say what food is given or if there are any requirements; ask when you call.",
+      "Call (718) 713-2000 before going to confirm the hours and details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada esta despensa?",
+        "a": "En 2483 65th St, Brooklyn, NY, 11204."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los viernes de 1:30pm a 2:30pm, según la lista."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "No está indicado en la lista. Llame al (718) 713-2000 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is this pantry located?",
+        "a": "At 2483 65th St, Brooklyn, NY, 11204."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays from 1:30pm to 2:30pm, according to the listing."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "This is not listed. Call (718) 713-2000 to ask."
+      }
+    ]
+  }
+}

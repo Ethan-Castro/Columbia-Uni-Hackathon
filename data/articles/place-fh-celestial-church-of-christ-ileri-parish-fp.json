@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-celestial-church-of-christ-ileri-parish-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:11.714Z",
+  "facts_hash": "a1a81c412628dd75",
+  "article": {
+    "title_es": "Celestial Church of Christ Ileri Parish: despensa de alimentos en Brooklyn",
+    "title_en": "Celestial Church of Christ Ileri Parish: food pantry in Brooklyn",
+    "summary_es": "Esta iglesia en Brooklyn aparece en el mapa Food Help NYC como despensa de alimentos. Abre los sábados de 12pm a 3pm, y la despensa funciona el segundo sábado del mes.",
+    "summary_en": "This Brooklyn church appears on the Food Help NYC map as a food pantry. It is open Saturdays from 12pm to 3pm, and the pantry runs on the 2nd Saturday of the month.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Está ubicada en 138 Waverly Ave, Brooklyn, NY 11205.",
+      "Abre los sábados de 12pm a 3pm.",
+      "La despensa funciona el segundo sábado del mes.",
+      "Puede llamar al (718) 624-8758 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Located at 138 Waverly Ave, Brooklyn, NY 11205.",
+      "Open Saturdays from 12pm to 3pm.",
+      "The pantry runs on the 2nd Saturday of the month.",
+      "You can call (718) 624-8758 to ask questions."
+    ],
+    "visit_tips_es": [
+      "Planifique su visita para el segundo sábado del mes, cuando funciona la despensa.",
+      "El horario indicado es sábado de 12pm a 3pm.",
+      "No se indica qué alimentos entrega ni si hay requisitos; llame antes para preguntar."
+    ],
+    "visit_tips_en": [
+      "Plan your visit for the 2nd Saturday of the month, when the pantry runs.",
+      "The listed hours are Saturday 12pm to 3pm.",
+      "The listing does not say what food is given or any requirements; call ahead to ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los sábados de 12pm a 3pm. La despensa funciona el segundo sábado del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 138 Waverly Ave, Brooklyn, NY, 11205."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué necesito llevar?",
+        "a": "No está indicado en la información disponible. Llame al (718) 624-8758 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 12pm to 3pm. The pantry runs on the 2nd Saturday of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 138 Waverly Ave, Brooklyn, NY, 11205."
+      },
+      {
+        "q": "What food is given or what should I bring?",
+        "a": "This is not listed in the available information. Call (718) 624-8758 to ask."
+      }
+    ]
+  }
+}

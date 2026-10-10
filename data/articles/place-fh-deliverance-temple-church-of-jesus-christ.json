@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-deliverance-temple-church-of-jesus-christ",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:33.075Z",
+  "facts_hash": "138f49dfb1e7ae13",
+  "article": {
+    "title_es": "Deliverance Temple Church of Jesus Christ: despensa de alimentos en Queens",
+    "title_en": "Deliverance Temple Church of Jesus Christ: food pantry in Queens",
+    "summary_es": "Esta iglesia en South Ozone Park, Queens, aparece en el mapa Food Help NYC como despensa de alimentos. Abre los martes por la tarde.",
+    "summary_en": "This church in South Ozone Park, Queens, appears on the Food Help NYC map as a food pantry. It opens on Tuesday evenings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Reparte alimentos los martes de 5:30pm a 6:30pm.",
+      "Está ubicada en 134-10 Rockaway Blvd, South Ozone Park, Queens.",
+      "Puede llamar al (718) 529-1993 para preguntar antes de ir.",
+      "La lista no indica qué alimentos da ni si piden algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "Food is distributed on Tuesdays from 5:30pm to 6:30pm.",
+      "It is located at 134-10 Rockaway Blvd, South Ozone Park, Queens.",
+      "You can call (718) 529-1993 to ask questions before going.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes de 5:30pm a 6:30pm.",
+      "Llame al (718) 529-1993 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Tuesday from 5:30pm to 6:30pm.",
+      "Call (718) 529-1993 before going to confirm the hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos. La lista no detalla qué alimentos reparte."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes de 5:30pm a 6:30pm, según la información publicada."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no indica requisitos. Se recomienda llamar al (718) 529-1993 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It appears on the Food Help NYC map as a food pantry. The listing does not detail what food it distributes."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays from 5:30pm to 6:30pm, according to the published information."
+      },
+      {
+        "q": "Do I need any documents or meet any requirements?",
+        "a": "The listing does not mention requirements. It is best to call (718) 529-1993 to ask before going."
+      }
+    ]
+  }
+}

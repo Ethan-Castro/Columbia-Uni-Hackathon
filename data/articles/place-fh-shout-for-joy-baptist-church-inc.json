@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-shout-for-joy-baptist-church-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:42.237Z",
+  "facts_hash": "0c3c681fddd99e04",
+  "article": {
+    "title_es": "Shout for Joy Baptist Church: despensa de alimentos en el Bronx",
+    "title_en": "Shout for Joy Baptist Church: food pantry in the Bronx",
+    "summary_es": "Shout for Joy Baptist Church es una despensa de alimentos en el Bronx, en el mapa Food Help NYC de la ciudad. Abre los sábados por la mañana.",
+    "summary_en": "Shout for Joy Baptist Church is a food pantry in the Bronx, listed on the City's Food Help NYC map. It opens Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 456 White Plains Rd, Bronx, NY 10473.",
+      "Atiende los sábados de 8am a 9:30am (horario de la despensa).",
+      "Puede llamar al (347) 400-0409 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 456 White Plains Rd, Bronx, NY 10473.",
+      "It is open Saturdays 8am-9:30am (pantry hours).",
+      "You can call (347) 400-0409 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los sábados de 8am a 9:30am, así que llegue con tiempo.",
+      "Llame al (347) 400-0409 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are only Saturdays 8am-9:30am, so plan to arrive on time.",
+      "Call (347) 400-0409 before going to confirm hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Es una despensa de alimentos. La lista no detalla qué alimentos entrega ni cómo funciona, así que es mejor preguntar por teléfono."
+      },
+      {
+        "q": "¿Cuándo y dónde puedo encontrarla?",
+        "a": "En 456 White Plains Rd, Bronx, NY 10473. La despensa atiende los sábados de 8am a 9:30am."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos ni documentos. Llame al (347) 400-0409 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is a food pantry. The listing does not detail what food is given or how it works, so it is best to ask by phone."
+      },
+      {
+        "q": "When and where can I find it?",
+        "a": "At 456 White Plains Rd, Bronx, NY 10473. The pantry is open Saturdays 8am-9:30am."
+      },
+      {
+        "q": "Do I need any documents or meet any requirements?",
+        "a": "The listing does not mention requirements or documents. Call (347) 400-0409 to ask before going."
+      }
+    ]
+  }
+}

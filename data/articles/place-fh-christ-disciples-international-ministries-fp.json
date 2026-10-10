@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-christ-disciples-international-ministries-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:07.340Z",
+  "facts_hash": "0a469a1872fe987a",
+  "article": {
+    "title_es": "Christ Disciples International Ministries: despensa de alimentos en el Bronx",
+    "title_en": "Christ Disciples International Ministries: food pantry in the Bronx",
+    "summary_es": "Christ Disciples International Ministries es una despensa de alimentos en el Bronx, en la avenida Webster. Abre lunes, miércoles y sábado.",
+    "summary_en": "Christ Disciples International Ministries is a food pantry in the Bronx, on Webster Avenue. It is open Mondays, Wednesdays, and Saturdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Entrega alimentos en su ubicación del Bronx: 3021 Webster Ave, código postal 10467.",
+      "Abre tres días a la semana, incluyendo el sábado.",
+      "Puede llamar al (917) 999-8295 para hacer preguntas antes de ir.",
+      "El listado no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It gives out food at its Bronx location: 3021 Webster Ave, ZIP code 10467.",
+      "It is open three days a week, including Saturday.",
+      "You can call (917) 999-8295 with questions before going.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre lunes, miércoles y sábado; los horarios varían según el día.",
+      "Llame al (917) 999-8295 antes de ir para confirmar los horarios y preguntar qué necesita llevar.",
+      "El listado no indica qué alimentos se entregan ni si hay requisitos; pregunte directamente."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Mondays, Wednesdays, and Saturdays; hours vary by day.",
+      "Call (917) 999-8295 before going to confirm hours and ask what you need to bring.",
+      "The listing does not say what food is given or if there are requirements; ask directly."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada la despensa?",
+        "a": "En 3021 Webster Ave, Bronx, Nueva York, 10467."
+      },
+      {
+        "q": "¿Qué días abre?",
+        "a": "Lunes de 10am a 3pm, miércoles de 10am a 3pm y sábado de 9:30am a 12:30pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "El listado no lo indica. Llame al (917) 999-8295 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 3021 Webster Ave, Bronx, New York, 10467."
+      },
+      {
+        "q": "What days is it open?",
+        "a": "Mondays 10am-3pm, Wednesdays 10am-3pm, and Saturdays 9:30am-12:30pm."
+      },
+      {
+        "q": "What food does it give out, and are there requirements?",
+        "a": "The listing does not say. Call (917) 999-8295 to ask before going."
+      }
+    ]
+  }
+}

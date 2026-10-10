@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-salvation-army-bronx-citadel",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:07.374Z",
+  "facts_hash": "5eb1fee7876aeb37",
+  "article": {
+    "title_es": "The Salvation Army Bronx Citadel: comedor y despensa en el Bronx",
+    "title_en": "The Salvation Army Bronx Citadel: soup kitchen and pantry in the Bronx",
+    "summary_es": "El Salvation Army Bronx Citadel ofrece comedor de sopa los lunes, miércoles y viernes, y despensa de alimentos los martes, según el mapa Food Help NYC.",
+    "summary_en": "The Salvation Army Bronx Citadel offers a soup kitchen on Mondays, Wednesdays and Fridays, and a food pantry on Tuesdays, according to the Food Help NYC map.",
+    "how_they_help_es": [
+      "Comedor de sopa los lunes, miércoles y viernes de 1pm a 2pm.",
+      "Despensa de alimentos los martes de 9am a 12pm.",
+      "Está en 425 E 159th St, Bronx, NY 10451.",
+      "Teléfono: (718) 665-8472.",
+      "La lista no indica qué alimentos dan ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Soup kitchen on Mondays, Wednesdays and Fridays from 1pm to 2pm.",
+      "Food pantry on Tuesdays from 9am to 12pm.",
+      "Located at 425 E 159th St, Bronx, NY 10451.",
+      "Phone: (718) 665-8472.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Vaya al comedor los lunes, miércoles o viernes de 1pm a 2pm.",
+      "La despensa abre solo los martes de 9am a 12pm.",
+      "Llame al (718) 665-8472 antes de ir para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "Go to the soup kitchen on Mondays, Wednesdays or Fridays from 1pm to 2pm.",
+      "The pantry is open only on Tuesdays from 9am to 12pm.",
+      "Call (718) 665-8472 before going to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Un comedor de sopa (lunes, miércoles y viernes de 1pm a 2pm) y una despensa de alimentos (martes de 9am a 12pm)."
+      },
+      {
+        "q": "¿Dónde está y cómo los contacto?",
+        "a": "425 E 159th St, Bronx, NY 10451. Teléfono: (718) 665-8472."
+      },
+      {
+        "q": "¿Hay requisitos para recibir alimentos?",
+        "a": "La lista no lo indica. Llame al (718) 665-8472 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does it offer?",
+        "a": "A soup kitchen (Mondays, Wednesdays and Fridays, 1pm-2pm) and a food pantry (Tuesdays, 9am-12pm)."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "425 E 159th St, Bronx, NY 10451. Phone: (718) 665-8472."
+      },
+      {
+        "q": "Are there requirements to receive food?",
+        "a": "The listing does not say. Call (718) 665-8472 to ask before going."
+      }
+    ]
+  }
+}

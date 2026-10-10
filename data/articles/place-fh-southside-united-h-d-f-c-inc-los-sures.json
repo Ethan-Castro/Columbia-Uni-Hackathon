@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-southside-united-h-d-f-c-inc-los-sures",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:57.833Z",
+  "facts_hash": "61da122c530389a7",
+  "article": {
+    "title_es": "Southside United HDFC - Los Sures: despensa de alimentos en Williamsburg, Brooklyn",
+    "title_en": "Southside United HDFC - Los Sures: food pantry in Williamsburg, Brooklyn",
+    "summary_es": "Southside United HDFC, Inc. - Los Sures es una despensa de alimentos en Brooklyn, incluida en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Southside United HDFC, Inc. - Los Sures is a food pantry in Brooklyn, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 145 S 3rd St, Brooklyn, NY 11211.",
+      "Abre los martes de 9am a 12pm.",
+      "Puede llamar al (718) 599-1940 para más información.",
+      "La lista no indica qué alimentos entrega ni los requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 145 S 3rd St, Brooklyn, NY 11211.",
+      "It is open Tuesdays 9am-12pm.",
+      "You can call (718) 599-1940 for more information.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los martes de 9am a 12pm.",
+      "Llame al (718) 599-1940 antes de ir para confirmar los requisitos.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Tuesdays 9am-12pm.",
+      "Call (718) 599-1940 before going to confirm any requirements.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni los requisitos, así que es mejor preguntar por teléfono."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes de 9am a 12pm."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme con ellos?",
+        "a": "Puede llamar al (718) 599-1940."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. What food is given and any requirements are not listed, so it is best to ask by phone."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays 9am-12pm."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "You can call (718) 599-1940."
+      }
+    ]
+  }
+}

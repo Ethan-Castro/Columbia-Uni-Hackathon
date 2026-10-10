@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-new-life-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:23.836Z",
+  "facts_hash": "8c568c5c2daf0b0e",
+  "article": {
+    "title_es": "Iglesia New Life Seventh Day Adventist: despensa de alimentos en Brooklyn",
+    "title_en": "New Life Seventh Day Adventist Church: food pantry in Brooklyn",
+    "summary_es": "La Iglesia New Life Seventh Day Adventist es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. Tiene horas de despensa los lunes, martes y domingos, incluyendo tardes y fines de semana.",
+    "summary_en": "New Life Seventh Day Adventist Church is a food pantry in Brooklyn listed on the City's Food Help NYC map. It has pantry hours on Monday, Tuesday, and Sunday, including evenings and weekends.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Ofrece horas de despensa los lunes, martes y domingos.",
+      "Está abierta por las tardes y los fines de semana.",
+      "Puede llamar al (718) 385-0463 si tiene preguntas antes de visitar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It offers pantry hours on Monday, Tuesday, and Sunday.",
+      "It is open in the evenings and on weekends.",
+      "You can call (718) 385-0463 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "Las horas de despensa son lunes de 5pm a 7pm, martes de 6pm a 8pm y domingo de 8am a 10am.",
+      "Llame antes al (718) 385-0463 para preguntar qué alimentos entregan y qué requisitos hay.",
+      "La información no indica qué documentos se necesitan, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Mon 5pm-7pm, Tue 6pm-8pm, and Sun 8am-10am.",
+      "Call (718) 385-0463 ahead to ask what food is given and any requirements.",
+      "The listing does not say what documents are needed, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es la Iglesia New Life Seventh Day Adventist?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "La despensa abre lunes de 5pm a 7pm, martes de 6pm a 8pm y domingo de 8am a 10am."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "Llame al (718) 385-0463 antes de ir para preguntar qué necesita llevar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is New Life Seventh Day Adventist Church?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Pantry hours are Monday 5pm-7pm, Tuesday 6pm-8pm, and Sunday 8am-10am."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "Call (718) 385-0463 before visiting to ask about requirements."
+      }
+    ]
+  }
+}

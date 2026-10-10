@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bread-of-life-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:56.658Z",
+  "facts_hash": "19e6e7aac76bd696",
+  "article": {
+    "title_es": "Bread of Life Food Pantry: despensa de alimentos en el Bronx",
+    "title_en": "Bread of Life Food Pantry: food pantry in the Bronx",
+    "summary_es": "Bread of Life Food Pantry es una despensa de alimentos en el Bronx, en la lista del mapa Food Help NYC de la ciudad. Abre los sábados de 1:30 pm a 4:30 pm.",
+    "summary_en": "Bread of Life Food Pantry is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Saturdays from 1:30pm to 4:30pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1104 Elder Ave, Bronx, NY 10472.",
+      "Abre los sábados de 1:30 pm a 4:30 pm.",
+      "Se puede llamar al (347) 235-3723 para preguntar.",
+      "Qué alimentos entrega y si hay requisitos no están indicados; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1104 Elder Ave, Bronx, NY 10472.",
+      "It is open Saturdays from 1:30pm to 4:30pm.",
+      "You can call (347) 235-3723 with questions.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es sábado de 1:30 pm a 4:30 pm.",
+      "Llame al (347) 235-3723 antes de ir para confirmar detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturday 1:30pm-4:30pm.",
+      "Call (347) 235-3723 before visiting to confirm details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "No está indicado en la información disponible. Llame al (347) 235-3723 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 1:30 pm a 4:30 pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1104 Elder Ave, Bronx, New York, 10472."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "It is not listed in the available information. Call (347) 235-3723 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 1:30pm to 4:30pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 1104 Elder Ave, Bronx, New York, 10472."
+      }
+    ]
+  }
+}

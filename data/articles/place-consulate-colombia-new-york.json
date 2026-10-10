@@ -1,0 +1,62 @@
+{
+  "place_id": "place-consulate-colombia-new-york",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:44:06.750Z",
+  "facts_hash": "39885a65262b7024",
+  "article": {
+    "title_es": "Consulado General Central de Colombia en Nueva York: consulado en Manhattan",
+    "title_en": "Consulate General Central of Colombia in New York: consulate in Manhattan",
+    "summary_es": "El Consulado General Central de Colombia en Nueva York es una oficina oficial del gobierno de Colombia, ubicada en Manhattan. Atiende de lunes a viernes de 8am a 2pm.",
+    "summary_en": "The Consulate General Central of Colombia in New York is an official office of the Government of Colombia, located in Manhattan. It is open Monday to Friday, 8am-2pm.",
+    "how_they_help_es": [
+      "Es un consulado del gobierno de Colombia en la ciudad de Nueva York.",
+      "Está ubicado en 10 East 46th Street, Nueva York, NY 10017 (Manhattan).",
+      "Atiende de lunes a viernes de 8am a 2pm.",
+      "La lista no detalla los servicios específicos ni las reglas de citas; pregunte directamente al consulado."
+    ],
+    "how_they_help_en": [
+      "It is a consulate of the Government of Colombia in New York City.",
+      "It is located at 10 East 46th Street, New York, NY 10017 (Manhattan).",
+      "It is open Monday to Friday, 8am-2pm.",
+      "The listing does not detail specific services or appointment rules; ask the consulate directly."
+    ],
+    "visit_tips_es": [
+      "Verifique el horario antes de ir: lunes a viernes de 8am a 2pm.",
+      "La dirección exacta es 10 East 46th Street, Nueva York, NY 10017.",
+      "No hay teléfono ni sitio web en esta lista; consulte la fuente oficial del consulado para más detalles."
+    ],
+    "visit_tips_en": [
+      "Check the hours before going: Monday to Friday, 8am-2pm.",
+      "The exact address is 10 East 46th Street, New York, NY 10017.",
+      "No phone or website is listed here; check the consulate's official source for more details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este consulado?",
+        "a": "La lista no detalla los servicios. Es un consulado del gobierno de Colombia; pregunte directamente al consulado qué trámites ofrece."
+      },
+      {
+        "q": "¿Necesito cita para ir?",
+        "a": "Las reglas de citas no aparecen en la lista. Consulte la fuente oficial del consulado antes de visitarlo."
+      },
+      {
+        "q": "¿Cuál es el horario y la dirección?",
+        "a": "Lunes a viernes de 8am a 2pm, en 10 East 46th Street, Nueva York, NY 10017 (Manhattan)."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this consulate offer?",
+        "a": "The listing does not detail the services. It is a consulate of the Government of Colombia; ask the consulate directly what procedures it offers."
+      },
+      {
+        "q": "Do I need an appointment to go?",
+        "a": "Appointment rules are not listed. Check the consulate's official source before visiting."
+      },
+      {
+        "q": "What are the hours and address?",
+        "a": "Monday to Friday, 8am-2pm, at 10 East 46th Street, New York, NY 10017 (Manhattan)."
+      }
+    ]
+  }
+}

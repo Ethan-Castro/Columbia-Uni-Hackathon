@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-glover-memorial-bread-of-life-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:06.245Z",
+  "facts_hash": "730b345b6965dea0",
+  "article": {
+    "title_es": "Glover Memorial Bread of Life: despensa de alimentos en Brooklyn",
+    "title_en": "Glover Memorial Bread of Life: food pantry in Brooklyn",
+    "summary_es": "Glover Memorial Bread of Life Food Pantry es una despensa de alimentos en Brooklyn, en el mapa Food Help NYC de la ciudad. Reparte alimentos los jueves por la mañana.",
+    "summary_en": "Glover Memorial Bread of Life Food Pantry is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It gives out food on Thursday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 2134 Dean St, Brooklyn, NY 11233.",
+      "Abre los jueves de 9am a 11:30am para la despensa.",
+      "Puede llamar al (929) 453-9611 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2134 Dean St, Brooklyn, NY 11233.",
+      "It is open Thursdays 9am-11:30am for the pantry.",
+      "You can call (929) 453-9611 with questions.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende los jueves de 9am a 11:30am.",
+      "Llame antes al (929) 453-9611 para confirmar horarios y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Thursdays 9am-11:30am.",
+      "Call ahead at (929) 453-9611 to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Es una despensa de alimentos en Brooklyn, según el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los jueves de 9am a 11:30am."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está en la lista. Llame al (929) 453-9611 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does this place offer?",
+        "a": "It is a food pantry in Brooklyn, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 9am to 11:30am."
+      },
+      {
+        "q": "What food is given, and are there requirements?",
+        "a": "That is not listed. Call (929) 453-9611 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-albans-baptist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:03.399Z",
+  "facts_hash": "880063fa3332ba87",
+  "article": {
+    "title_es": "Iglesia Bautista St. Albans: despensa de alimentos en Queens",
+    "title_en": "St. Albans Baptist Church: food pantry in Queens",
+    "summary_es": "La Iglesia Bautista St. Albans aparece en el mapa Food Help NYC como despensa de alimentos en Saint Albans, Queens. Abre los sábados de 10am a 12pm, pero la despensa funciona solo el primer y tercer sábado del mes.",
+    "summary_en": "St. Albans Baptist Church appears on the Food Help NYC map as a food pantry in Saint Albans, Queens. It is open Saturdays 10am-12pm, but the pantry runs on the 1st and 3rd Saturday only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 196-20 119th Ave, Saint Albans, NY 11412.",
+      "Abre los sábados de 10am a 12pm.",
+      "La despensa funciona solo el primer y tercer sábado del mes.",
+      "Puede llamar al (718) 723-8005 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the Food Help NYC map.",
+      "Located at 196-20 119th Ave, Saint Albans, NY 11412.",
+      "Open Saturdays 10am-12pm.",
+      "The pantry runs on the 1st and 3rd Saturday only.",
+      "You can call (718) 723-8005 with questions."
+    ],
+    "visit_tips_es": [
+      "La despensa solo funciona el primer y tercer sábado del mes, no todos los sábados.",
+      "El horario es de 10am a 12pm los sábados.",
+      "Si tiene dudas, llame al (718) 723-8005 antes de ir."
+    ],
+    "visit_tips_en": [
+      "The pantry runs only on the 1st and 3rd Saturday of the month, not every Saturday.",
+      "Hours are 10am-12pm on Saturdays.",
+      "If you have questions, call (718) 723-8005 before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La información no lo indica. Llame al (718) 723-8005 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los sábados de 10am a 12pm, pero solo el primer y tercer sábado del mes."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La información no lo indica. Se recomienda llamar antes para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give?",
+        "a": "That is not listed. Call (718) 723-8005 to ask before you go."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays 10am-12pm, but only on the 1st and 3rd Saturday of the month."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "That is not listed. It is best to call ahead and ask."
+      }
+    ]
+  }
+}

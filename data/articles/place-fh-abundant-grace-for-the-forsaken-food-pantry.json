@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-abundant-grace-for-the-forsaken-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:05.224Z",
+  "facts_hash": "8b116bca1c169dd9",
+  "article": {
+    "title_es": "Abundant Grace for the Forsaken: despensa de alimentos en el Bronx",
+    "title_en": "Abundant Grace for the Forsaken: food pantry in the Bronx",
+    "summary_es": "Abundant Grace for the Forsaken es una despensa de alimentos en el Bronx, inscrita en el mapa Food Help NYC de la ciudad. Abre los sábados de 9 am a 11 am.",
+    "summary_en": "Abundant Grace for the Forsaken is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Saturdays from 9am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los sábados de 9 am a 11 am.",
+      "Está ubicada en 3101 Eastchester Rd, Bronx, NY 10469.",
+      "No se indica qué alimentos da ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry according to the City's Food Help NYC map.",
+      "It distributes food on Saturdays from 9am to 11am.",
+      "It is located at 3101 Eastchester Rd, Bronx, NY 10469.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los sábados de 9 am a 11 am, según la información publicada.",
+      "Antes de ir, puede llamar al (347) 350-4698 para preguntar qué alimentos ofrece y si hay requisitos.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; confirme los horarios antes de visitar."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Saturdays from 9am to 11am, according to the posted information.",
+      "Before going, you can call (347) 350-4698 to ask what food is offered and whether there are requirements.",
+      "The information was last checked on October 10, 2026; confirm the hours before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Es una despensa de alimentos inscrita en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los sábados de 9 am a 11 am, según la información publicada."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No se indica en la información disponible. Llame al (347) 350-4698 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 9am to 11am, according to the posted information."
+      },
+      {
+        "q": "What should I bring, and what food is given?",
+        "a": "This is not listed in the available information. Call (347) 350-4698 to ask before going."
+      }
+    ]
+  }
+}

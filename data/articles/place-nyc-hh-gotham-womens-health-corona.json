@@ -1,0 +1,66 @@
+{
+  "place_id": "place-nyc-hh-gotham-womens-health-corona",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:48.225Z",
+  "facts_hash": "994149e0b14369dd",
+  "article": {
+    "title_es": "Gotham Health (Centro de Salud de la Mujer): clínica en Corona, Queens",
+    "title_en": "Gotham Health (Women's Health Center): clinic in Corona, Queens",
+    "summary_es": "El Centro de Salud de la Mujer de Gotham Health es una clínica de NYC Health + Hospitals en Corona, Queens. Ofrece el programa NYC Care, atención médica asequible para neoyorquinos que no tienen ni pueden pagar un seguro médico.",
+    "summary_en": "Gotham Health's Women's Health Center is a clinic run by NYC Health + Hospitals in Corona, Queens. It offers the NYC Care program, affordable health care for New Yorkers who don't have and can't afford health insurance.",
+    "how_they_help_es": [
+      "Es una clínica de salud de NYC Health + Hospitals en Corona, Queens.",
+      "Ofrece el programa NYC Care para personas sin seguro médico.",
+      "NYC Care es atención médica asequible para quienes no pueden pagar un seguro.",
+      "Puede inscribirse por teléfono al 646-NYC-CARE (646-692-2273).",
+      "Los servicios y costos específicos de la clínica no están detallados; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "It is a health clinic run by NYC Health + Hospitals in Corona, Queens.",
+      "It offers the NYC Care program for people without health insurance.",
+      "NYC Care is affordable health care for those who can't afford insurance.",
+      "You can enroll by phone at 646-NYC-CARE (646-692-2273).",
+      "The clinic's specific services and costs are not listed; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Dirección: 59-17 Junction Blvd., Corona, NY 11368.",
+      "Teléfono de la clínica: 718-334-6300. Llame antes para confirmar servicios y horarios.",
+      "Para NYC Care, lleve comprobante de identificación, residencia en NYC, ingresos y tamaño del hogar.",
+      "Si no puede presentar los documentos, un consejero aún podría ayudarle a inscribirse."
+    ],
+    "visit_tips_en": [
+      "Address: 59-17 Junction Blvd., Corona, NY 11368.",
+      "Clinic phone: 718-334-6300. Call ahead to confirm services and hours.",
+      "For NYC Care, bring proof of identification, NYC residency, household income, and household size.",
+      "If you can't provide the required documents, a counselor may still be able to help you enroll."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es NYC Care?",
+        "a": "Es atención médica asequible en NYC Health + Hospitals para neoyorquinos que no tienen ni pueden pagar un seguro médico."
+      },
+      {
+        "q": "¿Cómo me inscribo en NYC Care?",
+        "a": "Llame al 646-NYC-CARE (646-692-2273), visite una ubicación de NYC Health + Hospitals, una organización comunitaria o una oficina de MetroPlusHealth."
+      },
+      {
+        "q": "¿Qué documentos necesito para NYC Care?",
+        "a": "Comprobante de identificación, residencia en NYC, ingresos y tamaño del hogar. Si no los tiene, un consejero podría ayudarle de todas formas."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is NYC Care?",
+        "a": "It is affordable health care at NYC Health + Hospitals for New Yorkers who don't have and can't afford health insurance."
+      },
+      {
+        "q": "How do I enroll in NYC Care?",
+        "a": "Call 646-NYC-CARE (646-692-2273), or visit an NYC Health + Hospitals location, a community-based organization, or a MetroPlusHealth office."
+      },
+      {
+        "q": "What documents do I need for NYC Care?",
+        "a": "Proof of identification, NYC residency, household income, and household size. If you can't provide them, a counselor may still be able to help."
+      }
+    ]
+  }
+}

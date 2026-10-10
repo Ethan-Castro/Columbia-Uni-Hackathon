@@ -9,6 +9,9 @@ Local-only tools. Nothing in this folder is copied to Base44.
 | `import_test.ts` | Tests for both, run against temp copies of `data/` |
 | `fixtures/good/` | Valid CSVs in the exact contract (BOM + CRLF, quoted commas and pipes, a multi-line field, shuffled mixed-case header) |
 | `fixtures/bad/` | One of each problem: wrong enum, bad id, bad date, missing source_url, bad boolean, dangling link, duplicate id, duplicate name+address, unclosed quote, extra column/value |
+| `articles.ts` | One short bilingual article per addressed place (OpenRouter, facts only, fact-checked), cached in `data/articles/` |
+| `build-pages.ts` | Static SEO pages `web/public/lugares/*.html`, index and hubs, `sitemap.xml`, `robots.txt` |
+| `places-lib.ts` | Shared helpers for the two above (eligibility, never publish people, facts) |
 
 ```sh
 deno task import --help

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-brooklyn-chinese-american-association-5211-8th-avenue-brooklyn",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:21.419Z",
+  "facts_hash": "cad4c5f84417ce40",
+  "article": {
+    "title_es": "Brooklyn Chinese-American Association: ayuda legal de inmigración en Brooklyn",
+    "title_en": "Brooklyn Chinese-American Association: immigration legal help in Brooklyn",
+    "summary_es": "La Brooklyn Chinese-American Association aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración. Está ubicada en 5211 8th Avenue, Brooklyn, NY 11220.",
+    "summary_en": "The Brooklyn Chinese-American Association appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help. It is located at 5211 8th Avenue, Brooklyn, NY 11220.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 5211 8th Avenue, Brooklyn, NY 11220.",
+      "Puede llamar al (718) 765-1110 para preguntar.",
+      "No se indican tarifas ni cómo obtener una cita; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the U.S. Department of Justice (EOIR) roster of recognized organizations.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 5211 8th Avenue, Brooklyn, NY 11220.",
+      "You can call (718) 765-1110 to ask questions.",
+      "Fees and how to get an appointment are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para preguntar por los servicios y cómo solicitar una cita.",
+      "La información de esta página fue verificada por última vez el 10 de octubre de 2026.",
+      "No hay horarios de atención publicados, así que confirme por teléfono cuándo pueden atenderle."
+    ],
+    "visit_tips_en": [
+      "Call before visiting to ask about services and how to request an appointment.",
+      "The information on this page was last checked on October 10, 2026.",
+      "No hours are listed, so confirm by phone when they can see you."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cobran por sus servicios?",
+        "a": "La lista no indica si hay tarifas ni cuánto cuestan. Llame al (718) 765-1110 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas cuyos representantes acreditados pueden dar ayuda legal de inmigración. No se detallan otros servicios."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "No se indica cómo obtener una cita. Llame al (718) 765-1110 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Do they charge for services?",
+        "a": "The listing does not say whether there are fees or how much they cost. Call (718) 765-1110 to ask before going."
+      },
+      {
+        "q": "What services does it offer?",
+        "a": "It appears on the DOJ (EOIR) roster of recognized organizations whose accredited representatives may give immigration legal help. Other services are not listed."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "The listing does not say how to get an appointment. Call (718) 765-1110 to ask."
+      }
+    ]
+  }
+}

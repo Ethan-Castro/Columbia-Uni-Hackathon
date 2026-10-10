@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-charles-borromeo-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:40.311Z",
+  "facts_hash": "63fa578911b63b7d",
+  "article": {
+    "title_es": "Iglesia St. Charles Borromeo: despensa de alimentos en Manhattan",
+    "title_en": "St. Charles Borromeo Church: food pantry in Manhattan",
+    "summary_es": "La Iglesia St. Charles Borromeo aparece en el mapa Food Help NYC como despensa de alimentos en Manhattan. Atiende los sábados por la mañana.",
+    "summary_en": "St. Charles Borromeo Church appears on the City's Food Help NYC map as a food pantry in Manhattan. It is open Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 211 W 141st St, Nueva York, NY 10030.",
+      "Abre los sábados de 9am a 11:30am para la despensa.",
+      "Puede llamar al (212) 281-2100 para preguntar.",
+      "Qué alimentos entrega no está indicado; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the Food Help NYC map.",
+      "It is located at 211 W 141st St, New York, NY 10030.",
+      "The pantry is open Saturdays from 9am to 11:30am.",
+      "You can call (212) 281-2100 with questions.",
+      "What food is given is not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona solo los sábados de 9am a 11:30am.",
+      "Llame antes de ir para confirmar los detalles.",
+      "Los requisitos no están indicados; pregunte al llamar."
+    ],
+    "visit_tips_en": [
+      "The pantry runs only on Saturdays from 9am to 11:30am.",
+      "Call ahead to confirm details before you go.",
+      "Requirements are not listed; ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos. Qué alimentos entrega no está indicado."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 9am a 11:30am, según la información publicada."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "Puede llamar al (212) 281-2100. La dirección es 211 W 141st St, Nueva York, NY 10030."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry. What food is given is not listed."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 9am to 11:30am, according to the published information."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "You can call (212) 281-2100. The address is 211 W 141st St, New York, NY 10030."
+      }
+    ]
+  }
+}

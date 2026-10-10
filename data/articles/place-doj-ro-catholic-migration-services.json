@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-catholic-migration-services",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:05.021Z",
+  "facts_hash": "fa1fb430827a52ae",
+  "article": {
+    "title_es": "Catholic Migration Services: ayuda legal de inmigración en Brooklyn",
+    "title_en": "Catholic Migration Services: immigration legal help in Brooklyn",
+    "summary_es": "Catholic Migration Services es una organización sin fines de lucro en Brooklyn que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas, cuyos representantes acreditados pueden dar ayuda legal de inmigración.",
+    "summary_en": "Catholic Migration Services is a non-profit organization in Brooklyn that appears on the U.S. Department of Justice (EOIR) list of recognized organizations, whose accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 191 Joralemon Street, 4th Floor, Brooklyn, NY 11201.",
+      "Puede llamar al (718) 236-3000 para más información.",
+      "No se indican las cuotas ni cómo obtener una cita, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is a non-profit organization listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its DOJ-accredited representatives may give immigration legal help.",
+      "It is located at 191 Joralemon Street, 4th Floor, Brooklyn, NY 11201.",
+      "You can call (718) 236-3000 for more information.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 236-3000 antes de visitar para preguntar sobre citas y cuotas.",
+      "La oficina está en 191 Joralemon Street, 4th Floor, Brooklyn, NY 11201.",
+      "El horario no aparece en esta información, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Call (718) 236-3000 before visiting to ask about appointments and fees.",
+      "The office is at 191 Joralemon Street, 4th Floor, Brooklyn, NY 11201.",
+      "Hours are not listed in this information, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Catholic Migration Services?",
+        "a": "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas y representantes acreditados. Sus representantes pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cobran cuotas?",
+        "a": "Esta información no indica si hay cuotas ni cómo funciona el proceso de admisión. Llame al (718) 236-3000 para preguntar."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al (718) 236-3000 o visite 191 Joralemon Street, 4th Floor, Brooklyn, NY 11201."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Catholic Migration Services?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives. Its representatives may give immigration legal help."
+      },
+      {
+        "q": "Does it charge fees?",
+        "a": "Fees and the intake process are not listed in this information. Call (718) 236-3000 to ask."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call (718) 236-3000 or visit 191 Joralemon Street, 4th Floor, Brooklyn, NY 11201."
+      }
+    ]
+  }
+}

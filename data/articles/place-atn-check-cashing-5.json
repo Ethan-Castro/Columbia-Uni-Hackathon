@@ -1,0 +1,62 @@
+{
+  "place_id": "place-atn-check-cashing-5",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T19:05:46.676Z",
+  "facts_hash": "c64d87191377ff04",
+  "article": {
+    "title_es": "ATN Check Cashing #5: negocio de cobro de cheques en Corona, Queens",
+    "title_en": "ATN Check Cashing #5: check cashing business in Corona, Queens",
+    "summary_es": "ATN Check Cashing #5 es un negocio autorizado de cobro de cheques en Corona, Queens. No tenemos información sobre sus tarifas, así que pregunte el precio antes de usar el servicio.",
+    "summary_en": "ATN Check Cashing #5 is a licensed check cashing business in Corona, Queens. We have no information about its fees, so ask the price before using the service.",
+    "how_they_help_es": [
+      "Es un negocio autorizado de cobro de cheques.",
+      "Está ubicado en 9703 57th Ave, Corona, NY 11368.",
+      "Puede llamar al 718-699-0062 para preguntar.",
+      "No tenemos datos sobre sus tarifas ni horarios."
+    ],
+    "how_they_help_en": [
+      "It is a licensed check cashing business.",
+      "It is located at 9703 57th Ave, Corona, NY 11368.",
+      "You can call 718-699-0062 with questions.",
+      "We have no data on its fees or hours."
+    ],
+    "visit_tips_es": [
+      "Pregunte cuánto cobran antes de cobrar un cheque.",
+      "Llame primero al 718-699-0062 para confirmar que está abierto.",
+      "La información de esta página fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Ask how much they charge before cashing a check.",
+      "Call 718-699-0062 first to confirm they are open.",
+      "The information on this page was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es ATN Check Cashing #5?",
+        "a": "Es un negocio autorizado de cobro de cheques en Corona, Queens."
+      },
+      {
+        "q": "¿Cuánto cobran por cobrar un cheque?",
+        "a": "No tenemos datos sobre sus tarifas. Pregunte el precio antes de usar el servicio."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Puede llamar al 718-699-0062 o visitar 9703 57th Ave, Corona, NY 11368."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is ATN Check Cashing #5?",
+        "a": "It is a licensed check cashing business in Corona, Queens."
+      },
+      {
+        "q": "How much do they charge to cash a check?",
+        "a": "We have no data on their fees. Ask the price before using the service."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "You can call 718-699-0062 or visit 9703 57th Ave, Corona, NY 11368."
+      }
+    ]
+  }
+}

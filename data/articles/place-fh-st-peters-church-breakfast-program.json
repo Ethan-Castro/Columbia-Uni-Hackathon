@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-st-peters-church-breakfast-program",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:02.508Z",
+  "facts_hash": "b786f133e3dddd5b",
+  "article": {
+    "title_es": "St. Peter's Church Breakfast Program: comedor en Manhattan",
+    "title_en": "St. Peter's Church Breakfast Program: meal program in Manhattan",
+    "summary_es": "St. Peter's Church Breakfast Program es un programa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Ofrece desayuno tipo comedor (soup kitchen) los martes por la mañana.",
+    "summary_en": "St. Peter's Church Breakfast Program is a food program in Manhattan listed on the City's Food Help NYC map. It offers a soup kitchen breakfast on Tuesday mornings.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa/comedor de alimentos.",
+      "Sirve desayuno tipo comedor (soup kitchen) los martes.",
+      "Está ubicado en 619 Lexington Ave, Manhattan, código postal 10022.",
+      "Puede llamar al (212) 935-2200 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "Listed on the City's Food Help NYC map as a food pantry/soup kitchen.",
+      "Serves a soup kitchen breakfast on Tuesdays.",
+      "Located at 619 Lexington Ave, Manhattan, zip code 10022.",
+      "You can call (212) 935-2200 to ask questions before going."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es martes de 7:15 am a 8 am (soup kitchen).",
+      "No se indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono.",
+      "Verifique el horario llamando antes de viajar, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "The listed hours are Tuesday 7:15am-8am (soup kitchen).",
+      "What food is given and any requirements are not listed; ask by phone.",
+      "Confirm the hours by calling before you travel, as they may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es un programa de alimentos con desayuno tipo comedor (soup kitchen) los martes."
+      },
+      {
+        "q": "¿Cuándo y dónde está abierto?",
+        "a": "Martes de 7:15 am a 8 am, en 619 Lexington Ave, Nueva York, NY 10022."
+      },
+      {
+        "q": "¿Cómo puedo obtener más información?",
+        "a": "Llame al (212) 935-2200. La información disponible no detalla los alimentos ni los requisitos."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food program with a soup kitchen breakfast on Tuesdays."
+      },
+      {
+        "q": "When and where is it open?",
+        "a": "Tuesday 7:15am-8am, at 619 Lexington Ave, New York, NY 10022."
+      },
+      {
+        "q": "How can I get more information?",
+        "a": "Call (212) 935-2200. The available information does not detail the food or any requirements."
+      }
+    ]
+  }
+}

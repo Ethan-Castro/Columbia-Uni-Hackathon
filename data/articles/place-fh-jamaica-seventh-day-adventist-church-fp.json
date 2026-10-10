@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-jamaica-seventh-day-adventist-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:00.913Z",
+  "facts_hash": "fcab65ee053caa51",
+  "article": {
+    "title_es": "Iglesia Jamaica Seventh Day Adventist: despensa en Queens",
+    "title_en": "Jamaica Seventh Day Adventist Church: food pantry in Queens",
+    "summary_es": "Esta iglesia en Jamaica, Queens, aparece en el mapa Food Help NYC como despensa de alimentos. Abre los domingos de 9:30am a 11:30am.",
+    "summary_en": "This church in Jamaica, Queens, appears on the Food Help NYC map as a food pantry. It is open Sundays from 9:30am to 11:30am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 88-28 163rd St, Jamaica, Nueva York, 11432.",
+      "Atiende los domingos de 9:30am a 11:30am.",
+      "Puede llamar al (718) 658-9784 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni cómo funciona la despensa."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the city's Food Help NYC map.",
+      "It is located at 88-28 163rd St, Jamaica, New York, 11432.",
+      "It is open Sundays from 9:30am to 11:30am.",
+      "You can call (718) 658-9784 to ask before you go.",
+      "The listing does not say what food is given or how the pantry works."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los domingos de 9:30am a 11:30am, según la lista.",
+      "Llame al (718) 658-9784 antes de ir para confirmar el horario y preguntar cómo funciona.",
+      "La lista no da más detalles, así que es mejor preguntar todo por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only Sundays from 9:30am to 11:30am, according to the listing.",
+      "Call (718) 658-9784 before going to confirm the hours and ask how it works.",
+      "The listing gives no further details, so it is best to ask everything by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "Los domingos de 9:30am a 11:30am, según la información publicada."
+      },
+      {
+        "q": "¿Cómo puedo obtener más información?",
+        "a": "Puede llamar al (718) 658-9784 antes de ir para preguntar cómo funciona la despensa."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry. The listing does not say what food is given."
+      },
+      {
+        "q": "When can I go?",
+        "a": "Sundays from 9:30am to 11:30am, according to the published information."
+      },
+      {
+        "q": "How can I get more information?",
+        "a": "You can call (718) 658-9784 before going to ask how the pantry works."
+      }
+    ]
+  }
+}

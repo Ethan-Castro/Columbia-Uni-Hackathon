@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bedford-central-presbyterian-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:24.626Z",
+  "facts_hash": "a6d44b63cf0c6af5",
+  "article": {
+    "title_es": "Bedford Central Presbyterian Church: despensa de alimentos en Brooklyn",
+    "title_en": "Bedford Central Presbyterian Church: food pantry in Brooklyn",
+    "summary_es": "Bedford Central Presbyterian Church es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. La despensa atiende un jueves sí y un jueves no, de 10:30am a 2:30pm.",
+    "summary_en": "Bedford Central Presbyterian Church is a food pantry in Brooklyn listed on the City's Food Help NYC map. The pantry runs every other Thursday from 10:30am to 2:30pm.",
+    "how_they_help_es": [
+      "Despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está en 1200 Dean St, Brooklyn, NY 11216.",
+      "Abre los jueves de 10:30am a 2:30pm, pero la despensa atiende un jueves sí y un jueves no.",
+      "Puede llamar al (718) 467-0740 para preguntar por el horario.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the City's Food Help NYC map.",
+      "Located at 1200 Dean St, Brooklyn, NY 11216.",
+      "Open Thursdays 10:30am-2:30pm, but the pantry runs every other Thursday only.",
+      "Call (718) 467-0740 to ask about the schedule.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa solo atiende un jueves sí y un jueves no; confirme la próxima fecha por teléfono.",
+      "Llame al (718) 467-0740 antes de ir.",
+      "El horario es de 10:30am a 2:30pm los jueves."
+    ],
+    "visit_tips_en": [
+      "The pantry is only open every other Thursday, so confirm the next date by phone.",
+      "Call (718) 467-0740 before you go.",
+      "Hours are 10:30am to 2:30pm on Thursdays."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Los jueves de 10:30am a 2:30pm, pero atiende un jueves sí y un jueves no."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1200 Dean St, Brooklyn, New York, 11216."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No aparece en la lista. Llame al (718) 467-0740 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Thursdays 10:30am-2:30pm, but the pantry runs every other Thursday only."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "1200 Dean St, Brooklyn, New York, 11216."
+      },
+      {
+        "q": "What food does it give and are there requirements?",
+        "a": "That is not listed. Call (718) 467-0740 to ask before visiting."
+      }
+    ]
+  }
+}

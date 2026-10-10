@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-church-of-the-annunciation",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:24.216Z",
+  "facts_hash": "641c1bdd5e5fafa2",
+  "article": {
+    "title_es": "Church of the Annunciation: despensa de alimentos en Manhattan",
+    "title_en": "Church of the Annunciation: food pantry in Manhattan",
+    "summary_es": "La Church of the Annunciation es una despensa de alimentos en Manhattan, en el mapa Food Help NYC de la Ciudad. Atiende los martes de 2pm a 5pm.",
+    "summary_en": "Church of the Annunciation is a food pantry in Manhattan, listed on the City's Food Help NYC map. It is open Tuesdays 2pm-5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 88 Convent Ave, Nueva York, NY 10027, en Manhattan.",
+      "Atiende los martes de 2pm a 5pm (despensa).",
+      "Puede llamar al (212) 234-1919 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 88 Convent Ave, New York, NY 10027, in Manhattan.",
+      "It is open Tuesdays 2pm-5pm (pantry).",
+      "You can call (212) 234-1919 to ask before visiting.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes de 2pm a 5pm.",
+      "Llame al (212) 234-1919 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Tuesdays 2pm-5pm.",
+      "Call (212) 234-1919 before going to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos; llame para preguntar."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "El horario indicado es martes de 2pm a 5pm (despensa). Se recomienda llamar antes para confirmar."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "El teléfono indicado es (212) 234-1919. La dirección es 88 Convent Ave, Nueva York, NY 10027."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. What food is given and any requirements are not listed; call to ask."
+      },
+      {
+        "q": "When can I go?",
+        "a": "The listed hours are Tuesdays 2pm-5pm (pantry). It is best to call ahead to confirm."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "The listed phone number is (212) 234-1919. The address is 88 Convent Ave, New York, NY 10027."
+      }
+    ]
+  }
+}

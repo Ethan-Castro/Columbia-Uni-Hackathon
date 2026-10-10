@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-natl-comm-for-futh-of-jewish-ed-uc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:41.020Z",
+  "facts_hash": "ed4d116ce33029b9",
+  "article": {
+    "title_es": "NAT'L COMM. FOR FUTH. OF JEWISH ED.(UC): despensa de alimentos en Brooklyn",
+    "title_en": "NAT'L COMM. FOR FUTH. OF JEWISH ED.(UC): food pantry in Brooklyn",
+    "summary_es": "Esta despensa de alimentos aparece en el mapa Food Help NYC de la ciudad. Abre los viernes de 12pm a 1pm en Brooklyn.",
+    "summary_en": "This food pantry is listed on the City's Food Help NYC map. It is open Fridays from 12pm to 1pm in Brooklyn.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 824 Eastern Pkwy, Brooklyn, NY 11213.",
+      "Abre los viernes de 12pm a 1pm para la despensa.",
+      "Puede llamar al (718) 735-0200 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 824 Eastern Pkwy, Brooklyn, NY 11213.",
+      "It is open Fridays from 12pm to 1pm for the pantry.",
+      "You can call (718) 735-0200 to ask questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los viernes de 12pm a 1pm, así que planifique su visita con tiempo.",
+      "Llame al (718) 735-0200 antes de ir para confirmar los detalles.",
+      "La lista no indica qué alimentos se entregan; pregunte al llegar o por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is only open Fridays from 12pm to 1pm, so plan your visit ahead.",
+      "Call (718) 735-0200 before going to confirm details.",
+      "The listing does not say what food is given; ask when you arrive or by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Puede llamar al (718) 735-0200 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los viernes de 12pm a 1pm, según la lista."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos. Llame antes para confirmar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. You can call (718) 735-0200 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays from 12pm to 1pm, according to the listing."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements. Call ahead to confirm."
+      }
+    ]
+  }
+}

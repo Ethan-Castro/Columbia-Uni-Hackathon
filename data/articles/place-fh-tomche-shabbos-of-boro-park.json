@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-tomche-shabbos-of-boro-park",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:43.713Z",
+  "facts_hash": "98a7cb3e4c27d69a",
+  "article": {
+    "title_es": "Tomche Shabbos of Boro Park: despensa de alimentos en Brooklyn",
+    "title_en": "Tomche Shabbos of Boro Park: food pantry in Brooklyn",
+    "summary_es": "Tomche Shabbos of Boro Park es una despensa de alimentos en Brooklyn, en la lista del mapa Food Help NYC de la ciudad. Abre los miércoles de 3pm a 5pm.",
+    "summary_en": "Tomche Shabbos of Boro Park is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Wednesdays from 3pm to 5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 6225 New Utrecht Ave, Brooklyn, NY 11219.",
+      "Abre los miércoles de 3pm a 5pm para la despensa.",
+      "Puede llamar al (718) 259-5576 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 6225 New Utrecht Ave, Brooklyn, NY 11219.",
+      "Open Wednesdays from 3pm to 5pm for the pantry.",
+      "You can call (718) 259-5576 to ask before visiting.",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es el miércoles de 3pm a 5pm.",
+      "Llame primero al (718) 259-5576 para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesday 3pm-5pm.",
+      "Call (718) 259-5576 first to confirm hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los miércoles de 3pm a 5pm."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "Por teléfono al (718) 259-5576. No hay correo ni sitio web en la lista."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. What food is given and any requirements are not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 3pm to 5pm."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "By phone at (718) 259-5576. No email or website is listed."
+      }
+    ]
+  }
+}

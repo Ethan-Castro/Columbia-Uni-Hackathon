@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-evangel-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:23.781Z",
+  "facts_hash": "24a00b7049ad2daa",
+  "article": {
+    "title_es": "EVANGEL Food Pantry: despensa de alimentos en Long Island City, Queens",
+    "title_en": "EVANGEL Food Pantry: food pantry in Long Island City, Queens",
+    "summary_es": "EVANGEL Food Pantry es una despensa de alimentos en Long Island City, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre de martes a viernes y también los sábados.",
+    "summary_en": "EVANGEL Food Pantry is a food pantry in Long Island City, Queens, listed on the City's Food Help NYC map. It is open Tuesday through Friday and also on Saturdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 39-21 Crescent St, Long Island City, Queens (código postal 11101).",
+      "Abre de martes a viernes de 9am a 3pm para la despensa.",
+      "Los sábados abre de 9am a 12pm para la despensa.",
+      "Puede llamar al (718) 361-5454 para preguntar qué alimentos ofrece y si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 39-21 Crescent St, Long Island City, Queens (zip code 11101).",
+      "The pantry is open Tuesday through Friday, 9am to 3pm.",
+      "On Saturdays, the pantry is open 9am to 12pm.",
+      "You can call (718) 361-5454 to ask what food is offered and if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de martes a viernes de 9am a 3pm y sábados de 9am a 12pm.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; confirme el horario antes de ir.",
+      "Llame al (718) 361-5454 con anticipación para preguntar qué alimentos dan y qué se necesita."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday to Friday, 9am to 3pm, and Saturdays 9am to 12pm.",
+      "The information was last checked on October 10, 2026; confirm the hours before going.",
+      "Call (718) 361-5454 ahead of time to ask what food is given and what is needed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 39-21 Crescent St, Long Island City, Queens, código postal 11101."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Martes a viernes de 9am a 3pm y sábados de 9am a 12pm (despensa)."
+      },
+      {
+        "q": "¿Qué alimentos ofrece y hay requisitos?",
+        "a": "No aparece en la información disponible. Llame al (718) 361-5454 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 39-21 Crescent St, Long Island City, Queens, zip code 11101."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Tuesday to Friday, 9am to 3pm, and Saturdays 9am to 12pm (pantry)."
+      },
+      {
+        "q": "What food is offered and are there requirements?",
+        "a": "This is not listed in the available information. Call (718) 361-5454 to ask."
+      }
+    ]
+  }
+}

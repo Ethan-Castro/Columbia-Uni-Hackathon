@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-mount-carmel-worship-and-outreach-center-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:14.861Z",
+  "facts_hash": "8ae80b88f0641ce4",
+  "article": {
+    "title_es": "Mount Carmel Worship and Outreach Center: despensa en Brooklyn",
+    "title_en": "Mount Carmel Worship and Outreach Center: food pantry in Brooklyn",
+    "summary_es": "Mount Carmel Worship and Outreach Center es una despensa de alimentos en Brooklyn, según el mapa Food Help NYC de la ciudad. Abre los lunes de 12pm a 2pm.",
+    "summary_en": "Mount Carmel Worship and Outreach Center is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Mondays from 12pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 784 E 46th St, Brooklyn, NY 11203.",
+      "Atiende los lunes de 12pm a 2pm.",
+      "Puede llamar al (917) 982-7987 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 784 E 46th St, Brooklyn, NY 11203.",
+      "It is open Mondays from 12pm to 2pm.",
+      "You can call (917) 982-7987 with questions."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los lunes de 12pm a 2pm.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; llame antes de ir para preguntar.",
+      "Verifique el horario antes de visitar, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Mondays from 12pm to 2pm.",
+      "The listing does not say what food is given or if there are any requirements; call ahead to ask.",
+      "Check the hours before visiting, as they may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los lunes de 12pm a 2pm."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme con ellos?",
+        "a": "Puede llamar al (917) 982-7987. No hay sitio web ni correo electrónico en la lista."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. It does not say what food is given or if there are requirements."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Mondays from 12pm to 2pm."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "You can call (917) 982-7987. No website or email is listed."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-health-essential-association-inc-bk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:53.094Z",
+  "facts_hash": "a637215bbb3f9f1a",
+  "article": {
+    "title_es": "Health Essential Association Inc: despensa de alimentos en Brooklyn",
+    "title_en": "Health Essential Association Inc: food pantry in Brooklyn",
+    "summary_es": "Health Essential Association Inc es una despensa de alimentos en Brooklyn, aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Health Essential Association Inc is a food pantry in Brooklyn, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 2101 E 16th St, Brooklyn, NY 11229.",
+      "Abre los viernes de 10 am a 12 pm; la despensa es el cuarto viernes.",
+      "Puede llamar al (646) 515-6898 para más información.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2101 E 16th St, Brooklyn, NY 11229.",
+      "Open Fridays 10 am to 12 pm; the pantry is on the 4th Friday.",
+      "You can call (646) 515-6898 for more information.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona el cuarto viernes del mes, de 10 am a 12 pm.",
+      "Llame antes de ir para confirmar el horario y qué necesita llevar.",
+      "La información fue verificada el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry runs on the 4th Friday of the month, 10 am to 12 pm.",
+      "Call ahead to confirm the schedule and what to bring.",
+      "Information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los viernes de 10 am a 12 pm, y la despensa funciona el cuarto viernes del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No se indica en la información disponible. Llame al (646) 515-6898 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "No se menciona ningún requisito. Se recomienda llamar antes de ir para confirmar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Fridays 10 am to 12 pm, with the pantry on the 4th Friday of the month."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "That is not listed in the available information. Call (646) 515-6898 to ask."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "No requirements are mentioned. It is best to call ahead to confirm."
+      }
+    ]
+  }
+}

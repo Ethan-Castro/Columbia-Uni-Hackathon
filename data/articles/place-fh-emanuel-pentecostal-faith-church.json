@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-emanuel-pentecostal-faith-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:09.476Z",
+  "facts_hash": "84f580496490d2d6",
+  "article": {
+    "title_es": "Emanuel Pentecostal Faith Church: despensa de alimentos en el Bronx",
+    "title_en": "Emanuel Pentecostal Faith Church: food pantry in the Bronx",
+    "summary_es": "Esta iglesia en el Bronx aparece en el mapa Food Help NYC como despensa de alimentos. Abre los miércoles de 12pm a 2pm.",
+    "summary_en": "This church in the Bronx appears on the Food Help NYC map as a food pantry. It is open Wednesdays from 12pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1310 Elder Ave, Bronx, NY 10472.",
+      "Abre los miércoles de 12pm a 2pm (despensa).",
+      "Se puede llamar al (718) 842-4092 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 1310 Elder Ave, Bronx, NY 10472.",
+      "It is open Wednesdays from 12pm to 2pm (pantry).",
+      "You can call (718) 842-4092 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya durante el horario de despensa: miércoles de 12pm a 2pm.",
+      "Llame antes al (718) 842-4092 para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go during pantry hours: Wednesdays from 12pm to 2pm.",
+      "Call ahead at (718) 842-4092 to confirm hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los miércoles de 12pm a 2pm."
+      },
+      {
+        "q": "¿Necesito algún documento o hay requisitos?",
+        "a": "La lista no lo indica. Llame al (718) 842-4092 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It appears on the Food Help NYC map as a food pantry."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 12pm to 2pm."
+      },
+      {
+        "q": "Do I need documents or are there requirements?",
+        "a": "The listing does not say. Call (718) 842-4092 to ask."
+      }
+    ]
+  }
+}

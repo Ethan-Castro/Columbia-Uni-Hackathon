@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-catholic-migration-services-sunnyside",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:45.419Z",
+  "facts_hash": "68f92b6282b8e633",
+  "article": {
+    "title_es": "Catholic Migration Services: ayuda legal de inmigración en Sunnyside, Queens",
+    "title_en": "Catholic Migration Services: immigration legal help in Sunnyside, Queens",
+    "summary_es": "Catholic Migration Services (Sunnyside Extension Office) es una organización sin fines de lucro en Sunnyside, Queens, que aparece en la Lista del Departamento de Justicia de EE. UU. (EOIR) de Organizaciones Reconocidas y Representantes Acreditados.",
+    "summary_en": "Catholic Migration Services (Sunnyside Extension Office) is a non-profit organization in Sunnyside, Queens, listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives.",
+    "how_they_help_es": [
+      "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR).",
+      "Los representantes acreditados por el DOJ de organizaciones reconocidas pueden ofrecer ayuda legal de inmigración.",
+      "Está ubicada en 47-01 Queens Boulevard, Suite 203, Sunnyside, NY 11104.",
+      "Puede llamar al (347) 472-3500 para preguntar por los servicios.",
+      "Las tarifas y cómo obtener una cita no aparecen en la lista, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is a non-profit organization listed on the DOJ (EOIR) roster.",
+      "DOJ-accredited representatives at recognized organizations may give immigration legal help.",
+      "It is located at 47-01 Queens Boulevard, Suite 203, Sunnyside, NY 11104.",
+      "You can call (347) 472-3500 to ask about services.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (347) 472-3500 antes de visitar para preguntar por los horarios y las citas.",
+      "Los horarios no aparecen en la lista, así que confírmelos por teléfono.",
+      "Pregunte sobre las tarifas y el proceso de admisión cuando llame, ya que no aparecen en la lista."
+    ],
+    "visit_tips_en": [
+      "Call (347) 472-3500 before visiting to ask about hours and appointments.",
+      "Hours are not listed, so confirm them by phone.",
+      "Ask about fees and the intake process when you call, since these are not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es una organización sin fines de lucro que aparece en la Lista del DOJ (EOIR) de Organizaciones Reconocidas y Representantes Acreditados."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al (347) 472-3500 o visite 47-01 Queens Boulevard, Suite 203, Sunnyside, NY 11104."
+      },
+      {
+        "q": "¿Se indican las tarifas?",
+        "a": "No. Las tarifas y el proceso de admisión no aparecen en la lista, así que pregunte cuando llame."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is a non-profit organization listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call (347) 472-3500 or visit 47-01 Queens Boulevard, Suite 203, Sunnyside, NY 11104."
+      },
+      {
+        "q": "Are fees listed?",
+        "a": "No. Fees and the intake process are not listed, so ask when you call."
+      }
+    ]
+  }
+}

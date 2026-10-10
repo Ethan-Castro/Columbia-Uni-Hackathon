@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-our-lady-of-grace-ministry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:03.567Z",
+  "facts_hash": "95432b3b18970fb5",
+  "article": {
+    "title_es": "Our Lady of Grace Ministry: despensa de alimentos en Queens",
+    "title_en": "Our Lady of Grace Ministry: food pantry in Queens",
+    "summary_es": "Our Lady of Grace Ministry es una despensa de alimentos en Howard Beach, Queens, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Our Lady of Grace Ministry is a food pantry in Howard Beach, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 158-10 101st St, Howard Beach, Queens, NY 11414.",
+      "Abre los martes de 10:30am a 12pm para la despensa.",
+      "Puede llamar al (718) 845-6635 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 158-10 101st St, Howard Beach, Queens, NY 11414.",
+      "It is open Tuesdays 10:30am-12pm (pantry).",
+      "You can call (718) 845-6635 with questions."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es el martes de 10:30am a 12pm.",
+      "Llame antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Tuesday 10:30am-12pm.",
+      "Call before you go to confirm hours and ask what you need.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 158-10 101st St, Howard Beach, New York, 11414, en Queens."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los martes de 10:30am a 12pm."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La lista no lo indica. Llame al (718) 845-6635 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 158-10 101st St, Howard Beach, New York, 11414, in Queens."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays from 10:30am to 12pm."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (718) 845-6635 to ask."
+      }
+    ]
+  }
+}

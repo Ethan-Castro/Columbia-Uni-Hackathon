@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-first-united-christian-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:21.505Z",
+  "facts_hash": "b3c202d2f7fc0f6b",
+  "article": {
+    "title_es": "First United Christian Church: despensa de alimentos en Staten Island",
+    "title_en": "First United Christian Church: food pantry in Staten Island",
+    "summary_es": "First United Christian Church es una despensa de alimentos en Staten Island que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "First United Christian Church is a food pantry in Staten Island listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 109 Victory Blvd, Staten Island, NY 10301.",
+      "Abre los martes de 10am a 1pm y los domingos de 1:30pm a 3:30pm.",
+      "La despensa funciona el segundo y último domingo del mes.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the Food Help NYC map.",
+      "Located at 109 Victory Blvd, Staten Island, NY 10301.",
+      "Open Tuesdays 10am-1pm and Sundays 1:30pm-3:30pm.",
+      "The pantry runs on the 2nd and last Sunday of the month.",
+      "What food is given and any requirements are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "La despensa de alimentos funciona solo el segundo y último domingo del mes.",
+      "Los horarios normales son martes de 10am a 1pm y domingo de 1:30pm a 3:30pm.",
+      "No hay teléfono en la información disponible; consulte el mapa Food Help NYC antes de ir."
+    ],
+    "visit_tips_en": [
+      "The food pantry runs only on the 2nd and last Sunday of the month.",
+      "Regular hours are Tuesdays 10am-1pm and Sundays 1:30pm-3:30pm.",
+      "No phone number is listed; check the Food Help NYC map before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La información no lo indica. Se recomienda preguntar en el lugar o consultar el mapa Food Help NYC."
+      },
+      {
+        "q": "¿Cuándo puedo recibir alimentos?",
+        "a": "La despensa funciona el segundo y último domingo del mes, de 1:30pm a 3:30pm."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La información no menciona requisitos. Pregunte directamente en el lugar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Ask on site or check the Food Help NYC map."
+      },
+      {
+        "q": "When can I get food?",
+        "a": "The pantry runs on the 2nd and last Sunday of the month, 1:30pm-3:30pm."
+      },
+      {
+        "q": "Do I need documents or meet requirements?",
+        "a": "The listing does not mention any requirements. Ask directly at the location before going."
+      }
+    ]
+  }
+}

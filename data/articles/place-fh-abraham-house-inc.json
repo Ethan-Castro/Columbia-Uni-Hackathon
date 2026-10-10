@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-abraham-house-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:05.256Z",
+  "facts_hash": "196b9abf22b77a75",
+  "article": {
+    "title_es": "Abraham House: despensa de alimentos en el Bronx",
+    "title_en": "Abraham House: food pantry in the Bronx",
+    "summary_es": "Abraham House aparece en el mapa Food Help NYC como despensa de alimentos en el Bronx, en la avenida Willis. Abre los sábados por la mañana.",
+    "summary_en": "Abraham House is listed on the City's Food Help NYC map as a food pantry in the Bronx, on Willis Avenue. It is open Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 340 Willis Ave, Bronx, NY 10454.",
+      "Abre los sábados de 9am a 11am para la despensa.",
+      "Puede llamar al (718) 292-9321 para preguntar.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry according to the Food Help NYC map.",
+      "It is located at 340 Willis Ave, Bronx, NY 10454.",
+      "It is open Saturdays 9am-11am for the pantry.",
+      "You can call (718) 292-9321 with questions.",
+      "What food is given and any requirements are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona los sábados de 9am a 11am.",
+      "Llame antes de ir al (718) 292-9321 para confirmar horarios y detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry runs Saturdays 9am-11am.",
+      "Call ahead at (718) 292-9321 to confirm hours and details.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Abraham House?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los sábados de 9am a 11am, según la información publicada."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No se indica en la información disponible. Llame al (718) 292-9321 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Abraham House?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays 9am-11am, according to the published information."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "This is not listed in the available information. Call (718) 292-9321 to ask."
+      }
+    ]
+  }
+}

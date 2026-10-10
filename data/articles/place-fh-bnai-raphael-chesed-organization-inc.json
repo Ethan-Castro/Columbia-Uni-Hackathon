@@ -1,0 +1,66 @@
+{
+  "place_id": "place-fh-bnai-raphael-chesed-organization-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:28.416Z",
+  "facts_hash": "d1605f226022e9e0",
+  "article": {
+    "title_es": "Bnai Raphael Chesed Organization: despensa de alimentos en Brooklyn",
+    "title_en": "Bnai Raphael Chesed Organization: food pantry in Brooklyn",
+    "summary_es": "Bnai Raphael Chesed Organization es una despensa de alimentos en Brooklyn, en la lista de Food Help NYC de la Ciudad. Está en 3846 Flatlands Ave y atiende de lunes a jueves.",
+    "summary_en": "Bnai Raphael Chesed Organization is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is located at 3846 Flatlands Ave and is open Monday through Thursday.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 3846 Flatlands Ave, Brooklyn, NY 11234.",
+      "Abre de lunes a jueves, con horarios distintos cada día.",
+      "Puede llamar al (718) 951-2302 para preguntar.",
+      "La lista no dice qué alimentos entrega ni qué requisitos pide; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 3846 Flatlands Ave, Brooklyn, NY 11234.",
+      "It is open Monday through Thursday, with different hours each day.",
+      "You can call (718) 951-2302 with questions.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Los horarios son: lunes a miércoles de 10am a 3:30pm; jueves de 10am a 5pm.",
+      "La nota de la lista dice que la despensa los viernes y domingos es solo con cita; esos días no aparecen en el horario general.",
+      "Llame al (718) 951-2302 antes de ir para confirmar el horario y preguntar por la despensa.",
+      "La información fue verificada el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "Hours are: Monday to Wednesday 10am-3:30pm; Thursday 10am-5pm.",
+      "The listing notes that the pantry on Friday and Sunday is by appointment only; those days are not in the general hours.",
+      "Call (718) 951-2302 before going to confirm hours and ask about the pantry.",
+      "This information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni qué requisitos pide; llame al (718) 951-2302 para preguntar."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Lunes a miércoles de 10am a 3:30pm; jueves de 10am a 5pm. La lista indica que la despensa los viernes y domingos es solo con cita."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto al lugar?",
+        "a": "Está en 3846 Flatlands Ave, Brooklyn, NY 11234. El teléfono es (718) 951-2302."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. It does not say what food is given or any requirements; call (718) 951-2302 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Monday to Wednesday 10am-3:30pm; Thursday 10am-5pm. The listing notes that the pantry on Friday and Sunday is by appointment only."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "It is at 3846 Flatlands Ave, Brooklyn, NY 11234. The phone number is (718) 951-2302."
+      }
+    ]
+  }
+}

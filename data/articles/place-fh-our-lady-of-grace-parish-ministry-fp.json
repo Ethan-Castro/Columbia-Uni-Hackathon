@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-our-lady-of-grace-parish-ministry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:21.658Z",
+  "facts_hash": "5259fab50c983e1a",
+  "article": {
+    "title_es": "Our Lady of Grace Parish Ministry: despensa de alimentos en Brooklyn",
+    "title_en": "Our Lady of Grace Parish Ministry: food pantry in Brooklyn",
+    "summary_es": "Our Lady of Grace Parish Ministry es una despensa de alimentos y cocina comunitaria en Brooklyn, según el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Our Lady of Grace Parish Ministry is a food pantry and soup kitchen in Brooklyn, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos los lunes y miércoles de 9 am a 1 pm.",
+      "Cocina comunitaria (sopa) los miércoles de 12 pm a 12:30 pm.",
+      "Está en 2322 E 4th St, Brooklyn, NY 11223.",
+      "Puede llamar al (718) 645-2120 para preguntar.",
+      "La lista no indica qué alimentos entrega ni requisitos."
+    ],
+    "how_they_help_en": [
+      "Food pantry on Mondays and Wednesdays, 9am-1pm.",
+      "Soup kitchen on Wednesdays, 12pm-12:30pm.",
+      "Located at 2322 E 4th St, Brooklyn, NY 11223.",
+      "You can call (718) 645-2120 with questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona lunes y miércoles de 9 am a 1 pm.",
+      "La cocina comunitaria abre solo el miércoles de 12 pm a 12:30 pm.",
+      "Llame al (718) 645-2120 antes de ir para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Mondays and Wednesdays, 9am-1pm.",
+      "The soup kitchen is open only Wednesdays, 12pm-12:30pm.",
+      "Call (718) 645-2120 before visiting to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La lista no lo indica. Llame al (718) 645-2120 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Despensa: lunes y miércoles de 9 am a 1 pm. Cocina comunitaria: miércoles de 12 pm a 12:30 pm."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos. Llame antes de ir para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give?",
+        "a": "The listing does not say. Call (718) 645-2120 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Pantry: Mondays and Wednesdays, 9am-1pm. Soup kitchen: Wednesdays, 12pm-12:30pm."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements. Call ahead to ask."
+      }
+    ]
+  }
+}

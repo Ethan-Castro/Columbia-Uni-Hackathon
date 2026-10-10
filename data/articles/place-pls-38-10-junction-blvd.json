@@ -1,0 +1,62 @@
+{
+  "place_id": "place-pls-38-10-junction-blvd",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T19:05:28.553Z",
+  "facts_hash": "8e310ee83dc8133e",
+  "article": {
+    "title_es": "PLS Check Cashers (38-10 Junction Blvd): negocio de cobro de cheques en Queens",
+    "title_en": "PLS Check Cashers (38-10 Junction Blvd): check cashing in Queens",
+    "summary_es": "PLS Check Cashers es un negocio autorizado de cobro de cheques en Corona, Queens, abierto las 24 horas, los 7 días de la semana.",
+    "summary_en": "PLS Check Cashers is a licensed check cashing business in Corona, Queens, open 24 hours, 7 days a week.",
+    "how_they_help_es": [
+      "Es un negocio autorizado de cobro de cheques.",
+      "Está ubicado en 38-10 Junction Blvd., Corona, NY 11368.",
+      "Abre las 24 horas, todos los días de la semana.",
+      "No tenemos datos sobre sus tarifas: pregunte el precio primero."
+    ],
+    "how_they_help_en": [
+      "It is a licensed check cashing business.",
+      "Located at 38-10 Junction Blvd., Corona, NY 11368.",
+      "Open 24 hours, every day of the week.",
+      "We have no data on its fees: ask the price first."
+    ],
+    "visit_tips_es": [
+      "Antes de pagar, pregunte cuánto cobran por el servicio.",
+      "Abre las 24 horas, también de noche y los fines de semana.",
+      "Si tiene dudas, puede llamar al 718-898-0100."
+    ],
+    "visit_tips_en": [
+      "Before paying, ask how much the service costs.",
+      "Open 24 hours, including evenings and weekends.",
+      "If you have questions, you can call 718-898-0100."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es un negocio autorizado de cobro de cheques en Corona, Queens."
+      },
+      {
+        "q": "¿Cuánto cobran?",
+        "a": "No tenemos datos sobre sus tarifas. Pregunte el precio antes de usar el servicio."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Abre las 24 horas, los 7 días de la semana."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a licensed check cashing business in Corona, Queens."
+      },
+      {
+        "q": "How much do they charge?",
+        "a": "We have no data on its fees. Ask the price before using the service."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Open 24 hours, 7 days a week."
+      }
+    ]
+  }
+}

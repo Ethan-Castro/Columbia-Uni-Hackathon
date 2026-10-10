@@ -1,0 +1,64 @@
+{
+  "place_id": "place-family-welcome-center-linden-place",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:57.523Z",
+  "facts_hash": "245fd707a1cc1ff2",
+  "article": {
+    "title_es": "Family Welcome Center (Distritos 25 y 26): inscripción escolar en Queens",
+    "title_en": "Family Welcome Center (Districts 25, 26): school enrollment in Queens",
+    "summary_es": "Este Family Welcome Center de las escuelas públicas de NYC en Flushing, Queens, ayuda a familias a inscribir a sus hijos en las escuelas públicas, incluyendo estudiantes nuevos y traslados. Se necesita cita previa, virtual o en persona.",
+    "summary_en": "This NYC Public Schools Family Welcome Center in Flushing, Queens helps families enroll their children in public schools, including new students and transfers. An appointment, virtual or in person, is needed.",
+    "how_they_help_es": [
+      "Ayuda a inscribir a estudiantes nuevos, que regresan o que vienen de escuelas charter o privadas.",
+      "Ayuda con traslados entre escuelas públicas de NYC.",
+      "Puede pedir una cita virtual o en persona.",
+      "Los documentos requeridos se pueden entregar en línea.",
+      "Si su hijo tiene escuela asignada por zona o una oferta, contacte esa escuela directamente."
+    ],
+    "how_they_help_en": [
+      "Helps enroll new, returning, or charter/private school students.",
+      "Helps with transfers between NYC public schools.",
+      "You can book a virtual or in-person appointment.",
+      "Required documents can be submitted online.",
+      "If your child has a zoned school or an offer, contact that school directly."
+    ],
+    "visit_tips_es": [
+      "Pida una cita virtual o en persona antes de ir.",
+      "Está en el 2º piso del edificio en 30-48 Linden Place, Flushing.",
+      "Pregunte por teléfono qué documentos necesita para la inscripción."
+    ],
+    "visit_tips_en": [
+      "Book a virtual or in-person appointment before going.",
+      "It is on the 2nd floor at 30-48 Linden Place, Flushing.",
+      "Call ahead to ask which documents you need for enrollment."
+    ],
+    "faq_es": [
+      {
+        "q": "¿A quién ayuda este centro?",
+        "a": "A familias que inscriben a un estudiante en las escuelas públicas de NYC: nuevos, que regresan, que vienen de escuelas charter o privadas, o traslados entre escuelas públicas."
+      },
+      {
+        "q": "¿Necesito cita?",
+        "a": "Sí. Debe programar una cita virtual o en persona en un Family Welcome Center."
+      },
+      {
+        "q": "¿Cuál es el horario?",
+        "a": "Lunes a jueves de 8am a 5pm; viernes de 8am a 3pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Who does this center help?",
+        "a": "Families enrolling a student in NYC Public Schools: new, returning, or coming from charter or private schools, and transfers between public schools."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "Yes. You must schedule a virtual or in-person appointment at a Family Welcome Center."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Monday to Thursday 8am-5pm; Friday 8am-3pm."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-new-york-common-pantry-bronx",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:16.328Z",
+  "facts_hash": "5edc8bb98730e4cf",
+  "article": {
+    "title_es": "New York Common Pantry - Bronx: despensa de alimentos",
+    "title_en": "New York Common Pantry - Bronx: food pantry",
+    "summary_es": "New York Common Pantry - Bronx es una despensa de alimentos en el Bronx, ubicada en 1290 Hoe Ave. Atiende de jueves a sábado, de 10:00 am a 2:30 pm.",
+    "summary_en": "New York Common Pantry - Bronx is a food pantry in the Bronx, located at 1290 Hoe Ave. It is open Thursday through Saturday, 10 am to 2:30 pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 1290 Hoe Ave, Bronx, NY 10459.",
+      "Abre de jueves a sábado, de 10:00 am a 2:30 pm.",
+      "Puede llamar al (917) 423-2701 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1290 Hoe Ave, Bronx, NY 10459.",
+      "It is open Thursday through Saturday, 10 am to 2:30 pm.",
+      "You can call (917) 423-2701 to ask questions before going."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de jueves a sábado, de 10:00 am a 2:30 pm.",
+      "La lista no indica qué alimentos se entregan ni si se necesita algún requisito; llame al (917) 423-2701 para preguntar.",
+      "Verifique el horario antes de viajar, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Thursday through Saturday, 10 am to 2:30 pm.",
+      "The listing does not say what food is given or if there are any requirements; call (917) 423-2701 to ask.",
+      "Check the hours before traveling, as they may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada esta despensa?",
+        "a": "En 1290 Hoe Ave, Bronx, New York, 10459."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Jueves a sábado, de 10:00 am a 2:30 pm (despensa)."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No aparece en la lista. Llame al (917) 423-2701 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is this pantry located?",
+        "a": "At 1290 Hoe Ave, Bronx, New York, 10459."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Thursday to Saturday, 10 am to 2:30 pm (pantry)."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "That is not listed. Call (917) 423-2701 to ask before going."
+      }
+    ]
+  }
+}

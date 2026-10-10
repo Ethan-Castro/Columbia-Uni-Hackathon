@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-pentecosral-rescue-house-of-prayer",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:36.180Z",
+  "facts_hash": "fe39fccda6b4fbea",
+  "article": {
+    "title_es": "Pentecosral Rescue House of Prayer: despensa de alimentos en Brooklyn",
+    "title_en": "Pentecosral Rescue House of Prayer: food pantry in Brooklyn",
+    "summary_es": "Pentecosral Rescue House of Prayer es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Atiende los lunes de 9am a 11am.",
+    "summary_en": "Pentecosral Rescue House of Prayer is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Mondays from 9am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 2415 PITKI, NY 11208, en Brooklyn.",
+      "Abre los lunes de 9am a 11am para la despensa.",
+      "Puede llamar al (212) 330-7370 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 2415 PITKI, NY 11208, in Brooklyn.",
+      "It is open Mondays from 9am to 11am for the pantry.",
+      "You can call (212) 330-7370 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende solo los lunes de 9am a 11am, según la información más reciente.",
+      "No se indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono al (212) 330-7370.",
+      "Verifique el horario antes de viajar, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Mondays from 9am to 11am, according to the latest information.",
+      "What food is given and any requirements are not listed; call (212) 330-7370 to ask.",
+      "Check the hours before traveling, as they may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los lunes de 9am a 11am, según la información más reciente."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No se indica en la información disponible. Llame al (212) 330-7370 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Mondays from 9am to 11am, according to the latest information."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "That is not listed in the available information. Call (212) 330-7370 to ask."
+      }
+    ]
+  }
+}

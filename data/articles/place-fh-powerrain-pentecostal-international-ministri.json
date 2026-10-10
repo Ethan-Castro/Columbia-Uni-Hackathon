@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-powerrain-pentecostal-international-ministri",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:32.038Z",
+  "facts_hash": "18a8f012cefb4c8b",
+  "article": {
+    "title_es": "Powerrain Pentecostal International Ministries: despensa de alimentos en el Bronx",
+    "title_en": "Powerrain Pentecostal International Ministries: food pantry in the Bronx",
+    "summary_es": "POWERRAIN PENTECOSTAL INTERNATIONAL MINISTRIES INC es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la Ciudad. Abre los sábados de 10am a 1pm, y la despensa atiende el 2.º y el 4.º sábado del mes.",
+    "summary_en": "POWERRAIN PENTECOSTAL INTERNATIONAL MINISTRIES INC is a food pantry in the Bronx listed on the City's Food Help NYC map. It is open on Saturdays from 10am to 1pm, with pantry days on the 2nd and 4th Saturday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Abre los sábados de 10am a 1pm.",
+      "Los días de despensa son el 2.º y el 4.º sábado de cada mes.",
+      "Está en el 816 de la calle East 165th, en el Bronx.",
+      "La información no dice qué alimentos entrega, así que pregunte al visitarla."
+    ],
+    "how_they_help_en": [
+      "A food pantry listed on the City's Food Help NYC map.",
+      "Open on Saturdays from 10am to 1pm.",
+      "Pantry days are the 2nd and 4th Saturday of each month.",
+      "Located at 816 East 165th St in the Bronx.",
+      "The listing does not say what food is given, so ask when you visit."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende el 2.º y el 4.º sábado del mes, así que planifique su visita para esos días.",
+      "El horario es los sábados de 10am a 1pm.",
+      "La información no dice qué alimentos entrega ni qué se necesita, así que pregunte al llegar."
+    ],
+    "visit_tips_en": [
+      "The pantry runs on the 2nd and 4th Saturday of the month, so plan your visit for those days.",
+      "Hours are Saturdays from 10am to 1pm.",
+      "The listing does not say what food is given or what is needed, so ask when you arrive."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad, en el 816 de la calle East 165th, en el Bronx."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los sábados de 10am a 1pm. La despensa atiende el 2.º y el 4.º sábado del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La información no dice qué alimentos entrega ni si hay requisitos. Es mejor preguntar cuando la visite."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map, located at 816 East 165th St in the Bronx."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 10am to 1pm. The pantry runs on the 2nd and 4th Saturday of the month."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "The listing does not say what food is given or what the requirements are. It is best to ask when you visit."
+      }
+    ]
+  }
+}

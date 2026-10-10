@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-sunnyside-community-services-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:44.096Z",
+  "facts_hash": "1494cd037977d4e3",
+  "article": {
+    "title_es": "Sunnyside Community Services: ayuda legal de inmigración en Queens",
+    "title_en": "Sunnyside Community Services: immigration legal help in Queens",
+    "summary_es": "Sunnyside Community Services, Inc. aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración. Está en Sunnyside, Queens.",
+    "summary_en": "Sunnyside Community Services, Inc. appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help. It is located in Sunnyside, Queens.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 43-31 39th Street, 2nd Floor, Sunnyside, NY 11104.",
+      "Puede llamar al (718) 784-6173 para preguntar por sus servicios.",
+      "Los precios y el proceso de cita no aparecen en la lista; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its accredited representatives may provide immigration legal help.",
+      "Located at 43-31 39th Street, 2nd Floor, Sunnyside, NY 11104.",
+      "You can call (718) 784-6173 to ask about services.",
+      "Fees and the intake process are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (718) 784-6173 para confirmar cómo recibir ayuda.",
+      "El horario de atención no aparece en esta información; pregunte por teléfono.",
+      "Pregunte por teléfono si hay costos y qué necesita para una cita."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 784-6173 to confirm how to get help.",
+      "Hours are not listed in this information; ask by phone.",
+      "Ask by phone whether there are fees and what you need for an appointment."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuesta el servicio?",
+        "a": "Los precios no aparecen en la información disponible. Llame al (718) 784-6173 para preguntar."
+      },
+      {
+        "q": "¿Necesito cita?",
+        "a": "El proceso para recibir atención no aparece en la lista. Se recomienda llamar primero al (718) 784-6173."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a nonprofit that appears on the DOJ (EOIR) roster of recognized organizations and accredited representatives."
+      },
+      {
+        "q": "How much does the service cost?",
+        "a": "Fees are not listed in the available information. Call (718) 784-6173 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "The intake process is not listed. It is best to call first at (718) 784-6173."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-salvation-army-stapleton-corps",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:34.565Z",
+  "facts_hash": "1d43d718467f61f2",
+  "article": {
+    "title_es": "The Salvation Army Stapleton Corps: despensa de alimentos en Staten Island",
+    "title_en": "The Salvation Army Stapleton Corps: food pantry in Staten Island",
+    "summary_es": "The Salvation Army Stapleton Corps es una despensa de alimentos y comedor comunitario en Staten Island que aparece en el mapa Food Help NYC de la Ciudad.",
+    "summary_en": "The Salvation Army Stapleton Corps is a food pantry and soup kitchen in Staten Island listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos y comedor comunitario en el mapa Food Help NYC de la Ciudad.",
+      "Comidas de comedor los lunes y viernes, de 11:30am a 1pm.",
+      "Horario de despensa de martes a jueves, de 12pm a 1:30pm.",
+      "Ubicado en 15 Broad St, Staten Island, NY 10304.",
+      "Llame al (718) 448-8480 para preguntar qué ofrecen."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry and soup kitchen on the City's Food Help NYC map.",
+      "Soup kitchen meals on Mondays and Fridays, 11:30am-1pm.",
+      "Pantry hours Tuesday through Thursday, 12pm-1:30pm.",
+      "Located at 15 Broad St, Staten Island, NY 10304.",
+      "Call (718) 448-8480 to ask about what is offered."
+    ],
+    "visit_tips_es": [
+      "El comedor atiende lunes y viernes de 11:30am a 1pm; la despensa atiende de martes a jueves de 12pm a 1:30pm.",
+      "La información no dice qué alimentos dan, así que llame antes al (718) 448-8480 para preguntar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "Soup kitchen hours are Mon and Fri 11:30am-1pm; pantry hours are Tue-Thu 12pm-1:30pm.",
+      "The listing does not say what food is given, so ask ahead by calling (718) 448-8480.",
+      "Information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es un lugar de ayuda con alimentos que aparece en el mapa Food Help NYC de la Ciudad, en Stapleton, Staten Island."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "El comedor atiende lunes y viernes de 11:30am a 1pm; la despensa atiende de martes a jueves de 12pm a 1:30pm."
+      },
+      {
+        "q": "¿Qué alimentos dan?",
+        "a": "La información no lo dice. Pregunte cuando llame o visite."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is listed on the City's Food Help NYC map as a food help location in Stapleton, Staten Island."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Soup kitchen hours are Mon and Fri 11:30am-1pm; pantry hours are Tue-Thu 12pm-1:30pm."
+      },
+      {
+        "q": "What food is given?",
+        "a": "The listing does not say. Please ask when you call or visit."
+      }
+    ]
+  }
+}

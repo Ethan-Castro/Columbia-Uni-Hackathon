@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-divine-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:29.558Z",
+  "facts_hash": "247b1c6e1a25f407",
+  "article": {
+    "title_es": "Divine Food Pantry: despensa de alimentos en Queens Village",
+    "title_en": "Divine Food Pantry: food pantry in Queens Village",
+    "summary_es": "Divine Food Pantry es una despensa de alimentos en Queens Village, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los viernes por la tarde.",
+    "summary_en": "Divine Food Pantry is a food pantry in Queens Village, Queens, listed on the City's Food Help NYC map. It opens on Friday evenings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 215-31 99th Ave, Queens Village, Nueva York, 11429.",
+      "Abre los viernes de 4pm a 6:30pm; la despensa solo el primer y tercer viernes.",
+      "Se puede llamar al (516) 415-1192 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 215-31 99th Ave, Queens Village, New York, 11429.",
+      "It is open Fridays 4pm-6:30pm; the pantry runs 1st and 3rd Fridays only.",
+      "You can call (516) 415-1192 with questions.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Vaya un viernes de 4pm a 6:30pm, y recuerde que la despensa solo funciona el primer y tercer viernes del mes.",
+      "Llame antes al (516) 415-1192 para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos; es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on a Friday from 4pm to 6:30pm, and remember the pantry runs on the 1st and 3rd Friday only.",
+      "Call ahead at (516) 415-1192 to confirm hours and ask what you need.",
+      "The listing does not mention documents or requirements; it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los viernes de 4pm a 6:30pm, pero la despensa solo funciona el primer y tercer viernes del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 215-31 99th Ave, Queens Village, Nueva York, 11429, en Queens."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no lo indica. Llame al (516) 415-1192 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Fridays 4pm-6:30pm, but the pantry runs on the 1st and 3rd Friday of the month only."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 215-31 99th Ave, Queens Village, New York, 11429, in Queens."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "The listing does not say. Call (516) 415-1192 to ask before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-presbyterian-church-of-the-crossroads",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:36.460Z",
+  "facts_hash": "060cbe04c8027a94",
+  "article": {
+    "title_es": "Presbyterian Church of the Crossroads: despensa de alimentos en Brooklyn",
+    "title_en": "Presbyterian Church of the Crossroads: food pantry in Brooklyn",
+    "summary_es": "Esta iglesia en Brooklyn aparece en el mapa Food Help NYC como despensa de alimentos. Reparte alimentos los miércoles de 10am a 12pm, solo el segundo y el cuarto miércoles del mes.",
+    "summary_en": "This church in Brooklyn appears on the Food Help NYC map as a food pantry. It distributes food Wednesdays 10am-12pm, on the 2nd and 4th Wednesday only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 133 Elton St, Brooklyn, NY 11208.",
+      "Abre los miércoles de 10am a 12pm, solo el segundo y el cuarto miércoles del mes.",
+      "Puede llamar al (718) 657-8404 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni qué requisitos pide; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 133 Elton St, Brooklyn, NY 11208.",
+      "It is open Wednesdays 10am-12pm, on the 2nd and 4th Wednesday of the month only.",
+      "You can call (718) 657-8404 to ask before you go.",
+      "The listing does not say what food is given or what is required; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Vaya un miércoles de 10am a 12pm, pero recuerde que solo hay despensa el segundo y el cuarto miércoles del mes.",
+      "Llame al (718) 657-8404 antes de ir para confirmar los días y horarios.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "Go on a Wednesday from 10am to 12pm, but remember the pantry runs only on the 2nd and 4th Wednesday of the month.",
+      "Call (718) 657-8404 before going to confirm days and times.",
+      "This information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad, en 133 Elton St, Brooklyn."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los miércoles de 10am a 12pm, pero solo el segundo y el cuarto miércoles de cada mes."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado en la lista. Llame al (718) 657-8404 para preguntar qué entregan y si piden algo."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map, located at 133 Elton St, Brooklyn."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 10am to 12pm, but only on the 2nd and 4th Wednesday of each month."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "The listing does not say. Call (718) 657-8404 to ask what they give out and if anything is needed."
+      }
+    ]
+  }
+}

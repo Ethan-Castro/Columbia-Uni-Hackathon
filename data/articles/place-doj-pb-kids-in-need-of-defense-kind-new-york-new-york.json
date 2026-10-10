@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-pb-kids-in-need-of-defense-kind-new-york-new-york",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:55.511Z",
+  "facts_hash": "58f2cbaa3e477eb2",
+  "article": {
+    "title_es": "KIND - Nueva York: servicios legales pro bono en Manhattan",
+    "title_en": "KIND - New York: pro bono legal services in Manhattan",
+    "summary_es": "Kids In Need of Defense (KIND), oficina de Nueva York, aparece en la lista de proveedores de servicios legales pro bono del Departamento de Justicia de EE. UU. (EOIR). Está ubicada en Manhattan.",
+    "summary_en": "Kids In Need of Defense (KIND), New York office, appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers. It is located in Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista de proveedores pro bono del EOIR del Departamento de Justicia.",
+      "Idiomas indicados en el directorio: inglés, español y francés.",
+      "Dirección: 252 West 37th Street, Suite 1500, Nueva York, NY 10018.",
+      "Teléfono: (646) 970-2915.",
+      "No se indica si acepta casos nuevos; llame para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ's EOIR List of Pro Bono Legal Service Providers.",
+      "Languages listed in the directory: English, Spanish, and French.",
+      "Address: 252 West 37th Street, Suite 1500, New York, NY 10018.",
+      "Phone: (646) 970-2915.",
+      "Whether it takes new cases is not listed; call to ask."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (646) 970-2915 para preguntar por sus servicios y cómo solicitar una cita.",
+      "Las tarifas y el proceso de admisión no aparecen en la información disponible; pregunte directamente.",
+      "No se publican horarios de atención; confírmelos por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call first at (646) 970-2915 to ask about services and how to request an appointment.",
+      "Fees and intake steps are not listed in the available information; ask directly.",
+      "Office hours are not published; confirm them by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es KIND - Nueva York?",
+        "a": "Es una oficina que aparece en la lista de proveedores de servicios legales pro bono del Departamento de Justicia (EOIR)."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "Las tarifas no están indicadas. Llame al (646) 970-2915 para preguntar."
+      },
+      {
+        "q": "¿En qué idiomas está listada la oficina?",
+        "a": "El directorio indica inglés, español y francés. Puede confirmarlo llamando al (646) 970-2915."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is KIND - New York?",
+        "a": "It is an office listed on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers."
+      },
+      {
+        "q": "How much do its services cost?",
+        "a": "Fees are not listed. Call (646) 970-2915 to ask."
+      },
+      {
+        "q": "What languages is the office listed in?",
+        "a": "The directory lists English, Spanish, and French. You can confirm by calling (646) 970-2915."
+      }
+    ]
+  }
+}

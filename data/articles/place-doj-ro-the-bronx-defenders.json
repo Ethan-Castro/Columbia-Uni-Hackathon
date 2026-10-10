@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-the-bronx-defenders",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:37:58.326Z",
+  "facts_hash": "8f4e902ebf89d3f5",
+  "article": {
+    "title_es": "The Bronx Defenders: ayuda legal de inmigración en el Bronx",
+    "title_en": "The Bronx Defenders: DOJ-listed immigration legal help in the Bronx",
+    "summary_es": "The Bronx Defenders es una organización sin fines de lucro en el Bronx que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas cuyos representantes acreditados pueden ofrecer ayuda legal de inmigración.",
+    "summary_en": "The Bronx Defenders is a non-profit in the Bronx that appears on the U.S. Department of Justice (EOIR) list of recognized organizations whose accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+      "Los representantes acreditados por el DOJ de organizaciones reconocidas pueden ofrecer ayuda legal de inmigración.",
+      "Está ubicada en 360 East 161st Street, en el Bronx.",
+      "Teléfono: (718) 838-7878.",
+      "Las tarifas y el proceso para obtener una cita no aparecen en la lista; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "DOJ-accredited representatives at recognized organizations may give immigration legal help.",
+      "Located at 360 East 161st Street in the Bronx.",
+      "Phone: (718) 838-7878.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 838-7878 antes de visitar para preguntar por los servicios y las citas.",
+      "Las tarifas y los pasos para ser atendido no aparecen en la lista; pregunte cuando llame.",
+      "La dirección es 360 East 161st Street, Bronx, NY 10451."
+    ],
+    "visit_tips_en": [
+      "Call (718) 838-7878 before visiting to ask about services and appointments.",
+      "Fees and intake steps are not listed, so ask about them when you call.",
+      "The address is 360 East 161st Street, Bronx, NY 10451."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es The Bronx Defenders?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas para ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la lista. Llame al (718) 838-7878 para preguntar sobre los costos."
+      },
+      {
+        "q": "¿Cómo hago una cita?",
+        "a": "El proceso de admisión no aparece en la lista. Llame al (718) 838-7878 para preguntar cómo recibir ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is The Bronx Defenders?",
+        "a": "It is a non-profit that appears on the U.S. Department of Justice (EOIR) list of recognized organizations for immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (718) 838-7878 to ask about costs."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The intake process is not listed. Call (718) 838-7878 to ask how to get help."
+      }
+    ]
+  }
+}

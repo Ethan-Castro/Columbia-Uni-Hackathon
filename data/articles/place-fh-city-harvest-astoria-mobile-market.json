@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-city-harvest-astoria-mobile-market",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:49.757Z",
+  "facts_hash": "d6fe2143137a38ec",
+  "article": {
+    "title_es": "City Harvest - Astoria Mobile Market: mercado móvil de alimentos en Queens",
+    "title_en": "City Harvest - Astoria Mobile Market: mobile food market in Queens",
+    "summary_es": "City Harvest - Astoria Mobile Market es un mercado móvil de alimentos en Astoria, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre el tercer jueves y el primer sábado de cada mes, de 9:30am a 11:30am.",
+    "summary_en": "City Harvest - Astoria Mobile Market is a mobile food market in Astoria, Queens, listed on the City's Food Help NYC map. It opens on the third Thursday and the first Saturday of each month, from 9:30am to 11:30am.",
+    "how_they_help_es": [
+      "Es un mercado móvil de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicado en 1-11 Astoria Blvd, Astoria, NY, 11102, en Queens.",
+      "Abre el tercer jueves y el primer sábado de cada mes, de 9:30am a 11:30am.",
+      "Puede llamar al (646) 412-0725 para preguntar qué alimentos entrega y si hay algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a mobile food market listed on the City's Food Help NYC map.",
+      "It is located at 1-11 Astoria Blvd, Astoria, NY, 11102, in Queens.",
+      "It opens on the third Thursday and the first Saturday of each month, from 9:30am to 11:30am.",
+      "You can call (646) 412-0725 to ask what food is given and if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El mercado solo abre el tercer jueves y el primer sábado de cada mes; planifique su visita en esas fechas.",
+      "El horario es de 9:30am a 11:30am en ambos días.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; llame al (646) 412-0725 antes de ir para confirmar los detalles."
+    ],
+    "visit_tips_en": [
+      "The market only opens on the third Thursday and the first Saturday of each month; plan your visit on those dates.",
+      "Hours are 9:30am to 11:30am on both days.",
+      "The information was last checked on October 10, 2026; call (646) 412-0725 before going to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre este mercado móvil?",
+        "a": "Solo el tercer jueves y el primer sábado de cada mes, de 9:30am a 11:30am."
+      },
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 1-11 Astoria Blvd, Astoria, NY, 11102, en Queens."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay algún requisito?",
+        "a": "No está indicado. Llame al (646) 412-0725 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is this mobile market open?",
+        "a": "Only on the third Thursday and the first Saturday of each month, from 9:30am to 11:30am."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 1-11 Astoria Blvd, Astoria, NY, 11102, in Queens."
+      },
+      {
+        "q": "What food does it give out, and are there any requirements?",
+        "a": "That is not listed. Call (646) 412-0725 to ask before going."
+      }
+    ]
+  }
+}

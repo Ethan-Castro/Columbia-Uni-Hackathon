@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-cuny-citizenship-now-west-57th-street-new-yor",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:26.587Z",
+  "facts_hash": "76c434c40d89ba7d",
+  "article": {
+    "title_es": "CUNY Citizenship Now!: oficina en el oeste de Manhattan",
+    "title_en": "CUNY Citizenship Now!: office in Midtown Manhattan",
+    "summary_es": "CUNY Citizenship Now! tiene una oficina en 555 West 57th Street, piso 11, en Manhattan. Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal en inmigración.",
+    "summary_en": "CUNY Citizenship Now! has an office at 555 West 57th Street, 11th Floor, in Manhattan. It appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help.",
+    "how_they_help_es": [
+      "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR).",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal en inmigración.",
+      "Está en 555 West 57th Street, piso 11, salón 1147, Nueva York, NY 10019.",
+      "Puede llamar al (646) 644-9400 para preguntar por sus servicios.",
+      "La lista no indica tarifas ni cómo pedir una cita; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a non-profit listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 555 West 57th Street, 11th Floor, Room 1147, New York, NY 10019.",
+      "You can call (646) 644-9400 to ask about their services.",
+      "The listing does not show fees or how to get an appointment; ask directly."
+    ],
+    "visit_tips_es": [
+      "La oficina está en el piso 11, salón 1147, del edificio de la calle 57.",
+      "Llame antes de ir para confirmar horarios y cómo recibir ayuda.",
+      "No hay horarios publicados en esta información; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The office is on the 11th floor, Room 1147, of the West 57th Street building.",
+      "Call before visiting to confirm hours and how to get help.",
+      "No hours are listed in this information; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es una oficina de CUNY Citizenship Now! que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas para ayuda legal en inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la información disponible. Llame al (646) 644-9400 para preguntar."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "El proceso para recibir atención no está indicado. Se recomienda llamar antes al (646) 644-9400."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is a CUNY Citizenship Now! office listed on the DOJ (EOIR) roster of recognized organizations for immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (646) 644-9400 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "The intake process is not listed. It is best to call ahead at (646) 644-9400."
+      }
+    ]
+  }
+}

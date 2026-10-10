@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-queens-community-house",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:19.434Z",
+  "facts_hash": "39ce488f60fa0d90",
+  "article": {
+    "title_es": "Queens Community House: organización reconocida por DOJ en Queens",
+    "title_en": "Queens Community House: DOJ-recognized organization in Queens",
+    "summary_es": "Queens Community House aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas, cuyos representantes acreditados pueden brindar ayuda legal en materia de inmigración. Está ubicada en Forest Hills, Queens.",
+    "summary_en": "Queens Community House appears on the U.S. Department of Justice (EOIR) list of recognized organizations, whose accredited representatives may provide immigration legal help. It is located in Forest Hills, Queens.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro con representantes acreditados por el DOJ.",
+      "Esos representantes pueden brindar ayuda legal en materia de inmigración.",
+      "La lista no indica los servicios exactos ni los precios; llame para preguntar.",
+      "Dirección: 108-25 62nd Drive, Forest Hills, NY 11375."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations and accredited representatives.",
+      "Recognized organizations are non-profits with DOJ-accredited representatives.",
+      "Those representatives may provide immigration legal help.",
+      "The list does not show exact services or fees; call to ask.",
+      "Address: 108-25 62nd Drive, Forest Hills, NY 11375."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 592-5757 antes de ir para preguntar por los servicios y cómo obtener una cita.",
+      "Los horarios de atención no están incluidos en esta información; pregunte por teléfono.",
+      "Los precios y el proceso de admisión no están indicados; consulte directamente con la organización."
+    ],
+    "visit_tips_en": [
+      "Call (718) 592-5757 before visiting to ask about services and how to get an appointment.",
+      "Hours of operation are not included in this information; ask by phone.",
+      "Fees and the intake process are not listed; check directly with the organization."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas, con representantes acreditados que pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "No se indica. Llame al (718) 592-5757 para preguntar por los precios antes de ir."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "El proceso de admisión no está indicado. Se recomienda llamar primero al (718) 592-5757 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit listed on the DOJ (EOIR) roster of recognized organizations, with accredited representatives who may provide immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (718) 592-5757 to ask about costs before visiting."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "The intake process is not listed. It is best to call first at (718) 592-5757 to ask."
+      }
+    ]
+  }
+}

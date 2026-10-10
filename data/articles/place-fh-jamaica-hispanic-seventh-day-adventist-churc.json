@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-jamaica-hispanic-seventh-day-adventist-churc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:54.083Z",
+  "facts_hash": "d20dc1722b98f945",
+  "article": {
+    "title_es": "Jamaica Hispanic Seventh Day Adventist Church: despensa de alimentos en Queens",
+    "title_en": "Jamaica Hispanic Seventh Day Adventist Church: food pantry in Queens",
+    "summary_es": "Esta iglesia en Jamaica, Queens, aparece en el mapa Food Help NYC como despensa de alimentos. Abre los domingos de 8 am a 9 am.",
+    "summary_en": "This church in Jamaica, Queens, appears on the City's Food Help NYC map as a food pantry. It is open Sundays from 8am to 9am.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Está ubicada en 88-28 161st St, Jamaica, Nueva York, 11432.",
+      "Abre los domingos de 8 am a 9 am.",
+      "Puede llamar al (718) 736-5291 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Located at 88-28 161st St, Jamaica, New York, 11432.",
+      "Open Sundays from 8am to 9am.",
+      "You can call (718) 736-5291 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los domingos de 8 am a 9 am, un horario corto.",
+      "No se indica qué alimentos entrega ni si pide algún requisito; pregunte por teléfono.",
+      "Verifique el horario llamando al (718) 736-5291 antes de visitar."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only Sundays from 8am to 9am, a short window.",
+      "What food is given and any requirements are not listed; ask by phone.",
+      "Confirm the schedule by calling (718) 736-5291 before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué entrega la despensa?",
+        "a": "La información no lo indica. Puede llamar al (718) 736-5291 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los domingos de 8 am a 9 am."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 88-28 161st St, Jamaica, Nueva York, 11432, en Queens."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does the pantry give out?",
+        "a": "That is not listed. You can call (718) 736-5291 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Sundays from 8am to 9am."
+      },
+      {
+        "q": "Where is it?",
+        "a": "At 88-28 161st St, Jamaica, New York, 11432, in Queens."
+      }
+    ]
+  }
+}

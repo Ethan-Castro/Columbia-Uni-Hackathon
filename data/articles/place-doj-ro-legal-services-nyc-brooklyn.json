@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-legal-services-nyc-brooklyn",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:13.205Z",
+  "facts_hash": "cb3d1b8c1ee48652",
+  "article": {
+    "title_es": "Legal Services NYC (sucursal de Brooklyn): ayuda legal de inmigración",
+    "title_en": "Legal Services NYC (Brooklyn Extension Office): immigration legal help",
+    "summary_es": "Legal Services NYC (sucursal de Brooklyn) aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Su representante acreditado puede ofrecer ayuda legal de inmigración.",
+    "summary_en": "Legal Services NYC (Brooklyn Extension Office) appears on the U.S. Department of Justice (EOIR) list of recognized organizations. Its accredited representative may provide immigration legal help.",
+    "how_they_help_es": [
+      "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR).",
+      "Tiene representantes acreditados por el DOJ que pueden dar ayuda legal de inmigración.",
+      "Está en el 29 Albany Street, piso 2, Brooklyn, NY 11216.",
+      "Puede llamar al (718) 347-5500 para preguntar por sus servicios.",
+      "Los costos y el proceso para obtener una cita no aparecen en esta información; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a non-profit listed on the DOJ (EOIR) roster.",
+      "It has DOJ-accredited representatives who may give immigration legal help.",
+      "It is located at 29 Albany Street, 2nd Floor, Brooklyn, NY 11216.",
+      "You can call (718) 347-5500 to ask about its services.",
+      "Fees and how to get an appointment are not listed here; ask directly."
+    ],
+    "visit_tips_es": [
+      "Antes de ir, llame al (718) 347-5500 para confirmar los servicios y preguntar cómo obtener una cita.",
+      "Los horarios de atención no aparecen en esta información, así que confírmelos por teléfono.",
+      "Lleve con usted cualquier pregunta que tenga sobre su caso para poder hacerla durante la llamada o la visita."
+    ],
+    "visit_tips_en": [
+      "Before going, call (718) 347-5500 to confirm services and ask how to get an appointment.",
+      "Hours are not listed in this information, so confirm them by phone.",
+      "Bring your questions about your case so you can ask them during the call or visit."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es una oficina de Legal Services NYC en Brooklyn que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los costos no aparecen en esta información. Llame al (718) 347-5500 para preguntar."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "El proceso para obtener una cita no aparece aquí. Llame al (718) 347-5500 para preguntar cómo recibir ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is a Legal Services NYC office in Brooklyn that appears on the DOJ (EOIR) roster of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in this information. Call (718) 347-5500 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "How to get an appointment is not listed here. Call (718) 347-5500 to ask how to get help."
+      }
+    ]
+  }
+}

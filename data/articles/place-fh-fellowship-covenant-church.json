@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-fellowship-covenant-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:09.696Z",
+  "facts_hash": "a4e1b5dec391564e",
+  "article": {
+    "title_es": "Fellowship Covenant Church: despensa de alimentos en el Bronx",
+    "title_en": "Fellowship Covenant Church: food pantry in the Bronx",
+    "summary_es": "Fellowship Covenant Church es una despensa de alimentos en el Bronx, aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Fellowship Covenant Church is a food pantry in the Bronx, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 720 Castle Hill Ave, Bronx, NY 10473.",
+      "Abre para la despensa los miércoles de 9am a 11:30am.",
+      "Teléfono: (718) 829-2116.",
+      "La lista no dice qué alimentos entrega; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Located at 720 Castle Hill Ave, Bronx, NY 10473.",
+      "Pantry hours are Wednesdays 9am-11:30am.",
+      "Phone: (718) 829-2116.",
+      "The listing does not say what food is given; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Vaya los miércoles entre 9am y 11:30am.",
+      "Llame antes al (718) 829-2116 para confirmar horarios y requisitos.",
+      "La lista no menciona documentos necesarios; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on Wednesdays between 9am and 11:30am.",
+      "Call ahead at (718) 829-2116 to confirm hours and requirements.",
+      "The listing does not mention required documents; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 720 Castle Hill Ave, Bronx, New York, 10473."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 9am a 11:30am."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No está en la lista; llame al (718) 829-2116 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 720 Castle Hill Ave, Bronx, New York, 10473."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 9am to 11:30am."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "Not listed; call (718) 829-2116 to ask."
+      }
+    ]
+  }
+}

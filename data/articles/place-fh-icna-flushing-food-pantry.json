@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-icna-flushing-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:52.188Z",
+  "facts_hash": "836dfa70ddc1b0c0",
+  "article": {
+    "title_es": "ICNA Flushing Food Pantry: despensa de alimentos en Queens",
+    "title_en": "ICNA Flushing Food Pantry: food pantry in Queens",
+    "summary_es": "ICNA Flushing Food Pantry es una despensa de alimentos en Queens, en el mapa Food Help NYC de la ciudad. Abre los miércoles de 12pm a 2pm.",
+    "summary_en": "ICNA Flushing Food Pantry is a food pantry in Queens, listed on the City's Food Help NYC map. It is open Wednesdays from 12pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 43-12 Union, NY 11355, en Queens.",
+      "Atiende los miércoles de 12pm a 2pm.",
+      "Puede llamar al (929) 329-7986 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the Food Help NYC map.",
+      "It is located at 43-12 Union, NY 11355, in Queens.",
+      "It is open Wednesdays from 12pm to 2pm.",
+      "You can call (929) 329-7986 to ask before visiting.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es miércoles de 12pm a 2pm.",
+      "Llame al (929) 329-7986 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesdays from 12pm to 2pm.",
+      "Call (929) 329-7986 before going to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 43-12 Union, NY 11355, en Queens."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Miércoles de 12pm a 2pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está indicado en la lista. Llame al (929) 329-7986 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 43-12 Union, NY 11355, in Queens."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Wednesdays from 12pm to 2pm."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "The listing does not say. Call (929) 329-7986 to ask."
+      }
+    ]
+  }
+}

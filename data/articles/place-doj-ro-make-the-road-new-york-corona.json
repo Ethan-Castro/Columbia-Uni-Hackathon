@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-make-the-road-new-york-corona",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:18.537Z",
+  "facts_hash": "ffca1a0f3933b360",
+  "article": {
+    "title_es": "Make the Road New York: oficina de Corona, Queens",
+    "title_en": "Make the Road New York: Corona office in Queens",
+    "summary_es": "Make the Road New York (oficina de extensión en Corona) aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración.",
+    "summary_en": "Make the Road New York (Corona Extension Office) appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Las organizaciones reconocidas tienen representantes acreditados que pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 104-19 Roosevelt Avenue, Corona, NY 11368, en Queens.",
+      "El teléfono listado es (718) 565-8500.",
+      "Los honorarios y el proceso para obtener una cita no están en la información; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the Department of Justice (EOIR) list of recognized organizations.",
+      "Recognized organizations have accredited representatives who may give immigration legal help.",
+      "Located at 104-19 Roosevelt Avenue, Corona, NY 11368, in Queens.",
+      "The listed phone number is (718) 565-8500.",
+      "Fees and how to get an appointment are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (718) 565-8500 para preguntar por servicios y citas.",
+      "Los horarios de atención no están en la información disponible.",
+      "Los honorarios y los documentos necesarios no están listados; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 565-8500 to ask about services and appointments.",
+      "Hours of operation are not listed in the available information.",
+      "Fees and required documents are not listed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es la oficina de extensión de Make the Road New York en Corona, Queens. Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los honorarios no están en la información disponible. Llame al (718) 565-8500 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está en la información. Llame al (718) 565-8500 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is the Make the Road New York Corona Extension Office in Queens. It appears on the DOJ (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (718) 565-8500 to ask before going."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The appointment process is not listed. Call (718) 565-8500 to ask."
+      }
+    ]
+  }
+}

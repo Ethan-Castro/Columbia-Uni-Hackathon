@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-siddhartha-foundation-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:37:52.156Z",
+  "facts_hash": "ed3acc9b0dc05490",
+  "article": {
+    "title_es": "Siddhartha Foundation Inc.: ayuda legal de inmigración en Queens",
+    "title_en": "Siddhartha Foundation Inc.: immigration legal help in Queens",
+    "summary_es": "Siddhartha Foundation Inc. aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en Bellerose, Queens.",
+    "summary_en": "Siddhartha Foundation Inc. appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in Bellerose, Queens.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Dirección: 250-14A Hillside Avenue, planta baja, Bellerose, NY 11426.",
+      "Teléfono: (929) 922-0499.",
+      "Los servicios, horarios y costos no están en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its DOJ-accredited representatives may give immigration legal help.",
+      "Address: 250-14A Hillside Avenue, Ground Floor, Bellerose, NY 11426.",
+      "Phone: (929) 922-0499.",
+      "Services, hours and fees are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (929) 922-0499 para preguntar por sus servicios y cómo hacer una cita.",
+      "Los horarios no están publicados, así que confírmelos por teléfono.",
+      "Pregunte si hay algún costo, porque la lista no indica los precios."
+    ],
+    "visit_tips_en": [
+      "Call (929) 922-0499 first to ask about services and how to make an appointment.",
+      "Hours are not published, so confirm them by phone.",
+      "Ask whether there is any cost, since the listing does not show fees."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "La lista no indica los precios ni el proceso para obtener una cita. Llame al (929) 922-0499 para preguntar."
+      },
+      {
+        "q": "¿Dónde está y cuándo atiende?",
+        "a": "Está en 250-14A Hillside Avenue, planta baja, Bellerose, NY 11426. Los horarios no están publicados; confírmelos por teléfono."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit that appears on the DOJ (EOIR) roster of recognized organizations and accredited representatives."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "The listing does not show fees or how to get an appointment. Call (929) 922-0499 to ask."
+      },
+      {
+        "q": "Where is it and when is it open?",
+        "a": "It is at 250-14A Hillside Avenue, Ground Floor, Bellerose, NY 11426. Hours are not listed; confirm by phone."
+      }
+    ]
+  }
+}

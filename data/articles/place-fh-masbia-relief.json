@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-masbia-relief",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:39.332Z",
+  "facts_hash": "a8feee3d6ef7ccf7",
+  "article": {
+    "title_es": "MASBIA Relief: despensa de alimentos en el Upper West Side, Manhattan",
+    "title_en": "MASBIA Relief: food pantry on the Upper West Side, Manhattan",
+    "summary_es": "MASBIA Relief es una despensa de alimentos en el Upper West Side de Manhattan que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "MASBIA Relief is a food pantry on Manhattan's Upper West Side listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 8 W 70th St, Nueva York, NY 10023.",
+      "Abre los martes de 12pm a 3pm como despensa.",
+      "Puede llamar al (718) 972-4446 para más información.",
+      "La lista no detalla qué alimentos entrega ni los requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 8 W 70th St, New York, NY 10023.",
+      "It is open Tuesdays from 12pm to 3pm as a pantry.",
+      "You can call (718) 972-4446 for more information.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los martes de 12pm a 3pm.",
+      "Llame antes de ir para confirmar el horario.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Tuesdays from 12pm to 3pm.",
+      "Call before you go to confirm the hours.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (718) 972-4446 para preguntar qué alimentos ofrece."
+      },
+      {
+        "q": "¿Hay algún requisito para recibir alimentos?",
+        "a": "La lista no menciona requisitos. Llame al (718) 972-4446 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los martes de 12pm a 3pm, según la información más reciente."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (718) 972-4446 to ask what food is offered."
+      },
+      {
+        "q": "Are there any requirements to receive food?",
+        "a": "The listing does not mention any requirements. Call (718) 972-4446 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays from 12pm to 3pm, according to the most recent information."
+      }
+    ]
+  }
+}

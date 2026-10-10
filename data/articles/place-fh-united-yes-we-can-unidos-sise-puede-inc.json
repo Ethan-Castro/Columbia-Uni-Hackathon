@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-united-yes-we-can-unidos-sise-puede-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:02.025Z",
+  "facts_hash": "13d52457aadc3fa9",
+  "article": {
+    "title_es": "United Yes We Can: despensa de alimentos en el Bronx",
+    "title_en": "United Yes We Can: food pantry in the Bronx",
+    "summary_es": "UNITED YES WE CAN, UNIDOS SISE PUEDE, INC es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 12pm a 3pm.",
+    "summary_en": "UNITED YES WE CAN, UNIDOS SISE PUEDE, INC is a food pantry in the Bronx listed on the City's Food Help NYC map. It is open Saturdays from 12pm to 3pm.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 4327 White Plains Rd, en el Bronx.",
+      "Abre los sábados de 12pm a 3pm para el servicio de despensa.",
+      "Puede llamar al (646) 321-5045 para más información.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 4327 White Plains Rd in the Bronx.",
+      "Open Saturdays from 12pm to 3pm for pantry service.",
+      "You can call (646) 321-5045 for more information.",
+      "What food is given and any requirements are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los sábados de 12pm a 3pm.",
+      "Llame al (646) 321-5045 antes de ir para confirmar el horario y preguntar qué esperar.",
+      "La lista no indica qué documentos se necesitan, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Saturdays from 12pm to 3pm.",
+      "Call (646) 321-5045 before you go to confirm hours and ask what to expect.",
+      "The listing does not say what documents you need, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 12pm a 3pm."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al (646) 321-5045."
+      },
+      {
+        "q": "¿Qué alimentos entregan?",
+        "a": "No está en la lista. Llame antes para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 12pm to 3pm."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call (646) 321-5045."
+      },
+      {
+        "q": "What food do they give?",
+        "a": "That is not listed. Call ahead to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-christ-church-international-josephs-house",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:56.323Z",
+  "facts_hash": "62c3afbfed816659",
+  "article": {
+    "title_es": "Christ Church International Joseph's House: despensa de alimentos en Queens",
+    "title_en": "Christ Church International Joseph's House: food pantry in Queens",
+    "summary_es": "Christ Church International Joseph's House es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados, pero solo el 2.º y el 4.º sábado del mes.",
+    "summary_en": "Christ Church International Joseph's House is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map. It is open on Saturdays, but only on the 2nd and 4th Saturday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 122-20 Merrill St, Jamaica, New York, 11434.",
+      "Abre los sábados de 10am a 12pm.",
+      "La despensa solo abre el 2.º y el 4.º sábado del mes.",
+      "Puede llamar al (718) 276-2799 para preguntar qué alimentos entrega y si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 122-20 Merrill St, Jamaica, New York, 11434.",
+      "It is open Saturdays from 10am to 12pm.",
+      "The pantry is only open on the 2nd and 4th Saturday of the month.",
+      "You can call (718) 276-2799 to ask about the food given and any requirements."
+    ],
+    "visit_tips_es": [
+      "Planifique su visita para el 2.º o el 4.º sábado del mes, de 10am a 12pm.",
+      "Llame antes al (718) 276-2799 para preguntar qué alimentos entrega y si hay algún requisito.",
+      "La dirección es 122-20 Merrill St, Jamaica, New York, 11434."
+    ],
+    "visit_tips_en": [
+      "Plan your visit for the 2nd or 4th Saturday of the month, from 10am to 12pm.",
+      "Call (718) 276-2799 ahead to ask what food is given and if there are any requirements.",
+      "The address is 122-20 Merrill St, Jamaica, New York, 11434."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Christ Church International Joseph's House?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. No se indica qué alimentos entrega, así que es mejor preguntar por teléfono."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 10am a 12pm, pero la despensa solo abre el 2.º y el 4.º sábado del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La información no lo indica. Llame al (718) 276-2799 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Christ Church International Joseph's House?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. What food is given is not listed, so it is best to ask by phone."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 10am to 12pm, but the pantry is only open on the 2nd and 4th Saturday of the month."
+      },
+      {
+        "q": "What food does the pantry give?",
+        "a": "The listing does not say. Call (718) 276-2799 to ask before you go."
+      }
+    ]
+  }
+}

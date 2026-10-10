@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-ladies-in-waiting",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:12.365Z",
+  "facts_hash": "ca0fbc4faf7a6345",
+  "article": {
+    "title_es": "Ladies In Waiting: despensa de alimentos en Brooklyn",
+    "title_en": "Ladies In Waiting: food pantry in Brooklyn",
+    "summary_es": "Ladies In Waiting es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Atiende los martes de 10am a 1pm.",
+    "summary_en": "Ladies In Waiting is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Tuesdays from 10am to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 276 Fenimore St, Brooklyn, NY 11225.",
+      "Abre los martes de 10am a 1pm (despensa).",
+      "Puede llamar al (718) 469-8816 para preguntar.",
+      "No se indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Located at 276 Fenimore St, Brooklyn, NY 11225.",
+      "Open Tuesdays 10am-1pm (pantry).",
+      "You can call (718) 469-8816 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (718) 469-8816 para confirmar el horario.",
+      "La despensa atiende solo los martes de 10am a 1pm.",
+      "Pregunte qué alimentos ofrece y si necesita algo para recibirlos."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 469-8816 to confirm the schedule.",
+      "The pantry is open only on Tuesdays from 10am to 1pm.",
+      "Ask what food is offered and what you need to receive it."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué ofrece este lugar?",
+        "a": "Es una despensa de alimentos en Brooklyn, según el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los martes de 10am a 1pm, según la información más reciente (10 de octubre de 2026)."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "No se indica en la información disponible. Llame al (718) 469-8816 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does this place offer?",
+        "a": "It is a food pantry in Brooklyn, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays from 10am to 1pm, according to the most recent information (October 10, 2026)."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (718) 469-8816 to ask."
+      }
+    ]
+  }
+}

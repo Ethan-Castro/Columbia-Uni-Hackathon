@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-manna-of-life-ministries-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:05.294Z",
+  "facts_hash": "24090085762285b1",
+  "article": {
+    "title_es": "Manna of Life Ministries: despensa y comedor en el Bronx",
+    "title_en": "Manna of Life Ministries: food pantry and kitchen in the Bronx",
+    "summary_es": "Manna of Life Ministries es una despensa de alimentos y comedor en el Bronx, aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Manna of Life Ministries is a food pantry and soup kitchen in the Bronx, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos los miércoles, jueves y sábados de 8 am a 11 am.",
+      "Comedor de sopa los sábados de 9 am a 1 pm.",
+      "Abre los fines de semana, útil si trabaja entre semana.",
+      "Está en 1101 Boston Rd, Bronx, NY 10456.",
+      "Qué alimentos dan y si hay requisitos no está indicado; pregunte llamando."
+    ],
+    "how_they_help_en": [
+      "Food pantry on Wednesdays, Thursdays and Saturdays, 8am-11am.",
+      "Soup kitchen on Saturdays, 9am-1pm.",
+      "Open on weekends, helpful if you work on weekdays.",
+      "Located at 1101 Boston Rd, Bronx, NY 10456.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame al (347) 577-5788 antes de ir para confirmar horarios y detalles.",
+      "La despensa funciona miércoles, jueves y sábados de 8 am a 11 am.",
+      "El comedor de sopa funciona solo los sábados de 9 am a 1 pm."
+    ],
+    "visit_tips_en": [
+      "Call (347) 577-5788 before going to confirm hours and details.",
+      "The pantry runs Wednesdays, Thursdays and Saturdays, 8am-11am.",
+      "The soup kitchen runs only on Saturdays, 9am-1pm."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 1101 Boston Rd, Bronx, New York, 10456."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Despensa: miércoles y jueves de 8 am a 11 am y sábados de 8 am a 11 am. Comedor: sábados de 9 am a 1 pm."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "No está indicado. Llame al (347) 577-5788 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it?",
+        "a": "At 1101 Boston Rd, Bronx, New York, 10456."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Pantry: Wednesdays and Thursdays 8am-11am and Saturdays 8am-11am. Soup kitchen: Saturdays 9am-1pm."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "It is not listed. Call (347) 577-5788 to ask."
+      }
+    ]
+  }
+}

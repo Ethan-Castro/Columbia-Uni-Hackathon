@@ -1,0 +1,66 @@
+{
+  "place_id": "place-fh-cornerstone-seventh-day-adventist-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:22.097Z",
+  "facts_hash": "4be06411f989f98b",
+  "article": {
+    "title_es": "Cornerstone Seventh Day Adventist Church: despensa y comedor en Brooklyn",
+    "title_en": "Cornerstone Seventh Day Adventist Church: pantry and soup kitchen in Brooklyn",
+    "summary_es": "Cornerstone Seventh Day Adventist Church aparece en el mapa Food Help NYC como despensa de alimentos y comedor de sopa en Brooklyn, NY.",
+    "summary_en": "Cornerstone Seventh Day Adventist Church is listed on the City's Food Help NYC map as a food pantry and soup kitchen in Brooklyn, NY.",
+    "how_they_help_es": [
+      "Ofrece una despensa de alimentos los jueves.",
+      "Ofrece un comedor de sopa los domingos.",
+      "Está ubicada en 138 Pennsylvania Ave, Brooklyn, NY 11207.",
+      "Atiende los fines de semana: hay servicio el domingo.",
+      "Los alimentos que entrega y los requisitos no están indicados; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Runs a food pantry on Thursdays.",
+      "Runs a soup kitchen on Sundays.",
+      "Located at 138 Pennsylvania Ave, Brooklyn, NY 11207.",
+      "Open on weekends: Sunday service is available.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona jueves de 10am a 12pm.",
+      "El comedor de sopa funciona domingo de 11:30am a 1pm.",
+      "Llame al (917) 915-6769 antes de ir para confirmar detalles.",
+      "La iglesia está en 138 Pennsylvania Ave, Brooklyn, NY 11207."
+    ],
+    "visit_tips_en": [
+      "The pantry runs Thursdays from 10am to 12pm.",
+      "The soup kitchen runs Sundays from 11:30am to 1pm.",
+      "Call (917) 915-6769 before visiting to confirm details.",
+      "The church is located at 138 Pennsylvania Ave, Brooklyn, NY 11207."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo puedo conseguir comida?",
+        "a": "La despensa funciona jueves de 10am a 12pm y el comedor de sopa domingo de 11:30am a 1pm."
+      },
+      {
+        "q": "¿Qué documentos necesito llevar?",
+        "a": "La información no lo indica. Llame al (917) 915-6769 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Hay algún costo?",
+        "a": "La información no indica si hay costo. Llame al (917) 915-6769 para confirmar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When can I get food?",
+        "a": "The pantry runs Thursdays 10am-12pm and the soup kitchen runs Sundays 11:30am-1pm."
+      },
+      {
+        "q": "What documents do I need to bring?",
+        "a": "This is not listed. Call (917) 915-6769 to ask before visiting."
+      },
+      {
+        "q": "Is there any cost?",
+        "a": "The listing does not say whether there is a cost. Call (917) 915-6769 to confirm."
+      }
+    ]
+  }
+}

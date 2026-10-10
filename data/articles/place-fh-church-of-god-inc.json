@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-church-of-god-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:31.994Z",
+  "facts_hash": "aab164d45603f1b9",
+  "article": {
+    "title_es": "Church of God Inc.: despensa de alimentos en Brooklyn",
+    "title_en": "Church of God Inc.: food pantry in Brooklyn",
+    "summary_es": "Church of God Inc. es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad, abierta los sábados de 12pm a 1pm.",
+    "summary_en": "Church of God Inc. is a food pantry in Brooklyn listed on the City's Food Help NYC map, open Saturdays from 12pm to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 1011 Winthrop St, Brooklyn, NY 11212.",
+      "El horario de la despensa es sábado de 12pm a 1pm.",
+      "Puede llamar al (718) 493-3031 para más información.",
+      "La información no dice qué alimentos entrega ni qué requisitos hay; pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 1011 Winthrop St, Brooklyn, NY 11212.",
+      "Pantry hours are Saturday 12pm-1pm.",
+      "You can call (718) 493-3031 for more information.",
+      "The listing does not say what food is given or what is required, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "La despensa está abierta los sábados de 12pm a 1pm.",
+      "Llame al (718) 493-3031 antes de visitar para confirmar los detalles.",
+      "La información no indica qué alimentos entrega ni si hay requisitos; pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Saturday from 12pm to 1pm.",
+      "Call (718) 493-3031 before visiting to confirm details.",
+      "The listing does not say what food is given or any requirements, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de ayuda ofrece esta despensa?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad. No se indica qué alimentos entrega; pregunte cuando llame."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "El horario indicado es sábado de 12pm a 1pm para la despensa. Abre los fines de semana."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "La información no dice qué llevar. Llame al (718) 493-3031 antes de ir para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of help does this pantry offer?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. What food is given is not listed, so ask when you call."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The listing shows Saturday 12pm-1pm for the pantry. It is open on weekends."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "The listing does not say what to bring. Call (718) 493-3031 before you go to ask."
+      }
+    ]
+  }
+}

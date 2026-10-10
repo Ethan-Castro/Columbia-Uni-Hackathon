@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-village-free-market",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:37.475Z",
+  "facts_hash": "da8d72a2e4692068",
+  "article": {
+    "title_es": "The Village Free Market: despensa de alimentos en Staten Island",
+    "title_en": "The Village Free Market: food pantry in Staten Island",
+    "summary_es": "The Village Free Market es una despensa de alimentos en Staten Island que aparece en el mapa Food Help NYC de la ciudad. Abre los martes de 11am a 1pm.",
+    "summary_en": "The Village Free Market is a food pantry in Staten Island listed on the City's Food Help NYC map. It is open Tuesdays from 11am to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1100 Castleton Ave, Staten Island, NY, 10310.",
+      "Atiende los martes de 11am a 1pm (despensa).",
+      "Puede llamar al (718) 749-0909 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1100 Castleton Ave, Staten Island, NY, 10310.",
+      "It is open Tuesdays 11am-1pm (pantry).",
+      "You can call (718) 749-0909 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya los martes entre 11am y 1pm, que es el horario de la despensa.",
+      "Llame antes al (718) 749-0909 para confirmar el horario y preguntar qué necesita llevar.",
+      "La dirección es 1100 Castleton Ave, Staten Island, NY, 10310."
+    ],
+    "visit_tips_en": [
+      "Go on Tuesdays between 11am and 1pm, which is the pantry hours.",
+      "Call ahead at (718) 749-0909 to confirm hours and ask what you need to bring.",
+      "The address is 1100 Castleton Ave, Staten Island, NY, 10310."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (718) 749-0909 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los martes de 11am a 1pm (despensa)."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 1100 Castleton Ave, Staten Island, NY, 10310."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (718) 749-0909 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays 11am-1pm (pantry)."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 1100 Castleton Ave, Staten Island, NY, 10310."
+      }
+    ]
+  }
+}

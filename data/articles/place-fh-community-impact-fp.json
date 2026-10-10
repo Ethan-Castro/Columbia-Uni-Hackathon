@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-community-impact-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:52.323Z",
+  "facts_hash": "7db3ad0f1b30ff36",
+  "article": {
+    "title_es": "Community Impact: despensa de alimentos en el Upper West Side, Manhattan",
+    "title_en": "Community Impact: food pantry on the Upper West Side, Manhattan",
+    "summary_es": "Community Impact es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Atiende los lunes, miércoles y jueves.",
+    "summary_en": "Community Impact is a food pantry in Manhattan listed on the City's Food Help NYC map. It is open on Mondays, Wednesdays and Thursdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los lunes de 11am a 2pm.",
+      "También reparte alimentos los miércoles y jueves de 11am a 2pm.",
+      "Está ubicada en 616 W 114th St, Nueva York, NY 10025.",
+      "La lista no dice qué alimentos da ni si piden algún requisito; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Hands out food on Mondays from 11am to 2pm.",
+      "Also open Wednesdays and Thursdays from 11am to 2pm.",
+      "Located at 616 W 114th St, New York, NY 10025.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Vaya en horario de despensa: lunes, miércoles o jueves de 11am a 2pm.",
+      "Llame al (919) 259-8315 antes de ir para confirmar el servicio y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "Go during pantry hours: Monday, Wednesday or Thursday from 11am to 2pm.",
+      "Call (919) 259-8315 before you go to confirm service and ask what you need.",
+      "This information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Community Impact?",
+        "a": "Es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Lunes de 11am a 2pm y miércoles y jueves de 11am a 2pm, según la lista."
+      },
+      {
+        "q": "¿Qué alimentos da y qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (919) 259-8315 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Community Impact?",
+        "a": "It is a food pantry in Manhattan listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Mondays from 11am to 2pm and Wednesdays and Thursdays from 11am to 2pm, according to the listing."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "The listing does not say. Call (919) 259-8315 to ask before you go."
+      }
+    ]
+  }
+}

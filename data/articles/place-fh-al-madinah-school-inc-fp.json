@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-al-madinah-school-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:11.557Z",
+  "facts_hash": "189eada388917e6f",
+  "article": {
+    "title_es": "Al-Madinah School: despensa de alimentos en Brooklyn",
+    "title_en": "Al-Madinah School: food pantry in Brooklyn",
+    "summary_es": "Al-Madinah School, Inc aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, con horario los viernes.",
+    "summary_en": "Al-Madinah School, Inc appears on the Food Help NYC map as a food pantry in Brooklyn, open on Fridays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 383 3rd Ave, Brooklyn, NY 11215.",
+      "Atiende los viernes de 12:30pm a 2:30pm.",
+      "La despensa funciona solo el tercer viernes del mes.",
+      "Qué alimentos entrega y si hay requisitos no está indicado; pregunte llamando."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 383 3rd Ave, Brooklyn, NY 11215.",
+      "Open Fridays from 12:30pm to 2:30pm.",
+      "The pantry runs only on the 3rd Friday of the month.",
+      "What food is given and any requirements are not listed; call to ask."
+    ],
+    "visit_tips_es": [
+      "Recuerde que la despensa solo funciona el tercer viernes del mes.",
+      "Horario: viernes de 12:30pm a 2:30pm.",
+      "Antes de ir, puede llamar al (718) 222-4986,103 para preguntar por los requisitos."
+    ],
+    "visit_tips_en": [
+      "Remember the pantry runs only on the 3rd Friday of the month.",
+      "Hours: Friday 12:30pm-2:30pm.",
+      "Before going, you can call (718) 222-4986,103 to ask about requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos. Qué alimentos entrega no está indicado."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Viernes de 12:30pm a 2:30pm, pero solo el tercer viernes del mes."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "No está indicado en la información disponible. Llame al (718) 222-4986,103 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It appears on the Food Help NYC map as a food pantry. What food is given is not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Fridays 12:30pm-2:30pm, but only on the 3rd Friday of the month."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "That is not listed in the available information. Call (718) 222-4986,103 to ask before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-metropolitan-council-on-jewish-poverty",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:38.290Z",
+  "facts_hash": "9619e7acbaa512a7",
+  "article": {
+    "title_es": "Metropolitan Council on Jewish Poverty: despensa en Brooklyn",
+    "title_en": "Metropolitan Council on Jewish Poverty: food pantry in Brooklyn",
+    "summary_es": "Metropolitan Council on Jewish Poverty es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los martes y jueves de 3pm a 5pm.",
+    "summary_en": "Metropolitan Council on Jewish Poverty is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Tuesdays and Thursdays, 3pm to 5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 5361 Preston Ct, Brooklyn, NY 11234.",
+      "Abre los martes y jueves de 3pm a 5pm.",
+      "Puede llamar al (718) 763-5318 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 5361 Preston Ct, Brooklyn, NY 11234.",
+      "It is open Tuesdays and Thursdays, 3pm to 5pm.",
+      "You can call (718) 763-5318 with questions.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Confirme los horarios antes de ir: los martes y jueves es de 3pm a 5pm.",
+      "Llame al (718) 763-5318 para preguntar qué alimentos hay y si necesita algo para participar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Confirm the hours before you go: Tuesdays and Thursdays, 3pm to 5pm.",
+      "Call (718) 763-5318 to ask what food is available and if you need anything to take part.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta despensa?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los martes y jueves de 3pm a 5pm, según la lista."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La lista no lo indica. Llame al (718) 763-5318 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this pantry?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays and Thursdays, 3pm to 5pm, according to the listing."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (718) 763-5318 to ask before you go."
+      }
+    ]
+  }
+}

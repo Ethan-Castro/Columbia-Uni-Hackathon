@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-macedonia-ch-assembly-of-god-bread-of-life-f",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:32.370Z",
+  "facts_hash": "7d7b5a2c73c1a835",
+  "article": {
+    "title_es": "Bread of Life Food Pantry: despensa de alimentos en Manhattan",
+    "title_en": "Bread of Life Food Pantry: food pantry in Manhattan",
+    "summary_es": "La despensa Bread of Life en la iglesia Macedonia Church of God, en el Este de Harlem (Manhattan), abre los viernes por la mañana. Está en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Bread of Life Food Pantry at Macedonia Church of God in East Harlem/Manhattan offers pantry hours on Friday mornings. It is listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos incluida en el mapa Food Help NYC de la ciudad.",
+      "Ubicada en 340 E 106th St, Manhattan (código 10029).",
+      "Abre los viernes de 9am a 10:30am para la despensa.",
+      "Teléfono: (212) 410-3412.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the City's Food Help NYC map.",
+      "Located at 340 E 106th St in Manhattan (zip 10029).",
+      "Open Friday, 9am to 10:30am, for pantry service.",
+      "Phone: (212) 410-3412.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los viernes de 9am a 10:30am; planifique su visita en ese horario.",
+      "Llame al (212) 410-3412 antes de ir para preguntar por los alimentos y posibles requisitos.",
+      "La lista no menciona qué documentos llevar, si es que se necesita alguno."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Friday, 9am to 10:30am, so plan to go during that time.",
+      "Call (212) 410-3412 ahead to ask about food and any requirements.",
+      "The listing does not say what documents to bring, if any."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los viernes de 9am a 10:30am."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 340 E 106th St, New York, NY 10029, en Manhattan."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "La lista no lo indica. Llame al (212) 410-3412 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Friday, 9am to 10:30am."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "340 E 106th St, New York, NY 10029, in Manhattan."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "The listing does not say. Call (212) 410-3412 to ask."
+      }
+    ]
+  }
+}

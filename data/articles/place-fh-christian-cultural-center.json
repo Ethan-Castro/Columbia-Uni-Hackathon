@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-christian-cultural-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:30.381Z",
+  "facts_hash": "28bcb94974b9034f",
+  "article": {
+    "title_es": "Christian Cultural Center: despensa de alimentos en Brooklyn",
+    "title_en": "Christian Cultural Center: food pantry in Brooklyn",
+    "summary_es": "Christian Cultural Center aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, en la avenida Flatlands. Atiende los miércoles y jueves por la mañana.",
+    "summary_en": "Christian Cultural Center is listed on the City's Food Help NYC map as a food pantry in Brooklyn, on Flatlands Ave. It is open Wednesday and Thursday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa oficial Food Help NYC.",
+      "Está ubicada en 12020 Flatlands Ave, Brooklyn, NY 11207.",
+      "Abre como despensa los miércoles y jueves de 9:30 a.m. a 12 p.m.",
+      "Puede llamar al (718) 306-1021 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the official Food Help NYC map.",
+      "It is located at 12020 Flatlands Ave, Brooklyn, NY 11207.",
+      "It opens as a pantry Wed-Thu from 9:30am to 12pm.",
+      "You can call (718) 306-1021 to ask before going.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya durante el horario de despensa: miércoles y jueves de 9:30 a.m. a 12 p.m.",
+      "Llame primero al (718) 306-1021 para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go during pantry hours: Wed-Thu, 9:30am to 12pm.",
+      "Call first at (718) 306-1021 to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los miércoles y jueves de 9:30 a.m. a 12 p.m."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "La lista no lo indica. Llame al (718) 306-1021 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays and Thursdays, 9:30am to 12pm."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "The listing does not say. Call (718) 306-1021 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-iglesia-alianza-misionera-ebenezer-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:37.226Z",
+  "facts_hash": "70e83aac2591ac60",
+  "article": {
+    "title_es": "Iglesia Alianza Misionera Ebenezer: despensa de alimentos en Queens",
+    "title_en": "Iglesia Alianza Misionera Ebenezer: food pantry in Queens",
+    "summary_es": "Esta iglesia en Long Island City, Queens, aparece en el mapa Food Help NYC como despensa de alimentos. Abre los sábados por la mañana.",
+    "summary_en": "This church in Long Island City, Queens, appears on the City's Food Help NYC map as a food pantry. It is open Saturday mornings.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Atiende los sábados de 8am a 1pm (despensa).",
+      "Está ubicada en 43-02 38th St, Long Island City, Queens.",
+      "Se puede llamar al (718) 729-1944 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Open Saturdays, 8am to 1pm (pantry).",
+      "Located at 43-02 38th St, Long Island City, Queens.",
+      "You can call (718) 729-1944 to ask questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es sábado de 8am a 1pm.",
+      "Llame antes de ir para confirmar los detalles.",
+      "Pregunte por teléfono qué alimentos ofrece y si necesita algo para recibirlos."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Saturday, 8am to 1pm.",
+      "Call before visiting to confirm details.",
+      "Ask by phone what food is offered and whether anything is needed to receive it."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los sábados de 8am a 1pm."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "Por teléfono al (718) 729-1944. La lista no incluye correo electrónico ni sitio web."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry. What food is given is not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 8am to 1pm."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "By phone at (718) 729-1944. The listing does not include an email or website."
+      }
+    ]
+  }
+}

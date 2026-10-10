@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-sanctuary-for-families",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:36.036Z",
+  "facts_hash": "d38a4895be7b9211",
+  "article": {
+    "title_es": "Sanctuary for Families: organización en la lista del DOJ en Manhattan",
+    "title_en": "Sanctuary for Families: DOJ-listed organization in Manhattan",
+    "summary_es": "Sanctuary for Families es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en el Bajo Manhattan.",
+    "summary_en": "Sanctuary for Families is a nonprofit that appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in Lower Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal de inmigración.",
+      "Está ubicada en 30 Wall Street, 8.º piso, Nueva York, NY 10005.",
+      "Se puede llamar al (212) 349-6009 para preguntar.",
+      "Las tarifas y el proceso de cita no aparecen en la información; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 30 Wall Street, 8th Floor, New York, NY 10005.",
+      "You can call (212) 349-6009 to ask questions.",
+      "Fees and the intake process are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes al (212) 349-6009 para preguntar por tarifas y cómo obtener una cita.",
+      "El horario de atención no aparece en la información; confírmelo por teléfono.",
+      "Lleve consigo cualquier pregunta que tenga sobre los servicios que ofrece."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (212) 349-6009 to ask about fees and how to get an appointment.",
+      "Hours are not listed in the information; confirm them by phone.",
+      "Bring any questions you have about the services offered."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Sanctuary for Families?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto?",
+        "a": "Está en 30 Wall Street, 8.º piso, Nueva York, NY 10005. Teléfono: (212) 349-6009."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la información. Llame al (212) 349-6009 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Sanctuary for Families?",
+        "a": "It is a nonprofit that appears on the DOJ (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "Where is it and how do I contact it?",
+        "a": "It is at 30 Wall Street, 8th Floor, New York, NY 10005. Phone: (212) 349-6009."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the information. Call (212) 349-6009 to ask."
+      }
+    ]
+  }
+}

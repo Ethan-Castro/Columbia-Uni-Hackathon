@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-ro-urban-justice-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:42.057Z",
+  "facts_hash": "fb6f4ba908e5b0f5",
+  "article": {
+    "title_es": "Urban Justice Center: organización en la lista del DOJ en Nueva York",
+    "title_en": "Urban Justice Center: DOJ-listed organization in New York",
+    "summary_es": "Urban Justice Center aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en 40 Rector Street, piso 9, Nueva York, NY 11206.",
+    "summary_en": "Urban Justice Center appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations. It is located at 40 Rector Street, 9th Floor, New York, NY 11206.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro.",
+      "Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal migratoria.",
+      "Los honorarios y el proceso de admisión no aparecen en la lista; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) Roster of Recognized Organizations.",
+      "Recognized organizations are non-profits.",
+      "Their DOJ-accredited representatives may provide immigration legal help.",
+      "Fees and the intake process are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir: (646) 602-5607.",
+      "Pregunte por teléfono sobre honorarios y cómo pedir una cita.",
+      "La dirección es 40 Rector Street, piso 9, Nueva York, NY 11206."
+    ],
+    "visit_tips_en": [
+      "Call before you go: (646) 602-5607.",
+      "Ask by phone about fees and how to request an appointment.",
+      "The address is 40 Rector Street, 9th Floor, New York, NY 11206."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Urban Justice Center?",
+        "a": "Es una organización que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "Los honorarios no aparecen en la lista. Llame al (646) 602-5607 para preguntar."
+      },
+      {
+        "q": "¿Cómo puedo obtener una cita?",
+        "a": "El proceso de admisión no aparece en la lista. Llame al (646) 602-5607."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Urban Justice Center?",
+        "a": "It is an organization listed on the DOJ (EOIR) Roster of Recognized Organizations."
+      },
+      {
+        "q": "How much do its services cost?",
+        "a": "Fees are not listed. Call (646) 602-5607 to ask."
+      },
+      {
+        "q": "How can I get an appointment?",
+        "a": "The intake process is not listed. Call (646) 602-5607."
+      }
+    ]
+  }
+}

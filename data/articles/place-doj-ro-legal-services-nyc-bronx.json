@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-legal-services-nyc-bronx",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:37:51.957Z",
+  "facts_hash": "e07be26b39ab4bc5",
+  "article": {
+    "title_es": "Legal Services NYC-Bronx: ayuda legal de inmigración en el Bronx",
+    "title_en": "Legal Services NYC-Bronx: immigration legal help in the Bronx",
+    "summary_es": "Legal Services NYC-Bronx es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas, ubicada en el Bronx.",
+    "summary_en": "Legal Services NYC-Bronx is a nonprofit listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations, located in the Bronx.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 349 East 149th Street, 10th Floor, Bronx, NY 10451.",
+      "Puede llamar al (718) 928-3700 para preguntar.",
+      "Los servicios, tarifas y el proceso de cita no están indicados; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) Roster of Recognized Organizations.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 349 East 149th Street, 10th Floor, Bronx, NY 10451.",
+      "You can call (718) 928-3700 to ask questions.",
+      "Services, fees, and intake process are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "Antes de ir, llame al (718) 928-3700 para confirmar cómo recibir ayuda.",
+      "El horario de atención no está indicado en esta información; pregunte por teléfono.",
+      "Pregunte qué servicios ofrece y si hay costos."
+    ],
+    "visit_tips_en": [
+      "Before visiting, call (718) 928-3700 to confirm how to get help.",
+      "Hours are not listed in this information; ask by phone.",
+      "Ask what services are offered and whether there are fees."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están indicadas. Llame al (718) 928-3700 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Llame al (718) 928-3700 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a nonprofit listed on the DOJ (EOIR) Roster of Recognized Organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (718) 928-3700 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. Call (718) 928-3700 to ask."
+      }
+    ]
+  }
+}

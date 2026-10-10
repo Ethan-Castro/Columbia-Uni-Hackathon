@@ -69,6 +69,20 @@ deno test --allow-read --allow-write --allow-env scripts/              # CSV imp
 deno run -A scripts/base44-sync.ts                                     # regenerate + type-check the Base44 copy
 ```
 
+### Place pages for search (one page per resource)
+
+The web app is a hash-routed SPA, which Google can't index. So every place with a street address also gets a plain static bilingual page at `https://inmigracion-nyc.com/lugares/<place id>.html`, with no JavaScript. Each page has the summary, how they help, address with a Google Maps link, tap-to-call phone, hours, what to bring, an FAQ, programs offered, an OpenStreetMap map, related places, the source and its check date, and schema.org JSON-LD (LocalBusiness / LegalService / GovernmentOffice / MedicalClinic + FAQPage). Individual people (DOJ accredited representatives) never get a page.
+
+```sh
+deno task articles -- --only-missing   # new places, and places whose facts changed (needs OPENROUTER_API_KEY)
+deno task pages                        # web/public/lugares/*.html, lugares/index.html, sitemap.xml, robots.txt
+```
+
+- `scripts/articles.ts` writes one short Spanish + English article per place with OpenRouter (`z-ai/glm-5.3-flash`, JSON schema, one call per place). The model sees only that place's facts and the programs it offers. Each article is checked against those facts before it is saved: no new numbers, phones, links, prices or "free" claims, no service-area or what-to-bring guesses, and no immigration-status talk. A failed check is retried with feedback. Results are cached in `data/articles/<place id>.json` along with a hash of the facts. Flags: `--limit N`, `--concurrency 12`, `--id <place id>`, `--verbose`.
+- `scripts/build-pages.ts` builds the pages from `data/*.json` + `data/articles/`. A place with no article, or one whose facts changed since its article was written, gets a facts-only page. It also writes the A–Z index plus borough (`zona-*.html`) and need (`ayuda-*.html`) hub pages, `sitemap.xml` and `robots.txt`, and removes pages for places that no longer exist.
+
+**When a new resource is approved,** run both commands (articles with `--only-missing`) and commit `data/articles/` and `web/public/` before the next site deploy. That way every new resource gets its own indexed page.
+
 ## MCP connector (Claude, ChatGPT)
 
 The MCP server is `functions/mcp` (stateless Streamable HTTP, JSON-RPC over POST). To use the local server from Claude:

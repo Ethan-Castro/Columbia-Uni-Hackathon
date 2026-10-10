@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-solid-rock-baptist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:00.288Z",
+  "facts_hash": "1745c22d23bea07f",
+  "article": {
+    "title_es": "Solid Rock Baptist Church: despensa de alimentos en Brooklyn",
+    "title_en": "Solid Rock Baptist Church: food pantry in Brooklyn",
+    "summary_es": "Solid Rock Baptist Church aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, en la avenida Tompkins 120. Atiende los lunes y jueves por la mañana.",
+    "summary_en": "Solid Rock Baptist Church appears on the Food Help NYC map as a food pantry in Brooklyn, at 120 Tompkins Ave. It is open Monday and Thursday mornings.",
+    "how_they_help_es": [
+      "Está en el mapa Food Help NYC como despensa de alimentos.",
+      "Reparte alimentos los lunes de 9am a 12pm.",
+      "También reparte alimentos los jueves de 9am a 12pm.",
+      "La lista no dice qué alimentos da ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Distributes food on Mondays from 9am to 12pm.",
+      "Also distributes food on Thursdays from 9am to 12pm.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Dirección: 120 Tompkins Ave, Brooklyn, NY 11206.",
+      "Horario de despensa: lunes y jueves, 9am a 12pm.",
+      "Llame antes de ir al (718) 384-8764 para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "Address: 120 Tompkins Ave, Brooklyn, NY 11206.",
+      "Pantry hours: Monday and Thursday, 9am to 12pm.",
+      "Call ahead at (718) 384-8764 to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista oficial, es una despensa de alimentos que atiende los lunes y jueves de 9am a 12pm."
+      },
+      {
+        "q": "¿Dónde está y cómo puedo contactarlo?",
+        "a": "Está en 120 Tompkins Ave, Brooklyn, NY 11206. El teléfono que aparece en la lista es (718) 384-8764."
+      },
+      {
+        "q": "¿Qué alimentos reparte?",
+        "a": "No está indicado en la lista. Es mejor llamar al (718) 384-8764 para saber qué ofrece."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the official listing, it is a food pantry open Mondays and Thursdays from 9am to 12pm."
+      },
+      {
+        "q": "Where is it and how can I contact it?",
+        "a": "It is at 120 Tompkins Ave, Brooklyn, NY 11206. The phone number in the listing is (718) 384-8764."
+      },
+      {
+        "q": "What food does it give out?",
+        "a": "That is not listed. It is best to call (718) 384-8764 to find out what is offered."
+      }
+    ]
+  }
+}

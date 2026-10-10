@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-make-the-road-new-york-bk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:23.528Z",
+  "facts_hash": "ce4f63055ebb2fb9",
+  "article": {
+    "title_es": "Make the Road New York (BK): despensa de alimentos en Brooklyn",
+    "title_en": "Make the Road New York (BK): food pantry in Brooklyn",
+    "summary_es": "Make the Road New York (BK) es una despensa de alimentos en Brooklyn, según el mapa Food Help NYC de la ciudad. Reparte alimentos los viernes por la mañana.",
+    "summary_en": "Make the Road New York (BK) is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It gives out food on Friday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 301 Grove St, Brooklyn, NY, 11237.",
+      "Atiende los viernes de 8am a 11am (despensa).",
+      "Puede llamar al (718) 418-7690 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 301 Grove St, Brooklyn, NY, 11237.",
+      "It is open Fridays 8am-11am (pantry).",
+      "You can call (718) 418-7690 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es viernes de 8am a 11am.",
+      "Llame al (718) 418-7690 antes de ir para confirmar los detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Fridays 8am-11am.",
+      "Call (718) 418-7690 before going to confirm details.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (718) 418-7690 para preguntar qué ofrece."
+      },
+      {
+        "q": "¿Hay algún requisito para recibir alimentos?",
+        "a": "La lista no menciona requisitos. Es mejor llamar al (718) 418-7690 antes de ir."
+      },
+      {
+        "q": "¿Cuándo y dónde atiende?",
+        "a": "En 301 Grove St, Brooklyn, NY, 11237, los viernes de 8am a 11am (despensa)."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give out?",
+        "a": "The listing does not say. Call (718) 418-7690 to ask what they offer."
+      },
+      {
+        "q": "Are there any requirements to receive food?",
+        "a": "The listing does not mention any requirements. It is best to call (718) 418-7690 before going."
+      },
+      {
+        "q": "When and where is it open?",
+        "a": "At 301 Grove St, Brooklyn, NY, 11237, on Fridays 8am-11am (pantry)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-first-church-of-god-in-christ-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:48.988Z",
+  "facts_hash": "7ed0ca0a77f1c4ca",
+  "article": {
+    "title_es": "First Church of God in Christ: despensa de alimentos en Saint Albans",
+    "title_en": "First Church of God in Christ: food pantry in Saint Albans",
+    "summary_es": "Esta iglesia en Saint Albans, Queens, aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos. Abre los miércoles de 12pm a 3pm.",
+    "summary_en": "This church in Saint Albans, Queens, appears on the City's Food Help NYC map as a food pantry. It is open Wednesdays from 12pm to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 187-10 Baisley Blvd, Saint Albans, Queens.",
+      "Abre los miércoles de 12pm a 3pm.",
+      "Puede llamar al (718) 712-4831 para preguntar por los alimentos y requisitos."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 187-10 Baisley Blvd, Saint Albans, Queens.",
+      "It is open Wednesdays from 12pm to 3pm.",
+      "You can call (718) 712-4831 to ask about food and requirements."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para confirmar el horario y preguntar qué alimentos dan.",
+      "La despensa abre el miércoles de 12pm a 3pm.",
+      "Verifique la información en el mapa Food Help NYC, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "Call before you go to confirm the schedule and ask what food is given.",
+      "The pantry is open Wednesday 12pm-3pm.",
+      "Check the Food Help NYC map, since information can change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos dan?",
+        "a": "La lista no indica qué alimentos se entregan ni si hay requisitos. Llame al (718) 712-4831 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 12pm a 3pm, según la información de la ciudad."
+      },
+      {
+        "q": "¿Necesito hacer cita o traer documentos?",
+        "a": "La lista no menciona citas ni documentos. Se recomienda llamar antes para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food do they give?",
+        "a": "The listing does not say what food is given or if there are requirements. Call (718) 712-4831 to ask."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 12pm to 3pm, according to the city's information."
+      },
+      {
+        "q": "Do I need an appointment or documents?",
+        "a": "The listing does not mention appointments or documents. It is best to call ahead and ask."
+      }
+    ]
+  }
+}

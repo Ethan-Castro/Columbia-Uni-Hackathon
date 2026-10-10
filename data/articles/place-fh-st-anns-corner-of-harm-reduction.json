@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-anns-corner-of-harm-reduction",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:45:27.707Z",
+  "facts_hash": "b8c947f2acb3b890",
+  "article": {
+    "title_es": "St. Ann's Corner of Harm Reduction: ayuda de alimentos en el Bronx",
+    "title_en": "St. Ann's Corner of Harm Reduction: food help in the Bronx",
+    "summary_es": "St. Ann's Corner of Harm Reduction es una despensa de alimentos y comedor en el Bronx, incluido en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "St. Ann's Corner of Harm Reduction is a food pantry and soup kitchen in the Bronx, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos/comedor en el mapa Food Help NYC de la ciudad.",
+      "Está en 886 Westchester Ave, en el Bronx (código postal 10459).",
+      "Horario del comedor: de lunes a viernes, 6am a 12pm.",
+      "Puede llamar al (718) 585-5544 para más información.",
+      "El listado no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry/soup kitchen on the City's Food Help NYC map.",
+      "Located at 886 Westchester Ave in the Bronx (ZIP 10459).",
+      "Soup kitchen hours: Mon-Fri 6am-12pm.",
+      "You can call (718) 585-5544 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario del comedor es de lunes a viernes, 6am a 12pm.",
+      "Llame al (718) 585-5544 antes de ir para confirmar los detalles.",
+      "El listado no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Soup kitchen hours are Mon-Fri 6am-12pm.",
+      "Call (718) 585-5544 before you go to confirm details.",
+      "The listing does not say what food is given or if there are requirements, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de alimentos entrega?",
+        "a": "Aparece como despensa de alimentos/comedor en el mapa Food Help NYC de la ciudad. No se indica qué alimentos entrega; pregunte cuando llame."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "El listado indica de lunes a viernes de 6am a 12pm para el comedor. Llame antes para confirmar."
+      },
+      {
+        "q": "¿Necesito llevar algo o inscribirme?",
+        "a": "El listado no lo indica. Llame al (718) 585-5544 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of food does it give?",
+        "a": "It is listed as a food pantry/soup kitchen on the City's Food Help NYC map. What food is given is not listed, so ask when you call."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The listing says Mon-Fri 6am-12pm for the soup kitchen. Call ahead to confirm."
+      },
+      {
+        "q": "Do I need to bring anything or sign up?",
+        "a": "The listing does not say. Call (718) 585-5544 to ask before you go."
+      }
+    ]
+  }
+}

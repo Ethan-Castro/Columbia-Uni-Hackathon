@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-cathedral-community-cares",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:41.107Z",
+  "facts_hash": "a02f733031f751fa",
+  "article": {
+    "title_es": "Cathedral Community Cares: despensa de alimentos en Manhattan",
+    "title_en": "Cathedral Community Cares: food pantry in Manhattan",
+    "summary_es": "Cathedral Community Cares es una despensa de alimentos en Manhattan, en la lista del mapa Food Help NYC de la ciudad. Abre los jueves de 12pm a 6pm.",
+    "summary_en": "Cathedral Community Cares is a food pantry in Manhattan, listed on the City's Food Help NYC map. It is open Thursdays from 12pm to 6pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1047 Amsterdam Ave, Nueva York, NY 10025.",
+      "Atiende los jueves de 12pm a 6pm (despensa).",
+      "Puede llamar al (347) 376-2898 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1047 Amsterdam Ave, New York, NY 10025.",
+      "It is open Thursdays from 12pm to 6pm (pantry).",
+      "You can call (347) 376-2898 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los jueves de 12pm a 6pm, según la información publicada.",
+      "Llame al (347) 376-2898 para preguntar qué alimentos ofrece y si hay requisitos.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Thursdays from 12pm to 6pm, according to the published information.",
+      "Call (347) 376-2898 to ask what food is offered and if there are any requirements.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Es una despensa de alimentos en Manhattan, listada en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los jueves de 12pm a 6pm. Se recomienda llamar al (347) 376-2898 para confirmar."
+      },
+      {
+        "q": "¿Qué debo llevar o qué requisitos hay?",
+        "a": "No está indicado en la información disponible. Llame al (347) 376-2898 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is a food pantry in Manhattan, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 12pm to 6pm. It is best to call (347) 376-2898 to confirm."
+      },
+      {
+        "q": "What should I bring, and are there any requirements?",
+        "a": "This is not listed in the available information. Call (347) 376-2898 to ask before you go."
+      }
+    ]
+  }
+}

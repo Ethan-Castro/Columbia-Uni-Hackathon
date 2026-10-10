@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-cuny-citizenship-now",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:25.096Z",
+  "facts_hash": "5311833e689fddc4",
+  "article": {
+    "title_es": "CUNY Citizenship Now!: ayuda legal de inmigración en Manhattan",
+    "title_en": "CUNY Citizenship Now!: immigration legal help in Manhattan",
+    "summary_es": "CUNY Citizenship Now! aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en el 5030 Broadway, en Manhattan.",
+    "summary_en": "CUNY Citizenship Now! appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located at 5030 Broadway in Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista de organizaciones reconocidas del Departamento de Justicia (EOIR).",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro con representantes acreditados por el DOJ.",
+      "Esos representantes pueden ofrecer ayuda legal de inmigración.",
+      "Está en 5030 Broadway, Room H201, New York, NY 10034.",
+      "Los servicios, cuotas y cómo pedir cita no están en la lista; pregunte llamando al (646) 664-9400."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "Recognized organizations are non-profits with DOJ-accredited representatives.",
+      "Those representatives may provide immigration legal help.",
+      "Located at 5030 Broadway, Room H201, New York, NY 10034.",
+      "Services, fees, and how to get an appointment are not listed; ask by calling (646) 664-9400."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (646) 664-9400 para preguntar por los servicios y cómo pedir una cita.",
+      "La dirección es 5030 Broadway, Room H201, New York, NY 10034.",
+      "Las cuotas y el horario no están en la lista; pregunte directamente."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (646) 664-9400 to ask about services and how to make an appointment.",
+      "The address is 5030 Broadway, Room H201, New York, NY 10034.",
+      "Fees and hours are not listed; ask directly."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es CUNY Citizenship Now!?",
+        "a": "Es una organización que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas y representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las cuotas no están en la lista. Llame al (646) 664-9400 para preguntar."
+      },
+      {
+        "q": "¿Cómo pido una cita?",
+        "a": "El proceso para pedir cita no está en la lista. Llame al (646) 664-9400."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is CUNY Citizenship Now!?",
+        "a": "It is an organization listed on the U.S. Department of Justice (EOIR) list of recognized organizations and accredited representatives."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (646) 664-9400 to ask."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The appointment process is not listed. Call (646) 664-9400."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-community-feed-up-masjidus-sabur-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:29.850Z",
+  "facts_hash": "1bca52eaec907c36",
+  "article": {
+    "title_es": "Community Feed Up: despensa de alimentos en el Bronx",
+    "title_en": "Community Feed Up: food pantry in the Bronx",
+    "summary_es": "Community Feed Up (Masjidus Sabur, Inc) es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad. Reparte alimentos los viernes de 4pm a 6pm.",
+    "summary_en": "Community Feed Up (Masjidus Sabur, Inc) is a food pantry in the Bronx listed on the City's Food Help NYC map. It distributes food on Fridays from 4pm to 6pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 2975 Bainbridge, NY 10458, en el Bronx.",
+      "Abre los viernes de 4pm a 6pm para la despensa.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito; pregunte al llegar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2975 Bainbridge, NY 10458, in the Bronx.",
+      "It is open Fridays from 4pm to 6pm for the pantry.",
+      "The listing does not say what food is given or if there are any requirements; ask when you visit."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los viernes de 4pm a 6pm.",
+      "La dirección exacta es 2975 Bainbridge, NY 10458.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; confirme los detalles antes de ir."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Fridays from 4pm to 6pm.",
+      "The exact address is 2975 Bainbridge, NY 10458.",
+      "The information was last checked on October 10, 2026; confirm details before you go."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Community Feed Up?",
+        "a": "Es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "La despensa abre los viernes de 4pm a 6pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "La lista no indica qué alimentos da ni si pide requisitos. Le recomendamos preguntar directamente al llegar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Community Feed Up?",
+        "a": "It is a food pantry in the Bronx listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The pantry is open on Fridays from 4pm to 6pm."
+      },
+      {
+        "q": "What food does it give and what do I need to receive it?",
+        "a": "The listing does not say what food is given or if there are requirements. We recommend asking directly when you visit."
+      }
+    ]
+  }
+}

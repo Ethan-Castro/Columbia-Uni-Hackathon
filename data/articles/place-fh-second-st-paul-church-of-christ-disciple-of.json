@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-second-st-paul-church-of-christ-disciple-of",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:55.130Z",
+  "facts_hash": "9792b6579b8c045d",
+  "article": {
+    "title_es": "Second St. Paul Church of Christ: despensa de alimentos en Brooklyn",
+    "title_en": "Second St. Paul Church of Christ: food pantry in Brooklyn",
+    "summary_es": "Esta iglesia en Brooklyn aparece en el mapa Food Help NYC como despensa de alimentos. Abre los sábados de 8am a 10am, y la despensa funciona el segundo y cuarto sábado del mes.",
+    "summary_en": "This Brooklyn church is listed on the City's Food Help NYC map as a food pantry. It is open Saturdays 8am-10am, with the pantry on the 2nd and 4th Saturday.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1048 Sutter Ave, Brooklyn, NY 11208.",
+      "Abre los sábados de 8am a 10am.",
+      "La despensa funciona el segundo y cuarto sábado del mes.",
+      "Qué alimentos entrega y si hay requisitos no aparecen en la información disponible."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1048 Sutter Ave, Brooklyn, NY 11208.",
+      "It is open Saturdays from 8am to 10am.",
+      "The pantry runs on the 2nd and 4th Saturday of the month.",
+      "What food is given and any requirements are not listed."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado entre 8am y 10am; recuerde que la despensa funciona solo el segundo y cuarto sábado del mes.",
+      "Llame al (718) 235-8922 antes de ir para confirmar horarios y detalles.",
+      "Pregunte qué alimentos entrega y si hay algún requisito."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday between 8am and 10am; remember the pantry runs only on the 2nd and 4th Saturday.",
+      "Call (718) 235-8922 before visiting to confirm hours and details.",
+      "Ask what food is given and whether there are any requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 8am a 10am. La despensa funciona el segundo y cuarto sábado del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "La información disponible no lo indica. Puede llamar al (718) 235-8922 para preguntar."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1048 Sutter Ave, Brooklyn, NY 11208."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 8am to 10am. The pantry runs on the 2nd and 4th Saturday of the month."
+      },
+      {
+        "q": "What food does it give out?",
+        "a": "That is not listed in the available information. You can call (718) 235-8922 to ask."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 1048 Sutter Ave, Brooklyn, NY 11208."
+      }
+    ]
+  }
+}

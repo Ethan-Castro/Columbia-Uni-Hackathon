@@ -1,0 +1,60 @@
+{
+  "place_id": "place-fh-vets-inc-hollis-gardens",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:13.228Z",
+  "facts_hash": "318160fbd9cdf490",
+  "article": {
+    "title_es": "VETS INC, Hollis Gardens: despensa de alimentos en Saint Albans, Queens",
+    "title_en": "VETS INC, Hollis Gardens: food pantry in Saint Albans, Queens",
+    "summary_es": "VETS INC, Hollis Gardens es una despensa de alimentos en Saint Albans, Queens, que aparece en el mapa Food Help NYC de la ciudad. Atiende los jueves de 3pm a 5pm.",
+    "summary_en": "VETS INC, Hollis Gardens is a food pantry in Saint Albans, Queens, listed on the City's Food Help NYC map. It is open Thursdays from 3pm to 5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 202-14 Hollis Ave, Saint Albans, Queens, NY 11412.",
+      "Abre los jueves de 3pm a 5pm para la despensa.",
+      "Puede llamar al (646) 261-1973 para hacer preguntas."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 202-14 Hollis Ave, Saint Albans, Queens, NY 11412.",
+      "It is open Thursdays from 3pm to 5pm for the pantry.",
+      "You can call (646) 261-1973 with questions."
+    ],
+    "visit_tips_es": [
+      "La despensa solo abre los jueves de 3pm a 5pm, así que planifique su visita para ese día.",
+      "No se indica qué alimentos se entregan ni si hay requisitos; llame al (646) 261-1973 antes de ir para preguntar."
+    ],
+    "visit_tips_en": [
+      "The pantry is only open Thursdays from 3pm to 5pm, so plan your visit for that day.",
+      "The listing does not say what food is given or if there are any requirements; call (646) 261-1973 before going to ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es VETS INC, Hollis Gardens?",
+        "a": "Es una despensa de alimentos en Saint Albans, Queens, que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los jueves de 3pm a 5pm para la despensa."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué necesito para recibir ayuda?",
+        "a": "No se indica en la información disponible. Llame al (646) 261-1973 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is VETS INC, Hollis Gardens?",
+        "a": "It is a food pantry in Saint Albans, Queens, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Thursdays from 3pm to 5pm for the pantry."
+      },
+      {
+        "q": "What food does it give, and what do I need to get help?",
+        "a": "That is not listed in the available information. Call (646) 261-1973 to ask before going."
+      }
+    ]
+  }
+}

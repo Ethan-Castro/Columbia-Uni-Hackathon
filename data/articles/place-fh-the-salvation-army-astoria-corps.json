@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-the-salvation-army-astoria-corps",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:12.092Z",
+  "facts_hash": "fdbee0d553fa4857",
+  "article": {
+    "title_es": "The Salvation Army Astoria Corps: despensa de alimentos en Queens",
+    "title_en": "The Salvation Army Astoria Corps: food pantry in Queens",
+    "summary_es": "The Salvation Army Astoria Corps es una despensa de alimentos en Astoria, Queens, que aparece en el mapa Food Help NYC de la ciudad. Atiende los martes y jueves de 10am a 2pm.",
+    "summary_en": "The Salvation Army Astoria Corps is a food pantry in Astoria, Queens, listed on the City's Food Help NYC map. It is open for pantry visits on Tuesdays and Thursdays from 10am to 2pm.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 45-18 Broadway, en Astoria, Queens.",
+      "Abre para la despensa los martes y jueves de 10am a 2pm.",
+      "Puede llamar al (718) 721-9046 para más información."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 45-18 Broadway in Astoria, Queens.",
+      "Open for pantry visits on Tuesdays and Thursdays, 10am to 2pm.",
+      "You can call (718) 721-9046 for more information."
+    ],
+    "visit_tips_es": [
+      "Visite durante el horario de la despensa: martes o jueves, de 10am a 2pm.",
+      "Llame al (718) 721-9046 antes de ir para preguntar qué alimentos entregan y si hay requisitos.",
+      "La información no indica qué documentos llevar, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Visit during pantry hours: Tuesday or Thursday, 10am to 2pm.",
+      "Call (718) 721-9046 ahead to ask what food is given and any requirements.",
+      "The listing does not say what documents to bring, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los martes y jueves, de 10am a 2pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 45-18 Broadway, Astoria, Nueva York, 11103, en Queens."
+      },
+      {
+        "q": "¿Necesito documentos o una cita?",
+        "a": "La información no lo indica. Llame al (718) 721-9046 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays and Thursdays, 10am to 2pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "45-18 Broadway, Astoria, New York, 11103, in Queens."
+      },
+      {
+        "q": "Do I need documents or an appointment?",
+        "a": "The listing does not say. Call (718) 721-9046 to ask before visiting."
+      }
+    ]
+  }
+}

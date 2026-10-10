@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-the-gambian-youth-organization-food-pantry-f",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:44.273Z",
+  "facts_hash": "fb248d71f3f1a0e2",
+  "article": {
+    "title_es": "The Gambian Youth Organization: despensa de alimentos en el Bronx",
+    "title_en": "The Gambian Youth Organization: food pantry in the Bronx",
+    "summary_es": "The Gambian Youth Organization Food Pantry es una despensa de alimentos en el Bronx, en la lista Food Help NYC de la ciudad. Abre el 2.º y 4.º domingo del mes, de 2pm a 5pm.",
+    "summary_en": "The Gambian Youth Organization Food Pantry is a food pantry in the Bronx, listed on the City's Food Help NYC map. It opens on the 2nd and 4th Sunday of the month, 2pm-5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 214 E 181st St, Bronx, NY 10457.",
+      "Abre los domingos de 2pm a 5pm (el 2.º y 4.º domingo del mes).",
+      "Puede llamar al (646) 470-6330 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 214 E 181st St, Bronx, NY 10457.",
+      "It opens Sundays 2pm-5pm (2nd and 4th Sunday of the month).",
+      "You can call (646) 470-6330 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "La despensa abre el 2.º y 4.º domingo del mes, de 2pm a 5pm.",
+      "La información fue verificada por última vez el 10 de octubre de 2026.",
+      "No se indica qué alimentos entrega ni si hay requisitos; llame al (646) 470-6330 para preguntar."
+    ],
+    "visit_tips_en": [
+      "The pantry opens on the 2nd and 4th Sunday of the month, 2pm-5pm.",
+      "This information was last checked on October 10, 2026.",
+      "What food is given and any requirements are not listed; call (646) 470-6330 to ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los domingos de 2pm a 5pm, pero solo el 2.º y 4.º domingo de cada mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 214 E 181st St, Bronx, New York, 10457."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado. Llame al (646) 470-6330 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Sundays 2pm-5pm, but only on the 2nd and 4th Sunday of each month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 214 E 181st St, Bronx, New York, 10457."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "That is not listed. Call (646) 470-6330 to ask before you go."
+      }
+    ]
+  }
+}

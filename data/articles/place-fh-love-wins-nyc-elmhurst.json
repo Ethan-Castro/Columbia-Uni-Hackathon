@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-love-wins-nyc-elmhurst",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:48.430Z",
+  "facts_hash": "3f1769a7ab7ab4d1",
+  "article": {
+    "title_es": "LOVE WINS NYC - Elmhurst: despensa de alimentos en Queens",
+    "title_en": "LOVE WINS NYC - Elmhurst: food pantry in Queens",
+    "summary_es": "LOVE WINS NYC - Elmhurst es una despensa de alimentos en Jackson Heights, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los viernes de 1pm a 5pm, y la despensa funciona solo el cuarto viernes del mes.",
+    "summary_en": "LOVE WINS NYC - Elmhurst is a food pantry in Jackson Heights, Queens, listed on the City's Food Help NYC map. It is open Fridays 1pm-5pm, and the pantry runs on the 4th Friday only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 3763 83rd Street, Jackson Heights, NY 11372.",
+      "Abre los viernes de 1pm a 5pm; la despensa solo el cuarto viernes.",
+      "Puede llamar al (201) 701-1024 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 3763 83rd Street, Jackson Heights, NY 11372.",
+      "Open Fridays 1pm-5pm; the pantry runs on the 4th Friday only.",
+      "You can call (201) 701-1024 to ask questions before visiting.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "Recuerde que la despensa funciona solo el cuarto viernes del mes.",
+      "El horario es viernes de 1pm a 5pm.",
+      "Llame al (201) 701-1024 antes de ir para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "Remember the pantry runs on the 4th Friday of the month only.",
+      "Hours are Fridays 1pm-5pm.",
+      "Call (201) 701-1024 before going to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es LOVE WINS NYC - Elmhurst?",
+        "a": "Es una despensa de alimentos en Jackson Heights, Queens, que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los viernes de 1pm a 5pm. La despensa funciona solo el cuarto viernes del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "La lista no indica qué alimentos da ni si pide requisitos. Llame al (201) 701-1024 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is LOVE WINS NYC - Elmhurst?",
+        "a": "It is a food pantry in Jackson Heights, Queens, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays 1pm-5pm. The pantry runs on the 4th Friday of the month only."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "The listing does not say what food is given or any requirements. Call (201) 701-1024 to ask."
+      }
+    ]
+  }
+}

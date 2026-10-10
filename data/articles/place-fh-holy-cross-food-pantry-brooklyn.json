@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-holy-cross-food-pantry-brooklyn",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:10.312Z",
+  "facts_hash": "aae6026c7454c360",
+  "article": {
+    "title_es": "Despensa de Alimentos Holy Cross en Brooklyn",
+    "title_en": "Holy Cross Food Pantry in Brooklyn",
+    "summary_es": "La despensa de alimentos Holy Cross aparece en el mapa Food Help NYC de la ciudad. Reparte alimentos los martes y jueves por la tarde en Brooklyn.",
+    "summary_en": "Holy Cross Food Pantry is listed on the City's Food Help NYC map. It gives out food on Tuesday and Thursday afternoons in Brooklyn.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los martes de 2pm a 3:30pm.",
+      "También reparte alimentos los jueves de 2pm a 3:30pm.",
+      "Está ubicada en 2530 Church Ave, Brooklyn, NY 11226.",
+      "Qué alimentos entrega y si hay requisitos no están indicados; pregunte llamando al (718) 469-5900."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Hands out food on Tuesdays from 2pm to 3:30pm.",
+      "Also hands out food on Thursdays from 2pm to 3:30pm.",
+      "Located at 2530 Church Ave, Brooklyn, NY 11226.",
+      "What food is given and any requirements are not listed; ask by calling (718) 469-5900."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes y jueves de 2pm a 3:30pm.",
+      "Llame al (718) 469-5900 antes de ir para confirmar el horario y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday and Thursday, 2pm to 3:30pm.",
+      "Call (718) 469-5900 before going to confirm hours and ask what to bring.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "No está indicado en la información disponible. Llame al (718) 469-5900 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "No se indican requisitos. Se recomienda llamar al (718) 469-5900 antes de ir."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes y jueves de 2pm a 3:30pm, según el mapa Food Help NYC."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give out?",
+        "a": "That is not listed in the available information. Call (718) 469-5900 to ask."
+      },
+      {
+        "q": "Do I need any documents or meet requirements?",
+        "a": "No requirements are listed. It is best to call (718) 469-5900 before going."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays and Thursdays from 2pm to 3:30pm, according to the Food Help NYC map."
+      }
+    ]
+  }
+}

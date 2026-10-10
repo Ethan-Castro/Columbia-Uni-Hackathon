@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-salvation-army-new-york-temple-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:46.321Z",
+  "facts_hash": "b48b0e0a6764a4b7",
+  "article": {
+    "title_es": "The Salvation Army New Temple: comedor de sopa en Manhattan",
+    "title_en": "The Salvation Army New Temple: soup kitchen in Manhattan",
+    "summary_es": "The Salvation Army New Temple (SK) es un comedor de sopa en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Sirve comidas de lunes a jueves de 12pm a 1pm.",
+    "summary_en": "The Salvation Army New Temple (SK) is a soup kitchen in Manhattan listed on the City's Food Help NYC map. It serves meals Monday through Thursday from 12pm to 1pm.",
+    "how_they_help_es": [
+      "Es un comedor de sopa que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicado en 120 West 14th Street, en Manhattan.",
+      "El horario del comedor es de lunes a jueves, de 12pm a 1pm.",
+      "Puede llamar al (212) 337-7469 para más información.",
+      "La información no dice qué comida se ofrece ni si hay requisitos; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is a soup kitchen listed on the City's Food Help NYC map.",
+      "It is located at 120 West 14th Street in Manhattan.",
+      "Soup kitchen hours are Monday through Thursday, 12pm to 1pm.",
+      "You can call (212) 337-7469 for more information.",
+      "The listing does not say what food is given or any requirements, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "El servicio de comidas es solo de una hora, de 12pm a 1pm, de lunes a jueves.",
+      "Llame al (212) 337-7469 antes de ir para confirmar los horarios y hacer sus preguntas.",
+      "La información no describe qué se sirve, así que es mejor preguntar con anticipación."
+    ],
+    "visit_tips_en": [
+      "Meal service is only one hour, from 12pm to 1pm, Monday through Thursday.",
+      "Call (212) 337-7469 before going to confirm times and ask any questions.",
+      "The listing does not describe what is served, so it is best to ask ahead."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es este?",
+        "a": "Es un comedor de sopa que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "De lunes a jueves, de 12pm a 1pm (comedor de sopa)."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al (212) 337-7469. La dirección es 120 West 14th Street, New York, NY 10011."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a soup kitchen listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Monday through Thursday, 12pm to 1pm (soup kitchen)."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call (212) 337-7469. The address is 120 West 14th Street, New York, NY 10011."
+      }
+    ]
+  }
+}

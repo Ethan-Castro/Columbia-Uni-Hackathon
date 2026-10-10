@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-esther-grunblatt-central-queens-y-fpk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:47.415Z",
+  "facts_hash": "12d61b197c84da84",
+  "article": {
+    "title_es": "Esther Grunblatt-Central Queens Y: despensa de alimentos en Forest Hills",
+    "title_en": "Esther Grunblatt-Central Queens Y: food pantry in Forest Hills",
+    "summary_es": "Esta despensa de alimentos aparece en el mapa Food Help NYC de la ciudad. Está en Forest Hills, Queens, y abre de lunes a viernes.",
+    "summary_en": "This food pantry appears on the City's Food Help NYC map. It is located in Forest Hills, Queens, and is open Monday through Friday.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 67-09 108th St, Forest Hills, Queens, código postal 11375.",
+      "Abre de lunes a viernes; los lunes, martes y miércoles también tiene horario por la tarde.",
+      "Puede llamar al (718) 704-8160 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito; pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 67-09 108th St, Forest Hills, Queens, ZIP code 11375.",
+      "It is open Monday through Friday; Mondays, Tuesdays and Wednesdays also have evening hours.",
+      "You can call (718) 704-8160 with questions.",
+      "The listing does not say what food is given or if there are any requirements; ask before going."
+    ],
+    "visit_tips_es": [
+      "Horario de la despensa: lunes a miércoles de 9am a 2pm y de 3:30pm a 6:30pm; jueves de 9am a 2pm; viernes de 9am a 12pm.",
+      "Llame al (718) 704-8160 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Mon-Wed 9am-2pm, 3:30pm-6:30pm; Thu 9am-2pm; Fri 9am-12pm.",
+      "Call (718) 704-8160 before going to confirm hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 67-09 108th St, Forest Hills, Queens, Nueva York, 11375."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Lunes a miércoles de 9am a 2pm y de 3:30pm a 6:30pm; jueves de 9am a 2pm; viernes de 9am a 12pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No está en la lista. Llame al (718) 704-8160 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 67-09 108th St, Forest Hills, Queens, New York, 11375."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Mon-Wed 9am-2pm, 3:30pm-6:30pm; Thu 9am-2pm; Fri 9am-12pm."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "That is not listed. Call (718) 704-8160 to ask."
+      }
+    ]
+  }
+}

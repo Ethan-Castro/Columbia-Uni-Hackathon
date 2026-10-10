@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-queens-jewish-community-council",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:04.244Z",
+  "facts_hash": "ec151a464db03d0f",
+  "article": {
+    "title_es": "Queens Jewish Community Council: despensa de alimentos en Forest Hills",
+    "title_en": "Queens Jewish Community Council: food pantry in Forest Hills",
+    "summary_es": "Queens Jewish Community Council es una despensa de alimentos en Forest Hills, Queens, que aparece en el mapa Food Help NYC de la ciudad. Está abierta de lunes a jueves, de 11am a 2pm.",
+    "summary_en": "Queens Jewish Community Council is a food pantry in Forest Hills, Queens, listed on the City's Food Help NYC map. It is open Monday to Thursday, 11am to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "El horario de la despensa es de lunes a jueves, 11am a 2pm.",
+      "Está ubicada en 119-45 Union Tpke, Forest Hills, Queens.",
+      "Puede llamar al (718) 544-9033 para más información.",
+      "La información no dice qué alimentos entrega ni qué se necesita, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Pantry hours are Monday to Thursday, 11am to 2pm.",
+      "It is located at 119-45 Union Tpke, Forest Hills, Queens.",
+      "You can call (718) 544-9033 for more information.",
+      "The listing does not say what food is given or what is needed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de lunes a jueves, de 11am a 2pm.",
+      "Llame al (718) 544-9033 antes de ir para preguntar sobre los alimentos y los requisitos.",
+      "La dirección es 119-45 Union Tpke, Forest Hills, New York, 11375."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Monday to Thursday, 11am to 2pm.",
+      "Call (718) 544-9033 before visiting to ask about food and any requirements.",
+      "The address is 119-45 Union Tpke, Forest Hills, New York, 11375."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Queens Jewish Community Council?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "De lunes a jueves, de 11am a 2pm."
+      },
+      {
+        "q": "¿Qué necesito llevar o qué requisitos hay?",
+        "a": "La información no lo dice. Llame al (718) 544-9033 antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Queens Jewish Community Council?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Monday to Thursday, 11am to 2pm."
+      },
+      {
+        "q": "What do I need to bring or qualify for?",
+        "a": "The listing does not say. Call (718) 544-9033 before you go."
+      }
+    ]
+  }
+}

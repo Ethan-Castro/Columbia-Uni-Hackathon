@@ -1,0 +1,66 @@
+{
+  "place_id": "place-fh-st-pauls-house-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:16.823Z",
+  "facts_hash": "667c7544867550d8",
+  "article": {
+    "title_es": "St. Paul's House: comedor y despensa de alimentos en Manhattan",
+    "title_en": "St. Paul's House: soup kitchen and food pantry in Manhattan",
+    "summary_es": "St. Paul's House Inc. es un lugar de ayuda con alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Ofrece un comedor (soup kitchen) y una despensa de alimentos en días y horarios distintos.",
+    "summary_en": "St. Paul's House Inc. is a food help location in Manhattan listed on the City's Food Help NYC map. It offers a soup kitchen and a food pantry on different days and times.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como lugar de ayuda con alimentos.",
+      "Comedor (soup kitchen): lunes, miércoles y viernes de 8am a 8:30am.",
+      "Despensa de alimentos: martes de 9:30am a 10:30am.",
+      "Está en 335 W 51st St, Nueva York, NY 10019, en Manhattan.",
+      "Puede llamar al (212) 265-5433 para preguntar qué alimentos dan y qué se necesita."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food help location.",
+      "Soup kitchen: Mondays, Wednesdays and Fridays, 8am to 8:30am.",
+      "Food pantry: Tuesdays, 9:30am to 10:30am.",
+      "Located at 335 W 51st St, New York, NY 10019, in Manhattan.",
+      "You can call (212) 265-5433 to ask what food is given and what is needed."
+    ],
+    "visit_tips_es": [
+      "Los horarios son cortos: el comedor abre solo 30 minutos, así que planee con tiempo.",
+      "El comedor y la despensa funcionan en días distintos; revise cuál le corresponde.",
+      "Llame antes de ir al (212) 265-5433 para confirmar los horarios y preguntar qué se necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The hours are short: the soup kitchen is open only 30 minutes, so plan ahead.",
+      "The soup kitchen and the pantry run on different days; check which one applies to you.",
+      "Call ahead at (212) 265-5433 to confirm hours and ask what is needed.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece St. Paul's House?",
+        "a": "Según el mapa Food Help NYC, ofrece un comedor (soup kitchen) y una despensa de alimentos, en días y horarios distintos."
+      },
+      {
+        "q": "¿Cuándo puede ir?",
+        "a": "Comedor: lunes, miércoles y viernes de 8am a 8:30am. Despensa: martes de 9:30am a 10:30am."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito llevar?",
+        "a": "Eso no aparece en la información disponible. Llame al (212) 265-5433 antes de ir para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does St. Paul's House offer?",
+        "a": "According to the Food Help NYC map, it offers a soup kitchen and a food pantry, on different days and times."
+      },
+      {
+        "q": "When can I go?",
+        "a": "Soup kitchen: Mondays, Wednesdays and Fridays, 8am to 8:30am. Pantry: Tuesdays, 9:30am to 10:30am."
+      },
+      {
+        "q": "What food is given and what do I need to bring?",
+        "a": "That is not listed in the available information. Call (212) 265-5433 before going to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-peoples-baptist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:43.373Z",
+  "facts_hash": "978e1325065cab1f",
+  "article": {
+    "title_es": "Peoples Baptist Church: despensa de alimentos en Brooklyn",
+    "title_en": "Peoples Baptist Church: food pantry in Brooklyn",
+    "summary_es": "Peoples Baptist Church es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. Solo abre el 2.º y el 4.º sábado del mes, de 12pm a 2pm.",
+    "summary_en": "Peoples Baptist Church is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is only open on the 2nd and 4th Saturday of the month, from 12pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Abre el 2.º y el 4.º sábado del mes, de 12pm a 2pm.",
+      "Está ubicada en 105 Riverdale Ave, en Brooklyn.",
+      "Puede llamar al (718) 676-0318 si tiene preguntas.",
+      "La información no dice qué alimentos entrega, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "A food pantry listed on the City's Food Help NYC map.",
+      "Open on the 2nd and 4th Saturday of the month, 12pm to 2pm.",
+      "Located at 105 Riverdale Ave in Brooklyn.",
+      "You can call (718) 676-0318 for questions.",
+      "The listing does not say what food is given, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa solo abre el 2.º y el 4.º sábado del mes, de 12pm a 2pm.",
+      "Llame al (718) 676-0318 antes de ir para confirmar los detalles.",
+      "La información no dice qué alimentos entrega ni si hay requisitos, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "The pantry is only open on the 2nd and 4th Saturday of the month, 12pm to 2pm.",
+      "Call (718) 676-0318 before going to confirm details.",
+      "The listing does not say what food is given or if there are requirements, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Peoples Baptist Church?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad. Solo abre el 2.º y el 4.º sábado del mes, de 12pm a 2pm."
+      },
+      {
+        "q": "¿Dónde está y cómo puedo comunicarme?",
+        "a": "105 Riverdale Ave, Brooklyn, NY, 11212. El teléfono es (718) 676-0318."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito?",
+        "a": "La información no indica qué alimentos entrega ni si hay requisitos. Llame al (718) 676-0318 antes de su visita para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Peoples Baptist Church?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. It is only open on the 2nd and 4th Saturday of the month, from 12pm to 2pm."
+      },
+      {
+        "q": "Where is it and how can I contact them?",
+        "a": "105 Riverdale Ave, Brooklyn, NY, 11212. The phone number is (718) 676-0318."
+      },
+      {
+        "q": "What food do they give and what do I need?",
+        "a": "The listing does not say what food is given or if there are any requirements. Call (718) 676-0318 before your visit to ask."
+      }
+    ]
+  }
+}

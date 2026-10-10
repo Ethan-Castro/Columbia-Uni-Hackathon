@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-salvation-army-manhattan-citadel",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:07.363Z",
+  "facts_hash": "615c33f65bba9793",
+  "article": {
+    "title_es": "The Salvation Army Manhattan Citadel: despensa de alimentos en Manhattan",
+    "title_en": "The Salvation Army Manhattan Citadel: food pantry in Manhattan",
+    "summary_es": "The Salvation Army Manhattan Citadel es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Está ubicada en 175 E 125th St y la despensa está abierta de lunes a viernes, de 9am a 3pm.",
+    "summary_en": "The Salvation Army Manhattan Citadel is a food pantry in Manhattan listed on the City's Food Help NYC map. It is located at 175 E 125th St and the pantry is open Monday to Friday, 9am to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 175 E 125th St, en Manhattan, código postal 10035.",
+      "El horario de la despensa es de lunes a viernes, de 9am a 3pm.",
+      "Puede llamar al (212) 860-3200 para más información.",
+      "El listado no indica qué alimentos entrega ni qué se necesita, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 175 E 125th St in Manhattan, zip code 10035.",
+      "Pantry hours are Monday to Friday, 9am to 3pm.",
+      "You can call (212) 860-3200 for more information.",
+      "The listing does not say what food is given or what is needed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de lunes a viernes, de 9am a 3pm.",
+      "Llame al (212) 860-3200 antes de ir para preguntar sobre los alimentos y cualquier requisito.",
+      "El listado no indica qué documentos se necesitan, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Monday to Friday, 9am to 3pm.",
+      "Call (212) 860-3200 before visiting to ask about food and any requirements.",
+      "The listing does not list what documents are needed, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Según el listado, de lunes a viernes, de 9am a 3pm."
+      },
+      {
+        "q": "¿Necesito llevar algo o inscribirme?",
+        "a": "El listado no lo indica. Llame al (212) 860-3200 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. What food is given is not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Monday to Friday, 9am to 3pm, according to the listing."
+      },
+      {
+        "q": "Do I need to bring anything or sign up?",
+        "a": "The listing does not say. Call (212) 860-3200 to ask before you go."
+      }
+    ]
+  }
+}

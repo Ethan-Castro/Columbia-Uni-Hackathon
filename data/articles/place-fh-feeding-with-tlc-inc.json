@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-feeding-with-tlc-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:20.149Z",
+  "facts_hash": "aa3686aa6dab66b9",
+  "article": {
+    "title_es": "Feeding With TLC Inc: despensa de alimentos en Staten Island",
+    "title_en": "Feeding With TLC Inc: food pantry in Staten Island",
+    "summary_es": "Feeding With TLC Inc es una despensa de alimentos en Staten Island que aparece en el mapa Food Help NYC de la Ciudad. Abre los sábados de 10:30am a 12:30pm.",
+    "summary_en": "Feeding With TLC Inc is a food pantry in Staten Island listed on the City's Food Help NYC map. It is open Saturdays from 10:30am to 12:30pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 309 St Pauls Ave, Staten Island, New York, 10304.",
+      "Abre los sábados de 10:30am a 12:30pm.",
+      "Puede llamar al (718) 447-0526 para más información.",
+      "Qué alimentos entrega y si hay requisitos no aparece en la información, así que pregunte antes."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 309 St Pauls Ave, Staten Island, New York, 10304.",
+      "It is open Saturdays from 10:30am to 12:30pm.",
+      "You can call (718) 447-0526 for more information.",
+      "What food is given and any requirements are not listed, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "Los horarios de la despensa son los sábados, de 10:30am a 12:30pm.",
+      "Llame al (718) 447-0526 antes de visitar para confirmar los detalles.",
+      "La información no indica qué alimentos entrega ni qué se necesita, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Saturdays, 10:30am to 12:30pm.",
+      "Call (718) 447-0526 before visiting to confirm details.",
+      "The listing does not say what food is given or what is needed, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Feeding With TLC Inc?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los sábados, de 10:30am a 12:30pm."
+      },
+      {
+        "q": "¿Cómo puedo hacer preguntas antes de ir?",
+        "a": "Llame al (718) 447-0526 antes de su visita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Feeding With TLC Inc?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturday, 10:30am-12:30pm."
+      },
+      {
+        "q": "How can I ask questions before going?",
+        "a": "Call (718) 447-0526 before your visit."
+      }
+    ]
+  }
+}

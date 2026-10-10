@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-eastchester-presbyterian-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:12.030Z",
+  "facts_hash": "5ad976fff9040e60",
+  "article": {
+    "title_es": "Iglesia Presbiteriana de Eastchester: despensa de alimentos en el Bronx",
+    "title_en": "Eastchester Presbyterian Church: food pantry in the Bronx",
+    "summary_es": "Una despensa de alimentos en el Bronx, según el mapa Food Help NYC de la ciudad. Abre los sábados.",
+    "summary_en": "A food pantry in the Bronx, listed on the City's Food Help NYC map. Open on Saturdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 3154 Fish Ave, Bronx, NY 10469.",
+      "Abre los sábados de 10am a 11am.",
+      "La despensa funciona el tercer sábado del mes.",
+      "Puede llamar al (718) 920-0679 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 3154 Fish Ave, Bronx, NY 10469.",
+      "Open Saturdays from 10am to 11am.",
+      "The pantry runs on the 3rd Saturday of the month.",
+      "You can call (718) 920-0679 with questions."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado, porque la despensa solo abre el tercer sábado del mes.",
+      "Llame antes al (718) 920-0679 para confirmar el horario y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday — the pantry only runs on the 3rd Saturday of the month.",
+      "Call ahead at (718) 920-0679 to confirm hours and ask what to bring.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos reparte la despensa?",
+        "a": "La lista no dice qué alimentos se entregan ni si hay requisitos. Llame al (718) 920-0679 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 10am a 11am, y la despensa funciona el tercer sábado del mes."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto a la iglesia?",
+        "a": "Está en 3154 Fish Ave, Bronx, NY 10469. El teléfono es (718) 920-0679."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give out?",
+        "a": "The listing does not say what food is given or if there are requirements. Call (718) 920-0679 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 10am to 11am, and the pantry runs on the 3rd Saturday of the month."
+      },
+      {
+        "q": "Where is it and how do I contact the church?",
+        "a": "It is at 3154 Fish Ave, Bronx, NY 10469. The phone number is (718) 920-0679."
+      }
+    ]
+  }
+}

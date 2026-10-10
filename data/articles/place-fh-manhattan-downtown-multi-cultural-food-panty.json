@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-manhattan-downtown-multi-cultural-food-panty",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:27.849Z",
+  "facts_hash": "3a94e07b3d0c557a",
+  "article": {
+    "title_es": "Manhattan Downtown Multi-Cultural Food Pantry: despensa en Manhattan",
+    "title_en": "Manhattan Downtown Multi-Cultural Food Pantry: pantry in Manhattan",
+    "summary_es": "Esta despensa de alimentos aparece en el mapa Food Help NYC de la ciudad. Reparte alimentos el primer jueves de cada mes, de 8:30am a 10:30am.",
+    "summary_en": "This food pantry is listed on the City's Food Help NYC map. It gives out food on the first Thursday of the month, 8:30am to 10:30am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 160 Allen St, Nueva York, NY 10002, en Manhattan.",
+      "Abre los jueves de 8:30am a 10:30am; la despensa es el primer jueves del mes.",
+      "Puede llamar al (347) 248-9726 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 160 Allen St, New York, NY 10002, in Manhattan.",
+      "It is open Thursdays 8:30am-10:30am; the pantry is the 1st Thursday in the month.",
+      "You can call (347) 248-9726 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya un jueves entre 8:30am y 10:30am; la despensa funciona el primer jueves del mes.",
+      "Llame primero al (347) 248-9726 para confirmar el horario y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on a Thursday between 8:30am and 10:30am; the pantry is on the 1st Thursday in the month.",
+      "Call (347) 248-9726 first to confirm the hours and ask what you need to bring.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 8:30am a 10:30am. La despensa de alimentos es el primer jueves del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "La lista no lo dice. Llame al (347) 248-9726 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos. Es mejor llamar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays 8:30am-10:30am. The pantry is on the 1st Thursday in the month."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "The listing does not say. Call (347) 248-9726 to ask."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements. It is best to call before going."
+      }
+    ]
+  }
+}

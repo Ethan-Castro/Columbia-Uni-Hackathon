@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-convent-avenue-baptist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:58.218Z",
+  "facts_hash": "8de880e5a161599f",
+  "article": {
+    "title_es": "Convent Avenue Baptist Church: despensa de alimentos en Manhattan",
+    "title_en": "Convent Avenue Baptist Church: food pantry in Manhattan",
+    "summary_es": "La Convent Avenue Baptist Church aparece en el mapa Food Help NYC como despensa de alimentos en el barrio de Harlem, Manhattan. Atiende los lunes por la mañana, con la despensa solo el primer y tercer lunes del mes.",
+    "summary_en": "Convent Avenue Baptist Church is listed on the City's Food Help NYC map as a food pantry in Manhattan. It is open Monday mornings, with the pantry only on the 1st and 3rd Mondays of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 425 W 144th St, Nueva York, NY 10031, en Manhattan.",
+      "Abre los lunes de 9am a 12pm; la despensa solo el primer y tercer lunes.",
+      "Puede llamar al (646) 698-5102 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 425 W 144th St, New York, NY 10031, in Manhattan.",
+      "Open Mondays 9am-12pm; the pantry runs only on the 1st and 3rd Mondays.",
+      "You can call (646) 698-5102 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Recuerde que la despensa funciona solo el primer y tercer lunes del mes.",
+      "Los horarios pueden cambiar; llame al (646) 698-5102 antes de visitar.",
+      "La lista no menciona documentos ni requisitos; puede preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Remember the pantry runs only on the 1st and 3rd Mondays of the month.",
+      "Hours can change; call (646) 698-5102 before visiting.",
+      "The listing does not mention documents or requirements; you can ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los lunes de 9am a 12pm, pero la despensa solo el primer y tercer lunes del mes."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La lista no lo indica. Puede llamar al (646) 698-5102 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Mondays 9am-12pm, but the pantry runs only on the 1st and 3rd Mondays of the month."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. You can call (646) 698-5102 to ask."
+      }
+    ]
+  }
+}

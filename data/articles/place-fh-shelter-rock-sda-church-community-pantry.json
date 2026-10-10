@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-shelter-rock-sda-church-community-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:29.258Z",
+  "facts_hash": "5f39fcaef18eedbd",
+  "article": {
+    "title_es": "Shelter Rock SDA Church Community Pantry: despensa de alimentos en Queens",
+    "title_en": "Shelter Rock SDA Church Community Pantry: food pantry in Queens",
+    "summary_es": "Shelter Rock SDA Church Community Pantry es una despensa de alimentos en Queens que aparece en el mapa Food Help NYC de la Ciudad. Abre los jueves de 10am a 12pm.",
+    "summary_en": "Shelter Rock SDA Church Community Pantry is a food pantry in Queens listed on the City's Food Help NYC map. It is open Thursdays from 10am to 12pm.",
+    "how_they_help_es": [
+      "Una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Abre los jueves de 10am a 12pm.",
+      "Está en 157-18 Meyer Avenue, Queens, NY 11434.",
+      "Puede llamar al (718) 738-1730 para más información.",
+      "Los alimentos que entrega y los requisitos no aparecen en la información, así que pregunte."
+    ],
+    "how_they_help_en": [
+      "A food pantry listed on the City's Food Help NYC map.",
+      "Open Thursdays from 10am to 12pm.",
+      "Located at 157-18 Meyer Avenue in Queens, NY 11434.",
+      "You can call (718) 738-1730 for more information.",
+      "What food is given and any requirements are not listed, so please ask."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los jueves de 10am a 12pm.",
+      "Llame al (718) 738-1730 antes de ir para preguntar qué alimentos entrega y si hay requisitos.",
+      "La dirección es 157-18 Meyer Avenue, NY 11434."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Thursdays from 10am to 12pm.",
+      "Call (718) 738-1730 before your visit to ask about what food is given and any requirements.",
+      "The address is 157-18 Meyer Avenue, NY 11434."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves, de 10am a 12pm."
+      },
+      {
+        "q": "¿Qué documentos necesito?",
+        "a": "No aparece en la información. Llame al (718) 738-1730 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays, 10am-12pm."
+      },
+      {
+        "q": "What documents do I need?",
+        "a": "It is not listed. Please call (718) 738-1730 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-legal-services-nyc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:32.819Z",
+  "facts_hash": "660a5a49eecbfe08",
+  "article": {
+    "title_es": "Legal Services NYC: ayuda legal de inmigración en Manhattan",
+    "title_en": "Legal Services NYC: immigration legal help in Manhattan",
+    "summary_es": "Legal Services NYC es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está ubicada en 40 Worth Street, Suite 606, Nueva York, NY 10013, en Manhattan.",
+    "summary_en": "Legal Services NYC is a non-profit that appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives. It is located at 40 Worth Street, Suite 606, New York, NY 10013, in Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Es una organización sin fines de lucro, según la lista del DOJ.",
+      "La dirección es 40 Worth Street, Suite 606, Nueva York, NY 10013.",
+      "No se indican servicios específicos; pregunte directamente qué ofrecen."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations.",
+      "Its DOJ-accredited representatives may give immigration legal help.",
+      "It is a non-profit organization, according to the DOJ list.",
+      "The address is 40 Worth Street, Suite 606, New York, NY 10013.",
+      "No specific services are listed; ask directly what they offer."
+    ],
+    "visit_tips_es": [
+      "No se indican horarios, teléfono ni proceso para obtener cita; verifique antes de ir.",
+      "No se indican tarifas ni cómo solicitar una cita; pregunte directamente a la organización.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "No hours, phone number, or appointment process are listed; check before going.",
+      "Fees and how to get an appointment are not listed; ask the organization directly.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Legal Services NYC?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 40 Worth Street, Suite 606, Nueva York, NY 10013, en Manhattan."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "No se indican tarifas en la información disponible. Pregunte directamente a la organización."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Legal Services NYC?",
+        "a": "It is a non-profit that appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 40 Worth Street, Suite 606, New York, NY 10013, in Manhattan."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Ask the organization directly."
+      }
+    ]
+  }
+}

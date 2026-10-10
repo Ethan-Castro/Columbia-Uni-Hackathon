@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-united-methodist-center-in-far-rockaway",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:02.787Z",
+  "facts_hash": "7631cf6158914a44",
+  "article": {
+    "title_es": "United Methodist Center en Far Rockaway: comedor y despensa",
+    "title_en": "United Methodist Center in Far Rockaway: soup kitchen and pantry",
+    "summary_es": "El United Methodist Center en Far Rockaway, Queens, ofrece comedor de sopa y despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+    "summary_en": "The United Methodist Center in Far Rockaway, Queens, offers a soup kitchen and food pantry according to the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Comedor de sopa: lunes, martes, miércoles, jueves y viernes de 12pm a 1pm, y de 4:30pm a 5:30pm (excepto jueves).",
+      "Despensa de alimentos: martes y jueves de 9:30am a 11am y de 1pm a 4pm.",
+      "Está ubicado en 1032 Beach 19th St, Far Rockaway, NY 11691.",
+      "Puede llamar al (718) 327-5071 para preguntar qué alimentos ofrece y si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "Soup kitchen: Monday, Tuesday, Wednesday, Thursday and Friday from 12pm to 1pm, and from 4:30pm to 5:30pm (except Thursday).",
+      "Food pantry: Tuesday and Thursday from 9:30am to 11am and from 1pm to 4pm.",
+      "Located at 1032 Beach 19th St, Far Rockaway, NY 11691.",
+      "You can call (718) 327-5071 to ask what food is offered and if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Los horarios del comedor y de la despensa son distintos; revise bien antes de ir.",
+      "La información fue verificada por última vez el 10 de octubre de 2026.",
+      "No se indican los alimentos que entregan ni los requisitos; llame al (718) 327-5071 para preguntar."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen and pantry hours are different; check carefully before going.",
+      "The information was last checked on October 10, 2026.",
+      "The food given and any requirements are not listed; call (718) 327-5071 to ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, ofrece un comedor de sopa y una despensa de alimentos."
+      },
+      {
+        "q": "¿Cuáles son los horarios?",
+        "a": "Comedor: lunes, miércoles y viernes de 12pm a 1pm y de 4:30pm a 5:30pm; jueves de 12pm a 1pm. Despensa: martes y jueves de 9:30am a 11am y de 1pm a 4pm."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme con el lugar?",
+        "a": "Puede llamar al (718) 327-5071. No se indica un sitio web ni un correo electrónico."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it offers a soup kitchen and a food pantry."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Soup kitchen: Monday, Wednesday and Friday 12pm-1pm and 4:30pm-5:30pm; Thursday 12pm-1pm. Pantry: Tuesday and Thursday 9:30am-11am and 1pm-4pm."
+      },
+      {
+        "q": "How can I contact the place?",
+        "a": "You can call (718) 327-5071. No website or email is listed."
+      }
+    ]
+  }
+}

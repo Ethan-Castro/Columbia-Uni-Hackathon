@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-ignatius-episcopal-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:59.480Z",
+  "facts_hash": "dd1b521e86500192",
+  "article": {
+    "title_es": "Iglesia Episcopal St. Ignatius: ayuda de alimentos en Manhattan",
+    "title_en": "St. Ignatius Episcopal Church: food help in Manhattan",
+    "summary_es": "La Iglesia Episcopal St. Ignatius es un lugar de ayuda de alimentos en el mapa Food Help NYC de la ciudad, con horarios de merendero los lunes por la noche y los sábados por la tarde en Manhattan.",
+    "summary_en": "St. Ignatius Episcopal Church is a food help location on the City's Food Help NYC map, with soup kitchen hours on Monday evenings and Saturday afternoons in Manhattan.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC de la ciudad como lugar de ayuda de alimentos.",
+      "Ofrece horarios de merendero los lunes por la noche y los sábados por la tarde.",
+      "Está en West End Avenue, en Manhattan, código postal 10024.",
+      "Abre en la noche y los fines de semana, lo que puede ayudar si trabaja de día.",
+      "Puede llamar al (212) 580-3326 para preguntar qué alimentos entrega y si piden algún requisito."
+    ],
+    "how_they_help_en": [
+      "Listed on the City's Food Help NYC map as a food help location.",
+      "Offers soup kitchen hours on Monday evenings and Saturday afternoons.",
+      "Located on West End Avenue in Manhattan, zip code 10024.",
+      "Open evenings and weekends, which can help if you work during the day.",
+      "You can call (212) 580-3326 to ask about the food given and any requirements."
+    ],
+    "visit_tips_es": [
+      "Los horarios del merendero son cortos, así que planifique llegar dentro del horario indicado.",
+      "Llame al (212) 580-3326 antes de ir para confirmar el horario y preguntar qué ofrecen.",
+      "La información no indica qué alimentos entrega ni si piden requisitos, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen hours are short, so plan to arrive within the listed time.",
+      "Call (212) 580-3326 ahead to confirm the schedule and ask what is offered.",
+      "The listing does not say what food is given or if any requirements apply, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "Aparece en el mapa Food Help NYC de la ciudad como despensa/merendero. No se indica qué alimentos entrega; pregunte por teléfono."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Lunes de 6:45pm a 7:15pm y sábado de 3:45pm a 4:15pm, como horarios de merendero."
+      },
+      {
+        "q": "¿Necesito llevar algo o inscribirme?",
+        "a": "La información no lo indica. Llame al (212) 580-3326 antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does it give?",
+        "a": "It is listed on the City's Food Help NYC map as a food pantry/soup kitchen. What food is given is not listed, so ask by phone."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Monday 6:45pm-7:15pm and Saturday 3:45pm-4:15pm, listed as soup kitchen hours."
+      },
+      {
+        "q": "Do I need to bring anything or sign up?",
+        "a": "The listing does not say. Call (212) 580-3326 to ask before you go."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-elmcor-youth-and-adult-activities-2-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:48.086Z",
+  "facts_hash": "ab9a7ca44c5cdd85",
+  "article": {
+    "title_es": "ELMCOR Youth & Adult Activities #2: despensa en Corona, Queens",
+    "title_en": "ELMCOR Youth & Adult Activities #2: food pantry in Corona, Queens",
+    "summary_es": "ELMCOR Youth & Adult Activities #2 es una despensa de alimentos en Corona, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 9:30am a 2:30pm.",
+    "summary_en": "ELMCOR Youth & Adult Activities #2 is a food pantry in Corona, Queens, listed on the City's Food Help NYC map. It is open Wednesdays from 9:30am to 2:30pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 33-16 108th St, Corona, Queens, NY 11368.",
+      "Atiende los miércoles de 9:30am a 2:30pm.",
+      "Puede llamar al (718) 651-0096 para preguntar antes de ir.",
+      "Qué alimentos entrega y si hay requisitos no están indicados; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 33-16 108th St, Corona, Queens, NY 11368.",
+      "It is open Wednesdays from 9:30am to 2:30pm.",
+      "You can call (718) 651-0096 to ask before you go.",
+      "What food is given and any requirements are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es miércoles de 9:30am a 2:30pm.",
+      "Llame al (718) 651-0096 antes de ir para confirmar el servicio.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesdays from 9:30am to 2:30pm.",
+      "Call (718) 651-0096 before going to confirm service.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada esta despensa?",
+        "a": "En 33-16 108th St, Corona, Queens, Nueva York, 11368."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Miércoles de 9:30am a 2:30pm, según el mapa Food Help NYC."
+      },
+      {
+        "q": "¿Qué necesito llevar o qué alimentos dan?",
+        "a": "No está indicado. Llame al (718) 651-0096 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is this pantry located?",
+        "a": "At 33-16 108th St, Corona, Queens, New York, 11368."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Wednesdays from 9:30am to 2:30pm, according to the Food Help NYC map."
+      },
+      {
+        "q": "What should I bring, and what food is given?",
+        "a": "That is not listed. Call (718) 651-0096 to ask before going."
+      }
+    ]
+  }
+}

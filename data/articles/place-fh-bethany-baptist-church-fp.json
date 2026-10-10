@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bethany-baptist-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:14.517Z",
+  "facts_hash": "786632d996ed4c8d",
+  "article": {
+    "title_es": "Bethany Baptist Church: despensa de alimentos en Harlem",
+    "title_en": "Bethany Baptist Church: food pantry in Harlem",
+    "summary_es": "Bethany Baptist Church aparece en el mapa Food Help NYC como despensa de alimentos en Manhattan. Abre los viernes de 12pm a 3pm.",
+    "summary_en": "Bethany Baptist Church appears on the Food Help NYC map as a food pantry in Manhattan. It is open Fridays 12pm-3pm.",
+    "how_they_help_es": [
+      "Despensa de alimentos según el mapa oficial Food Help NYC.",
+      "Atiende los viernes de 12pm a 3pm.",
+      "Está en 304 W 154th St, Nueva York, NY 10039.",
+      "Puede llamar al (212) 234-5810 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni requisitos."
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the official Food Help NYC map.",
+      "Open Fridays 12pm-3pm.",
+      "Located at 304 W 154th St, New York, NY 10039.",
+      "You can call (212) 234-5810 to ask before visiting.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "Horario de despensa: viernes de 12pm a 3pm.",
+      "Llame al (212) 234-5810 antes de ir para confirmar detalles.",
+      "La lista no menciona requisitos ni documentos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Fridays 12pm-3pm.",
+      "Call (212) 234-5810 before going to confirm details.",
+      "The listing does not mention requirements or documents; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los viernes de 12pm a 3pm, según la lista."
+      },
+      {
+        "q": "¿Qué debo llevar o qué requisitos hay?",
+        "a": "No está indicado en la lista. Llame al (212) 234-5810 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It appears on the Food Help NYC map as a food pantry."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Fridays 12pm-3pm, according to the listing."
+      },
+      {
+        "q": "What should I bring or what are the requirements?",
+        "a": "Not listed. Call (212) 234-5810 to ask."
+      }
+    ]
+  }
+}

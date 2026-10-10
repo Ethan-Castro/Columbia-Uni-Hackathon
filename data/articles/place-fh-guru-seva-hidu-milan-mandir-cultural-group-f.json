@@ -1,0 +1,66 @@
+{
+  "place_id": "place-fh-guru-seva-hidu-milan-mandir-cultural-group-f",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:46.832Z",
+  "facts_hash": "46344466959dbff2",
+  "article": {
+    "title_es": "Guru Seva Hindu Milan Mandir: despensa de alimentos en el Bronx",
+    "title_en": "Guru Seva Hindu Milan Mandir: food pantry in the Bronx",
+    "summary_es": "Guru Seva Hindu Milan Mandir Cultural Group es una despensa de alimentos en el Bronx, ubicada en 3201 Bruckner Blvd. Abre los sábados de 11am a 3pm.",
+    "summary_en": "Guru Seva Hindu Milan Mandir Cultural Group is a food pantry in the Bronx, located at 3201 Bruckner Blvd. It is open Saturdays from 11am to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 3201 Bruckner Blvd, Bronx, NY, 10461.",
+      "Abre los sábados de 11am a 3pm según el listado.",
+      "Puede llamar al (347) 951-5669 para más información.",
+      "El listado no indica qué alimentos entrega ni qué requisitos hay; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 3201 Bruckner Blvd, Bronx, NY, 10461.",
+      "It is open Saturdays from 11am to 3pm according to the listing.",
+      "You can call (347) 951-5669 for more information.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es sábado de 11am a 3pm.",
+      "Llame antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La dirección es 3201 Bruckner Blvd, Bronx, NY, 10461.",
+      "Este listado fue verificado por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturday 11am-3pm.",
+      "Call before you go to confirm hours and ask what you need.",
+      "The address is 3201 Bruckner Blvd, Bronx, NY, 10461.",
+      "This listing was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "El listado indica sábado de 11am a 3pm para la despensa."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "El listado no lo indica. Llame al (347) 951-5669 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in the Bronx listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The listing says Saturday 11am-3pm for the pantry."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "The listing does not say. Call (347) 951-5669 to ask before you go."
+      }
+    ]
+  }
+}

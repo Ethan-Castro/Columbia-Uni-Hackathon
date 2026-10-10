@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-admirable-church-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:34.372Z",
+  "facts_hash": "4afd1fbaa97c1c9a",
+  "article": {
+    "title_es": "Admirable Church Inc: despensa de alimentos en Brooklyn",
+    "title_en": "Admirable Church Inc: food pantry in Brooklyn",
+    "summary_es": "Admirable Church Inc es una despensa de alimentos en Brooklyn, en el mapa Food Help NYC de la ciudad. La despensa abre solo el cuarto sábado de cada mes, de 10am a 12pm.",
+    "summary_en": "Admirable Church Inc is a food pantry in Brooklyn, listed on the City's Food Help NYC map. The pantry is open only on the 4th Saturday of the month, 10am-12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1910 Flatbush Ave, Brooklyn, NY 11210.",
+      "Abre los sábados de 10am a 12pm; la despensa funciona solo el cuarto sábado del mes.",
+      "Puede llamar al (347) 779-7192 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1910 Flatbush Ave, Brooklyn, NY 11210.",
+      "It is open Saturdays 10am-12pm; the pantry runs on the 4th Saturday only.",
+      "You can call (347) 779-7192 with questions."
+    ],
+    "visit_tips_es": [
+      "Vaya el cuarto sábado del mes, que es el único día en que la despensa está abierta.",
+      "El horario es de 10am a 12pm.",
+      "Llame antes al (347) 779-7192 para confirmar detalles, ya que no se indica qué alimentos se entregan ni si hay requisitos."
+    ],
+    "visit_tips_en": [
+      "Go on the 4th Saturday of the month, the only day the pantry is open.",
+      "Hours are 10am to 12pm.",
+      "Call (347) 779-7192 ahead to confirm details, since what food is given and any requirements are not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Solo el cuarto sábado de cada mes, de 10am a 12pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No se indica en la información disponible. Llame al (347) 779-7192 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Only on the 4th Saturday of the month, from 10am to 12pm."
+      },
+      {
+        "q": "What food is given, and are there requirements?",
+        "a": "This is not listed in the available information. Call (347) 779-7192 to ask."
+      }
+    ]
+  }
+}

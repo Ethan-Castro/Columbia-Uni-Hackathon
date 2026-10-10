@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-brooklyn-defender-services-community",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:03.746Z",
+  "facts_hash": "4814c7576156ff77",
+  "article": {
+    "title_es": "Brooklyn Defender Services: oficina comunitaria en Brooklyn",
+    "title_en": "Brooklyn Defender Services: community office in Brooklyn",
+    "summary_es": "Brooklyn Defender Services tiene una oficina comunitaria en 566 Livonia Avenue, Brooklyn, NY 11207. Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+    "summary_en": "Brooklyn Defender Services has a community extension office at 566 Livonia Avenue, Brooklyn, NY 11207. It appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas, cuyos representantes acreditados pueden dar ayuda legal de inmigración.",
+      "Es una organización sin fines de lucro según esa lista.",
+      "La dirección es 566 Livonia Avenue, Brooklyn, NY 11207.",
+      "El teléfono indicado es (718) 254-0700.",
+      "Los servicios y tarifas no están detallados en esta información; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations, whose accredited representatives may give immigration legal help.",
+      "It is a non-profit according to that list.",
+      "The address is 566 Livonia Avenue, Brooklyn, NY 11207.",
+      "The listed phone number is (718) 254-0700.",
+      "Services and fees are not detailed in this information; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (718) 254-0700 para preguntar por sus servicios y cómo solicitar una cita.",
+      "Las tarifas y el proceso de admisión no están indicados; pregunte por teléfono.",
+      "Los horarios no aparecen en esta información; confírmelos al llamar."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 254-0700 to ask about their services and how to request an appointment.",
+      "Fees and the intake process are not listed; ask by phone.",
+      "Hours are not included in this information; confirm them when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es una oficina comunitaria de Brooklyn Defender Services, una organización sin fines de lucro que aparece en la lista del Departamento de Justicia (EOIR)."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto?",
+        "a": "Está en 566 Livonia Avenue, Brooklyn, NY 11207. El teléfono indicado es (718) 254-0700."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están indicadas en esta información. Llame al (718) 254-0700 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is a community extension office of Brooklyn Defender Services, a non-profit listed on the U.S. Department of Justice (EOIR) roster."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "It is at 566 Livonia Avenue, Brooklyn, NY 11207. The listed phone number is (718) 254-0700."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in this information. Call (718) 254-0700 to ask."
+      }
+    ]
+  }
+}

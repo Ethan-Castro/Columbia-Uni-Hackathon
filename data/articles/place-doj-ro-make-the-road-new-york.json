@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-make-the-road-new-york",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:11.576Z",
+  "facts_hash": "d4c5b4c46ff3ce68",
+  "article": {
+    "title_es": "Make the Road New York: ayuda legal de inmigración en Brooklyn",
+    "title_en": "Make the Road New York: immigration legal help in Brooklyn",
+    "summary_es": "Make the Road New York aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración. Está en Brooklyn.",
+    "summary_en": "Make the Road New York appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help. It is located in Brooklyn.",
+    "how_they_help_es": [
+      "Aparece en la lista de organizaciones reconocidas del DOJ (EOIR).",
+      "Sus representantes acreditados pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 301 Grove Street, Brooklyn, NY 11237.",
+      "Teléfono: (718) 418-7690.",
+      "No se indican tarifas ni cómo pedir cita; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its accredited representatives may give immigration legal help.",
+      "Located at 301 Grove Street, Brooklyn, NY 11237.",
+      "Phone: (718) 418-7690.",
+      "Fees and how to get an appointment are not listed; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame antes al (718) 418-7690 para preguntar por los servicios y cómo agendar una cita.",
+      "No se publican horarios de atención; confírmelos por teléfono.",
+      "Pregunte si hay algún costo por los servicios."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 418-7690 to ask about services and how to schedule an appointment.",
+      "Hours of operation are not published; confirm them by phone.",
+      "Ask whether there is any cost for services."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la información disponible. Llame al (718) 418-7690 para preguntar."
+      },
+      {
+        "q": "¿Necesito cita?",
+        "a": "El proceso para obtener una cita no está indicado. Se recomienda llamar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit listed on the DOJ (EOIR) roster of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (718) 418-7690 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "The intake process is not listed. It is best to call before visiting."
+      }
+    ]
+  }
+}

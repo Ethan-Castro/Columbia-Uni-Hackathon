@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-flatbush-community-fund",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:38.827Z",
+  "facts_hash": "23f209e6280b2c32",
+  "article": {
+    "title_es": "FLATBUSH COMMUNITY FUND: despensa de alimentos en Brooklyn",
+    "title_en": "FLATBUSH COMMUNITY FUND: food pantry in Brooklyn",
+    "summary_es": "FLATBUSH COMMUNITY FUND es una despensa de alimentos en Brooklyn, según el mapa Food Help NYC de la ciudad.",
+    "summary_en": "FLATBUSH COMMUNITY FUND is a food pantry in Brooklyn, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 1860 Flatbush Ave, Brooklyn, NY 11210.",
+      "Atiende los martes y miércoles de 12pm a 3pm (despensa).",
+      "Puede llamar al (718) 850-3545 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Located at 1860 Flatbush Ave, Brooklyn, NY 11210.",
+      "Open Tuesday and Wednesday, 12pm-3pm (pantry).",
+      "You can call (718) 850-3545 with questions."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes y miércoles de 12pm a 3pm.",
+      "No se indica qué alimentos entrega ni si pide algún requisito; pregunte por teléfono.",
+      "Llame al (718) 850-3545 antes de ir para confirmar el servicio."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday and Wednesday, 12pm-3pm.",
+      "What food is given and any requirements are not listed; ask by phone.",
+      "Call (718) 850-3545 before visiting to confirm service."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es FLATBUSH COMMUNITY FUND?",
+        "a": "Es una despensa de alimentos en Brooklyn, según el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Martes y miércoles de 12pm a 3pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado. Llame al (718) 850-3545 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is FLATBUSH COMMUNITY FUND?",
+        "a": "It is a food pantry in Brooklyn, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday and Wednesday, 12pm-3pm."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "That is not listed. Call (718) 850-3545 to ask before visiting."
+      }
+    ]
+  }
+}

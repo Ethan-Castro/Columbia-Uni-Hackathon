@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-first-presbyterian-russell-sage-memorial-chu",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:03.459Z",
+  "facts_hash": "cfe533ad492866d6",
+  "article": {
+    "title_es": "First Presbyterian Russell Sage Memorial Church: despensa de alimentos en Far Rockaway",
+    "title_en": "First Presbyterian Russell Sage Memorial Church: food pantry in Far Rockaway",
+    "summary_es": "First Presbyterian Russell Sage Memorial Church of Far Rockaway es una despensa de alimentos en Queens que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados por la mañana.",
+    "summary_en": "First Presbyterian Russell Sage Memorial Church of Far Rockaway is a food pantry in Queens listed on the City's Food Help NYC map. It is open on Saturdays in the morning.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está en 896 Central Ave, Far Rockaway, NY 11691, en Queens.",
+      "Abre los sábados de 9am a 10:30am para la despensa.",
+      "Tiene teléfono: (718) 327-2440, si tiene preguntas."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 896 Central Ave, Far Rockaway, NY 11691, in Queens.",
+      "Open Saturdays from 9am to 10:30am for the pantry.",
+      "Phone available: (718) 327-2440, if you have questions."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es sábado de 9am a 10:30am.",
+      "Llame al (718) 327-2440 antes de ir para preguntar qué alimentos dan y si piden algún requisito.",
+      "La información no indica qué se necesita para recibir alimentos, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturday, 9am to 10:30am.",
+      "Call (718) 327-2440 ahead to ask what food is given and any requirements.",
+      "What is needed to receive food is not listed, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Los sábados de 9am a 10:30am."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 896 Central Ave, Far Rockaway, NY 11691, en Queens."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "No está indicado. Llame al (718) 327-2440 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Saturdays from 9am to 10:30am."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "896 Central Ave, Far Rockaway, NY 11691, in Queens."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "Not listed. Call (718) 327-2440 to ask before you go."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-kings-bay-y-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:36.287Z",
+  "facts_hash": "c4580e454de30edb",
+  "article": {
+    "title_es": "Kings Bay Y: despensa de alimentos en Brooklyn",
+    "title_en": "Kings Bay Y: food pantry in Brooklyn",
+    "summary_es": "La Kings Bay Y tiene una despensa de alimentos en Brooklyn, en la avenida Nostrand. Abre el segundo viernes de cada mes, de 9:30 am a 11 am.",
+    "summary_en": "The Kings Bay Y runs a food pantry in Brooklyn on Nostrand Avenue. It is open the second Friday of each month, from 9:30am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC.",
+      "Está en 3495 Nostrand Ave, Brooklyn, NY 11229.",
+      "Abre el segundo viernes del mes, de 9:30 am a 11 am.",
+      "Puede llamar al (718) 648-7703 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 3495 Nostrand Ave, Brooklyn, NY 11229.",
+      "It opens the second Friday of the month, 9:30am to 11am.",
+      "You can call (718) 648-7703 with questions.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya el segundo viernes del mes, porque otros viernes no hay despensa.",
+      "El horario es corto: de 9:30 am a 11 am.",
+      "Llame antes al (718) 648-7703 para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "Go on the second Friday of the month; the pantry is not open other Fridays.",
+      "The hours are short: 9:30am to 11am.",
+      "Call ahead at (718) 648-7703 to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Solo el segundo viernes de cada mes, de 9:30 am a 11 am."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 3495 Nostrand Ave, Brooklyn, NY 11229."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito llevar?",
+        "a": "No está en la lista. Llame al (718) 648-7703 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Only on the second Friday of each month, from 9:30am to 11am."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 3495 Nostrand Ave, Brooklyn, NY 11229."
+      },
+      {
+        "q": "What food is given and what should I bring?",
+        "a": "That is not listed. Call (718) 648-7703 to ask."
+      }
+    ]
+  }
+}

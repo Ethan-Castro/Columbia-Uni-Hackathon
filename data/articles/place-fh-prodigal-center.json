@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-prodigal-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:37.448Z",
+  "facts_hash": "b6d536857d99dd24",
+  "article": {
+    "title_es": "Prodigal Center: despensa de alimentos en el Bronx",
+    "title_en": "Prodigal Center: food pantry in the Bronx",
+    "summary_es": "El Prodigal Center es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad. Reparte alimentos los martes por la mañana.",
+    "summary_en": "Prodigal Center is a food pantry in the Bronx listed on the City's Food Help NYC map. It distributes food on Tuesday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Tiene un horario de despensa los martes de 11 am a 12:30 pm.",
+      "Está ubicada en 709 Tiffany St, Bronx, NY 10474.",
+      "Puede llamar al (646) 258-4489 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It has a pantry time on Tuesdays from 11am to 12:30pm.",
+      "It is located at 709 Tiffany St, Bronx, NY 10474.",
+      "You can call (646) 258-4489 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es solo los martes de 11 am a 12:30 pm.",
+      "Llame al (646) 258-4489 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos; es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are only on Tuesdays from 11am to 12:30pm.",
+      "Call (646) 258-4489 before going to confirm the hours and ask what you need.",
+      "The listing does not mention documents or requirements; it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es el Prodigal Center?",
+        "a": "Es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los martes de 11 am a 12:30 pm, según la información de la ciudad."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "La lista no lo indica. Llame al (646) 258-4489 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Prodigal Center?",
+        "a": "It is a food pantry in the Bronx listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "On Tuesdays from 11am to 12:30pm, according to the city's information."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "The listing does not say. Call (646) 258-4489 to ask before you go."
+      }
+    ]
+  }
+}

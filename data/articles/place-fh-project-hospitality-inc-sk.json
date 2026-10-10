@@ -1,0 +1,60 @@
+{
+  "place_id": "place-fh-project-hospitality-inc-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:21.063Z",
+  "facts_hash": "aecec631d5d9bf2b",
+  "article": {
+    "title_es": "Project Hospitality, Inc. (SK): despensa de alimentos en Staten Island",
+    "title_en": "Project Hospitality, Inc. (SK): food pantry in Staten Island",
+    "summary_es": "Project Hospitality, Inc. (SK) es una despensa de alimentos en Staten Island que aparece en el mapa Food Help NYC de la Ciudad.",
+    "summary_en": "Project Hospitality, Inc. (SK) is a food pantry in Staten Island listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 211 Canal St, Staten Island, NY, 10304.",
+      "Puede llamar al (718) 815-0800 para más información.",
+      "La información no indica qué alimentos entrega ni si hay requisitos, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 211 Canal St, Staten Island, NY, 10304.",
+      "You can call (718) 815-0800 for more information.",
+      "The listing does not say what food is given or any requirements, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 815-0800 antes de ir para confirmar los horarios y lo que pueda necesitar.",
+      "La información no incluye horarios, así que llamar antes es la mejor manera de planear su visita."
+    ],
+    "visit_tips_en": [
+      "Call (718) 815-0800 before visiting to confirm hours and what you may need.",
+      "The listing does not include hours, so calling ahead is the best way to plan your visit."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Project Hospitality, Inc. (SK)?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "Está ubicada en 211 Canal St, Staten Island, NY, 10304."
+      },
+      {
+        "q": "¿Cuáles son los horarios?",
+        "a": "La información no indica los horarios. Llame al (718) 815-0800 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Project Hospitality, Inc. (SK)?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "It is located at 211 Canal St, Staten Island, NY, 10304."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "The listing does not give hours. Call (718) 815-0800 to ask before visiting."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-tabernacle-of-joy-community-care",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:31.899Z",
+  "facts_hash": "ae5af721ca2725d4",
+  "article": {
+    "title_es": "Tabernacle of Joy Community Care: despensa de alimentos en el Bronx",
+    "title_en": "Tabernacle of Joy Community Care: food pantry in the Bronx",
+    "summary_es": "Tabernacle of Joy Community Care es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad. Abre el primer y tercer jueves del mes.",
+    "summary_en": "Tabernacle of Joy Community Care is a food pantry in the Bronx listed on the City's Food Help NYC map. It opens on the 1st and 3rd Thursday of the month.",
+    "how_they_help_es": [
+      "Despensa de alimentos incluida en el mapa Food Help NYC de la ciudad",
+      "Ubicada en 1800 Topping Ave, en el Bronx",
+      "Abre los jueves de 12pm a 3pm",
+      "La despensa atiende el primer y tercer jueves",
+      "Llame al (347) 478-9228 para más información"
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the City's Food Help NYC map",
+      "Located at 1800 Topping Ave in the Bronx",
+      "Open Thursdays from 12pm to 3pm",
+      "Pantry hours are on the 1st and 3rd Thursday",
+      "Call (347) 478-9228 for more information"
+    ],
+    "visit_tips_es": [
+      "Vaya el primer o tercer jueves, entre 12pm y 3pm",
+      "Llame antes al (347) 478-9228 para preguntar qué alimentos entrega y qué requisitos hay",
+      "La lista no indica qué se necesita para recibir alimentos, así que pregunte por teléfono"
+    ],
+    "visit_tips_en": [
+      "Go on the 1st or 3rd Thursday, between 12pm and 3pm",
+      "Call ahead at (347) 478-9228 to ask what food is given and any requirements",
+      "What is required to receive food is not listed, so ask by phone"
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 12pm a 3pm. La despensa atiende el primer y tercer jueves del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1800 Topping Ave, Bronx, NY, 10457."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "No está indicado en la lista. Llame al (347) 478-9228 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 12pm to 3pm. The pantry runs on the 1st and 3rd Thursday of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "1800 Topping Ave, Bronx, NY, 10457."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "That is not listed. Call (347) 478-9228 to ask before you go."
+      }
+    ]
+  }
+}

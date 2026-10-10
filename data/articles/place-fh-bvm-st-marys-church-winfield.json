@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bvm-st-marys-church-winfield",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:33.464Z",
+  "facts_hash": "01b73cb797982d8c",
+  "article": {
+    "title_es": "BVM/St. Mary's Church Winfield: despensa de alimentos en Woodside, Queens",
+    "title_en": "BVM/St. Mary's Church Winfield: food pantry in Woodside, Queens",
+    "summary_es": "BVM/St. Mary's Church Winfield es una despensa de alimentos en Woodside, Queens, que aparece en el mapa Food Help NYC de la Ciudad. Está abierta los jueves de 9:30am a 12pm.",
+    "summary_en": "BVM/St. Mary's Church Winfield is a food pantry in Woodside, Queens, listed on the City's Food Help NYC map. It is open Thursdays from 9:30am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "La despensa está abierta los jueves de 9:30am a 12pm.",
+      "Está ubicada en 70-31 48th Ave, Woodside, Queens, 11377.",
+      "Puede llamar al (718) 672-4848 para más información.",
+      "La información no dice qué alimentos entrega ni qué se necesita, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "The pantry is open Thursdays from 9:30am to 12pm.",
+      "It is located at 70-31 48th Ave, Woodside, Queens, 11377.",
+      "You can call (718) 672-4848 for more information.",
+      "The listing does not say what food is given or what is needed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los jueves, de 9:30am a 12pm.",
+      "Llame al (718) 672-4848 antes de ir para preguntar qué ofrecen y si hay requisitos.",
+      "La información no incluye detalles sobre los alimentos que entregan, así que es mejor preguntar antes de visitar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Thursdays, 9:30am-12pm.",
+      "Call (718) 672-4848 ahead to ask about what is offered and any requirements.",
+      "The listing does not include details about the food given, so it is best to ask before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es BVM/St. Mary's Church Winfield?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los jueves, de 9:30am a 12pm, para la despensa."
+      },
+      {
+        "q": "¿Qué necesito llevar o qué requisitos hay?",
+        "a": "La información no lo dice. Llame al (718) 672-4848 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is BVM/St. Mary's Church Winfield?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays, 9:30am-12pm, for the pantry."
+      },
+      {
+        "q": "What do I need to bring or qualify for?",
+        "a": "The listing does not say. Call (718) 672-4848 to ask before you go."
+      }
+    ]
+  }
+}

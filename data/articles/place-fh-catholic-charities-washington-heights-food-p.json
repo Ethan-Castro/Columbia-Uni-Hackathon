@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-catholic-charities-washington-heights-food-p",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:03.658Z",
+  "facts_hash": "ad9acd6373ffd38a",
+  "article": {
+    "title_es": "Catholic Charities Washington Heights: despensa de alimentos en Manhattan",
+    "title_en": "Catholic Charities Washington Heights: food pantry in Manhattan",
+    "summary_es": "Catholic Charities tiene una despensa de alimentos en Washington Heights, en Manhattan, que aparece en el mapa Food Help NYC de la ciudad. Abre los jueves de 10am a 12pm.",
+    "summary_en": "Catholic Charities runs a food pantry in Washington Heights, Manhattan, listed on the City's Food Help NYC map. It is open Thursdays 10am-12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 665 W 182nd St, Nueva York, NY 10033, en Manhattan.",
+      "Abre los jueves de 10am a 12pm (horario de la despensa).",
+      "Puede llamar al (212) 862-6401 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 665 W 182nd St, New York, NY 10033, in Manhattan.",
+      "Open Thursdays 10am-12pm (pantry hours).",
+      "You can call (212) 862-6401 to ask before visiting.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los jueves de 10am a 12pm.",
+      "Llame al (212) 862-6401 para confirmar el horario y preguntar qué necesita llevar.",
+      "La lista no indica qué alimentos se entregan ni los requisitos, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Thursdays 10am-12pm.",
+      "Call (212) 862-6401 to confirm hours and ask what to bring.",
+      "The listing does not say what food is given or any requirements, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La lista no lo indica. Llame al (212) 862-6401 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los jueves de 10am a 12pm (horario de la despensa)."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos. Llame antes para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give?",
+        "a": "The listing does not say. Call (212) 862-6401 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Thursdays 10am-12pm (pantry hours)."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements. Call ahead to ask."
+      }
+    ]
+  }
+}

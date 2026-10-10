@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bethel-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:20.999Z",
+  "facts_hash": "079ef556b4e4283a",
+  "article": {
+    "title_es": "Iglesia Bethel Seventh-Day Adventist: despensa de alimentos en Brooklyn",
+    "title_en": "Bethel Seventh-Day Adventist Church: food pantry in Brooklyn",
+    "summary_es": "La Iglesia Bethel Seventh-Day Adventist en Brooklyn ofrece una despensa de alimentos y un comedor, según el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Bethel Seventh-Day Adventist Church in Brooklyn offers a food pantry and a soup kitchen, according to the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos el 2.º y 4.º miércoles del mes.",
+      "Comedor los domingos.",
+      "Ubicada en 457 Grand Ave, Brooklyn.",
+      "Llame al (917) 509-8412 para preguntar qué alimentos entregan.",
+      "La información no indica qué documentos o requisitos se piden."
+    ],
+    "how_they_help_en": [
+      "Food pantry on the 2nd and 4th Wednesday of the month.",
+      "Soup kitchen on Sundays.",
+      "Located at 457 Grand Ave in Brooklyn.",
+      "Call (917) 509-8412 to ask about the food given.",
+      "The listing does not say what documents or requirements apply."
+    ],
+    "visit_tips_es": [
+      "Despensa: miércoles de 3pm a 5pm (2.º y 4.º miércoles). Comedor: domingo de 1pm a 2pm.",
+      "Llame al (917) 509-8412 antes de ir para confirmar horarios y lo que ofrecen.",
+      "La información no dice qué alimentos entregan, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Wed 3pm-5pm (2nd and 4th Wednesday). Soup kitchen: Sun 1pm-2pm.",
+      "Call (917) 509-8412 ahead to confirm times and what is offered.",
+      "The listing does not say what food is given, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es la Iglesia Bethel Seventh-Day Adventist?",
+        "a": "Es una despensa de alimentos y un comedor que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo entregan alimentos?",
+        "a": "La despensa atiende el 2.º y 4.º miércoles, de 3pm a 5pm. El comedor atiende el domingo, de 1pm a 2pm."
+      },
+      {
+        "q": "¿Necesito llevar algo o inscribirme?",
+        "a": "La información no lo dice. Llame al (917) 509-8412 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Bethel Seventh-Day Adventist Church?",
+        "a": "It is a food pantry and soup kitchen listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is food given?",
+        "a": "The pantry runs the 2nd and 4th Wednesday, 3pm-5pm. The soup kitchen runs Sunday, 1pm-2pm."
+      },
+      {
+        "q": "Do I need to bring anything or sign up?",
+        "a": "The listing does not say. Call (917) 509-8412 to ask before you go."
+      }
+    ]
+  }
+}

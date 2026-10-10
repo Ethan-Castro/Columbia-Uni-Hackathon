@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-corona-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:21.011Z",
+  "facts_hash": "ae6b41600ae20edc",
+  "article": {
+    "title_es": "Iglesia Corona Seventh Day Adventist: despensa en Queens",
+    "title_en": "Corona Seventh Day Adventist Church: food pantry in Queens",
+    "summary_es": "La Iglesia Corona Seventh Day Adventist, en Corona, Queens, aparece en el mapa Food Help NYC como despensa de alimentos y cocina de sopa. Llame antes de ir para confirmar los detalles.",
+    "summary_en": "Corona Seventh Day Adventist Church, in Corona, Queens, is listed on the Food Help NYC map as a food pantry and soup kitchen. Call ahead to confirm details.",
+    "how_they_help_es": [
+      "Aparece en el mapa oficial Food Help NYC como despensa de alimentos.",
+      "Despensa los lunes de 9am a 11:30am.",
+      "Cocina de sopa los domingos de 12pm a 2pm.",
+      "Está en 35-30 103rd St, Corona, Queens, NY 11368.",
+      "Teléfono: (718) 429-7050."
+    ],
+    "how_they_help_en": [
+      "Listed on the official Food Help NYC map as a food pantry.",
+      "Pantry hours are Mondays 9am-11:30am.",
+      "Soup kitchen hours are Sundays 12pm-2pm.",
+      "Located at 35-30 103rd St, Corona, Queens, NY 11368.",
+      "Phone: (718) 429-7050."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona los lunes; la cocina de sopa, los domingos.",
+      "La información fue verificada por última vez el 10 de octubre de 2026.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte llamando al (718) 429-7050."
+    ],
+    "visit_tips_en": [
+      "The pantry runs on Mondays; the soup kitchen runs on Sundays.",
+      "Information was last checked on October 10, 2026.",
+      "What food is given and any requirements are not listed; ask by calling (718) 429-7050."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos y también tiene cocina de sopa los domingos."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Despensa: lunes de 9am a 11:30am. Cocina de sopa: domingos de 12pm a 2pm."
+      },
+      {
+        "q": "¿Está abierto los fines de semana?",
+        "a": "Sí, la cocina de sopa funciona los domingos de 12pm a 2pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry and also has a soup kitchen on Sundays."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Pantry: Mondays 9am-11:30am. Soup kitchen: Sundays 12pm-2pm."
+      },
+      {
+        "q": "Is it open on weekends?",
+        "a": "Yes, the soup kitchen runs on Sundays from 12pm to 2pm."
+      }
+    ]
+  }
+}

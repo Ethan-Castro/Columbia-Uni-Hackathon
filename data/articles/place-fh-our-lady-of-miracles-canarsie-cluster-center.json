@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-our-lady-of-miracles-canarsie-cluster-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:23.735Z",
+  "facts_hash": "4cb86a39cfca017e",
+  "article": {
+    "title_es": "Our Lady of Miracles - Canarsie Cluster Center: despensa de alimentos en Brooklyn",
+    "title_en": "Our Lady of Miracles - Canarsie Cluster Center: food pantry in Brooklyn",
+    "summary_es": "Our Lady of Miracles - Canarsie Cluster Center es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. Está en Brooklyn y abre los sábados.",
+    "summary_en": "Our Lady of Miracles - Canarsie Cluster Center is a food pantry listed on the City's Food Help NYC map. It is located in Brooklyn and opens on Saturdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 757 E 86th St, Brooklyn, NY 11236.",
+      "Abre los sábados de 10am a 11:30am para la despensa.",
+      "Tiene un teléfono de contacto: (718) 257-2400.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 757 E 86th St, Brooklyn, NY 11236.",
+      "It is open Saturdays from 10am to 11:30am for the pantry.",
+      "It has a contact phone number: (718) 257-2400.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es sábado de 10am a 11:30am, así que planifique su visita para ese día.",
+      "Llame al (718) 257-2400 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturday from 10am to 11:30am, so plan your visit for that day.",
+      "Call (718) 257-2400 before going to confirm the hours and ask what you need.",
+      "This information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad, ubicada en Brooklyn."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "La despensa abre los sábados de 10am a 11:30am."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "Eso no está en la lista. Llame al (718) 257-2400 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map, located in Brooklyn."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The pantry is open on Saturdays from 10am to 11:30am."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "That is not listed. Call (718) 257-2400 to ask before going."
+      }
+    ]
+  }
+}

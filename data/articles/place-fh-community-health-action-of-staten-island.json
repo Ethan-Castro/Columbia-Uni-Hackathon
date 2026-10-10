@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-community-health-action-of-staten-island",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:20.446Z",
+  "facts_hash": "baff18cad12ce8f8",
+  "article": {
+    "title_es": "Community Health Action of Staten Island: despensa de alimentos en Staten Island",
+    "title_en": "Community Health Action of Staten Island: food pantry in Staten Island",
+    "summary_es": "Community Health Action of Staten Island es una despensa de alimentos en Staten Island que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Community Health Action of Staten Island is a food pantry in Staten Island listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 2134 Richmond Ter, Staten Island, NY 10302.",
+      "Atiende lunes a miércoles y viernes de 2:30pm a 4:30pm.",
+      "Puede llamar al (718) 808-1829 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2134 Richmond Ter, Staten Island, NY 10302.",
+      "It is open Monday to Wednesday and Friday, 2:30pm-4:30pm.",
+      "You can call (718) 808-1829 to ask before visiting.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es lunes a miércoles y viernes de 2:30pm a 4:30pm.",
+      "Llame al (718) 808-1829 para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Monday to Wednesday and Friday, 2:30pm-4:30pm.",
+      "Call (718) 808-1829 to confirm hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (718) 808-1829 para preguntar."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Lunes a miércoles y viernes de 2:30pm a 4:30pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 2134 Richmond Ter, Staten Island, New York, 10302."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (718) 808-1829 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Monday to Wednesday and Friday, 2:30pm-4:30pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 2134 Richmond Ter, Staten Island, New York, 10302."
+      }
+    ]
+  }
+}

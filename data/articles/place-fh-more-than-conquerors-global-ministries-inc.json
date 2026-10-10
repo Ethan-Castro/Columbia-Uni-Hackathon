@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-more-than-conquerors-global-ministries-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:00.873Z",
+  "facts_hash": "135c4e80b3739f6f",
+  "article": {
+    "title_es": "More Than Conquerors Global Ministries: despensa de alimentos en Queens",
+    "title_en": "More Than Conquerors Global Ministries: food pantry in Queens",
+    "summary_es": "More Than Conquerors Global Ministries Inc es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 2pm a 4pm.",
+    "summary_en": "More Than Conquerors Global Ministries Inc is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map. It is open Saturdays from 2pm to 4pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 153-56 Rockaway Blvd, Jamaica, Nueva York, 11434.",
+      "Atiende los sábados de 2pm a 4pm.",
+      "Puede llamar al (718) 528-3334 para preguntar.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 153-56 Rockaway Blvd, Jamaica, New York, 11434.",
+      "It is open Saturdays from 2pm to 4pm.",
+      "You can call (718) 528-3334 with questions.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es sábado de 2pm a 4pm.",
+      "Llame al (718) 528-3334 antes de ir para confirmar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturday 2pm-4pm.",
+      "Call (718) 528-3334 before going to confirm.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 2pm a 4pm, según la información publicada."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 153-56 Rockaway Blvd, Jamaica, Nueva York, 11434, en Queens."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "No se indica en la información disponible. Llame al (718) 528-3334 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 2pm to 4pm, according to the published information."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 153-56 Rockaway Blvd, Jamaica, New York, 11434, in Queens."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "The available information does not say. Call (718) 528-3334 to ask before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-neighborhood-defender-service-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:34.552Z",
+  "facts_hash": "3d48d165288110bd",
+  "article": {
+    "title_es": "Neighborhood Defender Service: organización legal en Manhattan",
+    "title_en": "Neighborhood Defender Service: legal organization in Manhattan",
+    "summary_es": "Neighborhood Defender Service, Inc. aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración. Está en Harlem, Manhattan.",
+    "summary_en": "Neighborhood Defender Service, Inc. appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help. It is located in Harlem, Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados pueden dar ayuda legal de inmigración.",
+      "Dirección: 317 Lenox Avenue, 10th Floor, Nueva York, NY 10027.",
+      "Teléfono: (212) 876-5500.",
+      "Los servicios y tarifas no están en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its accredited representatives may provide immigration legal help.",
+      "Address: 317 Lenox Avenue, 10th Floor, New York, NY 10027.",
+      "Phone: (212) 876-5500.",
+      "Services and fees are not listed; ask the organization directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (212) 876-5500 para preguntar por sus servicios y cómo agendar una cita.",
+      "Las tarifas y el proceso de admisión no aparecen en esta información; pregunte por teléfono.",
+      "El horario no está incluido; confírmelo cuando llame."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (212) 876-5500 to ask about services and how to make an appointment.",
+      "Fees and the intake process are not listed in this information; ask by phone.",
+      "Hours are not included; confirm them when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas con representantes acreditados en temas de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están incluidas en esta información. Llame al (212) 876-5500 para preguntar."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto?",
+        "a": "317 Lenox Avenue, 10th Floor, Nueva York, NY 10027. Teléfono: (212) 876-5500."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a nonprofit listed on the DOJ (EOIR) roster of recognized organizations with accredited representatives in immigration matters."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in this information. Call (212) 876-5500 to ask."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "317 Lenox Avenue, 10th Floor, New York, NY 10027. Phone: (212) 876-5500."
+      }
+    ]
+  }
+}

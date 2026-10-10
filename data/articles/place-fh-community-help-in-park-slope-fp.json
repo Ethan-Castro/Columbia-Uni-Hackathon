@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-community-help-in-park-slope-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:56.346Z",
+  "facts_hash": "440217520e736b50",
+  "article": {
+    "title_es": "Community Help in Park Slope: despensa de alimentos en Brooklyn",
+    "title_en": "Community Help in Park Slope: food pantry in Brooklyn",
+    "summary_es": "Community Help in Park Slope es una despensa de alimentos en Brooklyn, en la lista Food Help NYC de la Ciudad. Abre jueves y sábados.",
+    "summary_en": "Community Help in Park Slope is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Thursdays and Saturdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Ofrece servicio de despensa los jueves de 11:30am a 1pm.",
+      "Ofrece servicio de despensa los sábados de 11:30am a 1pm.",
+      "Está ubicada en 200 Fourth Avenue, Brooklyn, NY 11217.",
+      "Qué alimentos entrega y si hay requisitos no está indicado; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Pantry service is offered Thursdays from 11:30am to 1pm.",
+      "Pantry service is offered Saturdays from 11:30am to 1pm.",
+      "It is located at 200 Fourth Avenue, Brooklyn, NY 11217.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Vaya los jueves o sábados entre 11:30am y 1pm, que son los horarios de despensa indicados.",
+      "Antes de ir, llame al (718) 237-2962 para preguntar qué alimentos entrega y si necesita algo.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on Thursdays or Saturdays between 11:30am and 1pm, the listed pantry hours.",
+      "Before going, call (718) 237-2962 to ask what food is given and if anything is needed.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves y sábados de 11:30am a 1pm, según la lista."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 200 Fourth Avenue, Brooklyn, NY 11217."
+      },
+      {
+        "q": "¿Qué alimentos da y qué necesito llevar?",
+        "a": "No está indicado en la lista. Llame al (718) 237-2962 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays and Saturdays from 11:30am to 1pm, according to the listing."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 200 Fourth Avenue, Brooklyn, NY 11217."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "That is not listed. Call (718) 237-2962 to ask before going."
+      }
+    ]
+  }
+}

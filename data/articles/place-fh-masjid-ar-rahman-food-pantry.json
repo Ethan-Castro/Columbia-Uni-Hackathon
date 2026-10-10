@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-masjid-ar-rahman-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:23.894Z",
+  "facts_hash": "81fd75c0bb4efadf",
+  "article": {
+    "title_es": "Masjid Ar Rahman Food Pantry: despensa de alimentos en Queens Village",
+    "title_en": "Masjid Ar Rahman Food Pantry: food pantry in Queens Village",
+    "summary_es": "Masjid Ar Rahman Food Pantry es una despensa de alimentos en Queens Village, Queens, que aparece en el mapa Food Help NYC de la ciudad. Reparte alimentos los viernes 1 y 3 de cada mes, de 2:30pm a 4pm.",
+    "summary_en": "Masjid Ar Rahman Food Pantry is a food pantry in Queens Village, Queens, listed on the City's Food Help NYC map. It gives out food on the 1st and 3rd Friday of the month, from 2:30pm to 4pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 98-10 211th St, Queens Village, NY, 11429, en Queens.",
+      "Abre los viernes de 2:30pm a 4pm, solo el primer y tercer viernes del mes.",
+      "Puede llamar al (718) 740-5025 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 98-10 211th St, Queens Village, NY, 11429, in Queens.",
+      "It is open Fridays from 2:30pm to 4pm, on the 1st and 3rd Friday of the month only.",
+      "You can call (718) 740-5025 to ask questions before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya un viernes 1 o 3 del mes, entre 2:30pm y 4pm, porque otros viernes no hay reparto.",
+      "Llame al (718) 740-5025 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on the 1st or 3rd Friday of the month, between 2:30pm and 4pm, because there is no distribution on other Fridays.",
+      "Call (718) 740-5025 before you go to confirm the hours and ask what you need.",
+      "The listing does not mention documents or requirements, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué días reparte alimentos esta despensa?",
+        "a": "Los viernes de 2:30pm a 4pm, pero solo el primer y tercer viernes de cada mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 98-10 211th St, Queens Village, NY, 11429, en el condado de Queens."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "La lista no lo indica. Llame al (718) 740-5025 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What days does this pantry give out food?",
+        "a": "Fridays from 2:30pm to 4pm, but only on the 1st and 3rd Friday of each month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 98-10 211th St, Queens Village, NY, 11429, in Queens."
+      },
+      {
+        "q": "What food does it give out and what do I need to receive it?",
+        "a": "The listing does not say. Call (718) 740-5025 to ask before you go."
+      }
+    ]
+  }
+}

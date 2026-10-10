@@ -1,0 +1,60 @@
+{
+  "place_id": "place-fh-new-hope-pentecostal-church-of-jesus-christ",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:34.353Z",
+  "facts_hash": "c1046f078c58e1a4",
+  "article": {
+    "title_es": "New Hope Pentecostal Church: despensa de alimentos en Brooklyn",
+    "title_en": "New Hope Pentecostal Church: food pantry in Brooklyn",
+    "summary_es": "Esta iglesia en Brooklyn aparece en el mapa Food Help NYC como despensa de alimentos. Abre los sábados de 12pm a 2pm, solo el segundo y cuarto sábado del mes.",
+    "summary_en": "This Brooklyn church is listed on the City's Food Help NYC map as a food pantry. It is open Saturdays 12pm-2pm, on the 2nd and 4th Saturday of the month only.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos.",
+      "Está ubicada en 1838 Park Pl, Brooklyn, NY, 11233.",
+      "Abre los sábados de 12pm a 2pm, solo el segundo y cuarto sábado del mes.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the City's Food Help NYC map as a food pantry.",
+      "Located at 1838 Park Pl, Brooklyn, NY, 11233.",
+      "Open Saturdays 12pm-2pm, on the 2nd and 4th Saturday of the month only.",
+      "The listing does not say what food is given or if there are requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "Vaya un segundo o cuarto sábado del mes, entre 12pm y 2pm.",
+      "No hay teléfono en la lista; verifique los detalles en el mapa Food Help NYC antes de ir."
+    ],
+    "visit_tips_en": [
+      "Go on a 2nd or 4th Saturday of the month, between 12pm and 2pm.",
+      "No phone number is listed; check the details on the Food Help NYC map before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Es mejor preguntar directamente en el lugar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Sábados de 12pm a 2pm, solo el segundo y cuarto sábado del mes."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos. Pregunte en el lugar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. It is best to ask directly at the location."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays 12pm-2pm, on the 2nd and 4th Saturday of the month only."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements. Ask at the location before going."
+      }
+    ]
+  }
+}

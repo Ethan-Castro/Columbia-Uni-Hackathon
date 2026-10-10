@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-el-remanente-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:27.437Z",
+  "facts_hash": "a7cd26dc8176bd23",
+  "article": {
+    "title_es": "El Remanente: despensa de alimentos en el Bronx",
+    "title_en": "El Remanente: food pantry in the Bronx",
+    "summary_es": "El Remanente Food Pantry es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 11am a 12:30pm.",
+    "summary_en": "El Remanente Food Pantry is a food pantry in the Bronx listed on the City's Food Help NYC map. It is open Saturdays from 11am to 12:30pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1402 Crotona Park E, Bronx, NY 10460.",
+      "Abre los sábados de 11am a 12:30pm.",
+      "La despensa funciona el primer y tercer sábado del mes.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1402 Crotona Park E, Bronx, NY 10460.",
+      "It is open Saturdays from 11am to 12:30pm.",
+      "The pantry runs on the 1st and 3rd Saturday of the month.",
+      "The listing does not say what food is given or if there are requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado entre 11am y 12:30pm, y recuerde que la despensa solo abre el primer y tercer sábado del mes.",
+      "La lista no menciona documentos ni requisitos; consulte con la despensa antes de ir.",
+      "Verifique la información en el mapa Food Help NYC de la ciudad antes de viajar."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday between 11am and 12:30pm, and remember the pantry only runs on the 1st and 3rd Saturday of the month.",
+      "The listing does not mention documents or requirements; check with the pantry before going.",
+      "Verify the information on the City's Food Help NYC map before traveling."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 11am a 12:30pm, pero solo el primer y tercer sábado del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1402 Crotona Park E, Bronx, NY 10460."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no lo indica. Pregunte directamente en la despensa antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 11am to 12:30pm, but only on the 1st and 3rd Saturday of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 1402 Crotona Park E, Bronx, NY 10460."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "The listing does not say. Ask the pantry directly before going."
+      }
+    ]
+  }
+}

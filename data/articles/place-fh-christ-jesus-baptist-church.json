@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-christ-jesus-baptist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:18.946Z",
+  "facts_hash": "1be98d29138b97e7",
+  "article": {
+    "title_es": "Christ Jesus Baptist Church: despensa de alimentos en el Bronx",
+    "title_en": "Christ Jesus Baptist Church: food pantry in the Bronx",
+    "summary_es": "Christ Jesus Baptist Church es una despensa de alimentos en el Bronx, en el mapa Food Help NYC de la ciudad. Abre los miércoles de 10am a 5pm.",
+    "summary_en": "Christ Jesus Baptist Church is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Wednesdays from 10am to 5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 431 Southern Blvd, Bronx, NY 10455.",
+      "Abre los miércoles de 10am a 5pm para la despensa.",
+      "Puede llamar al (347) 293-5506 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 431 Southern Blvd, Bronx, NY 10455.",
+      "The pantry is open Wednesdays from 10am to 5pm.",
+      "You can call (347) 293-5506 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya el miércoles entre 10am y 5pm, que es el horario de la despensa.",
+      "Llame antes al (347) 293-5506 para confirmar horarios y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on Wednesday between 10am and 5pm, which is the pantry's listed time.",
+      "Call ahead at (347) 293-5506 to confirm hours and ask what you need.",
+      "The listing does not mention documents or requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo dice. Llame al (347) 293-5506 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos. Se recomienda llamar antes de ir."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los miércoles de 10am a 5pm, según la lista."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (347) 293-5506 to ask."
+      },
+      {
+        "q": "Do I need any documents or meet requirements?",
+        "a": "The listing does not mention requirements. It is best to call before going."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays from 10am to 5pm, according to the listing."
+      }
+    ]
+  }
+}

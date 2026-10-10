@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-chazaq",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:02.264Z",
+  "facts_hash": "6da55a3edfeff2de",
+  "article": {
+    "title_es": "CHAZAQ: despensa de alimentos en Flushing, Queens",
+    "title_en": "CHAZAQ: food pantry in Flushing, Queens",
+    "summary_es": "CHAZAQ es una despensa de alimentos en Flushing, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los martes por la tarde.",
+    "summary_en": "CHAZAQ is a food pantry in Flushing, Queens, listed on the City's Food Help NYC map. It is open on Tuesday afternoons.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 141-47 72nd Ave, Flushing, Queens.",
+      "Abre los martes de 2:30pm a 5pm (despensa).",
+      "Puede llamar al (718) 285-9132 para preguntar.",
+      "No se indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 141-47 72nd Ave, Flushing, Queens.",
+      "It is open Tuesdays from 2:30pm to 5pm (pantry).",
+      "You can call (718) 285-9132 with questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes de 2:30pm a 5pm.",
+      "Llame antes al (718) 285-9132 para confirmar detalles.",
+      "La lista no indica qué alimentos hay ni qué se necesita, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Tuesday from 2:30pm to 5pm.",
+      "Call ahead at (718) 285-9132 to confirm details.",
+      "The listing does not say what food is given or what is needed, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es CHAZAQ?",
+        "a": "Es una despensa de alimentos en Flushing, Queens, que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "La despensa abre los martes de 2:30pm a 5pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No se indica en la lista. Llame al (718) 285-9132 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is CHAZAQ?",
+        "a": "It is a food pantry in Flushing, Queens, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The pantry is open Tuesdays from 2:30pm to 5pm."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "The listing does not say. Call (718) 285-9132 to ask."
+      }
+    ]
+  }
+}

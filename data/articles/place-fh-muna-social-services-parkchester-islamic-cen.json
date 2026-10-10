@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-muna-social-services-parkchester-islamic-cen",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:31.045Z",
+  "facts_hash": "a0e1b2a744c812e5",
+  "article": {
+    "title_es": "MUNA Social Services Parkchester: despensa de alimentos en el Bronx",
+    "title_en": "MUNA Social Services Parkchester: food pantry in the Bronx",
+    "summary_es": "MUNA Social Services en el Parkchester Islamic Center es una despensa de alimentos en el Bronx, inscrita en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "MUNA Social Services at the Parkchester Islamic Center is a food pantry in the Bronx, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1375 Virginia Ave, Bronx, NY 10462.",
+      "Abre los jueves de 4pm a 5pm.",
+      "La despensa funciona el 2.º y 4.º jueves del mes.",
+      "Qué alimentos entrega y si hay requisitos no aparece en la lista; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1375 Virginia Ave, Bronx, NY 10462.",
+      "It is open Thursdays from 4pm to 5pm.",
+      "The pantry runs on the 2nd and 4th Thursday of the month.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Vaya un 2.º o 4.º jueves del mes, entre 4pm y 5pm.",
+      "Antes de ir, llame al (212) 920-6202 para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on the 2nd or 4th Thursday of the month, between 4pm and 5pm.",
+      "Before going, call (212) 920-6202 to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no indica qué alimentos se entregan ni si hay requisitos. Llame al (212) 920-6202 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 4pm a 5pm, pero solo el 2.º y 4.º jueves de cada mes."
+      },
+      {
+        "q": "¿Dónde está y cómo la contacto?",
+        "a": "Está en 1375 Virginia Ave, Bronx, NY 10462. El teléfono es (212) 920-6202."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say what food is given or if there are requirements. Call (212) 920-6202 to ask."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 4pm to 5pm, but only on the 2nd and 4th Thursday of each month."
+      },
+      {
+        "q": "Where is it and how do I contact it?",
+        "a": "It is at 1375 Virginia Ave, Bronx, NY 10462. The phone number is (212) 920-6202."
+      }
+    ]
+  }
+}

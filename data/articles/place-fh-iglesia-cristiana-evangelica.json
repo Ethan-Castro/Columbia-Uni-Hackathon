@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-iglesia-cristiana-evangelica",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:07.044Z",
+  "facts_hash": "02dcbac51b6e8ef8",
+  "article": {
+    "title_es": "Iglesia Cristiana Evangelica: despensa de alimentos en Corona, Queens",
+    "title_en": "Iglesia Cristiana Evangelica: food pantry in Corona, Queens",
+    "summary_es": "La Iglesia Cristiana Evangelica aparece en el mapa Food Help NYC como despensa de alimentos en Corona, Queens. Reparte alimentos los sábados de 11am a 12pm.",
+    "summary_en": "Iglesia Cristiana Evangelica is listed on the City's Food Help NYC map as a food pantry in Corona, Queens. It distributes food on Saturdays from 11am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 34-35 96th St, Corona, Queens, código postal 11368.",
+      "Abre los sábados de 11am a 12pm para la despensa.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito.",
+      "No hay teléfono en la lista; consulte el mapa Food Help NYC antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 34-35 96th St, Corona, Queens, ZIP code 11368.",
+      "It is open Saturdays from 11am to 12pm for the pantry.",
+      "The listing does not say what food is given or if there are any requirements.",
+      "No phone number is listed; check the Food Help NYC map before going."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona solo los sábados de 11am a 12pm, según la lista.",
+      "La información fue verificada por última vez el 10 de octubre de 2026.",
+      "Como no hay teléfono en la lista, confirme los detalles en el mapa Food Help NYC."
+    ],
+    "visit_tips_en": [
+      "The pantry runs only on Saturdays from 11am to 12pm, according to the listing.",
+      "The information was last checked on October 10, 2026.",
+      "Since no phone number is listed, confirm details on the Food Help NYC map."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los sábados de 11am a 12pm, según la lista."
+      },
+      {
+        "q": "¿Dónde está ubicada la despensa?",
+        "a": "En 34-35 96th St, Corona, Queens, código postal 11368."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry. The listing does not say what food is given."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 11am to 12pm, according to the listing."
+      },
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 34-35 96th St, Corona, Queens, ZIP code 11368."
+      }
+    ]
+  }
+}

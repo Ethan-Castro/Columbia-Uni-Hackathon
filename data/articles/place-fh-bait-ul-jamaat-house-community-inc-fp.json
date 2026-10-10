@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bait-ul-jamaat-house-community-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:44.297Z",
+  "facts_hash": "d92fdd9bcde11a80",
+  "article": {
+    "title_es": "BAIT-UL JAMAAT-HOUSE COMMUNITY INC: despensa de alimentos en Staten Island",
+    "title_en": "BAIT-UL JAMAAT-HOUSE COMMUNITY INC: food pantry in Staten Island",
+    "summary_es": "BAIT-UL JAMAAT-HOUSE COMMUNITY INC es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad. Atiende los jueves de 12pm a 2pm en Staten Island.",
+    "summary_en": "BAIT-UL JAMAAT-HOUSE COMMUNITY INC is a food pantry listed on the City's Food Help NYC map. It is open Thursdays from 12pm to 2pm in Staten Island.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Ofrece servicio de despensa los jueves de 12pm a 2pm.",
+      "Está ubicada en 412 Jersey St, Staten Island, NY, 10301.",
+      "Se puede llamar al (347) 289-7991 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "Pantry service is offered Thursdays from 12pm to 2pm.",
+      "It is located at 412 Jersey St, Staten Island, NY, 10301.",
+      "You can call (347) 289-7991 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es jueves de 12pm a 2pm; planifique su visita para ese día.",
+      "Llame al (347) 289-7991 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Thursday 12pm-2pm; plan your visit for that day.",
+      "Call (347) 289-7991 before going to confirm hours and ask what you need.",
+      "The listing does not mention documents or requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo atiende la despensa?",
+        "a": "Los jueves de 12pm a 2pm, según la información de la lista."
+      },
+      {
+        "q": "¿Qué alimentos da y qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (347) 289-7991 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 12pm to 2pm, according to the listing."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "The listing does not say. Call (347) 289-7991 to ask before going."
+      }
+    ]
+  }
+}

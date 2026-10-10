@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-brooklyn-defender-services-adams-street",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:03.704Z",
+  "facts_hash": "fe7cf7e84fee3774",
+  "article": {
+    "title_es": "Brooklyn Defender Services: ayuda legal de inmigración en Brooklyn",
+    "title_en": "Brooklyn Defender Services: immigration legal help in Brooklyn",
+    "summary_es": "Brooklyn Defender Services (oficina de Adams Street) es una organización sin fines de lucro en Brooklyn que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas para ayuda legal de inmigración.",
+    "summary_en": "Brooklyn Defender Services (Adams Street Extension Office) is a non-profit organization in Brooklyn that appears on the U.S. Department of Justice (EOIR) list of recognized organizations for immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicado en 335 Adams Street, en Brooklyn.",
+      "Llame al (718) 254-0700 para preguntar por los servicios.",
+      "Las tarifas y el proceso de admisión no aparecen; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the U.S. Department of Justice (EOIR) roster of recognized organizations.",
+      "DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 335 Adams Street in Brooklyn.",
+      "Call (718) 254-0700 to ask about services.",
+      "Fees and intake process are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 254-0700 antes de visitar para preguntar por los servicios y los próximos pasos.",
+      "Los horarios no aparecen en esta información; confírmelos por teléfono.",
+      "Pregunte por las tarifas y cómo iniciar un caso, ya que no aparecen aquí."
+    ],
+    "visit_tips_en": [
+      "Call (718) 254-0700 before visiting to ask about services and next steps.",
+      "Hours are not listed in this information, so confirm them by phone.",
+      "Ask about fees and how to start a case, since these are not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Brooklyn Defender Services?",
+        "a": "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Sus representantes acreditados pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuesta y cómo consigo una cita?",
+        "a": "Las tarifas y el proceso de admisión no aparecen en esta información. Llame al (718) 254-0700 para preguntar."
+      },
+      {
+        "q": "¿Cuáles son los horarios de la oficina?",
+        "a": "Esta ficha no incluye los horarios. Llame con anticipación para confirmar cuándo está abierto."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Brooklyn Defender Services?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) list of recognized organizations. Its accredited representatives may give immigration legal help."
+      },
+      {
+        "q": "How much does it cost and how do I get an appointment?",
+        "a": "Fees and the intake process are not listed in this information. Call (718) 254-0700 to ask."
+      },
+      {
+        "q": "What are the office hours?",
+        "a": "This listing does not include hours. Call ahead to confirm when it is open."
+      }
+    ]
+  }
+}

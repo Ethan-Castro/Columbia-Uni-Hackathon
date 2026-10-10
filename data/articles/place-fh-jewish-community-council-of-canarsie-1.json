@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-jewish-community-council-of-canarsie-1",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:29.645Z",
+  "facts_hash": "8150e97d6ebaab0b",
+  "article": {
+    "title_es": "Jewish Community Council of Canarsie #1: despensa de alimentos en Brooklyn",
+    "title_en": "Jewish Community Council of Canarsie #1: food pantry in Brooklyn",
+    "summary_es": "El Jewish Community Council of Canarsie #1 es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. Está en Brooklyn y reparte alimentos los miércoles por la mañana.",
+    "summary_en": "Jewish Community Council of Canarsie #1 is a food pantry listed on the City's Food Help NYC map. It is located in Brooklyn and distributes food on Wednesday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "El horario de la despensa es miércoles de 9am a 11am.",
+      "Está ubicada en 1170 Pennsylvania Ave, Brooklyn, NY 11239.",
+      "Puede llamar al (718) 922-2474 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Pantry hours are Wednesday 9am-11am.",
+      "It is located at 1170 Pennsylvania Ave, Brooklyn, NY 11239.",
+      "You can call (718) 922-2474 to ask questions before going.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los miércoles de 9am a 11am, así que planifique su visita para ese día.",
+      "Llame al (718) 922-2474 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are only Wednesdays 9am-11am, so plan your visit for that day.",
+      "Call (718) 922-2474 before going to confirm the hours and ask what you need.",
+      "This information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos, así que es mejor preguntar por teléfono."
+      },
+      {
+        "q": "¿Cuándo y dónde puedo recibir alimentos?",
+        "a": "La despensa atiende los miércoles de 9am a 11am en 1170 Pennsylvania Ave, Brooklyn, NY 11239."
+      },
+      {
+        "q": "¿Necesito llamar antes de ir?",
+        "a": "La lista no lo exige, pero llamar al (718) 922-2474 puede ayudarle a confirmar el horario y saber qué alimentos hay."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. The listing does not say what food is given or if there are requirements, so it is best to ask by phone."
+      },
+      {
+        "q": "When and where can I get food?",
+        "a": "The pantry is open Wednesdays 9am-11am at 1170 Pennsylvania Ave, Brooklyn, NY 11239."
+      },
+      {
+        "q": "Do I need to call before going?",
+        "a": "The listing does not require it, but calling (718) 922-2474 can help you confirm the hours and learn what food is available."
+      }
+    ]
+  }
+}

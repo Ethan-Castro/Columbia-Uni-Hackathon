@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-newman-memorial-united-methodist-church-comm",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:19.979Z",
+  "facts_hash": "d870d7c65383aa29",
+  "article": {
+    "title_es": "Newman Memorial United Methodist Church: despensa en Brooklyn",
+    "title_en": "Newman Memorial United Methodist Church: food pantry in Brooklyn",
+    "summary_es": "Una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 10 am a 2 pm.",
+    "summary_en": "A food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Saturdays from 10am to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 257 Macon St, Brooklyn, NY 11216.",
+      "Abre los sábados de 10 am a 2 pm para la despensa.",
+      "Tiene teléfono: (718) 622-7955.",
+      "No se indica qué alimentos entrega; pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 257 Macon St, Brooklyn, NY 11216.",
+      "The pantry is open Saturdays from 10am to 2pm.",
+      "Phone: (718) 622-7955.",
+      "What food is given is not listed; ask before you go."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los sábados de 10 am a 2 pm.",
+      "Llame al (718) 622-7955 para preguntar qué necesita llevar y qué alimentos entrega.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Saturdays from 10am to 2pm.",
+      "Call (718) 622-7955 to ask what to bring and what food is given.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "Los sábados de 10 am a 2 pm, según la información publicada."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué requisitos hay?",
+        "a": "No está indicado. Llame al (718) 622-7955 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does this place offer?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When can I go?",
+        "a": "Saturdays from 10am to 2pm, according to the posted information."
+      },
+      {
+        "q": "What food is given, and are there requirements?",
+        "a": "That is not listed. Call (718) 622-7955 to ask before you go."
+      }
+    ]
+  }
+}

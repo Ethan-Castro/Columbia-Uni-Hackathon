@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-diaconia-community-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:36.190Z",
+  "facts_hash": "cdb687333065b5b1",
+  "article": {
+    "title_es": "Diaconia Community Food Pantry: despensa de alimentos en el Bronx",
+    "title_en": "Diaconia Community Food Pantry: food pantry in the Bronx",
+    "summary_es": "Diaconia Community Food Pantry es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. Está en el Bronx y abre los domingos de 2pm a 4pm.",
+    "summary_en": "Diaconia Community Food Pantry is a food pantry listed on the City's Food Help NYC map. It is located in the Bronx and is open Sundays from 2pm to 4pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los domingos de 2pm a 4pm.",
+      "Está ubicada en 213 E 144th St, Bronx, NY, 10451.",
+      "Puede llamar al (914) 886-4146 para preguntar antes de ir.",
+      "La lista no indica qué alimentos da ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Sundays from 2pm to 4pm.",
+      "It is located at 213 E 144th St, Bronx, NY, 10451.",
+      "You can call (914) 886-4146 to ask questions before going.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es domingo de 2pm a 4pm.",
+      "Llame al (914) 886-4146 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Sunday 2pm-4pm.",
+      "Call (914) 886-4146 before going to confirm the hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos reparte esta despensa?",
+        "a": "La lista no indica qué alimentos se entregan ni cómo funciona el reparto. Llame al (914) 886-4146 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos ni documentos. Se recomienda llamar antes de ir para preguntar."
+      },
+      {
+        "q": "¿Abre otros días además del domingo?",
+        "a": "La lista solo indica el horario de la despensa: domingo de 2pm a 4pm. No hay otros horarios registrados."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give out?",
+        "a": "The listing does not say what food is given or how distribution works. Call (914) 886-4146 to ask."
+      },
+      {
+        "q": "Do I need any documents or meet requirements?",
+        "a": "The listing does not mention requirements or documents. It is best to call before going to ask."
+      },
+      {
+        "q": "Is it open on days other than Sunday?",
+        "a": "The listing only shows the pantry hours: Sunday 2pm-4pm. No other hours are listed."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-first-ghana-sda-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:32.413Z",
+  "facts_hash": "419177d3019ea7d4",
+  "article": {
+    "title_es": "First Ghana SDA Church: despensa de alimentos en el Bronx",
+    "title_en": "First Ghana SDA Church: food pantry in the Bronx",
+    "summary_es": "First Ghana SDA Church es una despensa de alimentos en el Bronx, en el mapa Food Help NYC de la ciudad. Abre los jueves de 12pm a 3pm.",
+    "summary_en": "First Ghana SDA Church is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Thursdays from 12pm to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 45 Goble Pl, Bronx, NY 10452.",
+      "Abre los jueves de 12pm a 3pm.",
+      "La despensa funciona el primer y tercer jueves del mes."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Located at 45 Goble Pl, Bronx, NY 10452.",
+      "Open Thursdays from 12pm to 3pm.",
+      "The pantry runs on the 1st and 3rd Thursday of the month."
+    ],
+    "visit_tips_es": [
+      "Vaya un jueves de 12pm a 3pm; la despensa es el primer y tercer jueves.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte al llegar.",
+      "No se lista un teléfono; consulte el mapa Food Help NYC para más información."
+    ],
+    "visit_tips_en": [
+      "Go on a Thursday from 12pm to 3pm; the pantry is the 1st and 3rd Thursday.",
+      "What food is given and any requirements are not listed; ask when you arrive.",
+      "No phone number is listed; check the Food Help NYC map for more information."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 12pm a 3pm. La despensa funciona el primer y tercer jueves del mes."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 45 Goble Pl, Bronx, NY 10452."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "No se indica ningún requisito en la información disponible. Pregunte al llegar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 12pm to 3pm. The pantry runs on the 1st and 3rd Thursday of the month."
+      },
+      {
+        "q": "Where is it?",
+        "a": "At 45 Goble Pl, Bronx, NY 10452."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "No requirements are listed in the available information. Ask when you arrive."
+      }
+    ]
+  }
+}

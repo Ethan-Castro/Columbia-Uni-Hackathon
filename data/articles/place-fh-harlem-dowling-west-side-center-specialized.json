@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-harlem-dowling-west-side-center-specialized",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:25.255Z",
+  "facts_hash": "fd0c0ee97cee0e17",
+  "article": {
+    "title_es": "Harlem Dowling West Side Center: despensa de alimentos en Harlem",
+    "title_en": "Harlem Dowling West Side Center: food pantry in Harlem",
+    "summary_es": "Harlem Dowling West Side Center/Specialized Services es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la Ciudad. Abre los viernes de 12pm a 2pm.",
+    "summary_en": "Harlem Dowling West Side Center/Specialized Services is a food pantry in Manhattan listed on the City's Food Help NYC map. It is open Fridays from 12pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Ofrece servicio de despensa los viernes de 12pm a 2pm.",
+      "Está ubicada en 2139 Adam Clayton Powell Jr Blvd, Nueva York, NY 10027.",
+      "Puede llamar al (212) 749-3656 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Pantry service is offered on Fridays from 12pm to 2pm.",
+      "It is located at 2139 Adam Clayton Powell Jr Blvd, New York, NY 10027.",
+      "You can call (212) 749-3656 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los viernes de 12pm a 2pm.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono.",
+      "Llame al (212) 749-3656 antes de ir para confirmar el servicio."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are only on Fridays from 12pm to 2pm.",
+      "The listing does not say what food is given or if there are requirements; ask by phone.",
+      "Call (212) 749-3656 before visiting to confirm service."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los viernes de 12pm a 2pm, según la información de la lista."
+      },
+      {
+        "q": "¿Qué necesito para recibir alimentos?",
+        "a": "La lista no indica requisitos ni qué alimentos entrega. Llame al (212) 749-3656 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Manhattan listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Fridays from 12pm to 2pm, according to the listing information."
+      },
+      {
+        "q": "What do I need to get food?",
+        "a": "The listing does not state requirements or what food is given. Call (212) 749-3656 to ask."
+      }
+    ]
+  }
+}

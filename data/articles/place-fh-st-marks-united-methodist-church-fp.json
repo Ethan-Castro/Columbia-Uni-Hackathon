@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-marks-united-methodist-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:58.235Z",
+  "facts_hash": "3d3cc7fe900e6ab3",
+  "article": {
+    "title_es": "St. Mark's United Methodist Church: despensa de alimentos en Brooklyn",
+    "title_en": "St. Mark's United Methodist Church: food pantry in Brooklyn",
+    "summary_es": "St. Mark's United Methodist Church aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, en la dirección 2017 Beverley Rd.",
+    "summary_en": "St. Mark's United Methodist Church appears on the Food Help NYC map as a food pantry in Brooklyn, located at 2017 Beverley Rd.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Atiende los jueves de 12pm a 3pm, según el horario de la despensa.",
+      "Está ubicada en 2017 Beverley Rd, Brooklyn, NY 11226.",
+      "Puede llamar al (718) 282-6304 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is open Thursdays 12pm-3pm, according to the pantry hours.",
+      "It is located at 2017 Beverley Rd, Brooklyn, NY 11226.",
+      "You can call (718) 282-6304 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es jueves de 12pm a 3pm; planifique su visita en ese horario.",
+      "Llame al (718) 282-6304 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Thursday 12pm-3pm; plan your visit for that time.",
+      "Call (718) 282-6304 before going to confirm the hours and ask what you need.",
+      "This information was last checked on October 10, 2026; hours can change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad, ubicada en 2017 Beverley Rd, Brooklyn."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "El horario indicado es jueves de 12pm a 3pm. Se recomienda llamar al (718) 282-6304 para confirmar antes de ir."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito llevar?",
+        "a": "La lista no indica qué alimentos entrega ni los requisitos. Llame al (718) 282-6304 para preguntar directamente."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map, located at 2017 Beverley Rd, Brooklyn."
+      },
+      {
+        "q": "When can I go?",
+        "a": "The listed hours are Thursday 12pm-3pm. It is a good idea to call (718) 282-6304 to confirm before going."
+      },
+      {
+        "q": "What food do they give and what should I bring?",
+        "a": "The listing does not say what food is given or what the requirements are. Call (718) 282-6304 to ask directly."
+      }
+    ]
+  }
+}

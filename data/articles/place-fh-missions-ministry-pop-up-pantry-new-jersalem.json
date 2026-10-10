@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-missions-ministry-pop-up-pantry-new-jersalem",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:39.684Z",
+  "facts_hash": "6ad1d92bfce5aaec",
+  "article": {
+    "title_es": "Mission's Ministry Pop Up Pantry: despensa de alimentos en Jamaica, Queens",
+    "title_en": "Mission's Ministry Pop Up Pantry: food pantry in Jamaica, Queens",
+    "summary_es": "Mission's Ministry Pop Up Pantry en New Jerusalem Worship Center es una despensa de alimentos en Jamaica, Queens, incluida en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Mission's Ministry Pop Up Pantry at New Jerusalem Worship Center is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Una despensa de alimentos incluida en el mapa Food Help NYC de la ciudad.",
+      "Ubicada en 122-05 Smith St, en Jamaica, Queens.",
+      "Abre jueves y sábados; los días de despensa son el primer y tercer jueves del mes.",
+      "Teléfono: (718) 978-5777,303.",
+      "El aviso no indica qué alimentos entrega ni qué requisitos hay; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "A food pantry listed on the City's Food Help NYC map.",
+      "Located at 122-05 Smith St in Jamaica, Queens.",
+      "Open Thursdays and Saturdays, with pantry days on the 1st and 3rd Thursday of the month.",
+      "Phone: (718) 978-5777,303.",
+      "The listing does not say what food is given or what is required, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende el primer y tercer jueves del mes: jueves de 2:30pm a 4pm y sábados de 12pm a 3pm.",
+      "Llame al (718) 978-5777,303 antes de ir para confirmar los detalles.",
+      "El aviso no indica qué alimentos entrega ni qué requisitos pide; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are the 1st and 3rd Thursday of the month: Thursday 2:30pm-4pm and Saturday 12pm-3pm.",
+      "Call (718) 978-5777,303 before visiting to confirm details.",
+      "The listing does not say what food is given or what requirements there are, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entregan?",
+        "a": "El aviso no indica qué alimentos entrega. Llame para preguntar qué ofrecen."
+      },
+      {
+        "q": "¿Hay algún requisito?",
+        "a": "El aviso no indica si hay requisitos. Llame antes al (718) 978-5777,303 para preguntar."
+      },
+      {
+        "q": "¿Dónde está ubicada la despensa?",
+        "a": "La dirección es 122-05 Smith St, Jamaica, NY, 11434."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food do they give?",
+        "a": "The listing does not say what food is given. Call to ask what they offer."
+      },
+      {
+        "q": "Are there any requirements?",
+        "a": "The listing does not say what requirements there are. Call ahead at (718) 978-5777,303 to ask."
+      },
+      {
+        "q": "Where is the pantry located?",
+        "a": "The address is 122-05 Smith St, Jamaica, NY, 11434."
+      }
+    ]
+  }
+}

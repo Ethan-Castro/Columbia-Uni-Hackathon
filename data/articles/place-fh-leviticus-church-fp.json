@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-leviticus-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:57.591Z",
+  "facts_hash": "f356a81a2a360dfd",
+  "article": {
+    "title_es": "Leviticus Church: despensa de alimentos en South Ozone Park, Queens",
+    "title_en": "Leviticus Church: food pantry in South Ozone Park, Queens",
+    "summary_es": "Leviticus Church es una despensa de alimentos en South Ozone Park, Queens, que aparece en el mapa Food Help NYC. Abre los miércoles y sábados.",
+    "summary_en": "Leviticus Church is a food pantry in South Ozone Park, Queens, listed on the Food Help NYC map. It is open Wednesdays and Saturdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Reparte alimentos los miércoles de 1pm a 2pm.",
+      "También reparte alimentos los sábados de 12pm a 1pm.",
+      "Está ubicada en 114-12 Van Wyck Expy, South Ozone Park, Queens.",
+      "Qué alimentos entrega y si hay requisitos no están indicados; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Distributes food on Wednesdays from 1pm to 2pm.",
+      "Also distributes food on Saturdays from 12pm to 1pm.",
+      "Located at 114-12 Van Wyck Expy, South Ozone Park, Queens.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es limitado: miércoles de 1pm a 2pm y sábado de 12pm a 1pm.",
+      "Llame al (718) 322-1095 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are limited: Wednesdays 1pm-2pm and Saturdays 12pm-1pm.",
+      "Call (718) 322-1095 before going to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Miércoles de 1pm a 2pm y sábado de 12pm a 1pm, según la información publicada."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito para recibirlos?",
+        "a": "La información no lo indica. Llame al (718) 322-1095 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Puede llamar al (718) 322-1095 o visitar 114-12 Van Wyck Expy, South Ozone Park, NY 11420."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays 1pm-2pm and Saturdays 12pm-1pm, according to the published information."
+      },
+      {
+        "q": "What food do they give and what do I need?",
+        "a": "This is not listed. Call (718) 322-1095 to ask before going."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "You can call (718) 322-1095 or visit 114-12 Van Wyck Expy, South Ozone Park, NY 11420."
+      }
+    ]
+  }
+}

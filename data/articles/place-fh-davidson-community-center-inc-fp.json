@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-davidson-community-center-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:09.874Z",
+  "facts_hash": "b1df5c7890c0a24e",
+  "article": {
+    "title_es": "Davidson Community Center: despensa de alimentos en el Bronx",
+    "title_en": "Davidson Community Center: food pantry in the Bronx",
+    "summary_es": "Davidson Community Center Inc es una despensa de alimentos en el Bronx, en el mapa Food Help NYC de la ciudad. Abre los viernes por la tarde.",
+    "summary_en": "Davidson Community Center Inc is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Friday evenings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 2038 Davidson Ave, Bronx, NY 10453.",
+      "Abre los viernes de 5pm a 8pm (solo el primer, segundo y tercer viernes del mes).",
+      "Puede llamar al (718) 731-6360 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2038 Davidson Ave, Bronx, NY 10453.",
+      "It is open Fridays 5pm-8pm (1st, 2nd, and 3rd Friday only).",
+      "You can call (718) 731-6360 to ask before visiting.",
+      "The listing does not say what food is given or if there are requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo el primer, segundo y tercer viernes del mes, de 5pm a 8pm.",
+      "Llame al (718) 731-6360 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on the 1st, 2nd, and 3rd Friday of the month, 5pm-8pm.",
+      "Call (718) 731-6360 before going to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Davidson Community Center?",
+        "a": "Es una despensa de alimentos en el Bronx, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los viernes de 5pm a 8pm, solo el primer, segundo y tercer viernes del mes."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "La lista no lo indica. Llame al (718) 731-6360 para preguntar antes de visitar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Davidson Community Center?",
+        "a": "It is a food pantry in the Bronx, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays 5pm-8pm, on the 1st, 2nd, and 3rd Friday of the month only."
+      },
+      {
+        "q": "What should I bring, and what food is given?",
+        "a": "The listing does not say. Call (718) 731-6360 to ask before visiting."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-westside-campaign-against-hunger",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:57.966Z",
+  "facts_hash": "037225863d641be5",
+  "article": {
+    "title_es": "Westside Campaign Against Hunger: despensa de alimentos en Manhattan",
+    "title_en": "Westside Campaign Against Hunger: food pantry in Manhattan",
+    "summary_es": "Westside Campaign Against Hunger es una despensa de alimentos en el Upper West Side de Manhattan, en la calle 86 Oeste.",
+    "summary_en": "Westside Campaign Against Hunger is a food pantry on the Upper West Side of Manhattan, on West 86th Street.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 263 W 86th St, Nueva York, NY 10024.",
+      "Abre de martes a viernes de 9am a 1pm para la despensa.",
+      "Puede llamar al (212) 362-3662 para preguntar.",
+      "Qué alimentos entrega no está indicado; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 263 W 86th St, New York, NY 10024.",
+      "Open Tuesday through Friday, 9am-1pm, for the pantry.",
+      "You can call (212) 362-3662 with questions.",
+      "What food is given is not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona de martes a viernes, de 9am a 1pm.",
+      "Llame al (212) 362-3662 antes de ir para confirmar los detalles.",
+      "Los requisitos no están indicados; pregunte qué necesita llevar."
+    ],
+    "visit_tips_en": [
+      "The pantry runs Tuesday through Friday, 9am-1pm.",
+      "Call (212) 362-3662 before visiting to confirm details.",
+      "Requirements are not listed; ask what you need to bring."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 263 W 86th St, Nueva York, NY 10024, en Manhattan."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "La despensa abre de martes a viernes, de 9am a 1pm."
+      },
+      {
+        "q": "¿Qué alimentos da?",
+        "a": "No está indicado. Llame al (212) 362-3662 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 263 W 86th St, New York, NY 10024, in Manhattan."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "The pantry is open Tuesday through Friday, 9am-1pm."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "That is not listed. Call (212) 362-3662 to ask."
+      }
+    ]
+  }
+}

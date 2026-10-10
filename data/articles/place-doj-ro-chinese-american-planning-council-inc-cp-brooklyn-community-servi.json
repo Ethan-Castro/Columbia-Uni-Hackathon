@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-chinese-american-planning-council-inc-cp-brooklyn-community-servi",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:09.426Z",
+  "facts_hash": "20fd8cf16c929b0d",
+  "article": {
+    "title_es": "Chinese-American Planning Council (CPC): ayuda legal de inmigración en Brooklyn",
+    "title_en": "Chinese-American Planning Council (CPC): immigration legal help in Brooklyn",
+    "summary_es": "El Chinese-American Planning Council (CPC), oficina de extensión de servicios comunitarios de Brooklyn, aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración.",
+    "summary_en": "The Chinese-American Planning Council (CPC) Brooklyn Community Services Extension Office appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Es una organización sin fines de lucro cuyos representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 4101 8th Avenue, 4th Floor, Brooklyn, NY 11232.",
+      "Se puede llamar al (718) 492-0409 para más información.",
+      "Las tarifas y el proceso para obtener una cita no están indicados; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations and accredited representatives.",
+      "It is a non-profit whose DOJ-accredited representatives may give immigration legal help.",
+      "Located at 4101 8th Avenue, 4th Floor, Brooklyn, NY 11232.",
+      "You can call (718) 492-0409 for more information.",
+      "Fees and how to get an appointment are not listed; ask the office directly."
+    ],
+    "visit_tips_es": [
+      "La oficina está en el 4to piso del edificio en 4101 8th Avenue, Brooklyn.",
+      "Llame antes de ir para preguntar por los servicios, las tarifas y cómo solicitar una cita.",
+      "La información de esta página fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The office is on the 4th floor of the building at 4101 8th Avenue, Brooklyn.",
+      "Call before you go to ask about services, fees, and how to request an appointment.",
+      "The information on this page was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es la oficina de extensión de servicios comunitarios de Brooklyn del Chinese-American Planning Council (CPC), una organización sin fines de lucro que aparece en la lista del DOJ (EOIR)."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están indicadas en la información disponible. Llame al (718) 492-0409 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cómo puedo obtener una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Se recomienda llamar al (718) 492-0409 para preguntar cómo solicitar ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is the Brooklyn Community Services Extension Office of the Chinese-American Planning Council (CPC), a non-profit listed on the DOJ (EOIR) roster."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (718) 492-0409 to ask before going."
+      },
+      {
+        "q": "How can I get an appointment?",
+        "a": "The appointment process is not listed. It is best to call (718) 492-0409 to ask how to request help."
+      }
+    ]
+  }
+}

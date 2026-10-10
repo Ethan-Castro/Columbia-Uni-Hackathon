@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-northeast-conference-community-center-sda",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:04.037Z",
+  "facts_hash": "8cb9fc45ff28d0fa",
+  "article": {
+    "title_es": "Northeast Conference Community Center SDA: despensa en Queens",
+    "title_en": "Northeast Conference Community Center SDA: food pantry in Queens",
+    "summary_es": "Este centro aparece en el mapa Food Help NYC como despensa de alimentos en East Elmhurst, Queens. Llame antes de ir para confirmar los detalles.",
+    "summary_en": "This center is listed on the City's Food Help NYC map as a food pantry in East Elmhurst, Queens. Call ahead to confirm details.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Está ubicada en 99-13 Northern Blvd, East Elmhurst, Queens.",
+      "Abre martes de 11am a 1pm y miércoles de 3pm a 6pm.",
+      "El horario indica que la despensa es solo para personas mayores los martes.",
+      "Qué alimentos entrega y si hay requisitos no está indicado; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Located at 99-13 Northern Blvd, East Elmhurst, Queens.",
+      "Open Tuesdays 11am-1pm and Wednesdays 3pm-6pm.",
+      "The hours note says the pantry is seniors only on Tuesdays.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame al (347) 527-2444 antes de ir para confirmar horarios y requisitos.",
+      "El horario señala que la despensa de los martes es solo para personas mayores.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call (347) 527-2444 before going to confirm hours and any requirements.",
+      "The hours note says the Tuesday pantry is for seniors only.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "No está indicado en la información disponible. Llame al (347) 527-2444 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Martes de 11am a 1pm y miércoles de 3pm a 6pm, según la información publicada."
+      },
+      {
+        "q": "¿Hay algún requisito para recibir alimentos?",
+        "a": "No está indicado. El horario menciona que la despensa de los martes es solo para personas mayores; llame para confirmar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "That is not listed in the available information. Call (347) 527-2444 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays 11am-1pm and Wednesdays 3pm-6pm, according to the published information."
+      },
+      {
+        "q": "Are there any requirements to receive food?",
+        "a": "That is not listed. The hours note says the Tuesday pantry is seniors only; call to confirm."
+      }
+    ]
+  }
+}

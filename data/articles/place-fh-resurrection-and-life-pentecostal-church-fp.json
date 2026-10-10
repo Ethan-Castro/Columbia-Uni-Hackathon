@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-resurrection-and-life-pentecostal-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:45.270Z",
+  "facts_hash": "a7ec13f4dcc4f0df",
+  "article": {
+    "title_es": "Resurrection and Life Pentecostal Church: despensa de alimentos en el Bronx",
+    "title_en": "Resurrection and Life Pentecostal Church: food pantry in the Bronx",
+    "summary_es": "Esta iglesia pentecostal aparece en el mapa Food Help NYC como despensa de alimentos en el Bronx. Abre martes y sábado según el horario indicado.",
+    "summary_en": "This Pentecostal church appears on the Food Help NYC map as a food pantry in the Bronx. It is open on Tuesdays and Saturdays according to the listed hours.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Entrega de despensa los martes de 12pm a 2pm.",
+      "Entrega de despensa los sábados de 10am a 12pm.",
+      "Está en 870 E 163rd St, Bronx, NY 10459.",
+      "Qué alimentos entrega no está indicado; llame al (929) 472-4201 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Pantry distribution on Tuesdays from 12pm to 2pm.",
+      "Pantry distribution on Saturdays from 10am to 12pm.",
+      "Located at 870 E 163rd St, Bronx, NY 10459.",
+      "What food is given is not listed; call (929) 472-4201 to ask."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es martes de 12pm a 2pm y sábado de 10am a 12pm.",
+      "Llame al (929) 472-4201 antes de ir para confirmar el horario.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday 12pm-2pm and Saturday 10am-12pm.",
+      "Call (929) 472-4201 before going to confirm the schedule.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No está indicado en la información disponible. Llame al (929) 472-4201 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún requisito para recibir alimentos?",
+        "a": "La información disponible no indica requisitos. Le recomendamos llamar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "What food does it give out?",
+        "a": "That is not listed in the available information. Call (929) 472-4201 to ask."
+      },
+      {
+        "q": "Are there any requirements to receive food?",
+        "a": "The available information does not list any requirements. We suggest calling before you go."
+      }
+    ]
+  }
+}

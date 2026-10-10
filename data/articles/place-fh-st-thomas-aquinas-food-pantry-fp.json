@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-st-thomas-aquinas-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:30.613Z",
+  "facts_hash": "a249d990bb25e92e",
+  "article": {
+    "title_es": "St. Thomas Aquinas Food Pantry: despensa de alimentos en el Bronx",
+    "title_en": "St. Thomas Aquinas Food Pantry: food pantry in the Bronx",
+    "summary_es": "St. Thomas Aquinas Food Pantry es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 10am a 12pm.",
+    "summary_en": "St. Thomas Aquinas Food Pantry is a food pantry in the Bronx listed on the City's Food Help NYC map. It is open Wednesdays from 10am to 12pm.",
+    "how_they_help_es": [
+      "Despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad",
+      "Ubicada en 1900 Crotona Pkwy, Bronx, NY 10460",
+      "Abre los miércoles de 10am a 12pm (horario de la despensa)",
+      "Teléfono: (718) 589-5235"
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the City's Food Help NYC map",
+      "Located at 1900 Crotona Pkwy, Bronx, NY 10460",
+      "Open Wednesdays, 10am to 12pm (pantry hours)",
+      "Phone: (718) 589-5235"
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los miércoles de 10am a 12pm",
+      "Llame al (718) 589-5235 antes de ir para preguntar qué alimentos entregan y si hay requisitos",
+      "Los alimentos que ofrece y los requisitos no aparecen en la lista, así que pregunte por teléfono"
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wednesdays, 10am to 12pm",
+      "Call (718) 589-5235 before visiting to ask what food is given and any requirements",
+      "What foods are offered and any requirements are not listed, so ask by phone"
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Los miércoles de 10am a 12pm (horario de la despensa)."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "1900 Crotona Pkwy, Bronx, New York, 10460."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No aparece en la lista. Llame al (718) 589-5235 antes de ir para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Wednesdays, 10am to 12pm (pantry hours)."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "1900 Crotona Pkwy, Bronx, New York, 10460."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "That is not listed. Call (718) 589-5235 to ask before visiting."
+      }
+    ]
+  }
+}

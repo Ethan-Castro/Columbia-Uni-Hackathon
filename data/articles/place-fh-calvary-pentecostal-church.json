@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-calvary-pentecostal-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:28.416Z",
+  "facts_hash": "33eee06d13880f60",
+  "article": {
+    "title_es": "Calvary Pentecostal Church: despensa de alimentos en Brooklyn",
+    "title_en": "Calvary Pentecostal Church: food pantry in Brooklyn",
+    "summary_es": "Calvary Pentecostal Church es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Está en 151 Woodruff Ave y abre su despensa los jueves.",
+    "summary_en": "Calvary Pentecostal Church is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is located at 151 Woodruff Ave and opens its pantry on Thursdays.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 151 Woodruff Ave, Brooklyn (código postal 11226).",
+      "El horario de la despensa es jueves de 10am a 12pm.",
+      "Puede llamar al (718) 469-8252 para más información.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 151 Woodruff Ave in Brooklyn (zip 11226).",
+      "Pantry hours are Thursday 10am-12pm.",
+      "You can call (718) 469-8252 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los jueves de 10am a 12pm.",
+      "Llame al (718) 469-8252 antes de ir para confirmar los detalles.",
+      "Pregunte qué alimentos ofrecen y si necesita llevar algo, ya que esto no aparece en la lista."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Thursday 10am-12pm.",
+      "Call (718) 469-8252 before visiting to confirm details.",
+      "Ask what food is offered and if anything is needed, since this is not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Los jueves de 10am a 12pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "151 Woodruff Ave, Brooklyn, New York, 11226."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme?",
+        "a": "Llame al (718) 469-8252."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Thursday 10am-12pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "151 Woodruff Ave, Brooklyn, New York, 11226."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "Call (718) 469-8252."
+      }
+    ]
+  }
+}

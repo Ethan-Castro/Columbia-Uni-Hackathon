@@ -11,3 +11,6 @@ data/import-report.json
 
 # Base44 app link (per developer)
 base44/.app.jsonc
+
+# Claude Code agent worktrees
+.claude/worktrees/

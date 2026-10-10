@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-city-harvest-mobile-market-queensbridge-hous",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:48.705Z",
+  "facts_hash": "c89fb07d4f5be960",
+  "article": {
+    "title_es": "City Harvest Mobile Market: despensa en Queensbridge, Queens",
+    "title_en": "City Harvest Mobile Market: food pantry at Queensbridge, Queens",
+    "summary_es": "City Harvest Mobile Market es una despensa de alimentos en Long Island City, Queens, que aparece en el mapa Food Help NYC de la ciudad. Atiende los primeros miércoles y terceros sábados del mes.",
+    "summary_en": "City Harvest Mobile Market is a food pantry in Long Island City, Queens, listed on the City's Food Help NYC map. It operates on the 1st Wednesday and 3rd Saturday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 10-25 41st Ave, Long Island City, Queens.",
+      "Abre los primeros miércoles y terceros sábados del mes, de 9:30am a 11:30am.",
+      "Puede llamar al (646) 412-0740 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 10-25 41st Ave, Long Island City, Queens.",
+      "It operates on the 1st Wednesday and 3rd Saturday of the month, 9:30am-11:30am.",
+      "You can call (646) 412-0740 to ask questions before visiting.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa solo opera el primer miércoles y el tercer sábado de cada mes.",
+      "El horario es de 9:30am a 11:30am esos días.",
+      "Llame al (646) 412-0740 con anticipación para confirmar detalles, ya que la lista no indica qué alimentos se entregan ni los requisitos."
+    ],
+    "visit_tips_en": [
+      "The pantry only operates on the 1st Wednesday and 3rd Saturday of each month.",
+      "Hours are 9:30am to 11:30am on those days.",
+      "Call (646) 412-0740 ahead of time to confirm details, since the listing does not say what food is given or any requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es City Harvest Mobile Market?",
+        "a": "Es una despensa de alimentos en Long Island City, Queens, que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "El primer miércoles y el tercer sábado del mes, de 9:30am a 11:30am."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "La lista no lo indica. Llame al (646) 412-0740 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is City Harvest Mobile Market?",
+        "a": "It is a food pantry in Long Island City, Queens, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "On the 1st Wednesday and 3rd Saturday of the month, from 9:30am to 11:30am."
+      },
+      {
+        "q": "What should I bring, and what food is given?",
+        "a": "The listing does not say. Call (646) 412-0740 to ask before visiting."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-las-maravillas-del-exodo",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:13.857Z",
+  "facts_hash": "0de092740583c976",
+  "article": {
+    "title_es": "Las Maravillas del Exodo: despensa de alimentos en Brooklyn",
+    "title_en": "Las Maravillas del Exodo: food pantry in Brooklyn",
+    "summary_es": "Las Maravillas del Exodo es una despensa de alimentos en Brooklyn, aparecida en el mapa de ayuda alimentaria de la ciudad. Abre los miércoles de 9am a 11am.",
+    "summary_en": "Las Maravillas del Exodo is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Wednesdays from 9am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 302 Elton St, Brooklyn, NY 11208.",
+      "Atiende los miércoles de 9am a 11am (despensa).",
+      "Puede llamar al (718) 913-1162 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 302 Elton St, Brooklyn, NY 11208.",
+      "It is open Wednesdays from 9am to 11am (pantry).",
+      "You can call (718) 913-1162 to ask before visiting.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es el miércoles de 9am a 11am.",
+      "Llame al (718) 913-1162 antes de ir para confirmar detalles.",
+      "La lista no menciona documentos ni requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wednesdays from 9am to 11am.",
+      "Call (718) 913-1162 before going to confirm details.",
+      "The listing does not mention documents or requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Las Maravillas del Exodo?",
+        "a": "Es una despensa de alimentos en Brooklyn, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los miércoles de 9am a 11am (despensa)."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (718) 913-1162 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Las Maravillas del Exodo?",
+        "a": "It is a food pantry in Brooklyn, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays from 9am to 11am (pantry)."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "The listing does not say. Call (718) 913-1162 to ask before visiting."
+      }
+    ]
+  }
+}

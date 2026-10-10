@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-hanac-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:37:53.064Z",
+  "facts_hash": "73fbcf2f5e56b522",
+  "article": {
+    "title_es": "HANAC, Inc.: organización reconocida por el DOJ en Queens",
+    "title_en": "HANAC, Inc.: DOJ-recognized organization in Queens",
+    "summary_es": "HANAC, Inc. es una organización sin fines de lucro de Astoria, Queens, que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal en materia de inmigración.",
+    "summary_en": "HANAC, Inc. is a nonprofit in Astoria, Queens, listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations. Its DOJ-accredited representatives may provide immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Los representantes acreditados por el DOJ pueden brindar ayuda legal de inmigración.",
+      "Está ubicada en 23-16 30th Avenue, Annex Building, Astoria, NY 11102.",
+      "Se puede llamar al (212) 840-8005 para más información.",
+      "La lista no indica tarifas ni cómo agendar una cita; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations and accredited representatives.",
+      "DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 23-16 30th Avenue, Annex Building, Astoria, NY 11102.",
+      "You can call (212) 840-8005 for more information.",
+      "The list does not show fees or how to get an appointment; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para preguntar por los servicios y cómo agendar una cita.",
+      "La lista del DOJ no indica las tarifas ni el proceso de admisión; pregunte por teléfono.",
+      "La dirección es un edificio anexo en la Avenida 30; verifique la entrada correcta al llegar."
+    ],
+    "visit_tips_en": [
+      "Call before visiting to ask about services and how to schedule an appointment.",
+      "The DOJ list does not include fees or the intake process; ask by phone.",
+      "The address is an annex building on 30th Avenue; confirm the correct entrance when you arrive."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es HANAC, Inc.?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas, con representantes acreditados que pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la lista. Llame al (212) 840-8005 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cómo agendo una cita?",
+        "a": "El proceso de admisión no está en la lista. Se recomienda llamar al (212) 840-8005 para preguntar cómo obtener una cita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is HANAC, Inc.?",
+        "a": "It is a nonprofit listed on the DOJ (EOIR) roster of recognized organizations, with accredited representatives who may provide immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (212) 840-8005 to ask before visiting."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. It is best to call (212) 840-8005 to ask how to get an appointment."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-emmaus-seventh-day-adventist-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:38.590Z",
+  "facts_hash": "c1a766513f201448",
+  "article": {
+    "title_es": "Iglesia Emmaus Seventh Day Adventist: despensa de alimentos en Brooklyn",
+    "title_en": "Emmaus Seventh Day Adventist Church: food pantry in Brooklyn",
+    "summary_es": "Esta iglesia en Brooklyn aparece en el mapa Food Help NYC como despensa de alimentos. Reparte alimentos los martes de 12:30pm a 2pm.",
+    "summary_en": "This church in Brooklyn appears on the City's Food Help NYC map as a food pantry. It gives out food on Tuesdays from 12:30pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1144 Flatbush Ave, Brooklyn, NY 11226.",
+      "Atiende los martes de 12:30pm a 2pm.",
+      "Puede llamar al (704) 502-1450 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 1144 Flatbush Ave, Brooklyn, NY 11226.",
+      "It is open on Tuesdays from 12:30pm to 2pm.",
+      "You can call (704) 502-1450 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya durante el horario de la despensa: martes de 12:30pm a 2pm.",
+      "Llame primero al (704) 502-1450 para confirmar el horario y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go during pantry hours: Tuesdays from 12:30pm to 2pm.",
+      "Call (704) 502-1450 first to confirm the schedule and ask what you need to bring.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una iglesia que aparece en el mapa Food Help NYC como despensa de alimentos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes de 12:30pm a 2pm, según la información publicada."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "No está en la lista. Llame al (704) 502-1450 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a church listed on the City's Food Help NYC map as a food pantry."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "On Tuesdays from 12:30pm to 2pm, according to the listing."
+      },
+      {
+        "q": "What food does it give and what do I need to bring?",
+        "a": "That is not listed. Call (704) 502-1450 to ask before you go."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-bronxworks-trinity-avenue-bronx",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:52:55.442Z",
+  "facts_hash": "b6d194faa22473fa",
+  "article": {
+    "title_es": "BronxWorks (Trinity Avenue): oficina de ayuda legal en el Bronx",
+    "title_en": "BronxWorks (Trinity Avenue): legal help office in the Bronx",
+    "summary_es": "BronxWorks, en la avenida Trinity del Bronx, aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal en temas de inmigración.",
+    "summary_en": "BronxWorks, on Trinity Avenue in the Bronx, appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está en 890 Trinity Avenue, sótano, Bronx, NY 10456.",
+      "Teléfono: (718) 508-3089.",
+      "Los servicios y tarifas no están detallados en esta información; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the U.S. Department of Justice (EOIR) roster of recognized organizations.",
+      "Its DOJ-accredited representatives may give immigration legal help.",
+      "Located at 890 Trinity Avenue, Basement Level, Bronx, NY 10456.",
+      "Phone: (718) 508-3089.",
+      "Services and fees are not detailed here; ask the office directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (718) 508-3089 para preguntar por sus servicios y cómo pedir una cita.",
+      "La oficina está en el nivel sótano del edificio.",
+      "Las tarifas y el proceso de admisión no aparecen en esta información; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 508-3089 to ask about services and how to make an appointment.",
+      "The office is on the basement level of the building.",
+      "Fees and the intake process are not listed here; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es una oficina de BronxWorks que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están incluidas en esta información. Llame al (718) 508-3089 para preguntar."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "No se indica cómo pedir una cita. Llame antes de ir para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is a BronxWorks office listed on the DOJ (EOIR) roster of recognized organizations that may provide immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not included in this information. Call (718) 508-3089 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "The appointment process is not listed. Call ahead to ask."
+      }
+    ]
+  }
+}

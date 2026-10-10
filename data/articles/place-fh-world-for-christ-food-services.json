@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-world-for-christ-food-services",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:02.463Z",
+  "facts_hash": "0784b7fa3a47e901",
+  "article": {
+    "title_es": "World for Christ Food Services: despensa de alimentos en Brooklyn",
+    "title_en": "World for Christ Food Services: food pantry in Brooklyn",
+    "summary_es": "World for Christ Food Services es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 10am a 12pm, y la despensa funciona el 2.º y el 4.º sábado del mes.",
+    "summary_en": "World for Christ Food Services is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Saturdays from 10am to 12pm, with the pantry on the 2nd and 4th Saturday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 874 Clarkson Ave, Brooklyn, código postal 11212.",
+      "Abre los sábados de 10am a 12pm.",
+      "La despensa funciona el 2.º y el 4.º sábado del mes.",
+      "La información no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 874 Clarkson Ave in Brooklyn, zip code 11212.",
+      "It is open Saturdays from 10am to 12pm.",
+      "The pantry runs on the 2nd and 4th Saturday of the month.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa solo funciona el 2.º y el 4.º sábado del mes, así que planifique su visita para esas fechas.",
+      "El horario es los sábados de 10am a 12pm.",
+      "Llame al (347) 249-8928 antes de ir para preguntar qué alimentos entrega y si hay requisitos."
+    ],
+    "visit_tips_en": [
+      "The pantry is only on the 2nd and 4th Saturday of the month, so plan your visit for those dates.",
+      "Hours are Saturdays 10am to 12pm.",
+      "Call (347) 249-8928 ahead to ask about the food given and any requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es World for Christ Food Services?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad, ubicada en 874 Clarkson Ave, Brooklyn, NY 11212."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Abre los sábados de 10am a 12pm, y la despensa funciona el 2.º y el 4.º sábado del mes."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme o saber más?",
+        "a": "Puede llamar al (347) 249-8928. La información no indica qué alimentos entrega ni si hay requisitos, así que es mejor preguntar por teléfono."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is World for Christ Food Services?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map, located at 874 Clarkson Ave, Brooklyn, NY 11212."
+      },
+      {
+        "q": "When is it open?",
+        "a": "It is open Saturdays from 10am to 12pm, and the pantry runs on the 2nd and 4th Saturday of the month."
+      },
+      {
+        "q": "How can I contact them or learn more?",
+        "a": "You can call (347) 249-8928. The listing does not say what food is given or if there are any requirements, so it is best to ask by phone."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-united-jewish-organizations-of-williamsb",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:14.697Z",
+  "facts_hash": "97e941d43e3463fa",
+  "article": {
+    "title_es": "United Jewish Organizations of Williamsburg: ayuda legal de inmigración en Brooklyn",
+    "title_en": "United Jewish Organizations of Williamsburg: immigration legal help in Brooklyn",
+    "summary_es": "United Jewish Organizations of Williamsburg and North Brooklyn Inc. es una organización sin fines de lucro en Brooklyn que aparece en la Lista de Organizaciones Reconocidas y Representantes Acreditados del Departamento de Justicia de EE. UU. (EOIR), lo que significa que sus representantes acreditados pueden dar ayuda legal de inmigración.",
+    "summary_en": "United Jewish Organizations of Williamsburg and North Brooklyn Inc. is a non-profit organization in Brooklyn that appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives, meaning its accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 32 Penn Street, Brooklyn, NY 11249.",
+      "Puede llamar al (718) 643-9700 para más información.",
+      "No se indican cuotas ni el proceso de admisión, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is a non-profit listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its DOJ-accredited representatives may give immigration legal help.",
+      "It is located at 32 Penn Street in Brooklyn, NY 11249.",
+      "You can call (718) 643-9700 for more information.",
+      "Fees and the intake process are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 643-9700 antes de visitar para preguntar sobre los servicios y las citas.",
+      "Esta información no indica las cuotas ni cómo conseguir una cita.",
+      "La dirección es 32 Penn Street, Brooklyn, NY 11249."
+    ],
+    "visit_tips_en": [
+      "Call (718) 643-9700 before visiting to ask about services and appointments.",
+      "Fees and how to get an appointment are not listed in this information.",
+      "The address is 32 Penn Street, Brooklyn, NY 11249."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué significa que esta organización esté en la lista del DOJ?",
+        "a": "Aparece en la Lista de Organizaciones Reconocidas y Representantes Acreditados del Departamento de Justicia de EE. UU. (EOIR). Sus representantes acreditados pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuesta y cómo consigo una cita?",
+        "a": "La información no incluye cuotas ni cómo pedir una cita. Llame al (718) 643-9700 para preguntar."
+      },
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "La información no dice qué servicios ofrece. Llame antes para preguntar qué ayuda está disponible."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does it mean that this organization is on the DOJ list?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives. Its accredited representatives may give immigration legal help."
+      },
+      {
+        "q": "How much does it cost and how do I get an appointment?",
+        "a": "The listing does not include fees or how to make an appointment. Call (718) 643-9700 to ask."
+      },
+      {
+        "q": "What services does it offer?",
+        "a": "The listing does not say which services are offered. Call ahead to ask what help is available."
+      }
+    ]
+  }
+}

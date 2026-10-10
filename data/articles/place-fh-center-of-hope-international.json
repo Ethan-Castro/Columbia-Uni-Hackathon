@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-center-of-hope-international",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:31.650Z",
+  "facts_hash": "28e0e6c3cd4e0193",
+  "article": {
+    "title_es": "Center of Hope International: despensa de alimentos en Long Island City, Queens",
+    "title_en": "Center of Hope International: food pantry in Long Island City, Queens",
+    "summary_es": "Center of Hope International es una despensa de alimentos en Long Island City, Queens, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Center of Hope International is a food pantry in Long Island City, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en Long Island City, Queens.",
+      "Horario de despensa: martes de 12pm a 3pm y miércoles a jueves de 11am a 2pm.",
+      "Puede llamar antes al (718) 784-4673 para hacer preguntas.",
+      "La información no indica qué alimentos entrega ni qué requisitos hay."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located in Long Island City, Queens.",
+      "Pantry hours: Tuesday 12pm-3pm and Wednesday-Thursday 11am-2pm.",
+      "You can call ahead at (718) 784-4673 to ask questions.",
+      "The listing does not say what food is given or what requirements exist."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes de 12pm a 3pm y miércoles a jueves de 11am a 2pm.",
+      "Llame al (718) 784-4673 antes de ir para confirmar los detalles.",
+      "La información no indica qué documentos necesita, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday 12pm-3pm and Wednesday-Thursday 11am-2pm.",
+      "Call (718) 784-4673 before you go to confirm details.",
+      "The listing does not say what documents you need, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Center of Hope International?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Martes de 12pm a 3pm y miércoles a jueves de 11am a 2pm, como horario de despensa."
+      },
+      {
+        "q": "¿Cómo puedo obtener más información?",
+        "a": "Llame al (718) 784-4673 antes de visitar para preguntar qué ofrece y qué necesita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Center of Hope International?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday 12pm-3pm and Wednesday-Thursday 11am-2pm, marked as pantry hours."
+      },
+      {
+        "q": "How can I get more information?",
+        "a": "Call (718) 784-4673 before visiting to ask what is offered and what you need."
+      }
+    ]
+  }
+}

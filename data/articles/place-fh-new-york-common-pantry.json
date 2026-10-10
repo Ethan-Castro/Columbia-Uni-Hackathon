@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-new-york-common-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:11.478Z",
+  "facts_hash": "6d30bdbb0ba149fc",
+  "article": {
+    "title_es": "New York Common Pantry: comedor y despensa en Manhattan",
+    "title_en": "New York Common Pantry: soup kitchen and pantry in Manhattan",
+    "summary_es": "New York Common Pantry es un comedor de sopa y despensa de alimentos en East Harlem, Manhattan. Ofrece comidas y alimentos según su horario.",
+    "summary_en": "New York Common Pantry is a soup kitchen and food pantry in East Harlem, Manhattan. It offers meals and groceries according to its schedule.",
+    "how_they_help_es": [
+      "Comedor de sopa de lunes a viernes de 2:30 pm a 3:30 pm.",
+      "Despensa de alimentos de miércoles a sábado de 10 am a 2:30 pm.",
+      "Abre los fines de semana para la despensa (sábado).",
+      "Está en 8 E 109th St, Nueva York, NY 10029.",
+      "Puede llamar al (917) 720-9700 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Soup kitchen Monday to Friday, 2:30pm to 3:30pm.",
+      "Food pantry Wednesday to Saturday, 10am to 2:30pm.",
+      "Open on weekends for the pantry (Saturday).",
+      "Located at 8 E 109th St, New York, NY 10029.",
+      "You can call (917) 720-9700 with questions."
+    ],
+    "visit_tips_es": [
+      "El comedor y la despensa tienen horarios distintos; planifique su visita.",
+      "La despensa abre los sábados, pero el comedor no abre los fines de semana.",
+      "Llame antes de ir para confirmar los horarios y preguntar qué necesita."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen and pantry have different hours; plan your visit.",
+      "The pantry is open Saturdays, but the soup kitchen is not open on weekends.",
+      "Call ahead to confirm hours and ask what you need."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 8 E 109th St, Nueva York, NY 10029, en Manhattan."
+      },
+      {
+        "q": "¿Cuáles son los horarios?",
+        "a": "Comedor: lunes a viernes, 2:30 pm a 3:30 pm. Despensa: miércoles a sábado, 10 am a 2:30 pm."
+      },
+      {
+        "q": "¿Qué documentos necesito llevar?",
+        "a": "No se indica en la información disponible. Llame al (917) 720-9700 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 8 E 109th St, New York, NY 10029, in Manhattan."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Soup kitchen: Monday to Friday, 2:30pm to 3:30pm. Pantry: Wednesday to Saturday, 10am to 2:30pm."
+      },
+      {
+        "q": "What documents do I need to bring?",
+        "a": "This is not listed in the available information. Call (917) 720-9700 to ask."
+      }
+    ]
+  }
+}

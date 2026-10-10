@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-ro-the-ansob-center-for-refugees",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:37:55.674Z",
+  "facts_hash": "3fe51c19d80fdbbb",
+  "article": {
+    "title_es": "The Ansob Center for Refugees: ayuda legal en Queens",
+    "title_en": "The Ansob Center for Refugees: legal help in Queens",
+    "summary_es": "The Ansob Center for Refugees es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR). Está en Astoria, Queens.",
+    "summary_en": "The Ansob Center for Refugees is a nonprofit that appears on the U.S. Department of Justice (EOIR) list. It is located in Astoria, Queens.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados pueden dar ayuda legal de inmigración.",
+      "Está en 28-19 Steinway Street, 2do piso, Astoria, Queens.",
+      "No se indican los servicios exactos ni los horarios; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "Its accredited representatives may provide immigration legal help.",
+      "Located at 28-19 Steinway Street, 2nd Floor, Astoria, Queens.",
+      "Exact services and hours are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir: (718) 278-4303.",
+      "Pregunte qué servicios ofrece y cómo pedir una cita.",
+      "Pregunte si cobran alguna tarifa; no se indica en la información disponible."
+    ],
+    "visit_tips_en": [
+      "Call before going: (718) 278-4303.",
+      "Ask what services they offer and how to request an appointment.",
+      "Ask whether they charge any fees; this is not listed in the available information."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es The Ansob Center for Refugees?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Dónde está y cómo los contacto?",
+        "a": "Está en 28-19 Steinway Street, 2do piso, Astoria, NY 11103. Teléfono: (718) 278-4303."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas y el proceso para obtener una cita no aparecen en la información disponible. Llame para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is The Ansob Center for Refugees?",
+        "a": "It is a nonprofit that appears on the U.S. Department of Justice (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "It is at 28-19 Steinway Street, 2nd Floor, Astoria, NY 11103. Phone: (718) 278-4303."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees and how to get an appointment are not listed in the available information. Call to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-louisea-maze-emile-community-service",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:21.302Z",
+  "facts_hash": "3be4732ecb468ba0",
+  "article": {
+    "title_es": "Louisea Maze Emile Community Service: despensa en Brooklyn",
+    "title_en": "Louisea Maze Emile Community Service: food pantry in Brooklyn",
+    "summary_es": "Louisea Maze Emile Community Service es una despensa de alimentos en Brooklyn, según el mapa Food Help NYC de la ciudad. Abre los viernes de 10am a 12pm.",
+    "summary_en": "Louisea Maze Emile Community Service is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Fridays 10am-12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1757 President St, Brooklyn, NY, 11213.",
+      "El horario indicado es viernes de 10am a 12pm (despensa).",
+      "Puede llamar al (347) 639-3165 para preguntar antes de ir.",
+      "La lista no detalla qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1757 President St, Brooklyn, NY, 11213.",
+      "The listed hours are Fri 10am-12pm (pantry).",
+      "You can call (347) 639-3165 to ask before going.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es viernes de 10am a 12pm.",
+      "Llame al (347) 639-3165 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos; es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Fri 10am-12pm.",
+      "Call (347) 639-3165 before going to confirm hours and ask what you need.",
+      "The listing does not mention documents or requirements; it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se detalla qué alimentos entrega ni cómo funciona."
+      },
+      {
+        "q": "¿Cuándo puede ir?",
+        "a": "El horario indicado es viernes de 10am a 12pm (despensa)."
+      },
+      {
+        "q": "¿Qué debo llevar o si necesito requisitos?",
+        "a": "La lista no menciona requisitos ni documentos. Llame al (347) 639-3165 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. It does not say what food is given or how it works."
+      },
+      {
+        "q": "When can I go?",
+        "a": "The listed hours are Fri 10am-12pm (pantry)."
+      },
+      {
+        "q": "What should I bring, or are there requirements?",
+        "a": "The listing does not mention requirements or documents. Call (347) 639-3165 to ask before going."
+      }
+    ]
+  }
+}

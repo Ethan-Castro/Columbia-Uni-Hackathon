@@ -83,7 +83,7 @@ export function App() {
           <li>{t("footer_rule_status")}</li>
           <li>{t("footer_rule_review")}</li>
           <li>{t("footer_rule_privacy")}</li>
-          <li><a href={HREF.admin}>{t("nav_admin")}</a> · <a href="privacy.html">{lang === "es" ? "Privacidad" : "Privacy"}</a> · <a href="terms.html">{lang === "es" ? "Términos" : "Terms"}</a></li>
+          <li><a href="lugares/index.html">{lang === "es" ? "Todos los lugares (A–Z)" : "All places (A–Z)"}</a> · <a href={HREF.admin}>{t("nav_admin")}</a> · <a href="privacy.html">{lang === "es" ? "Privacidad" : "Privacy"}</a> · <a href="terms.html">{lang === "es" ? "Términos" : "Terms"}</a></li>
         </ul>
       </footer>
     </div>

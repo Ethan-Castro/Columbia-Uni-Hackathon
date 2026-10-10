@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-hebrew-immigrant-aid-society-hias-new-york",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:28.475Z",
+  "facts_hash": "d16b3ea690eda272",
+  "article": {
+    "title_es": "HIAS (oficina de Nueva York): organización en la lista del DOJ en Manhattan",
+    "title_en": "HIAS (New York Extension Office): DOJ-listed organization in Manhattan",
+    "summary_es": "HIAS aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Su oficina de Nueva York está en Manhattan, en 1359 Broadway, Suite 810.",
+    "summary_en": "HIAS appears on the U.S. Department of Justice (EOIR) list of recognized organizations. Its New York office is in Manhattan, at 1359 Broadway, Suite 810.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados por el DOJ pueden ofrecer ayuda legal de inmigración.",
+      "Dirección: 1359 Broadway, Suite 810, New York, NY 10018 (Manhattan).",
+      "Teléfono: (212) 967-4100.",
+      "La lista no indica tarifas ni cómo pedir una cita; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) Roster of Recognized Organizations and Accredited Representatives.",
+      "Recognized organizations are non-profits whose DOJ-accredited representatives may give immigration legal help.",
+      "Address: 1359 Broadway, Suite 810, New York, NY 10018 (Manhattan).",
+      "Phone: (212) 967-4100.",
+      "The list does not show fees or how to get an appointment; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (212) 967-4100 para preguntar por sus servicios y cómo agendar una cita.",
+      "El horario no aparece en la lista; pregunte por teléfono antes de ir.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call first at (212) 967-4100 to ask about their services and how to schedule an appointment.",
+      "Hours are not listed; ask by phone before visiting.",
+      "Information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es HIAS?",
+        "a": "Es una organización que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas, cuyos representantes acreditados pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "Las tarifas no aparecen en la lista. Llame al (212) 967-4100 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para pedir cita no aparece en la lista. Llame al (212) 967-4100 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is HIAS?",
+        "a": "It is an organization on the DOJ (EOIR) list of recognized organizations, whose accredited representatives may give immigration legal help."
+      },
+      {
+        "q": "How much do its services cost?",
+        "a": "Fees are not listed. Call (212) 967-4100 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. Call (212) 967-4100 to ask."
+      }
+    ]
+  }
+}

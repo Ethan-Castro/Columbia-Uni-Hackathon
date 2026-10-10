@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-thorpe-family-residence",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:48.395Z",
+  "facts_hash": "d6349dcd8c5c34b5",
+  "article": {
+    "title_es": "Thorpe Family Residence: despensa de alimentos en el Bronx",
+    "title_en": "Thorpe Family Residence: food pantry in the Bronx",
+    "summary_es": "Thorpe Family Residence es una despensa de alimentos en el Bronx, incluida en el mapa Food Help NYC de la ciudad. Atiende los miércoles por la mañana.",
+    "summary_en": "Thorpe Family Residence is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open on Wednesday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 406 E 184th St, Bronx, NY 10458.",
+      "Atiende los miércoles de 7:30am a 9:30am.",
+      "Puede llamar al (718) 295-2550 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 406 E 184th St, Bronx, NY 10458.",
+      "It is open Wednesdays from 7:30am to 9:30am.",
+      "You can call (718) 295-2550 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es miércoles de 7:30am a 9:30am, según la información publicada.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos, así que pregunte por teléfono.",
+      "Guarde el número (718) 295-2550 para confirmar detalles antes de visitar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesday 7:30am-9:30am, according to the listing.",
+      "The listing does not say what food is given or if there are any requirements, so ask by phone.",
+      "Keep the number (718) 295-2550 handy to confirm details before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Thorpe Family Residence?",
+        "a": "Es una despensa de alimentos en el Bronx, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los miércoles de 7:30am a 9:30am, según la información publicada."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué necesito para recibirlos?",
+        "a": "Eso no aparece en la información disponible. Llame al (718) 295-2550 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Thorpe Family Residence?",
+        "a": "It is a food pantry in the Bronx, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 7:30am to 9:30am, according to the listing."
+      },
+      {
+        "q": "What food does it give, and what do I need to receive it?",
+        "a": "That is not listed in the available information. Call (718) 295-2550 to ask."
+      }
+    ]
+  }
+}

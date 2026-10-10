@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-catholic-charities-community-services",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:25.191Z",
+  "facts_hash": "1db07dfe802efa15",
+  "article": {
+    "title_es": "Catholic Charities Community Services: ayuda legal en Manhattan",
+    "title_en": "Catholic Charities Community Services: legal help in Manhattan",
+    "summary_es": "Catholic Charities Community Services es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en el bajo Manhattan y su teléfono es (212) 419-3700.",
+    "summary_en": "Catholic Charities Community Services is a non-profit listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations. It is located in Lower Manhattan and its phone is (212) 419-3700.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal de inmigración.",
+      "Está ubicada en 80 Maiden Lane, 24th Floor, New York, NY 10038.",
+      "Puede llamar al (212) 419-3700 para preguntar por sus servicios.",
+      "La lista no indica tarifas ni cómo pedir una cita; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the Department of Justice (EOIR) list of recognized organizations.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 80 Maiden Lane, 24th Floor, New York, NY 10038.",
+      "You can call (212) 419-3700 to ask about their services.",
+      "The listing does not show fees or how to get an appointment; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (212) 419-3700 para confirmar atención y horarios.",
+      "El horario no aparece en la lista, así que pregunte por teléfono.",
+      "Pregunte si hay costos y qué necesita para una consulta."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (212) 419-3700 to confirm service and hours.",
+      "Hours are not listed, so ask by phone.",
+      "Ask whether there are fees and what you need for a consultation."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro reconocida por el Departamento de Justicia (EOIR), con representantes acreditados que pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "Las tarifas no aparecen en la lista. Llame al (212) 419-3700 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no aparece en la lista. Se recomienda llamar al (212) 419-3700."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit recognized by the Department of Justice (EOIR), with accredited representatives who may provide immigration legal help."
+      },
+      {
+        "q": "How much do its services cost?",
+        "a": "Fees are not listed. Call (212) 419-3700 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. It is best to call (212) 419-3700."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-faith-assembly-community-outreach",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:49.075Z",
+  "facts_hash": "0e834500b1e05e5f",
+  "article": {
+    "title_es": "FAITH Assembly Community Outreach: despensa en Queens",
+    "title_en": "FAITH Assembly Community Outreach: food pantry in Queens",
+    "summary_es": "FAITH Assembly Community Outreach es una despensa de alimentos en South Richmond Hill, Queens, que aparece en el mapa Food Help NYC de la Ciudad.",
+    "summary_en": "FAITH Assembly Community Outreach is a food pantry in South Richmond Hill, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 120-13 101st Ave, South Richmond Hill, NY 11419.",
+      "Abre los sábados de 10am a 12pm.",
+      "La despensa funciona solo el cuarto sábado del mes.",
+      "Qué alimentos entrega no está indicado; pregunte llamando al (718) 849-5277."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 120-13 101st Ave, South Richmond Hill, NY 11419.",
+      "It is open Saturdays 10am-12pm.",
+      "The pantry runs on the 4th Saturday only.",
+      "What food is given is not listed; ask by calling (718) 849-5277."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado de 10am a 12pm; recuerde que la despensa es solo el cuarto sábado del mes.",
+      "Antes de ir, llame al (718) 849-5277 para confirmar el horario y preguntar qué necesita.",
+      "Los requisitos no están indicados, así que conviene preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday 10am-12pm; remember the pantry runs on the 4th Saturday only.",
+      "Before going, call (718) 849-5277 to confirm hours and ask what is needed.",
+      "Requirements are not listed, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 10am a 12pm, pero la despensa funciona solo el cuarto sábado del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 120-13 101st Ave, South Richmond Hill, NY 11419, en Queens."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué requisitos pide?",
+        "a": "No está indicado. Llame al (718) 849-5277 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays 10am-12pm, but the pantry runs on the 4th Saturday only."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 120-13 101st Ave, South Richmond Hill, NY 11419, in Queens."
+      },
+      {
+        "q": "What food does it give, and what are the requirements?",
+        "a": "That is not listed. Call (718) 849-5277 to ask before going."
+      }
+    ]
+  }
+}

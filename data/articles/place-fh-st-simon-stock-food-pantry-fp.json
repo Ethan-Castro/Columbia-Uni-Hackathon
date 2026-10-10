@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-simon-stock-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:51.125Z",
+  "facts_hash": "703656b43fb880ba",
+  "article": {
+    "title_es": "St. Simon Stock Food Pantry: despensa de alimentos en el Bronx",
+    "title_en": "St. Simon Stock Food Pantry: food pantry in the Bronx",
+    "summary_es": "St. Simon Stock Food Pantry es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad. Está abierta el viernes de 9am a 10am.",
+    "summary_en": "St. Simon Stock Food Pantry is a food pantry in the Bronx listed on the City's Food Help NYC map. It is open Friday, 9am to 10am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 2250 Ryer Ave, en el Bronx.",
+      "El horario indicado de la despensa es viernes de 9am a 10am.",
+      "Puede llamar al (718) 367-1251 para más información.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos, así que pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2250 Ryer Ave in the Bronx.",
+      "The listed pantry hours are Friday, 9am to 10am.",
+      "You can call (718) 367-1251 for more information.",
+      "What food is given and any requirements are not listed, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es viernes de 9am a 10am.",
+      "Llame al (718) 367-1251 antes de ir para preguntar sobre los alimentos y si hay requisitos.",
+      "La lista no indica qué documentos llevar, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Friday, 9am to 10am.",
+      "Call (718) 367-1251 before you go to ask about food and any requirements.",
+      "The listing does not say what documents to bring, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "La lista indica viernes de 9am a 10am (despensa)."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "Está en 2250 Ryer Ave, Bronx, NY, 10457."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (718) 367-1251 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "The listing shows Friday, 9am to 10am (pantry)."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "It is at 2250 Ryer Ave, Bronx, NY, 10457."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "The listing does not say. Call (718) 367-1251 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-apna-community-services-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:37.768Z",
+  "facts_hash": "f6b7079bcb4223a4",
+  "article": {
+    "title_es": "APNA Community Services Inc: despensa de alimentos en Brooklyn",
+    "title_en": "APNA Community Services Inc: food pantry in Brooklyn",
+    "summary_es": "APNA Community Services Inc es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Atiende los miércoles de 2pm a 3pm.",
+    "summary_en": "APNA Community Services Inc is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open for pantry service on Wednesdays from 2pm to 3pm.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 225 Neptune Ave, Brooklyn, NY 11235.",
+      "El horario de la despensa es los miércoles de 2pm a 3pm.",
+      "Puede llamar al (718) 513-4700 para más información.",
+      "El listado no indica qué alimentos entrega ni qué se necesita, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 225 Neptune Ave, Brooklyn, NY 11235.",
+      "Pantry hours are Wednesdays from 2pm to 3pm.",
+      "You can call (718) 513-4700 for more information.",
+      "The listing does not say what food is given or what is needed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de solo una hora: miércoles de 2pm a 3pm.",
+      "Llame al (718) 513-4700 antes de ir para confirmar el horario.",
+      "Pregunte qué alimentos ofrece y si hay algún requisito, ya que esto no aparece en el listado."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are only one hour, Wednesdays 2pm to 3pm.",
+      "Call (718) 513-4700 before going to confirm the schedule.",
+      "Ask what food is offered and if any requirements apply, since this is not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 2pm a 3pm."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al (718) 513-4700 o visite 225 Neptune Ave, Brooklyn, NY 11235."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No aparece en el listado. Llame antes para preguntar qué ofrece."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 2pm to 3pm."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call (718) 513-4700 or visit 225 Neptune Ave, Brooklyn, NY 11235."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "That is not listed. Call ahead to ask what is offered."
+      }
+    ]
+  }
+}

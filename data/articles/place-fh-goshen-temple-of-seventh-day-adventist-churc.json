@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-goshen-temple-of-seventh-day-adventist-churc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:25.194Z",
+  "facts_hash": "5c403670ff7ef858",
+  "article": {
+    "title_es": "Goshen Temple of Seventh Day Adventist Church: despensa de alimentos en Brooklyn",
+    "title_en": "Goshen Temple of Seventh Day Adventist Church: food pantry in Brooklyn",
+    "summary_es": "Goshen Temple of Seventh Day Adventist Church es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 1pm a 3pm.",
+    "summary_en": "Goshen Temple of Seventh Day Adventist Church is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Wednesdays from 1pm to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 2414 Church Ave, Brooklyn, NY 11226.",
+      "El horario de la despensa es miércoles de 1pm a 3pm.",
+      "Puede llamar al (917) 847-5528 para más información.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2414 Church Ave, Brooklyn, NY 11226.",
+      "Pantry hours are Wednesday 1pm-3pm.",
+      "You can call (917) 847-5528 for more information.",
+      "What food is given and any requirements are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los miércoles de 1pm a 3pm.",
+      "Llame antes al (917) 847-5528 para confirmar el horario y preguntar si hay requisitos.",
+      "La dirección es 2414 Church Ave, Brooklyn, NY 11226."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesdays from 1pm to 3pm.",
+      "Call (917) 847-5528 ahead to confirm hours and ask about any requirements.",
+      "The address is 2414 Church Ave, Brooklyn, NY 11226."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 1pm a 3pm."
+      },
+      {
+        "q": "¿Necesito llevar algún documento?",
+        "a": "La lista no lo indica. Llame al (917) 847-5528 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No está especificado. Pregunte cuando llame o visite."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 1pm to 3pm."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "The listing does not say. Call (917) 847-5528 to ask before you go."
+      },
+      {
+        "q": "What food does it give out?",
+        "a": "That is not listed. Ask when you call or visit."
+      }
+    ]
+  }
+}

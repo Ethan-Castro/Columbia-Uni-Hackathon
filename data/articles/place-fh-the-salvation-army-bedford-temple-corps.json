@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-salvation-army-bedford-temple-corps",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:03.703Z",
+  "facts_hash": "4f7bb96915cff5b1",
+  "article": {
+    "title_es": "The Salvation Army Bedford Temple Corps: despensa en Brooklyn",
+    "title_en": "The Salvation Army Bedford Temple Corps: pantry in Brooklyn",
+    "summary_es": "The Salvation Army Bedford Temple Corps es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Atiende los miércoles de 10am a 12pm.",
+    "summary_en": "The Salvation Army Bedford Temple Corps is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open on Wednesdays from 10am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 601 Lafayette Ave, Brooklyn, NY 11216.",
+      "Abre los miércoles de 10am a 12pm para la despensa.",
+      "Puede llamar al (718) 622-0614 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 601 Lafayette Ave, Brooklyn, NY 11216.",
+      "The pantry is open on Wednesdays from 10am to 12pm.",
+      "You can call (718) 622-0614 to ask before you go.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los miércoles de 10am a 12pm.",
+      "Llame al (718) 622-0614 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are only on Wednesdays from 10am to 12pm.",
+      "Call (718) 622-0614 before going to confirm the hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "Los miércoles de 10am a 12pm, según el horario publicado."
+      },
+      {
+        "q": "¿Qué debo hacer antes de visitar?",
+        "a": "Llame al (718) 622-0614 para confirmar el horario y preguntar sobre los requisitos."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. It does not say what food is given or if there are requirements."
+      },
+      {
+        "q": "When can I go?",
+        "a": "On Wednesdays from 10am to 12pm, according to the posted hours."
+      },
+      {
+        "q": "What should I do before visiting?",
+        "a": "Call (718) 622-0614 to confirm the hours and ask about any requirements."
+      }
+    ]
+  }
+}

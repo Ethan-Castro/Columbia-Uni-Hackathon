@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-zeina-lorraine-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:42.664Z",
+  "facts_hash": "92e1fb666adc009b",
+  "article": {
+    "title_es": "ZEINA LORRAINE INC: despensa de alimentos en Manhattan",
+    "title_en": "ZEINA LORRAINE INC: food pantry in Manhattan",
+    "summary_es": "ZEINA LORRAINE INC es una despensa de alimentos en Manhattan, en la lista del mapa Food Help NYC de la ciudad.",
+    "summary_en": "ZEINA LORRAINE INC is a food pantry in Manhattan, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Ofrece servicio de despensa los martes de 11am a 2pm.",
+      "También abre los jueves de 11am a 2pm.",
+      "Está ubicada en 203 W 133rd St, Nueva York, NY 10030.",
+      "Puede llamar al (646) 355-3880 para preguntar por los alimentos y requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Pantry service is offered on Tuesdays from 11am to 2pm.",
+      "It is also open on Thursdays from 11am to 2pm.",
+      "It is located at 203 W 133rd St, New York, NY 10030.",
+      "You can call (646) 355-3880 to ask about food and requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los martes y jueves de 11am a 2pm.",
+      "Llame al (646) 355-3880 antes de ir para confirmar los horarios.",
+      "La lista no dice qué alimentos entrega ni si piden algún requisito; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Tuesdays and Thursdays, 11am-2pm.",
+      "Call (646) 355-3880 before going to confirm the hours.",
+      "The listing does not say what food is given or if there are any requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos en Manhattan, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Despensa: martes de 11am a 2pm y jueves de 11am a 2pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "No está en la lista. Llame al (646) 355-3880 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry in Manhattan, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Pantry: Tuesdays 11am-2pm and Thursdays 11am-2pm."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "That is not listed. Call (646) 355-3880 to ask before going."
+      }
+    ]
+  }
+}

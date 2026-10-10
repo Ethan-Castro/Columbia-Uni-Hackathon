@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-dash-immigrant-services-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:16.014Z",
+  "facts_hash": "e6c3ab5a671d0ac7",
+  "article": {
+    "title_es": "Dash Immigrant Services: organización en la lista del DOJ en Queens",
+    "title_en": "Dash Immigrant Services: DOJ-listed organization in Queens",
+    "summary_es": "Dash Immigrant Services, Inc. aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en Flushing, Queens.",
+    "summary_en": "Dash Immigrant Services, Inc. appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in Flushing, Queens.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados por el DOJ pueden ofrecer ayuda legal en inmigración.",
+      "Dirección: 3640 Main Street, Suite 307B, Flushing, NY 11354.",
+      "Teléfono: (718) 864-1688.",
+      "La lista no indica los cobros ni cómo pedir una cita; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) Roster of Recognized Organizations and Accredited Representatives.",
+      "Recognized organizations are non-profits whose DOJ-accredited representatives may give immigration legal help.",
+      "Address: 3640 Main Street, Suite 307B, Flushing, NY 11354.",
+      "Phone: (718) 864-1688.",
+      "The roster does not list fees or how to get an appointment; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (718) 864-1688 para preguntar por los servicios y si necesita una cita.",
+      "Pregunte qué cobros, si los hay, aplican por sus servicios.",
+      "El listado no indica horarios de atención; pregunte al llamar."
+    ],
+    "visit_tips_en": [
+      "Call first at (718) 864-1688 to ask about services and whether you need an appointment.",
+      "Ask what fees, if any, apply to their services.",
+      "The listing does not include hours of operation; ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados, que pueden ofrecer ayuda legal en inmigración."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto?",
+        "a": "3640 Main Street, Suite 307B, Flushing, NY 11354. Teléfono: (718) 864-1688."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los cobros no aparecen en la lista. Llame al (718) 864-1688 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It appears on the DOJ (EOIR) Roster of Recognized Organizations and Accredited Representatives, who may provide immigration legal help."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "3640 Main Street, Suite 307B, Flushing, NY 11354. Phone: (718) 864-1688."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (718) 864-1688 to ask."
+      }
+    ]
+  }
+}

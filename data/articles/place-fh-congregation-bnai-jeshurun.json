@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-congregation-bnai-jeshurun",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:01.042Z",
+  "facts_hash": "7ad38f1964c8cee6",
+  "article": {
+    "title_es": "Congregation B'nai Jeshurun: comedor de sopa en Manhattan",
+    "title_en": "Congregation B'nai Jeshurun: soup kitchen in Manhattan",
+    "summary_es": "Congregation B'nai Jeshurun es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad, con un comedor de sopa los jueves de 12pm a 1pm en 257 W 88th St, en Manhattan.",
+    "summary_en": "Congregation B'nai Jeshurun is a food pantry listed on the City's Food Help NYC map, with a soup kitchen on Thursdays from 12pm to 1pm at 257 W 88th St in Manhattan.",
+    "how_they_help_es": [
+      "- Aparece como lugar de ayuda de alimentos en el mapa Food Help NYC de la ciudad.",
+      "- El listado describe un comedor de sopa que funciona los jueves.",
+      "- Está ubicado en 257 W 88th St, en Manhattan.",
+      "- Puede llamar al (212) 787-7600 para más información.",
+      "- El listado no dice qué comida dan ni si hay requisitos, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "- Listed as a food help location on the City's Food Help NYC map.",
+      "- The listing describes a soup kitchen that operates on Thursdays.",
+      "- Located at 257 W 88th St in Manhattan.",
+      "- You can call (212) 787-7600 for more information.",
+      "- The listing does not say what food is given or any requirements, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "- El horario del comedor de sopa indicado es jueves de 12pm a 1pm.",
+      "- Llame al (212) 787-7600 antes de ir para confirmar horarios y preguntar sobre requisitos.",
+      "- El listado no dice qué comida dan."
+    ],
+    "visit_tips_en": [
+      "- The soup kitchen hours listed are Thursdays, 12pm-1pm.",
+      "- Call (212) 787-7600 before you go to confirm times and ask about requirements.",
+      "- The listing does not say what food is given."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo sirven comida?",
+        "a": "El listado indica los jueves de 12pm a 1pm, y lo describe como comedor de sopa."
+      },
+      {
+        "q": "¿Qué tipo de comida dan?",
+        "a": "El listado no lo dice. Llame al (212) 787-7600 para preguntar qué comida ofrecen."
+      },
+      {
+        "q": "¿Hay requisitos para recibir comida?",
+        "a": "El listado no lo dice. Llame al (212) 787-7600 para preguntar si hay requisitos."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is food served?",
+        "a": "The listing says Thursdays, 12pm-1pm, and describes it as a soup kitchen."
+      },
+      {
+        "q": "What kind of food do they give?",
+        "a": "The listing does not say. Call (212) 787-7600 to ask about the food provided."
+      },
+      {
+        "q": "Are there any requirements to get food?",
+        "a": "The listing does not say. Call (212) 787-7600 to ask about any requirements."
+      }
+    ]
+  }
+}

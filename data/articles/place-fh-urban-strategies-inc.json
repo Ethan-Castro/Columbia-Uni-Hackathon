@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-urban-strategies-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:38.930Z",
+  "facts_hash": "738a1882d7cd8a14",
+  "article": {
+    "title_es": "Urban Strategies Inc: despensa de alimentos en Brooklyn",
+    "title_en": "Urban Strategies Inc: food pantry in Brooklyn",
+    "summary_es": "Urban Strategies Inc es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. El horario de la despensa es martes de 8am a 10am.",
+    "summary_en": "Urban Strategies Inc is a food pantry in Brooklyn listed on the City's Food Help NYC map. Pantry hours are Tuesday 8am-10am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 61 Riverdale Ave, Brooklyn, NY 11212.",
+      "El horario de la despensa es martes de 8am a 10am.",
+      "Puede llamar al (718) 346-2539 para más información.",
+      "Qué alimentos entrega y si hay requisitos no aparece en la lista, así que pregunte antes."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 61 Riverdale Ave, Brooklyn, NY 11212.",
+      "Pantry hours are Tuesday 8am-10am.",
+      "You can call (718) 346-2539 for more information.",
+      "What food is given and any requirements are not listed, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes de 8am a 10am.",
+      "Llame al (718) 346-2539 con anticipación para confirmar los detalles.",
+      "Qué alimentos entrega y si hay requisitos no aparece en la lista, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday 8am-10am.",
+      "Call (718) 346-2539 ahead to confirm details.",
+      "What food is given and any requirements are not listed, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Urban Strategies Inc?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "La despensa abre el martes de 8am a 10am."
+      },
+      {
+        "q": "¿Cómo puedo hacer preguntas antes de ir?",
+        "a": "Llame al (718) 346-2539 antes de su visita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Urban Strategies Inc?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Pantry hours are Tuesday 8am-10am."
+      },
+      {
+        "q": "How can I ask questions before going?",
+        "a": "Call (718) 346-2539 before your visit."
+      }
+    ]
+  }
+}

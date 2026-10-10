@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-zion-tabernacle-f-b-h-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:34.260Z",
+  "facts_hash": "2d33de8b00ae9441",
+  "article": {
+    "title_es": "Zion Tabernacle F.B.H. Church: despensa de alimentos en Queens",
+    "title_en": "Zion Tabernacle F.B.H. Church: food pantry in Queens",
+    "summary_es": "Zion Tabernacle F.B.H. Church es una despensa de alimentos en Queens, aparecida en el mapa Food Help NYC de la ciudad. Abre los martes de 1pm a 3pm.",
+    "summary_en": "Zion Tabernacle F.B.H. Church is a food pantry in Queens, listed on the City's Food Help NYC map. It is open Tuesdays 1pm-3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 105-01 107 AV, NY 11417, en Queens.",
+      "Atiende los martes de 1pm a 3pm (despensa).",
+      "Puede llamar al (718) 717-9993 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 105-01 107 AV, NY 11417, in Queens.",
+      "It is open Tuesdays 1pm-3pm (pantry).",
+      "You can call (718) 717-9993 to ask before visiting.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es el martes de 1pm a 3pm.",
+      "Llame al (718) 717-9993 para confirmar detalles antes de ir.",
+      "No se indica qué alimentos ofrece ni qué se necesita; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Tuesday 1pm-3pm.",
+      "Call (718) 717-9993 to confirm details before going.",
+      "The listing does not say what food is offered or what is needed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (718) 717-9993 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los martes de 1pm a 3pm (despensa)."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 105-01 107 AV, NY 11417, en Queens."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (718) 717-9993 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays 1pm-3pm (pantry)."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 105-01 107 AV, NY 11417, in Queens."
+      }
+    ]
+  }
+}

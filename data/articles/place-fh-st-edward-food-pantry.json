@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-edward-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:19.072Z",
+  "facts_hash": "ea8285985790f776",
+  "article": {
+    "title_es": "St. Edward Food Pantry: despensa de alimentos en Staten Island",
+    "title_en": "St. Edward Food Pantry: food pantry in Staten Island",
+    "summary_es": "St. Edward Food Pantry es una despensa de alimentos en Staten Island que aparece en el mapa Food Help NYC de la ciudad. Abre el primer, segundo, tercer y cuarto viernes de cada mes.",
+    "summary_en": "St. Edward Food Pantry is a food pantry on Staten Island listed on the City's Food Help NYC map. It opens on the first, second, third, and fourth Friday of each month.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 6581 Hylan Blvd, en Staten Island.",
+      "Abre los viernes de 10am a 1pm (1.º, 2.º, 3.º y 4.º viernes).",
+      "Teléfono: (718) 984-1625.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 6581 Hylan Blvd in Staten Island.",
+      "Open Fridays from 10am to 1pm (1st, 2nd, 3rd, and 4th Friday).",
+      "Phone: (718) 984-1625.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "Vaya un viernes entre 10am y 1pm; la despensa funciona el 1.º, 2.º, 3.º y 4.º viernes del mes.",
+      "Llame al (718) 984-1625 antes de ir para preguntar sobre los alimentos y si hay requisitos.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; confirme que los horarios sigan vigentes."
+    ],
+    "visit_tips_en": [
+      "Go on a Friday between 10am and 1pm; the pantry runs on the 1st, 2nd, 3rd, and 4th Friday of the month.",
+      "Call (718) 984-1625 before visiting to ask about food and any requirements.",
+      "The listing was last checked on 2026-10-10; confirm hours are still current."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Los viernes de 10am a 1pm, el 1.º, 2.º, 3.º y 4.º viernes del mes."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La información no lo indica. Llame al (718) 984-1625 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 6581 Hylan Blvd, Staten Island, New York, 10309."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Fridays from 10am to 1pm, on the 1st, 2nd, 3rd, and 4th Friday of the month."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "The listing does not say. Call (718) 984-1625 to ask before you go."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 6581 Hylan Blvd, Staten Island, New York, 10309."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-worldwide-missionary-movement-centro-evangel",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:42.586Z",
+  "facts_hash": "4535430303a16b03",
+  "article": {
+    "title_es": "Worldwide Missionary Movement: despensa de alimentos en Manhattan",
+    "title_en": "Worldwide Missionary Movement: food pantry in Manhattan",
+    "summary_es": "Worldwide Missionary Movement/Centro Evangelistico MMM, Inc (FP) es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados.",
+    "summary_en": "Worldwide Missionary Movement/Centro Evangelistico MMM, Inc (FP) is a food pantry in Manhattan listed on the City's Food Help NYC map. It is open on Saturdays.",
+    "how_they_help_es": [
+      "Despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad",
+      "Ubicada en 148 Post Ave, Manhattan (código postal 10034)",
+      "Abre los sábados de 10am a 12pm para la despensa",
+      "Teléfono: (212) 567-5620",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono"
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the City's Food Help NYC map",
+      "Located at 148 Post Ave in Manhattan (zip 10034)",
+      "Open Saturdays from 10am to 12pm for the pantry",
+      "Phone: (212) 567-5620",
+      "What food is given and any requirements are not listed, so ask by phone"
+    ],
+    "visit_tips_es": [
+      "La despensa atiende los sábados de 10am a 12pm",
+      "Llame al (212) 567-5620 antes de ir para preguntar sobre los alimentos y posibles requisitos",
+      "Los detalles sobre lo que ofrece no aparecen en la lista, así que confirme antes de visitar"
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Saturday, 10am to 12pm",
+      "Call (212) 567-5620 ahead to ask about food and any requirements",
+      "Details about what is offered are not listed, so confirm before visiting"
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los sábados de 10am a 12pm, para la despensa."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No aparece en la lista. Llame al (212) 567-5620 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "A food pantry in Manhattan listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturday, 10am to 12pm, for the pantry."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "That is not listed. Call (212) 567-5620 to ask."
+      }
+    ]
+  }
+}

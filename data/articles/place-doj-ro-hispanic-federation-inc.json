@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-hispanic-federation-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:31.657Z",
+  "facts_hash": "91e428bb0e1d0703",
+  "article": {
+    "title_es": "Hispanic Federation Inc.: organización en la lista del DOJ en Manhattan",
+    "title_en": "Hispanic Federation Inc.: DOJ-listed organization in Manhattan",
+    "summary_es": "Hispanic Federation Inc. es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en el bajo Manhattan.",
+    "summary_en": "Hispanic Federation Inc. is a nonprofit that appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in lower Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal de inmigración.",
+      "Está ubicada en 55 Exchange Place, Suite 501, Nueva York, NY 10005.",
+      "Puede llamar al (212) 233-8955 para preguntar por sus servicios.",
+      "Las tarifas y el proceso de cita no aparecen en la información disponible."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 55 Exchange Place, Suite 501, New York, NY 10005.",
+      "You can call (212) 233-8955 to ask about its services.",
+      "Fees and the intake process are not listed in the available information."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (212) 233-8955 para preguntar cómo obtener una cita.",
+      "Pregunte por teléfono si hay tarifas por los servicios.",
+      "Los horarios de atención no aparecen en la información disponible; pregunte al llamar."
+    ],
+    "visit_tips_en": [
+      "Call first at (212) 233-8955 to ask how to get an appointment.",
+      "Ask by phone whether there are fees for services.",
+      "Hours of operation are not listed in the available information; ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la información disponible. Llame al (212) 233-8955 para preguntar."
+      },
+      {
+        "q": "¿Cómo hago una cita?",
+        "a": "El proceso de citas no aparece en la información disponible. Llame al (212) 233-8955."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a nonprofit that appears on the DOJ (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "How much do the services cost?",
+        "a": "Fees are not listed in the available information. Call (212) 233-8955 to ask."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The intake process is not listed in the available information. Call (212) 233-8955."
+      }
+    ]
+  }
+}

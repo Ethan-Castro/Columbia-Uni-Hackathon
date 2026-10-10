@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-city-of-refuge-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:37.711Z",
+  "facts_hash": "89e69ff598d468fc",
+  "article": {
+    "title_es": "City of Refuge FP: despensa de alimentos en Brooklyn",
+    "title_en": "City of Refuge FP: food pantry in Brooklyn",
+    "summary_es": "City of Refuge FP es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 9:30am a 12pm.",
+    "summary_en": "City of Refuge FP is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Wednesdays from 9:30am to 12pm.",
+    "how_they_help_es": [
+      "Despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad",
+      "Ubicada en 1115 Blake Ave, Brooklyn, NY 11208",
+      "Abre los miércoles de 9:30am a 12pm",
+      "Llame al (929) 289-2267 para más información"
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the City's Food Help NYC map",
+      "Located at 1115 Blake Ave, Brooklyn, NY 11208",
+      "Open Wednesdays, 9:30am to 12pm",
+      "Call (929) 289-2267 for more information"
+    ],
+    "visit_tips_es": [
+      "La despensa atiende los miércoles de 9:30am a 12pm",
+      "Llame antes al (929) 289-2267 para preguntar qué alimentos entregan y si hay requisitos",
+      "La lista no indica qué alimentos ofrece, así que es mejor preguntar por teléfono"
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wednesdays, 9:30am to 12pm",
+      "Call ahead at (929) 289-2267 to ask what food is given and any requirements",
+      "What food is offered is not listed, so it is best to ask by phone"
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 9:30am a 12pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1115 Blake Ave, Brooklyn, NY 11208."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No está indicado en la lista. Llame al (929) 289-2267 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 9:30am to 12pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "1115 Blake Ave, Brooklyn, NY 11208."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "That is not listed. Call (929) 289-2267 to ask."
+      }
+    ]
+  }
+}

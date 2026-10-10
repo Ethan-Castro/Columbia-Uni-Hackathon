@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-muna-social-services-baitun-noor-masjid-fph",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:30.317Z",
+  "facts_hash": "69a4c67856a74dd5",
+  "article": {
+    "title_es": "MUNA Social Services: despensa de alimentos en Ozone Park, Queens",
+    "title_en": "MUNA Social Services: food pantry in Ozone Park, Queens",
+    "summary_es": "MUNA Social Services en Baitun Noor Masjid es una despensa de alimentos en Ozone Park, Queens, abierta el primer y tercer jueves del mes de 4pm a 5pm.",
+    "summary_en": "MUNA Social Services at Baitun Noor Masjid is a food pantry in Ozone Park, Queens, open the first and third Thursday of the month from 4pm to 5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 88-19 Liberty Ave, Ozone Park, NY, 11417.",
+      "Abre el primer y tercer jueves del mes, de 4pm a 5pm.",
+      "Puede llamar al (212) 920-6202 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni qué requisitos pide."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 88-19 Liberty Ave, Ozone Park, NY, 11417.",
+      "It is open the first and third Thursday of the month, 4pm to 5pm.",
+      "You can call (212) 920-6202 to ask before going.",
+      "The listing does not say what food is given or what is required."
+    ],
+    "visit_tips_es": [
+      "Vaya un primer o tercer jueves entre 4pm y 5pm.",
+      "Llame al (212) 920-6202 antes de ir para confirmar el horario.",
+      "Pregunte por teléfono qué alimentos reparten y si necesita algo para recibirlos."
+    ],
+    "visit_tips_en": [
+      "Go on a first or third Thursday between 4pm and 5pm.",
+      "Call (212) 920-6202 before going to confirm the hours.",
+      "Ask by phone what food is given and if you need anything to receive it."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Solo el primer y tercer jueves del mes, de 4pm a 5pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 88-19 Liberty Ave, Ozone Park, NY, 11417, en Queens."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La lista no lo indica. Llame al (212) 920-6202 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Only on the first and third Thursday of the month, from 4pm to 5pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 88-19 Liberty Ave, Ozone Park, NY, 11417, in Queens."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (212) 920-6202 to ask before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "place_id": "place-fh-masjid-masjid-omar-abdel-aziz",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:55.618Z",
+  "facts_hash": "9eb3d9851db8b045",
+  "article": {
+    "title_es": "Masjid Omar Abdel Aziz: despensa de alimentos en Jamaica, Queens",
+    "title_en": "Masjid Omar Abdel Aziz: food pantry in Jamaica, Queens",
+    "summary_es": "Masjid Omar Abdel Aziz es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Masjid Omar Abdel Aziz is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 88-29 161st St, Jamaica, NY, 11432.",
+      "Abre los miércoles de 2pm a 4pm.",
+      "La despensa funciona el tercer miércoles del mes, una vez al mes.",
+      "Puede llamar al (718) 541-8485 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 88-29 161st St, Jamaica, NY, 11432.",
+      "It is open Wed 2pm-4pm.",
+      "The pantry runs on the 3rd Wednesday of the month, once a month.",
+      "You can call (718) 541-8485 to ask questions."
+    ],
+    "visit_tips_es": [
+      "Vaya el tercer miércoles del mes, que es el día de la despensa.",
+      "El horario es de 2pm a 4pm los miércoles.",
+      "Llame antes al (718) 541-8485 para confirmar qué alimentos dan y si necesita algo.",
+      "Lo que se entrega y los requisitos no están indicados en la información disponible."
+    ],
+    "visit_tips_en": [
+      "Go on the 3rd Wednesday of the month, which is the pantry day.",
+      "Hours are Wed 2pm-4pm.",
+      "Call ahead at (718) 541-8485 to confirm what food is given and if anything is needed.",
+      "What is given and any requirements are not listed, so please ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 2pm a 4pm. La despensa funciona el tercer miércoles del mes, una vez al mes."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 88-29 161st St, Jamaica, NY, 11432, en Queens."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito llevar?",
+        "a": "No está indicado. Llame al (718) 541-8485 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wed 2pm-4pm. The pantry runs on the 3rd Wednesday of the month, once a month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 88-29 161st St, Jamaica, NY, 11432, in Queens."
+      },
+      {
+        "q": "What food is given and what should I bring?",
+        "a": "This is not listed. Call (718) 541-8485 to ask before you go."
+      }
+    ]
+  }
+}

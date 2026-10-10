@@ -1,0 +1,64 @@
+{
+  "place_id": "place-nyc-hh-elmhurst-hospital",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:52.380Z",
+  "facts_hash": "797ce4856f6db92d",
+  "article": {
+    "title_es": "NYC Health + Hospitals/Elmhurst: hospital y clínica en Queens",
+    "title_en": "NYC Health + Hospitals/Elmhurst: hospital and clinic in Queens",
+    "summary_es": "NYC Health + Hospitals/Elmhurst es un hospital y centro de salud en Elmhurst, Queens. Ofrece NYC Care, atención médica asequible para neoyorquinos que no tienen ni pueden pagar un seguro médico.",
+    "summary_en": "NYC Health + Hospitals/Elmhurst is a hospital and clinic in Elmhurst, Queens. It offers NYC Care, affordable health care for New Yorkers who don't have and can't afford health insurance.",
+    "how_they_help_es": [
+      "Es un centro de salud y hospital en Elmhurst, Queens.",
+      "Ofrece NYC Care: atención médica asequible para neoyorquinos que no tienen ni pueden pagar un seguro.",
+      "Puede solicitar NYC Care por teléfono, virtualmente o en persona en esta ubicación.",
+      "Llame al número principal para preguntar por los servicios antes de visitar."
+    ],
+    "how_they_help_en": [
+      "It is a health clinic and hospital site in Elmhurst, Queens.",
+      "Offers NYC Care: affordable health care for New Yorkers who don't have and can't afford insurance.",
+      "You can apply for NYC Care by phone, virtually, or in person at this location.",
+      "Call the main number to ask about services before visiting."
+    ],
+    "visit_tips_es": [
+      "Si solicita NYC Care, lleve comprobante de identificación, residencia en NYC, ingresos del hogar y tamaño del hogar.",
+      "Si fue evaluado para un seguro a través del NYS of Health Marketplace, lleve impreso el resultado.",
+      "Si no puede presentar los documentos requeridos, un consejero aún podría ayudarle a inscribirse.",
+      "Llame al 1-718-334-4000 con anticipación para preguntar por los servicios."
+    ],
+    "visit_tips_en": [
+      "Bring proof of identification, NYC residency, household income, and household size if applying for NYC Care.",
+      "If you were screened for insurance through the NYS of Health Marketplace, bring a printout of the results.",
+      "If you can't provide the required documents, a counselor may still be able to help you enroll.",
+      "Call 1-718-334-4000 ahead to ask about services."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cómo solicito NYC Care?",
+        "a": "Llame al 646-NYC-CARE (646-692-2273), reúnase virtualmente con un representante de MetroPlusHealth, o visite una ubicación de NYC Health + Hospitals, una organización comunitaria o una oficina de MetroPlusHealth."
+      },
+      {
+        "q": "¿Qué documentos necesito?",
+        "a": "Comprobante de identificación, residencia en la ciudad de Nueva York, ingresos del hogar y tamaño del hogar. Si fue evaluado en el NYS of Health Marketplace, lleve el comprobante impreso. Si no puede presentar documentos, un consejero aún podría ayudarle a inscribirse."
+      },
+      {
+        "q": "¿Quién puede usar NYC Care?",
+        "a": "La información no lo indica. Llame al 646-NYC-CARE (646-692-2273) para más información."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "How do I apply for NYC Care?",
+        "a": "Call 646-NYC-CARE (646-692-2273), meet with a MetroPlusHealth representative virtually, or visit an NYC Health + Hospitals location, a community-based organization, or a MetroPlusHealth office."
+      },
+      {
+        "q": "What documents do I need?",
+        "a": "Proof of identification, NYC residency, household income, and household size. If you were screened through the NYS of Health Marketplace, bring the printout. If you can't provide documents, a counselor may still help you enroll."
+      },
+      {
+        "q": "Who can use NYC Care?",
+        "a": "The listing does not say. Call 646-NYC-CARE (646-692-2273) for more information."
+      }
+    ]
+  }
+}

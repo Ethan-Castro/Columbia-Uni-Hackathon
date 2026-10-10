@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-christ-apostolic-church-goke-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:31.041Z",
+  "facts_hash": "248ca0c8762847f5",
+  "article": {
+    "title_es": "Christ Apostolic Church Goke Food Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "Christ Apostolic Church Goke Food Pantry: food pantry in Brooklyn",
+    "summary_es": "Christ Apostolic Church Goke Food Pantry es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los martes y sábados, pero solo en ciertos días del mes.",
+    "summary_en": "Christ Apostolic Church Goke Food Pantry is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open on Tuesdays and Saturdays, but only on certain days of the month.",
+    "how_they_help_es": [
+      "Una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 622 Cortelyou Rd, en Brooklyn.",
+      "Abre los martes y sábados, pero solo en ciertos días del mes.",
+      "Puede llamar al (347) 337-4167 para más información.",
+      "No se indica qué alimentos entrega ni si hay requisitos, así que pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "A food pantry listed on the City's Food Help NYC map.",
+      "Located at 622 Cortelyou Rd in Brooklyn.",
+      "Open on Tuesdays and Saturdays, but only on certain days of the month.",
+      "You can call (347) 337-4167 for more information.",
+      "What food is given and any requirements are not listed, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "La despensa solo abre el 1.er y 3.er martes y el 2.º y 4.º sábado de cada mes.",
+      "Los martes atiende de 1pm a 3pm y los sábados de 9am a 1pm.",
+      "Llame al (347) 337-4167 antes de ir para confirmar el horario y hacer sus preguntas."
+    ],
+    "visit_tips_en": [
+      "The pantry is only open the 1st and 3rd Tuesday and the 2nd and 4th Saturday of each month.",
+      "Tuesday hours are 1pm-3pm and Saturday hours are 9am-1pm.",
+      "Call (347) 337-4167 before going to confirm the schedule and ask any questions."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de alimentos entrega la despensa?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. No se indica qué alimentos entrega, así que es mejor preguntar por teléfono."
+      },
+      {
+        "q": "¿Exactamente cuándo abre la despensa?",
+        "a": "La despensa solo abre el 1.er y 3.er martes y el 2.º y 4.º sábado de cada mes, en los horarios indicados."
+      },
+      {
+        "q": "¿Necesito llevar algo o cumplir algún requisito?",
+        "a": "No se indican requisitos. Llame al (347) 337-4167 antes de su visita para preguntar qué necesita llevar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of food does the pantry give?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. What food is given is not listed, so it is best to ask by phone."
+      },
+      {
+        "q": "When exactly is the pantry open?",
+        "a": "The pantry is only open the 1st and 3rd Tuesday and the 2nd and 4th Saturday of each month, during the hours listed."
+      },
+      {
+        "q": "Do I need to bring anything or meet any requirement?",
+        "a": "No requirements are listed. Call (347) 337-4167 before your visit to ask what you need."
+      }
+    ]
+  }
+}

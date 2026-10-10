@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-true-divinity-outreach-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:29.824Z",
+  "facts_hash": "60d3788a2dfc9021",
+  "article": {
+    "title_es": "True Divinity Outreach: despensa de alimentos en Jamaica, Queens",
+    "title_en": "True Divinity Outreach: food pantry in Jamaica, Queens",
+    "summary_es": "True Divinity Outreach Food Pantry es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los martes y jueves de 10am a 2pm.",
+    "summary_en": "True Divinity Outreach Food Pantry is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map. It is open Tuesdays and Thursdays from 10am to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los martes de 10am a 2pm.",
+      "También reparte alimentos los jueves de 10am a 2pm.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Tuesdays from 10am to 2pm.",
+      "It also distributes food on Thursdays from 10am to 2pm.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Dirección: 115-27 Sutphin Blvd, Jamaica, NY, 11434 (Queens).",
+      "Horario de despensa: martes y jueves de 10am a 2pm.",
+      "Llame antes de ir al (718) 322-3065 para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "Address: 115-27 Sutphin Blvd, Jamaica, NY, 11434 (Queens).",
+      "Pantry hours: Tuesday and Thursday, 10am-2pm.",
+      "Call ahead at (718) 322-3065 to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La lista no lo indica. Llame al (718) 322-3065 para preguntar."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Martes y jueves de 10am a 2pm, según la lista."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos. Llame antes para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give?",
+        "a": "The listing does not say. Call (718) 322-3065 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays and Thursdays, 10am-2pm, according to the listing."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements. Call ahead to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-dsi-international-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:44.145Z",
+  "facts_hash": "29d04d917914b4e9",
+  "article": {
+    "title_es": "DSI International Inc.: ayuda legal de inmigración en Queens Village",
+    "title_en": "DSI International Inc.: immigration legal help in Queens Village",
+    "summary_es": "DSI International Inc. aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas y representantes acreditados. Está ubicada en Queens Village, Queens.",
+    "summary_en": "DSI International Inc. appears on the U.S. Department of Justice (EOIR) list of recognized organizations and accredited representatives. It is located in Queens Village, Queens.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "La dirección es 214-51 Jamaica Avenue, 2nd Floor, Queens Village, NY 11428.",
+      "El teléfono que aparece en la lista es (347) 257-4244.",
+      "Los servicios específicos, los precios y el proceso para obtener una cita no aparecen en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It appears on the Department of Justice (EOIR) list of recognized organizations and accredited representatives.",
+      "Recognized organizations are non-profits whose DOJ-accredited representatives may give immigration legal help.",
+      "The address is 214-51 Jamaica Avenue, 2nd Floor, Queens Village, NY 11428.",
+      "The phone number listed is (347) 257-4244.",
+      "Specific services, fees, and how to get an appointment are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame al (347) 257-4244 antes de ir para preguntar por los servicios y cómo pedir una cita.",
+      "El horario de atención no aparece en la información disponible; pregunte al llamar.",
+      "Pregunte qué servicios ofrece y si hay algún costo, ya que los precios no están publicados."
+    ],
+    "visit_tips_en": [
+      "Call (347) 257-4244 before going to ask about services and how to request an appointment.",
+      "Hours are not listed in the available information; ask when you call.",
+      "Ask what services are offered and whether there is any cost, since fees are not published."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es DSI International Inc.?",
+        "a": "Es una organización que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas y representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los precios no aparecen en la información disponible. Llame al (347) 257-4244 para preguntar."
+      },
+      {
+        "q": "¿Cómo puedo obtener una cita?",
+        "a": "El proceso para obtener una cita no está publicado. Llame al (347) 257-4244 para preguntar cómo solicitar una."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is DSI International Inc.?",
+        "a": "It is an organization listed on the U.S. Department of Justice (EOIR) list of recognized organizations and accredited representatives."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (347) 257-4244 to ask."
+      },
+      {
+        "q": "How can I get an appointment?",
+        "a": "The intake process is not published. Call (347) 257-4244 to ask how to request an appointment."
+      }
+    ]
+  }
+}

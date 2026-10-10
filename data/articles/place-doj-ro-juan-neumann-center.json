@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-juan-neumann-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:10.890Z",
+  "facts_hash": "b433ce220163a090",
+  "article": {
+    "title_es": "Centro Juan Neumann: organización en la lista del DOJ en Brooklyn",
+    "title_en": "Juan Neumann Center: DOJ-listed organization in Brooklyn",
+    "summary_es": "El Centro Juan Neumann aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está ubicado en el 545 de la calle 60, Suite 108, en Brooklyn.",
+    "summary_en": "The Juan Neumann Center appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located at 545 60th Street, Suite 108, in Brooklyn.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "La dirección es 545 60th Street, Suite 108, Brooklyn, NY 11220.",
+      "El teléfono que aparece en la lista es (718) 439-8160.",
+      "Los precios y el proceso para obtener una cita no aparecen en la lista; llame para preguntar."
+    ],
+    "how_they_help_en": [
+      "It appears on the DOJ (EOIR) list of recognized organizations and accredited representatives.",
+      "Recognized organizations are non-profits whose DOJ-accredited representatives may give immigration legal help.",
+      "The address is 545 60th Street, Suite 108, Brooklyn, NY 11220.",
+      "The phone number listed is (718) 439-8160.",
+      "Fees and how to get an appointment are not listed; call to ask."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (718) 439-8160 para preguntar por sus servicios y cómo pedir una cita.",
+      "Pregunte por teléfono sobre los costos, ya que no aparecen en la información de la lista.",
+      "Los horarios de atención no aparecen en la lista; confírmelos cuando llame."
+    ],
+    "visit_tips_en": [
+      "Call first at (718) 439-8160 to ask about their services and how to request an appointment.",
+      "Ask by phone about fees, since they are not listed in the listing information.",
+      "Hours are not listed; confirm them when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es el Centro Juan Neumann?",
+        "a": "Es una organización que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas, cuyo personal acreditado puede dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "Los precios no aparecen en la lista. Llame al (718) 439-8160 para preguntar."
+      },
+      {
+        "q": "¿Cómo puedo pedir una cita?",
+        "a": "El proceso para obtener una cita no aparece en la lista. Llame al (718) 439-8160 para preguntar cómo solicitar ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is the Juan Neumann Center?",
+        "a": "It is an organization listed on the DOJ (EOIR) list of recognized organizations, whose accredited staff may give immigration legal help."
+      },
+      {
+        "q": "How much do its services cost?",
+        "a": "Fees are not listed. Call (718) 439-8160 to ask."
+      },
+      {
+        "q": "How can I get an appointment?",
+        "a": "The intake process is not listed. Call (718) 439-8160 to ask how to request help."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-salt-and-sea-mission-church-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:53.291Z",
+  "facts_hash": "fb1d90afc5e799a2",
+  "article": {
+    "title_es": "SALT & SEA MISSION CHURCH INC.: despensa de alimentos en Brooklyn",
+    "title_en": "SALT & SEA MISSION CHURCH INC.: food pantry in Brooklyn",
+    "summary_es": "SALT & SEA MISSION CHURCH INC. es una despensa de alimentos en Brooklyn, aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "SALT & SEA MISSION CHURCH INC. is a food pantry in Brooklyn, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 2417 Stillwell Ave, Brooklyn, NY 11223.",
+      "Abre martes, jueves y domingo; vea los horarios en esta página.",
+      "Puede llamar al (917) 873-9261 para preguntar por los servicios.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2417 Stillwell Ave, Brooklyn, NY 11223.",
+      "It is open Tuesday, Thursday and Sunday; see the hours on this page.",
+      "You can call (917) 873-9261 to ask about services.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para confirmar los horarios y preguntar qué necesita llevar.",
+      "La despensa abre martes y jueves de 10:30am a 12:45pm, y el domingo de 10:30am a 10:45pm.",
+      "El horario del domingo es muy largo; confirme por teléfono a qué hora conviene llegar."
+    ],
+    "visit_tips_en": [
+      "Call before you go to confirm the hours and ask what you need to bring.",
+      "The pantry is open Tuesday and Thursday from 10:30am to 12:45pm, and Sunday from 10:30am to 10:45pm.",
+      "Sunday hours are very long; call ahead to confirm the best time to arrive."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La lista no lo indica. Llame al (917) 873-9261 para preguntar qué alimentos ofrece."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos ni documentos. Se recomienda llamar antes de ir para preguntar."
+      },
+      {
+        "q": "¿Abre los fines de semana?",
+        "a": "Sí. El domingo atiende de 10:30am a 10:45pm, según la lista."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give?",
+        "a": "The listing does not say. Call (917) 873-9261 to ask what food is offered."
+      },
+      {
+        "q": "Do I need documents or is there any requirement?",
+        "a": "The listing does not mention requirements or documents. It is best to call before going to ask."
+      },
+      {
+        "q": "Is it open on weekends?",
+        "a": "Yes. On Sunday it is open from 10:30am to 10:45pm, according to the listing."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-power-praise-and-deliverance-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:39.446Z",
+  "facts_hash": "3d0bf9b194ba4679",
+  "article": {
+    "title_es": "Power Praise and Deliverance: despensa de alimentos en el Bronx",
+    "title_en": "Power Praise and Deliverance: food pantry in the Bronx",
+    "summary_es": "Power Praise and Deliverance, Inc. es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad. Abre los viernes de 12pm a 4pm.",
+    "summary_en": "Power Praise and Deliverance, Inc. is a food pantry in the Bronx listed on the City's Food Help NYC map. It is open Fridays from 12pm to 4pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 120 E 184th St, Bronx, NY 10468.",
+      "Abre los viernes de 12pm a 4pm para la despensa.",
+      "Puede llamar al (347) 409-0288 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 120 E 184th St, Bronx, NY 10468.",
+      "It is open Fridays from 12pm to 4pm for the pantry.",
+      "You can call (347) 409-0288 with questions.",
+      "The listing does not say what food is given or if there are requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es viernes de 12pm a 4pm.",
+      "Llame al (347) 409-0288 antes de ir para confirmar el horario.",
+      "La lista no indica qué alimentos entrega; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Fridays from 12pm to 4pm.",
+      "Call (347) 409-0288 before going to confirm the hours.",
+      "The listing does not say what food is given; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos. No se indica qué alimentos entrega; pregunte llamando al (347) 409-0288."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "La despensa abre los viernes de 12pm a 4pm, según la información de la lista."
+      },
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 120 E 184th St, Bronx, NY 10468. Se recomienda llamar al (347) 409-0288 antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It appears on the Food Help NYC map as a food pantry. The listing does not say what food is given; call (347) 409-0288 to ask."
+      },
+      {
+        "q": "When can I go?",
+        "a": "The pantry is open Fridays from 12pm to 4pm, according to the listing."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 120 E 184th St, Bronx, NY 10468. It is best to call (347) 409-0288 before going."
+      }
+    ]
+  }
+}

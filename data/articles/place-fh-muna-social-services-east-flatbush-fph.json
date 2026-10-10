@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-muna-social-services-east-flatbush-fph",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:28.897Z",
+  "facts_hash": "ae2ea4944e4f1cbf",
+  "article": {
+    "title_es": "MUNA Social Services: despensa de alimentos en East Flatbush",
+    "title_en": "MUNA Social Services: food pantry in East Flatbush",
+    "summary_es": "MUNA Social Services es una despensa de alimentos en Brooklyn, según el mapa Food Help NYC de la ciudad. Abre los lunes de 5pm a 6pm, solo el segundo y cuarto lunes del mes.",
+    "summary_en": "MUNA Social Services is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Mondays 5pm-6pm, on the 2nd and 4th Monday only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos incluida en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 167 East 43rd St, Brooklyn, NY 11203.",
+      "Abre los lunes de 5pm a 6pm, solo el segundo y cuarto lunes del mes.",
+      "Puede llamar al (212) 920-6202 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 167 East 43rd St, Brooklyn, NY 11203.",
+      "It is open Mondays 5pm-6pm, on the 2nd and 4th Monday of the month only.",
+      "You can call (212) 920-6202 to ask questions before visiting.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya un lunes de 5pm a 6pm; recuerde que solo abre el segundo y cuarto lunes del mes.",
+      "Llame al (212) 920-6202 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on a Monday from 5pm to 6pm; remember it is open on the 2nd and 4th Monday only.",
+      "Call (212) 920-6202 before visiting to confirm the hours and ask what you need.",
+      "The listing does not mention documents or requirements, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es MUNA Social Services?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los lunes de 5pm a 6pm, pero solo el segundo y cuarto lunes de cada mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "La lista no lo indica. Llame al (212) 920-6202 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is MUNA Social Services?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Mondays from 5pm to 6pm, but only on the 2nd and 4th Monday of each month."
+      },
+      {
+        "q": "What food does it give, and what do I need to receive it?",
+        "a": "The listing does not say. Call (212) 920-6202 to ask before you go."
+      }
+    ]
+  }
+}

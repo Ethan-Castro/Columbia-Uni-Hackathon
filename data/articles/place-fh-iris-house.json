@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-iris-house",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:18.137Z",
+  "facts_hash": "ca90569025b72d1d",
+  "article": {
+    "title_es": "Iris House: despensa de alimentos y comedor en Manhattan",
+    "title_en": "Iris House: food pantry and soup kitchen in Manhattan",
+    "summary_es": "Iris House es una despensa de alimentos y comedor en Manhattan que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Iris House is a food pantry and soup kitchen in Manhattan listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC de la ciudad como lugar de ayuda con alimentos.",
+      "Tiene comedor de martes a viernes de 12pm a 1:30pm.",
+      "Tiene despensa de alimentos los jueves de 10am a 3pm.",
+      "Está en 2348 Adam Clayton Powell Jr Blvd, en Manhattan.",
+      "No se indica qué comida dan ni si hay requisitos, así que pregunte."
+    ],
+    "how_they_help_en": [
+      "Listed on the City's Food Help NYC map as a food help location.",
+      "Offers a soup kitchen Tue-Fri 12pm-1:30pm.",
+      "Offers a food pantry Thu 10am-3pm.",
+      "Located at 2348 Adam Clayton Powell Jr Blvd in Manhattan.",
+      "What food is given and any requirements are not listed, so ask."
+    ],
+    "visit_tips_es": [
+      "El comedor atiende de martes a viernes de 12pm a 1:30pm; la despensa, los jueves de 10am a 3pm.",
+      "Llame al (646) 548-0100 antes de ir para confirmar detalles y requisitos.",
+      "El listado no dice qué comida dan, así que pregunte cuando se comunique."
+    ],
+    "visit_tips_en": [
+      "Soup kitchen hours are Tue-Fri 12pm-1:30pm; pantry hours are Thu 10am-3pm.",
+      "Call (646) 548-0100 ahead to confirm details and any requirements.",
+      "The listing does not say what food is given, so ask when you contact them."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo hay comida?",
+        "a": "El listado dice de martes a viernes de 12pm a 1:30pm para el comedor y jueves de 10am a 3pm para la despensa."
+      },
+      {
+        "q": "¿Debo llevar algo?",
+        "a": "El listado no dice qué documentos se necesitan. Llame al (646) 548-0100 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Qué comida dan?",
+        "a": "El listado no dice qué comida dan ni si hay requisitos, así que pregunte cuando llame o visite."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is food available?",
+        "a": "The listing says Tue-Fri 12pm-1:30pm for the soup kitchen and Thu 10am-3pm for the pantry."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "The listing does not say what documents are needed. Call (646) 548-0100 to ask before you go."
+      },
+      {
+        "q": "What food do they give?",
+        "a": "The listing does not say what food is given or if there are any requirements, so please ask when you call or visit."
+      }
+    ]
+  }
+}

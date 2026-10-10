@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-catholic-charities",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:28.000Z",
+  "facts_hash": "4928e28bc787bcad",
+  "article": {
+    "title_es": "Catholic Charities: despensa de alimentos en Brooklyn",
+    "title_en": "Catholic Charities: food pantry in Brooklyn",
+    "summary_es": "Catholic Charities es una despensa de alimentos en Brooklyn, en el mapa Food Help NYC de la ciudad. Abre los lunes por la mañana.",
+    "summary_en": "Catholic Charities is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It opens on Monday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 2866 W 17th St, Brooklyn, NY 11224.",
+      "Abre el lunes de 9:30am a 1:30pm (despensa).",
+      "Puede llamar al (718) 722-6001 para preguntar.",
+      "Qué alimentos entrega no está en la información; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 2866 W 17th St, Brooklyn, NY 11224.",
+      "It is open Monday from 9:30am to 1:30pm (pantry).",
+      "You can call (718) 722-6001 with questions.",
+      "What food is given is not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es solo el lunes, de 9:30am a 1:30pm.",
+      "Llame antes al (718) 722-6001 para confirmar el horario.",
+      "Los requisitos no están en la información; pregunte al llamar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Monday only, 9:30am to 1:30pm.",
+      "Call ahead at (718) 722-6001 to confirm the schedule.",
+      "Requirements are not listed; ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Catholic Charities?",
+        "a": "Es una despensa de alimentos en Brooklyn, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "El lunes de 9:30am a 1:30pm, según la información disponible."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "No está en la información. Llame al (718) 722-6001 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Catholic Charities?",
+        "a": "It is a food pantry in Brooklyn, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Monday from 9:30am to 1:30pm, according to the available information."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "That is not listed. Call (718) 722-6001 to ask."
+      }
+    ]
+  }
+}

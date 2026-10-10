@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-pb-the-legal-aid-society",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:44:09.185Z",
+  "facts_hash": "f11a2ba1150496d3",
+  "article": {
+    "title_es": "The Legal Aid Society: oficina de servicios legales en Manhattan",
+    "title_en": "The Legal Aid Society: legal services office in Manhattan",
+    "summary_es": "The Legal Aid Society es una oficina de servicios legales en Manhattan que aparece en la Lista de Proveedores de Servicios Legales Pro Bono del Departamento de Justicia de EE. UU. (EOIR).",
+    "summary_en": "The Legal Aid Society is a legal services office in Manhattan that appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers.",
+    "how_they_help_es": [
+      "Aparece en la lista de servicios legales pro bono del Departamento de Justicia de EE. UU. (EOIR).",
+      "Está ubicado en 49 Thomas Street, piso 5, en Manhattan.",
+      "Puede llamar al (212) 577-3300 para preguntar por sus servicios.",
+      "La lista no indica si acepta casos nuevos, ni los costos ni los pasos para una cita; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) pro bono legal services list.",
+      "Located at 49 Thomas Street, 5th Floor, in Manhattan.",
+      "You can call (212) 577-3300 to ask about services.",
+      "Whether it takes new cases, fees and intake steps are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (212) 577-3300 antes de visitar para preguntar cómo solicitar ayuda.",
+      "Pregunte sobre los costos y si están aceptando casos nuevos.",
+      "La oficina está en el piso 5, en 49 Thomas Street."
+    ],
+    "visit_tips_en": [
+      "Call (212) 577-3300 before visiting to ask how to request help.",
+      "Ask about fees and whether they are accepting new cases.",
+      "The office is on the 5th floor at 49 Thomas Street."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es The Legal Aid Society?",
+        "a": "Es una oficina de servicios legales en Manhattan que aparece en la lista pro bono del Departamento de Justicia de EE. UU. (EOIR)."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al (212) 577-3300 o visite 49 Thomas Street, piso 5, New York, NY 10013."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los costos no están indicados en la lista. Pregunte directamente sobre los precios y cómo obtener una cita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is The Legal Aid Society?",
+        "a": "It is a legal services office in Manhattan listed on the U.S. Department of Justice (EOIR) pro bono legal services list."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call (212) 577-3300 or visit 49 Thomas Street, 5th Floor, New York, NY 10013."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Ask them directly about costs and how to get an appointment."
+      }
+    ]
+  }
+}

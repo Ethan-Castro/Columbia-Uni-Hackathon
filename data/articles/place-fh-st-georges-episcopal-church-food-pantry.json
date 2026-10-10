@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-georges-episcopal-church-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:03.413Z",
+  "facts_hash": "172804b8b305cf7b",
+  "article": {
+    "title_es": "Iglesia St. George's Episcopal: despensa de alimentos en Brooklyn",
+    "title_en": "St. George's Episcopal Church: food pantry in Brooklyn",
+    "summary_es": "La Iglesia St. George's Episcopal en Brooklyn ofrece comidas de cocina comunitaria y despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+    "summary_en": "St. George's Episcopal Church in Brooklyn offers soup kitchen meals and a food pantry, according to the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Cocina comunitaria: martes a jueves de 12:30pm a 2pm.",
+      "Despensa de alimentos: viernes de 10am a 2pm.",
+      "Está en 800 Marcy Ave, Brooklyn, NY 11216.",
+      "Puede llamar al (718) 789-6036 para preguntar.",
+      "No se indica qué alimentos dan ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "Soup kitchen: Tuesday to Thursday, 12:30pm to 2pm.",
+      "Food pantry: Friday, 10am to 2pm.",
+      "Located at 800 Marcy Ave, Brooklyn, NY 11216.",
+      "You can call (718) 789-6036 to ask questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya a la cocina comunitaria entre martes y jueves, o a la despensa el viernes.",
+      "Llame antes para confirmar los horarios y preguntar qué necesita.",
+      "La dirección es 800 Marcy Ave, Brooklyn, NY 11216."
+    ],
+    "visit_tips_en": [
+      "Go to the soup kitchen Tuesday through Thursday, or the pantry on Friday.",
+      "Call ahead to confirm hours and ask what you need.",
+      "The address is 800 Marcy Ave, Brooklyn, NY 11216."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Una cocina comunitaria (martes a jueves, 12:30pm a 2pm) y una despensa de alimentos (viernes, 10am a 2pm)."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto?",
+        "a": "800 Marcy Ave, Brooklyn, NY 11216. Teléfono: (718) 789-6036."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "No se indica. Llame al (718) 789-6036 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services are offered?",
+        "a": "A soup kitchen (Tuesday to Thursday, 12:30pm to 2pm) and a food pantry (Friday, 10am to 2pm)."
+      },
+      {
+        "q": "Where is it and how do I contact it?",
+        "a": "800 Marcy Ave, Brooklyn, NY 11216. Phone: (718) 789-6036."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "It is not listed. Call (718) 789-6036 to ask before you go."
+      }
+    ]
+  }
+}

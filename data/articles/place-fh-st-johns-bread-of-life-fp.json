@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-johns-bread-of-life-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:41.144Z",
+  "facts_hash": "c88af606e2a39e7e",
+  "article": {
+    "title_es": "St. John's Bread of Life: despensa de alimentos en Manhattan",
+    "title_en": "St. John's Bread of Life: food pantry in Manhattan",
+    "summary_es": "St. John's Bread of Life es una despensa de alimentos en Manhattan, en la calle 30 Oeste. Atiende los miércoles por la mañana.",
+    "summary_en": "St. John's Bread of Life is a food pantry in Manhattan on West 30th Street. It is open on Wednesday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 213 W 30th St, Nueva York, NY 10001, en Manhattan.",
+      "Abre los miércoles de 10am a 1pm.",
+      "La despensa atiende el 2.º y el 4.º miércoles del mes.",
+      "Puede llamar al (212) 564-9070 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 213 W 30th St, New York, NY 10001, in Manhattan.",
+      "It is open Wednesdays from 10am to 1pm.",
+      "The pantry runs on the 2nd and 4th Wednesday of the month.",
+      "You can call (212) 564-9070 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "La despensa solo funciona el 2.º y el 4.º miércoles; confirme la fecha antes de ir.",
+      "Llame al (212) 564-9070 para preguntar qué alimentos ofrece y si hay algún requisito.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry only runs on the 2nd and 4th Wednesday; confirm the date before going.",
+      "Call (212) 564-9070 to ask what food is given and if there are any requirements.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 10am a 1pm. La despensa atiende el 2.º y el 4.º miércoles del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 213 W 30th St, Nueva York, NY 10001, en Manhattan."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "No está indicado en la información disponible. Llame al (212) 564-9070 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 10am to 1pm. The pantry runs on the 2nd and 4th Wednesday of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 213 W 30th St, New York, NY 10001, in Manhattan."
+      },
+      {
+        "q": "What food does it give and what do I need to receive it?",
+        "a": "That is not listed in the available information. Call (212) 564-9070 to ask before going."
+      }
+    ]
+  }
+}

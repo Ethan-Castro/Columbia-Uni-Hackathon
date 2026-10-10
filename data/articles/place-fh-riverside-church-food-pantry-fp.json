@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-riverside-church-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:56.204Z",
+  "facts_hash": "4d81c898824ffe0a",
+  "article": {
+    "title_es": "Riverside Church Food Pantry: despensa de alimentos en Manhattan",
+    "title_en": "Riverside Church Food Pantry: food pantry in Manhattan",
+    "summary_es": "La despensa de alimentos de Riverside Church aparece en el mapa Food Help NYC de la ciudad. Reparte alimentos de martes a viernes por la mañana en Manhattan.",
+    "summary_en": "Riverside Church Food Pantry is listed on the City's Food Help NYC map. It gives out food Tuesday through Friday mornings in Manhattan.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa oficial Food Help NYC.",
+      "Está en 91 Claremont Ave, en Manhattan (código 10027).",
+      "Abre de martes a viernes, de 9 am a 1 pm, según el horario de la despensa.",
+      "Tiene teléfono: (212) 870-6733, por si quiere llamar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's official Food Help NYC map.",
+      "It is located at 91 Claremont Ave in Manhattan (zip 10027).",
+      "It is open Tuesday through Friday, 9am-1pm, according to the pantry hours.",
+      "It has a phone number, (212) 870-6733, if you want to call before going.",
+      "The listing does not say what food is given or any requirements; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Vaya entre las 9 am y la 1 pm, de martes a viernes.",
+      "Llame al (212) 870-6733 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go between 9am and 1pm, Tuesday through Friday.",
+      "Call (212) 870-6733 before going to confirm hours and ask what you need.",
+      "The listing does not mention documents or requirements, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 91 Claremont Ave, Nueva York, NY 10027, en Manhattan."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Martes a viernes, de 9 am a 1 pm (despensa)."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (212) 870-6733 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry?",
+        "a": "At 91 Claremont Ave, New York, NY 10027, in Manhattan."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Tuesday to Friday, 9am-1pm (pantry)."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "The listing does not say. Call (212) 870-6733 to ask."
+      }
+    ]
+  }
+}

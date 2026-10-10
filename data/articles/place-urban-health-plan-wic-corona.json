@@ -1,0 +1,66 @@
+{
+  "place_id": "place-urban-health-plan-wic-corona",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:59.719Z",
+  "facts_hash": "8fa6740934bc9f1b",
+  "article": {
+    "title_es": "Urban Health Plan WIC (Corona Ave): programa WIC en Queens",
+    "title_en": "Urban Health Plan WIC (Corona Ave): WIC program in Queens",
+    "summary_es": "Este sitio de Urban Health Plan en Corona, Queens, ofrece el programa WIC: beneficios mensuales de comida, apoyo de nutrición y lactancia, y chequeos de salud para embarazadas y familias con niños de 0 a 5 años.",
+    "summary_en": "This Urban Health Plan site in Corona, Queens, offers WIC: monthly food benefits, nutrition and breastfeeding support, and health screenings for pregnant people and families with children ages 0 to 5.",
+    "how_they_help_es": [
+      "Ofrece el programa WIC: beneficios mensuales de comida.",
+      "Da apoyo de nutrición y de lactancia.",
+      "Hace chequeos de salud para embarazadas y niños de 0 a 5 años.",
+      "Puede usar a Wanda, la asistente en línea de WIC, para empezar su solicitud.",
+      "Llame al (347) 686-3700 para preguntar por una cita."
+    ],
+    "how_they_help_en": [
+      "Offers the WIC program: monthly food benefits.",
+      "Provides nutrition and breastfeeding support.",
+      "Provides health screenings for pregnant people and children ages 0 to 5.",
+      "You can use Wanda, WIC's online assistant, to start your application.",
+      "Call (347) 686-3700 to ask about an appointment."
+    ],
+    "visit_tips_es": [
+      "Dirección: 104-01 Corona Ave, Corona, NY 11368 (Queens).",
+      "Llame al (347) 686-3700 antes de ir para confirmar horarios y pedir una cita.",
+      "La oficina de WIC le dirá qué llevar a su cita; ejemplos: identificación, prueba de domicilio y prueba de ingresos (si no recibe SNAP, TANF, Medicaid, Head Start, Early Head Start o Essential Plan).",
+      "También puede llamar a la línea Growing Up Healthy (800-522-5006) para programar una cita por teléfono o en persona."
+    ],
+    "visit_tips_en": [
+      "Address: 104-01 Corona Ave, Corona, NY 11368 (Queens).",
+      "Call (347) 686-3700 before visiting to confirm hours and ask for an appointment.",
+      "Your WIC office will tell you what to bring; examples: ID, proof of where you live, and proof of income (unless you already get SNAP, TANF, Medicaid, Head Start, Early Head Start, or Essential Plan).",
+      "You can also call the Growing Up Healthy Hotline (800-522-5006) to schedule a phone or in-person appointment."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Quién puede recibir WIC?",
+        "a": "Personas embarazadas o embarazadas recientemente, padres nuevos (hasta 6 meses después del parto), personas que amamantan (hasta 1 año) y cuidadores de niños menores de 5 años, incluyendo papás, abuelos, padres de crianza y otros cuidadores principales."
+      },
+      {
+        "q": "¿Qué pasa si no recibo SNAP, Medicaid u otro programa?",
+        "a": "Puede calificar si sus ingresos están en o debajo del límite del programa. Por ejemplo, para un hogar de 4 personas: $61,050 al año, $5,088 al mes o $1,175 por semana."
+      },
+      {
+        "q": "¿Cómo empiezo la solicitud?",
+        "a": "Use a Wanda, la asistente en línea de WIC, en el sitio web de WIC del estado de Nueva York, llame al (347) 686-3700, o llame a la línea Growing Up Healthy (800-522-5006)."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Who can get WIC?",
+        "a": "People who are pregnant or recently pregnant, new parents (up to 6 months after birth), people who are breastfeeding (up to 1 year), and caregivers of children under 5, including dads, grandparents, foster parents, and other primary caregivers."
+      },
+      {
+        "q": "What if I don't get SNAP, Medicaid, or another program?",
+        "a": "You may qualify if your income is at or below the program limit. For example, for a household of 4: $61,050 per year, $5,088 per month, or $1,175 per week."
+      },
+      {
+        "q": "How do I start applying?",
+        "a": "Use Wanda, WIC's online assistant, on the New York State WIC website, call (347) 686-3700, or call the Growing Up Healthy Hotline (800-522-5006)."
+      }
+    ]
+  }
+}

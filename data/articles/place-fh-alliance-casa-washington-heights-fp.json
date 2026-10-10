@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-alliance-casa-washington-heights-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:22.948Z",
+  "facts_hash": "652b76216be7f4e9",
+  "article": {
+    "title_es": "Alliance Casa Washington Heights: despensa de alimentos en Manhattan",
+    "title_en": "Alliance Casa Washington Heights: food pantry in Manhattan",
+    "summary_es": "Alliance Casa Washington Heights es una despensa de alimentos en el Alto Manhattan, en la avenida Amsterdam. Abre los miércoles, y la despensa funciona solo el tercer miércoles del mes.",
+    "summary_en": "Alliance Casa Washington Heights is a food pantry in Washington Heights, Manhattan, on Amsterdam Avenue. It is open on Wednesdays, and the pantry runs on the 3rd Wednesday of the month only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 2036 Amsterdam Ave, Nueva York, NY 10032.",
+      "Abre miércoles de 10am a 3pm; la despensa solo el tercer miércoles.",
+      "Puede llamar al (212) 645-0875 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2036 Amsterdam Ave, New York, NY 10032.",
+      "Open Wednesdays 10am-3pm; the pantry runs on the 3rd Wednesday only.",
+      "You can call (212) 645-0875 with questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "Planifique su visita para el tercer miércoles del mes, que es cuando funciona la despensa.",
+      "El horario es de 10am a 3pm los miércoles.",
+      "Llame antes al (212) 645-0875 para confirmar detalles, ya que la lista no da más información."
+    ],
+    "visit_tips_en": [
+      "Plan your visit for the 3rd Wednesday of the month, when the pantry runs.",
+      "Hours are 10am-3pm on Wednesdays.",
+      "Call ahead at (212) 645-0875 to confirm details, since the listing gives limited information."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Alliance Casa Washington Heights?",
+        "a": "Es una despensa de alimentos en el Alto Manhattan, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los miércoles de 10am a 3pm. La despensa funciona solo el tercer miércoles del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (212) 645-0875 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Alliance Casa Washington Heights?",
+        "a": "It is a food pantry in Washington Heights, Manhattan, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays 10am-3pm. The pantry runs on the 3rd Wednesday of the month only."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "The listing does not say. Call (212) 645-0875 to ask before you go."
+      }
+    ]
+  }
+}

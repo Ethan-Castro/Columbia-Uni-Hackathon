@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-project-rousseau",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:36.543Z",
+  "facts_hash": "b8598cb70b3ae14e",
+  "article": {
+    "title_es": "Project Rousseau: organización en la lista del DOJ en Manhattan",
+    "title_en": "Project Rousseau: DOJ-listed organization in Manhattan",
+    "summary_es": "Project Rousseau aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en Manhattan, en la calle Broadway.",
+    "summary_en": "Project Rousseau appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in Manhattan, on Broadway.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro.",
+      "Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal de inmigración.",
+      "Dirección: 1560 Broadway #805, New York, NY 10036.",
+      "Teléfono: (917) 719-1060."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Recognized organizations are non-profits.",
+      "Their DOJ-accredited representatives may give immigration legal help.",
+      "Address: 1560 Broadway #805, New York, NY 10036.",
+      "Phone: (917) 719-1060."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (917) 719-1060 para preguntar cómo pedir una cita.",
+      "Pregunte por teléfono si cobran alguna tarifa; esta información no está publicada.",
+      "Los horarios de atención no aparecen en la información disponible."
+    ],
+    "visit_tips_en": [
+      "Call first at (917) 719-1060 to ask how to make an appointment.",
+      "Ask by phone whether they charge any fees; this information is not listed.",
+      "Hours of operation are not included in the available information."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Project Rousseau?",
+        "a": "Es una organización que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas, con representantes acreditados que pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "Las tarifas no aparecen en la información disponible. Llame al (917) 719-1060 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está publicado. Llame al (917) 719-1060 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Project Rousseau?",
+        "a": "It is an organization on the DOJ (EOIR) roster of recognized organizations, with accredited representatives who may give immigration legal help."
+      },
+      {
+        "q": "How much do its services cost?",
+        "a": "Fees are not listed in the available information. Call (917) 719-1060 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. Call (917) 719-1060 to ask."
+      }
+    ]
+  }
+}

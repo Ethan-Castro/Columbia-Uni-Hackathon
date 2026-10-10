@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-teresa-of-avila-community-services",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:10.882Z",
+  "facts_hash": "5a8bd00f41dbbba8",
+  "article": {
+    "title_es": "St. Teresa of Avila Community Services: despensa de alimentos en Queens",
+    "title_en": "St. Teresa of Avila Community Services: food pantry in Queens",
+    "summary_es": "St. Teresa of Avila Community Services es una despensa de alimentos en South Ozone Park, Queens, que aparece en el mapa Food Help NYC de la Ciudad.",
+    "summary_en": "St. Teresa of Avila Community Services is a food pantry in South Ozone Park, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Ubicada en 109-24 130th St, South Ozone Park, Queens.",
+      "Abre para la despensa los lunes y jueves de 9am a 10:30am.",
+      "Teléfono: (718) 529-3587.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the City's Food Help NYC map.",
+      "Located at 109-24 130th St, South Ozone Park, Queens.",
+      "Open for pantry service Monday and Thursday, 9am-10:30am.",
+      "Phone: (718) 529-3587.",
+      "What food is given and any requirements are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende los lunes y jueves de 9am a 10:30am, así que planifique llegar en ese horario.",
+      "Llame al (718) 529-3587 antes de ir para preguntar qué ofrecen y si hay requisitos.",
+      "El listado no indica qué documentos llevar, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Monday and Thursday, 9am-10:30am, so plan to arrive during that time.",
+      "Call (718) 529-3587 ahead to ask about what is offered and any requirements.",
+      "The listing does not say what documents to bring, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuál es el horario de la despensa?",
+        "a": "Lunes y jueves, de 9am a 10:30am."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 109-24 130th St, South Ozone Park, NY, 11420, en Queens."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No se indica en el listado. Llame al (718) 529-3587 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What are the pantry hours?",
+        "a": "Monday and Thursday, 9am-10:30am."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "109-24 130th St, South Ozone Park, NY, 11420, in Queens."
+      },
+      {
+        "q": "What food does it give and are there requirements?",
+        "a": "That is not listed. Call (718) 529-3587 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-chgc-food-distribution",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:30.547Z",
+  "facts_hash": "be95011a73d160c2",
+  "article": {
+    "title_es": "CHGC Food Distribution: despensa de alimentos en Queens",
+    "title_en": "CHGC Food Distribution: food pantry in Queens",
+    "summary_es": "CHGC Food Distribution es una despensa de alimentos en Queens, en la avenida Linden. Atiende los viernes de 2pm a 4pm, con la despensa el tercer viernes del mes.",
+    "summary_en": "CHGC Food Distribution is a food pantry in Queens, on Linden Boulevard. It is open Fridays 2pm-4pm, with the pantry on the 3rd Friday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 221-02 Linden Blvd, Queens, NY 11411.",
+      "Abre los viernes de 2pm a 4pm; la despensa es el tercer viernes del mes.",
+      "Se puede llamar al (718) 276-5920 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 221-02 Linden Blvd, Queens, NY 11411.",
+      "It is open Fridays 2pm-4pm; the pantry is the 3rd Friday of the month.",
+      "You can call (718) 276-5920 with questions.",
+      "The listing does not say what food is given or any requirements; please ask by phone."
+    ],
+    "visit_tips_es": [
+      "Los horarios indicados son viernes de 2pm a 4pm, y la despensa es el tercer viernes del mes.",
+      "Llame al (718) 276-5920 antes de ir para confirmar los detalles.",
+      "No se indica qué documentos llevar ni qué alimentos se entregan; pregunte al llamar."
+    ],
+    "visit_tips_en": [
+      "The listed hours are Fridays 2pm-4pm, and the pantry is the 3rd Friday of the month.",
+      "Call (718) 276-5920 before going to confirm details.",
+      "The listing does not say what documents to bring or what food is given; ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 221-02 Linden Blvd, Queens, NY 11411."
+      },
+      {
+        "q": "¿Cuándo atiende?",
+        "a": "Viernes de 2pm a 4pm; la despensa es el tercer viernes del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está indicado en la lista. Llame al (718) 276-5920 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 221-02 Linden Blvd, Queens, NY 11411."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays 2pm-4pm; the pantry is the 3rd Friday of the month."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "Not listed. Call (718) 276-5920 to ask."
+      }
+    ]
+  }
+}

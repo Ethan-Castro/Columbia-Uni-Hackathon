@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-jewish-community-center-of-staten-island",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:45.756Z",
+  "facts_hash": "58c63b3f6c936a5a",
+  "article": {
+    "title_es": "Jewish Community Center of Staten Island: despensa de alimentos",
+    "title_en": "Jewish Community Center of Staten Island: food pantry",
+    "summary_es": "El Jewish Community Center of Staten Island aparece en el mapa Food Help NYC como despensa de alimentos en Staten Island.",
+    "summary_en": "The Jewish Community Center of Staten Island appears on the Food Help NYC map as a food pantry in Staten Island.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1466 Manor Rd, Staten Island, NY 10314.",
+      "Abre de lunes a viernes con horarios que incluyen tardes los jueves.",
+      "Puede llamar al (718) 475-5242 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 1466 Manor Rd, Staten Island, NY 10314.",
+      "It is open Monday through Friday, with evening hours on Thursdays.",
+      "You can call (718) 475-5242 to ask before you go.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Horario de la despensa: lunes a miércoles de 9am a 5pm; jueves de 9am a 6:30pm; viernes de 9am a 3pm.",
+      "Llame al (718) 475-5242 antes de ir para confirmar horarios y detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Mon-Wed 9am-5pm; Thu 9am-6:30pm; Fri 9am-3pm.",
+      "Call (718) 475-5242 before going to confirm hours and details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1466 Manor Rd, Staten Island, New York, 10314."
+      },
+      {
+        "q": "¿Qué horario tiene la despensa?",
+        "a": "Lunes a miércoles de 9am a 5pm; jueves de 9am a 6:30pm; viernes de 9am a 3pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No están indicados en la lista. Llame al (718) 475-5242 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 1466 Manor Rd, Staten Island, New York, 10314."
+      },
+      {
+        "q": "What are the pantry hours?",
+        "a": "Mon-Wed 9am-5pm; Thu 9am-6:30pm; Fri 9am-3pm."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "These are not listed. Call (718) 475-5242 to ask."
+      }
+    ]
+  }
+}

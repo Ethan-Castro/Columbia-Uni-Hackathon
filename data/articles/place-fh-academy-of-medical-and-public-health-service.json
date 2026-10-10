@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-academy-of-medical-and-public-health-service",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:01.688Z",
+  "facts_hash": "c8d19425bbf6c31e",
+  "article": {
+    "title_es": "Academy of Medical & Public Health Services: despensa en Brooklyn",
+    "title_en": "Academy of Medical & Public Health Services: food pantry in Brooklyn",
+    "summary_es": "La Academy of Medical & Public Health Services (AMPHS) aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, en la 3rd Avenue. Abre los sábados de 2pm a 4pm.",
+    "summary_en": "Academy of Medical & Public Health Services (AMPHS) is listed on the City's Food Help NYC map as a food pantry in Brooklyn, on 3rd Avenue. It is open Saturdays 2pm-4pm.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos.",
+      "Está en 5306 3rd Avenue, 2do piso, Brooklyn, NY 11220.",
+      "Abre los sábados de 2pm a 4pm; la despensa funciona el 1er y 3er sábado del mes.",
+      "Puede llamar al (212) 256-9036 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "Listed on the City's Food Help NYC map as a food pantry.",
+      "Located at 5306 3rd Avenue, 2nd Floor, Brooklyn, NY 11220.",
+      "Open Saturdays 2pm-4pm; the pantry runs on the 1st and 3rd Saturday of the month.",
+      "You can call (212) 256-9036 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona solo el 1er y 3er sábado del mes, de 2pm a 4pm.",
+      "La información fue verificada por última vez el 10 de octubre de 2026.",
+      "No se indica qué alimentos entrega ni si hay requisitos; llame al (212) 256-9036 para preguntar."
+    ],
+    "visit_tips_en": [
+      "The pantry runs only on the 1st and 3rd Saturday of the month, 2pm-4pm.",
+      "This information was last checked on October 10, 2026.",
+      "What food is given and any requirements are not listed; call (212) 256-9036 to ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Brooklyn, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 2pm a 4pm; la despensa funciona el 1er y 3er sábado del mes."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No se indica en la información disponible. Llame al (212) 256-9036 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Brooklyn, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays 2pm-4pm; the pantry runs on the 1st and 3rd Saturday of the month."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "That is not listed in the available information. Call (212) 256-9036 to ask before visiting."
+      }
+    ]
+  }
+}

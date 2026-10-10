@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-pb-catholic-migration-services-brooklyn",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:51.626Z",
+  "facts_hash": "22460ab7a25678bc",
+  "article": {
+    "title_es": "Catholic Migration Services: oficina legal en Brooklyn",
+    "title_en": "Catholic Migration Services: legal office in Brooklyn",
+    "summary_es": "Catholic Migration Services tiene una oficina en Brooklyn y aparece en la lista de proveedores legales pro bono del Departamento de Justicia de EE. UU. (EOIR).",
+    "summary_en": "Catholic Migration Services has an office in Brooklyn and appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers.",
+    "how_they_help_es": [
+      "Aparece en la lista de proveedores legales pro bono del EOIR del Departamento de Justicia de EE. UU.",
+      "La oficina está en 191 Joralemon Street, Brooklyn, NY 11201.",
+      "Puede llamar al (718) 236-3000 para preguntar por sus servicios.",
+      "La lista no indica si aceptan casos nuevos, cuáles son las tarifas ni cómo pedir una cita."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers.",
+      "The office is located at 191 Joralemon Street, Brooklyn, NY 11201.",
+      "You can call (718) 236-3000 to ask about their services.",
+      "The list does not say whether they take new cases, what fees apply, or how to get an appointment."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para preguntar si atienden sin cita.",
+      "Pregunte por teléfono qué servicios ofrecen y si hay algún costo.",
+      "La información de esta página fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call before visiting to ask if they take walk-ins.",
+      "Ask by phone what services they offer and whether there is any cost.",
+      "The information on this page was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una oficina legal en Brooklyn que aparece en la lista de proveedores pro bono del EOIR del Departamento de Justicia de EE. UU."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "La lista no indica tarifas. Llame al (718) 236-3000 para preguntar por los costos."
+      },
+      {
+        "q": "¿Cómo puedo pedir una cita?",
+        "a": "La lista no explica cómo pedir una cita. Llame al (718) 236-3000 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a legal office in Brooklyn that appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers."
+      },
+      {
+        "q": "How much do its services cost?",
+        "a": "The list does not mention fees. Call (718) 236-3000 to ask about costs."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The list does not explain how to get an appointment. Call (718) 236-3000 to ask."
+      }
+    ]
+  }
+}

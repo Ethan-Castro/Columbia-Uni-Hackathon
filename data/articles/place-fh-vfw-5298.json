@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-vfw-5298",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:12.380Z",
+  "facts_hash": "2a2ab48682acaa17",
+  "article": {
+    "title_es": "VFW #5298: despensa de alimentos en Queens",
+    "title_en": "VFW #5298: food pantry in Queens",
+    "summary_es": "VFW #5298 es una despensa de alimentos en Springfield Gardens, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 2pm a 5pm.",
+    "summary_en": "VFW #5298 is a food pantry in Springfield Gardens, Queens, listed on the City's Food Help NYC map. It is open Wednesdays from 2pm to 5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Reparte alimentos los miércoles de 2pm a 5pm.",
+      "Está ubicada en 143-17 Springfield Blvd, Springfield Gardens, Queens.",
+      "Puede llamar al (516) 582-5426 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It gives out food on Wednesdays from 2pm to 5pm.",
+      "It is located at 143-17 Springfield Blvd, Springfield Gardens, Queens.",
+      "You can call (516) 582-5426 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los miércoles de 2pm a 5pm.",
+      "La información fue verificada por última vez el 10 de octubre de 2026.",
+      "No se indica qué alimentos se entregan ni si hay requisitos; llame al (516) 582-5426 para preguntar."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesdays from 2pm to 5pm.",
+      "This information was last checked on October 10, 2026.",
+      "What food is given and any requirements are not listed; call (516) 582-5426 to ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es VFW #5298?",
+        "a": "Es una despensa de alimentos en Springfield Gardens, Queens, que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los miércoles de 2pm a 5pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No se indica en la información disponible. Llame al (516) 582-5426 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is VFW #5298?",
+        "a": "It is a food pantry in Springfield Gardens, Queens, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays from 2pm to 5pm."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "This is not listed in the available information. Call (516) 582-5426 to ask before visiting."
+      }
+    ]
+  }
+}

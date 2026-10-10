@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-skylight-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:16.908Z",
+  "facts_hash": "0ac45f7e6a989c70",
+  "article": {
+    "title_es": "Skylight Center: despensa de alimentos en Staten Island",
+    "title_en": "Skylight Center: food pantry in Staten Island",
+    "summary_es": "Skylight Center es una despensa de alimentos en Staten Island que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Skylight Center is a food pantry in Staten Island listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Ofrece servicio de despensa los martes de 2pm a 3pm.",
+      "Está ubicada en 307 St Marks Pl, Staten Island, NY 10301.",
+      "Puede llamar al (718) 720-2585 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Pantry service is offered on Tuesdays from 2pm to 3pm.",
+      "It is located at 307 St Marks Pl, Staten Island, NY 10301.",
+      "You can call (718) 720-2585 with questions."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es martes de 2pm a 3pm.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono.",
+      "Llame al (718) 720-2585 antes de ir para confirmar el servicio."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday 2pm-3pm.",
+      "The listing does not say what food is given or if there are requirements; ask by phone.",
+      "Call (718) 720-2585 before visiting to confirm service."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué ofrece Skylight Center?",
+        "a": "Es una despensa de alimentos en Staten Island, según el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Martes de 2pm a 3pm, según la información publicada."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué necesito llevar?",
+        "a": "No se indica en la información disponible. Llame al (718) 720-2585 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does Skylight Center offer?",
+        "a": "It is a food pantry in Staten Island, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays from 2pm to 3pm, according to the published information."
+      },
+      {
+        "q": "What food is given, and what should I bring?",
+        "a": "That is not listed in the available information. Call (718) 720-2585 to ask."
+      }
+    ]
+  }
+}

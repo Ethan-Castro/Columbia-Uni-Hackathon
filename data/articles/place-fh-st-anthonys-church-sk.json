@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-anthonys-church-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:52:56.976Z",
+  "facts_hash": "644bcb94b56d7225",
+  "article": {
+    "title_es": "Iglesia St. Anthony's: comedor de sopa popular en el Bronx",
+    "title_en": "St. Anthony's Church: soup kitchen in the Bronx",
+    "summary_es": "La Iglesia St. Anthony's aparece en el mapa Food Help NYC como despensa/comedor. Ofrece comedor de sopa los sábados por la mañana en el Bronx.",
+    "summary_en": "St. Anthony's Church appears on the Food Help NYC map as a food pantry/soup kitchen. It offers a soup kitchen on Saturday mornings in the Bronx.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos o comedor.",
+      "Ofrece comedor de sopa los sábados de 7am a 1pm.",
+      "Está ubicado en 1750 Mansion St, Bronx, NY 10460.",
+      "Puede llamar al (718) 931-4040 para preguntar.",
+      "La lista no indica qué alimentos se entregan ni requisitos."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry or soup kitchen.",
+      "Offers a soup kitchen on Saturdays from 7am to 1pm.",
+      "Located at 1750 Mansion St, Bronx, NY 10460.",
+      "You can call (718) 931-4040 with questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "El comedor de sopa funciona los sábados de 7am a 1pm.",
+      "Llame antes de ir para confirmar horarios y preguntar qué se ofrece.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen runs Saturdays from 7am to 1pm.",
+      "Call before you go to confirm hours and ask what is offered.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos o comedor, con comedor de sopa los sábados de 7am a 1pm."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto?",
+        "a": "Está en 1750 Mansion St, Bronx, NY 10460. El teléfono es (718) 931-4040."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "La lista no indica requisitos ni documentos. Llame al (718) 931-4040 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does it offer?",
+        "a": "It appears on the Food Help NYC map as a food pantry or soup kitchen, with a soup kitchen on Saturdays from 7am to 1pm."
+      },
+      {
+        "q": "Where is it and how do I contact it?",
+        "a": "It is at 1750 Mansion St, Bronx, NY 10460. The phone number is (718) 931-4040."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "The listing does not mention requirements or documents. Call (718) 931-4040 to ask before going."
+      }
+    ]
+  }
+}

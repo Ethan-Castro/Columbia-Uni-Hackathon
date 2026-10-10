@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bethany-gospel-chapel-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:56.169Z",
+  "facts_hash": "45b8fe078a4fcb13",
+  "article": {
+    "title_es": "Bethany Gospel Chapel Inc (FP): despensa de alimentos en Brooklyn",
+    "title_en": "Bethany Gospel Chapel Inc (FP): food pantry in Brooklyn",
+    "summary_es": "Bethany Gospel Chapel Inc (FP) es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. Abre el 2.º y el 4.º sábado del mes, de 6:30am a 7:30am.",
+    "summary_en": "Bethany Gospel Chapel Inc (FP) is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open on the 2nd and 4th Saturday of the month, from 6:30am to 7:30am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 521 Thomas S Boyland St, en Brooklyn.",
+      "Abre el 2.º y el 4.º sábado de cada mes, de 6:30am a 7:30am.",
+      "Puede llamar al (718) 929-1234 para más información.",
+      "Los alimentos que entrega y los requisitos no están indicados, así que pregunte."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 521 Thomas S Boyland St in Brooklyn.",
+      "It opens on the 2nd and 4th Saturday of each month, 6:30am to 7:30am.",
+      "You can call (718) 929-1234 for more information.",
+      "What food is given and any requirements are not listed, so please ask."
+    ],
+    "visit_tips_es": [
+      "La despensa solo abre el 2.º y el 4.º sábado del mes, así que planifique su visita para esos días.",
+      "El horario es de 6:30am a 7:30am los sábados que está abierta.",
+      "Llame antes al (718) 929-1234 para preguntar qué alimentos entrega y si hay algún requisito."
+    ],
+    "visit_tips_en": [
+      "The pantry is only open on the 2nd and 4th Saturday of the month, so plan your visit for those days.",
+      "Hours are 6:30am to 7:30am on Saturdays it is open.",
+      "Call (718) 929-1234 ahead to ask what food is given and if there are any requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Abre los sábados de 6:30am a 7:30am, pero solo el 2.º y el 4.º sábado del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "Está en 521 Thomas S Boyland St, Brooklyn, NY, 11212."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme?",
+        "a": "Llame al (718) 929-1234 para preguntar sobre los requisitos y los alimentos que entregan."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "It is open Saturdays from 6:30am to 7:30am, but only on the 2nd and 4th Saturday of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "It is at 521 Thomas S Boyland St, Brooklyn, NY, 11212."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "Call (718) 929-1234 to ask about requirements and what food is given."
+      }
+    ]
+  }
+}

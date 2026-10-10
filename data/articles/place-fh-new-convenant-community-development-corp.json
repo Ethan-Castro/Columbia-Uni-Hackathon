@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-new-convenant-community-development-corp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:16.688Z",
+  "facts_hash": "c589306b46d7495d",
+  "article": {
+    "title_es": "New Covenant Community Development Corp: despensa de alimentos en el Bronx",
+    "title_en": "New Covenant Community Development Corp: food pantry in the Bronx",
+    "summary_es": "New Covenant Community Development Corp es una despensa de alimentos en el Bronx, aparecida en el mapa Food Help NYC de la ciudad. Atiende los martes y los jueves.",
+    "summary_en": "New Covenant Community Development Corp is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open on Tuesdays and Thursdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los martes de 2pm a 4pm.",
+      "También reparte alimentos los jueves de 10am a 1pm.",
+      "Está ubicada en 1175 Boston Rd, Bronx, NY 10456.",
+      "Se puede llamar al (718) 328-6072 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It gives out food on Tuesdays from 2pm to 4pm.",
+      "It also gives out food on Thursdays from 10am to 1pm.",
+      "It is located at 1175 Boston Rd, Bronx, NY 10456.",
+      "You can call (718) 328-6072 to ask questions."
+    ],
+    "visit_tips_es": [
+      "Vaya durante los horarios de despensa: martes de 2pm a 4pm o jueves de 10am a 1pm.",
+      "La lista no indica qué alimentos da ni si piden algún requisito; es mejor llamar antes al (718) 328-6072.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; confirme los horarios por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go during pantry hours: Tuesdays 2pm-4pm or Thursdays 10am-1pm.",
+      "The listing does not say what food is given or if there are any requirements; it is best to call ahead at (718) 328-6072.",
+      "The information was last checked on October 10, 2026; confirm the hours by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en el Bronx, aparecida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes de 2pm a 4pm y los jueves de 10am a 1pm."
+      },
+      {
+        "q": "¿Qué debo saber antes de ir?",
+        "a": "La lista no indica qué alimentos da ni los requisitos. Llame al (718) 328-6072 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in the Bronx, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays from 2pm to 4pm and Thursdays from 10am to 1pm."
+      },
+      {
+        "q": "What should I know before going?",
+        "a": "The listing does not say what food is given or the requirements. Call (718) 328-6072 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-horeb-seventh-day-adventist-community-servic",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:11.499Z",
+  "facts_hash": "eda6176ef03a2ea9",
+  "article": {
+    "title_es": "HOREB Seventh Day Adventist: despensa de alimentos en Brooklyn",
+    "title_en": "HOREB Seventh Day Adventist: food pantry in Brooklyn",
+    "summary_es": "HOREB Seventh Day Adventist Community Services es una despensa de alimentos en Brooklyn, en el mapa Food Help NYC de la ciudad. Abre los martes de 10am a 11am.",
+    "summary_en": "HOREB Seventh Day Adventist Community Services is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Tuesdays from 10am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 520 Kingston Ave, Brooklyn, NY 11225.",
+      "Atiende los martes de 10am a 11am (horario de la despensa).",
+      "Puede llamar al (718) 778-7373 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 520 Kingston Ave, Brooklyn, NY 11225.",
+      "It is open Tuesdays from 10am to 11am (pantry hours).",
+      "You can call (718) 778-7373 to ask questions before going."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los martes de 10am a 11am, así que planifique su visita con tiempo.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; llame al (718) 778-7373 para preguntar.",
+      "Esta información fue verificada por última vez el 10 de octubre de 2026; confirme el horario antes de ir."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are only Tuesdays from 10am to 11am, so plan your visit ahead of time.",
+      "The listing does not say what food is given or if there are any requirements; call (718) 778-7373 to ask.",
+      "This information was last checked on October 10, 2026; confirm the hours before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes de 10am a 11am, según el horario publicado."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito llevar?",
+        "a": "No está indicado en la lista. Llame al (718) 778-7373 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays from 10am to 11am, according to the posted hours."
+      },
+      {
+        "q": "What food do they give and what should I bring?",
+        "a": "That is not listed. Call (718) 778-7373 to ask before going."
+      }
+    ]
+  }
+}

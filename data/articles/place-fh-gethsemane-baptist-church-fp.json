@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-gethsemane-baptist-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:17.431Z",
+  "facts_hash": "5b63ae1defe2cae9",
+  "article": {
+    "title_es": "Gethsemane Baptist Church: despensa de alimentos en el Bronx",
+    "title_en": "Gethsemane Baptist Church: food pantry in the Bronx",
+    "summary_es": "La Iglesia Bautista Gethsemane aparece en el mapa Food Help NYC como despensa de alimentos en el Bronx, en la calle Fairmount Place.",
+    "summary_en": "Gethsemane Baptist Church appears on the Food Help NYC map as a food pantry in the Bronx, on Fairmount Place.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa oficial Food Help NYC.",
+      "Está en 771 Fairmount Place, Bronx, NY 10460.",
+      "Atiende los jueves de 8 am a 10 am (despensa).",
+      "Puede llamar al (347) 948-0772 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the official Food Help NYC map.",
+      "Located at 771 Fairmount Place, Bronx, NY 10460.",
+      "Open Thursdays 8am-10am (pantry).",
+      "You can call (347) 948-0772 to ask before going."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona solo los jueves de 8 am a 10 am; planifique su visita en ese horario.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito; pregunte por teléfono.",
+      "Verifique el horario llamando al (347) 948-0772 antes de ir."
+    ],
+    "visit_tips_en": [
+      "The pantry runs only Thursdays 8am-10am; plan your visit for that time.",
+      "The listing does not say what food is given or if there are any requirements; ask by phone.",
+      "Confirm the hours by calling (347) 948-0772 before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "Los jueves de 8 am a 10 am (despensa). Se recomienda llamar al (347) 948-0772 para confirmar."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 771 Fairmount Place, Bronx, NY 10460. Si tiene dudas, llame al (347) 948-0772."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry. What food is given is not listed."
+      },
+      {
+        "q": "When can I go?",
+        "a": "Thursdays 8am-10am (pantry). It is best to call (347) 948-0772 to confirm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 771 Fairmount Place, Bronx, NY 10460. If you have questions, call (347) 948-0772."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-st-james-place-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:47.647Z",
+  "facts_hash": "38a3f8bf818eec21",
+  "article": {
+    "title_es": "St. James Place (FP): despensa de alimentos en el Bronx",
+    "title_en": "St. James Place (FP): food pantry in the Bronx",
+    "summary_es": "St. James Place (FP) es una despensa de alimentos en el Bronx, en la lista Food Help NYC de la ciudad. Abre los sábados, pero solo las dos últimas semanas del mes.",
+    "summary_en": "St. James Place (FP) is a food pantry in the Bronx, listed on the City's Food Help NYC map. It opens on Saturdays, but only on the last two Saturdays of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 2500 Jerome Ave, Bronx, NY, 10468.",
+      "Abre los sábados de 9:30am a 10:30am, solo las dos últimas semanas del mes.",
+      "Puede llamar al (718) 367-0655 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2500 Jerome Ave, Bronx, NY, 10468.",
+      "It opens Saturdays 9:30am-10:30am, only on the last two Saturdays of the month.",
+      "You can call (718) 367-0655 with questions."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado entre 9:30am y 10:30am, pero solo las dos últimas semanas del mes.",
+      "Llame antes al (718) 367-0655 para confirmar que está abierta.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday between 9:30am and 10:30am, but only on the last two Saturdays of the month.",
+      "Call ahead at (718) 367-0655 to confirm it is open.",
+      "The listing does not say what food is given or if there are any requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es St. James Place (FP)?",
+        "a": "Es una despensa de alimentos en el Bronx, en la lista Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los sábados de 9:30am a 10:30am, pero solo las dos últimas semanas del mes."
+      },
+      {
+        "q": "¿Qué necesito para recibir alimentos?",
+        "a": "No está en la lista. Llame al (718) 367-0655 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is St. James Place (FP)?",
+        "a": "It is a food pantry in the Bronx, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays 9:30am-10:30am, but only on the last two Saturdays of the month."
+      },
+      {
+        "q": "What do I need to get food?",
+        "a": "That is not listed. Call (718) 367-0655 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "place_id": "place-fh-christ-apostolic-church-of-america-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:44.717Z",
+  "facts_hash": "f92c88e990d0bb7c",
+  "article": {
+    "title_es": "Christ Apostolic Church of America: despensa de alimentos en Jamaica, Queens",
+    "title_en": "Christ Apostolic Church of America: food pantry in Jamaica, Queens",
+    "summary_es": "Esta iglesia en Jamaica, Queens aparece en el mapa Food Help NYC como despensa de alimentos. Abre los sábados de 9am a 1pm.",
+    "summary_en": "This church in Jamaica, Queens is listed on the Food Help NYC map as a food pantry. It is open Saturdays from 9am to 1pm.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Atiende los sábados de 9am a 1pm.",
+      "Está ubicada en 108-02 Sutphin Blvd, Jamaica, Queens.",
+      "Puede llamar al (718) 658-8981 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Open Saturdays from 9am to 1pm.",
+      "Located at 108-02 Sutphin Blvd, Jamaica, Queens.",
+      "You can call (718) 658-8981 with questions."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los sábados de 9am a 1pm.",
+      "No se indica qué alimentos entrega ni si pide algún requisito; pregunte por teléfono al (718) 658-8981 antes de ir."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Saturdays from 9am to 1pm.",
+      "The listing does not say what food is given or if there are any requirements; call (718) 658-8981 before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La información no lo indica. Llame al (718) 658-8981 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 9am a 1pm."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 108-02 Sutphin Blvd, Jamaica, Nueva York, 11435."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (718) 658-8981 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 9am to 1pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 108-02 Sutphin Blvd, Jamaica, New York, 11435."
+      }
+    ]
+  }
+}

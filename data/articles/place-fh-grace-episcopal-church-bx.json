@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-grace-episcopal-church-bx",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:08.762Z",
+  "facts_hash": "8b9a5de4afe98f72",
+  "article": {
+    "title_es": "Iglesia Episcopal Grace: despensa y comedor en el Bronx",
+    "title_en": "Grace Episcopal Church: food pantry and soup kitchen in the Bronx",
+    "summary_es": "La Iglesia Episcopal Grace aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos y comedor de sopa en el Bronx, con servicios los jueves y los sábados.",
+    "summary_en": "Grace Episcopal Church appears on the City's Food Help NYC map as a food pantry and soup kitchen in the Bronx, with services on Thursdays and Saturdays.",
+    "how_they_help_es": [
+      "Despensa de alimentos los jueves de 7:30am a 10:30am.",
+      "Comedor de sopa los sábados de 12pm a 1:30pm.",
+      "Está en 1909 Vyse Ave, Bronx, NY 10460.",
+      "Puede llamar al (718) 542-1946 para preguntar.",
+      "La lista no dice qué alimentos dan ni qué requisitos hay; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Food pantry on Thursdays from 7:30am to 10:30am.",
+      "Soup kitchen on Saturdays from 12pm to 1:30pm.",
+      "Located at 1909 Vyse Ave, Bronx, NY 10460.",
+      "You can call (718) 542-1946 with questions.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona el jueves y el comedor el sábado; planifique su visita según el día.",
+      "Llame antes de ir para confirmar los horarios y preguntar cómo funciona el servicio.",
+      "Los horarios provienen del mapa Food Help NYC de la ciudad."
+    ],
+    "visit_tips_en": [
+      "The pantry runs on Thursday and the soup kitchen on Saturday; plan your visit for the right day.",
+      "Call before going to confirm the hours and ask how the service works.",
+      "The hours come from the City's Food Help NYC map."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Según la lista, ofrece una despensa de alimentos los jueves y un comedor de sopa los sábados."
+      },
+      {
+        "q": "¿Qué debo saber antes de visitar?",
+        "a": "La lista no da esa información. Llame al (718) 542-1946 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Abre los fines de semana?",
+        "a": "Sí, el comedor de sopa funciona los sábados de 12pm a 1:30pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does it offer?",
+        "a": "According to the listing, it offers a food pantry on Thursdays and a soup kitchen on Saturdays."
+      },
+      {
+        "q": "What should I know before visiting?",
+        "a": "The listing does not give that information. Call (718) 542-1946 to ask before going."
+      },
+      {
+        "q": "Is it open on weekends?",
+        "a": "Yes, the soup kitchen runs on Saturdays from 12pm to 1:30pm."
+      }
+    ]
+  }
+}

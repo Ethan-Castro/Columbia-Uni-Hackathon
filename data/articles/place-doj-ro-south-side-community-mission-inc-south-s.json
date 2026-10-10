@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-south-side-community-mission-inc-south-s",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:12.485Z",
+  "facts_hash": "25cc5bf3547a1733",
+  "article": {
+    "title_es": "South Side Community Mission: ayuda migratoria en Brooklyn",
+    "title_en": "South Side Community Mission: immigration help in Brooklyn",
+    "summary_es": "South Side Community Mission aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal migratoria. Está ubicada en 280 Marcy Avenue, Brooklyn, NY 11211.",
+    "summary_en": "South Side Community Mission appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may offer immigration legal help. It is located at 280 Marcy Avenue, Brooklyn, NY 11211.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados pueden dar ayuda legal migratoria.",
+      "Está en 280 Marcy Avenue, Brooklyn, NY 11211.",
+      "Teléfono: (718) 387-3803.",
+      "No se indican tarifas ni cómo pedir una cita; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its accredited representatives may give immigration legal help.",
+      "Located at 280 Marcy Avenue, Brooklyn, NY 11211.",
+      "Phone: (718) 387-3803.",
+      "Fees and how to get an appointment are not listed; ask when calling."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (718) 387-3803 para preguntar por sus servicios.",
+      "Pregunte sobre tarifas y si necesita una cita; no se indican en la información disponible.",
+      "La dirección es 280 Marcy Avenue, Brooklyn, NY 11211."
+    ],
+    "visit_tips_en": [
+      "Call first at (718) 387-3803 to ask about their services.",
+      "Ask about fees and whether you need an appointment; these are not listed.",
+      "The address is 280 Marcy Avenue, Brooklyn, NY 11211."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas cuyos representantes acreditados pueden dar ayuda legal migratoria."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "Las tarifas no aparecen en la información disponible. Llame al (718) 387-3803 y pregunte."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto?",
+        "a": "280 Marcy Avenue, Brooklyn, NY 11211. Teléfono: (718) 387-3803. No se indican horarios."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It appears on the DOJ (EOIR) roster of recognized organizations whose accredited representatives may give immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (718) 387-3803 and ask."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "280 Marcy Avenue, Brooklyn, NY 11211. Phone: (718) 387-3803. Hours are not listed."
+      }
+    ]
+  }
+}

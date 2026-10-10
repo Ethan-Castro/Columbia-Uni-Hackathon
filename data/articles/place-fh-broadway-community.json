@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-broadway-community",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:09.840Z",
+  "facts_hash": "83ba3140b0d7d1f7",
+  "article": {
+    "title_es": "Broadway Community: cocina de comida y despensa en Manhattan",
+    "title_en": "Broadway Community: soup kitchen and food pantry in Manhattan",
+    "summary_es": "Broadway Community es una cocina de comida y despensa de alimentos en Manhattan, ubicada en el oeste de Harlem/Upper West Side, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Broadway Community is a soup kitchen and food pantry in Manhattan, located on the Upper West Side, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una cocina de comida (soup kitchen) y una despensa de alimentos (food pantry).",
+      "Está ubicada en 601 W 114th St, Nueva York, NY 10025, en Manhattan.",
+      "Atiende en horarios diferentes según el día de la semana.",
+      "Se puede llamar al (212) 864-6100 para más información.",
+      "La lista no detalla qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a soup kitchen and a food pantry.",
+      "Located at 601 W 114th St, New York, NY 10025, in Manhattan.",
+      "Open at different times depending on the day of the week.",
+      "You can call (212) 864-6100 for more information.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para confirmar los horarios y preguntar qué necesita llevar.",
+      "Los horarios cambian según el día: cocina de comida lunes, miércoles y viernes; despensa el jueves.",
+      "Verifique la información en la fuente oficial, ya que los datos fueron revisados por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call before you go to confirm the hours and ask what you need to bring.",
+      "Hours change by day: soup kitchen on Monday, Wednesday and Friday; pantry on Thursday.",
+      "Check the official source, since the information was last verified on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece Broadway Community?",
+        "a": "Según la lista, ofrece comida como cocina de comida (soup kitchen) y despensa de alimentos (food pantry). No se detalla qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo puede ir a buscar comida?",
+        "a": "Cocina de comida: lunes, miércoles y viernes de 10am a 11:30am y de 12:30pm a 1:30pm. Despensa: jueves de 2pm a 5pm."
+      },
+      {
+        "q": "¿Necesito hacer una cita o llevar documentos?",
+        "a": "La lista no menciona citas ni documentos. Se recomienda llamar al (212) 864-6100 antes de ir para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does Broadway Community offer?",
+        "a": "According to the listing, it offers food as a soup kitchen and a food pantry. It does not say what food is given."
+      },
+      {
+        "q": "When can I go to get food?",
+        "a": "Soup kitchen: Monday, Wednesday and Friday, 10am-11:30am and 12:30pm-1:30pm. Pantry: Thursday, 2pm-5pm."
+      },
+      {
+        "q": "Do I need an appointment or documents?",
+        "a": "The listing does not mention appointments or documents. It is best to call (212) 864-6100 before going to ask."
+      }
+    ]
+  }
+}

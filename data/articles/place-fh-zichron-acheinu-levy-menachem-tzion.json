@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-zichron-acheinu-levy-menachem-tzion",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:43.361Z",
+  "facts_hash": "5555506cbd4d5084",
+  "article": {
+    "title_es": "Zichron Acheinu Levy-Menachem Tzion: despensa de alimentos en Brooklyn",
+    "title_en": "Zichron Acheinu Levy-Menachem Tzion: food pantry in Brooklyn",
+    "summary_es": "Zichron Acheinu Levy-Menachem Tzion es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 10am a 12pm.",
+    "summary_en": "Zichron Acheinu Levy-Menachem Tzion is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Wednesdays from 10am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 4704 New Utrecht Ave, Brooklyn, NY, 11219.",
+      "Atiende los miércoles de 10am a 12pm (despensa).",
+      "Puede llamar al (347) 742-0552 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 4704 New Utrecht Ave, Brooklyn, NY, 11219.",
+      "It is open Wednesdays from 10am to 12pm (pantry).",
+      "You can call (347) 742-0552 to ask questions before going.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es el miércoles de 10am a 12pm.",
+      "Llame al (347) 742-0552 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesday from 10am to 12pm.",
+      "Call (347) 742-0552 before going to confirm the hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los miércoles de 10am a 12pm, según el horario de despensa publicado."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "No está indicado en la lista. Llame al (347) 742-0552 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays from 10am to 12pm, according to the posted pantry hours."
+      },
+      {
+        "q": "What food does it give, and what do I need to receive it?",
+        "a": "The listing does not say. Call (347) 742-0552 to ask before going."
+      }
+    ]
+  }
+}

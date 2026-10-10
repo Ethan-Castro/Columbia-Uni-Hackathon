@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-carol-cole-global-ventures-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:42.960Z",
+  "facts_hash": "6fa95d83656d8cf9",
+  "article": {
+    "title_es": "Carol Cole Global Ventures Inc.: ayuda legal de inmigración en Manhattan",
+    "title_en": "Carol Cole Global Ventures Inc.: immigration legal help in Manhattan",
+    "summary_es": "Carol Cole Global Ventures Inc. aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas y representantes acreditados, y está ubicada en Manhattan.",
+    "summary_en": "Carol Cole Global Ventures Inc. appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives and is located in Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista oficial del DOJ (EOIR) de organizaciones reconocidas.",
+      "Las organizaciones reconocidas sin fines de lucro tienen representantes acreditados por el DOJ que pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 244 5th Avenue, Suite 2774, Nueva York, NY 10001.",
+      "Teléfono: (212) 301-2644.",
+      "Los costos y el proceso para obtener una cita no están indicados; pregunte llamando."
+    ],
+    "how_they_help_en": [
+      "Listed on the official DOJ (EOIR) roster of recognized organizations.",
+      "Recognized non-profits have DOJ-accredited representatives who may give immigration legal help.",
+      "Located at 244 5th Avenue, Suite 2774, New York, NY 10001.",
+      "Phone: (212) 301-2644.",
+      "Fees and the intake process are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para preguntar por los servicios y cómo pedir una cita.",
+      "Pregunte por teléfono si hay costos y qué documentos llevar.",
+      "La oficina está en un edificio de oficinas; verifique el número de suite al llegar."
+    ],
+    "visit_tips_en": [
+      "Call before visiting to ask about services and how to request an appointment.",
+      "Ask by phone whether there are fees and what documents to bring.",
+      "The office is in an office building; check the suite number when you arrive."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas y representantes acreditados, que pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "No se indican los costos. Llame al (212) 301-2644 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Llame al (212) 301-2644 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives, who may give immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (212) 301-2644 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. Call (212) 301-2644 to ask."
+      }
+    ]
+  }
+}

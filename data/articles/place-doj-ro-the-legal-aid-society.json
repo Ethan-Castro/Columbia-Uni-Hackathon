@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-the-legal-aid-society",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:41.579Z",
+  "facts_hash": "49469321d3016aff",
+  "article": {
+    "title_es": "The Legal Aid Society: organización en la lista del DOJ en Manhattan",
+    "title_en": "The Legal Aid Society: DOJ-listed organization in Manhattan",
+    "summary_es": "The Legal Aid Society es una organización sin fines de lucro en Manhattan que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas, cuyos representantes acreditados pueden brindar ayuda legal de inmigración.",
+    "summary_en": "The Legal Aid Society is a non-profit organization in Manhattan that appears on the U.S. Department of Justice (EOIR) roster of recognized organizations, whose accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+      "Los representantes acreditados por el DOJ de organizaciones sin fines de lucro pueden dar ayuda legal de inmigración.",
+      "Está en 49 Thomas Street, 5th Floor, en Manhattan.",
+      "Teléfono: (212) 577-3000.",
+      "Las tarifas y el proceso para obtener una cita no aparecen; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It appears on the U.S. Department of Justice (EOIR) roster of recognized organizations.",
+      "DOJ-accredited representatives at recognized non-profits may give immigration legal help.",
+      "Located at 49 Thomas Street, 5th Floor, in Manhattan.",
+      "Phone: (212) 577-3000.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (212) 577-3000 antes de visitar para preguntar por los servicios y las citas.",
+      "La dirección es 49 Thomas Street, 5th Floor, New York, NY 10013.",
+      "El horario no aparece en esta información; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call (212) 577-3000 before visiting to ask about services and appointments.",
+      "The address is 49 Thomas Street, 5th Floor, New York, NY 10013.",
+      "Hours are not listed in this information, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta ficha?",
+        "a": "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas. Las tarifas y el proceso para obtener una cita no aparecen; pregunte cuando llame."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al (212) 577-3000. La ficha no describe un proceso de admisión ni de citas."
+      },
+      {
+        "q": "¿Qué servicios ofrecen?",
+        "a": "La ficha no lo dice. Llame antes para preguntar qué ayuda ofrecen."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this listing?",
+        "a": "It appears on the DOJ (EOIR) roster of recognized organizations. Fees and how to get an appointment are not listed, so ask when you call."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call (212) 577-3000. The listing does not describe an intake or appointment process."
+      },
+      {
+        "q": "What services do they provide?",
+        "a": "The listing does not say. Call ahead to ask what help they offer."
+      }
+    ]
+  }
+}

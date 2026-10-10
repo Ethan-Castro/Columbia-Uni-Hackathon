@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-vision-urbana",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:42.167Z",
+  "facts_hash": "81220767ecdaf5db",
+  "article": {
+    "title_es": "VISION URBANA: despensa de alimentos en Manhattan",
+    "title_en": "VISION URBANA: food pantry in Manhattan",
+    "summary_es": "VISION URBANA es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Abre lunes de 9am a 11am (despensa).",
+    "summary_en": "VISION URBANA is a food pantry in Manhattan listed on the City's Food Help NYC map. It is open Monday 9am-11am (pantry).",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 64 Essex St, en Manhattan, código postal 10002.",
+      "Según el listado, abre lunes de 9am a 11am (despensa).",
+      "Puede llamar al (646) 626-9748 para hacer preguntas antes de visitar.",
+      "El listado no indica qué alimentos entrega ni qué requisitos hay, así que pregunte con anticipación."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 64 Essex St in Manhattan, zip code 10002.",
+      "Open Monday 9am-11am (pantry), according to the listing.",
+      "You can call (646) 626-9748 to ask questions before visiting.",
+      "The listing does not say what food is given or what is required, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa indicado es lunes de 9am a 11am.",
+      "Llame al (646) 626-9748 con anticipación para preguntar sobre los alimentos y los requisitos.",
+      "Esta información se verificó por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "The listed pantry hours are Monday 9am-11am.",
+      "Call (646) 626-9748 ahead to ask about the food offered and any requirements.",
+      "This information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es VISION URBANA?",
+        "a": "Aparece en el mapa Food Help NYC de la ciudad como una despensa de alimentos. No se indica qué alimentos entrega, así que es mejor preguntar cuando llame o visite."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "El listado indica lunes de 9am a 11am (despensa)."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "El listado no dice qué documentos se necesitan. Puede llamar al (646) 626-9748 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is VISION URBANA?",
+        "a": "It is listed on the City's Food Help NYC map as a food pantry. What food is given is not listed, so it is best to ask when you call or visit."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "The listing shows Monday 9am-11am (pantry)."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "The listing does not say what documents are needed. You can call (646) 626-9748 to ask before you go."
+      }
+    ]
+  }
+}

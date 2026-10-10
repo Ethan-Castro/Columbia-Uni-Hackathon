@@ -1,0 +1,66 @@
+{
+  "place_id": "place-fh-first-presbyterian-church-of-jamaica",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:35.410Z",
+  "facts_hash": "41ee4889b841851e",
+  "article": {
+    "title_es": "First Presbyterian Church of Jamaica: despensa de alimentos en Queens",
+    "title_en": "First Presbyterian Church of Jamaica: food pantry in Queens",
+    "summary_es": "La First Presbyterian Church of Jamaica en Queens ofrece una despensa de alimentos y una cocina de sopa, según el mapa Food Help NYC de la ciudad.",
+    "summary_en": "First Presbyterian Church of Jamaica in Queens offers a food pantry and a soup kitchen, according to the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos los martes y sábados en fechas específicas del mes.",
+      "Cocina de sopa los miércoles por la tarde.",
+      "Abre en horario nocturno los miércoles.",
+      "Abre los fines de semana los sábados.",
+      "Teléfono disponible para llamar antes de visitar."
+    ],
+    "how_they_help_en": [
+      "Food pantry on Tuesdays and Saturdays on specific dates of the month.",
+      "Soup kitchen on Wednesday evenings.",
+      "Open in the evening on Wednesdays.",
+      "Open on weekends on Saturdays.",
+      "Phone available to call before visiting."
+    ],
+    "visit_tips_es": [
+      "La despensa abre el 1.º, 2.º, 3.º y 4.º martes del mes, y el 4.º sábado del mes.",
+      "Horario de despensa: martes de 10am a 12pm y sábado de 9am a 11am.",
+      "Cocina de sopa: miércoles de 5:30pm a 6:30pm.",
+      "Llame al (718) 526-4775 para preguntar qué alimentos dan y si hay requisitos."
+    ],
+    "visit_tips_en": [
+      "The pantry is open the 1st, 2nd, 3rd and 4th Tuesday of the month, and the 4th Saturday of the month.",
+      "Pantry hours: Tuesday 10am-12pm and Saturday 9am-11am.",
+      "Soup kitchen: Wednesday 5:30pm-6:30pm.",
+      "Call (718) 526-4775 to ask what food is given and if there are any requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 89-60 164th St, Jamaica, New York, 11432, en Queens."
+      },
+      {
+        "q": "¿Qué días abre la despensa de alimentos?",
+        "a": "El 1.º, 2.º, 3.º y 4.º martes del mes de 10am a 12pm, y el 4.º sábado del mes de 9am a 11am."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito llevar?",
+        "a": "No está en la información. Llame al (718) 526-4775 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 89-60 164th St, Jamaica, New York, 11432, in Queens."
+      },
+      {
+        "q": "What days is the food pantry open?",
+        "a": "The 1st, 2nd, 3rd and 4th Tuesday of the month from 10am to 12pm, and the 4th Saturday of the month from 9am to 11am."
+      },
+      {
+        "q": "What food is given and what do I need to bring?",
+        "a": "That is not listed. Call (718) 526-4775 to ask."
+      }
+    ]
+  }
+}

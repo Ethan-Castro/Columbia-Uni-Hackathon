@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-community-league-of-the-heights-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:51.875Z",
+  "facts_hash": "0f6a9dc4edb6e710",
+  "article": {
+    "title_es": "Community League of the Heights: despensa de alimentos en Manhattan",
+    "title_en": "Community League of the Heights: food pantry in Manhattan",
+    "summary_es": "Community League of the Heights es una despensa de alimentos en el Alto Manhattan, en el mapa Food Help NYC de la Ciudad. Abre los miércoles y sábados de 9am a 1pm.",
+    "summary_en": "Community League of the Heights is a food pantry in Upper Manhattan, listed on the City's Food Help NYC map. It is open Wednesdays and Saturdays from 9am to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Reparte alimentos los miércoles de 9am a 1pm.",
+      "También reparte alimentos los sábados de 9am a 1pm.",
+      "Está en 508 W 159th St, Nueva York, NY 10032.",
+      "Qué alimentos entrega y si hay requisitos no está indicado; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Wednesdays from 9am to 1pm.",
+      "It also distributes food on Saturdays from 9am to 1pm.",
+      "It is located at 508 W 159th St, New York, NY 10032.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Horario de la despensa: miércoles y sábados de 9am a 1pm.",
+      "Llame al (212) 795-4779 antes de ir para confirmar detalles.",
+      "La información fue verificada el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Wednesdays and Saturdays, 9am to 1pm.",
+      "Call (212) 795-4779 before visiting to confirm details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "No está indicado en la información disponible. Llame al (212) 795-4779 para preguntar."
+      },
+      {
+        "q": "¿Cómo puedo contactar a la despensa?",
+        "a": "Por teléfono al (212) 795-4779. No se indica un correo electrónico ni un sitio web."
+      },
+      {
+        "q": "¿Abre los fines de semana?",
+        "a": "Sí, los sábados de 9am a 1pm, además de los miércoles de 9am a 1pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give out?",
+        "a": "That is not listed in the available information. Call (212) 795-4779 to ask."
+      },
+      {
+        "q": "How can I contact the pantry?",
+        "a": "By phone at (212) 795-4779. No email or website is listed."
+      },
+      {
+        "q": "Is it open on weekends?",
+        "a": "Yes, Saturdays from 9am to 1pm, in addition to Wednesdays from 9am to 1pm."
+      }
+    ]
+  }
+}

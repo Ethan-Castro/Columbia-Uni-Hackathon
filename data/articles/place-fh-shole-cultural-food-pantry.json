@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-shole-cultural-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:38.900Z",
+  "facts_hash": "21f2da06ba325d96",
+  "article": {
+    "title_es": "SHOLE Cultural Food Pantry: despensa de alimentos en Jamaica, Queens",
+    "title_en": "SHOLE Cultural Food Pantry: food pantry in Jamaica, Queens",
+    "summary_es": "SHOLE Cultural Food Pantry es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los jueves de 11am a 12pm.",
+    "summary_en": "SHOLE Cultural Food Pantry is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map. It is open Thursdays 11am-12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 142-03 Farmers Blvd, Jamaica, NY, 11434.",
+      "Abre los jueves de 11am a 12pm para la despensa.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 142-03 Farmers Blvd, Jamaica, NY, 11434.",
+      "It is open Thursdays 11am-12pm for the pantry.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "visit_tips_es": [
+      "Vaya el jueves entre 11am y 12pm, que es el horario de la despensa.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte directamente en el lugar.",
+      "No hay teléfono en esta información, así que planifique su visita con anticipación."
+    ],
+    "visit_tips_en": [
+      "Go on Thursday between 11am and 12pm, which is the pantry's hours.",
+      "It is not listed what food is given or if there are any requirements; ask directly at the location.",
+      "No phone number is listed in this information, so plan your visit ahead of time."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 142-03 Farmers Blvd, Jamaica, NY, 11434, en Queens."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los jueves de 11am a 12pm."
+      },
+      {
+        "q": "¿Qué necesito para recibir alimentos?",
+        "a": "No se indica ningún requisito. Le recomendamos preguntar directamente en el lugar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 142-03 Farmers Blvd, Jamaica, NY, 11434, in Queens."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Thursdays from 11am to 12pm."
+      },
+      {
+        "q": "What do I need to receive food?",
+        "a": "No requirements are listed. We suggest asking directly at the location."
+      }
+    ]
+  }
+}

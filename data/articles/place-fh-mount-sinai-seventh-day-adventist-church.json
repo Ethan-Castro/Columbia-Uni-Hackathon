@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-mount-sinai-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:45:41.196Z",
+  "facts_hash": "bf59132dbc1a4e29",
+  "article": {
+    "title_es": "Mount Sinai Seventh Day Adventist Church: despensa en Queens",
+    "title_en": "Mount Sinai Seventh Day Adventist Church: pantry in Queens",
+    "summary_es": "Esta iglesia en Queens Village aparece en el mapa Food Help NYC como despensa de alimentos. Abre los miércoles de 5pm a 7pm.",
+    "summary_en": "This church in Queens Village is listed on the City's Food Help NYC map as a food pantry. It is open Wednesdays 5pm-7pm.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Está ubicada en 217-10 93rd Ave, Queens Village, Queens, NY 11428.",
+      "Atiende los miércoles de 5pm a 7pm.",
+      "Tiene teléfono: (718) 465-1784.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Located at 217-10 93rd Ave, Queens Village, Queens, NY 11428.",
+      "Open Wednesdays from 5pm to 7pm.",
+      "Phone available: (718) 465-1784.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los miércoles de 5pm a 7pm, según la información publicada.",
+      "Llame al (718) 465-1784 antes de ir para confirmar horarios y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only Wednesdays 5pm-7pm, according to the listing.",
+      "Call (718) 465-1784 before going to confirm hours and ask what to bring.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La información no lo indica. Llame al (718) 465-1784 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento para recibir alimentos?",
+        "a": "No se menciona ningún requisito en la información publicada. Llame antes de ir para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los miércoles de 5pm a 7pm, según el mapa Food Help NYC."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (718) 465-1784 to ask."
+      },
+      {
+        "q": "Do I need any documents to receive food?",
+        "a": "No requirements are mentioned in the listing. Call ahead to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays from 5pm to 7pm, according to the Food Help NYC map."
+      }
+    ]
+  }
+}

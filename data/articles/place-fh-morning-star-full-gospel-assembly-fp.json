@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-morning-star-full-gospel-assembly-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:07.069Z",
+  "facts_hash": "85592f13ec4fec8e",
+  "article": {
+    "title_es": "Morning Star Full Gospel Assembly: despensa de alimentos en el Bronx",
+    "title_en": "Morning Star Full Gospel Assembly: food pantry in the Bronx",
+    "summary_es": "Morning Star Full Gospel Assembly es una despensa de alimentos en el Bronx, aparecida en el mapa Food Help NYC de la ciudad. Abre los miércoles de 4pm a 6pm.",
+    "summary_en": "Morning Star Full Gospel Assembly is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Wednesdays from 4pm to 6pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 464 E Tremont Ave, Bronx, NY, 10457.",
+      "Atiende los miércoles de 4pm a 6pm (despensa).",
+      "Puede llamar al (718) 294-6020 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 464 E Tremont Ave, Bronx, NY, 10457.",
+      "It is open Wednesdays 4pm-6pm (pantry).",
+      "You can call (718) 294-6020 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los miércoles de 4pm a 6pm.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono.",
+      "Verifique el horario llamando al (718) 294-6020 antes de visitar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesdays 4pm-6pm.",
+      "The listing does not say what food is given or if there are requirements; ask by phone.",
+      "Confirm the schedule by calling (718) 294-6020 before you visit."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los miércoles de 4pm a 6pm."
+      },
+      {
+        "q": "¿Necesito hacer cita o traer documentos?",
+        "a": "La lista no lo indica. Llame al (718) 294-6020 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry. What food is given is not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 4pm to 6pm."
+      },
+      {
+        "q": "Do I need an appointment or documents?",
+        "a": "The listing does not say. Call (718) 294-6020 to ask before going."
+      }
+    ]
+  }
+}
