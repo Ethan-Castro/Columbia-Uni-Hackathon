@@ -197,7 +197,7 @@ export function Home() {
         titleHighlight={c.highlight}
         description={c.description}
         socialProof={c.proof(counts.Place, counts.Program)}
-        images={["hero/wa.png", "hero/claude-live.jpg", "hero/chatgpt-live.jpg"]}
+        images={["hero/whatsapp-live.jpg", "hero/claude-live.jpg", "hero/chatgpt-live.jpg"]}
         imageAlts={c.alts}
         animation="subtle"
         primaryCTA={{ ctaEnabled: true, text: c.cta1, link: HREF.directory, variant: "default", size: "lg" }}
