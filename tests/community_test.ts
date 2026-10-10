@@ -90,3 +90,44 @@ Deno.test({ name: "post, reply, list, hide (temp data dir)", ignore: !canWrite, 
 Deno.test("HTTP wrapper: GET is 405, list is public", async () => {
   eq((await handler(new Request("http://x/functions/community"))).status, 405);
 });
+
+// The demo script (README "Demo prompts" #6), end to end on a copy of data/:
+// a housing question stays a discussion post; a tip from "Suggest a resource"
+// is pending, then only after a person approves it becomes a directory result.
+Deno.test({ name: "demo: community post vs reviewed tip (temp copy of data/)", ignore: !canWrite, fn: async () => {
+  const { submitResource, reviewQueue } = await import("../shared/web/submissions.ts");
+  const { listPlaces } = await import("../shared/web/directory.ts");
+  const dir = await Deno.makeTempDir();
+  for await (const f of Deno.readDir(new URL("../data/", import.meta.url))) {
+    if (f.isFile && f.name.endsWith(".json")) await Deno.copyFile(new URL(`../data/${f.name}`, import.meta.url), `${dir}/${f.name}`);
+  }
+  const prev = Deno.env.get("DATA_DIR");
+  Deno.env.set("DATA_DIR", dir);
+  Deno.env.set("ADMIN_TOKEN", "test-admin");
+  const admin = req({ "x-admin-token": "test-admin" });
+  const NAME = "[DEMO] Despensa de prueba Corona";
+  const search = async (q: string) =>
+    ((await listPlaces(req(), { q })) as { places: Array<{ name: string; trust: string }> }).places;
+  try {
+    // 1. Housing question: a discussion post, never a directory result.
+    await community(req(), { action: "post", kind: "question", need: "housing", zip: "11368", body: "Mi casero dice que me vaya a fin de mes. ¿Dónde dan ayuda gratis?" });
+    eq((await search("casero")).length, 0, "housing question in directory");
+
+    // 2. Tip through the form: pending, not in the directory yet.
+    await submitResource(req(), { name: NAME, address: "40-12 National St, Corona, NY 11368", hours: "Sáb 9am-11am", needs: ["food"] });
+    eq((await search("Despensa de prueba")).length, 0, "pending tip in directory");
+    const queue = await reviewQueue(admin, { action: "list" }) as { submissions: Array<{ id: string; name: string }> };
+    const sub = queue.submissions.find((s) => s.name === NAME);
+    ok(sub, "tip in pending queue");
+
+    // 3. A person approves it: now it is a directory result marked community.
+    await reviewQueue(admin, { action: "approve", id: sub!.id });
+    const hits = await search("Despensa de prueba");
+    eq(hits.map((p) => [p.name, p.trust]), [[NAME, "community"]]);
+  } finally {
+    if (prev === undefined) Deno.env.delete("DATA_DIR");
+    else Deno.env.set("DATA_DIR", prev);
+    Deno.env.delete("ADMIN_TOKEN");
+    await Deno.remove(dir, { recursive: true });
+  }
+} });
