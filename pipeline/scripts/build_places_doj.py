@@ -297,8 +297,9 @@ def main():
                  "org_status": o["org_status"], "source_page": rep["page"], "source_updated": "2026-10-04"})
 
     OUT.mkdir(exist_ok=True)
-    with (OUT / "places.csv").open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=COLUMNS); w.writeheader(); w.writerows(places)
+    for name in ("places.csv", "places_doj.csv"):     # places_doj.csv = stable DOJ-only input for build_places_local.py
+        with (OUT / name).open("w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=COLUMNS); w.writeheader(); w.writerows(places)
     with (OUT / "places_doj_detail.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=DETAIL_COLUMNS); w.writeheader(); w.writerows(details)
     json.dump({"excluded_outside_nyc": excluded, "unmatched_orgs": unmatched_orgs,

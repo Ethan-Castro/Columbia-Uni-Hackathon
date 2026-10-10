@@ -66,3 +66,8 @@ Order matters: `build_places_doj.py` rewrites places.csv with DOJ rows only; `bu
   - Rows outside NYC, rows with no ZIP, conflicting-source rows, and a roster row that duplicates its pro bono row: moved to `out/places_held.csv`, each with a `held_reason`.
 - Check a handoff with Ethan's importer (Deno): `deno run --allow-read --allow-write --allow-env scripts/import.ts pipeline/out --dry-run --report=/tmp/import-report.json`
 - Send updates by committing on `main`, then `git pull --rebase && git push origin main`, then tell Ethan "pushed".
+
+## Felix's review tracker (Corona Place Checks)
+- Shared page: https://claude.ai/artifact/Twu1xiB941vikqP6h7TEgR. It lists the 25 review places (seeded from `out/review_tracker_seed.json`). For each place Felix records: result, how he checked, languages spoken, hours, what to bring, walk-in or appointment, fee, and notes.
+- To sync: Claude reads the tracker's `checks` collection into `raw/review_checks/`, then runs `python3 scripts/apply_review.py`, `build_places_local.py`, `build_links.py` and `validate.py`, then pushes to `main`.
+- A place becomes `verified` only from a check marked confirmed by **phone call or in person**. Languages are applied only from those checks. A check marked closed holds the place out of `places.csv`. Hours, bring, fee and notes are listed for a person to apply by hand.

@@ -173,7 +173,7 @@ def hand_rows(used):
 
 
 def main():
-    doj = [r for r in csv.DictReader((OUT / "places.csv").open(encoding="utf-8")) if r["id"].startswith("place-doj-")]
+    doj = list(csv.DictReader((OUT / "places_doj.csv").open(encoding="utf-8")))   # written by build_places_doj.py
     used = {r["id"] for r in doj}
     fh, fh_det = foodhelp_rows(used)
     hs, hs_det, offers, failures = hand_rows(used)
@@ -204,6 +204,30 @@ def main():
             r = {**r, "zip": ""}    # keeps it for the notario name check, out of location search, until reviewed
         keep_doj.append(r)
     doj = keep_doj
+    # Felix's tracker checks (scripts/apply_review.py): closed places are held, verified languages applied
+    ofile = ROOT / "scripts" / "review_overrides.json"
+    overrides = json.loads(ofile.read_text()) if ofile.exists() else {}
+    for oid, o in overrides.items():
+        if o.get("hold"):
+            reasons[oid] = o["hold"]
+    def apply_lang(r):
+        o = overrides.get(r["id"], {})
+        return {**r, "languages": o["languages"]} if o.get("languages") else r
+    keep_fh = []
+    for r in fh:
+        if r["id"] in reasons:
+            hold(r, reasons[r["id"]])
+        else:
+            keep_fh.append(apply_lang(r))
+    fh = keep_fh
+    keep_doj = []
+    for r in doj:
+        if r["id"] in reasons:
+            hold(r, reasons[r["id"]])
+        else:
+            keep_doj.append(apply_lang(r))
+    doj = keep_doj
+    hs = [apply_lang(r) for r in hs]
     keep_hs = []
     for r in hs:
         if r["id"] in reasons:
@@ -274,18 +298,27 @@ def report(rows, det, doj):
 
 def checklist(rows, D):
     """The 25 most useful Corona-area records for Felix's manual review: demo zips first, by demo need."""
-    prio = {"pantry": 0, "clinic": 1, "idnyc": 2, "benefits_office": 3, "remittance": 4, "check_casher": 5,
-            "school": 6, "other": 7, "doj_pro_bono": 8, "doj_roster": 8, "consulate": 9}
-    zip_rank = {"11368": 0, "11373": 1, "11372": 1, "11369": 2, "11370": 2}
+    # Ethan's order: pantries, WIC/clinics, legal offices near the demo zips, then the rest; money shops capped at 2
+    prio = {"pantry": 0, "clinic": 1, "doj_pro_bono": 2, "doj_roster": 2, "other": 3, "idnyc": 4, "benefits_office": 5,
+            "school": 6, "check_casher": 7, "remittance": 7, "consulate": 9}
+    zip_rank = {"11368": 0, "11373": 1, "11372": 1}                 # the three demo zips only
     cand = [r for r in rows if (r["id"] in D or r["org_type"] in ("doj_roster", "doj_pro_bono"))
             and not r["id"].startswith("place-doj-rep-")
             and (r["zip"] in zip_rank or r["org_type"] in ("idnyc", "benefits_office", "school", "consulate"))]
-    cand.sort(key=lambda r: (zip_rank.get(r["zip"], 3), prio.get(r["org_type"], 9), r["name"]))
+    seen_keys, uniq = set(), []
+    for r in cand:                                     # a held duplicate roster row is reviewed via its pro bono twin
+        k = (r["name"].lower(), r["address"].lower())
+        if r["zip"] in zip_rank and k not in seen_keys:
+            seen_keys.add(k); uniq.append(r)
+    cand = uniq
+    cand.sort(key=lambda r: (prio.get(r["org_type"], 9), zip_rank.get(r["zip"], 3), r["name"]))
     pick, seen_types = [], collections.Counter()
     for r in cand:
-        if r["org_type"] in ("idnyc", "benefits_office", "school", "consulate") and seen_types[r["org_type"]] >= 2:
+        group = "money" if r["org_type"] in ("check_casher", "remittance") else r["org_type"]
+        if group == "money" and seen_types["money"] >= 2:
             continue
-        pick.append(r); seen_types[r["org_type"]] += 1
+        seen_types[group] += 1
+        pick.append(r)
         if len(pick) == 25:
             break
     L = ["# Corona review checklist (25 records) for Felix", "",
@@ -306,6 +339,16 @@ def checklist(rows, D):
               f"   - source: {r['source_url']}",
               f"   - check: {'; '.join(extra) if extra else 'standard checks only'}"]
     (OUT / "phase3_review_checklist.md").write_text("\n".join(L) + "\n", encoding="utf-8")
+    # same 25 rows as seed data for the shared review tracker page (public listing data only)
+    seed = []
+    for i, r in enumerate(pick, 1):
+        d = D.get(r["id"], {})
+        todo = ["Still operating here?", "Hours as listed?", "Spanish spoken?", "What to bring?", "Walk-in or appointment?", "Any fee?"]
+        if d.get("review_flag"): todo.append(d["review_flag"])
+        seed.append({"order": i, "place_id": r["id"], "name": r["name"], "org_type": r["org_type"], "address": r["address"],
+                     "zip": r["zip"], "phone": r["phone"], "hours": r["hours"], "languages": r["languages"],
+                     "trust": r["trust"], "source_url": r["source_url"], "to_confirm": todo})
+    (OUT / "review_tracker_seed.json").write_text(json.dumps(seed, indent=1, ensure_ascii=False), encoding="utf-8")
 
 
 if __name__ == "__main__":
