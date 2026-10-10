@@ -17,6 +17,14 @@ const WA_NUMBER = "+1 415 523 8886";
 const WA_LINK = "https://wa.me/14155238886?text=join%20package-question";
 const VOICE_NUMBER = "+1 743 330 7616";
 
+/** Where each door's "how" line takes you: the exact settings page, WhatsApp, or a call. */
+const DOOR_LINKS = [
+  "https://claude.ai/settings/connectors",
+  "https://chatgpt.com/#settings/Connectors",
+  WA_LINK,
+  `tel:${VOICE_NUMBER.replace(/[^\d+]/g, "")}`,
+];
+
 const COPY = {
   es: {
     title: "Los servicios de Nueva York,",
@@ -222,7 +230,9 @@ export function Home() {
                 <div className="bg-muted mb-4 grid size-10 place-items-center rounded-lg"><Icon className="size-5" /></div>
                 <h3 className="text-base font-semibold">{d.name}</h3>
                 <p className="text-muted-foreground mt-1 flex-1 text-sm">{d.body}</p>
-                <p className="text-foreground mt-3 text-xs font-medium">{d.how}</p>
+                <p className="text-foreground mt-3 text-xs font-medium">
+                  <a href={DOOR_LINKS[i]} target={DOOR_LINKS[i].startsWith("tel:") ? undefined : "_blank"} rel="noreferrer">{d.how}</a>
+                </p>
                 {i < 2 && <CopyUrl label={c.copy} done={c.copied} />}
                 {i === 3 && (
                   <Button asChild variant="outline" size="sm" className="mt-3 no-underline">
