@@ -150,4 +150,5 @@ CLI-deployed apps on the current Cloudflare runtime, ours included, need none of
 5. Decide which URL the Claude connector uses: the tunnel (local, AI about 2s) or Base44. Run the Rosa and notario prompts once through it.
 6. WhatsApp: the demo phone has joined the Twilio sandbox (send `join <keyword>` to +1 415 523 8886). Run one real send only on that phone.
 7. Insights: open `#/insights` with the admin token. The rows say Test traffic.
-8. Felix's data, if it arrives: `deno task import --dry-run`, then `deno task import` (add `--keep-sample` if his rows do not cover Corona), then `scripts/base44-seed.ts`. Re-run step 5.
+8. Community: after the deploy, the Base44 dashboard shows a `CommunityPost` entity and a `community` function. Open `https://inmigracion-nyc.com/#/community`: the pinned card, four posts labeled synthetic, and a working "Escribir un mensaje" form (if the form is missing, the function is not deployed yet). Do one dry run of README demo #6, then reject or delete the `[DEMO]` tip and hide any test posts (Hide button shows with the admin token set).
+9. Felix's data, if it arrives: `deno task import --dry-run`, then `deno task import` (add `--keep-sample` if his rows do not cover Corona), then `scripts/base44-seed.ts`. Re-run step 5.

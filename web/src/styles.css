@@ -330,3 +330,21 @@ input[type="checkbox"], input[type="radio"] { width: 18px; min-height: 18px; hei
 .more-filters .row { margin-top: 6px; }
 .show-more { display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 16px; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* Community page */
+.community-pin { border-color: var(--ok-line); background: var(--ok-soft); margin-bottom: 16px; }
+.community-pin h2 { margin-top: 0; }
+.community-steps { margin: 14px 0 8px; padding-left: 22px; display: grid; gap: 4px; }
+.community-compose { margin-bottom: 16px; }
+.community-compose h2 { margin: 0; }
+.community-row { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
+@media (min-width: 560px) { .community-row { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); } }
+.community-feed { display: grid; gap: 12px; }
+.community-post { display: grid; gap: 8px; }
+.community-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.community-body { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.community-synthetic { margin: 0; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--warn); }
+.community-replies { display: grid; gap: 10px; border-left: 3px solid var(--border); padding-left: 14px; margin-top: 4px; }
+.community-reply { display: grid; gap: 4px; }
+.community-reply-form { display: grid; gap: 10px; }
+.community-post > .btn-link, .community-reply .btn-link { justify-self: start; padding-left: 0; }

@@ -6,6 +6,7 @@ import { Home } from "./pages/Home.tsx";
 import { Directory } from "./pages/Directory.tsx";
 import { Graph } from "./pages/Graph.tsx";
 import { Submit } from "./pages/Submit.tsx";
+import { Community } from "./pages/Community.tsx";
 import { Admin } from "./pages/Admin.tsx";
 import { InsightsPage } from "./pages/Insights.tsx";
 
@@ -18,6 +19,7 @@ export function App() {
     ["directory", t("nav_directory")],
     ["graph", lang === "es" ? "Mapa" : "Graph"],
     ["submit", t("nav_submit")],
+    ["community", t("nav_community")],
     ["insights", t("nav_insights")],
   ];
 
@@ -68,6 +70,7 @@ export function App() {
         {route === "directory" && <Directory />}
         {route === "graph" && <Graph />}
         {route === "submit" && <Submit />}
+        {route === "community" && <Community />}
         {route === "admin" && <Admin />}
         {route === "insights" && <InsightsPage />}
       </main>

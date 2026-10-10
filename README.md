@@ -124,6 +124,14 @@ Paste into Claude with the connector on:
 3. WhatsApp: `Mándame el plan por WhatsApp al +1 ...` Expected: Claude asks for permission first; with consent the text carries places, hours and what to bring only. The Twilio account is a trial: the number must have joined the sandbox.
 4. Don Luis: `Tengo una bodega en Corona, me pagan en efectivo y mando dinero a mi familia en México. ¿Dónde puedo mandar dinero y abrir una cuenta?` Expected: the money transfer shop (fees apply), plus the starter bank account program with "get IDNYC first".
 5. Dashboard: open `#/insights` in the web app (admin token) to show requests by need, unmet by zip, language and channel mix, labeled Test traffic.
+6. Community (web app, `#/community`, "Comunidad" in the menu). Click path:
+   1. Open `#/community`. Point out the pinned card and the synthetic housing question ("Ejemplo sintético: no es una persona real"). Optionally reply to it: the reply shows right away, and the question stays a discussion post.
+   2. Click **Sugerir un recurso** on the pinned card. Enter a clearly labeled tip, e.g. name `[DEMO] Despensa de prueba Corona`, address `40-12 National St, Corona, NY 11368`, hours `Sáb 9am-11am`, need Comida. Send it. Expected: "a person reviews every resource".
+   3. Open `#/directory` and search `Despensa de prueba`. Expected: no result yet (the tip is pending).
+   4. Open `#/admin` with the admin token. Expected: the tip is in the pending queue. Click **Aprobar y publicar**.
+   5. Search `Despensa de prueba` again. Expected: one result marked "De la comunidad". Search `casero`: no result, because community posts never go into search.
+
+   `tests/community_test.ts` runs this same path (on a temp copy of `data/`). On the live site, approving creates a real Place: reject the tip instead, or delete the `[DEMO]` Place in the Base44 dashboard afterwards. HumHub is not part of this; there is no sync from community posts into search.
 
 ## Layout
 
