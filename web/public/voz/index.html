@@ -246,7 +246,7 @@ body.found #again, body.error #again { display:grid; }
           call.href = d.place.tel;
           call.setAttribute("aria-label", (LANG === "en" ? "Call " : "Llamar a ") + d.place.name);
           state("found");
-          return say(d.say).then(function () { body.className = "found"; busy = false; });
+          return say(d.say).then(function () { body.className = "found"; busy = false; location.href = d.place.tel; });
         }
         return fail(d && d.say);
       })
@@ -273,6 +273,15 @@ const BASE = /(^|\.)base44\.app$|(^|\.)inmigracion-nyc\.com$/.test(location.host
 const body = document.body, orb = document.getElementById("orb"), call = document.getElementById("call"),
   live = document.getElementById("live");
 let convo = null, starting = false, found = false, raf = 0;
+// After show_call_button: let the agent finish its sentence, then hang up and open the phone's call prompt.
+let pendingDial = null, dialTimer = 0, sawSpeech = false, mode = "listening";
+async function dialNow() {
+  if (!pendingDial) return;
+  const tel = pendingDial; pendingDial = null; clearTimeout(dialTimer);
+  await stopLive();
+  body.className = "found";
+  location.href = tel; // iOS/Android show "Call …?"; the green button stays if they cancel
+}
 
 const setState = (s) => { body.className = (found ? "found " : "") + s; };
 const zipFromPhone = () => new Promise((res) => {
@@ -303,6 +312,9 @@ async function startLive() {
   const where = zipFromPhone();
   try {
     await navigator.mediaDevices.getUserMedia({ audio: true }).then((s) => s.getTracks().forEach((t) => t.stop()));
+    // Know the zip before the agent hears anything, so it never has to ask (waits at most 3.5 s).
+    let zip = await Promise.race([where, new Promise((r) => setTimeout(() => r(undefined), 3500))]);
+    console.info("voz zip", zip);
     convo = await Conversation.startSession({
       agentId: AGENT_ID,
       connectionType: "websocket", // webrtc: this agent hangs up right away
@@ -313,22 +325,38 @@ async function startLive() {
           call.href = "tel:+1" + digits;
           call.setAttribute("aria-label", "Llamar a " + (name || "el lugar"));
           found = true; setState("listening");
+          pendingDial = call.href; sawSpeech = mode === "speaking";
+          clearTimeout(dialTimer); dialTimer = setTimeout(dialNow, 9000); // never wait forever
           live.textContent = "Botón para llamar a " + (name || "el lugar");
           return "Listo: la persona ve el botón verde para llamar a " + (name || "el lugar") + ".";
         },
       },
-      onConnect: async () => {
+      onConnect: () => {
         setState("listening"); meter();
-        convo?.sendContextualUpdate(
+        const rules =
           "Esta es la app de voz en el teléfono (sin pantalla de texto). Responde corto: recomienda UN solo lugar, el mejor y más cercano, " +
           "en una o dos frases (nombre y qué tan cerca), y enseguida usa show_call_button con su nombre y teléfono exactos. " +
-          "No leas listas ni direcciones completas. Si la persona interrumpe, escúchala.");
-        const zip = await where;
-        if (zip && convo) convo.sendContextualUpdate(
-          `Ubicación del teléfono: código postal ${zip}. Úsalo como "near" en las herramientas; no preguntes dónde está la persona salvo que diga otro lugar.`);
+          "Después di solo una frase corta como \"Le marco ahora\": el teléfono abrirá la llamada solo. " +
+          "No leas listas ni direcciones completas. Si la persona interrumpe, escúchala.";
+        const here = (z) => `Ubicación del teléfono: código postal ${z}. Úsalo como "near" en find_resources y make_plan; NO preguntes dónde está la persona salvo que diga otro lugar.`;
+        // onConnect can fire before startSession resolves, so send on the next tick when convo is set.
+        let tries = 0;
+        const send = () => {
+          if (!convo) { if (++tries < 60) setTimeout(send, 50); return; }
+          convo.sendContextualUpdate(zip ? rules + " " + here(zip) : rules);
+          console.info("voz context sent", zip || "(no zip yet)");
+          if (zip === undefined) where.then((z) => { if (z && convo) convo.sendContextualUpdate(here(z)); });
+        };
+        send();
       },
-      onModeChange: ({ mode }) => setState(mode === "speaking" ? "speaking" : "listening"),
+      onModeChange: (m) => {
+        mode = m.mode;
+        setState(mode === "speaking" ? "speaking" : "listening");
+        if (pendingDial && mode === "speaking") sawSpeech = true;
+        if (pendingDial && mode === "listening" && sawSpeech) setTimeout(dialNow, 400);
+      },
       onDisconnect: () => { convo = null; cancelAnimationFrame(raf); orb.style.setProperty("--lvl", 1); body.className = found ? "found" : ""; },
+      onMessage: (m) => console.info("voz " + m.source + ": " + m.message),
       onError: (e) => console.warn("voz live error", e),
     });
   } catch (e) {
@@ -340,10 +368,12 @@ async function stopLive() { const c = convo; convo = null; if (c) await c.endSes
 
 window.__vozLive = {
   toggle: () => (convo ? stopLive() : startLive()),
-  restart: async () => { await stopLive(); found = false; body.className = ""; startLive(); },
+  // Test hook: type to the agent with the mic muted (used by our headless check, harmless otherwise).
+  typeForTest: (text) => { if (!convo) return false; convo.setMicMuted(true); convo.sendUserMessage(text); return true; },
+  restart: async () => { pendingDial = null; clearTimeout(dialTimer); await stopLive(); found = false; body.className = ""; startLive(); },
 };
 // Hang up the agent when the person taps the green button to dial.
-call.addEventListener("click", () => { if (call.getAttribute("href") !== "#") stopLive(); });
+call.addEventListener("click", () => { if (call.getAttribute("href") !== "#") { pendingDial = null; clearTimeout(dialTimer); stopLive(); } });
 </script>
 </body>
 </html>
