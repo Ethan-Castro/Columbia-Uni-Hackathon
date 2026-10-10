@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-xavier-mission-inc-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:18.009Z",
+  "facts_hash": "eee8ea305d6fe130",
+  "article": {
+    "title_es": "Xavier Mission: cocina de sopa en Manhattan",
+    "title_en": "Xavier Mission: soup kitchen in Manhattan",
+    "summary_es": "Xavier Mission aparece en el mapa Food Help NYC como despensa/cocina de sopa en Manhattan. Atiende los domingos de 12:45pm a 3pm como cocina de sopa.",
+    "summary_en": "Xavier Mission appears on the Food Help NYC map as a food pantry/soup kitchen in Manhattan. It is open Sundays 12:45pm-3pm as a soup kitchen.",
+    "how_they_help_es": [
+      "Cocina de sopa los domingos de 12:45pm a 3pm.",
+      "Ubicada en 55 W 15th St, Nueva York, NY 10011 (Manhattan).",
+      "Abre los fines de semana.",
+      "Teléfono: (212) 627-2100 para llamar antes de ir.",
+      "La lista no indica qué alimentos entrega ni requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Soup kitchen on Sundays from 12:45pm to 3pm.",
+      "Located at 55 W 15th St, New York, NY 10011 (Manhattan).",
+      "Open on weekends.",
+      "Phone: (212) 627-2100 to call ahead.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es solo los domingos, de 12:45pm a 3pm.",
+      "Llame al (212) 627-2100 para confirmar antes de visitar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The listed hours are Sundays only, 12:45pm to 3pm.",
+      "Call (212) 627-2100 to confirm before visiting.",
+      "Information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Aparece como despensa de alimentos/cocina de sopa en el mapa Food Help NYC. Los domingos funciona como cocina de sopa."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Domingos de 12:45pm a 3pm, según la información publicada."
+      },
+      {
+        "q": "¿Qué debo llevar o qué requisitos hay?",
+        "a": "No se indica en la lista. Llame al (212) 627-2100 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does it offer?",
+        "a": "It is listed as a food pantry/soup kitchen on the Food Help NYC map. On Sundays it operates as a soup kitchen."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Sundays from 12:45pm to 3pm, according to the published information."
+      },
+      {
+        "q": "What should I bring or what are the requirements?",
+        "a": "The listing does not say. Call (212) 627-2100 to ask."
+      }
+    ]
+  }
+}

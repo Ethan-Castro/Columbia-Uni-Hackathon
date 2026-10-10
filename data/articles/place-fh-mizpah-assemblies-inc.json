@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-mizpah-assemblies-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:35.678Z",
+  "facts_hash": "e0d8c6bdbdf57312",
+  "article": {
+    "title_es": "MIZPAH ASSEMBLIES INC: despensa de alimentos en Brooklyn",
+    "title_en": "MIZPAH ASSEMBLIES INC: food pantry in Brooklyn",
+    "summary_es": "MIZPAH ASSEMBLIES INC es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre miércoles y sábados de 11am a 1pm.",
+    "summary_en": "MIZPAH ASSEMBLIES INC is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Wednesdays and Saturdays from 11am to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los miércoles de 11am a 1pm.",
+      "También abre los sábados de 11am a 1pm.",
+      "Está ubicada en 1100 Clarkson Ave, Brooklyn, NY 11212.",
+      "Qué alimentos entrega y si hay requisitos no está indicado; pregunte llamando al (347) 793-0180."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Distributes food on Wednesdays from 11am to 1pm.",
+      "Also open Saturdays from 11am to 1pm.",
+      "Located at 1100 Clarkson Ave, Brooklyn, NY 11212.",
+      "What food is given and any requirements are not listed; call (347) 793-0180 to ask."
+    ],
+    "visit_tips_es": [
+      "Horario de despensa: miércoles y sábados de 11am a 1pm.",
+      "Antes de ir, llame al (347) 793-0180 para confirmar el horario y preguntar qué necesita.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wednesdays and Saturdays, 11am to 1pm.",
+      "Before going, call (347) 793-0180 to confirm hours and ask what you need.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Miércoles de 11am a 1pm y sábados de 11am a 1pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado en la lista. Llame al (347) 793-0180 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is listed as a food pantry on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 11am to 1pm and Saturdays from 11am to 1pm."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "That is not listed. Call (347) 793-0180 to ask before going."
+      }
+    ]
+  }
+}

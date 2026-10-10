@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-chapel-of-the-great-restorer-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:13.632Z",
+  "facts_hash": "636258d551734c38",
+  "article": {
+    "title_es": "Capilla del Gran Restaurador: despensa de alimentos en el Bronx",
+    "title_en": "Chapel of the Great Restorer: food pantry in the Bronx",
+    "summary_es": "La Capilla del Gran Restaurador es una despensa de alimentos en el Bronx, en la avenida Longwood. Abre los sábados, pero solo el segundo sábado de cada mes.",
+    "summary_en": "Chapel of the Great Restorer is a food pantry in the Bronx, on Longwood Avenue. It is open on Saturdays, but only on the second Saturday of each month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1121 Longwood Ave, Bronx, NY, 10474.",
+      "Abre los sábados de 12pm a 2pm, pero solo el segundo sábado del mes.",
+      "Puede llamar al (718) 673-8139 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1121 Longwood Ave, Bronx, NY, 10474.",
+      "It is open Saturdays 12pm-2pm, but only on the second Saturday of the month.",
+      "You can call (718) 673-8139 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Recuerde que la despensa solo abre el segundo sábado de cada mes, de 12pm a 2pm.",
+      "Llame al (718) 673-8139 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Remember the pantry is only open on the second Saturday of each month, 12pm-2pm.",
+      "Call (718) 673-8139 before going to confirm the hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 12pm a 2pm, pero solo el segundo sábado de cada mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1121 Longwood Ave, Bronx, NY, 10474."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (718) 673-8139 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays 12pm-2pm, but only on the second Saturday of each month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 1121 Longwood Ave, Bronx, NY, 10474."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "The listing does not say. Call (718) 673-8139 to ask before going."
+      }
+    ]
+  }
+}

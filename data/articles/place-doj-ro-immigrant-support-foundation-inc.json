@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-immigrant-support-foundation-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:28.816Z",
+  "facts_hash": "64f28505bf56f4e8",
+  "article": {
+    "title_es": "Immigrant Support Foundation Inc.: ayuda legal de inmigración en Manhattan",
+    "title_en": "Immigrant Support Foundation Inc.: immigration legal help in Manhattan",
+    "summary_es": "Immigrant Support Foundation Inc. es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está ubicada en el centro de Manhattan.",
+    "summary_en": "Immigrant Support Foundation Inc. is a non-profit listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations. It is located in Midtown Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal de inmigración.",
+      "Está ubicada en 12 E 49th Street, Suite 1905, Nueva York, NY 10017.",
+      "Teléfono: (646) 236-2667.",
+      "La lista no indica tarifas ni cómo pedir una cita; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations and accredited representatives.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 12 E 49th Street, Suite 1905, New York, NY 10017.",
+      "Phone: (646) 236-2667.",
+      "The listing does not show fees or how to get an appointment; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (646) 236-2667 para preguntar por sus servicios y si se necesita cita.",
+      "Pregunte por teléfono sobre tarifas, horarios y qué llevar.",
+      "La dirección es 12 E 49th Street, Suite 1905, Nueva York, NY 10017."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (646) 236-2667 to ask about their services and whether an appointment is needed.",
+      "Ask by phone about fees, hours, and what to bring.",
+      "The address is 12 E 49th Street, Suite 1905, New York, NY 10017."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas, cuyos representantes acreditados pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "Las tarifas no aparecen en la lista. Llame al (646) 236-2667 para preguntar."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "La lista no indica cómo pedir una cita. Llame antes de visitar para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit on the DOJ (EOIR) list of recognized organizations, whose accredited representatives may give immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (646) 236-2667 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "The listing does not say how to get an appointment. Call before visiting to ask."
+      }
+    ]
+  }
+}

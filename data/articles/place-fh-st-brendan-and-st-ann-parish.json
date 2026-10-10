@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-st-brendan-and-st-ann-parish",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:40.184Z",
+  "facts_hash": "64cf31943345381a",
+  "article": {
+    "title_es": "St. Brendan & St. Ann Parish: despensa de alimentos en el Bronx",
+    "title_en": "St. Brendan & St. Ann Parish: food pantry in the Bronx",
+    "summary_es": "St. Brendan & St. Ann Parish es una despensa de alimentos en el Bronx, en la calle East 207th Street. Abre los sábados por la mañana.",
+    "summary_en": "St. Brendan & St. Ann Parish is a food pantry in the Bronx, on East 207th Street. It is open on Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 268 E 207th St, Bronx, NY 10467.",
+      "Atiende los sábados de 7:30am a 9am.",
+      "Puede llamar al (718) 547-6655 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Located at 268 E 207th St, Bronx, NY 10467.",
+      "Open Saturdays from 7:30am to 9am.",
+      "You can call (718) 547-6655 with questions."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los sábados, de 7:30am a 9am.",
+      "No se indica qué alimentos entrega ni si pide algún requisito.",
+      "Llame al (718) 547-6655 antes de ir para confirmar los detalles."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Saturdays, 7:30am to 9am.",
+      "It is not listed what food is given or if there are any requirements.",
+      "Call (718) 547-6655 before going to confirm the details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos de la parroquia St. Brendan & St. Ann, incluida en el mapa Food Help NYC."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 7:30am a 9am."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "No está indicado. Llame al (718) 547-6655 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry at St. Brendan & St. Ann Parish, listed on the Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 7:30am to 9am."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "That is not listed. Call (718) 547-6655 to ask before going."
+      }
+    ]
+  }
+}

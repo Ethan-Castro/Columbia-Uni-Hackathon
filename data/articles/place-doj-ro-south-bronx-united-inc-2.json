@@ -1,0 +1,66 @@
+{
+  "place_id": "place-doj-ro-south-bronx-united-inc-2",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:37:56.683Z",
+  "facts_hash": "ad0a9e9b9f29f14a",
+  "article": {
+    "title_es": "South Bronx United: organización en la lista del DOJ",
+    "title_en": "South Bronx United: Organization on the DOJ List",
+    "summary_es": "South Bronx United, Inc. aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Su representante acreditado puede ofrecer ayuda legal de inmigración.",
+    "summary_en": "South Bronx United, Inc. appears on the U.S. Department of Justice (EOIR) list of recognized organizations. Its accredited representative may provide immigration legal help.",
+    "how_they_help_es": [
+      "Es una organización sin fines de lucro reconocida por el DOJ (EOIR).",
+      "Tiene un representante acreditado que puede dar ayuda legal de inmigración.",
+      "Está ubicada en el Bronx, con apartado postal (PO Box).",
+      "Puede llamar al (718) 404-9281 para preguntar por sus servicios.",
+      "Los honorarios y el proceso de cita no aparecen en la información disponible; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "It is a non-profit recognized by the DOJ (EOIR).",
+      "It has an accredited representative who may provide immigration legal help.",
+      "It is located in the Bronx, with a PO Box address.",
+      "You can call (718) 404-9281 to ask about its services.",
+      "Fees and the intake process are not listed; ask when you call."
+    ],
+    "visit_tips_es": [
+      "La dirección indicada es un apartado postal: PO Box 1267, Bronx, NY 10451.",
+      "Llame primero al (718) 404-9281 para preguntar por servicios, horarios y citas.",
+      "Los horarios de atención no aparecen en la información disponible.",
+      "Pregunte si hay algún costo por los servicios."
+    ],
+    "visit_tips_en": [
+      "The address given is a PO Box: PO Box 1267, Bronx, NY 10451.",
+      "Call first at (718) 404-9281 to ask about services, hours, and appointments.",
+      "Hours of operation are not listed in the available information.",
+      "Ask whether there is any cost for services."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es South Bronx United?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los honorarios no aparecen en la información disponible. Llame al (718) 404-9281 para preguntar."
+      },
+      {
+        "q": "¿Cómo puedo obtener una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Llame al (718) 404-9281 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is South Bronx United?",
+        "a": "It is a non-profit organization listed on the DOJ (EOIR) roster of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (718) 404-9281 to ask."
+      },
+      {
+        "q": "How can I get an appointment?",
+        "a": "The appointment process is not listed. Call (718) 404-9281 to ask."
+      }
+    ]
+  }
+}

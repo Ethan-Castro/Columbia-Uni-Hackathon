@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-city-harvest-mobile-market-prince-hall",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:50.441Z",
+  "facts_hash": "b05fbd83ad143ba3",
+  "article": {
+    "title_es": "City Harvest Mobile Market - Prince Hall: despensa en Manhattan",
+    "title_en": "City Harvest Mobile Market - Prince Hall: food pantry in Manhattan",
+    "summary_es": "City Harvest Mobile Market en Prince Hall es una despensa de alimentos en Manhattan, en el mapa Food Help NYC de la ciudad. Atiende los jueves y sábados por la mañana.",
+    "summary_en": "City Harvest Mobile Market at Prince Hall is a food pantry in Manhattan, listed on the City's Food Help NYC map. It operates Thursday and Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 454 W 155th St, Nueva York, NY 10032, en Manhattan.",
+      "Atiende los jueves y sábados de 9:30 am a 11:30 am.",
+      "La despensa funciona solo el 2.º jueves y el 4.º sábado del mes.",
+      "Puede llamar al (646) 412-0740 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 454 W 155th St, New York, NY 10032, in Manhattan.",
+      "Open Thursdays and Saturdays, 9:30am to 11:30am.",
+      "The pantry operates only on the 2nd Thursday and 4th Saturday of the month.",
+      "You can call (646) 412-0740 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "Vaya en las fechas correctas: la despensa solo opera el 2.º jueves y el 4.º sábado del mes.",
+      "El horario es de 9:30 am a 11:30 am.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito; llame al (646) 412-0740 para preguntar."
+    ],
+    "visit_tips_en": [
+      "Go on the right dates: the pantry operates only on the 2nd Thursday and 4th Saturday of the month.",
+      "Hours are 9:30am to 11:30am.",
+      "The listing does not say what food is given or if there are any requirements; call (646) 412-0740 to ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Manhattan, según el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Jueves y sábados de 9:30 am a 11:30 am, pero la despensa solo opera el 2.º jueves y el 4.º sábado del mes."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme con ellos?",
+        "a": "Puede llamar al (646) 412-0740. La lista no dice qué alimentos entrega ni si hay requisitos, así que es mejor preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Manhattan, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Thursdays and Saturdays, 9:30am to 11:30am, but the pantry operates only on the 2nd Thursday and 4th Saturday of the month."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "You can call (646) 412-0740. The listing does not say what food is given or any requirements, so it is best to ask ahead."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-black-forum-of-co-op-city",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:27.822Z",
+  "facts_hash": "b19a153a32915ddd",
+  "article": {
+    "title_es": "Black Forum of Co-op City: despensa de alimentos en el Bronx",
+    "title_en": "Black Forum of Co-op City: food pantry in the Bronx",
+    "summary_es": "Black Forum of Co-op City es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. Está en el Bronx y abre jueves y viernes.",
+    "summary_en": "Black Forum of Co-op City is a food pantry listed on the City's Food Help NYC map. It is located in the Bronx and opens Thursdays and Fridays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los jueves y viernes de 11 am a 12:45 pm.",
+      "Está ubicada en 920 Baychester Ave, Bronx, NY 10475.",
+      "Puede llamar al (718) 320-8035 para preguntar antes de ir.",
+      "La lista no dice qué alimentos da ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food Thursdays and Fridays from 11 am to 12:45 pm.",
+      "It is located at 920 Baychester Ave, Bronx, NY 10475.",
+      "You can call (718) 320-8035 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es jueves y viernes de 11 am a 12:45 pm.",
+      "Llame al (718) 320-8035 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Thursday and Friday, 11 am to 12:45 pm.",
+      "Call (718) 320-8035 before going to confirm the hours and ask what you need.",
+      "This information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Black Forum of Co-op City?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad, ubicada en el Bronx."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Según la lista, la despensa atiende jueves y viernes de 11 am a 12:45 pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "La lista no lo indica. Llame al (718) 320-8035 para preguntar qué alimentos reparte y si pide algún requisito."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Black Forum of Co-op City?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map, located in the Bronx."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "According to the listing, the pantry operates Thursday and Friday from 11 am to 12:45 pm."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "The listing does not say. Call (718) 320-8035 to ask what food they distribute and whether there are any requirements."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bethany-united-methodist-church-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:49.364Z",
+  "facts_hash": "569570c339ccc343",
+  "article": {
+    "title_es": "Bethany United Methodist Church: despensa de alimentos en Brooklyn",
+    "title_en": "Bethany United Methodist Church: food pantry in Brooklyn",
+    "summary_es": "Bethany United Methodist Church aparece en el mapa Food Help NYC como despensa de alimentos y cocina de sopa en Brooklyn.",
+    "summary_en": "Bethany United Methodist Church is listed on the Food Help NYC map as a food pantry and soup kitchen in Brooklyn.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "También figura como cocina de sopa.",
+      "Está en 1208 St Johns Pl, Brooklyn, NY 11213.",
+      "Atiende los martes y jueves según su horario publicado.",
+      "Qué alimentos entrega y si hay requisitos no está indicado; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Also listed as a soup kitchen.",
+      "Located at 1208 St Johns Pl, Brooklyn, NY 11213.",
+      "Open on Tuesdays and Thursdays per its posted hours.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Horario: martes de 12:30pm a 2:30pm y jueves de 5pm a 7pm.",
+      "La cocina de sopa reparte los martes y el primer jueves del mes.",
+      "Llame al (718) 774-5689 antes de ir para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "Hours: Tue 12:30pm-2:30pm and Thu 5pm-7pm.",
+      "The soup kitchen distributes Tuesdays and the 1st Thursday.",
+      "Call (718) 774-5689 before visiting to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1208 St Johns Pl, Brooklyn, New York, 11213."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Martes de 12:30pm a 2:30pm y jueves de 5pm a 7pm. La cocina de sopa reparte los martes y el primer jueves."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "No está indicado. Llame al (718) 774-5689 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 1208 St Johns Pl, Brooklyn, New York, 11213."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Tuesdays 12:30pm-2:30pm and Thursdays 5pm-7pm. The soup kitchen distributes Tuesdays and the 1st Thursday."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "That is not listed. Call (718) 774-5689 to ask before visiting."
+      }
+    ]
+  }
+}

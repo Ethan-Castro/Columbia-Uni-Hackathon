@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-mas-staten-island-center-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:23.073Z",
+  "facts_hash": "8348be31e8e67a5a",
+  "article": {
+    "title_es": "MAS Staten Island Center: despensa de alimentos en Staten Island",
+    "title_en": "MAS Staten Island Center: food pantry in Staten Island",
+    "summary_es": "MAS Staten Island Center es una despensa de alimentos en Staten Island, en el mapa Food Help NYC de la ciudad. Abre los viernes de 3pm a 6pm.",
+    "summary_en": "MAS Staten Island Center is a food pantry in Staten Island, listed on the City's Food Help NYC map. It is open Fridays from 3pm to 6pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 180 Burgher Ave, Staten Island, NY 10304.",
+      "Atiende los viernes de 3pm a 6pm.",
+      "Puede llamar al (800) 668-0742 para más información.",
+      "La lista no indica qué alimentos entrega; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 180 Burgher Ave, Staten Island, NY 10304.",
+      "It is open Fridays from 3pm to 6pm.",
+      "You can call (800) 668-0742 for more information.",
+      "The listing does not say what food is given; ask when you call."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los viernes de 3pm a 6pm.",
+      "Llame al (800) 668-0742 antes de ir para confirmar los detalles.",
+      "La lista no menciona requisitos ni documentos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Fridays from 3pm to 6pm.",
+      "Call (800) 668-0742 before going to confirm details.",
+      "The listing does not mention requirements or documents; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es MAS Staten Island Center?",
+        "a": "Es una despensa de alimentos en Staten Island, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los viernes de 3pm a 6pm, según la información de la lista."
+      },
+      {
+        "q": "¿Qué necesito para recibir alimentos?",
+        "a": "La lista no indica requisitos. Llame al (800) 668-0742 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is MAS Staten Island Center?",
+        "a": "It is a food pantry in Staten Island, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays from 3pm to 6pm, according to the listing."
+      },
+      {
+        "q": "What do I need to receive food?",
+        "a": "The listing does not say. Call (800) 668-0742 to ask before going."
+      }
+    ]
+  }
+}

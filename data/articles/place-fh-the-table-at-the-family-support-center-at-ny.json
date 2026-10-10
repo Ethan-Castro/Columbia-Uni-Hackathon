@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-table-at-the-family-support-center-at-ny",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:01.587Z",
+  "facts_hash": "f7174baad4f18401",
+  "article": {
+    "title_es": "The Table at NYU Langone: despensa de alimentos en Brooklyn",
+    "title_en": "The Table at NYU Langone: food pantry in Brooklyn",
+    "summary_es": "The Table at the Family Support Center at NYU Langone es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. Está abierta viernes de 9am a 12pm (despensa).",
+    "summary_en": "The Table at the Family Support Center at NYU Langone is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Friday, 9am-12pm (pantry).",
+    "how_they_help_es": [
+      "Está registrada como despensa de alimentos en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 550 59th St, Brooklyn, NY, 11220.",
+      "El horario indicado de la despensa es viernes de 9am a 12pm.",
+      "Puede llamar al (718) 630-7171 para más información.",
+      "No se indica qué alimentos entrega ni si hay requisitos, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 550 59th St, Brooklyn, NY, 11220.",
+      "The listed pantry hours are Friday, 9am-12pm.",
+      "You can call (718) 630-7171 for more information.",
+      "What food is given and any requirements are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 630-7171 antes de ir para confirmar el horario y preguntar si hay requisitos.",
+      "La despensa está indicada para viernes de 9am a 12pm.",
+      "No se detallan los alimentos que se entregan, así que es mejor preguntar con anticipación."
+    ],
+    "visit_tips_en": [
+      "Call (718) 630-7171 before visiting to confirm hours and ask about any requirements.",
+      "The pantry is listed for Friday, 9am-12pm.",
+      "Details about what food is given are not listed, so it's best to ask ahead."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es The Table at the Family Support Center at NYU Langone?",
+        "a": "Aparece en el mapa Food Help NYC de la Ciudad como despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos, así que es mejor preguntar cuando llame."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "El listado indica viernes de 9am a 12pm (despensa)."
+      },
+      {
+        "q": "¿Cómo puedo obtener más información?",
+        "a": "Llame al (718) 630-7171 para preguntar sobre requisitos, qué se ofrece o cualquier otra información que no aparece en el listado."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is The Table at the Family Support Center at NYU Langone?",
+        "a": "It appears on the City's Food Help NYC map as a food pantry. What food is given and any requirements are not listed, so it's best to ask when you call."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "The listing gives Friday, 9am-12pm (pantry)."
+      },
+      {
+        "q": "How can I get more information?",
+        "a": "Call (718) 630-7171 to ask about requirements, what is offered, or anything else not listed."
+      }
+    ]
+  }
+}

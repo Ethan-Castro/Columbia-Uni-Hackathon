@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bethany-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:03.679Z",
+  "facts_hash": "9a3f01df827abb44",
+  "article": {
+    "title_es": "Bethany Pantry: despensa de alimentos en Elmhurst, Queens",
+    "title_en": "Bethany Pantry: food pantry in Elmhurst, Queens",
+    "summary_es": "Bethany Pantry es una despensa de alimentos en Elmhurst, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 9 am a 10 am.",
+    "summary_en": "Bethany Pantry is a food pantry in Elmhurst, Queens, listed on the City's Food Help NYC map. It is open Saturdays from 9am to 10am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 48-08 91st Pl, Elmhurst, Queens, NY 11373.",
+      "Abre los sábados de 9 am a 10 am.",
+      "Puede llamar al (917) 533-1679 con anticipación para que preparen una bolsa.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 48-08 91st Pl, Elmhurst, Queens, NY 11373.",
+      "It is open Saturdays from 9am to 10am.",
+      "You can call (917) 533-1679 ahead to have a bag prepared.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los sábados de 9 am a 10 am, así que llegue dentro de ese horario.",
+      "Si llama con anticipación al (917) 533-1679, pueden tener una bolsa lista para usted.",
+      "La lista no menciona documentos ni requisitos; llame antes para preguntar qué necesita."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Saturdays from 9am to 10am, so go during those hours.",
+      "If you call ahead at (917) 533-1679, they can have a bag prepared for you.",
+      "The listing does not mention documents or requirements; call ahead to ask what you need."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre Bethany Pantry?",
+        "a": "Los sábados de 9 am a 10 am."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 48-08 91st Pl, Elmhurst, Queens, NY 11373."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no lo indica. Llame al (917) 533-1679 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is Bethany Pantry open?",
+        "a": "Saturdays from 9am to 10am."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 48-08 91st Pl, Elmhurst, Queens, NY 11373."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "The listing does not say. Call (917) 533-1679 to ask."
+      }
+    ]
+  }
+}

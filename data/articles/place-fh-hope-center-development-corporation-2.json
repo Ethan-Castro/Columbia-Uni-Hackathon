@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-hope-center-development-corporation-2",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:54.644Z",
+  "facts_hash": "fe48d9e6cc8350cc",
+  "article": {
+    "title_es": "Hope Center Development Corporation: comedor en Brooklyn",
+    "title_en": "Hope Center Development Corporation: soup kitchen in Brooklyn",
+    "summary_es": "Hope Center Development Corporation es un comedor y despensa de alimentos en Brooklyn, Nueva York, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Hope Center Development Corporation is a soup kitchen and food pantry in Brooklyn, New York, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es un comedor de sopa y despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicado en 409 E 95th St, Brooklyn, NY 11212.",
+      "Abre los sábados de 11am a 1:30pm.",
+      "El comedor solo abre el 1er, 2do, 3er y 4to sábado del mes.",
+      "Qué alimentos entrega y si hay requisitos no están indicados; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a soup kitchen and food pantry according to the Food Help NYC map.",
+      "It is located at 409 E 95th St, Brooklyn, NY 11212.",
+      "It is open Saturdays from 11am to 1:30pm.",
+      "The soup kitchen is only open the 1st, 2nd, 3rd, and 4th Saturday of the month.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El comedor solo abre el 1er, 2do, 3er y 4to sábado del mes.",
+      "Llame al (718) 385-1043 antes de ir para confirmar los detalles.",
+      "No se indica qué alimentos se entregan ni si hay requisitos; pregunte directamente."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen is only open the 1st, 2nd, 3rd, and 4th Saturday of the month.",
+      "Call (718) 385-1043 before going to confirm details.",
+      "What food is given and any requirements are not listed; ask directly."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 409 E 95th St, Brooklyn, New York, 11212."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Sábados de 11am a 1:30pm. El comedor solo abre el 1er, 2do, 3er y 4to sábado del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No se indica en la información disponible. Llame al (718) 385-1043 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 409 E 95th St, Brooklyn, New York, 11212."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Saturdays from 11am to 1:30pm. The soup kitchen is only open the 1st, 2nd, 3rd, and 4th Saturday of the month."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "This is not listed in the available information. Call (718) 385-1043 to ask."
+      }
+    ]
+  }
+}

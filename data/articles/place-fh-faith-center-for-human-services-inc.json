@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-faith-center-for-human-services-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:59.548Z",
+  "facts_hash": "6f85b10b9d9f496e",
+  "article": {
+    "title_es": "Faith Center for Human Services: despensa y comedor en Brooklyn",
+    "title_en": "Faith Center for Human Services: food pantry in Brooklyn",
+    "summary_es": "Faith Center for Human Services, Inc. es una despensa de alimentos y comedor de sopa en Brooklyn, aparece en el mapa Food Help NYC de la ciudad. Abre los sábados.",
+    "summary_en": "Faith Center for Human Services, Inc. is a food pantry and soup kitchen in Brooklyn, listed on the City's Food Help NYC map. It is open on Saturdays.",
+    "how_they_help_es": [
+      "Ofrece una despensa de alimentos los sábados.",
+      "Ofrece un comedor de sopa los sábados.",
+      "Está en 1014 Gates Ave, Brooklyn, NY 11221.",
+      "Está en el mapa oficial Food Help NYC de la ciudad.",
+      "Qué alimentos dan y si hay requisitos no están en la lista; pregunte."
+    ],
+    "how_they_help_en": [
+      "Runs a food pantry on Saturdays.",
+      "Runs a soup kitchen on Saturdays.",
+      "Located at 1014 Gates Ave, Brooklyn, NY 11221.",
+      "Listed on the City's official Food Help NYC map.",
+      "What food is given and any requirements are not listed; please ask."
+    ],
+    "visit_tips_es": [
+      "Horario: sábados de 9:30 a.m. a 12 p.m. (despensa y comedor de sopa).",
+      "Llame al (646) 431-9729 antes de ir para confirmar detalles.",
+      "Pregunte qué alimentos ofrecen y si necesita algo para participar."
+    ],
+    "visit_tips_en": [
+      "Hours: Saturdays 9:30am-12pm (pantry and soup kitchen).",
+      "Call (646) 431-9729 before going to confirm details.",
+      "Ask what food they offer and if you need anything to take part."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Una despensa de alimentos y un comedor de sopa, ambos los sábados de 9:30 a.m. a 12 p.m."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto?",
+        "a": "1014 Gates Ave, Brooklyn, NY 11221. Teléfono: (646) 431-9729."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está en la lista. Llame al (646) 431-9729 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does it offer?",
+        "a": "A food pantry and a soup kitchen, both on Saturdays from 9:30am to 12pm."
+      },
+      {
+        "q": "Where is it and how do I contact it?",
+        "a": "1014 Gates Ave, Brooklyn, NY 11221. Phone: (646) 431-9729."
+      },
+      {
+        "q": "What should I bring or what food do they give?",
+        "a": "That is not listed. Call (646) 431-9729 to ask before going."
+      }
+    ]
+  }
+}

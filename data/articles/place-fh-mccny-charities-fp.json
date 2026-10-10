@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-mccny-charities-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:33.468Z",
+  "facts_hash": "7856ec0c1855eb75",
+  "article": {
+    "title_es": "MCCNY Charities: despensa de alimentos en Manhattan",
+    "title_en": "MCCNY Charities: food pantry in Manhattan",
+    "summary_es": "MCCNY Charities es una despensa de alimentos en Manhattan, en la calle 36 Oeste. Abre los jueves por la mañana.",
+    "summary_en": "MCCNY Charities is a food pantry in Manhattan on West 36th Street. It opens Thursday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está en 446 W 36th St, Nueva York, NY 10018.",
+      "Atiende los jueves de 9am a 11am.",
+      "Puede llamar al (322) 400-7488 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si pide requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 446 W 36th St, New York, NY 10018.",
+      "It is open Thursdays from 9am to 11am.",
+      "You can call (322) 400-7488 with questions.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los jueves de 9am a 11am, según la lista.",
+      "Llame al (322) 400-7488 antes de ir para confirmar los detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only Thursdays from 9am to 11am, according to the listing.",
+      "Call (322) 400-7488 before going to confirm details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está MCCNY Charities?",
+        "a": "En 446 W 36th St, Nueva York, NY 10018, en Manhattan."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Jueves de 9am a 11am, según la lista."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (322) 400-7488 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is MCCNY Charities?",
+        "a": "At 446 W 36th St, New York, NY 10018, in Manhattan."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Thursdays from 9am to 11am, according to the listing."
+      },
+      {
+        "q": "What food is given and what should I bring?",
+        "a": "The listing does not say. Call (322) 400-7488 to ask."
+      }
+    ]
+  }
+}

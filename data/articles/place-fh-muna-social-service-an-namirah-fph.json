@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-muna-social-service-an-namirah-fph",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:27.796Z",
+  "facts_hash": "b9cd19efd8f1e167",
+  "article": {
+    "title_es": "MUNA Social Service An-Namirah: despensa de alimentos en Brooklyn",
+    "title_en": "MUNA Social Service An-Namirah: food pantry in Brooklyn",
+    "summary_es": "MUNA Social Service An-Namirah es una despensa de alimentos en Brooklyn, en la avenida Pitkin. Atiende los lunes, de 2pm a 3pm.",
+    "summary_en": "MUNA Social Service An-Namirah is a food pantry in Brooklyn, on Pitkin Avenue. It is open on Mondays, from 2pm to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 2135 Pitkin Ave, Brooklyn, NY 11207.",
+      "Abre los lunes de 2pm a 3pm, según el horario publicado.",
+      "La despensa atiende solo el primer y tercer lunes de cada mes.",
+      "Puede llamar al (212) 920-6202 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2135 Pitkin Ave, Brooklyn, NY 11207.",
+      "It is open Mondays from 2pm to 3pm, according to the posted hours.",
+      "The pantry runs only on the 1st and 3rd Mondays of each month.",
+      "You can call (212) 920-6202 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "Recuerde que la despensa solo abre el primer y tercer lunes del mes.",
+      "El horario es corto, de 2pm a 3pm, así que planifique su visita.",
+      "No se indica qué alimentos entrega ni si hay requisitos; llame al (212) 920-6202 para preguntar."
+    ],
+    "visit_tips_en": [
+      "Remember the pantry is open only on the 1st and 3rd Mondays of the month.",
+      "The hours are short, 2pm to 3pm, so plan your visit.",
+      "It is not listed what food is given or if there are requirements; call (212) 920-6202 to ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 2135 Pitkin Ave, Brooklyn, NY 11207."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los lunes de 2pm a 3pm, pero solo el primer y tercer lunes de cada mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está indicado. Llame al (212) 920-6202 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry?",
+        "a": "At 2135 Pitkin Ave, Brooklyn, NY 11207."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Mondays from 2pm to 3pm, but only on the 1st and 3rd Mondays of each month."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "It is not listed. Call (212) 920-6202 to ask before going."
+      }
+    ]
+  }
+}

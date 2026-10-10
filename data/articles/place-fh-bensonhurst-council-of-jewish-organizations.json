@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-bensonhurst-council-of-jewish-organizations",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:41.649Z",
+  "facts_hash": "a5ade4e8b6dc2004",
+  "article": {
+    "title_es": "Bensonhurst Council of Jewish Organizations: despensa en Brooklyn",
+    "title_en": "Bensonhurst Council of Jewish Organizations: pantry in Brooklyn",
+    "summary_es": "Bensonhurst Council of Jewish Organizations es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los martes de 10am a 4pm.",
+    "summary_en": "Bensonhurst Council of Jewish Organizations is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Tuesdays from 10am to 4pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 8635 21st Ave, Brooklyn, NY 11214.",
+      "Abre los martes de 10am a 4pm para la despensa.",
+      "Puede llamar al (718) 333-1834 para preguntar por los alimentos que entregan."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 8635 21st Ave, Brooklyn, NY 11214.",
+      "It is open Tuesdays from 10am to 4pm for the pantry.",
+      "You can call (718) 333-1834 to ask about the food they provide."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los martes de 10am a 4pm; planifique su visita en ese horario.",
+      "Llame antes al (718) 333-1834 para confirmar los detalles de la entrega de alimentos.",
+      "La página no indica qué alimentos se entregan ni si hay requisitos; pregunte directamente."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Tuesdays from 10am to 4pm; plan your visit during those hours.",
+      "Call ahead at (718) 333-1834 to confirm details about food distribution.",
+      "The listing does not say what food is given or if there are requirements; ask directly."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes de 10am a 4pm."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme con ellos?",
+        "a": "Puede llamar al (718) 333-1834. La dirección es 8635 21st Ave, Brooklyn, NY 11214."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry. What food is given and any requirements are not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays from 10am to 4pm."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "You can call (718) 333-1834. The address is 8635 21st Ave, Brooklyn, NY 11214."
+      }
+    ]
+  }
+}

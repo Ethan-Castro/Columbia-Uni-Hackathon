@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-roman-catholic-church-of-st-helena-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:07.298Z",
+  "facts_hash": "ec206e27e8000552",
+  "article": {
+    "title_es": "Iglesia Católica Romana de St Helena: despensa de alimentos en el Bronx",
+    "title_en": "Roman Catholic Church of St Helena: food pantry in the Bronx",
+    "summary_es": "La Iglesia Católica Romana de St Helena aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos. Abre los miércoles de 12pm a 2pm.",
+    "summary_en": "The Roman Catholic Church of St Helena is listed on the City's Food Help NYC map as a food pantry. It is open Wednesdays from 12pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los miércoles de 12pm a 2pm.",
+      "Está ubicada en 1315 Olmstead Ave, Bronx, NY, 10462.",
+      "Puede llamar al (718) 892-3232 para preguntar antes de ir.",
+      "La lista no dice qué alimentos da ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Wednesdays from 12pm to 2pm.",
+      "It is located at 1315 Olmstead Ave, Bronx, NY, 10462.",
+      "You can call (718) 892-3232 to ask before you go.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es miércoles de 12pm a 2pm.",
+      "Llame al (718) 892-3232 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesdays from 12pm to 2pm.",
+      "Call (718) 892-3232 before going to confirm the hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 12pm a 2pm, según la lista."
+      },
+      {
+        "q": "¿Qué alimentos reparte y hay requisitos?",
+        "a": "No está en la lista. Llame al (718) 892-3232 para preguntar."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1315 Olmstead Ave, Bronx, NY, 10462."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 12pm to 2pm, according to the listing."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "That is not listed. Call (718) 892-3232 to ask."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 1315 Olmstead Ave, Bronx, NY, 10462."
+      }
+    ]
+  }
+}

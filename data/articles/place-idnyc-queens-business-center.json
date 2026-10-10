@@ -1,0 +1,66 @@
+{
+  "place_id": "place-idnyc-queens-business-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:51.315Z",
+  "facts_hash": "b05e4c0d596c681e",
+  "article": {
+    "title_es": "Centro de inscripción IDNYC en Queens: saque su tarjeta de identificación",
+    "title_en": "IDNYC Enrollment Center - Queens Business Center: get your City ID",
+    "summary_es": "Este centro oficial de la Ciudad de Nueva York permite solicitar la tarjeta de identificación IDNYC, una identificación con foto gratuita del gobierno para personas de 10 años o más.",
+    "summary_en": "This official New York City center lets you apply for the IDNYC card, a free government-issued photo ID for anyone 10 and older.",
+    "how_they_help_es": [
+      "Es un centro oficial de inscripción para solicitar la tarjeta IDNYC.",
+      "La IDNYC es una identificación con foto del gobierno de la Ciudad.",
+      "Sirve para servicios de la Ciudad, solicitudes de beneficios, tarjetas de biblioteca y descuentos.",
+      "Puede comenzar su solicitud en línea antes de ir al centro.",
+      "La tarjeta es gratuita para quienes califican."
+    ],
+    "how_they_help_en": [
+      "This is an official enrollment center for the IDNYC card.",
+      "IDNYC is a government-issued photo ID from the City.",
+      "Use it for City services, benefits applications, library cards, and discounts.",
+      "You can start your application online before visiting.",
+      "The card is free for those who qualify."
+    ],
+    "visit_tips_es": [
+      "El horario es de lunes a viernes, 8:30 a.m. a 4:30 p.m., cerrado de 1 p.m. a 2 p.m. por almuerzo.",
+      "Según la información oficial, califican todas las personas de 10 años o más.",
+      "Lleve sus documentos a su visita.",
+      "Otros centros requieren cita; los nuevos turnos se abren cada viernes para la semana siguiente."
+    ],
+    "visit_tips_en": [
+      "Hours are Monday to Friday, 8:30am to 4:30pm, closed 1pm-2pm for lunch.",
+      "According to official information, all New Yorkers ages 10 and up qualify.",
+      "Bring your documents to your visit.",
+      "Other locations require an appointment; new slots open every Friday for the following week."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Quién puede obtener la IDNYC?",
+        "a": "Según la información oficial, califican todas las personas de 10 años o más."
+      },
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "Según la información oficial, la tarjeta es gratuita."
+      },
+      {
+        "q": "¿Necesito cita?",
+        "a": "Esta página no indica si este centro requiere cita. Algunos centros reciben sin cita ciertos días; consulte la página oficial de ubicaciones para reservar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Who can get IDNYC?",
+        "a": "According to official information, all New Yorkers ages 10 and up qualify."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "According to official information, the card is free."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "This listing does not say whether this center requires one. Some centers take walk-ins on certain days; check the official locations page to book."
+      }
+    ]
+  }
+}

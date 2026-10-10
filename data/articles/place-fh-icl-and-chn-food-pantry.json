@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-icl-and-chn-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:10.393Z",
+  "facts_hash": "f8e1f3668bf67cc2",
+  "article": {
+    "title_es": "ICL and CHN Food Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "ICL and CHN Food Pantry: food pantry in Brooklyn",
+    "summary_es": "La ICL and CHN Food Pantry es una despensa de alimentos en Brooklyn, NY, que aparece en el mapa Food Help NYC de la ciudad. Atiende los miércoles de 1pm a 4pm.",
+    "summary_en": "ICL and CHN Food Pantry is a food pantry in Brooklyn, NY, listed on the City's Food Help NYC map. It is open Wednesdays from 1pm to 4pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 2581 Atlantic Ave, Brooklyn, NY 11207.",
+      "Abre los miércoles de 1pm a 4pm (despensa).",
+      "Puede llamar al (718) 495-6700 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2581 Atlantic Ave, Brooklyn, NY 11207.",
+      "It is open Wednesdays from 1pm to 4pm (pantry).",
+      "You can call (718) 495-6700 to ask before going.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los miércoles de 1pm a 4pm.",
+      "Llame al (718) 495-6700 antes de visitar para confirmar detalles.",
+      "La lista no menciona documentos necesarios; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesdays only, 1pm to 4pm.",
+      "Call (718) 495-6700 before visiting to confirm details.",
+      "The listing does not mention required documents; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los miércoles de 1pm a 4pm, según la información más reciente."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado en la lista. Llame al (718) 495-6700 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 1pm to 4pm, according to the most recent information."
+      },
+      {
+        "q": "What should I bring, and what food is given?",
+        "a": "This is not listed. Call (718) 495-6700 to ask."
+      }
+    ]
+  }
+}

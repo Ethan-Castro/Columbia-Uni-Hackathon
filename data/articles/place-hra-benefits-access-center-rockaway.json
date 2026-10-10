@@ -1,0 +1,64 @@
+{
+  "place_id": "place-hra-benefits-access-center-rockaway",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:51.206Z",
+  "facts_hash": "bab652f6d8a130e6",
+  "article": {
+    "title_es": "HRA Benefits Access Center Rockaway: oficina de beneficios en Queens",
+    "title_en": "HRA Benefits Access Center Rockaway: benefits office in Queens",
+    "summary_es": "HRA Benefits Access Center Rockaway es una oficina de beneficios públicos de la Administración de Recursos Humanos (HRA) de la Ciudad de Nueva York, ubicada en Queens. Puede ayudarle a solicitar y manejar beneficios públicos.",
+    "summary_en": "HRA Benefits Access Center Rockaway is a NYC Human Resources Administration public benefits office in Queens. It can help you apply for and manage public benefits.",
+    "how_they_help_es": [
+      "Es una oficina oficial de beneficios públicos de la HRA de la Ciudad de Nueva York.",
+      "Está ubicada en 219 Beach 59th Street, en Queens.",
+      "Abre de lunes a viernes, de 8:30am a 5pm.",
+      "Puede llamar al 718-637-2144 para obtener información.",
+      "La lista de programas que ofrece no está incluida, así que pregunte directamente en la oficina."
+    ],
+    "how_they_help_en": [
+      "It is an official NYC HRA public benefits office.",
+      "Located at 219 Beach 59th Street in Queens.",
+      "Open Monday to Friday, 8:30am to 5pm.",
+      "You can call 718-637-2144 for information.",
+      "The list of programs offered is not included, so ask the office directly."
+    ],
+    "visit_tips_es": [
+      "Llame al 718-637-2144 antes de su visita para confirmar el horario y lo que necesita.",
+      "El horario es de lunes a viernes, de 8:30am a 5pm.",
+      "Pregunte qué programas de beneficios están disponibles, ya que esto no aparece en la información."
+    ],
+    "visit_tips_en": [
+      "Call 718-637-2144 before your visit to confirm hours and what you need.",
+      "Office hours are Mon-Fri, 8:30am-5pm.",
+      "Ask which benefit programs are available, since this is not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es una oficina de beneficios públicos de la HRA de la Ciudad de Nueva York, en Queens."
+      },
+      {
+        "q": "¿Cuál es el horario?",
+        "a": "De lunes a viernes, de 8:30am a 5pm."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al 718-637-2144 o visite 219 Beach 59th Street, Queens, NY 11692."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is a NYC Human Resources Administration (HRA) public benefits office in Queens."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Monday to Friday, 8:30am to 5pm."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call 718-637-2144 or visit 219 Beach 59th Street, Queens, NY 11692."
+      }
+    ]
+  }
+}

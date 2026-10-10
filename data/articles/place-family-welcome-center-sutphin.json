@@ -1,0 +1,64 @@
+{
+  "place_id": "place-family-welcome-center-sutphin",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:55.190Z",
+  "facts_hash": "9b509d2f44c62e1d",
+  "article": {
+    "title_es": "Family Welcome Center de escuelas públicas en Jamaica, Queens",
+    "title_en": "NYC Public Schools Family Welcome Center in Jamaica, Queens",
+    "summary_es": "Este Family Welcome Center de las escuelas públicas de NYC ayuda a las familias a inscribir a sus hijos en las escuelas públicas, incluso estudiantes nuevos y traslados. Está en Jamaica, Queens, y atiende de lunes a viernes.",
+    "summary_en": "This NYC Public Schools Family Welcome Center helps families enroll their children in public schools, including new students and transfers. It is located in Jamaica, Queens, and is open Monday through Friday.",
+    "how_they_help_es": [
+      "Le ayudan a inscribir a su hijo en las escuelas públicas de NYC.",
+      "Atienden inscripciones nuevas, regresos y traslados entre escuelas públicas.",
+      "Ayudan a familias que vienen de escuelas charter o privadas.",
+      "Puede pedir una cita virtual o en persona en cualquier Family Welcome Center.",
+      "Los documentos requeridos se pueden enviar por internet."
+    ],
+    "how_they_help_en": [
+      "They help you enroll your child in NYC public schools.",
+      "They serve new enrollments, returning students, and transfers between public schools.",
+      "They help families coming from charter or private schools.",
+      "You can book a virtual or in-person appointment at any Family Welcome Center.",
+      "Required documents can be submitted online."
+    ],
+    "visit_tips_es": [
+      "Pida una cita virtual o en persona antes de ir; llame al 718-557-2786 para preguntar cómo agendar.",
+      "Si su hijo tiene una escuela asignada por zona o recibió una oferta de una escuela, comuníquese directamente con esa escuela.",
+      "Los documentos requeridos se pueden enviar por internet; pregunte qué necesita al llamar."
+    ],
+    "visit_tips_en": [
+      "Book a virtual or in-person appointment before going; call 718-557-2786 to ask how to schedule.",
+      "If your child has a zoned school or received an offer from a school, contact that school directly.",
+      "Required documents can be submitted online; ask what you need when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de inscripciones atiende este centro?",
+        "a": "Inscripciones nuevas, regresos, cambios desde escuelas charter o privadas, y traslados entre escuelas públicas de NYC."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "Sí. Según la información disponible, debe pedir una cita virtual o en persona en un Family Welcome Center."
+      },
+      {
+        "q": "¿Puedo enviar los documentos por internet?",
+        "a": "Sí. La información indica que los documentos requeridos se pueden enviar por internet."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kinds of enrollment does this center handle?",
+        "a": "New enrollments, returning students, switching from charter or private schools, and transfers between NYC public schools."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "Yes. According to the information available, you should book a virtual or in-person appointment at a Family Welcome Center."
+      },
+      {
+        "q": "Can I submit documents online?",
+        "a": "Yes. The information says required documents can be submitted online."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-streams-of-blessings-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:18.923Z",
+  "facts_hash": "e497c72234fa066e",
+  "article": {
+    "title_es": "Streams of Blessings Food Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "Streams of Blessings Food Pantry: food pantry in Brooklyn",
+    "summary_es": "Streams of Blessings Food Pantry es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los domingos, con días de despensa el primer y tercer domingo del mes.",
+    "summary_en": "Streams of Blessings Food Pantry is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open on Sundays, with pantry days on the 1st and 3rd Sunday of the month.",
+    "how_they_help_es": [
+      "Una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Ubicada en 579 Gates Ave, en Brooklyn.",
+      "Abre los domingos de 1:30pm a 2:30pm.",
+      "Los días de despensa son el primer y tercer domingo del mes.",
+      "Llame al (347) 433-7197 para preguntar qué alimentos entrega y si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "A food pantry listed on the City's Food Help NYC map.",
+      "Located at 579 Gates Ave in Brooklyn.",
+      "Open Sundays from 1:30pm to 2:30pm.",
+      "Pantry days are the 1st and 3rd Sunday of the month.",
+      "Call (347) 433-7197 to ask what food is given and any requirements."
+    ],
+    "visit_tips_es": [
+      "Planifique su visita el primer o tercer domingo del mes, cuando abre la despensa.",
+      "El horario es corto: de 1:30pm a 2:30pm los domingos.",
+      "Llame antes al (347) 433-7197 para confirmar que la despensa abrirá ese día."
+    ],
+    "visit_tips_en": [
+      "Plan to visit on the 1st or 3rd Sunday of the month, when the pantry is open.",
+      "Hours are short: 1:30pm to 2:30pm on Sundays.",
+      "Call ahead at (347) 433-7197 to confirm the pantry is open that day."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los domingos de 1:30pm a 2:30pm. Los días de despensa son el primer y tercer domingo del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 579 Gates Ave, Brooklyn, NY, 11221."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No aparece en la información disponible. Llame al (347) 433-7197 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Sundays from 1:30pm to 2:30pm. Pantry days are the 1st and 3rd Sunday of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 579 Gates Ave, Brooklyn, NY, 11221."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "That is not listed. Call (347) 433-7197 to ask before you visit."
+      }
+    ]
+  }
+}

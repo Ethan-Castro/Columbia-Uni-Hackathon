@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-international-rescue-committee-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:33.220Z",
+  "facts_hash": "9c0322ca7fccdf8e",
+  "article": {
+    "title_es": "International Rescue Committee: organización en la lista del DOJ en Manhattan",
+    "title_en": "International Rescue Committee: DOJ-listed organization in Manhattan",
+    "summary_es": "International Rescue Committee, Inc. es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está ubicada en el 122 East 42nd Street, piso 12, en Manhattan.",
+    "summary_en": "International Rescue Committee, Inc. is a nonprofit that appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located at 122 East 42nd Street, 12th Floor, in Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados por el DOJ pueden ofrecer ayuda legal en temas de inmigración.",
+      "La dirección es 122 East 42nd Street, 12th Floor, New York, NY 10168 (Manhattan).",
+      "Puede llamar al (212) 551-3000 para preguntar por sus servicios.",
+      "La lista no indica los honorarios ni cómo pedir una cita, así que conviene preguntar directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations and accredited representatives.",
+      "Recognized organizations are nonprofits whose DOJ-accredited representatives may give immigration legal help.",
+      "The address is 122 East 42nd Street, 12th Floor, New York, NY 10168 (Manhattan).",
+      "You can call (212) 551-3000 to ask about their services.",
+      "The list does not show fees or how to get an appointment, so it is best to ask directly."
+    ],
+    "visit_tips_es": [
+      "Antes de ir, llame al (212) 551-3000 para confirmar los horarios y preguntar cómo recibir ayuda.",
+      "Los horarios de atención no aparecen en la información disponible, así que confírmelos por teléfono.",
+      "Pregunte por teléfono si hay algún costo por los servicios, ya que los honorarios no están indicados."
+    ],
+    "visit_tips_en": [
+      "Before going, call (212) 551-3000 to confirm hours and ask how to get help.",
+      "Hours of operation are not listed in the available information, so confirm them by phone.",
+      "Ask by phone whether there is any cost for services, since fees are not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas, cuyos representantes acreditados pueden dar ayuda legal en temas de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los honorarios no aparecen en la lista del DOJ. Llame al (212) 551-3000 para preguntar si hay algún costo."
+      },
+      {
+        "q": "¿Cómo puedo pedir una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Le recomendamos llamar al (212) 551-3000 para preguntar cómo recibir ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a nonprofit that appears on the U.S. Department of Justice (EOIR) list of recognized organizations, whose accredited representatives may provide immigration legal help."
+      },
+      {
+        "q": "How much do the services cost?",
+        "a": "Fees are not listed on the DOJ roster. Call (212) 551-3000 to ask whether there is any cost."
+      },
+      {
+        "q": "How can I get an appointment?",
+        "a": "The intake process is not listed. We recommend calling (212) 551-3000 to ask how to get help."
+      }
+    ]
+  }
+}

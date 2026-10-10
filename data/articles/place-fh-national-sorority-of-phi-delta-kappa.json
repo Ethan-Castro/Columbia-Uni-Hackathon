@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-national-sorority-of-phi-delta-kappa",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:01.474Z",
+  "facts_hash": "60738ef07ced8ad8",
+  "article": {
+    "title_es": "National Sorority of Phi Delta Kappa: despensa de alimentos en Queens",
+    "title_en": "National Sorority of Phi Delta Kappa: food pantry in Queens",
+    "summary_es": "National Sorority of Phi Delta Kappa es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la Ciudad. Atiende los jueves de 11am a 1pm.",
+    "summary_en": "National Sorority of Phi Delta Kappa is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map. It is open Thursdays from 11am to 1pm.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 117-08 Merrick Blvd, Jamaica, Queens, 11434.",
+      "El horario de la despensa es los jueves de 11am a 1pm.",
+      "Puede llamar al (718) 723-1119 para más información.",
+      "La información no indica qué alimentos entrega ni los requisitos, así que pregunte antes."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 117-08 Merrick Blvd, Jamaica, Queens, 11434.",
+      "Pantry hours are Thursdays, 11am to 1pm.",
+      "You can call (718) 723-1119 for more information.",
+      "The listing does not say what food is given or any requirements, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende los jueves de 11am a 1pm.",
+      "Llame al (718) 723-1119 antes de ir para preguntar qué alimentos entrega y si piden algún requisito.",
+      "La dirección es 117-08 Merrick Blvd, Jamaica, New York, 11434."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Thursdays, 11am to 1pm.",
+      "Call (718) 723-1119 before visiting to ask about the food given and any requirements.",
+      "The address is 117-08 Merrick Blvd, Jamaica, New York, 11434."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Según la información, la despensa atiende los jueves de 11am a 1pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito?",
+        "a": "La información no lo indica. Puede llamar al (718) 723-1119 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The listing shows Thursdays, 11am to 1pm, for the pantry."
+      },
+      {
+        "q": "What food does it give, and what do I need?",
+        "a": "The listing does not say. You can call (718) 723-1119 to ask before you go."
+      }
+    ]
+  }
+}

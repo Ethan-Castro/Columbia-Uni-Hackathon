@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-love-wins-nyc-highbridge",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:51.903Z",
+  "facts_hash": "f782417729154d25",
+  "article": {
+    "title_es": "LOVE WINS NYC - Highbridge: despensa de alimentos en el Bronx",
+    "title_en": "LOVE WINS NYC - Highbridge: food pantry in the Bronx",
+    "summary_es": "LOVE WINS NYC - HIGHBRIDGE es una despensa de alimentos en el Bronx, en 1181 Nelson Ave. Abre los viernes de 12pm a 1pm, y la despensa es solo el segundo viernes del mes.",
+    "summary_en": "LOVE WINS NYC - HIGHBRIDGE is a food pantry in the Bronx, at 1181 Nelson Ave. It is open Fridays from 12pm to 1pm, and the pantry is on the 2nd Friday only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1181 Nelson Ave, Bronx, NY 10452.",
+      "Abre los viernes de 12pm a 1pm; la despensa es solo el segundo viernes del mes.",
+      "Puede llamar al (518) 350-4890 para preguntar qué alimentos entrega y si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1181 Nelson Ave, Bronx, NY 10452.",
+      "It is open Fridays from 12pm to 1pm; the pantry is on the 2nd Friday only.",
+      "You can call (518) 350-4890 to ask what food is given and if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya un viernes de 12pm a 1pm, pero recuerde que la despensa funciona solo el segundo viernes de cada mes.",
+      "Llame antes al (518) 350-4890 para confirmar el horario y preguntar qué necesita para recibir alimentos.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on a Friday from 12pm to 1pm, but remember the pantry runs on the 2nd Friday of the month only.",
+      "Call ahead at (518) 350-4890 to confirm the schedule and ask what is needed to receive food.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "No se indica qué alimentos da. Llame al (518) 350-4890 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los viernes de 12pm a 1pm, pero la despensa es solo el segundo viernes del mes."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "No se menciona ningún requisito. Llame al (518) 350-4890 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say what food is given. Call (518) 350-4890 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays from 12pm to 1pm, but the pantry is on the 2nd Friday of the month only."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "No requirements are listed. Call (518) 350-4890 to ask before you go."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-central-synagogue-caring-committee",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:45.113Z",
+  "facts_hash": "924cd90299878626",
+  "article": {
+    "title_es": "Central Synagogue Caring Committee: cocina comunitaria en Manhattan",
+    "title_en": "Central Synagogue Caring Committee: soup kitchen in Manhattan",
+    "summary_es": "Central Synagogue Caring Committee es una cocina comunitaria en Manhattan, incluida en el mapa Food Help NYC de la ciudad. Sirve comida en la mañana de martes a viernes.",
+    "summary_en": "Central Synagogue Caring Committee is a soup kitchen in Manhattan, listed on the City's Food Help NYC map. It serves food in the morning Tuesday through Friday.",
+    "how_they_help_es": [
+      "Es una cocina comunitaria según el mapa Food Help NYC.",
+      "Está ubicada en 123 E 55th St, Nueva York, NY 10022.",
+      "Abre martes, jueves y viernes de 6:30am a 7:30am.",
+      "Puede llamar al (212) 838-5122 para preguntar.",
+      "La lista no indica qué alimentos ofrece ni requisitos; pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a soup kitchen listed on the Food Help NYC map.",
+      "It is located at 123 E 55th St, New York, NY 10022.",
+      "It is open Tuesday, Thursday and Friday, 6:30am to 7:30am.",
+      "You can call (212) 838-5122 with questions.",
+      "The listing does not say what food is given or any requirements; ask before going."
+    ],
+    "visit_tips_es": [
+      "El horario es corto: de 6:30am a 7:30am.",
+      "Llame primero al (212) 838-5122 para confirmar detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The hours are short: 6:30am to 7:30am.",
+      "Call (212) 838-5122 first to confirm details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué ofrece este lugar?",
+        "a": "Según la lista, es una cocina comunitaria. No se indica qué alimentos sirve; pregunte por teléfono."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Martes, jueves y viernes de 6:30am a 7:30am."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos. Llame al (212) 838-5122 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does this place offer?",
+        "a": "According to the listing, it is a soup kitchen. What food is served is not listed; ask by phone."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesday, Thursday and Friday, 6:30am to 7:30am."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements. Call (212) 838-5122 to ask before going."
+      }
+    ]
+  }
+}

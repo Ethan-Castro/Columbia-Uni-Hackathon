@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-zero-hunger-campaign-ccso-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:26.460Z",
+  "facts_hash": "d6673fd99b2b732b",
+  "article": {
+    "title_es": "Zero Hunger Campaign (CCSO): despensa de alimentos en Elmhurst, Queens",
+    "title_en": "Zero Hunger Campaign (CCSO): food pantry in Elmhurst, Queens",
+    "summary_es": "Zero Hunger Campaign (CCSO) es una despensa de alimentos en Elmhurst, Queens, que aparece en el mapa Food Help NYC de la Ciudad. Ofrece horas de despensa los miércoles y viernes por la mañana.",
+    "summary_en": "Zero Hunger Campaign (CCSO) is a food pantry in Elmhurst, Queens, listed on the City's Food Help NYC map. It offers pantry hours on Wednesday and Friday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Ofrece horas de despensa los miércoles y los viernes.",
+      "Está ubicada en 93-15 Corona Ave, Elmhurst, Queens.",
+      "Puede llamar al (332) 228-8584 para más información.",
+      "Los alimentos que entrega y los requisitos no aparecen en la lista; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It offers pantry hours on Wednesday and Friday.",
+      "It is located at 93-15 Corona Ave, Elmhurst, Queens.",
+      "You can call (332) 228-8584 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "Las horas de despensa son los miércoles de 10am a 1pm y los viernes de 10am a 1pm.",
+      "Llame al (332) 228-8584 antes de ir para confirmar los detalles.",
+      "La dirección es 93-15 Corona Ave, Elmhurst, NY, 11373."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wednesday 10am-1pm and Friday 10am-1pm.",
+      "Call (332) 228-8584 before visiting to confirm details.",
+      "The address is 93-15 Corona Ave, Elmhurst, NY, 11373."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Zero Hunger Campaign (CCSO)?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "La despensa atiende los miércoles de 10am a 1pm y los viernes de 10am a 1pm."
+      },
+      {
+        "q": "¿Cómo sé qué llevar?",
+        "a": "Llame al (332) 228-8584 para preguntar sobre los requisitos y los alimentos que ofrece."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Zero Hunger Campaign (CCSO)?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Pantry hours are Wednesday 10am-1pm and Friday 10am-1pm."
+      },
+      {
+        "q": "How do I know what to bring?",
+        "a": "Call (332) 228-8584 to ask about requirements and the food offered."
+      }
+    ]
+  }
+}

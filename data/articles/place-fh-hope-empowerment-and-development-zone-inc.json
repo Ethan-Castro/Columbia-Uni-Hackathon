@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-hope-empowerment-and-development-zone-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:27.011Z",
+  "facts_hash": "fbecd259401153cb",
+  "article": {
+    "title_es": "HOPE Empowerment and Development Zone: despensa de alimentos en Brooklyn",
+    "title_en": "HOPE Empowerment and Development Zone: food pantry in Brooklyn",
+    "summary_es": "HOPE Empowerment and Development Zone Inc es una despensa de alimentos en Brooklyn, aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 12pm a 4pm, y la despensa funciona solo el tercer viernes del mes.",
+    "summary_en": "HOPE Empowerment and Development Zone Inc is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Saturdays 12pm-4pm, and the pantry runs on the 3rd Friday only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 369 New Lots Ave, Brooklyn, NY 11207.",
+      "Abre los sábados de 12pm a 4pm; la despensa es solo el tercer viernes del mes.",
+      "Puede llamar al (718) 568-7072 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 369 New Lots Ave, Brooklyn, NY 11207.",
+      "It is open Saturdays 12pm-4pm; the pantry runs on the 3rd Friday only.",
+      "You can call (718) 568-7072 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Los horarios son limitados: sábados de 12pm a 4pm, y la despensa solo el tercer viernes del mes.",
+      "Llame al (718) 568-7072 antes de ir para confirmar los días y horarios.",
+      "La lista no explica qué alimentos se entregan ni qué se necesita; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Hours are limited: Saturdays 12pm-4pm, and the pantry runs on the 3rd Friday only.",
+      "Call (718) 568-7072 before going to confirm days and times.",
+      "The listing does not explain what food is given or what is needed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está y cuándo abre?",
+        "a": "Está en 369 New Lots Ave, Brooklyn, NY 11207. Abre sábados de 12pm a 4pm; la despensa funciona solo el tercer viernes del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "La lista no lo indica. Llame al (718) 568-7072 para preguntar qué alimentos ofrece y si pide algún requisito."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "El teléfono que aparece en la lista es (718) 568-7072. No hay correo electrónico ni sitio web en la información disponible."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it and when is it open?",
+        "a": "It is at 369 New Lots Ave, Brooklyn, NY 11207. It is open Saturdays 12pm-4pm; the pantry runs on the 3rd Friday only."
+      },
+      {
+        "q": "What food does it give and what do I need?",
+        "a": "The listing does not say. Call (718) 568-7072 to ask what food is offered and if there are any requirements."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "The phone number listed is (718) 568-7072. No email or website is listed in the available information."
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "place_id": "place-nyc-hh-gotham-jackson-heights",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:53.559Z",
+  "facts_hash": "b0ecd469666f454c",
+  "article": {
+    "title_es": "NYC Health + Hospitals/Gotham Health: clínica en Jackson Heights",
+    "title_en": "NYC Health + Hospitals/Gotham Health: clinic in Jackson Heights",
+    "summary_es": "Clínica de NYC Health + Hospitals en Jackson Heights, Queens. Ofrece información sobre NYC Care, un programa de atención médica asequible para neoyorquinos que no tienen ni pueden pagar un seguro médico.",
+    "summary_en": "A NYC Health + Hospitals clinic in Jackson Heights, Queens. It offers information about NYC Care, an affordable health care program for New Yorkers who don't have and can't afford health insurance.",
+    "how_they_help_es": [
+      "Es un centro de salud de NYC Health + Hospitals en Queens.",
+      "Puede ayudarle a inscribirse en NYC Care, según el listado.",
+      "NYC Care ofrece atención médica asequible para quienes no tienen seguro.",
+      "Puede llamar al 646-NYC-CARE (646-692-2273) para inscribirse por teléfono.",
+      "Los servicios específicos y los costos no están detallados; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "It is a NYC Health + Hospitals health center in Queens.",
+      "It can help you enroll in NYC Care, according to the listing.",
+      "NYC Care offers affordable health care for people without insurance.",
+      "You can call 646-NYC-CARE (646-692-2273) to enroll by phone.",
+      "Specific services and costs are not listed; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Dirección: 34-33 Junction Boulevard, Jackson Heights, NY 11372.",
+      "Teléfono: 718-334-6150. Llame antes para preguntar por servicios y horarios.",
+      "Para NYC Care, lleve prueba de identificación, residencia en NYC, ingresos y tamaño del hogar.",
+      "Si ya fue evaluado en el Marketplace de NY State of Health, puede llevar ese resultado impreso."
+    ],
+    "visit_tips_en": [
+      "Address: 34-33 Junction Boulevard, Jackson Heights, NY 11372.",
+      "Phone: 718-334-6150. Call ahead to ask about services and hours.",
+      "For NYC Care, bring proof of identification, NYC residency, income, and household size.",
+      "If you were already screened through the NYS of Health Marketplace, you can bring a printout of the results."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es NYC Care?",
+        "a": "Es un programa de atención médica asequible en NYC Health + Hospitals para neoyorquinos que no tienen ni pueden pagar un seguro médico."
+      },
+      {
+        "q": "¿Quién califica para NYC Care?",
+        "a": "Según el listado: vivir en NYC, no tener seguro del empleador, no calificar para planes en Nueva York y no poder pagarlo según las guías del gobierno."
+      },
+      {
+        "q": "¿Cómo me inscribo en NYC Care?",
+        "a": "Llame al 646-NYC-CARE (646-692-2273), visite una ubicación de NYC Health + Hospitals, una organización comunitaria o una oficina de MetroPlusHealth."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is NYC Care?",
+        "a": "It is an affordable health care program at NYC Health + Hospitals for New Yorkers who don't have and can't afford health insurance."
+      },
+      {
+        "q": "Who qualifies for NYC Care?",
+        "a": "According to the listing: live in NYC, have no employer insurance, don't qualify for plans in New York State, and can't afford insurance by government guidelines."
+      },
+      {
+        "q": "How do I enroll in NYC Care?",
+        "a": "Call 646-NYC-CARE (646-692-2273), visit an NYC Health + Hospitals location, a community-based organization, or a MetroPlusHealth office."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-jewish-community-council-of-pelham-parkway",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:40.876Z",
+  "facts_hash": "dedc59d1760afe6b",
+  "article": {
+    "title_es": "Jewish Community Council of Pelham Parkway: despensa de alimentos en el Bronx",
+    "title_en": "Jewish Community Council of Pelham Parkway: food pantry in the Bronx",
+    "summary_es": "El Jewish Community Council of Pelham Parkway es una despensa de alimentos en el Bronx, aparecida en el mapa Food Help NYC de la ciudad. Abre los jueves de 11 am a 3 pm.",
+    "summary_en": "The Jewish Community Council of Pelham Parkway is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Thursdays from 11am to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 2157 Holland Ave, Bronx, NY 10462.",
+      "Abre los jueves de 11 am a 3 pm para la despensa.",
+      "Puede llamar al (718) 792-4744 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 2157 Holland Ave, Bronx, NY 10462.",
+      "It is open Thursdays from 11am to 3pm for the pantry.",
+      "You can call (718) 792-4744 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los jueves de 11 am a 3 pm.",
+      "Llame al (718) 792-4744 antes de ir para confirmar los detalles.",
+      "La lista no indica qué alimentos hay ni qué se necesita; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Thursdays from 11am to 3pm.",
+      "Call (718) 792-4744 before going to confirm details.",
+      "The listing does not say what food is given or what is needed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 2157 Holland Ave, Bronx, New York, 10462."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 11 am a 3 pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No está en la lista. Llame al (718) 792-4744 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 2157 Holland Ave, Bronx, New York, 10462."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 11am to 3pm."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "That is not listed. Call (718) 792-4744 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-jesus-reconciliation-ministries-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:49.202Z",
+  "facts_hash": "ca5d615fbb6899f6",
+  "article": {
+    "title_es": "JESUS Reconciliation Ministries: despensa de alimentos en el Bronx",
+    "title_en": "JESUS Reconciliation Ministries: food pantry in the Bronx",
+    "summary_es": "JESUS Reconciliation Ministries es una despensa de alimentos en el Bronx, en la avenida Barnes. Abre los sábados de 12pm a 2pm, solo el segundo y el cuarto sábado del mes.",
+    "summary_en": "JESUS Reconciliation Ministries is a food pantry in the Bronx, on Barnes Avenue. It is open Saturdays from 12pm to 2pm, on the 2nd and 4th Saturday only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC.",
+      "Está en 4051 Barnes Ave, Bronx, NY 10466.",
+      "Abre los sábados de 12pm a 2pm, solo el segundo y el cuarto sábado del mes.",
+      "Puede llamar al (718) 844-8704 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 4051 Barnes Ave, Bronx, NY 10466.",
+      "It is open Saturdays from 12pm to 2pm, on the 2nd and 4th Saturday only.",
+      "You can call (718) 844-8704 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado, porque solo abre de 12pm a 2pm.",
+      "Recuerde que solo atiende el segundo y el cuarto sábado de cada mes.",
+      "Llame antes al (718) 844-8704 para confirmar que está abierta."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday, since it is only open from 12pm to 2pm.",
+      "Remember it is open only on the 2nd and 4th Saturday of each month.",
+      "Call ahead at (718) 844-8704 to confirm it is open."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué días abre la despensa?",
+        "a": "Los sábados de 12pm a 2pm, solo el segundo y el cuarto sábado del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 4051 Barnes Ave, Bronx, NY 10466."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está indicado en la lista. Llame al (718) 844-8704 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What days is the pantry open?",
+        "a": "Saturdays from 12pm to 2pm, on the 2nd and 4th Saturday of the month only."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 4051 Barnes Ave, Bronx, NY 10466."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "This is not listed. Call (718) 844-8704 to ask."
+      }
+    ]
+  }
+}

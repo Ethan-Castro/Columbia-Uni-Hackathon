@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-little-jerusalem-house-of-prayer",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:15.673Z",
+  "facts_hash": "c50e9d40d338308b",
+  "article": {
+    "title_es": "Little Jerusalem House of Prayer: despensa de alimentos en Brooklyn",
+    "title_en": "Little Jerusalem House of Prayer: food pantry in Brooklyn",
+    "summary_es": "Little Jerusalem House of Prayer es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados, según el horario indicado.",
+    "summary_en": "Little Jerusalem House of Prayer is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open on Saturdays, according to the listed hours.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 447 Herzl St, Brooklyn, NY 11212.",
+      "Abre los sábados de 1pm a 1pm, la despensa abre el 2.º y 4.º sábado.",
+      "Puede llamar al (917) 992-5975 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 447 Herzl St, Brooklyn, NY 11212.",
+      "It is open Saturdays 1pm-1pm; the pantry is open the 2nd & 4th Saturday.",
+      "You can call (917) 992-5975 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre el 2.º y 4.º sábado del mes, de 1pm a 1pm.",
+      "Antes de ir, llame al (917) 992-5975 para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona requisitos ni documentos, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open the 2nd & 4th Saturday of the month, 1pm-1pm.",
+      "Before going, call (917) 992-5975 to confirm the schedule and ask what you need.",
+      "The listing does not mention requirements or documents, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada la despensa?",
+        "a": "En 447 Herzl St, Brooklyn, New York, 11212."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Sábados de 1pm a 1pm; la despensa abre el 2.º y 4.º sábado del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no lo indica. Llame al (917) 992-5975 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 447 Herzl St, Brooklyn, New York, 11212."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Saturdays 1pm-1pm; the pantry is open the 2nd & 4th Saturday of the month."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "The listing does not say. Call (917) 992-5975 to ask before going."
+      }
+    ]
+  }
+}

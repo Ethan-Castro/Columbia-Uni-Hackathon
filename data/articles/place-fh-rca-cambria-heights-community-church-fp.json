@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-rca-cambria-heights-community-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:39.708Z",
+  "facts_hash": "8c1a26d785454664",
+  "article": {
+    "title_es": "RCA Cambria Heights Community Church: despensa de alimentos en Queens",
+    "title_en": "RCA Cambria Heights Community Church: food pantry in Queens",
+    "summary_es": "RCA Cambria Heights Community Church es una despensa de alimentos en Cambria Heights, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 9 am a 11 am.",
+    "summary_en": "RCA Cambria Heights Community Church is a food pantry in Cambria Heights, Queens, listed on the City's Food Help NYC map. It is open Saturdays from 9am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 116-12 220th St, Cambria Heights, NY, 11411.",
+      "Abre los sábados de 9 am a 11 am.",
+      "La despensa funciona el cuarto sábado del mes.",
+      "Puede llamar al (718) 528-2138 para preguntar qué alimentos ofrece."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 116-12 220th St, Cambria Heights, NY, 11411.",
+      "It is open Saturdays from 9am to 11am.",
+      "The pantry runs on the 4th Saturday of the month.",
+      "You can call (718) 528-2138 to ask what food is offered."
+    ],
+    "visit_tips_es": [
+      "Vaya el cuarto sábado del mes, que es cuando funciona la despensa.",
+      "El horario es de 9 am a 11 am los sábados.",
+      "Llame al (718) 528-2138 antes de ir para confirmar los detalles."
+    ],
+    "visit_tips_en": [
+      "Go on the 4th Saturday of the month, when the pantry runs.",
+      "Hours are 9am to 11am on Saturdays.",
+      "Call (718) 528-2138 before going to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "No está indicado. Llame al (718) 528-2138 para preguntar qué alimentos ofrece."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 9 am a 11 am. La despensa funciona el cuarto sábado del mes."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "No hay requisitos indicados en la información disponible. Llame al (718) 528-2138 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give out?",
+        "a": "It is not listed. Call (718) 528-2138 to ask what food is offered."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 9am to 11am. The pantry runs on the 4th Saturday of the month."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "No requirements are listed in the available information. Call (718) 528-2138 to ask before going."
+      }
+    ]
+  }
+}

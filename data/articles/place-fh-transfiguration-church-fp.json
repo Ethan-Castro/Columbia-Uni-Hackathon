@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-transfiguration-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:02.046Z",
+  "facts_hash": "ef32b2e4b137acf2",
+  "article": {
+    "title_es": "Transfiguration Church (FP): despensa de alimentos en Brooklyn",
+    "title_en": "Transfiguration Church (FP): food pantry in Brooklyn",
+    "summary_es": "Transfiguration Church (FP) es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Está ubicada en 280 Marcy Ave y abre los martes y miércoles por la mañana.",
+    "summary_en": "Transfiguration Church (FP) is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is located at 280 Marcy Ave and opens Tuesday and Wednesday mornings.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad",
+      "Ubicada en 280 Marcy Ave, en Brooklyn",
+      "Abre martes y miércoles de 9am a 12pm (horario de la despensa)",
+      "Teléfono: (718) 782-8181",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono"
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map",
+      "Located at 280 Marcy Ave in Brooklyn",
+      "Open Tuesday and Wednesday, 9am-12pm (pantry hours)",
+      "Phone: (718) 782-8181",
+      "What food is given and any requirements are not listed, so ask by phone"
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes y miércoles de 9am a 12pm",
+      "Llame al (718) 782-8181 antes de ir para confirmar los detalles",
+      "Pregunte qué alimentos ofrece y si necesita llevar algo, ya que la lista no lo indica"
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday and Wednesday, 9am-12pm",
+      "Call (718) 782-8181 before visiting to confirm details",
+      "Ask what food is offered and if anything is needed, since this is not listed"
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Transfiguration Church (FP)?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Martes y miércoles de 9am a 12pm (horario de la despensa)."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "No está indicado. Llame al (718) 782-8181 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Transfiguration Church (FP)?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday and Wednesday, 9am-12pm (pantry hours)."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "This is not listed. Call (718) 782-8181 to ask before visiting."
+      }
+    ]
+  }
+}

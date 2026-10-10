@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-saint-teresa-church-saint-vincent-depaul-soc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:39.690Z",
+  "facts_hash": "a94889c942b59369",
+  "article": {
+    "title_es": "Iglesia Saint Teresa: despensa de alimentos en Woodside, Queens",
+    "title_en": "Saint Teresa Church: food pantry in Woodside, Queens",
+    "summary_es": "La Sociedad de San Vicente de Paúl de la Iglesia Saint Teresa aparece en el mapa Food Help NYC como despensa de alimentos en Woodside, Queens.",
+    "summary_en": "The Saint Vincent de Paul Society at Saint Teresa Church appears on the City's Food Help NYC map as a food pantry in Woodside, Queens.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 50-20 45th St, Woodside, Queens, NY 11377.",
+      "Atiende los martes de 4pm a 5:30pm.",
+      "Puede llamar al (718) 784-2123 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 50-20 45th St, Woodside, Queens, NY 11377.",
+      "It is open Tuesdays from 4pm to 5:30pm.",
+      "You can call (718) 784-2123 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los martes de 4pm a 5:30pm.",
+      "Llame antes de ir para confirmar horarios y detalles.",
+      "La dirección es 50-20 45th St, Woodside, Queens."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Tuesdays from 4pm to 5:30pm.",
+      "Call before going to confirm hours and details.",
+      "The address is 50-20 45th St, Woodside, Queens."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos. No se indica qué alimentos entrega; pregunte por teléfono."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los martes de 4pm a 5:30pm, según la lista."
+      },
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 50-20 45th St, Woodside, Queens, NY 11377."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It appears on the Food Help NYC map as a food pantry. What food is given is not listed; ask by phone."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays from 4pm to 5:30pm, according to the listing."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 50-20 45th St, Woodside, Queens, NY 11377."
+      }
+    ]
+  }
+}

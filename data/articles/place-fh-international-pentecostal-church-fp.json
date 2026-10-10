@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-international-pentecostal-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:29.580Z",
+  "facts_hash": "443a2452070584fd",
+  "article": {
+    "title_es": "International Pentecostal Church: despensa de alimentos en Manhattan",
+    "title_en": "International Pentecostal Church: food pantry in Manhattan",
+    "summary_es": "International Pentecostal Church es una despensa de alimentos en Washington Heights, Manhattan, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "International Pentecostal Church is a food pantry in Washington Heights, Manhattan, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 619 W 179th St, Nueva York, NY 10033.",
+      "Abre los martes de 11:30am a 3:30pm y los viernes de 12pm a 3pm.",
+      "Puede llamar al (212) 568-3531 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 619 W 179th St, New York, NY 10033.",
+      "It is open Tuesdays 11:30am-3:30pm and Fridays 12pm-3pm.",
+      "You can call (212) 568-3531 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Horario de despensa: martes de 11:30am a 3:30pm y viernes de 12pm a 3pm.",
+      "Llame al (212) 568-3531 antes de ir para confirmar el horario.",
+      "Pregunte por teléfono qué alimentos ofrecen y qué necesita traer."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Tuesdays 11:30am-3:30pm and Fridays 12pm-3pm.",
+      "Call (212) 568-3531 before going to confirm the schedule.",
+      "Ask by phone what food they offer and what you need to bring."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (212) 568-3531 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Martes de 11:30am a 3:30pm y viernes de 12pm a 3pm."
+      },
+      {
+        "q": "¿Hay requisitos para recibir alimentos?",
+        "a": "No se indican requisitos en la lista. Llame antes de ir para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (212) 568-3531 to ask."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays 11:30am-3:30pm and Fridays 12pm-3pm."
+      },
+      {
+        "q": "Are there requirements to receive food?",
+        "a": "No requirements are listed. Call ahead to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-collective-focus-food-justice-pantry-program",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:25.304Z",
+  "facts_hash": "7419c84c0be13712",
+  "article": {
+    "title_es": "Collective Focus: despensa de alimentos en Brooklyn",
+    "title_en": "Collective Focus: food pantry in Brooklyn",
+    "summary_es": "Collective Focus Food Justice Pantry Program es una despensa de alimentos en Brooklyn, en la avenida Broadway. Abre los martes de 1pm a 3pm.",
+    "summary_en": "Collective Focus Food Justice Pantry Program is a food pantry in Brooklyn, on Broadway. It is open Tuesdays from 1pm to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1046 Broadway, Brooklyn, NY, 11221.",
+      "Abre los martes de 1pm a 3pm para la despensa.",
+      "Puede llamar al (724) 584-8501 para más información.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1046 Broadway, Brooklyn, NY, 11221.",
+      "It is open Tuesdays from 1pm to 3pm for the pantry.",
+      "You can call (724) 584-8501 for more information.",
+      "The listing does not say what food is given or if there are requirements; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Vaya los martes entre 1pm y 3pm, que es el horario de la despensa.",
+      "Llame antes al (724) 584-8501 para confirmar el horario y preguntar qué necesita.",
+      "La dirección es 1046 Broadway, Brooklyn, NY, 11221."
+    ],
+    "visit_tips_en": [
+      "Go on Tuesdays between 1pm and 3pm, which is the pantry's hours.",
+      "Call ahead at (724) 584-8501 to confirm the schedule and ask what you need.",
+      "The address is 1046 Broadway, Brooklyn, NY, 11221."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes de 1pm a 3pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no lo indica. Llame al (724) 584-8501 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays from 1pm to 3pm."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "The listing does not say. Call (724) 584-8501 to ask."
+      }
+    ]
+  }
+}

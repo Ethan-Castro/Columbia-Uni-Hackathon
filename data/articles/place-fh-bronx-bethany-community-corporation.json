@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bronx-bethany-community-corporation",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:06.046Z",
+  "facts_hash": "ac4a08cee575b97a",
+  "article": {
+    "title_es": "Bronx Bethany Community Corporation: despensa de alimentos en el Bronx",
+    "title_en": "Bronx Bethany Community Corporation: food pantry in the Bronx",
+    "summary_es": "Bronx Bethany Community Corporation es una despensa de alimentos en el Bronx, en la calle 971 E 227th St. Abre los miércoles y jueves, con algunos cambios de horario.",
+    "summary_en": "Bronx Bethany Community Corporation is a food pantry in the Bronx, at 971 E 227th St. It opens on Wednesdays and Thursdays, with some schedule changes.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 971 E 227th St, Bronx, NY 10466.",
+      "Abre los miércoles de 9am a 11am y los jueves de 3pm a 6pm.",
+      "No abre la despensa el quinto miércoles o jueves del mes.",
+      "Puede llamar al (718) 697-9672 para preguntar qué alimentos entrega y si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 971 E 227th St, Bronx, NY 10466.",
+      "It is open Wednesdays 9am-11am and Thursdays 3pm-6pm.",
+      "The pantry is not open on the 5th Wednesday or Thursday of the month.",
+      "You can call (718) 697-9672 to ask what food is given and if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Verifique el calendario: la despensa no abre el quinto miércoles o jueves del mes.",
+      "Llame al (718) 697-9672 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Check the calendar: the pantry is not open on the 5th Wednesday or Thursday of the month.",
+      "Call (718) 697-9672 before going to confirm the hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el listado, es una despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos."
+      },
+      {
+        "q": "¿Cuándo puede visitar la despensa?",
+        "a": "Miércoles de 9am a 11am y jueves de 3pm a 6pm, excepto el quinto miércoles o jueves del mes."
+      },
+      {
+        "q": "¿Cómo puedo obtener más información?",
+        "a": "Llame al (718) 697-9672 para preguntar sobre los alimentos, los requisitos y el horario."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. What food is given and any requirements are not listed."
+      },
+      {
+        "q": "When can I visit the pantry?",
+        "a": "Wednesdays 9am-11am and Thursdays 3pm-6pm, except on the 5th Wednesday or Thursday of the month."
+      },
+      {
+        "q": "How can I get more information?",
+        "a": "Call (718) 697-9672 to ask about the food, any requirements, and the hours."
+      }
+    ]
+  }
+}

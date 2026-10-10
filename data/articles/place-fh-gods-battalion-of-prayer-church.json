@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-gods-battalion-of-prayer-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:08.317Z",
+  "facts_hash": "dd89c344324e2a36",
+  "article": {
+    "title_es": "God's Battalion of Prayer Church: despensa de alimentos en Brooklyn",
+    "title_en": "God's Battalion of Prayer Church: food pantry in Brooklyn",
+    "summary_es": "God's Battalion of Prayer Church es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los martes y jueves por la mañana.",
+    "summary_en": "God's Battalion of Prayer Church is a food pantry in Brooklyn listed on the City's Food Help NYC map. It opens on Tuesday and Thursday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los martes de 9am a 12pm.",
+      "También reparte alimentos los jueves de 9am a 12pm.",
+      "Está ubicada en 661 Linden Blvd, Brooklyn, NY 11203.",
+      "La lista no indica qué alimentos da ni si hay requisitos; llame para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Tuesdays from 9am to 12pm.",
+      "It also distributes food on Thursdays from 9am to 12pm.",
+      "It is located at 661 Linden Blvd, Brooklyn, NY 11203.",
+      "The listing does not say what food is given or if there are requirements; call to ask."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes y jueves de 9am a 12pm.",
+      "Antes de ir, puede llamar al (718) 774-5447 para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Tuesday and Thursday, 9am to 12pm.",
+      "Before going, you can call (718) 774-5447 to confirm the hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los martes y jueves de 9am a 12pm, según la lista."
+      },
+      {
+        "q": "¿Qué alimentos da y qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (718) 774-5447 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays and Thursdays from 9am to 12pm, according to the listing."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "The listing does not say. Call (718) 774-5447 to ask before going."
+      }
+    ]
+  }
+}

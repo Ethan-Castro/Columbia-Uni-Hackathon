@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-father-creavins-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:52.661Z",
+  "facts_hash": "12e2ac434ea9451f",
+  "article": {
+    "title_es": "Father Creavin's Food Pantry: despensa de alimentos en Manhattan",
+    "title_en": "Father Creavin's Food Pantry: food pantry in Manhattan",
+    "summary_es": "Father Creavin's Food Pantry es una despensa de alimentos en Manhattan, en la calle 151 Oeste. Abre los martes de 9 a.m. a 11 a.m.",
+    "summary_en": "Father Creavin's Food Pantry is a food pantry in Manhattan on West 151st Street. It is open on Tuesdays from 9am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 276 W 151st St, Nueva York, NY 10039, en Manhattan.",
+      "Atiende los martes de 9 a.m. a 11 a.m. (despensa).",
+      "Puede llamar al (212) 281-2100 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 276 W 151st St, New York, NY 10039, in Manhattan.",
+      "It is open on Tuesdays from 9am to 11am (pantry).",
+      "You can call (212) 281-2100 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los martes de 9 a.m. a 11 a.m.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito; pregunte por teléfono al (212) 281-2100.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; confirme el horario antes de ir."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are only on Tuesdays from 9am to 11am.",
+      "The listing does not say what food is given or if there are any requirements; call (212) 281-2100 to ask.",
+      "The information was last checked on October 10, 2026; confirm the hours before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 276 W 151st St, Nueva York, NY 10039, en Manhattan."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Los martes de 9 a.m. a 11 a.m. (despensa)."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (212) 281-2100 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry?",
+        "a": "At 276 W 151st St, New York, NY 10039, in Manhattan."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Tuesdays from 9am to 11am (pantry)."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "The listing does not say. Call (212) 281-2100 to ask before going."
+      }
+    ]
+  }
+}

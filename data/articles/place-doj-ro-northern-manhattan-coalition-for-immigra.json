@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-northern-manhattan-coalition-for-immigra",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:37.161Z",
+  "facts_hash": "6872f88acc4593a1",
+  "article": {
+    "title_es": "Northern Manhattan Coalition for Immigrant Rights: ayuda legal de inmigración en Manhattan",
+    "title_en": "Northern Manhattan Coalition for Immigrant Rights: immigration legal help in Manhattan",
+    "summary_es": "La Northern Manhattan Coalition for Immigrant Rights (NMCIR) es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración. Está ubicada en 5030 Broadway, suite 639, en Manhattan.",
+    "summary_en": "The Northern Manhattan Coalition for Immigrant Rights (NMCIR) is a nonprofit that appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help. It is located at 5030 Broadway, suite 639, in Manhattan.",
+    "how_they_help_es": [
+      "Es una organización sin fines de lucro reconocida por el Departamento de Justicia (EOIR).",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 5030 Broadway, suite 639, Nueva York, NY 10034 (Manhattan).",
+      "Puede llamar al (212) 781-0355 para preguntar por sus servicios.",
+      "La lista no indica los costos ni cómo agendar una cita; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a nonprofit recognized by the Department of Justice (EOIR).",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "It is located at 5030 Broadway, suite 639, New York, NY 10034 (Manhattan).",
+      "You can call (212) 781-0355 to ask about their services.",
+      "The listing does not show fees or how to make an appointment; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para preguntar por sus servicios y cómo agendar una cita.",
+      "Pregunte por teléfono si hay algún costo por sus servicios.",
+      "La oficina está en la calle 5030 Broadway, suite 639, en Manhattan."
+    ],
+    "visit_tips_en": [
+      "Call before visiting to ask about their services and how to make an appointment.",
+      "Ask by phone whether there is any cost for their services.",
+      "The office is at 5030 Broadway, suite 639, in Manhattan."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas, cuyos representantes acreditados pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "La lista no indica los costos. Llame al (212) 781-0355 para preguntar."
+      },
+      {
+        "q": "¿Cómo puedo agendar una cita?",
+        "a": "El proceso para agendar citas no aparece en la lista. Llame al (212) 781-0355 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a nonprofit listed on the U.S. Department of Justice (EOIR) roster of recognized organizations, whose accredited representatives may provide immigration legal help."
+      },
+      {
+        "q": "How much do their services cost?",
+        "a": "The listing does not show fees. Call (212) 781-0355 to ask."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The appointment process is not listed. Call (212) 781-0355 to ask."
+      }
+    ]
+  }
+}

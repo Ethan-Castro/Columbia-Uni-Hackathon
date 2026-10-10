@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-good-neighbor-community-outreach-agency-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:14.905Z",
+  "facts_hash": "a9c9b683d0fa4e7d",
+  "article": {
+    "title_es": "Good Neighbor Community Outreach: despensa de alimentos en el Bronx",
+    "title_en": "Good Neighbor Community Outreach: food pantry in the Bronx",
+    "summary_es": "Good Neighbor Community Outreach Agency Inc es una despensa de alimentos en el Bronx, en el mapa Food Help NYC de la ciudad. Abre los miércoles y viernes.",
+    "summary_en": "Good Neighbor Community Outreach Agency Inc is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open on Wednesdays and Fridays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 3356 Seymour Ave, Bronx, NY 10469.",
+      "Abre los miércoles de 12pm a 2pm y los viernes de 7pm a 9pm.",
+      "Puede llamar al (718) 652-3288 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 3356 Seymour Ave, Bronx, NY 10469.",
+      "It is open Wednesdays 12pm-2pm and Fridays 7pm-9pm.",
+      "You can call (718) 652-3288 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Las horas de la despensa son miércoles de 12pm a 2pm y viernes de 7pm a 9pm.",
+      "Llame antes al (718) 652-3288 para confirmar horarios y preguntar qué necesita llevar.",
+      "La lista no indica qué alimentos se entregan, así que pregunte al llegar o por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wednesdays 12pm-2pm and Fridays 7pm-9pm.",
+      "Call ahead at (718) 652-3288 to confirm hours and ask what to bring.",
+      "The listing does not say what food is given, so ask by phone or when you visit."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 3356 Seymour Ave, Bronx, New York, 10469."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Miércoles de 12pm a 2pm y viernes de 7pm a 9pm (despensa)."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No está en la lista. Llame al (718) 652-3288 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 3356 Seymour Ave, Bronx, New York, 10469."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Wednesdays 12pm-2pm and Fridays 7pm-9pm (pantry)."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "That is not listed. Call (718) 652-3288 to ask."
+      }
+    ]
+  }
+}

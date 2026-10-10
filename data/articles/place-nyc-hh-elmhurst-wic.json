@@ -1,0 +1,64 @@
+{
+  "place_id": "place-nyc-hh-elmhurst-wic",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:50.923Z",
+  "facts_hash": "12d0b993cf63093a",
+  "article": {
+    "title_es": "Programa WIC de NYC Health + Hospitals/Elmhurst: ayuda de nutrición en Queens",
+    "title_en": "NYC Health + Hospitals/Elmhurst WIC Program: nutrition help in Queens",
+    "summary_es": "El programa WIC en NYC Health + Hospitals/Elmhurst, en Queens, ofrece beneficios mensuales de comida, apoyo de nutrición y lactancia, y chequeos de salud para personas embarazadas y familias con niños de 0 a 5 años.",
+    "summary_en": "The WIC program at NYC Health + Hospitals/Elmhurst in Queens offers monthly food benefits, nutrition and breastfeeding support, and health screenings for pregnant people and families with children ages 0 to 5.",
+    "how_they_help_es": [
+      "Beneficios mensuales de comida para personas embarazadas y familias con niños de 0 a 5 años.",
+      "Apoyo de nutrición y ayuda con la lactancia.",
+      "Chequeos de salud para los participantes.",
+      "Abierto a padres, abuelos, padres de acogida y otros cuidadores principales.",
+      "La oficina le dirá qué llevar a su cita."
+    ],
+    "how_they_help_en": [
+      "Monthly food benefits for pregnant people and families with children ages 0 to 5.",
+      "Nutrition support and breastfeeding help.",
+      "Health screenings for participants.",
+      "Open to dads, grandparents, foster parents, and other primary caregivers.",
+      "The office will tell you what to bring to your appointment."
+    ],
+    "visit_tips_es": [
+      "Llame al 718-334-3265 antes de su visita para programar una cita y preguntar qué debe llevar.",
+      "El horario es lunes y viernes de 8am a 5pm, y martes y jueves de 10am a 6pm.",
+      "También puede comenzar con Wanda, la asistente en línea de WIC, en el sitio web de WIC del estado de Nueva York para agilizar su cita."
+    ],
+    "visit_tips_en": [
+      "Call 718-334-3265 before your visit to schedule an appointment and ask what to bring.",
+      "Hours are Monday and Friday 8am-5pm, and Tuesday and Thursday 10am-6pm.",
+      "You can also start with Wanda, WIC's online assistant, on the New York State WIC website to speed up your appointment."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué debo llevar a mi cita?",
+        "a": "La oficina le dirá qué llevar. Algunos ejemplos: identificación, comprobante de domicilio, comprobante de ingresos (a menos que ya reciba uno de los beneficios mencionados) y formularios médicos si son necesarios."
+      },
+      {
+        "q": "¿Quién puede usar WIC?",
+        "a": "Puede ser elegible si vive en el estado de Nueva York y está embarazada o lo estuvo recientemente, es madre o padre reciente (hasta 6 meses), da pecho (hasta 1 año) o cuida a un niño menor de 5 años, incluidos padres, abuelos y padres de acogida. Su hogar también debe recibir SNAP, TANF, Medicaid, Head Start, Early Head Start o Essential Plan (niveles 1-4), o cumplir con los límites de ingresos indicados arriba."
+      },
+      {
+        "q": "¿Cómo solicito el programa?",
+        "a": "Comience con Wanda, la asistente en línea de WIC, en el sitio web de WIC del estado de Nueva York, o llame a esta oficina al 718-334-3265 o a la línea Growing Up Healthy (800-522-5006) para programar una cita por teléfono o en persona."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What should I bring to my appointment?",
+        "a": "The office will tell you what to bring. Examples include ID, proof of where you live, proof of income (unless you're already getting one of the listed benefits), and medical forms if needed."
+      },
+      {
+        "q": "Who can use WIC?",
+        "a": "You may be eligible if you live in New York State and are pregnant or recently pregnant, a new parent (up to 6 months), breastfeeding (up to 1 year), or caring for a child under 5 — including dads, grandparents, and foster parents. Your household must also get SNAP, TANF, Medicaid, Head Start, Early Head Start, or Essential Plan (Levels 1-4), or meet the income limits listed above."
+      },
+      {
+        "q": "How do I apply?",
+        "a": "Start with Wanda, WIC's online assistant, on the New York State WIC website, or call this office at 718-334-3265 or the Growing Up Healthy Hotline (800-522-5006) to schedule a phone or in-person appointment."
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "place_id": "place-payomatic-412-108th-st",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:44:00.970Z",
+  "facts_hash": "64fa52ce398dab8a",
+  "article": {
+    "title_es": "PAY-O-MATIC #412: negocio de cobro de cheques en Corona, Queens",
+    "title_en": "PAY-O-MATIC #412: check cashing business in Corona, Queens",
+    "summary_es": "PAY-O-MATIC #412 es un negocio autorizado de cobro de cheques ubicado en Corona, Queens. Se cobra una tarifa por sus servicios.",
+    "summary_en": "PAY-O-MATIC #412 is a licensed check cashing business located in Corona, Queens. Fees apply for its services.",
+    "how_they_help_es": [
+      "Es un negocio autorizado de cobro de cheques.",
+      "Está ubicado en 5305 108th St, Corona, NY 11368.",
+      "Puede llamar al 718-760-3553 para preguntar por sus servicios.",
+      "La lista no indica horarios ni tarifas; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a licensed check cashing business.",
+      "It is located at 5305 108th St, Corona, NY 11368.",
+      "You can call 718-760-3553 to ask about its services.",
+      "The listing does not show hours or fees; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame al 718-760-3553 antes de ir para confirmar el horario.",
+      "Pregunte por las tarifas antes de usar el servicio."
+    ],
+    "visit_tips_en": [
+      "Call 718-760-3553 before going to confirm the hours.",
+      "Ask about the fees before using the service."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cobra tarifas?",
+        "a": "Sí. Es un negocio de cobro de cheques y se aplican tarifas. Pregunte por el costo antes de usar el servicio."
+      },
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "La lista solo indica que es un negocio de cobro de cheques. Llame al 718-760-3553 para preguntar por los servicios exactos."
+      },
+      {
+        "q": "¿Cuál es su horario?",
+        "a": "El horario no aparece en la lista. Llame al 718-760-3553 para confirmarlo antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Does it charge fees?",
+        "a": "Yes. It is a check cashing business and fees apply. Ask about the cost before using the service."
+      },
+      {
+        "q": "What services does it offer?",
+        "a": "The listing only says it is a check cashing business. Call 718-760-3553 to ask about the exact services."
+      },
+      {
+        "q": "What are its hours?",
+        "a": "Hours are not listed. Call 718-760-3553 to confirm before going."
+      }
+    ]
+  }
+}

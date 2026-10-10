@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-church-avenue-merchants-block-assoc-inc-camb",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:30.820Z",
+  "facts_hash": "9c219c4244a9803b",
+  "article": {
+    "title_es": "CAMBA Food Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "CAMBA Food Pantry: food pantry in Brooklyn",
+    "summary_es": "CAMBA Food Pantry es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. Está en 21 Snyder Ave, Brooklyn, y reparte alimentos los martes y jueves.",
+    "summary_en": "CAMBA Food Pantry is a food pantry listed on the City's Food Help NYC map. It is located at 21 Snyder Ave, Brooklyn, and distributes food on Tuesdays and Thursdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los martes y jueves de 10am a 1pm.",
+      "Está ubicada en 21 Snyder Ave, Brooklyn, NY 11226.",
+      "Puede llamar al (718) 282-3082 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Tuesdays and Thursdays from 10am to 1pm.",
+      "It is located at 21 Snyder Ave, Brooklyn, NY 11226.",
+      "You can call (718) 282-3082 to ask questions before going."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes 10am-1pm y jueves 10am-1pm.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono al (718) 282-3082.",
+      "Verifique el horario antes de viajar, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tue 10am-1pm and Thu 10am-1pm.",
+      "The listing does not say what food is given or if there are any requirements; call (718) 282-3082 to ask.",
+      "Check the schedule before traveling, as it may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es CAMBA Food Pantry?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad, ubicada en 21 Snyder Ave, Brooklyn."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Según la lista, la despensa atiende martes 10am-1pm y jueves 10am-1pm."
+      },
+      {
+        "q": "¿Qué debo hacer antes de ir?",
+        "a": "La lista no indica qué alimentos entrega ni si hay requisitos. Llame al (718) 282-3082 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is CAMBA Food Pantry?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map, located at 21 Snyder Ave, Brooklyn."
+      },
+      {
+        "q": "When is it open?",
+        "a": "According to the listing, the pantry is open Tue 10am-1pm and Thu 10am-1pm."
+      },
+      {
+        "q": "What should I do before going?",
+        "a": "The listing does not say what food is given or if there are requirements. Call (718) 282-3082 to ask."
+      }
+    ]
+  }
+}

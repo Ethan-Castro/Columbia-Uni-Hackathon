@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-pb-the-door",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:54.225Z",
+  "facts_hash": "e2a9c7485b1fcd5b",
+  "article": {
+    "title_es": "The Door: servicios legales (listado EOIR) en Manhattan",
+    "title_en": "The Door: legal services listing in Manhattan",
+    "summary_es": "The Door, en Manhattan, aparece en la Lista de Proveedores de Servicios Legales Pro Bono del Departamento de Justicia de EE. UU. (EOIR). Llame antes para preguntar por los servicios y las citas.",
+    "summary_en": "The Door in Manhattan appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers. Call ahead to ask about services and appointments.",
+    "how_they_help_es": [
+      "Aparece en la Lista de Proveedores de Servicios Legales Pro Bono del Departamento de Justicia de EE. UU. (EOIR).",
+      "Está ubicado en 121 Avenue of the Americas, New York, NY 10013, en Manhattan.",
+      "Puede llamar al (212) 941-9090 ext. 3280 para preguntar por sus servicios.",
+      "Las tarifas y cómo obtener una cita no están indicadas, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers.",
+      "It is located at 121 Avenue of the Americas, New York, NY 10013, in Manhattan.",
+      "You can call (212) 941-9090 ext. 3280 to ask about services.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (212) 941-9090 ext. 3280 antes de visitar para preguntar sobre la admisión y las citas.",
+      "El horario no aparece en esta información, así que pregunte cuando llame.",
+      "Esta información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call (212) 941-9090 ext. 3280 before visiting to ask about intake and appointments.",
+      "Hours are not listed in this information, so ask when you call.",
+      "This listing was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es The Door?",
+        "a": "Aparece en la Lista de Proveedores de Servicios Legales Pro Bono del Departamento de Justicia de EE. UU. (EOIR)."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al (212) 941-9090 ext. 3280. No se indica si aceptan casos nuevos, así que pregunte cuando llame."
+      },
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "Las tarifas y cómo obtener una cita no están indicadas. Pregunte directamente a la organización."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is The Door?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call (212) 941-9090 ext. 3280. Whether it takes new cases is not listed, so ask when you call."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "Fees and how to get an appointment are not listed. Ask the organization directly."
+      }
+    ]
+  }
+}

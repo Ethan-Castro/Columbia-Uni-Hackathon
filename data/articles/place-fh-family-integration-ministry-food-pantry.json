@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-family-integration-ministry-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:52.542Z",
+  "facts_hash": "9060c5acbde18ebb",
+  "article": {
+    "title_es": "Family Integration Ministry Food Pantry: despensa de alimentos en Manhattan",
+    "title_en": "Family Integration Ministry Food Pantry: food pantry in Manhattan",
+    "summary_es": "Family Integration Ministry Food Pantry es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 8am a 10:30am.",
+    "summary_en": "Family Integration Ministry Food Pantry is a food pantry in Manhattan listed on the City's Food Help NYC map. It is open Saturdays from 8am to 10:30am.",
+    "how_they_help_es": [
+      "Ofrece un servicio de despensa de alimentos en Manhattan.",
+      "Está ubicada en 1875 Amsterdam Ave, New York, NY 10031.",
+      "Abre los sábados de 8am a 10:30am.",
+      "Puede llamar al (347) 459-4445 para más información.",
+      "La información no indica qué alimentos entrega ni si hay requisitos; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Offers a food pantry service in Manhattan.",
+      "Located at 1875 Amsterdam Ave, New York, NY 10031.",
+      "Open Saturdays from 8am to 10:30am.",
+      "You can call (347) 459-4445 for more information.",
+      "The listing does not say what foods are given or any requirements, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los sábados de 8am a 10:30am, así que planifique su visita dentro de ese horario.",
+      "Llame al (347) 459-4445 antes de ir para confirmar los detalles.",
+      "Pregunte sobre requisitos o qué alimentos hay disponibles, ya que esto no aparece en la información."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturdays from 8am to 10:30am, so plan your visit within that time.",
+      "Call (347) 459-4445 before going to confirm details.",
+      "Ask about any requirements or what food is available, since this is not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Los sábados de 8am a 10:30am."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1875 Amsterdam Ave, New York, NY 10031, en Manhattan."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "La información no lo indica. Llame al (347) 459-4445 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Saturdays from 8am to 10:30am."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "1875 Amsterdam Ave, New York, NY 10031, in Manhattan."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "The listing does not say. Call (347) 459-4445 to ask before you go."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-the-prado-of-transitioning-forward-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:33.111Z",
+  "facts_hash": "5dab3e968c206cf0",
+  "article": {
+    "title_es": "The Prado of Transitioning Forward: despensa de alimentos en el Bronx",
+    "title_en": "The Prado of Transitioning Forward: food pantry in the Bronx",
+    "summary_es": "The Prado of Transitioning Forward, Inc. es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 12pm a 1pm.",
+    "summary_en": "The Prado of Transitioning Forward, Inc. is a food pantry listed on the City's Food Help NYC map. It is open Saturdays from 12pm to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los sábados de 12pm a 1pm.",
+      "Está ubicada en 225 E 149th St, Bronx, NY, 10451.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito; pregunte al llegar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry according to the City's Food Help NYC map.",
+      "It distributes food on Saturdays from 12pm to 1pm.",
+      "It is located at 225 E 149th St, Bronx, NY, 10451.",
+      "The listing does not say what food is given or if there are any requirements; ask when you arrive."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los sábados de 12pm a 1pm, así que planifique su visita con tiempo.",
+      "No hay teléfono en la lista; para más detalles, consulte el mapa Food Help NYC de la ciudad.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; confirme el horario antes de ir."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are only Saturdays from 12pm to 1pm, so plan your visit ahead of time.",
+      "There is no phone number in the listing; for more details, check the City's Food Help NYC map.",
+      "The information was last checked on October 10, 2026; confirm the hours before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "Los sábados de 12pm a 1pm, según el horario publicado."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "La lista no incluye teléfono ni correo. Puede consultar el mapa Food Help NYC de la ciudad para más información."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. It does not say what food is given or whether there are requirements."
+      },
+      {
+        "q": "When can I go?",
+        "a": "Saturdays from 12pm to 1pm, according to the posted hours."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "The listing does not include a phone number or email. You can check the City's Food Help NYC map for more information."
+      }
+    ]
+  }
+}

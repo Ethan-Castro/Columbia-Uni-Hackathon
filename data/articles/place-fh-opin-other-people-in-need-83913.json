@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-opin-other-people-in-need-83913",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:51.875Z",
+  "facts_hash": "21a25a4dd579542c",
+  "article": {
+    "title_es": "OPIN (Other People in Need): despensa de alimentos en Brooklyn",
+    "title_en": "OPIN (Other People in Need): food pantry in Brooklyn",
+    "summary_es": "OPIN (Other People in Need) es una despensa de alimentos o cocina de sopa en Brooklyn, aparecida en el mapa Food Help NYC de la ciudad. Atiende los viernes de 2pm a 4pm como cocina de sopa.",
+    "summary_en": "OPIN (Other People in Need) is a food pantry or soup kitchen in Brooklyn, listed on the City's Food Help NYC map. It is open Fridays 2pm-4pm as a soup kitchen.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos o cocina de sopa según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1768 St Johns Pl, Brooklyn, NY 11233.",
+      "Abre los viernes de 2pm a 4pm como cocina de sopa.",
+      "Tiene un teléfono de contacto: (718) 421-0148.",
+      "Qué alimentos entrega y si hay requisitos no están indicados; pregunte llamando."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry or soup kitchen listed on the City's Food Help NYC map.",
+      "It is located at 1768 St Johns Pl, Brooklyn, NY 11233.",
+      "It is open Fridays 2pm-4pm as a soup kitchen.",
+      "It has a phone number: (718) 421-0148.",
+      "What food is given and any requirements are not listed; ask by calling."
+    ],
+    "visit_tips_es": [
+      "Vaya los viernes entre 2pm y 4pm, que es el horario indicado.",
+      "Llame al (718) 421-0148 antes de ir para confirmar el servicio y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on Fridays between 2pm and 4pm, which is the listed time.",
+      "Call (718) 421-0148 before going to confirm the service and ask what is needed.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos o cocina de sopa que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los viernes de 2pm a 4pm, como cocina de sopa."
+      },
+      {
+        "q": "¿Qué alimentos da y qué necesito para recibirlos?",
+        "a": "No está indicado. Llame al (718) 421-0148 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry or soup kitchen listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays 2pm-4pm, as a soup kitchen."
+      },
+      {
+        "q": "What food does it give and what do I need to receive it?",
+        "a": "That is not listed. Call (718) 421-0148 to ask before going."
+      }
+    ]
+  }
+}

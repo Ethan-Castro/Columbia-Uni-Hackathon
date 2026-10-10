@@ -1,0 +1,66 @@
+{
+  "place_id": "place-phs-neighborhood-wic-corona",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:44:06.325Z",
+  "facts_hash": "667657666d982b48",
+  "article": {
+    "title_es": "Neighborhood WIC de Public Health Solutions: WIC en Corona, Queens",
+    "title_en": "Public Health Solutions Neighborhood WIC: WIC clinic in Corona",
+    "summary_es": "Este es un sitio del programa WIC en Corona, Queens, que ofrece beneficios mensuales de comida, apoyo de nutrición y lactancia, y chequeos de salud para embarazadas y familias con niños de 0 a 5 años.",
+    "summary_en": "This is a WIC site in Corona, Queens offering monthly food benefits, nutrition and breastfeeding support, and health screenings for pregnant people and families with children ages 0 to 5.",
+    "how_they_help_es": [
+      "Beneficios mensuales de comida a través del programa WIC.",
+      "Apoyo de nutrición y de lactancia (amamantar).",
+      "Chequeos de salud para embarazadas y familias con niños pequeños.",
+      "Puede calificar si recibe SNAP, Medicaid, TANF, Head Start o Essential Plan, o según sus ingresos.",
+      "La elegibilidad depende de su situación familiar e ingresos; llame para preguntar."
+    ],
+    "how_they_help_en": [
+      "Monthly food benefits through the WIC program.",
+      "Nutrition and breastfeeding support.",
+      "Health screenings for pregnant people and families with young children.",
+      "You may qualify if you get SNAP, Medicaid, TANF, Head Start, or Essential Plan, or based on income.",
+      "Eligibility depends on your family situation and income; call to ask."
+    ],
+    "visit_tips_es": [
+      "Horario: lunes a jueves, 8:30 am a 4 pm.",
+      "Llame al (718) 335-7563 antes de ir para preguntar qué necesita y programar una cita.",
+      "La oficina de WIC le dirá qué llevar a su cita. Ejemplos: identificación, comprobante de domicilio y comprobante de ingresos (a menos que ya reciba uno de los beneficios mencionados), y formularios médicos si su niño tiene necesidades alimentarias especiales.",
+      "También puede llamar a la línea Growing Up Healthy al 800-522-5006 para programar una cita por teléfono o en persona."
+    ],
+    "visit_tips_en": [
+      "Hours: Monday to Thursday, 8:30 am to 4 pm.",
+      "Call (718) 335-7563 before going to ask what you need and schedule an appointment.",
+      "The WIC office will tell you what to bring to your appointment. Examples: ID, proof of where you live, and proof of income (unless you already get one of the benefits listed above), plus medical forms if your child has special dietary needs.",
+      "You can also call the Growing Up Healthy Hotline at 800-522-5006 to schedule a phone or in-person appointment."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Quién puede recibir WIC aquí?",
+        "a": "Puede calificar si está embarazada o estuvo embarazada recientemente, es padre o madre nuevo (hasta 6 meses después del parto), da pecho (hasta 1 año después del parto) o cuida a un niño menor de 5 años. Esto incluye a papás, abuelos, padres de acogida y otros cuidadores principales."
+      },
+      {
+        "q": "¿Qué ingresos se necesitan para calificar?",
+        "a": "Puede calificar si alguien en su hogar recibe SNAP, TANF, Medicaid, Head Start, Early Head Start o Essential Plan (niveles 1 a 4). Si no, los ingresos deben estar dentro de los límites del programa, que dependen del tamaño del hogar. Por ejemplo, para un hogar de 4 personas el límite anual es $61,050. Llame para confirmar los límites actuales."
+      },
+      {
+        "q": "¿Cómo empiezo el trámite?",
+        "a": "Puede usar Wanda, la asistente en línea de WIC, en el sitio web del programa WIC del Estado de Nueva York (busque el ícono de chat en la esquina inferior), o llamar a esta oficina al (718) 335-7563 o a la línea Growing Up Healthy al 800-522-5006 para programar una cita por teléfono o en persona."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Who can get WIC here?",
+        "a": "You may qualify if you are pregnant or recently pregnant, a new parent (up to 6 months after birth), breastfeeding or nursing (up to 1 year after birth), or caring for a child under 5. This includes dads, grandparents, foster parents, and other primary caregivers."
+      },
+      {
+        "q": "What income do I need to qualify?",
+        "a": "You may qualify if someone in your household gets SNAP, TANF, Medicaid, Head Start, Early Head Start, or Essential Plan (Levels 1 to 4). If not, your income must be within the program's limits, which depend on household size. For example, for a household of 4 the yearly limit is $61,050. Call to confirm current limits."
+      },
+      {
+        "q": "How do I start?",
+        "a": "You can use Wanda, WIC's online assistant, on the New York State WIC website (look for the chat icon in the bottom corner), or call this office at (718) 335-7563 or the Growing Up Healthy Hotline at 800-522-5006 to schedule a phone or in-person appointment."
+      }
+    ]
+  }
+}

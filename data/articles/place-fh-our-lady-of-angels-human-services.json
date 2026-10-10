@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-our-lady-of-angels-human-services",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:22.531Z",
+  "facts_hash": "fbb3e2a6d282c71d",
+  "article": {
+    "title_es": "Our Lady of Angels Human Services: despensa de alimentos en Brooklyn",
+    "title_en": "Our Lady of Angels Human Services: food pantry in Brooklyn",
+    "summary_es": "Our Lady of Angels Human Services es una despensa de alimentos en Brooklyn, ubicada en 336 73rd St, código postal 11209. Aparece en el mapa de ayuda alimentaria Food Help NYC de la ciudad.",
+    "summary_en": "Our Lady of Angels Human Services is a food pantry in Brooklyn, located at 336 73rd St, zip code 11209. It is listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Ofrece servicio de despensa los miércoles en dos horarios.",
+      "Está ubicada en 336 73rd St, Brooklyn, NY 11209.",
+      "Puede llamar al (718) 726-9790 para preguntar antes de ir.",
+      "La lista no detalla qué alimentos entrega ni sus requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Pantry service is offered on Wednesdays in two time slots.",
+      "It is located at 336 73rd St, Brooklyn, NY 11209.",
+      "You can call (718) 726-9790 to ask questions before visiting.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es miércoles de 9:30am a 12pm y de 1:30pm a 3pm.",
+      "Llame al (718) 726-9790 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wed 9:30am-12pm and 1:30pm-3pm.",
+      "Call (718) 726-9790 before going to confirm hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se detalla qué alimentos entrega ni si hay requisitos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los miércoles de 9:30am a 12pm y de 1:30pm a 3pm, según el horario publicado."
+      },
+      {
+        "q": "¿Qué debo hacer antes de visitar?",
+        "a": "Se recomienda llamar al (718) 726-9790 para preguntar por los requisitos y confirmar el horario."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. The listing does not say what food is given or any requirements."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 9:30am to 12pm and from 1:30pm to 3pm, according to the posted hours."
+      },
+      {
+        "q": "What should I do before visiting?",
+        "a": "It is a good idea to call (718) 726-9790 to ask about requirements and confirm the hours."
+      }
+    ]
+  }
+}

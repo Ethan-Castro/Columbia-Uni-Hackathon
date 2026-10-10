@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-rauschenbusch-metro-ministries-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:09.875Z",
+  "facts_hash": "c0ce92872895ce92",
+  "article": {
+    "title_es": "Rauschenbusch Metro Ministries: despensa de alimentos en Manhattan",
+    "title_en": "Rauschenbusch Metro Ministries: food pantry in Manhattan",
+    "summary_es": "Rauschenbusch Metro Ministries Inc. es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la Ciudad. La despensa abre el primer y el tercer sábado del mes, de 9am a 11:30am.",
+    "summary_en": "Rauschenbusch Metro Ministries Inc. is a food pantry in Manhattan listed on the City's Food Help NYC map. The pantry is open on the 1st and 3rd Saturday of the month, from 9am to 11:30am.",
+    "how_they_help_es": [
+      "- Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "- Está ubicada en 410 W 40th St, en Manhattan.",
+      "- La despensa abre el primer y el tercer sábado del mes, de 9am a 11:30am.",
+      "- Puede llamar al (212) 594-4464 para más información.",
+      "- La información disponible no dice qué alimentos entrega, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "- It is a food pantry listed on the City's Food Help NYC map.",
+      "- It is located at 410 W 40th St in Manhattan.",
+      "- The pantry is open on the 1st and 3rd Saturday of the month, 9am to 11:30am.",
+      "- You can call (212) 594-4464 for more information.",
+      "- The listing does not say what foods are given, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "- La despensa solo abre el primer y el tercer sábado del mes, así que planifique su visita para esos días.",
+      "- Llame al (212) 594-4464 antes de ir para confirmar los detalles, ya que la información disponible no incluye requisitos ni qué alimentos se entregan."
+    ],
+    "visit_tips_en": [
+      "- The pantry is only open on the 1st and 3rd Saturday of the month, so plan your visit for those days.",
+      "- Call (212) 594-4464 before going to confirm details, since the listing does not include requirements or what food is given."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Según la información disponible, la despensa funciona el primer y el tercer sábado de cada mes, de 9am a 11:30am."
+      },
+      {
+        "q": "¿Qué tipo de alimentos entregan?",
+        "a": "La información disponible no dice qué alimentos entrega. Lo mejor es llamar antes para preguntar."
+      },
+      {
+        "q": "¿Hay requisitos para recibir alimentos?",
+        "a": "La información disponible no incluye requisitos. Puede llamar al (212) 594-4464 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of food do they give?",
+        "a": "The listing does not say what foods are given. It is best to call ahead and ask."
+      },
+      {
+        "q": "Are there any requirements to receive food?",
+        "a": "The listing does not include requirements. You can call (212) 594-4464 to ask before you go."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "The pantry operates on the 1st and 3rd Saturday of each month, from 9am to 11:30am, according to the listing."
+      }
+    ]
+  }
+}

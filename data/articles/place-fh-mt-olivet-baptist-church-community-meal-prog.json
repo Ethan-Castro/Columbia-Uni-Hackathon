@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-mt-olivet-baptist-church-community-meal-prog",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:34.891Z",
+  "facts_hash": "dbdc7d732b52ad43",
+  "article": {
+    "title_es": "Mt. Olivet Baptist Church: despensa de alimentos en Manhattan",
+    "title_en": "Mt. Olivet Baptist Church: food pantry in Manhattan",
+    "summary_es": "La iglesia Mt. Olivet Baptist Church ofrece un programa de despensa de alimentos en Harlem, Manhattan, según el mapa Food Help NYC.",
+    "summary_en": "Mt. Olivet Baptist Church offers a community food pantry in Manhattan, according to the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 201 Lenox Ave, Nueva York, NY 10027.",
+      "Abre para la despensa los martes y miércoles de 10:30 am a 11:30 am.",
+      "Puede llamar al (212) 864-1155 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 201 Lenox Ave, New York, NY 10027.",
+      "The pantry is open Tuesday and Wednesday, 10:30am to 11:30am.",
+      "You can call (212) 864-1155 to ask questions before visiting.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona los martes y miércoles de 10:30 am a 11:30 am.",
+      "Llame al (212) 864-1155 antes de ir para confirmar los horarios.",
+      "La lista no menciona qué documentos llevar, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Tuesday and Wednesday, 10:30am to 11:30am.",
+      "Call (212) 864-1155 before going to confirm the hours.",
+      "The listing does not mention documents to bring, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en la iglesia Mt. Olivet Baptist Church, en Manhattan."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes y miércoles de 10:30 am a 11:30 am."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La lista no lo indica. Llame al (212) 864-1155 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry at Mt. Olivet Baptist Church in Manhattan."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday and Wednesday, 10:30am to 11:30am."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (212) 864-1155 to ask."
+      }
+    ]
+  }
+}

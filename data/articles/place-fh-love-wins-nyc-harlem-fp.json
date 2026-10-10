@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-love-wins-nyc-harlem-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:19.360Z",
+  "facts_hash": "2668e39bfdc04de3",
+  "article": {
+    "title_es": "LOVE WINS NYC (Harlem): despensa de alimentos en Manhattan",
+    "title_en": "LOVE WINS NYC (Harlem): food pantry in Manhattan",
+    "summary_es": "LOVE WINS NYC (HARLEM) (FP) es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "LOVE WINS NYC (HARLEM) (FP) is a food pantry in Manhattan listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está en 521 WEST126th St, Manhattan, código postal 10027.",
+      "Abre los miércoles de 1pm a 3pm; la despensa solo el 4.º miércoles del mes.",
+      "Llame al (201) 701-1024 para preguntar qué ofrece.",
+      "No se indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 521 WEST126th St in Manhattan, zip code 10027.",
+      "Open Wednesdays 1pm-3pm; pantry on the 4th Wednesday of the month only.",
+      "Call (201) 701-1024 to ask about what is offered.",
+      "What food is given and any requirements are not listed."
+    ],
+    "visit_tips_es": [
+      "La despensa solo atiende el 4.º miércoles del mes, así que planifique su visita.",
+      "Llame al (201) 701-1024 antes de ir para confirmar horarios y disponibilidad.",
+      "La información no indica qué documentos llevar; pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Pantry service is only on the 4th Wednesday of the month, so plan your visit.",
+      "Call (201) 701-1024 ahead to confirm hours and what is available.",
+      "The listing does not say what documents to bring, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es LOVE WINS NYC?",
+        "a": "Está en el mapa Food Help NYC de la ciudad como despensa de alimentos."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Miércoles de 1pm a 3pm; la despensa solo el 4.º miércoles del mes."
+      },
+      {
+        "q": "¿Cómo puedo confirmar los detalles?",
+        "a": "Llame al (201) 701-1024 antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is LOVE WINS NYC?",
+        "a": "It is listed on the City's Food Help NYC map as a food pantry."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays 1pm-3pm, with pantry service on the 4th Wednesday of the month only."
+      },
+      {
+        "q": "How can I confirm details?",
+        "a": "Call (201) 701-1024 before going."
+      }
+    ]
+  }
+}

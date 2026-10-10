@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-paswo-pakistan-american-skilled-women-organi",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:10.546Z",
+  "facts_hash": "7b2b3ac74cc9c4e8",
+  "article": {
+    "title_es": "PASWO: despensa de alimentos en Brooklyn",
+    "title_en": "PASWO: food pantry in Brooklyn",
+    "summary_es": "PASWO es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 1pm a 2pm.",
+    "summary_en": "PASWO is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Wednesdays from 1pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 930 Ditmas Ave, Brooklyn, NY 11218.",
+      "Atiende los miércoles de 1pm a 2pm (despensa).",
+      "Se puede llamar al (929) 527-6842 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 930 Ditmas Ave, Brooklyn, NY 11218.",
+      "It is open Wednesdays from 1pm to 2pm (pantry).",
+      "You can call (929) 527-6842 with questions.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los miércoles de 1pm a 2pm.",
+      "Llame al (929) 527-6842 antes de ir para confirmar detalles.",
+      "No se indica qué documentos se necesitan; pregunte al llamar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are only Wednesdays from 1pm to 2pm.",
+      "Call (929) 527-6842 before visiting to confirm details.",
+      "The listing does not say what documents are needed; ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 1pm a 2pm, según la lista."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 930 Ditmas Ave, Brooklyn, NY 11218."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no lo indica. Llame al (929) 527-6842 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 1pm to 2pm, according to the listing."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 930 Ditmas Ave, Brooklyn, NY 11218."
+      },
+      {
+        "q": "What food does it give and are there requirements?",
+        "a": "The listing does not say. Call (929) 527-6842 to ask."
+      }
+    ]
+  }
+}

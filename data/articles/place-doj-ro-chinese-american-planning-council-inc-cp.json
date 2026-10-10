@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-chinese-american-planning-council-inc-cp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:26.805Z",
+  "facts_hash": "db12dea061ffd26d",
+  "article": {
+    "title_es": "Chinese-American Planning Council: ayuda legal de inmigración en Manhattan",
+    "title_en": "Chinese-American Planning Council: immigration legal help in Manhattan",
+    "summary_es": "El Chinese-American Planning Council (CPC) aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración. Está en el Lower East Side de Manhattan.",
+    "summary_en": "The Chinese-American Planning Council (CPC) appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may offer immigration legal help. It is located in Manhattan's Lower East Side.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Es una organización sin fines de lucro, según la lista.",
+      "Está en 45 Suffolk Street, Nueva York, NY 10002.",
+      "Los servicios y tarifas no están en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "It is a non-profit organization, according to the list.",
+      "Located at 45 Suffolk Street, New York, NY 10002.",
+      "Services and fees are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame al (212) 941-0030 antes de ir para preguntar por sus servicios.",
+      "Las tarifas y el proceso para obtener una cita no aparecen en la lista; pregunte por teléfono.",
+      "Los horarios de atención no están incluidos; confírmelos al llamar."
+    ],
+    "visit_tips_en": [
+      "Call (212) 941-0030 before visiting to ask about their services.",
+      "Fees and how to get an appointment are not listed; ask by phone.",
+      "Hours of operation are not included; confirm them when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es el CPC?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la lista. Llame al (212) 941-0030 para preguntar."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "El proceso para obtener una cita no está en la lista. Llame antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is CPC?",
+        "a": "It is a non-profit organization listed on the DOJ (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (212) 941-0030 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "How to get an appointment is not listed. Call before visiting."
+      }
+    ]
+  }
+}

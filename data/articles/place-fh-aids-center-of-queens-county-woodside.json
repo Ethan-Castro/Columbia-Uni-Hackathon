@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-aids-center-of-queens-county-woodside",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:52.649Z",
+  "facts_hash": "d7b1dac6e8527fc2",
+  "article": {
+    "title_es": "AIDS Center of Queens County: despensa de alimentos en Woodside",
+    "title_en": "AIDS Center of Queens County: food pantry in Woodside",
+    "summary_es": "El AIDS Center of Queens County (sede de Woodside) aparece en el mapa Food Help NYC como despensa de alimentos. Abre los martes de 8am a 10am.",
+    "summary_en": "AIDS Center of Queens County (Woodside location) is listed on the City's Food Help NYC map as a food pantry. It is open Tuesdays 8am-10am.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Está ubicada en 62-07 Woodside Ave, Woodside, Queens, NY 11377.",
+      "Atiende los martes de 8am a 10am (despensa).",
+      "Puede llamar al (718) 472-9400 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Located at 62-07 Woodside Ave, Woodside, Queens, NY 11377.",
+      "Open Tuesdays 8am-10am (pantry).",
+      "You can call (718) 472-9400 to ask before going."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los martes de 8am a 10am; llegue dentro de ese horario.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono al (718) 472-9400.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; confirme los horarios antes de ir."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only Tuesdays 8am-10am; go during those hours.",
+      "What food is given and any requirements are not listed; call (718) 472-9400 to ask.",
+      "Information was last checked on October 10, 2026; confirm hours before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los martes de 8am a 10am, según la información de la despensa."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No se indica en la información disponible. Llame al (718) 472-9400 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays 8am-10am, according to the listing."
+      },
+      {
+        "q": "What food is given or what should I bring?",
+        "a": "That is not listed. Call (718) 472-9400 to ask."
+      }
+    ]
+  }
+}

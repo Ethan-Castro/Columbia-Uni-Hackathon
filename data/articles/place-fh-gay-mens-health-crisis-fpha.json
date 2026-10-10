@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-gay-mens-health-crisis-fpha",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:23.066Z",
+  "facts_hash": "465f34d7607285c6",
+  "article": {
+    "title_es": "GMHC (FPHA): despensa de alimentos en Manhattan",
+    "title_en": "GMHC (FPHA): food pantry in Manhattan",
+    "summary_es": "GMHC (FPHA) es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Abre de martes a jueves, de 11am a 2pm.",
+    "summary_en": "GMHC (FPHA) is a food pantry in Manhattan listed on the City's Food Help NYC map. It is open Tuesday through Thursday, 11am-2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 307 W 38th St, Nueva York, NY 10018.",
+      "Atiende la despensa de martes a jueves, de 11am a 2pm.",
+      "Puede llamar al (212) 367-1200 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 307 W 38th St, New York, NY 10018.",
+      "The pantry is open Tuesday through Thursday, 11am-2pm.",
+      "You can call (212) 367-1200 with questions."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de martes a jueves, 11am-2pm.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; llame antes para preguntar.",
+      "Verifique el horario antes de ir, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Tuesday through Thursday, 11am-2pm.",
+      "The listing does not say what food is given or if there are requirements; call ahead to ask.",
+      "Check the hours before visiting, as they may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 307 W 38th St, Nueva York, NY 10018, en Manhattan."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "De martes a jueves, de 11am a 2pm."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (212) 367-1200 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 307 W 38th St, New York, NY 10018, in Manhattan."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday through Thursday, 11am-2pm."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "The listing does not say. Call (212) 367-1200 to ask before visiting."
+      }
+    ]
+  }
+}

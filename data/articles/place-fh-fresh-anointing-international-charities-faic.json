@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-fresh-anointing-international-charities-faic",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:16.118Z",
+  "facts_hash": "6d8e92e85a39f9a7",
+  "article": {
+    "title_es": "Fresh Anointing International Charities: despensa de alimentos en Queens",
+    "title_en": "Fresh Anointing International Charities: food pantry in Queens",
+    "summary_es": "Fresh Anointing International Charities (FAIC) es una despensa de alimentos en Queens, en el mapa Food Help NYC de la ciudad. Abre los jueves de 11 am a 2 pm, pero la despensa solo funciona el primer y tercer jueves del mes.",
+    "summary_en": "Fresh Anointing International Charities (FAIC) is a food pantry in Queens, listed on the City's Food Help NYC map. It is open Thursdays from 11am to 2pm, but the pantry runs on the 1st and 3rd Thursdays only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 109-41 Francis Lewis Blvd, Queens, NY 11429.",
+      "Abre los jueves de 11 am a 2 pm; la despensa solo el primer y tercer jueves.",
+      "Puede llamar al (917) 665-0240 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 109-41 Francis Lewis Blvd, Queens, NY 11429.",
+      "It is open Thursdays 11am-2pm; the pantry runs on the 1st and 3rd Thursdays only.",
+      "You can call (917) 665-0240 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "Vaya un jueves de 11 am a 2 pm, y recuerde que la despensa solo está abierta el primer y tercer jueves del mes.",
+      "Llame al (917) 665-0240 antes de ir para confirmar los detalles.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on a Thursday from 11am to 2pm, and remember the pantry is open on the 1st and 3rd Thursdays of the month only.",
+      "Call (917) 665-0240 before you go to confirm details.",
+      "The listing does not say what food is given or if there are any requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 11 am a 2 pm, pero la despensa solo funciona el primer y tercer jueves del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 109-41 Francis Lewis Blvd, Queens, NY 11429."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está indicado en la lista. Llame al (917) 665-0240 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 11am to 2pm, but the pantry runs on the 1st and 3rd Thursdays of the month only."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 109-41 Francis Lewis Blvd, Queens, NY 11429."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "This is not listed. Call (917) 665-0240 to ask before you go."
+      }
+    ]
+  }
+}

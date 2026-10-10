@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bronx-seventh-day-adventist-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:06.838Z",
+  "facts_hash": "9204de2b2f297940",
+  "article": {
+    "title_es": "Iglesia Adventista del Séptimo Día del Bronx: despensa de alimentos",
+    "title_en": "Bronx Seventh Day Adventist Church: food pantry in the Bronx",
+    "summary_es": "Una despensa de alimentos en el Bronx, según el mapa Food Help NYC de la ciudad. Abre los jueves de 1pm a 4pm.",
+    "summary_en": "A food pantry in the Bronx, listed on the City's Food Help NYC map. Open Thursdays 1pm-4pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1695 Washington Ave, Bronx, NY 10457.",
+      "Atiende los jueves de 1pm a 4pm.",
+      "Puede llamar al (347) 615-1343 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1695 Washington Ave, Bronx, NY 10457.",
+      "It is open Thursdays 1pm-4pm.",
+      "You can call (347) 615-1343 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es jueves de 1pm a 4pm.",
+      "Llame al (347) 615-1343 antes de ir para confirmar detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Thursdays 1pm-4pm.",
+      "Call (347) 615-1343 before going to confirm details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (347) 615-1343 para preguntar."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los jueves de 1pm a 4pm, según la lista."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1695 Washington Ave, Bronx, New York, 10457."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (347) 615-1343 to ask."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays 1pm-4pm, according to the listing."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 1695 Washington Ave, Bronx, New York, 10457."
+      }
+    ]
+  }
+}

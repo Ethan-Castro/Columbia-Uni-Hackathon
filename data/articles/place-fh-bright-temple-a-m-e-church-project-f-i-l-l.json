@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-bright-temple-a-m-e-church-project-f-i-l-l",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:09.215Z",
+  "facts_hash": "21ac1f211aa6fa33",
+  "article": {
+    "title_es": "Bright Temple A.M.E. Church/Project F.I.L.L.: despensa de alimentos en el Bronx",
+    "title_en": "Bright Temple A.M.E. Church/Project F.I.L.L.: food pantry in the Bronx",
+    "summary_es": "Bright Temple A.M.E. Church/Project F.I.L.L. es una despensa de alimentos en el Bronx, en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Bright Temple A.M.E. Church/Project F.I.L.L. is a food pantry in the Bronx, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 812 Faile St, Bronx, NY 10474.",
+      "Abre los viernes de 10am a 12pm (la despensa funciona el 1er y 3er viernes).",
+      "Puede llamar al (718) 542-7777 para más información."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 812 Faile St, Bronx, NY 10474.",
+      "It is open Fridays from 10am to 12pm (pantry runs on the 1st and 3rd Friday).",
+      "You can call (718) 542-7777 for more information."
+    ],
+    "visit_tips_es": [
+      "Vaya los viernes de 10am a 12pm, idealmente el 1er o 3er viernes del mes, cuando funciona la despensa.",
+      "Llame antes al (718) 542-7777 para confirmar horarios y preguntar qué alimentos dan y si necesita algo.",
+      "La página no indica qué alimentos se entregan ni si hay requisitos, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on Fridays from 10am to 12pm, ideally the 1st or 3rd Friday of the month, when the pantry runs.",
+      "Call ahead at (718) 542-7777 to confirm hours and ask what food is given and if anything is needed.",
+      "The listing does not say what food is given or any requirements, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está y cuándo abre?",
+        "a": "Está en 812 Faile St, Bronx, NY 10474. La despensa abre los viernes de 10am a 12pm (1er y 3er viernes)."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito llevar?",
+        "a": "No está indicado en la información disponible. Llame al (718) 542-7777 para preguntar."
+      },
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "La información no menciona costos. Llame al (718) 542-7777 para confirmar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it and when is it open?",
+        "a": "It is at 812 Faile St, Bronx, NY 10474. The pantry is open Fridays from 10am to 12pm (1st and 3rd Friday)."
+      },
+      {
+        "q": "What food is given and what should I bring?",
+        "a": "This is not listed in the available information. Call (718) 542-7777 to ask."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "The information does not mention any cost. Call (718) 542-7777 to confirm."
+      }
+    ]
+  }
+}

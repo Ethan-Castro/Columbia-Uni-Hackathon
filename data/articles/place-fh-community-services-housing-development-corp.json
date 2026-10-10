@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-community-services-housing-development-corp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:33.005Z",
+  "facts_hash": "c60f7dbf57162a9b",
+  "article": {
+    "title_es": "Community Services Housing Development Corp.: despensa de alimentos en Brooklyn",
+    "title_en": "Community Services Housing Development Corp.: food pantry in Brooklyn",
+    "summary_es": "Community Services Housing Development Corp. es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los jueves de 10am a 12pm.",
+    "summary_en": "Community Services Housing Development Corp. is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Thursdays from 10am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 547 Howard Ave, en Brooklyn.",
+      "El horario de la despensa es los jueves de 10am a 12pm.",
+      "Puede llamar al (646) 794-5961 para más información.",
+      "La información no dice qué alimentos entrega, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 547 Howard Ave in Brooklyn.",
+      "Pantry hours are Thursdays from 10am to 12pm.",
+      "You can call (646) 794-5961 for more information.",
+      "The listing does not say what foods are given, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Vaya el jueves entre 10am y 12pm, cuando la despensa está abierta.",
+      "Llame antes al (646) 794-5961 para confirmar el horario y hacer preguntas.",
+      "Consulte el mapa Food Help NYC para ver la información más reciente."
+    ],
+    "visit_tips_en": [
+      "Go on Thursday between 10am and 12pm, when the pantry is open.",
+      "Call (646) 794-5961 ahead to confirm hours and ask any questions.",
+      "Check the Food Help NYC map for the latest listing information."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 10am a 12pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "547 Howard Ave, Brooklyn, New York, 11233."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué requisitos hay?",
+        "a": "La información no lo indica. Llame al (646) 794-5961 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 10am to 12pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "547 Howard Ave, Brooklyn, New York, 11233."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "The listing does not say. Call (646) 794-5961 to ask."
+      }
+    ]
+  }
+}

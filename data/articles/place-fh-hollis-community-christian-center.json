@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-hollis-community-christian-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:55.535Z",
+  "facts_hash": "05f4f4646c6ba2c4",
+  "article": {
+    "title_es": "Hollis Community Christian Center: despensa de alimentos en Queens",
+    "title_en": "Hollis Community Christian Center: food pantry in Queens",
+    "summary_es": "Este centro comunitario en Hollis, Queens, ofrece una despensa de alimentos los sábados. Está en el mapa de ayuda alimentaria de la Ciudad de Nueva York.",
+    "summary_en": "This community center in Hollis, Queens, offers a food pantry on Saturdays. It is listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Abre los sábados de 10am a 12pm para la despensa.",
+      "Está ubicada en 191-22 Jamaica Ave, Hollis, Queens, 11423.",
+      "Puede llamar al (347) 626-7996 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the Food Help NYC map.",
+      "Open Saturdays from 10am to 12pm for the pantry.",
+      "Located at 191-22 Jamaica Ave, Hollis, Queens, 11423.",
+      "You can call (347) 626-7996 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona solo los sábados de 10am a 12pm.",
+      "Llame antes al (347) 626-7996 para confirmar horarios y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry runs only on Saturdays from 10am to 12pm.",
+      "Call ahead at (347) 626-7996 to confirm hours and ask what is needed.",
+      "The listing does not mention documents or requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 10am a 12pm, según la lista oficial."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "La lista no lo indica. Llame al (347) 626-7996 para preguntar."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 191-22 Jamaica Ave, Hollis, Queens, NY 11423."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 10am to 12pm, according to the official listing."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "The listing does not say. Call (347) 626-7996 to ask."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 191-22 Jamaica Ave, Hollis, Queens, NY 11423."
+      }
+    ]
+  }
+}

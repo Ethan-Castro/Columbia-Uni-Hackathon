@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-south-bklyn-seventh-day-adventist-church-com",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:55.701Z",
+  "facts_hash": "5360c2aec88ede0f",
+  "article": {
+    "title_es": "South Brooklyn Seventh Day Adventist: despensa en Brooklyn",
+    "title_en": "South Brooklyn Seventh Day Adventist: food pantry in Brooklyn",
+    "summary_es": "Esta iglesia en Brooklyn aparece en el mapa Food Help NYC como despensa de alimentos. Atiende los domingos de 11 am a 2 pm, y la despensa funciona el primer y tercer domingo del mes.",
+    "summary_en": "This Brooklyn church appears on the Food Help NYC map as a food pantry. It is open Sundays 11am-2pm, with the pantry on the 1st and 3rd Sundays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 42 Prospect Pl, Brooklyn, NY 11217.",
+      "Abre los domingos de 11 am a 2 pm; la despensa el primer y tercer domingo.",
+      "Teléfono: (718) 783-1662.",
+      "La lista no detalla qué alimentos entrega ni requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 42 Prospect Pl, Brooklyn, NY 11217.",
+      "Open Sundays 11am-2pm; pantry runs on the 1st and 3rd Sundays.",
+      "Phone: (718) 783-1662.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Planee su visita para el primer o tercer domingo del mes, cuando funciona la despensa.",
+      "El horario indicado es de 11 am a 2 pm los domingos.",
+      "Llame al (718) 783-1662 antes de ir para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "Plan your visit for the 1st or 3rd Sunday of the month, when the pantry runs.",
+      "The listed hours are 11am-2pm on Sundays.",
+      "Call (718) 783-1662 before going to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos de una iglesia, según el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los domingos de 11 am a 2 pm. La despensa funciona el primer y tercer domingo del mes."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (718) 783-1662 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a church food pantry, according to the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Sundays 11am-2pm. The pantry runs on the 1st and 3rd Sundays of the month."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (718) 783-1662 to ask before going."
+      }
+    ]
+  }
+}

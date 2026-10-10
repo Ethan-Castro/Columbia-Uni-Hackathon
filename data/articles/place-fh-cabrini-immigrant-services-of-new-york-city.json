@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-cabrini-immigrant-services-of-new-york-city",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:48.803Z",
+  "facts_hash": "2df7997a43e4bc3f",
+  "article": {
+    "title_es": "Cabrini Immigrant Services: despensa de alimentos en Manhattan",
+    "title_en": "Cabrini Immigrant Services: food pantry in Manhattan",
+    "summary_es": "Cabrini Immigrant Services aparece en el mapa Food Help NYC como despensa de alimentos en el norte de Manhattan (código postal 10034). Atiende los sábados por la mañana.",
+    "summary_en": "Cabrini Immigrant Services appears on the Food Help NYC map as a food pantry in upper Manhattan (zip code 10034). It is open Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 630 Isham St, Nueva York, NY 10034, en Manhattan.",
+      "Abre los sábados de 7am a 10am para la despensa.",
+      "Puede llamar al (212) 791-4590 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 630 Isham St, New York, NY 10034, in Manhattan.",
+      "The pantry is open Saturdays from 7am to 10am.",
+      "You can call (212) 791-4590 to ask questions before visiting.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona solo los sábados de 7am a 10am, según la lista.",
+      "Llame al (212) 791-4590 antes de ir para confirmar horarios y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only Saturdays from 7am to 10am, according to the listing.",
+      "Call (212) 791-4590 before going to confirm hours and ask what you need.",
+      "The listing does not mention documents or requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los sábados de 7am a 10am. Se recomienda llamar al (212) 791-4590 para confirmar."
+      },
+      {
+        "q": "¿Qué necesito llevar para recibir alimentos?",
+        "a": "La lista no lo indica. Llame al (212) 791-4590 antes de ir para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. What food is given and any requirements are not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 7am to 10am. It is best to call (212) 791-4590 to confirm."
+      },
+      {
+        "q": "What do I need to bring to receive food?",
+        "a": "The listing does not say. Call (212) 791-4590 before going to ask."
+      }
+    ]
+  }
+}

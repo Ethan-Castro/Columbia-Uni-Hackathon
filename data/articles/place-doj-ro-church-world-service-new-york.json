@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-ro-church-world-service-new-york",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:38.898Z",
+  "facts_hash": "a851f843c0c7a324",
+  "article": {
+    "title_es": "Church World Service New York: ayuda legal de inmigración en Manhattan",
+    "title_en": "Church World Service New York: immigration legal help in Manhattan",
+    "summary_es": "Church World Service New York es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en Manhattan y puede ofrecer ayuda legal de inmigración a través de representantes acreditados.",
+    "summary_en": "Church World Service New York is a non-profit listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations. It is located in Manhattan and may offer immigration legal help through accredited representatives.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Las organizaciones reconocidas son sin fines de lucro con representantes acreditados por el DOJ.",
+      "Estos representantes pueden dar ayuda legal de inmigración.",
+      "La lista no indica los servicios exactos ni los precios; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations.",
+      "Recognized organizations are non-profits with DOJ-accredited representatives.",
+      "These representatives may provide immigration legal help.",
+      "The listing does not show exact services or fees; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (212) 870-2061 para preguntar por los servicios y cómo pedir una cita.",
+      "La dirección es 475 Riverside Drive, Suite 700, Nueva York, NY 10115.",
+      "Los horarios no están en la lista; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call first at (212) 870-2061 to ask about services and how to request an appointment.",
+      "The address is 475 Riverside Drive, Suite 700, New York, NY 10115.",
+      "Hours are not listed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los precios no están en la lista. Llame al (212) 870-2061 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso no está en la lista. Llame al (212) 870-2061 para preguntar cómo solicitar ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit that appears on the DOJ (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (212) 870-2061 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. Call (212) 870-2061 to ask how to request help."
+      }
+    ]
+  }
+}

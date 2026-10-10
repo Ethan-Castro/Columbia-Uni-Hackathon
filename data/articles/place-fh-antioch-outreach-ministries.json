@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-antioch-outreach-ministries",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:49.302Z",
+  "facts_hash": "93c4920e9307f136",
+  "article": {
+    "title_es": "Antioch Outreach Ministries: despensa de alimentos en Manhattan",
+    "title_en": "Antioch Outreach Ministries: food pantry in Manhattan",
+    "summary_es": "Antioch Outreach Ministries es una despensa de alimentos en Harlem, Manhattan, que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados por la mañana.",
+    "summary_en": "Antioch Outreach Ministries is a food pantry in Harlem, Manhattan, listed on the City's Food Help NYC map. It is open on Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 41 W 124th St, Nueva York, NY 10027, en Manhattan.",
+      "Atiende los sábados de 7:30am a 11am (despensa).",
+      "Puede llamar al (212) 534-5715 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 41 W 124th St, New York, NY 10027, in Manhattan.",
+      "It is open Saturdays from 7:30am to 11am (pantry).",
+      "You can call (212) 534-5715 to ask questions before going."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los sábados de 7:30am a 11am, según la información publicada.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; llame al (212) 534-5715 para preguntar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; confirme los horarios antes de ir."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Saturdays from 7:30am to 11am, according to the listing.",
+      "The listing does not say what food is given or if there are requirements; call (212) 534-5715 to ask.",
+      "The information was last checked on October 10, 2026; confirm hours before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los sábados de 7:30am a 11am, según la información publicada."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "Puede llamar al (212) 534-5715. No se incluye correo electrónico ni sitio web en la lista."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. What food is given and any requirements are not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 7:30am to 11am, according to the listing."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "You can call (212) 534-5715. No email or website is listed."
+      }
+    ]
+  }
+}

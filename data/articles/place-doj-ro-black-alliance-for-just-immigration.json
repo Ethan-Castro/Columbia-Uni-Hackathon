@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-ro-black-alliance-for-just-immigration",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:01.402Z",
+  "facts_hash": "ad3adf18f08067f0",
+  "article": {
+    "title_es": "Black Alliance for Just Immigration: ayuda legal de inmigración en Brooklyn",
+    "title_en": "Black Alliance for Just Immigration: immigration legal help in Brooklyn",
+    "summary_es": "La Black Alliance for Just Immigration aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración. Está ubicada en Brooklyn.",
+    "summary_en": "The Black Alliance for Just Immigration appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help. It is located in Brooklyn.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Es una organización sin fines de lucro, según la descripción de la lista.",
+      "La lista no indica los servicios exactos ni los costos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the Department of Justice (EOIR) list of recognized organizations.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "It is a non-profit, according to the list description.",
+      "The list does not show exact services or fees; ask directly."
+    ],
+    "visit_tips_es": [
+      "Dirección: 1368 Fulton Street, Suite 311, Brooklyn, NY 11216.",
+      "Teléfono: (347) 464-5422. Llame antes de ir para preguntar por servicios y citas.",
+      "Los horarios de atención no están incluidos en esta información."
+    ],
+    "visit_tips_en": [
+      "Address: 1368 Fulton Street, Suite 311, Brooklyn, NY 11216.",
+      "Phone: (347) 464-5422. Call ahead to ask about services and appointments.",
+      "Hours of operation are not included in this information."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los costos no están indicados en la información disponible. Llame al (347) 464-5422 para preguntar."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "El proceso para recibir atención no está indicado. Se recomienda llamar antes al (347) 464-5422."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit listed on the DOJ (EOIR) Roster of Recognized Organizations and Accredited Representatives."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (347) 464-5422 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "The intake process is not listed. It is best to call ahead at (347) 464-5422."
+      }
+    ]
+  }
+}

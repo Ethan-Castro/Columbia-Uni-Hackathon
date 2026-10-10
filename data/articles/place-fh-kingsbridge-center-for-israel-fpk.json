@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-kingsbridge-center-for-israel-fpk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:19.422Z",
+  "facts_hash": "04a9456504d881bb",
+  "article": {
+    "title_es": "Kingsbridge Center for Israel: despensa de alimentos en el Bronx",
+    "title_en": "Kingsbridge Center for Israel: food pantry in the Bronx",
+    "summary_es": "El Kingsbridge Center for Israel es una despensa de alimentos en el Bronx, ubicada en 5905 Riverdale Ave. Abre los miércoles por la tarde y los domingos por la mañana.",
+    "summary_en": "Kingsbridge Center for Israel is a food pantry in the Bronx, located at 5905 Riverdale Ave. It is open Wednesday evenings and Sunday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está en 5905 Riverdale Ave, Bronx, NY 10471.",
+      "Abre los miércoles de 7pm a 9pm y los domingos de 9am a 12pm.",
+      "Puede llamar al (718) 548-2727 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 5905 Riverdale Ave, Bronx, NY 10471.",
+      "It is open Wednesdays 7pm-9pm and Sundays 9am-12pm.",
+      "You can call (718) 548-2727 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "La despensa abre miércoles de 7pm a 9pm y domingos de 9am a 12pm.",
+      "No se indica qué alimentos entrega ni si pide algún requisito; pregunte por teléfono al (718) 548-2727.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesdays 7pm-9pm and Sundays 9am-12pm.",
+      "What food is given and any requirements are not listed; call (718) 548-2727 to ask.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 5905 Riverdale Ave, Bronx, NY 10471."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Miércoles de 7pm a 9pm y domingos de 9am a 12pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "No está indicado. Llame al (718) 548-2727 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 5905 Riverdale Ave, Bronx, NY 10471."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Wednesdays 7pm-9pm and Sundays 9am-12pm."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "That is not listed. Call (718) 548-2727 to ask before you go."
+      }
+    ]
+  }
+}

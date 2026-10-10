@@ -1,0 +1,66 @@
+{
+  "place_id": "place-hra-jamaica-snap-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:54.467Z",
+  "facts_hash": "17d2f9d3e2050d61",
+  "article": {
+    "title_es": "HRA Jamaica SNAP Center: oficina de beneficios SNAP en Queens",
+    "title_en": "HRA Jamaica SNAP Center: SNAP benefits office in Queens",
+    "summary_es": "El HRA Jamaica SNAP Center es una oficina de beneficios públicos de la Administración de Recursos Humanos (HRA) de la Ciudad de Nueva York, en Queens, donde puede solicitar SNAP, que ofrece beneficios mensuales en una tarjeta EBT para comprar comida.",
+    "summary_en": "HRA Jamaica SNAP Center is a NYC Human Resources Administration public benefits office in Queens where you can apply for SNAP, which provides monthly benefits on an EBT card to buy groceries.",
+    "how_they_help_es": [
+      "SNAP ofrece beneficios mensuales en una tarjeta EBT para comprar comida.",
+      "La elegibilidad depende principalmente de los ingresos y el tamaño del hogar.",
+      "Puede solicitar en línea, en persona en esta oficina o por correo.",
+      "El personal del centro puede ayudarle a presentar su solicitud y documentos.",
+      "Las decisiones sobre las solicitudes de SNAP llegan en un plazo de 30 días."
+    ],
+    "how_they_help_en": [
+      "SNAP gives monthly benefits on an EBT card to buy groceries.",
+      "Eligibility is based mainly on household income and size.",
+      "You can apply online, in person at this office, or by mail.",
+      "Staff at the center can help you submit your application and documents.",
+      "Decisions on SNAP applications come within 30 days."
+    ],
+    "visit_tips_es": [
+      "La oficina está en 165-08 88th Avenue, 3rd Fl., Jamaica, NY 11432.",
+      "Abre de lunes a viernes, de 8:30am a 5pm.",
+      "Puede solicitar en línea con ACCESS HRA usando una sola solicitud para Cash Assistance, SNAP y Medicaid.",
+      "Para mantener los beneficios, informe cualquier cambio de ingresos, ahorros, dirección o personas en el hogar y responda pronto a los avisos de recertificación."
+    ],
+    "visit_tips_en": [
+      "The office is at 165-08 88th Avenue, 3rd Fl., Jamaica, NY 11432.",
+      "Open Monday to Friday, 8:30am-5pm.",
+      "You can apply online with ACCESS HRA using a single application for Cash Assistance, SNAP, and Medicaid.",
+      "To keep benefits, report changes in income, savings, address, or household and respond to recertification notices quickly."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es SNAP?",
+        "a": "Beneficios mensuales en una tarjeta EBT para comprar comida. Depende principalmente de los ingresos y el tamaño del hogar."
+      },
+      {
+        "q": "¿Cómo puedo solicitar?",
+        "a": "En línea con ACCESS HRA, en persona en un Centro SNAP de HRA o una organización comunitaria, o por correo. También puede llamar al 718-557-1399 para que le envíen una solicitud por correo."
+      },
+      {
+        "q": "¿Cuánto tarda la decisión?",
+        "a": "Recibirá una decisión en un plazo de 30 días. La tarjeta EBT llega por correo hasta cinco días hábiles después de la aprobación."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is SNAP?",
+        "a": "Monthly benefits on an EBT card to buy groceries. Eligibility is based mainly on household income and size."
+      },
+      {
+        "q": "How can I apply?",
+        "a": "Online with ACCESS HRA, in person at an HRA SNAP Center or community organization, or by mail. You can also call the HRA Infoline at 718-557-1399 to have a paper application mailed to you."
+      },
+      {
+        "q": "How long does a decision take?",
+        "a": "You will receive a decision within 30 days. An EBT card arrives by mail up to five business days after approval."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-christ-abundant-life-ministries",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:14.637Z",
+  "facts_hash": "b61aa25a675318cd",
+  "article": {
+    "title_es": "Christ Abundant Life Ministries: despensa de alimentos en Staten Island",
+    "title_en": "Christ Abundant Life Ministries: food pantry in Staten Island",
+    "summary_es": "Christ Abundant Life Ministries es una despensa de alimentos en Staten Island, registrada en el mapa Food Help NYC de la Ciudad. Abre los jueves por la tarde.",
+    "summary_en": "Christ Abundant Life Ministries is a food pantry in Staten Island listed on the City's Food Help NYC map. It opens Thursday evenings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos registrada en el mapa Food Help NYC de la Ciudad.",
+      "Abre por la tarde los jueves, lo que puede ayudar si trabaja de día.",
+      "Está ubicada en 121 Grandview Ave, Staten Island, NY 10303.",
+      "Puede llamar al (718) 273-0372 para hacer preguntas antes de visitar.",
+      "La información no dice qué alimentos entrega, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Open in the evening on Thursdays, which may help if you work during the day.",
+      "Located at 121 Grandview Ave, Staten Island, NY 10303.",
+      "You can call (718) 273-0372 to ask questions before visiting.",
+      "The listing does not say what food is given, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende los jueves, de 5:30pm a 6:30pm.",
+      "Llame al (718) 273-0372 antes de ir para preguntar qué ofrece y si piden algún requisito.",
+      "La información no menciona documentos ni pasos de inscripción, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Thursdays, 5:30pm-6:30pm.",
+      "Call (718) 273-0372 ahead to ask about what is offered and any requirements.",
+      "The listing does not mention documents or sign-up steps, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Está registrada como despensa de alimentos en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves, de 5:30pm a 6:30pm."
+      },
+      {
+        "q": "¿Necesito traer algo o inscribirme?",
+        "a": "La información no lo dice. Llame al (718) 273-0372 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is listed as a food pantry on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays, 5:30pm-6:30pm."
+      },
+      {
+        "q": "Do I need to bring anything or sign up?",
+        "a": "The listing does not say. Call (718) 273-0372 to ask before you go."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-church-of-god-feeding-the-hungry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:32.291Z",
+  "facts_hash": "7c53046e0d42bdda",
+  "article": {
+    "title_es": "Church of God Feeding the Hungry: despensa de alimentos en Brooklyn",
+    "title_en": "Church of God Feeding the Hungry: food pantry in Brooklyn",
+    "summary_es": "Church of God Feeding the Hungry es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Atiende los jueves de 10 a.m. a 12 p.m.",
+    "summary_en": "Church of God Feeding the Hungry is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Thursdays from 10am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 836 Classon Ave, Brooklyn, NY 11238.",
+      "Atiende los jueves de 10 a.m. a 12 p.m. (despensa).",
+      "Puede llamar al (718) 230-5955 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 836 Classon Ave, Brooklyn, NY 11238.",
+      "It is open Thursdays from 10am to 12pm (pantry).",
+      "You can call (718) 230-5955 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es jueves de 10 a.m. a 12 p.m.",
+      "Llame al (718) 230-5955 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona requisitos ni documentos, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Thursdays from 10am to 12pm.",
+      "Call (718) 230-5955 before going to confirm the hours and ask what you need.",
+      "The listing does not mention requirements or documents, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo atiende?",
+        "a": "Los jueves de 10 a.m. a 12 p.m., según la lista."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "La lista no lo indica. Llame al (718) 230-5955 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Thursdays from 10am to 12pm, according to the listing."
+      },
+      {
+        "q": "What food does it give and what do I need to receive it?",
+        "a": "The listing does not say. Call (718) 230-5955 to ask before you go."
+      }
+    ]
+  }
+}

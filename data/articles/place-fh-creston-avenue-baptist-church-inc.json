@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-creston-avenue-baptist-church-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:06.743Z",
+  "facts_hash": "b51bba262dbc0337",
+  "article": {
+    "title_es": "Iglesia Bautista Creston Avenue: despensa de alimentos en el Bronx",
+    "title_en": "Creston Avenue Baptist Church: food pantry in the Bronx",
+    "summary_es": "La Iglesia Bautista Creston Avenue ofrece una despensa de alimentos y una cocina de sopa en el Bronx, y aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Creston Avenue Baptist Church runs a food pantry and soup kitchen in the Bronx, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos los lunes, miércoles y viernes de 12pm a 2pm.",
+      "Cocina de sopa los sábados de 12pm a 2pm.",
+      "Ubicada en 114 E 188th St, en el Bronx.",
+      "Aparece en el mapa Food Help NYC de la ciudad.",
+      "Llame al (718) 367-1754 para preguntar qué alimentos dan y si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "Food pantry open Monday, Wednesday and Friday from 12pm to 2pm.",
+      "Soup kitchen open Saturday from 12pm to 2pm.",
+      "Located at 114 E 188th St in the Bronx.",
+      "Listed on the City's Food Help NYC map.",
+      "Call (718) 367-1754 to ask what food is given and any requirements."
+    ],
+    "visit_tips_es": [
+      "Revise el horario: la despensa atiende lunes, miércoles y viernes; la cocina de sopa, el sábado.",
+      "Llame antes al (718) 367-1754 para confirmar los horarios y preguntar qué esperar.",
+      "Los alimentos que entregan y los requisitos no están indicados, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Check the schedule: pantry days are Monday, Wednesday and Friday; the soup kitchen is Saturday.",
+      "Call ahead at (718) 367-1754 to confirm hours and ask what to expect.",
+      "What food is provided and any requirements are not listed, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Lunes, miércoles y viernes, de 12pm a 2pm."
+      },
+      {
+        "q": "¿Hay cocina de sopa?",
+        "a": "Sí, los sábados de 12pm a 2pm."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "No está indicado. Llame al (718) 367-1754 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Monday, Wednesday and Friday, 12pm to 2pm."
+      },
+      {
+        "q": "Is there a soup kitchen?",
+        "a": "Yes, on Saturday from 12pm to 2pm."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "That is not listed. Call (718) 367-1754 to ask."
+      }
+    ]
+  }
+}

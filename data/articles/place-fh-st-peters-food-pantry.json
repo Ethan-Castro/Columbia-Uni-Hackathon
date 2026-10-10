@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-peters-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:25.747Z",
+  "facts_hash": "638db01c70325d3d",
+  "article": {
+    "title_es": "St. Peter's Food Pantry: despensa de alimentos en Manhattan",
+    "title_en": "St. Peter's Food Pantry: food pantry in Manhattan",
+    "summary_es": "St. Peter's Food Pantry es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 10:30am a 11:30am.",
+    "summary_en": "St. Peter's Food Pantry is a food pantry in Manhattan listed on the City's Food Help NYC map. It is open on Saturdays from 10:30am to 11:30am.",
+    "how_they_help_es": [
+      "- Una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "- Está en 346 W 20th St, en Manhattan, código postal 10011.",
+      "- Abre los sábados de 10:30am a 11:30am.",
+      "- Teléfono: (212) 929-2390.",
+      "- No se indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "- A food pantry listed on the City's Food Help NYC map.",
+      "- Located at 346 W 20th St in Manhattan, zip code 10011.",
+      "- Open on Saturdays from 10:30am to 11:30am.",
+      "- Phone: (212) 929-2390.",
+      "- What food is given and any requirements are not listed, so please ask."
+    ],
+    "visit_tips_es": [
+      "- El horario de la despensa es los sábados de 10:30am a 11:30am.",
+      "- Llame al (212) 929-2390 antes de ir para preguntar sobre los alimentos y si hay requisitos.",
+      "- La dirección es 346 W 20th St, New York, NY 10011."
+    ],
+    "visit_tips_en": [
+      "- The pantry hours are Saturdays, 10:30am to 11:30am.",
+      "- Call (212) 929-2390 ahead to ask about food and any requirements.",
+      "- The address is 346 W 20th St, New York, NY 10011."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es St. Peter's Food Pantry?",
+        "a": "Es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los sábados, de 10:30am a 11:30am."
+      },
+      {
+        "q": "¿Cómo puedo hacer preguntas antes de visitar?",
+        "a": "Llame al (212) 929-2390 antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is St. Peter's Food Pantry?",
+        "a": "It is a food pantry in Manhattan listed on the City's Food Help NYC map. What food is given is not listed."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays, 10:30am-11:30am."
+      },
+      {
+        "q": "How can I ask questions before visiting?",
+        "a": "Call (212) 929-2390 before going."
+      }
+    ]
+  }
+}

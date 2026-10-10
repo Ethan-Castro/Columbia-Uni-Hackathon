@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-the-new-york-legal-assistance-group",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:40.451Z",
+  "facts_hash": "0a722d27893307dd",
+  "article": {
+    "title_es": "The New York Legal Assistance Group: ayuda legal en Manhattan",
+    "title_en": "The New York Legal Assistance Group: legal help in Manhattan",
+    "summary_es": "The New York Legal Assistance Group aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Su oficina está en el bajo Manhattan, en la calle Pearl.",
+    "summary_en": "The New York Legal Assistance Group appears on the U.S. Department of Justice (EOIR) list of recognized organizations. Its office is in lower Manhattan, on Pearl Street.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados pueden ofrecer ayuda legal de inmigración.",
+      "Está en 100 Pearl Street, piso 19, Nueva York, NY 10004.",
+      "Puede llamar al (212) 613-5000 para preguntar por sus servicios.",
+      "No se indican tarifas ni cómo pedir una cita; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its accredited representatives may provide immigration legal help.",
+      "Located at 100 Pearl Street, 19th Floor, New York, NY 10004.",
+      "You can call (212) 613-5000 to ask about its services.",
+      "Fees and how to get an appointment are not listed; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame antes al (212) 613-5000 para confirmar cómo recibir ayuda.",
+      "Pregunte por tarifas y por el proceso para obtener una cita.",
+      "La oficina está en el piso 19 del edificio de 100 Pearl Street."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (212) 613-5000 to confirm how to get help.",
+      "Ask about fees and the process for getting an appointment.",
+      "The office is on the 19th floor of the building at 100 Pearl Street."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas con representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "Las tarifas no aparecen en la información disponible. Llame al (212) 613-5000 para preguntar."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Se recomienda llamar primero."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit listed on the DOJ (EOIR) roster of recognized organizations with accredited representatives."
+      },
+      {
+        "q": "How much do its services cost?",
+        "a": "Fees are not listed in the available information. Call (212) 613-5000 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "The appointment process is not listed. It is best to call first."
+      }
+    ]
+  }
+}

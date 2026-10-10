@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-crossroads-community-services-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:09.655Z",
+  "facts_hash": "6e920a2257122074",
+  "article": {
+    "title_es": "Crossroads Community Services: comedor y despensa en Manhattan",
+    "title_en": "Crossroads Community Services: soup kitchen and pantry in Manhattan",
+    "summary_es": "Crossroads Community Services es un comedor y despensa de alimentos en el este de Manhattan, listado en el mapa Food Help NYC de la ciudad. Ofrece comidas en varios días de la semana y despensa los jueves.",
+    "summary_en": "Crossroads Community Services is a soup kitchen and food pantry on the east side of Manhattan, listed on the City's Food Help NYC map. It serves meals on several days of the week and runs a pantry on Thursdays.",
+    "how_they_help_es": [
+      "Comidas de comedor los lunes, miércoles, sábados y domingos.",
+      "Despensa de alimentos los jueves por la mañana.",
+      "Abre también los fines de semana.",
+      "Listado oficial en el mapa Food Help NYC de la ciudad.",
+      "Qué alimentos entrega y requisitos no están indicados: pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Soup kitchen meals on Mondays, Wednesdays, Saturdays and Sundays.",
+      "Food pantry on Thursday mornings.",
+      "Open on weekends too.",
+      "Officially listed on the City's Food Help NYC map.",
+      "What food is given and requirements are not listed: ask by phone."
+    ],
+    "visit_tips_es": [
+      "El comedor sirve de 7:45am a 8:45am los días que abre.",
+      "La despensa funciona el jueves de 9:30am a 12:45pm.",
+      "Llame al (212) 378-0229 antes de ir para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen serves from 7:45am to 8:45am on its open days.",
+      "The pantry runs Thursday from 9:30am to 12:45pm.",
+      "Call (212) 378-0229 before going to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 108 E 51st St, New York, NY, 10022, en Manhattan."
+      },
+      {
+        "q": "¿Qué días abre?",
+        "a": "Comedor: lunes, miércoles, sábado y domingo, 7:45am-8:45am. Despensa: jueves, 9:30am-12:45pm."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "No está indicado. Llame al (212) 378-0229 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 108 E 51st St, New York, NY, 10022, in Manhattan."
+      },
+      {
+        "q": "What days is it open?",
+        "a": "Soup kitchen: Mon, Wed, Sat and Sun, 7:45am-8:45am. Pantry: Thu, 9:30am-12:45pm."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "It is not listed. Call (212) 378-0229 to ask."
+      }
+    ]
+  }
+}

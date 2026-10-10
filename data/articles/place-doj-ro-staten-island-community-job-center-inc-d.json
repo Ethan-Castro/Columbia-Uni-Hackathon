@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-staten-island-community-job-center-inc-d",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:00.570Z",
+  "facts_hash": "89fa8c5f81223a5a",
+  "article": {
+    "title_es": "La Colmena: ayuda legal de inmigración en Staten Island",
+    "title_en": "La Colmena: immigration legal help in Staten Island",
+    "summary_es": "La Colmena (Staten Island Community Job Center Inc.) aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración.",
+    "summary_en": "La Colmena (Staten Island Community Job Center Inc.) appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista de organizaciones reconocidas del DOJ (EOIR).",
+      "Sus representantes acreditados pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 774 Port Richmond Avenue, Staten Island, NY 10302.",
+      "Teléfono: (718) 442-7700.",
+      "Los servicios, tarifas y cómo pedir cita no están en la información; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its accredited representatives may provide immigration legal help.",
+      "Located at 774 Port Richmond Avenue, Staten Island, NY 10302.",
+      "Phone: (718) 442-7700.",
+      "Services, fees, and how to get an appointment are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 442-7700 antes de ir para preguntar por servicios y citas.",
+      "El horario no está incluido en la información; pregunte por teléfono.",
+      "Las tarifas y el proceso de admisión no están indicados; pregunte al llamar."
+    ],
+    "visit_tips_en": [
+      "Call (718) 442-7700 before visiting to ask about services and appointments.",
+      "Hours are not included in the information; ask by phone.",
+      "Fees and the intake process are not listed; ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es La Colmena?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas para ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto?",
+        "a": "774 Port Richmond Avenue, Staten Island, NY 10302. Teléfono: (718) 442-7700."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están indicadas en la información disponible. Llame al (718) 442-7700 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is La Colmena?",
+        "a": "It is a nonprofit that appears on the DOJ (EOIR) list of recognized organizations for immigration legal help."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "774 Port Richmond Avenue, Staten Island, NY 10302. Phone: (718) 442-7700."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (718) 442-7700 to ask."
+      }
+    ]
+  }
+}

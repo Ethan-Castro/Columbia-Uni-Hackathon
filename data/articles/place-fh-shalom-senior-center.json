@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-shalom-senior-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:40.592Z",
+  "facts_hash": "20487c961fca1ef8",
+  "article": {
+    "title_es": "Shalom Senior Center: despensa de alimentos en Brooklyn",
+    "title_en": "Shalom Senior Center: food pantry in Brooklyn",
+    "summary_es": "Shalom Senior Center es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad, ubicada en Brooklyn.",
+    "summary_en": "Shalom Senior Center is a food pantry listed on the City's Food Help NYC map, located in Brooklyn.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 483 Albany Ave, Brooklyn, NY 11203.",
+      "Abre de lunes a jueves de 1pm a 2pm y viernes de 12pm a 1pm.",
+      "Puede llamar al (718) 774-9213 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 483 Albany Ave, Brooklyn, NY 11203.",
+      "It is open Monday-Thursday 1pm-2pm and Friday 12pm-1pm.",
+      "You can call (718) 774-9213 with questions."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende de lunes a jueves de 1pm a 2pm y viernes de 12pm a 1pm.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos; pregunte por teléfono.",
+      "Verifique el horario antes de ir, llamando al (718) 774-9213."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Monday-Thursday 1pm-2pm and Friday 12pm-1pm.",
+      "The listing does not say what food is given or if there are requirements; ask by phone.",
+      "Check the schedule before going by calling (718) 774-9213."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "Lunes a jueves de 1pm a 2pm; viernes de 12pm a 1pm."
+      },
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 483 Albany Ave, Brooklyn, NY 11203."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is listed as a food pantry on the City's Food Help NYC map."
+      },
+      {
+        "q": "When can I go?",
+        "a": "Monday-Thursday 1pm-2pm; Friday 12pm-1pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 483 Albany Ave, Brooklyn, NY 11203."
+      }
+    ]
+  }
+}

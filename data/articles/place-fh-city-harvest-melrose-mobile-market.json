@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-city-harvest-melrose-mobile-market",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:45.969Z",
+  "facts_hash": "2da7118520e82ae2",
+  "article": {
+    "title_es": "City Harvest - Melrose Mobile Market: despensa de alimentos en el Bronx",
+    "title_en": "City Harvest - Melrose Mobile Market: food pantry in the Bronx",
+    "summary_es": "City Harvest - Melrose Mobile Market es una despensa de alimentos en el Bronx, en el mapa Food Help NYC de la ciudad. Abre miércoles y sábados por la mañana.",
+    "summary_en": "City Harvest - Melrose Mobile Market is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Wednesday and Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 286 E 156th St, Bronx, NY 10451.",
+      "Abre miércoles y sábados de 9:30am a 11:30am.",
+      "Puede llamar al (646) 412-0740 para más información.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 286 E 156th St, Bronx, NY 10451.",
+      "Open Wednesdays and Saturdays, 9:30am to 11:30am.",
+      "You can call (646) 412-0740 for more information.",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "Vaya el miércoles o el sábado entre 9:30am y 11:30am.",
+      "Llame antes al (646) 412-0740 para confirmar horarios y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on a Wednesday or Saturday between 9:30am and 11:30am.",
+      "Call ahead at (646) 412-0740 to confirm hours and ask what to bring.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (646) 412-0740 para preguntar."
+      },
+      {
+        "q": "¿Necesito una cita o documentos?",
+        "a": "La lista no menciona citas ni requisitos. Se recomienda llamar antes de ir."
+      },
+      {
+        "q": "¿Qué días abre?",
+        "a": "Miércoles y sábados de 9:30am a 11:30am, según la lista."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give out?",
+        "a": "The listing does not say. Call (646) 412-0740 to ask."
+      },
+      {
+        "q": "Do I need an appointment or documents?",
+        "a": "The listing does not mention appointments or requirements. It is best to call before going."
+      },
+      {
+        "q": "What days is it open?",
+        "a": "Wednesdays and Saturdays, 9:30am to 11:30am, according to the listing."
+      }
+    ]
+  }
+}

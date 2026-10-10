@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-coalition-for-the-homeless",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:02.671Z",
+  "facts_hash": "33bb1c932e686687",
+  "article": {
+    "title_es": "Coalition for the Homeless: comedor en Manhattan",
+    "title_en": "Coalition for the Homeless: soup kitchen in Manhattan",
+    "summary_es": "Coalition for the Homeless aparece en el mapa Food Help NYC como despensa/comedor y ofrece un comedor de sopa en Manhattan.",
+    "summary_en": "Coalition for the Homeless appears on the Food Help NYC map as a pantry/soup kitchen and offers a soup kitchen in Manhattan.",
+    "how_they_help_es": [
+      "Listado en el mapa Food Help NYC como despensa de alimentos o comedor",
+      "Ofrece comedor de sopa de lunes a domingo por la tarde y noche",
+      "Ubicado en 108 E 51st St, Nueva York, NY 10022",
+      "Teléfono disponible para llamar antes de ir: (212) 776-2002"
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry or soup kitchen",
+      "Offers a soup kitchen Monday through Sunday in the evening",
+      "Located at 108 E 51st St, New York, NY 10022",
+      "Phone available to call ahead: (212) 776-2002"
+    ],
+    "visit_tips_es": [
+      "El comedor de sopa abre de lunes a domingo, 5:30pm a 10pm",
+      "Abre por las tardes y también los fines de semana",
+      "La lista no dice qué alimentos se entregan ni si hay requisitos; llame al (212) 776-2002 para preguntar"
+    ],
+    "visit_tips_en": [
+      "The soup kitchen is open Monday through Sunday, 5:30pm to 10pm",
+      "Open in the evenings and also on weekends",
+      "The listing does not say what food is given or any requirements; call (212) 776-2002 to ask"
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Aparece en el mapa Food Help NYC como despensa/comedor, con comedor de sopa de lunes a domingo, 5:30pm a 10pm."
+      },
+      {
+        "q": "¿Necesito algún documento o hay requisitos?",
+        "a": "La lista no menciona requisitos ni documentos. Llame al (212) 776-2002 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "La lista no indica el costo. Llame al (212) 776-2002 para preguntar los detalles."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does it offer?",
+        "a": "It appears on the Food Help NYC map as a pantry/soup kitchen, with a soup kitchen Monday through Sunday, 5:30pm to 10pm."
+      },
+      {
+        "q": "Do I need documents or are there requirements?",
+        "a": "The listing does not mention requirements or documents. Call (212) 776-2002 to ask before going."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "The listing does not say the cost. Call (212) 776-2002 to ask for details."
+      }
+    ]
+  }
+}

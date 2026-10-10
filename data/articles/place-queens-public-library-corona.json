@@ -1,0 +1,62 @@
+{
+  "place_id": "place-queens-public-library-corona",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:44.634Z",
+  "facts_hash": "377122ae07e22467",
+  "article": {
+    "title_es": "Biblioteca Pública de Queens en Corona: biblioteca en Queens",
+    "title_en": "Queens Public Library at Corona: library in Queens",
+    "summary_es": "La Biblioteca Pública de Queens en Corona es una biblioteca comunitaria en Corona, Queens. Su tarjeta IDNYC se puede usar en cualquier biblioteca pública de la Ciudad de Nueva York.",
+    "summary_en": "Queens Public Library at Corona is a community library in Corona, Queens. Your IDNYC card can be used at any public library in New York City.",
+    "how_they_help_es": [
+      "Es una biblioteca pública en Corona, Queens.",
+      "Puede usar su tarjeta IDNYC en cualquier biblioteca pública de la Ciudad de Nueva York.",
+      "Está abierta de martes a sábado, con horario nocturno el jueves.",
+      "Puede llamar al (718) 426-2844 para más información."
+    ],
+    "how_they_help_en": [
+      "It is a public library in Corona, Queens.",
+      "You can use your IDNYC card at any public library in New York City.",
+      "It is open Tuesday through Saturday, with evening hours on Thursday.",
+      "You can call (718) 426-2844 for more information."
+    ],
+    "visit_tips_es": [
+      "Lleve su tarjeta IDNYC para usar la biblioteca.",
+      "Consulte el horario antes de ir: martes 1pm-6pm; miércoles 10am-6pm; jueves 12pm-8pm; viernes 10am-6pm; sábado 10am-5pm.",
+      "Llame antes al (718) 426-2844 si tiene preguntas."
+    ],
+    "visit_tips_en": [
+      "Bring your IDNYC card to use the library.",
+      "Check the hours before you go: Tue 1pm-6pm; Wed 10am-6pm; Thu 12pm-8pm; Fri 10am-6pm; Sat 10am-5pm.",
+      "Call ahead at (718) 426-2844 if you have questions."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Puedo usar mi tarjeta IDNYC aquí?",
+        "a": "Sí. Puede mostrar su tarjeta IDNYC en cualquier biblioteca pública de la Ciudad de Nueva York, incluida esta."
+      },
+      {
+        "q": "¿Cuál es el horario?",
+        "a": "Martes 1pm-6pm; miércoles 10am-6pm; jueves 12pm-8pm; viernes 10am-6pm; sábado 10am-5pm."
+      },
+      {
+        "q": "¿Cómo puedo contactar a la biblioteca?",
+        "a": "Llame al (718) 426-2844 o visite 38-23 104 Street, Corona, NY 11368."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Can I use my IDNYC card here?",
+        "a": "Yes. You can show your IDNYC card at any public library in New York City, including this one."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Tue 1pm-6pm; Wed 10am-6pm; Thu 12pm-8pm; Fri 10am-6pm; Sat 10am-5pm."
+      },
+      {
+        "q": "How do I contact the library?",
+        "a": "Call (718) 426-2844 or visit 38-23 104 Street, Corona, NY 11368."
+      }
+    ]
+  }
+}

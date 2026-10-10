@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-sanctified-church-of-god-inc-community-feedi",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:53.116Z",
+  "facts_hash": "9807ebc34211c209",
+  "article": {
+    "title_es": "Sanctified Church of God: despensa de alimentos en Brooklyn",
+    "title_en": "Sanctified Church of God: food pantry in Brooklyn",
+    "summary_es": "Sanctified Church of God, Inc. tiene un programa comunitario de alimentación con una despensa de alimentos en Brooklyn. Aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Sanctified Church of God, Inc. runs a community feeding program with a food pantry in Brooklyn. It is listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Tiene una despensa de alimentos en la iglesia, en Brooklyn",
+      "Abre los sábados de 12pm a 1pm",
+      "Aparece en el mapa oficial Food Help NYC de la ciudad",
+      "Llame al (718) 493-2385 para preguntar sobre la despensa"
+    ],
+    "how_they_help_en": [
+      "Runs a food pantry at the church in Brooklyn",
+      "Open on Saturdays from 12pm to 1pm",
+      "Listed on the City's official Food Help NYC map",
+      "Call (718) 493-2385 to ask about the pantry"
+    ],
+    "visit_tips_es": [
+      "La despensa abre los sábados de 12pm a 1pm",
+      "Llame antes al (718) 493-2385 para confirmar los detalles",
+      "La información no dice qué alimentos entrega ni si hay requisitos; pregunte cuando llame"
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturdays, 12pm to 1pm",
+      "Call ahead at (718) 493-2385 to confirm details",
+      "The listing does not say what food is given or any requirements, so ask when you call"
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Los sábados de 12pm a 1pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "404 Lefferts Ave, Brooklyn, New York, 11225."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No aparece en la información. Llame al (718) 493-2385 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Saturdays from 12pm to 1pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "404 Lefferts Ave, Brooklyn, New York, 11225."
+      },
+      {
+        "q": "What food is given, and are there requirements?",
+        "a": "That is not listed. Call (718) 493-2385 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-love-wins-nyc-crown-heights",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:50.336Z",
+  "facts_hash": "f7af4e4c5b30f675",
+  "article": {
+    "title_es": "LOVE WINS NYC - Crown Heights: despensa de alimentos en Brooklyn",
+    "title_en": "LOVE WINS NYC - Crown Heights: food pantry in Brooklyn",
+    "summary_es": "LOVE WINS NYC - Crown Heights es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. Abre el tercer jueves del mes, de 1:30 pm a 2:30 pm.",
+    "summary_en": "LOVE WINS NYC - Crown Heights is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open the 3rd Thursday of the month, 1:30pm-2:30pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 1561 Bedford Ave, Brooklyn, NY 11225.",
+      "Abre el tercer jueves del mes, de 1:30 pm a 2:30 pm.",
+      "Puede llamar al (201) 701-1024 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1561 Bedford Ave, Brooklyn, NY 11225.",
+      "It is open the 3rd Thursday of the month, 1:30pm-2:30pm.",
+      "You can call (201) 701-1024 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya el tercer jueves del mes, porque la despensa solo abre ese día según la lista.",
+      "El horario es de 1:30 pm a 2:30 pm.",
+      "Llame antes al (201) 701-1024 para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "Go on the 3rd Thursday of the month, since the listing says the pantry is open that day only.",
+      "Hours are 1:30pm-2:30pm.",
+      "Call ahead at (201) 701-1024 to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es LOVE WINS NYC - Crown Heights?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "El tercer jueves del mes, de 1:30 pm a 2:30 pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está indicado en la lista. Llame al (201) 701-1024 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is LOVE WINS NYC - Crown Heights?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The 3rd Thursday of the month, 1:30pm-2:30pm."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "That is not listed. Call (201) 701-1024 to ask."
+      }
+    ]
+  }
+}

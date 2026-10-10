@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-161st-street-merchants-assoc-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:31.209Z",
+  "facts_hash": "9354261cae77172f",
+  "article": {
+    "title_es": "161st Street Merchant's Assoc.: despensa de alimentos en el Bronx",
+    "title_en": "161st Street Merchant's Assoc.: food pantry in the Bronx",
+    "summary_es": "Esta despensa de alimentos aparece en el mapa Food Help NYC de la ciudad. Reparte alimentos los jueves, solo el segundo y cuarto jueves de cada mes.",
+    "summary_en": "This food pantry is listed on the City's Food Help NYC map. It gives out food on Thursdays, only on the 2nd and 4th Thursday of each month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 85 E 165th St, Bronx, NY 10452.",
+      "Abre los jueves de 12pm a 1pm.",
+      "La despensa funciona solo el segundo y cuarto jueves de cada mes.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 85 E 165th St, Bronx, NY 10452.",
+      "It is open Thursdays from 12pm to 1pm.",
+      "The pantry runs only on the 2nd and 4th Thursday of each month.",
+      "The listing does not say what food is given or if there are requirements; ask before going."
+    ],
+    "visit_tips_es": [
+      "Vaya un jueves entre 12pm y 1pm, pero confirme que sea el segundo o cuarto jueves del mes.",
+      "La lista no menciona documentos ni requisitos, así que es mejor preguntar primero.",
+      "No hay teléfono en la lista; puede consultar el mapa Food Help NYC de la ciudad para más información."
+    ],
+    "visit_tips_en": [
+      "Go on a Thursday between 12pm and 1pm, but confirm it is the 2nd or 4th Thursday of the month.",
+      "The listing does not mention documents or requirements, so it is best to ask first.",
+      "No phone number is listed; you can check the City's Food Help NYC map for more information."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los jueves de 12pm a 1pm, pero solo el segundo y cuarto jueves de cada mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 85 E 165th St, Bronx, NY 10452."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no lo indica. No hay teléfono publicado, así que consulte el mapa Food Help NYC antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 12pm to 1pm, but only on the 2nd and 4th Thursday of each month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 85 E 165th St, Bronx, NY 10452."
+      },
+      {
+        "q": "What food does it give out, and are there requirements?",
+        "a": "The listing does not say. No phone number is published, so check the Food Help NYC map before going."
+      }
+    ]
+  }
+}

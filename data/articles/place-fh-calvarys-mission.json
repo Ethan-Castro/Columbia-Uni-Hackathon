@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-calvarys-mission",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:35.958Z",
+  "facts_hash": "d18baabb01b6f698",
+  "article": {
+    "title_es": "Calvary's Mission: despensa de alimentos en Queens",
+    "title_en": "Calvary's Mission: food pantry in Queens",
+    "summary_es": "Calvary's Mission es una despensa de alimentos en Richmond Hill, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los viernes por la tarde.",
+    "summary_en": "Calvary's Mission is a food pantry in Richmond Hill, Queens, listed on the City's Food Help NYC map. It opens on Friday afternoons.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 102-16 89th Ave, Richmond Hill, Queens, NY 11418.",
+      "Abre los viernes de 3:30pm a 6:30pm para la despensa.",
+      "La lista no indica qué alimentos entrega ni si pide requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 102-16 89th Ave, Richmond Hill, Queens, NY 11418.",
+      "It is open Fridays from 3:30pm to 6:30pm for the pantry.",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los viernes de 3:30pm a 6:30pm.",
+      "No hay teléfono en la lista; consulte el mapa Food Help NYC antes de ir.",
+      "La lista no menciona documentos ni requisitos; pregunte al llegar."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Fridays from 3:30pm to 6:30pm.",
+      "No phone number is listed; check the Food Help NYC map before going.",
+      "The listing does not mention documents or requirements; ask when you arrive."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Calvary's Mission?",
+        "a": "Es una despensa de alimentos en Richmond Hill, Queens, que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los viernes de 3:30pm a 6:30pm, según la lista."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "La lista no lo indica. Pregunte directamente en el lugar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Calvary's Mission?",
+        "a": "It is a food pantry in Richmond Hill, Queens, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays from 3:30pm to 6:30pm, according to the listing."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "The listing does not say. Ask directly at the location before going."
+      }
+    ]
+  }
+}

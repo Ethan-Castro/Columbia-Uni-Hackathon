@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-university-community-social-services-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:57.416Z",
+  "facts_hash": "86ab765b4eab1726",
+  "article": {
+    "title_es": "University Community Social Services: despensa en Manhattan",
+    "title_en": "University Community Social Services: food pantry in Manhattan",
+    "summary_es": "University Community Social Services, Inc. es una despensa de alimentos y comedor en el East Village de Manhattan, en 137 E 2nd St. Abre los sábados.",
+    "summary_en": "University Community Social Services, Inc. is a food pantry and soup kitchen in Manhattan's East Village, at 137 E 2nd St. It is open on Saturdays.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos.",
+      "También funciona como comedor (soup kitchen) los sábados.",
+      "Horario del comedor: sábado de 9 am a 10 am y de 1 pm a 2:30 pm.",
+      "Está en 137 E 2nd St, Nueva York, NY 10009, en Manhattan.",
+      "Puede llamar al (347) 850-2230 para preguntar qué alimentos dan y qué necesita."
+    ],
+    "how_they_help_en": [
+      "Listed on the City's Food Help NYC map as a food pantry.",
+      "It also operates as a soup kitchen on Saturdays.",
+      "Soup kitchen hours: Saturday 9am-10am and 1pm-2:30pm.",
+      "Located at 137 E 2nd St, New York, NY 10009, in Manhattan.",
+      "You can call (347) 850-2230 to ask what food is given and what is needed."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es solo para el comedor: sábado de 9 am a 10 am y de 1 pm a 2:30 pm.",
+      "La lista no indica qué alimentos ofrece ni si hay requisitos; pregunte por teléfono al (347) 850-2230.",
+      "La información fue verificada el 10 de octubre de 2026; confirme antes de ir."
+    ],
+    "visit_tips_en": [
+      "The hours listed are for the soup kitchen: Saturday 9am-10am and 1pm-2:30pm.",
+      "The listing does not say what food is given or if there are requirements; call (347) 850-2230 to ask.",
+      "The information was last checked on October 10, 2026; confirm before you go."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos y también funciona como comedor los sábados."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "El horario indicado es sábado de 9 am a 10 am y de 1 pm a 2:30 pm (comedor)."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "La lista no menciona requisitos ni documentos. Llame al (347) 850-2230 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the City's Food Help NYC map, it is a food pantry and also runs a soup kitchen on Saturdays."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The hours listed are Saturday 9am-10am and 1pm-2:30pm (soup kitchen)."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "The listing does not mention requirements or documents. Call (347) 850-2230 to ask before you go."
+      }
+    ]
+  }
+}

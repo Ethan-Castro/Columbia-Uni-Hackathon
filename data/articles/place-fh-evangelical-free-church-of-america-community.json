@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-evangelical-free-church-of-america-community",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:26.671Z",
+  "facts_hash": "a8204f53df37ba6f",
+  "article": {
+    "title_es": "Iglesia Community Bible: despensa de alimentos en Richmond Hill, Queens",
+    "title_en": "Community Bible Church: food pantry in Richmond Hill, Queens",
+    "summary_es": "Community Bible, parte de la Evangelical Free Church of America, aparece como despensa de alimentos en Richmond Hill, Queens, en el mapa Food Help NYC de la ciudad. Abre para la despensa los sábados por la mañana.",
+    "summary_en": "Community Bible, part of the Evangelical Free Church of America, is listed as a food pantry in Richmond Hill, Queens, on the City's Food Help NYC map. It is open for the pantry on Saturday mornings.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está en 102-16 89th Ave, Richmond Hill, Queens, NY 11418.",
+      "El horario de la despensa es sábado, de 8am a 11am.",
+      "Puede llamar al (917) 387-6513 para más información.",
+      "La información no dice qué alimentos entrega ni si hay requisitos, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 102-16 89th Ave, Richmond Hill, Queens, NY 11418.",
+      "Pantry hours are Saturday, 8am to 11am.",
+      "You can call (917) 387-6513 for more information.",
+      "The listing does not say what food is given or any requirements, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa está abierta el sábado, de 8am a 11am.",
+      "Llame al (917) 387-6513 antes de ir para preguntar sobre los alimentos y si hay requisitos.",
+      "La información no menciona documentos ni pasos de inscripción, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Saturday, 8am to 11am.",
+      "Call (917) 387-6513 ahead to ask about food and any requirements.",
+      "The listing does not mention documents or sign-up steps, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de ayuda ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "La información dice sábado, de 8am a 11am, para la despensa."
+      },
+      {
+        "q": "¿Necesito llevar algo o inscribirme?",
+        "a": "La información no lo dice. Puede llamar al (917) 387-6513 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of help does this place offer?",
+        "a": "It is listed on the City's Food Help NYC map as a food pantry. What food is given is not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "The listing shows Saturday, 8am to 11am, for the pantry."
+      },
+      {
+        "q": "Do I need to bring anything or sign up?",
+        "a": "The listing does not say. You can call (917) 387-6513 to ask before you go."
+      }
+    ]
+  }
+}

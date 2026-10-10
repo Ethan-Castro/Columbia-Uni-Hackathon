@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-beulah-church-of-god-in-christ-jesus",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:34.025Z",
+  "facts_hash": "05e6d73a631c3de2",
+  "article": {
+    "title_es": "Beulah Church of God in Christ Jesus: despensa de alimentos en Brooklyn",
+    "title_en": "Beulah Church of God in Christ Jesus: food pantry in Brooklyn",
+    "summary_es": "La iglesia Beulah Church of God in Christ Jesus aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, en la avenida Marcy.",
+    "summary_en": "Beulah Church of God in Christ Jesus appears on the Food Help NYC map as a food pantry in Brooklyn, on Marcy Avenue.",
+    "how_they_help_es": [
+      "Aparece en el mapa oficial Food Help NYC como despensa de alimentos.",
+      "Ofrece servicio de despensa los martes y jueves.",
+      "Está ubicada en 956 Marcy Ave, Brooklyn, NY 11216.",
+      "Tiene un teléfono para llamar antes de ir: (718) 636-8500."
+    ],
+    "how_they_help_en": [
+      "Listed on the official Food Help NYC map as a food pantry.",
+      "Offers pantry service on Tuesdays and Thursdays.",
+      "Located at 956 Marcy Ave, Brooklyn, NY 11216.",
+      "Has a phone number to call ahead: (718) 636-8500."
+    ],
+    "visit_tips_es": [
+      "Horario de despensa: martes 10:30am-1pm y jueves 10:30am-1pm.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; llame al (718) 636-8500 para preguntar.",
+      "Verifique el horario antes de viajar, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Tue 10:30am-1pm and Thu 10:30am-1pm.",
+      "The listing does not say what food is given or if there are requirements; call (718) 636-8500 to ask.",
+      "Check the hours before traveling, since they can change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Martes y jueves de 10:30am a 1pm, según la información oficial."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "El teléfono que aparece en la lista es (718) 636-8500."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry. What food is given is not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays and Thursdays from 10:30am to 1pm, according to the official listing."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "The phone number listed is (718) 636-8500."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-south-ozone-park-seventh-day-adventist-churc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:08.717Z",
+  "facts_hash": "ccc18083e4089c2b",
+  "article": {
+    "title_es": "South Ozone Park Seventh Day Adventist Church: despensa de alimentos en Queens",
+    "title_en": "South Ozone Park Seventh Day Adventist Church: food pantry in Queens",
+    "summary_es": "La iglesia South Ozone Park Seventh Day Adventist es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la Ciudad. Atiende los miércoles de 12pm a 2pm.",
+    "summary_en": "South Ozone Park Seventh Day Adventist Church is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map. It is open for pantry hours on Wednesdays from 12pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 120-12 140th St, Jamaica, Queens, código postal 11436.",
+      "El horario de la despensa es los miércoles de 12pm a 2pm.",
+      "Puede llamar al (718) 322-9210 para más información.",
+      "La información no indica qué alimentos entrega ni si hay requisitos; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 120-12 140th St, Jamaica, Queens, ZIP 11436.",
+      "Pantry hours are Wednesdays, 12pm-2pm.",
+      "You can call (718) 322-9210 for more information.",
+      "The listing does not say what food is given or any requirements, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los miércoles de 12pm a 2pm.",
+      "Llame al (718) 322-9210 antes de ir para confirmar los detalles.",
+      "La información no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wednesdays, 12pm-2pm.",
+      "Call (718) 322-9210 before you go to confirm details.",
+      "The listing does not say what food is given or if there are requirements, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de ayuda ofrece esta despensa?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los miércoles de 12pm a 2pm, para la despensa."
+      },
+      {
+        "q": "¿Necesito llevar algo o registrarme?",
+        "a": "La información no lo dice. Llame antes al (718) 322-9210 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of help does this pantry offer?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. What food is given is not listed."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays, 12pm-2pm, for the pantry."
+      },
+      {
+        "q": "Do I need to bring anything or sign up?",
+        "a": "The listing does not say. Call (718) 322-9210 ahead of time to ask."
+      }
+    ]
+  }
+}

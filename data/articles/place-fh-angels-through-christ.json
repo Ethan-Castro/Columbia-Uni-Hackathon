@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-angels-through-christ",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:24.772Z",
+  "facts_hash": "d17768f0fa4a4e32",
+  "article": {
+    "title_es": "Angels Through Christ: despensa de alimentos en Brooklyn",
+    "title_en": "Angers Through Christ: food pantry in Brooklyn",
+    "summary_es": "Angels Through Christ es una despensa de alimentos en Brooklyn, en la avenida Bedford. Abre los sábados por la tarde.",
+    "summary_en": "Angels Through Christ is a food pantry in Brooklyn, on Bedford Avenue. It is open on Saturday afternoons.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está en 2263 Bedford Ave, Brooklyn, NY 11226.",
+      "Abre los sábados de 1pm a 3pm.",
+      "La despensa funciona el primer, segundo y cuarto sábado del mes.",
+      "Puede llamar al (516) 807-2978 para preguntar qué alimentos ofrece."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2263 Bedford Ave, Brooklyn, NY 11226.",
+      "It is open Saturdays from 1pm to 3pm.",
+      "The pantry runs on the 1st, 2nd and 4th Saturday of the month.",
+      "You can call (516) 807-2978 to ask what food is offered."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado de 1pm a 3pm; recuerde que la despensa solo funciona el primer, segundo y cuarto sábado.",
+      "Llame antes al (516) 807-2978 para confirmar que está abierta.",
+      "La lista no dice qué alimentos da ni si pide algún requisito; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday from 1pm to 3pm; remember the pantry runs only on the 1st, 2nd and 4th Saturday.",
+      "Call ahead at (516) 807-2978 to confirm it is open.",
+      "The listing does not say what food is given or if there are any requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 1pm a 3pm, el primer, segundo y cuarto sábado del mes."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 2263 Bedford Ave, Brooklyn, NY 11226."
+      },
+      {
+        "q": "¿Qué alimentos ofrece?",
+        "a": "No está en la lista. Llame al (516) 807-2978 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 1pm to 3pm, on the 1st, 2nd and 4th Saturday of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 2263 Bedford Ave, Brooklyn, NY 11226."
+      },
+      {
+        "q": "What food does it offer?",
+        "a": "That is not listed. Call (516) 807-2978 to ask."
+      }
+    ]
+  }
+}

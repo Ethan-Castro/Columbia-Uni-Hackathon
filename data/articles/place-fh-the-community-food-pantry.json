@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-community-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:25.442Z",
+  "facts_hash": "f8326fe434917907",
+  "article": {
+    "title_es": "The Community Food Pantry: despensa de alimentos en el Bronx",
+    "title_en": "The Community Food Pantry: food pantry in the Bronx",
+    "summary_es": "The Community Food Pantry es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad. Está ubicada en 1363 Ogden Ave y abre los martes, jueves y sábados.",
+    "summary_en": "The Community Food Pantry is a food pantry in the Bronx listed on the City's Food Help NYC map. It is located at 1363 Ogden Ave and opens on Tuesdays, Thursdays, and Saturdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1363 Ogden Ave, en el Bronx (código postal 10452).",
+      "Abre los martes, jueves y sábados.",
+      "Puede llamar al (718) 960-2262 para más información.",
+      "El listado no indica qué alimentos entrega ni si hay requisitos, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1363 Ogden Ave in the Bronx (zip 10452).",
+      "It opens Tuesdays, Thursdays, and Saturdays.",
+      "You can call (718) 960-2262 for more information.",
+      "The listing does not say what food is given or any requirements, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "Horario indicado: martes de 10am a 1pm; jueves de 12pm a 3pm; sábado de 10am a 12pm. La despensa se indica solo el primer sábado del mes.",
+      "Llame al (718) 960-2262 antes de ir para confirmar horarios y detalles.",
+      "El listado no indica qué documentos llevar, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Hours listed: Tue 10am-1pm; Thu 12pm-3pm; Sat 10am-12pm. The pantry is noted as 1st Saturday only.",
+      "Call (718) 960-2262 before visiting to confirm times and details.",
+      "The listing does not say what documents to bring, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 1363 Ogden Ave, Bronx, Nueva York, 10452."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Martes de 10am a 1pm; jueves de 12pm a 3pm; sábado de 10am a 12pm. La despensa se indica solo el primer sábado del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "El listado no lo indica. Llame al (718) 960-2262 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 1363 Ogden Ave, Bronx, New York, 10452."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tue 10am-1pm; Thu 12pm-3pm; Sat 10am-12pm. The pantry is noted as 1st Saturday only."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "The listing does not say. Call (718) 960-2262 to ask."
+      }
+    ]
+  }
+}

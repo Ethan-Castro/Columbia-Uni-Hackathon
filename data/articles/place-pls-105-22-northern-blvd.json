@@ -1,0 +1,64 @@
+{
+  "place_id": "place-pls-105-22-northern-blvd",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:58.436Z",
+  "facts_hash": "e58447e7b40de9dd",
+  "article": {
+    "title_es": "PLS Check Cashers: cobro de cheques en Corona, Queens",
+    "title_en": "PLS Check Cashers: check cashing in Corona, Queens",
+    "summary_es": "PLS Check Cashers es un negocio autorizado de cobro de cheques en Corona, Queens, abierto 24/7. Se cobran tarifas, y la información no describe sus servicios en detalle.",
+    "summary_en": "PLS Check Cashers is a licensed check cashing business in Corona, Queens, open 24/7. Fees apply, and the listing does not describe its services in detail.",
+    "how_they_help_es": [
+      "Un negocio autorizado de cobro de cheques donde se cobran tarifas.",
+      "Ubicado en 105-22 Northern Blvd., Corona, NY 11368, en Queens.",
+      "Abierto 24/7, incluyendo noches y fines de semana.",
+      "Teléfono: 718-458-3344.",
+      "Los servicios y las tarifas no aparecen en la información, así que pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "A licensed check cashing business where fees apply.",
+      "Located at 105-22 Northern Blvd., Corona, NY 11368, in Queens.",
+      "Open 24/7, including evenings and weekends.",
+      "Phone: 718-458-3344.",
+      "Services and fees are not listed, so ask before you go."
+    ],
+    "visit_tips_es": [
+      "Se cobran tarifas, y los montos no aparecen en la información, así que pregunte por los costos antes de cobrar un cheque.",
+      "Llame al 718-458-3344 con anticipación para confirmar qué servicios están disponibles.",
+      "Esta información no está verificada y fue revisada por última vez el 10/10/2026, así que los detalles pueden haber cambiado."
+    ],
+    "visit_tips_en": [
+      "Fees apply, and the amounts are not listed, so ask about costs before cashing a check.",
+      "Call 718-458-3344 ahead to confirm what services are available.",
+      "This listing is unverified and was last checked on 2026-10-10, so details may have changed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿PLS Check Cashers cobra tarifas?",
+        "a": "Es un negocio autorizado de cobro de cheques. Se cobran tarifas, y los montos no aparecen en la información, así que pregunte en el local."
+      },
+      {
+        "q": "¿Abre por la noche y los fines de semana?",
+        "a": "Sí. El horario indicado es 24/7, incluyendo noches y fines de semana."
+      },
+      {
+        "q": "¿Cómo puedo confirmar lo que ofrecen antes de ir?",
+        "a": "Llame al 718-458-3344 para preguntar por los servicios, las tarifas y lo que pueda necesitar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Does PLS Check Cashers charge fees?",
+        "a": "It is a licensed check cashing business. Fees apply, and the amounts are not listed, so ask at the location."
+      },
+      {
+        "q": "Is it open evenings and weekends?",
+        "a": "Yes. The listed hours are 24/7, including evenings and weekends."
+      },
+      {
+        "q": "How can I confirm what they offer before going?",
+        "a": "Call 718-458-3344 to ask about services, fees, and what you may need."
+      }
+    ]
+  }
+}

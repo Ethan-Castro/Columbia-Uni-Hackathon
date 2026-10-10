@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-brooklyn-chinese-american-association",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:00.178Z",
+  "facts_hash": "6fe589c15e318a85",
+  "article": {
+    "title_es": "Brooklyn Chinese-American Association: ayuda legal de inmigración en Brooklyn",
+    "title_en": "Brooklyn Chinese-American Association: immigration legal help in Brooklyn",
+    "summary_es": "Brooklyn Chinese-American Association es una organización sin fines de lucro en Brooklyn que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal de inmigración.",
+    "summary_en": "Brooklyn Chinese-American Association is a non-profit in Brooklyn that appears on the U.S. Department of Justice (EOIR) list of recognized organizations. Its DOJ-accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+      "Representantes acreditados por el DOJ pueden ofrecer ayuda legal de inmigración.",
+      "Ubicada en 5002 8th Avenue, Brooklyn, NY 11220.",
+      "Llame al (718) 438-0008 para más información.",
+      "Las tarifas y cómo obtener una cita no aparecen en la lista, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 5002 8th Avenue, Brooklyn, NY 11220.",
+      "Call (718) 438-0008 for more information.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame antes al (718) 438-0008 para preguntar por los servicios y cómo hacer una cita.",
+      "Las tarifas no aparecen en la lista, así que pregunte sobre los costos antes de recibir ayuda.",
+      "El horario no aparece en la lista, así que confirme cuándo están abiertos antes de visitar."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 438-0008 to ask about services and how to make an appointment.",
+      "Fees are not listed, so ask about any costs before receiving help.",
+      "Hours are not listed, so confirm when they are open before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Brooklyn Chinese-American Association?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cómo hago una cita?",
+        "a": "El proceso para recibir atención no aparece en la lista. Llame al (718) 438-0008 para preguntar cómo obtener una cita."
+      },
+      {
+        "q": "¿Cuesta dinero?",
+        "a": "Las tarifas no aparecen en la lista. Pregunte sobre los costos cuando llame."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Brooklyn Chinese-American Association?",
+        "a": "It is a non-profit that appears on the U.S. Department of Justice (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The intake process is not listed. Call (718) 438-0008 to ask how to get an appointment."
+      },
+      {
+        "q": "Does it cost money?",
+        "a": "Fees are not listed. Ask about any costs when you call."
+      }
+    ]
+  }
+}

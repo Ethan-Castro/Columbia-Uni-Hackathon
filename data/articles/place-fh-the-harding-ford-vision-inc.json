@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-harding-ford-vision-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:20.768Z",
+  "facts_hash": "e24395bd6a6f1c05",
+  "article": {
+    "title_es": "The Harding Ford Vision: despensa de alimentos en Jamaica, Queens",
+    "title_en": "The Harding Ford Vision: food pantry in Jamaica, Queens",
+    "summary_es": "The Harding Ford Vision, Inc. es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "The Harding Ford Vision, Inc. is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Atiende los miércoles de 10am a 12pm (despensa).",
+      "También atiende los viernes de 2pm a 4pm (despensa).",
+      "Está ubicada en 157-22 Tuskegee Airmen Way, Jamaica, Queens.",
+      "Qué alimentos entrega y si hay requisitos no está indicado; pregunte llamando al (347) 661-7382."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Open Wednesdays 10am-12pm (pantry).",
+      "Also open Fridays 2pm-4pm (pantry).",
+      "Located at 157-22 Tuskegee Airmen Way, Jamaica, Queens.",
+      "What food is given and any requirements are not listed; ask by calling (347) 661-7382."
+    ],
+    "visit_tips_es": [
+      "Vaya los miércoles de 10am a 12pm o los viernes de 2pm a 4pm, que son los horarios de despensa.",
+      "Llame antes al (347) 661-7382 para preguntar qué alimentos ofrece y si necesita algo.",
+      "La dirección es 157-22 Tuskegee Airmen Way, Jamaica, NY 11433."
+    ],
+    "visit_tips_en": [
+      "Go Wednesdays 10am-12pm or Fridays 2pm-4pm, which are the pantry hours.",
+      "Call ahead at (347) 661-7382 to ask what food is offered and if anything is needed.",
+      "The address is 157-22 Tuskegee Airmen Way, Jamaica, NY 11433."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es The Harding Ford Vision?",
+        "a": "Es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Miércoles de 10am a 12pm y viernes de 2pm a 4pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado en la información disponible. Llame al (347) 661-7382 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is The Harding Ford Vision?",
+        "a": "It is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays 10am-12pm and Fridays 2pm-4pm."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "That is not listed in the available information. Call (347) 661-7382 to ask before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-raphael-church-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:25.097Z",
+  "facts_hash": "695f2cbf84b1d7a9",
+  "article": {
+    "title_es": "St. Raphael Church: despensa de alimentos en Sunnyside, Queens",
+    "title_en": "St. Raphael Church: food pantry in Sunnyside, Queens",
+    "summary_es": "La Iglesia St. Raphael tiene una despensa de alimentos en Sunnyside, Queens, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "St. Raphael Church has a food pantry in Sunnyside, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 35-20 Greenpoint Ave, Sunnyside, Queens, código 11104.",
+      "Atiende los jueves de 10:30am a 12pm y los sábados de 1:30pm a 3pm.",
+      "Puede llamar al (718) 729-8957 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 35-20 Greenpoint Ave, Sunnyside, Queens, zip 11104.",
+      "It is open Thursdays 10:30am-12pm and Saturdays 1:30pm-3pm.",
+      "You can call (718) 729-8957 to ask before visiting.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es jueves de 10:30am a 12pm y sábado de 1:30pm a 3pm.",
+      "Llame al (718) 729-8957 antes de ir para confirmar los detalles.",
+      "La lista no menciona documentos necesarios; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Thursdays 10:30am-12pm and Saturdays 1:30pm-3pm.",
+      "Call (718) 729-8957 before going to confirm details.",
+      "The listing does not mention required documents; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde queda la despensa?",
+        "a": "En 35-20 Greenpoint Ave, Sunnyside, Queens, código postal 11104."
+      },
+      {
+        "q": "¿Qué días atiende?",
+        "a": "Jueves de 10:30am a 12pm y sábados de 1:30pm a 3pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "La lista no lo indica. Llame al (718) 729-8957 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 35-20 Greenpoint Ave, Sunnyside, Queens, zip code 11104."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Thursdays 10:30am-12pm and Saturdays 1:30pm-3pm."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "The listing does not say. Call (718) 729-8957 to ask."
+      }
+    ]
+  }
+}

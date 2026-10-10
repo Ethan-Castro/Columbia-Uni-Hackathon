@@ -1,0 +1,62 @@
+{
+  "place_id": "place-atn-check-cashing-5",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:44:00.416Z",
+  "facts_hash": "56119746f4d2dcb1",
+  "article": {
+    "title_es": "ATN Check Cashing #5: negocio de cobro de cheques en Corona, Queens",
+    "title_en": "ATN Check Cashing #5: check cashing business in Corona, Queens",
+    "summary_es": "ATN Check Cashing #5 es un negocio autorizado de cobro de cheques ubicado en Corona, Queens. Se cobran tarifas por sus servicios.",
+    "summary_en": "ATN Check Cashing #5 is a licensed check cashing business located in Corona, Queens. Fees apply for its services.",
+    "how_they_help_es": [
+      "Es un negocio autorizado de cobro de cheques.",
+      "Está ubicado en 9703 57th Ave, Corona, NY 11368.",
+      "Se pueden hacer preguntas por teléfono al 718-699-0062.",
+      "Las tarifas y los servicios exactos no están en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a licensed check cashing business.",
+      "It is located at 9703 57th Ave, Corona, NY 11368.",
+      "You can call 718-699-0062 with questions.",
+      "Fees and exact services are not listed; ask the business directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para confirmar servicios y tarifas: 718-699-0062.",
+      "Recuerde que es un negocio y se cobran tarifas.",
+      "El horario no está en la lista; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call ahead to confirm services and fees: 718-699-0062.",
+      "Remember this is a business and fees apply.",
+      "Hours are not listed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Este negocio cobra tarifas?",
+        "a": "Sí. Es un negocio de cobro de cheques autorizado y se cobran tarifas por sus servicios."
+      },
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 9703 57th Ave, Corona, NY 11368, en Queens."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "Puede llamar al 718-699-0062. El horario no está en la lista, así que pregunte por teléfono."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Does this business charge fees?",
+        "a": "Yes. It is a licensed check cashing business and fees apply for its services."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 9703 57th Ave, Corona, NY 11368, in Queens."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "You can call 718-699-0062. Hours are not listed, so ask by phone."
+      }
+    ]
+  }
+}

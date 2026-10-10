@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-holding-hands-ministries-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:09.755Z",
+  "facts_hash": "650d06cf849dc611",
+  "article": {
+    "title_es": "Holding Hands Ministries: despensa de alimentos en Brooklyn",
+    "title_en": "Holding Hands Ministries: food pantry in Brooklyn",
+    "summary_es": "Holding Hands Ministries es una despensa de alimentos en Brooklyn, en la avenida Neptune. Abre los viernes de 4pm a 8pm.",
+    "summary_en": "Holding Hands Ministries is a food pantry in Brooklyn, on Neptune Avenue. It is open Fridays from 4pm to 8pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 2828 Neptune Ave, Brooklyn, NY 11224.",
+      "Abre los viernes de 4pm a 8pm.",
+      "Puede llamar al (917) 592-2719 para preguntar.",
+      "La lista no indica qué alimentos entrega ni qué requisitos hay; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2828 Neptune Ave, Brooklyn, NY 11224.",
+      "It is open Fridays from 4pm to 8pm.",
+      "You can call (917) 592-2719 with questions.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es viernes de 4pm a 8pm.",
+      "Llame antes de ir para confirmar el horario y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The listed hours are Friday 4pm-8pm.",
+      "Call before you go to confirm hours and ask what you need to bring.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (917) 592-2719 para preguntar qué ofrece."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "No se menciona ningún requisito en la lista. Es mejor llamar antes de ir para preguntar."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Según la lista, abre los viernes de 4pm a 8pm como despensa."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (917) 592-2719 to ask what they offer."
+      },
+      {
+        "q": "Do I need any documents or meet requirements?",
+        "a": "No requirements are mentioned in the listing. It is best to call before going to ask."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "According to the listing, it is open Fridays from 4pm to 8pm as a pantry."
+      }
+    ]
+  }
+}

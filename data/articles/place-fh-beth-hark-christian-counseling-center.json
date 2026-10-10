@@ -1,0 +1,66 @@
+{
+  "place_id": "place-fh-beth-hark-christian-counseling-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:55.056Z",
+  "facts_hash": "d543b6c185cd78a5",
+  "article": {
+    "title_es": "Beth Hark Christian Counseling Center: despensa y comedor en Manhattan",
+    "title_en": "Beth Hark Christian Counseling Center: food pantry in Manhattan",
+    "summary_es": "Beth Hark Christian Counseling Center ofrece una despensa de alimentos y un comedor comunitario en el barrio East Harlem de Manhattan, según el mapa Food Help NYC.",
+    "summary_en": "Beth Hark Christian Counseling Center offers a food pantry and a soup kitchen in East Harlem, Manhattan, according to the Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos los martes y jueves",
+      "Comedor comunitario (sopa) los miércoles y jueves",
+      "Ubicado en 1832 Madison Ave, Manhattan, NY 10035",
+      "Abierto al mediodía en los días indicados",
+      "Qué alimentos entrega no está indicado; pregunte por teléfono"
+    ],
+    "how_they_help_en": [
+      "Food pantry on Tuesdays and Thursdays",
+      "Soup kitchen on Wednesdays and Thursdays",
+      "Located at 1832 Madison Ave, Manhattan, NY 10035",
+      "Open around midday on the listed days",
+      "What food is given is not listed; ask by phone"
+    ],
+    "visit_tips_es": [
+      "Horario de la despensa: martes de 12pm a 2pm y jueves de 11am a 1pm",
+      "Horario del comedor: miércoles y jueves de 12pm a 2pm",
+      "Llame al (212) 860-1523 antes de ir para confirmar detalles",
+      "No se indican requisitos ni documentos; pregunte al llamar"
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Tuesday 12pm-2pm and Thursday 11am-1pm",
+      "Soup kitchen hours: Wednesday and Thursday 12pm-2pm",
+      "Call (212) 860-1523 before going to confirm details",
+      "No requirements or documents are listed; ask when you call"
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo puedo recibir alimentos?",
+        "a": "La despensa abre martes de 12pm a 2pm y jueves de 11am a 1pm. El comedor abre miércoles y jueves de 12pm a 2pm."
+      },
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 1832 Madison Ave, New York, NY 10035, en Manhattan."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La información no lo indica. Llame al (212) 860-1523 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When can I get food?",
+        "a": "The pantry is open Tuesday 12pm-2pm and Thursday 11am-1pm. The soup kitchen is open Wednesday and Thursday 12pm-2pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 1832 Madison Ave, New York, NY 10035, in Manhattan."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (212) 860-1523 to ask before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "place_id": "place-hra-benefits-access-center-queens",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:51.561Z",
+  "facts_hash": "e8ba13d58587cdcc",
+  "article": {
+    "title_es": "HRA Benefits Access Center Queens: oficina de beneficios en Queens",
+    "title_en": "HRA Benefits Access Center Queens: benefits office in Queens",
+    "summary_es": "HRA Benefits Access Center Queens es una oficina de beneficios públicos de la Administración de Recursos Humanos (HRA) de la Ciudad de Nueva York, ubicada en 32-20 Northern Blvd, 4th Floor, Queens, NY 11101.",
+    "summary_en": "HRA Benefits Access Center Queens is a public benefits office of the NYC Human Resources Administration (HRA), located at 32-20 Northern Blvd, 4th Floor, Queens, NY 11101.",
+    "how_they_help_es": [
+      "Es una oficina de beneficios públicos de la Administración de Recursos Humanos (HRA) de la Ciudad de Nueva York.",
+      "Está ubicada en 32-20 Northern Blvd, 4th Floor, Queens, NY 11101.",
+      "Abre de lunes a viernes, de 8:30 a.m. a 5 p.m.",
+      "Puede llamar al 718-784-5919 si tiene preguntas.",
+      "Los programas específicos que ofrece no aparecen en la lista, así que pregunte directamente en la oficina."
+    ],
+    "how_they_help_en": [
+      "It is a public benefits office run by NYC's Human Resources Administration (HRA).",
+      "It is located at 32-20 Northern Blvd, 4th Floor, Queens, NY 11101.",
+      "It is open Monday through Friday, 8:30am to 5pm.",
+      "You can call 718-784-5919 for questions.",
+      "The specific programs offered are not listed, so ask the office directly."
+    ],
+    "visit_tips_es": [
+      "El horario es de lunes a viernes, de 8:30 a.m. a 5 p.m.",
+      "Llame al 718-784-5919 con anticipación para confirmar lo que necesita.",
+      "La oficina está en el 4º piso del edificio.",
+      "La lista de programas que ofrece no está incluida, así que pregunte cuando llame o visite."
+    ],
+    "visit_tips_en": [
+      "Hours are Monday through Friday, 8:30am to 5pm.",
+      "Call 718-784-5919 ahead of time to confirm what you need.",
+      "The office is on the 4th floor of the building.",
+      "The list of programs offered is not included, so ask when you call or visit."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es una oficina de beneficios públicos de la Administración de Recursos Humanos (HRA) de la Ciudad de Nueva York."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "De lunes a viernes, de 8:30 a.m. a 5 p.m."
+      },
+      {
+        "q": "¿Cómo puedo confirmar lo que necesito?",
+        "a": "Llame al 718-784-5919 antes de su visita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is a NYC Human Resources Administration (HRA) public benefits office."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Monday through Friday, 8:30am to 5pm."
+      },
+      {
+        "q": "How can I confirm what I need?",
+        "a": "Call 718-784-5919 before your visit."
+      }
+    ]
+  }
+}

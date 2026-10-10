@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-vinegar-hill-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:52.909Z",
+  "facts_hash": "b9c86b3f73084f7a",
+  "article": {
+    "title_es": "Vinegar Hill Food Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "Vinegar Hill Food Pantry: food pantry in Brooklyn",
+    "summary_es": "Vinegar Hill Food Pantry es una despensa de alimentos en Brooklyn, aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Vinegar Hill Food Pantry is a food pantry in Brooklyn, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 228 York St, Brooklyn, NY 11201.",
+      "Abre los martes de 12pm a 1pm, solo el 2.º y 4.º martes del mes.",
+      "Puede llamar al (908) 403-5755 para más información.",
+      "La lista no dice qué alimentos entrega ni qué requisitos hay; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 228 York St, Brooklyn, NY 11201.",
+      "It is open Tuesdays 12pm-1pm, on the 2nd and 4th Tuesday only.",
+      "You can call (908) 403-5755 for more information.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo el 2.º y 4.º martes del mes, de 12pm a 1pm.",
+      "Llame antes para confirmar el horario y preguntar qué necesita llevar.",
+      "La dirección es 228 York St, Brooklyn, NY 11201."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on the 2nd and 4th Tuesday of the month, 12pm to 1pm.",
+      "Call ahead to confirm the schedule and ask what you need to bring.",
+      "The address is 228 York St, Brooklyn, NY 11201."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los martes de 12pm a 1pm, pero solo el 2.º y 4.º martes de cada mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 228 York St, Brooklyn, NY 11201."
+      },
+      {
+        "q": "¿Qué alimentos da y qué necesito llevar?",
+        "a": "No está indicado en la lista. Llame al (908) 403-5755 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays 12pm-1pm, but only on the 2nd and 4th Tuesday of each month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 228 York St, Brooklyn, NY 11201."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "This is not listed. Call (908) 403-5755 to ask before you go."
+      }
+    ]
+  }
+}

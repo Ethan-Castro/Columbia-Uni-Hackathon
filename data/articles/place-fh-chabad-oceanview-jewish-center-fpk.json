@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-chabad-oceanview-jewish-center-fpk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:02.724Z",
+  "facts_hash": "c8c0ccba961068bf",
+  "article": {
+    "title_es": "CHABAD - Oceanview Jewish Center: despensa de alimentos en Brooklyn",
+    "title_en": "CHABAD - Oceanview Jewish Center: food pantry in Brooklyn",
+    "summary_es": "CHABAD - Oceanview Jewish Center (FPK) es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. La despensa abre el primer lunes del mes de 10am a 11am.",
+    "summary_en": "CHABAD - Oceanview Jewish Center (FPK) is a food pantry in Brooklyn listed on the City's Food Help NYC map. The pantry is open the 1st Monday of the month from 10am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "La despensa funciona el primer lunes del mes, de 10am a 11am.",
+      "Está ubicada en 3100 Brighton 4th St, Brooklyn, NY 11235.",
+      "Puede llamar al (718) 796-2462 para más información.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "The pantry runs on the 1st Monday of the month, 10am-11am.",
+      "It is located at 3100 Brighton 4th St, Brooklyn, NY 11235.",
+      "You can call (718) 796-2462 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa solo abre el primer lunes del mes, de 10am a 11am.",
+      "Llame al (718) 796-2462 antes de ir para confirmar el horario.",
+      "La información no indica qué alimentos entrega ni si hay requisitos; pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "The pantry is only open the 1st Monday of the month, 10am-11am.",
+      "Call (718) 796-2462 before you go to confirm the schedule.",
+      "The listing does not say what food is given or if there are requirements, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de alimentos entrega?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad. No se indica qué alimentos entrega; pregunte cuando llame."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "La despensa aparece el primer lunes del mes, de 10am a 11am. Llame antes para confirmar."
+      },
+      {
+        "q": "¿Hay algún requisito para recibir alimentos?",
+        "a": "La información no lo indica. Llame al (718) 796-2462 antes de ir para preguntar si hay algún requisito."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of food does it give?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. The listing does not say what food is given, so ask when you call."
+      },
+      {
+        "q": "When can I go?",
+        "a": "The pantry is listed for the 1st Monday of the month, 10am-11am. Call before you go to confirm."
+      },
+      {
+        "q": "Are there any requirements to get food?",
+        "a": "The listing does not say. Call (718) 796-2462 before you go to ask about any requirements."
+      }
+    ]
+  }
+}

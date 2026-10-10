@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-jesus-is-the-answer-j-i-t-a-community-outrea",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:58.870Z",
+  "facts_hash": "fc886ad0c5c82ac1",
+  "article": {
+    "title_es": "J.I.T.A. Community Outreach: despensa de alimentos en Hollis, Queens",
+    "title_en": "J.I.T.A. Community Outreach: food pantry in Hollis, Queens",
+    "summary_es": "JESUS IS THE ANSWER - J.I.T.A. Community Outreach es una despensa de alimentos en Hollis, Queens, incluida en el mapa Food Help NYC de la ciudad. Abre el martes de 12pm a 1pm (despensa).",
+    "summary_en": "JESUS IS THE ANSWER - J.I.T.A. Community Outreach is a food pantry in Hollis, Queens, listed on the City's Food Help NYC map. It is open Tuesday 12pm-1pm (pantry).",
+    "how_they_help_es": [
+      "Está listada como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 205-11 Jamaica Ave, Hollis, Queens, NY 11423.",
+      "Horario de despensa indicado: martes de 12pm a 1pm.",
+      "Puede llamar al (718) 908-6303 para más información.",
+      "El listado no dice qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 205-11 Jamaica Ave, Hollis, Queens, NY 11423.",
+      "Pantry hours listed: Tuesday 12pm-1pm.",
+      "You can call (718) 908-6303 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa indicado es martes de 12pm a 1pm.",
+      "Llame al (718) 908-6303 antes de ir para confirmar los detalles.",
+      "Pregunte qué alimentos entrega y si hay algún requisito."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are listed as Tuesday 12pm-1pm.",
+      "Call (718) 908-6303 ahead to confirm details.",
+      "Ask what food is given and if any requirements apply."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "El listado indica martes de 12pm a 1pm (despensa)."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "El listado no dice qué alimentos entrega ni si hay requisitos. Llame al (718) 908-6303 para preguntar."
+      },
+      {
+        "q": "¿Es un listado oficial?",
+        "a": "Está en el mapa Food Help NYC de la ciudad, una fuente oficial."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "The listing shows Tuesday 12pm-1pm (pantry)."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "The listing does not say what food is given or if there are requirements. Call (718) 908-6303 to ask."
+      },
+      {
+        "q": "Is this listing official?",
+        "a": "It is listed on the City's Food Help NYC map, an official source."
+      }
+    ]
+  }
+}

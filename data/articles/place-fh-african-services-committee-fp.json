@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-african-services-committee-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:48.741Z",
+  "facts_hash": "53106d411acc7630",
+  "article": {
+    "title_es": "African Services Committee: despensa de alimentos en Manhattan",
+    "title_en": "African Services Committee: food pantry in Manhattan",
+    "summary_es": "African Services Committee es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Está abierta de lunes a jueves, de 10am a 4pm.",
+    "summary_en": "African Services Committee is a food pantry in Manhattan listed on the City's Food Help NYC map. It is open Monday to Thursday, 10am-4pm.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 429 W 127th St, en Manhattan.",
+      "El horario de la despensa es de lunes a jueves, 10am-4pm.",
+      "Puede llamar al (212) 222-3882,107 para más información.",
+      "No se indica qué alimentos entrega ni si hay requisitos, así que pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 429 W 127th St in Manhattan.",
+      "Pantry hours are Monday to Thursday, 10am-4pm.",
+      "You can call (212) 222-3882,107 for more information.",
+      "What food is given and any requirements are not listed, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de lunes a jueves, de 10am a 4pm.",
+      "Llame al (212) 222-3882,107 antes de ir para confirmar los detalles.",
+      "La lista no indica qué alimentos se entregan ni qué se necesita, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Monday to Thursday, 10am-4pm.",
+      "Call (212) 222-3882,107 before visiting to confirm details.",
+      "The listing does not say what food is given or what is needed, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es este?",
+        "a": "Está en el mapa Food Help NYC de la ciudad como despensa de alimentos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "De lunes a jueves, de 10am a 4pm."
+      },
+      {
+        "q": "¿Qué necesito llevar o qué requisitos hay?",
+        "a": "Esa información no aparece en la lista. Llame al (212) 222-3882,107 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is listed as a food pantry on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Monday to Thursday, 10am-4pm."
+      },
+      {
+        "q": "What do I need to bring or qualify?",
+        "a": "That information is not listed. Call (212) 222-3882,107 to ask before visiting."
+      }
+    ]
+  }
+}

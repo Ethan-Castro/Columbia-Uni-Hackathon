@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-church-of-god-prophecy-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:47.157Z",
+  "facts_hash": "ec7dd2c30c60b595",
+  "article": {
+    "title_es": "Church of God Prophecy (SK): despensa de alimentos en Brooklyn",
+    "title_en": "Church of God Prophecy (SK): food pantry in Brooklyn",
+    "summary_es": "Church of God Prophecy (SK) es una despensa de alimentos y cocina de sopa en Brooklyn, incluida en el mapa Food Help NYC de la ciudad. Está en 71 Malta St, Brooklyn, NY 11207.",
+    "summary_en": "Church of God Prophecy (SK) is a food pantry and soup kitchen in Brooklyn, listed on the City's Food Help NYC map. It is located at 71 Malta St, Brooklyn, NY 11207.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC.",
+      "También funciona como cocina de sopa el 2.º y 4.º martes.",
+      "Horario: martes de 3:30 pm a 6 pm.",
+      "Teléfono: (718) 649-5533 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the Food Help NYC map.",
+      "Also serves as a soup kitchen on the 2nd and 4th Tuesdays.",
+      "Hours: Tuesday 3:30pm-6pm.",
+      "Phone: (718) 649-5533 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "La cocina de sopa solo atiende el 2.º y 4.º martes del mes.",
+      "Llame al (718) 649-5533 para confirmar qué alimentos ofrece y si hay requisitos.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen only operates on the 2nd and 4th Tuesdays of the month.",
+      "Call (718) 649-5533 to confirm what food is offered and any requirements.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 71 Malta St, Brooklyn, NY 11207."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Martes de 3:30 pm a 6 pm. La cocina de sopa funciona solo el 2.º y 4.º martes."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "No se indica qué alimentos da ni si hay requisitos. Llame al (718) 649-5533 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 71 Malta St, Brooklyn, NY 11207."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Tuesday 3:30pm-6pm. The soup kitchen runs only on the 2nd and 4th Tuesdays."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say what food is given or any requirements. Call (718) 649-5533 to ask."
+      }
+    ]
+  }
+}

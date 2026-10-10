@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-dla-immigration-aid-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:37:53.304Z",
+  "facts_hash": "b9d1872a7224e3c6",
+  "article": {
+    "title_es": "DLA Immigration Aid Inc.: ayuda legal migratoria en el Bronx",
+    "title_en": "DLA Immigration Aid Inc.: DOJ-listed legal help in the Bronx",
+    "summary_es": "DLA Immigration Aid Inc. es una organización sin fines de lucro en el Bronx que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal migratoria.",
+    "summary_en": "DLA Immigration Aid Inc. is a non-profit organization in the Bronx that appears on the U.S. Department of Justice (EOIR) list of recognized organizations. Its DOJ-accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+      "Representantes acreditados por el DOJ pueden ofrecer ayuda legal migratoria.",
+      "Ubicada en 2825 Third Avenue, Suite 301, Bronx, NY 10455.",
+      "Teléfono: (347) 688-1519.",
+      "Las tarifas y cómo obtener una cita no están indicadas; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 2825 Third Avenue, Suite 301, Bronx, NY 10455.",
+      "Phone: (347) 688-1519.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame antes al (347) 688-1519 para preguntar sobre los servicios y las citas.",
+      "Pregunte sobre las tarifas y el proceso de admisión, ya que no están indicadas.",
+      "El horario de atención no está indicado; confírmelo por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (347) 688-1519 to ask about services and appointments.",
+      "Ask about fees and what the intake process is like, since these are not listed.",
+      "Hours of operation are not listed, so confirm them by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es DLA Immigration Aid Inc.?",
+        "a": "Es una organización sin fines de lucro en el Bronx que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están indicadas. Llame al (347) 688-1519 para preguntar sobre los costos."
+      },
+      {
+        "q": "¿Cómo saco una cita?",
+        "a": "El proceso de admisión no está indicado. Llame al (347) 688-1519 para preguntar cómo obtener una cita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is DLA Immigration Aid Inc.?",
+        "a": "It is a non-profit organization in the Bronx that appears on the U.S. Department of Justice (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (347) 688-1519 to ask about costs."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The intake process is not listed. Call (347) 688-1519 to ask how to get an appointment."
+      }
+    ]
+  }
+}

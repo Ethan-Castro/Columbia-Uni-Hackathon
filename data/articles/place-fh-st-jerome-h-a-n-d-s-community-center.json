@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-jerome-h-a-n-d-s-community-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:40.693Z",
+  "facts_hash": "8f659e844a462d05",
+  "article": {
+    "title_es": "St. Jerome H.A.N.D.S. Community Center: despensa de alimentos en el Bronx",
+    "title_en": "St. Jerome H.A.N.D.S. Community Center: food pantry in the Bronx",
+    "summary_es": "St. Jerome H.A.N.D.S. Community Center es una despensa de alimentos en el Bronx, aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 10am a 1pm.",
+    "summary_en": "St. Jerome H.A.N.D.S. Community Center is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Wednesdays from 10am to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 330 E 138th St, Bronx, NY 10454.",
+      "Abre los miércoles de 10am a 1pm para la despensa.",
+      "Puede llamar al (718) 402-7866 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 330 E 138th St, Bronx, NY 10454.",
+      "The pantry is open Wednesdays from 10am to 1pm.",
+      "You can call (718) 402-7866 with questions.",
+      "The listing does not say what food is given or if there are requirements; please ask."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es el miércoles de 10am a 1pm.",
+      "Llame al (718) 402-7866 antes de ir para confirmar detalles.",
+      "No se indica qué documentos se necesitan; pregunte al llamar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wednesday from 10am to 1pm.",
+      "Call (718) 402-7866 before going to confirm details.",
+      "The listing does not say what documents are needed; ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se detallan otros servicios."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "La despensa abre los miércoles de 10am a 1pm."
+      },
+      {
+        "q": "¿Qué debo llevar o si hay requisitos?",
+        "a": "La lista no lo indica. Llame al (718) 402-7866 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. Other services are not listed."
+      },
+      {
+        "q": "When can I go?",
+        "a": "The pantry is open Wednesdays from 10am to 1pm."
+      },
+      {
+        "q": "What should I bring, or are there requirements?",
+        "a": "The listing does not say. Call (718) 402-7866 to ask before going."
+      }
+    ]
+  }
+}

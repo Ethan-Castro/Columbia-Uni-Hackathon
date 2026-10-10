@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-south-asian-council-for-social-services",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:09.730Z",
+  "facts_hash": "ccfa67817a66e919",
+  "article": {
+    "title_es": "South Asian Council for Social Services: despensa de alimentos en Flushing, Queens",
+    "title_en": "South Asian Council for Social Services: food pantry in Flushing, Queens",
+    "summary_es": "Esta organización aparece en el mapa Food Help NYC como despensa de alimentos en Flushing, Queens. Atiende los miércoles y jueves de 9:30 am a 1 pm.",
+    "summary_en": "This organization appears on the Food Help NYC map as a food pantry in Flushing, Queens. It is open Wednesdays and Thursdays from 9:30am to 1pm.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Está ubicada en 143-02 45th Ave, Flushing, Queens, código postal 11355.",
+      "Horario de la despensa: miércoles y jueves de 9:30 am a 1 pm.",
+      "Teléfono: (718) 321-7929.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; llame para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Located at 143-02 45th Ave, Flushing, Queens, zip code 11355.",
+      "Pantry hours: Wednesdays and Thursdays, 9:30am to 1pm.",
+      "Phone: (718) 321-7929.",
+      "The listing does not say what food is given or if there are requirements; call to ask."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los miércoles y jueves de 9:30 am a 1 pm.",
+      "Llame al (718) 321-7929 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesdays and Thursdays, 9:30am to 1pm.",
+      "Call (718) 321-7929 before going to confirm hours and ask what you need.",
+      "The listing does not mention documents or requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos en Flushing, Queens."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "Miércoles y jueves de 9:30 am a 1 pm, según la información publicada."
+      },
+      {
+        "q": "¿Qué alimentos dan y hay requisitos?",
+        "a": "No está indicado en la lista. Llame al (718) 321-7929 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry in Flushing, Queens."
+      },
+      {
+        "q": "When can I go?",
+        "a": "Wednesdays and Thursdays, 9:30am to 1pm, according to the listing."
+      },
+      {
+        "q": "What food do they give, and are there requirements?",
+        "a": "The listing does not say. Call (718) 321-7929 to ask."
+      }
+    ]
+  }
+}

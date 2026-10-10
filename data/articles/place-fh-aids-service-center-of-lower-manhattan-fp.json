@@ -1,0 +1,66 @@
+{
+  "place_id": "place-fh-aids-service-center-of-lower-manhattan-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:21.514Z",
+  "facts_hash": "840b99748aac7482",
+  "article": {
+    "title_es": "AIDS Service Center of Lower Manhattan: despensa en Midtown",
+    "title_en": "AIDS Service Center of Lower Manhattan: food pantry in Midtown",
+    "summary_es": "Este lugar aparece en el mapa Food Help NYC como despensa de alimentos en Manhattan, en el piso 3 del 64 de la calle West 35th. La despensa abre los miércoles de 10am a 3pm, pero solo el tercer miércoles del mes.",
+    "summary_en": "This location appears on the City's Food Help NYC map as a food pantry in Manhattan, on the 3rd floor at 64 West 35th St. The pantry is open Wednesdays 10am-3pm, but only on the 3rd Wednesday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Entrega alimentos el tercer miércoles del mes, de 10am a 3pm.",
+      "Está en el piso 3 del 64 de la calle West 35th, en Manhattan.",
+      "Puede llamar al (212) 675-0875 para preguntar antes de ir.",
+      "La lista no dice qué alimentos da ni qué requisitos pide; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It gives out food on the 3rd Wednesday of the month, 10am-3pm.",
+      "It is located on the 3rd floor at 64 West 35th St, in Manhattan.",
+      "You can call (212) 675-0875 to ask questions before you go.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Vaya un tercer miércoles del mes; otros miércoles no hay despensa según la lista.",
+      "El horario es de 10am a 3pm ese día.",
+      "Llame al (212) 675-0875 antes de ir para confirmar detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on a 3rd Wednesday of the month; the listing shows no pantry on other Wednesdays.",
+      "Hours that day are 10am to 3pm.",
+      "Call (212) 675-0875 before going to confirm details.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 10am a 3pm, pero solo el tercer miércoles de cada mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "La lista no lo dice. Llame al (212) 675-0875 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Dónde está exactamente?",
+        "a": "En 64 West 35th St, piso 3, New York, NY 10001, en Manhattan."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays 10am-3pm, but only on the 3rd Wednesday of each month."
+      },
+      {
+        "q": "What food does it give out, and what do I need?",
+        "a": "The listing does not say. Call (212) 675-0875 to ask before you go."
+      },
+      {
+        "q": "Where exactly is it located?",
+        "a": "At 64 West 35th St, 3rd floor, New York, NY 10001, in Manhattan."
+      }
+    ]
+  }
+}

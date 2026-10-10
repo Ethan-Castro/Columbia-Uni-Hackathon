@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-ro-african-communities-together-new-york-city",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:19.307Z",
+  "facts_hash": "457a92f590c5faca",
+  "article": {
+    "title_es": "African Communities Together: ayuda legal de inmigración en Manhattan",
+    "title_en": "African Communities Together: immigration legal help in Manhattan",
+    "summary_es": "African Communities Together (oficina de extensión en la ciudad de Nueva York) aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas cuyos representantes acreditados pueden ofrecer ayuda legal de inmigración. Está en Harlem, Manhattan.",
+    "summary_en": "African Communities Together (New York City Extension Office) appears on the U.S. Department of Justice (EOIR) list of recognized organizations whose accredited representatives may provide immigration legal help. It is located in Harlem, Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Está ubicada en 127 West 127th Street, Suite 221, Nueva York, NY 10027.",
+      "Puede llamar al (347) 746-2281 para más información.",
+      "Las tarifas y el proceso para obtener una cita no aparecen en la información disponible; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations.",
+      "Located at 127 West 127th Street, Suite 221, New York, NY 10027.",
+      "You can call (347) 746-2281 for more information.",
+      "Fees and how to get an appointment are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "Antes de ir, llame al (347) 746-2281 para preguntar por los servicios y cómo pedir una cita.",
+      "La dirección exacta es 127 West 127th Street, Suite 221, en Manhattan.",
+      "Las horas de atención no aparecen en la información disponible; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Before visiting, call (347) 746-2281 to ask about services and how to make an appointment.",
+      "The exact address is 127 West 127th Street, Suite 221, in Manhattan.",
+      "Hours are not listed in the available information; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la información disponible. Llame al (347) 746-2281 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Se recomienda llamar al (347) 746-2281."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is an organization listed on the U.S. Department of Justice (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (347) 746-2281 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The appointment process is not listed. It is best to call (347) 746-2281."
+      }
+    ]
+  }
+}

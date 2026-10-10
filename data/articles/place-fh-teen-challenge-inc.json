@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-teen-challenge-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:42.198Z",
+  "facts_hash": "263c79f7384624c4",
+  "article": {
+    "title_es": "Teen Challenge, Inc: despensa de alimentos en Brooklyn",
+    "title_en": "Teen Challenge, Inc: food pantry in Brooklyn",
+    "summary_es": "Teen Challenge, Inc es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles y sábados por la mañana.",
+    "summary_en": "Teen Challenge, Inc is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Wednesday and Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Ofrece despensa los miércoles de 9am a 12pm.",
+      "También abre los sábados de 9am a 12pm.",
+      "Está ubicada en 415 Vanderbilt Ave, Brooklyn, NY 11238.",
+      "Qué alimentos entrega y si hay requisitos no están indicados; pregunte llamando al (718) 789-1414."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Pantry hours are Wednesdays from 9am to 12pm.",
+      "It is also open Saturdays from 9am to 12pm.",
+      "It is located at 415 Vanderbilt Ave, Brooklyn, NY 11238.",
+      "What food is given and any requirements are not listed; ask by calling (718) 789-1414."
+    ],
+    "visit_tips_es": [
+      "Las horas de despensa son miércoles y sábados de 9am a 12pm.",
+      "Llame antes de ir al (718) 789-1414 para confirmar los detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wednesdays and Saturdays from 9am to 12pm.",
+      "Call ahead at (718) 789-1414 to confirm details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Teen Challenge, Inc?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Despensa los miércoles y sábados de 9am a 12pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "No está indicado. Llame al (718) 789-1414 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Teen Challenge, Inc?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Pantry hours are Wednesdays and Saturdays from 9am to 12pm."
+      },
+      {
+        "q": "What food is given and what should I bring?",
+        "a": "That is not listed. Call (718) 789-1414 to ask before going."
+      }
+    ]
+  }
+}

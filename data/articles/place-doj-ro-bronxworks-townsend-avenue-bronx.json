@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-bronxworks-townsend-avenue-bronx",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:37:55.826Z",
+  "facts_hash": "1141dfa200e4d85c",
+  "article": {
+    "title_es": "BronxWorks (Townsend Avenue): oficina de ayuda legal en el Bronx",
+    "title_en": "BronxWorks (Townsend Avenue): legal help office in the Bronx",
+    "summary_es": "BronxWorks, en su oficina de Townsend Avenue en el Bronx, aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración.",
+    "summary_en": "BronxWorks, at its Townsend Avenue office in the Bronx, appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may offer immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 1477 Townsend Avenue, Bronx, NY 10452.",
+      "Puede llamar al (718) 731-3114 para preguntar por sus servicios.",
+      "Los servicios y tarifas específicas no están en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the Department of Justice (EOIR) list of recognized organizations.",
+      "Its accredited representatives may provide immigration legal help.",
+      "Located at 1477 Townsend Avenue, Bronx, NY 10452.",
+      "You can call (718) 731-3114 to ask about its services.",
+      "Specific services and fees are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (718) 731-3114 para preguntar por los servicios y cómo obtener una cita.",
+      "Las tarifas y el proceso de admisión no están indicados; pregunte por teléfono.",
+      "El horario no está en la lista; confírmelo cuando llame."
+    ],
+    "visit_tips_en": [
+      "Call first at (718) 731-3114 to ask about services and how to get an appointment.",
+      "Fees and the intake process are not listed; ask by phone.",
+      "Hours are not listed; confirm them when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es BronxWorks en Townsend Avenue?",
+        "a": "Es una oficina de BronxWorks en el Bronx que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están indicadas en la información disponible. Llame al (718) 731-3114 para preguntar."
+      },
+      {
+        "q": "¿Cómo puedo obtener una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Llame al (718) 731-3114 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is BronxWorks on Townsend Avenue?",
+        "a": "It is a BronxWorks office in the Bronx that appears on the Department of Justice (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (718) 731-3114 to ask."
+      },
+      {
+        "q": "How can I get an appointment?",
+        "a": "The appointment process is not listed. Call (718) 731-3114 to ask."
+      }
+    ]
+  }
+}

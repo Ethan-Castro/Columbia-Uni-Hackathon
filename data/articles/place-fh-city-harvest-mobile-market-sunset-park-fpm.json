@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-city-harvest-mobile-market-sunset-park-fpm",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:06.749Z",
+  "facts_hash": "4e0b3dc69f96eb91",
+  "article": {
+    "title_es": "City Harvest Mobile Market: despensa en Sunset Park, Brooklyn",
+    "title_en": "City Harvest Mobile Market: food pantry in Sunset Park, Brooklyn",
+    "summary_es": "City Harvest Mobile Market es una despensa de alimentos en Sunset Park, Brooklyn, que aparece en el mapa Food Help NYC de la ciudad. Abre viernes y sábado de 10am a 12pm.",
+    "summary_en": "City Harvest Mobile Market is a food pantry in Sunset Park, Brooklyn, listed on the City's Food Help NYC map. It is open Friday and Saturday from 10am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 150 52nd St, Brooklyn, NY 11232.",
+      "Abre viernes y sábado de 10am a 12pm.",
+      "La despensa solo abre el segundo viernes y el cuarto sábado de cada mes.",
+      "Qué alimentos entrega y si hay requisitos no aparecen en la información disponible."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 150 52nd St, Brooklyn, NY 11232.",
+      "It is open Friday and Saturday from 10am to 12pm.",
+      "The pantry is only open the 2nd Friday and 4th Saturday of each month.",
+      "What food is given and any requirements are not listed in the available information."
+    ],
+    "visit_tips_es": [
+      "Verifique la fecha antes de ir: la despensa solo abre el segundo viernes y el cuarto sábado.",
+      "El horario es de 10am a 12pm los viernes y sábados.",
+      "Si tiene preguntas, llame al (646) 412-0729 antes de visitar."
+    ],
+    "visit_tips_en": [
+      "Check the date before you go: the pantry is only open the 2nd Friday and 4th Saturday.",
+      "Hours are 10am to 12pm on Fridays and Saturdays.",
+      "If you have questions, call (646) 412-0729 before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 150 52nd St, Brooklyn, NY 11232."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Viernes y sábado de 10am a 12pm, pero la despensa solo abre el segundo viernes y el cuarto sábado."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito llevar?",
+        "a": "No aparece en la información disponible. Llame al (646) 412-0729 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 150 52nd St, Brooklyn, NY 11232."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Friday and Saturday from 10am to 12pm, but the pantry is only open the 2nd Friday and 4th Saturday."
+      },
+      {
+        "q": "What food is given and what should I bring?",
+        "a": "This is not listed in the available information. Call (646) 412-0729 to ask."
+      }
+    ]
+  }
+}

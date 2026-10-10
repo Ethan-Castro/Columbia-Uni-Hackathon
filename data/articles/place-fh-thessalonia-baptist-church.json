@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-thessalonia-baptist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:44.376Z",
+  "facts_hash": "d1f2a71f9b3f2a67",
+  "article": {
+    "title_es": "Iglesia Bautista Thessalonia: despensa de alimentos en el Bronx",
+    "title_en": "Thessalonia Baptist Church: food pantry in the Bronx",
+    "summary_es": "La Iglesia Bautista Thessalonia aparece en el mapa Food Help NYC como despensa de alimentos en el Bronx, con servicio los martes por la mañana.",
+    "summary_en": "Thessalonia Baptist Church appears on the Food Help NYC map as a food pantry in the Bronx, open on Tuesday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los martes de 10am a 11:30am.",
+      "Está ubicada en 951 Rev James A Polite Ave, Bronx, NY 10459.",
+      "Puede llamar al (718) 542-0828 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It distributes food on Tuesdays from 10am to 11:30am.",
+      "It is located at 951 Rev James A Polite Ave, Bronx, NY 10459.",
+      "You can call (718) 542-0828 to ask questions before going."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes de 10am a 11:30am.",
+      "La lista no indica qué alimentos se dan ni si hay requisitos; pregunte por teléfono.",
+      "Verifique el horario llamando al (718) 542-0828 antes de visitar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Tuesday 10am-11:30am.",
+      "The listing does not say what food is given or if there are requirements; ask by phone.",
+      "Confirm the schedule by calling (718) 542-0828 before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes de 10am a 11:30am, según la información de la lista."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "El teléfono que aparece en la lista es (718) 542-0828."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is listed on the Food Help NYC map as a food pantry."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays from 10am to 11:30am, according to the listing."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "The phone number listed is (718) 542-0828."
+      }
+    ]
+  }
+}

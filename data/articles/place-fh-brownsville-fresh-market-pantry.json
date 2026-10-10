@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-brownsville-fresh-market-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:34.457Z",
+  "facts_hash": "34e360cb15504471",
+  "article": {
+    "title_es": "Brownsville Fresh Market Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "Brownsville Fresh Market Pantry: food pantry in Brooklyn",
+    "summary_es": "Brownsville Fresh Market Pantry es una despensa de alimentos en Brooklyn, aparece en el mapa Food Help NYC de la ciudad. Abre los viernes de 4pm a 5pm, con despensa el tercer viernes del mes.",
+    "summary_en": "Brownsville Fresh Market Pantry is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Fridays 4pm-5pm, with the pantry on the 3rd Friday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 315 Sutter Ave, Brooklyn, NY, 11212.",
+      "Abre los viernes de 4pm a 5pm.",
+      "La despensa funciona el tercer viernes del mes.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 315 Sutter Ave, Brooklyn, NY, 11212.",
+      "It is open Fridays 4pm-5pm.",
+      "The pantry runs on the 3rd Friday of the month.",
+      "The listing does not say what food is given or if there are requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "Planee su visita para el tercer viernes del mes, entre 4pm y 5pm.",
+      "La información fue verificada por última vez el 10 de octubre de 2026.",
+      "No hay teléfono en la lista; verifique los detalles en el mapa Food Help NYC antes de ir."
+    ],
+    "visit_tips_en": [
+      "Plan your visit for the 3rd Friday of the month, between 4pm and 5pm.",
+      "The information was last checked on October 10, 2026.",
+      "No phone number is listed; check the details on the Food Help NYC map before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Brownsville Fresh Market Pantry?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los viernes de 4pm a 5pm. La despensa funciona el tercer viernes del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no lo indica. Verifique en el mapa Food Help NYC o pregunte en el lugar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Brownsville Fresh Market Pantry?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays 4pm-5pm. The pantry runs on the 3rd Friday of the month."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "The listing does not say. Check the Food Help NYC map or ask at the location."
+      }
+    ]
+  }
+}

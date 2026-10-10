@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-movement-of-pentecostal-christian-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:17.344Z",
+  "facts_hash": "c86629ea22ed7e39",
+  "article": {
+    "title_es": "Movement of Pentecostal Christian Church: despensa de alimentos en Brooklyn",
+    "title_en": "Movement of Pentecostal Christian Church: food pantry in Brooklyn",
+    "summary_es": "Movement of Pentecostal Christian Church es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los domingos.",
+    "summary_en": "Movement of Pentecostal Christian Church is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open on Sundays.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 90 92nd St, Brooklyn (código postal 11209).",
+      "Abre los domingos de 12:30pm a 2pm para la despensa.",
+      "Puede llamar al (347) 219-0947 para más información.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 90 92nd St in Brooklyn (zip 11209).",
+      "Open Sundays from 12:30pm to 2pm for the pantry.",
+      "You can call (347) 219-0947 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende los domingos de 12:30pm a 2pm.",
+      "Llame al (347) 219-0947 antes de ir para confirmar los detalles.",
+      "Pregunte qué alimentos ofrece y si necesita algo, ya que no está indicado en la lista."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Sundays, 12:30pm to 2pm.",
+      "Call (347) 219-0947 before going to confirm details.",
+      "Ask what food is offered and if anything is needed, since it is not listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los domingos, de 12:30pm a 2pm, para la despensa."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No está indicado. Llame al (347) 219-0947 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "A food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Sundays, 12:30pm to 2pm, for the pantry."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "That is not listed. Call (347) 219-0947 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-kinglawn-united-presbyterian-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:13.249Z",
+  "facts_hash": "0fea19ad12729f61",
+  "article": {
+    "title_es": "Kinglawn United Presbyterian Church: despensa de alimentos en Brooklyn",
+    "title_en": "Kinglawn United Presbyterian Church: food pantry in Brooklyn",
+    "summary_es": "Kinglawn United Presbyterian Church es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados y la despensa funciona el cuarto sábado del mes.",
+    "summary_en": "Kinglawn United Presbyterian Church is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Saturdays, and the pantry runs on the 4th Saturday of the month.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad",
+      "Está ubicada en 2368 Ralph Ave, Brooklyn",
+      "Abre los sábados de 10am a 11am",
+      "El día de la despensa es el cuarto sábado del mes",
+      "Llame al (718) 241-0736 para preguntar qué alimentos entregan y qué requisitos hay"
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map",
+      "Located at 2368 Ralph Ave in Brooklyn",
+      "Open Saturdays from 10am to 11am",
+      "Pantry day is the 4th Saturday of the month",
+      "Call (718) 241-0736 to ask what food is given and any requirements"
+    ],
+    "visit_tips_es": [
+      "Planifique ir el cuarto sábado del mes, cuando funciona la despensa",
+      "El horario es corto: los sábados de 10am a 11am",
+      "Llame antes al (718) 241-0736 para confirmar los detalles antes de visitar"
+    ],
+    "visit_tips_en": [
+      "Plan to go on the 4th Saturday of the month, when the pantry runs",
+      "Hours are short: 10am to 11am on Saturdays",
+      "Call ahead at (718) 241-0736 to confirm details before visiting"
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Los sábados de 10am a 11am; la despensa funciona el cuarto sábado del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No está indicado. Llame al (718) 241-0736 para preguntar qué ofrecen."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "No se indican requisitos. Llame antes de visitar para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Saturdays 10am-11am, with the pantry on the 4th Saturday of the month."
+      },
+      {
+        "q": "What food does it give out?",
+        "a": "That is not listed. Call (718) 241-0736 to ask what is offered."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "Requirements are not listed. Call ahead to ask before you visit."
+      }
+    ]
+  }
+}

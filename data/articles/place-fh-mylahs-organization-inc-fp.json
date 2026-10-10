@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-mylahs-organization-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:16.289Z",
+  "facts_hash": "6c36f12038bfe881",
+  "article": {
+    "title_es": "Mylah's Organization: despensa de alimentos en Brooklyn",
+    "title_en": "Mylah's Organization: food pantry in Brooklyn",
+    "summary_es": "Mylah's Organization, Inc es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Atiende los lunes y jueves por la mañana.",
+    "summary_en": "Mylah's Organization, Inc is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Monday and Thursday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 447 New Lots Avenue, Brooklyn, NY 11207.",
+      "Abre los lunes y jueves de 10:30am a 1pm para la despensa.",
+      "Puede llamar al (929) 234-3924 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 447 New Lots Avenue, Brooklyn, NY 11207.",
+      "Pantry hours are Monday and Thursday, 10:30am to 1pm.",
+      "You can call (929) 234-3924 to ask before you go.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es lunes y jueves de 10:30am a 1pm.",
+      "Llame al (929) 234-3924 antes de ir para confirmar los detalles.",
+      "La lista no menciona requisitos ni documentos, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Monday and Thursday, 10:30am to 1pm.",
+      "Call (929) 234-3924 before going to confirm details.",
+      "The listing does not mention requirements or documents, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 447 New Lots Avenue, Brooklyn, NY 11207."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los lunes y jueves de 10:30am a 1pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "La lista no lo indica. Llame al (929) 234-3924 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 447 New Lots Avenue, Brooklyn, NY 11207."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Monday and Thursday, 10:30am to 1pm."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "The listing does not say. Call (929) 234-3924 to ask."
+      }
+    ]
+  }
+}

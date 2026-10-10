@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-city-harvest-mobile-market-dyckman-houses",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:50.133Z",
+  "facts_hash": "3d1d98af11701e7c",
+  "article": {
+    "title_es": "City Harvest Mobile Market Dyckman Houses: despensa en Manhattan",
+    "title_en": "City Harvest Mobile Market Dyckman Houses: food pantry in Manhattan",
+    "summary_es": "City Harvest Mobile Market en Dyckman Houses es una despensa de alimentos en el norte de Manhattan, en la calle Nagle. Abre los miércoles y sábados por la mañana, pero solo en fechas específicas del mes.",
+    "summary_en": "City Harvest Mobile Market at Dyckman Houses is a food pantry in upper Manhattan on Nagle Avenue. It opens Wednesday and Saturday mornings, but only on specific dates each month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 177 Nagle Ave, Nueva York, NY 10034, en Manhattan.",
+      "Atiende los miércoles y sábados de 9:30am a 11:30am.",
+      "La despensa solo opera el segundo miércoles y el cuarto sábado de cada mes.",
+      "Puede llamar al (646) 412-0740 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 177 Nagle Ave, New York, NY 10034, in Manhattan.",
+      "It is open Wednesdays and Saturdays, 9:30am-11:30am.",
+      "The pantry only operates the 2nd Wednesday and 4th Saturday of the month.",
+      "You can call (646) 412-0740 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "Verifique la fecha: solo hay servicio el segundo miércoles y el cuarto sábado del mes.",
+      "El horario es de 9:30am a 11:30am en esos días.",
+      "Llame al (646) 412-0740 si tiene dudas sobre qué alimentos dan o qué necesita llevar."
+    ],
+    "visit_tips_en": [
+      "Check the date: service is only on the 2nd Wednesday and 4th Saturday of the month.",
+      "Hours are 9:30am to 11:30am on those days.",
+      "Call (646) 412-0740 if you have questions about what food is given or what to bring."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles y sábados de 9:30am a 11:30am, pero solo el segundo miércoles y el cuarto sábado de cada mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 177 Nagle Ave, Nueva York, NY 10034, en Manhattan."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "Eso no aparece en la información disponible. Llame al (646) 412-0740 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays and Saturdays, 9:30am-11:30am, but only on the 2nd Wednesday and 4th Saturday of each month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 177 Nagle Ave, New York, NY 10034, in Manhattan."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "That is not listed in the available information. Call (646) 412-0740 to ask before going."
+      }
+    ]
+  }
+}

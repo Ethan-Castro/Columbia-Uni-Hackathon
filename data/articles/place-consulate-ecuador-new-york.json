@@ -1,0 +1,64 @@
+{
+  "place_id": "place-consulate-ecuador-new-york",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:44:06.562Z",
+  "facts_hash": "cd8525d0987aa692",
+  "article": {
+    "title_es": "Consulado General del Ecuador en Nueva York: consulado en Manhattan",
+    "title_en": "Consulate General of Ecuador in New York: consulate in Manhattan",
+    "summary_es": "El Consulado General del Ecuador en Nueva York es una oficina oficial del gobierno de Ecuador en Manhattan. La lista no detalla los servicios específicos, así que llame antes de ir.",
+    "summary_en": "The Consulate General of Ecuador in New York is an official office of the government of Ecuador in Manhattan. The listing does not detail specific services, so call before visiting.",
+    "how_they_help_es": [
+      "Es un consulado oficial del gobierno de Ecuador en Nueva York.",
+      "Está en 800 Second Ave, 2do piso, Manhattan, NY 10017.",
+      "Teléfono: (212) 808 0170.",
+      "La lista no indica qué servicios ofrece; pregunte por teléfono.",
+      "Tampoco indica reglas de citas; pregunte cómo pedir una."
+    ],
+    "how_they_help_en": [
+      "It is an official consulate of the government of Ecuador in New York.",
+      "Located at 800 Second Ave, 2nd Floor, Manhattan, NY 10017.",
+      "Phone: (212) 808 0170.",
+      "The listing does not say which services are offered; ask by phone.",
+      "It also does not list appointment rules; ask how to request one."
+    ],
+    "visit_tips_es": [
+      "Llame al (212) 808 0170 antes de ir para confirmar servicios y horarios.",
+      "La lista no incluye horarios de atención; confírmelos por teléfono.",
+      "Verifique la información con la fuente original si algo cambió."
+    ],
+    "visit_tips_en": [
+      "Call (212) 808 0170 before going to confirm services and hours.",
+      "The listing does not include opening hours; confirm them by phone.",
+      "Check with the original source if anything has changed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está el consulado?",
+        "a": "En 800 Second Ave, 2do piso, Nueva York, NY 10017, en Manhattan."
+      },
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "La lista no lo detalla. Llame al (212) 808 0170 para preguntar."
+      },
+      {
+        "q": "¿Necesito cita?",
+        "a": "La lista no indica reglas de citas. Pregunte por teléfono antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the consulate?",
+        "a": "At 800 Second Ave, 2nd Floor, New York, NY 10017, in Manhattan."
+      },
+      {
+        "q": "What services does it offer?",
+        "a": "The listing does not detail this. Call (212) 808 0170 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "The listing does not give appointment rules. Ask by phone before going."
+      }
+    ]
+  }
+}

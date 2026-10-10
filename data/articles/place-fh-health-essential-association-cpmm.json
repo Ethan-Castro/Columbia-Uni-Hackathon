@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-health-essential-association-cpmm",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:10.757Z",
+  "facts_hash": "34d51118a532c912",
+  "article": {
+    "title_es": "Health Essential Association CPMM: despensa de alimentos en Brooklyn",
+    "title_en": "Health Essential Association CPMM: food pantry in Brooklyn",
+    "summary_es": "Health Essential Association CPMM es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Atiende los jueves de 10am a 12pm, con despensa el primer y tercer jueves del mes.",
+    "summary_en": "Health Essential Association CPMM is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Thursdays from 10am to 12pm, with the pantry on the 1st and 3rd Thursdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 2336 86th St, Brooklyn, NY 11214.",
+      "Abre los jueves de 10am a 12pm; la despensa es el primer y tercer jueves.",
+      "Puede llamar al (646) 515-6898 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2336 86th St, Brooklyn, NY 11214.",
+      "It is open Thursdays 10am-12pm; the pantry runs on the 1st and 3rd Thursdays.",
+      "You can call (646) 515-6898 to ask questions before going.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Planee su visita para el primer o tercer jueves del mes, entre 10am y 12pm.",
+      "Llame al (646) 515-6898 antes de ir para confirmar los detalles.",
+      "Pregunte por teléfono qué alimentos ofrece y si necesita llevar algo."
+    ],
+    "visit_tips_en": [
+      "Plan your visit for the 1st or 3rd Thursday of the month, between 10am and 12pm.",
+      "Call (646) 515-6898 before going to confirm the details.",
+      "Ask by phone what food is offered and if you need to bring anything."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 10am a 12pm. La entrega de alimentos es el primer y tercer jueves del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 2336 86th St, Brooklyn, New York, 11214."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado en la lista. Llame al (646) 515-6898 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 10am to 12pm. Food distribution is on the 1st and 3rd Thursdays of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 2336 86th St, Brooklyn, New York, 11214."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "The listing does not say. Call (646) 515-6898 to ask before going."
+      }
+    ]
+  }
+}

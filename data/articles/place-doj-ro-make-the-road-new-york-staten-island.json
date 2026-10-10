@@ -1,0 +1,66 @@
+{
+  "place_id": "place-doj-ro-make-the-road-new-york-staten-island",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:43.501Z",
+  "facts_hash": "4b5ae21d6bb057a5",
+  "article": {
+    "title_es": "Make the Road New York: oficina en la lista del DOJ en Staten Island",
+    "title_en": "Make the Road New York: DOJ-listed office in Staten Island",
+    "summary_es": "Make the Road New York (Staten Island Extension Office) es una organización sin fines de lucro en Staten Island que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Sus representantes acreditados pueden ofrecer ayuda legal de inmigración.",
+    "summary_en": "Make the Road New York (Staten Island Extension Office) is a non-profit organization in Staten Island that appears on the U.S. Department of Justice (EOIR) list of recognized organizations. Its DOJ-accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal de inmigración.",
+      "Está ubicada en 161 Port Richmond Avenue, Staten Island, NY 10302.",
+      "Llame al (718) 727-1222 para preguntar por sus servicios.",
+      "Las tarifas y cómo obtener una cita no están indicadas, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "DOJ-accredited representatives may give immigration legal help.",
+      "Located at 161 Port Richmond Avenue, Staten Island, NY 10302.",
+      "Call (718) 727-1222 to ask about services.",
+      "Fees and how to get an appointment are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes al (718) 727-1222 para confirmar los horarios y preguntar cómo recibir ayuda.",
+      "Los horarios de atención no aparecen en esta información.",
+      "Las tarifas y el proceso de admisión no están indicados, así que pregunte cuando llame.",
+      "Esta información se verificó por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 727-1222 to confirm hours and ask how to get help.",
+      "Hours of operation are not listed in this information.",
+      "Fees and the intake process are not listed, so ask when you call.",
+      "This information was last checked on 2026-10-10."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es la oficina de extensión de Staten Island de Make the Road New York, una organización sin fines de lucro en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al (718) 727-1222 o visite 161 Port Richmond Avenue, Staten Island, NY 10302."
+      },
+      {
+        "q": "¿Indican las tarifas?",
+        "a": "No. Las tarifas y cómo obtener una cita no están indicadas, así que pregunte por teléfono."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is the Staten Island Extension Office of Make the Road New York, a non-profit on the DOJ (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call (718) 727-1222 or visit 161 Port Richmond Avenue, Staten Island, NY 10302."
+      },
+      {
+        "q": "Are fees listed?",
+        "a": "No. Fees and how to get an appointment are not listed, so ask by phone."
+      }
+    ]
+  }
+}

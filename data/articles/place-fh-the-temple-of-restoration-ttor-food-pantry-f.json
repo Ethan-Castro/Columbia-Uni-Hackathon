@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-temple-of-restoration-ttor-food-pantry-f",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:00.799Z",
+  "facts_hash": "815f32858c1cd132",
+  "article": {
+    "title_es": "The Temple of Restoration TTOR: despensa de alimentos en Brooklyn",
+    "title_en": "The Temple of Restoration TTOR Food Pantry: food pantry in Brooklyn",
+    "summary_es": "La despensa de alimentos The Temple of Restoration TTOR es una despensa en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. Abre los martes, jueves y sábados.",
+    "summary_en": "The Temple of Restoration TTOR Food Pantry is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open on Tuesdays, Thursdays, and Saturdays.",
+    "how_they_help_es": [
+      "Una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 490 Pacific St, Brooklyn, NY 11217.",
+      "Abre tres días a la semana, incluidos los sábados.",
+      "Puede llamar al (646) 863-4239 si tiene preguntas.",
+      "Los alimentos que entrega y los requisitos no aparecen en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "A food pantry listed on the City's Food Help NYC map.",
+      "Located at 490 Pacific St in Brooklyn, NY 11217.",
+      "Open three days a week, including Saturdays.",
+      "You can call (646) 863-4239 for questions.",
+      "What food is given and any requirements are not listed, so ask."
+    ],
+    "visit_tips_es": [
+      "Los horarios son: martes de 10am a 4pm, jueves de 10am a 4pm y sábado de 10am a 1pm.",
+      "Llame al (646) 863-4239 con anticipación para preguntar qué alimentos entrega y si hay requisitos.",
+      "La dirección es 490 Pacific St, Brooklyn, New York, 11217."
+    ],
+    "visit_tips_en": [
+      "Hours are Tuesday 10am-4pm, Thursday 10am-4pm, and Saturday 10am-1pm.",
+      "Call (646) 863-4239 ahead to ask what food is given and if there are any requirements.",
+      "The address is 490 Pacific St, Brooklyn, New York, 11217."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es este?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Martes de 10am a 4pm, jueves de 10am a 4pm y sábado de 10am a 1pm."
+      },
+      {
+        "q": "¿Cómo puedo hacer preguntas?",
+        "a": "Llame al (646) 863-4239 antes de su visita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday 10am-4pm, Thursday 10am-4pm, and Saturday 10am-1pm."
+      },
+      {
+        "q": "How can I ask questions?",
+        "a": "Call (646) 863-4239 before your visit."
+      }
+    ]
+  }
+}

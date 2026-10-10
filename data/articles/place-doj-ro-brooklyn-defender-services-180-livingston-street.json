@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-brooklyn-defender-services-180-livingston-street",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:00.021Z",
+  "facts_hash": "a3bab321196731fb",
+  "article": {
+    "title_es": "Brooklyn Defender Services: oficina legal en Brooklyn",
+    "title_en": "Brooklyn Defender Services: legal office in Brooklyn",
+    "summary_es": "Brooklyn Defender Services aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal en inmigración. Está ubicada en 180 Livingston Street, Brooklyn, NY 11201.",
+    "summary_en": "Brooklyn Defender Services appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help. It is located at 180 Livingston Street, Brooklyn, NY 11201.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Las organizaciones reconocidas son sin fines de lucro con representantes acreditados que pueden dar ayuda legal en inmigración.",
+      "La oficina está en 180 Livingston Street, Brooklyn, NY 11201.",
+      "Teléfono: (718) 254-0700.",
+      "No se indican los servicios exactos ni los horarios; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Listed on the U.S. Department of Justice (EOIR) roster of recognized organizations.",
+      "Recognized organizations are non-profits with accredited representatives who may give immigration legal help.",
+      "The office is at 180 Livingston Street, Brooklyn, NY 11201.",
+      "Phone: (718) 254-0700.",
+      "Exact services and hours are not listed; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir: (718) 254-0700.",
+      "Los horarios, las cuotas y el proceso para obtener una cita no aparecen en la información disponible; pregunte directamente.",
+      "La dirección exacta es 180 Livingston Street, Brooklyn, NY 11201."
+    ],
+    "visit_tips_en": [
+      "Call before you go: (718) 254-0700.",
+      "Hours, fees, and how to get an appointment are not listed in the available information; ask directly.",
+      "The exact address is 180 Livingston Street, Brooklyn, NY 11201."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las cuotas no aparecen en la información disponible. Llame al (718) 254-0700 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Llame al (718) 254-0700 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit listed on the U.S. Department of Justice (EOIR) roster of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (718) 254-0700 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The appointment process is not listed. Call (718) 254-0700 to ask."
+      }
+    ]
+  }
+}

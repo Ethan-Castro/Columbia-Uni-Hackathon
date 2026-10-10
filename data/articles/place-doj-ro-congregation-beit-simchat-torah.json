@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-congregation-beit-simchat-torah",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:26.302Z",
+  "facts_hash": "3c6ef9e7deb4a39f",
+  "article": {
+    "title_es": "Congregation Beit Simchat Torah: organización en la lista del DOJ en Manhattan",
+    "title_en": "Congregation Beit Simchat Torah: DOJ-listed organization in Manhattan",
+    "summary_es": "Congregation Beit Simchat Torah aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en Manhattan, en la calle 30 Oeste.",
+    "summary_en": "Congregation Beit Simchat Torah appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in Manhattan on West 30th Street.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados por el DOJ pueden brindar ayuda legal de inmigración.",
+      "La dirección es 130 West 30th Street, New York, NY 10001, en Manhattan.",
+      "El teléfono que aparece en la lista es (212) 929-9498.",
+      "Los servicios específicos, los horarios y las tarifas no aparecen en la información disponible; llame para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations and accredited representatives.",
+      "Recognized organizations are non-profits whose DOJ-accredited representatives may give immigration legal help.",
+      "The address is 130 West 30th Street, New York, NY 10001, in Manhattan.",
+      "The phone number listed is (212) 929-9498.",
+      "Specific services, hours, and fees are not listed in the available information; call to ask."
+    ],
+    "visit_tips_es": [
+      "Antes de ir, llame al (212) 929-9498 para confirmar si atienden sin cita y en qué horario.",
+      "Pregunte por teléfono qué servicios ofrecen y si cobran alguna tarifa.",
+      "La información de esta página fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Before going, call (212) 929-9498 to confirm whether they take walk-ins and what their hours are.",
+      "Ask by phone what services they offer and whether they charge any fees.",
+      "The information on this page was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas, cuyos representantes acreditados pueden brindar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas y el proceso para obtener una cita no aparecen en la información disponible. Llame al (212) 929-9498 para preguntar."
+      },
+      {
+        "q": "¿Cuáles son los horarios de atención?",
+        "a": "Los horarios no aparecen en la información disponible. Llame al (212) 929-9498 antes de visitar la oficina."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It appears on the Department of Justice (EOIR) roster of recognized organizations, whose accredited representatives may provide immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees and the process for getting an appointment are not listed in the available information. Call (212) 929-9498 to ask."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Hours are not listed in the available information. Call (212) 929-9498 before visiting the office."
+      }
+    ]
+  }
+}

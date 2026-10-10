@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-masbia-of-queens",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:49.625Z",
+  "facts_hash": "26eb744436d31e1c",
+  "article": {
+    "title_es": "Masbia of Queens: despensa y cocina en Forest Hills",
+    "title_en": "Masbia of Queens: food pantry and kitchen in Forest Hills",
+    "summary_es": "Masbia of Queens es una despensa de alimentos y cocina comunitaria en Forest Hills, Queens, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Masbia of Queens is a food pantry and soup kitchen in Forest Hills, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos abierta de lunes a jueves y los domingos, de 12pm a 7pm.",
+      "Cocina comunitaria (sopa) de lunes a jueves y los domingos, de 3pm a 7pm.",
+      "Abre por las tardes y los fines de semana (domingos).",
+      "Ubicada en 105-47 64th Rd, Forest Hills, Queens, código postal 11375.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Food pantry open Monday-Thursday and Sundays, 12pm-7pm.",
+      "Soup kitchen open Monday-Thursday and Sundays, 3pm-7pm.",
+      "Open in the evenings and on weekends (Sundays).",
+      "Located at 105-47 64th Rd, Forest Hills, Queens, ZIP code 11375.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Antes de ir, llame al (718) 534-7321 para confirmar horarios y preguntar qué necesita.",
+      "La despensa abre desde las 12pm; la cocina comunitaria desde las 3pm.",
+      "Los horarios pueden cambiar; esta información fue verificada el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Before going, call (718) 534-7321 to confirm hours and ask what you need.",
+      "The pantry opens at 12pm; the soup kitchen at 3pm.",
+      "Hours can change; this information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está Masbia of Queens?",
+        "a": "En 105-47 64th Rd, Forest Hills, Queens, NY 11375."
+      },
+      {
+        "q": "¿Qué horarios tiene?",
+        "a": "Despensa: lunes a jueves y domingos, 12pm-7pm. Cocina comunitaria: lunes a jueves y domingos, 3pm-7pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué requisitos hay?",
+        "a": "No se indica en la información disponible. Llame al (718) 534-7321 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is Masbia of Queens?",
+        "a": "At 105-47 64th Rd, Forest Hills, Queens, NY 11375."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Pantry: Monday-Thursday and Sundays, 12pm-7pm. Soup kitchen: Monday-Thursday and Sundays, 3pm-7pm."
+      },
+      {
+        "q": "What food is given, and are there requirements?",
+        "a": "The available information does not say. Call (718) 534-7321 to ask."
+      }
+    ]
+  }
+}

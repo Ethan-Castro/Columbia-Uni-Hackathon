@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-our-lady-of-good-counsel-church-staten-islan",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:17.090Z",
+  "facts_hash": "3d56065961c2a196",
+  "article": {
+    "title_es": "Iglesia Our Lady of Good Counsel: despensa de alimentos en Staten Island",
+    "title_en": "Our Lady of Good Counsel Church: food pantry in Staten Island",
+    "summary_es": "La Iglesia Our Lady of Good Counsel en Staten Island ofrece una despensa de alimentos los sábados por la mañana.",
+    "summary_en": "Our Lady of Good Counsel Church in Staten Island offers a food pantry on Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Entrega alimentos los sábados de 9:30am a 11am.",
+      "Está ubicada en 42 Austin Pl, Staten Island, NY 10304.",
+      "Puede llamar al (718) 447-1503 para más información.",
+      "La lista no detalla qué alimentos entrega ni los requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Saturdays from 9:30am to 11am.",
+      "It is located at 42 Austin Pl, Staten Island, NY 10304.",
+      "You can call (718) 447-1503 for more information.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los sábados de 9:30am a 11am.",
+      "Llame antes de ir para confirmar el horario y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Saturdays from 9:30am to 11am.",
+      "Call before you go to confirm hours and ask what you need to bring.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 9:30am a 11am, según la información de la lista."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 42 Austin Pl, Staten Island, Nueva York, 10304."
+      },
+      {
+        "q": "¿Qué documentos necesito llevar?",
+        "a": "La lista no menciona requisitos ni documentos. Llame al (718) 447-1503 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 9:30am to 11am, according to the listing."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 42 Austin Pl, Staten Island, New York, 10304."
+      },
+      {
+        "q": "What documents do I need to bring?",
+        "a": "The listing does not mention requirements or documents. Call (718) 447-1503 to ask before going."
+      }
+    ]
+  }
+}

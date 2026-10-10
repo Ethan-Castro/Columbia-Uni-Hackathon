@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-brooklyn-defender-services-livingston-street-5th-fl",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:05.088Z",
+  "facts_hash": "877b7832eb6ba3e0",
+  "article": {
+    "title_es": "Brooklyn Defender Services: oficina de ayuda legal en Brooklyn",
+    "title_en": "Brooklyn Defender Services: legal help office in Brooklyn",
+    "summary_es": "Brooklyn Defender Services aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración. Está en el centro de Brooklyn, en la calle Livingston.",
+    "summary_en": "Brooklyn Defender Services appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may offer immigration legal help. It is located in downtown Brooklyn on Livingston Street.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Las organizaciones reconocidas tienen representantes acreditados que pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 177 Livingston Street, 5.º piso, Brooklyn, NY 11201.",
+      "Puede llamar al (718) 564-6290 para preguntar por sus servicios.",
+      "La lista no indica los honorarios ni cómo pedir una cita; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "Recognized organizations have accredited representatives who may give immigration legal help.",
+      "It is located at 177 Livingston Street, 5th Floor, Brooklyn, NY 11201.",
+      "You can call (718) 564-6290 to ask about their services.",
+      "The list does not show fees or how to get an appointment; ask them directly."
+    ],
+    "visit_tips_es": [
+      "Antes de ir, llame al (718) 564-6290 para confirmar el horario y preguntar cómo recibir ayuda.",
+      "La oficina está en el 5.º piso del edificio de la calle Livingston.",
+      "Los horarios de atención no aparecen en la información disponible, así que es mejor confirmar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Before going, call (718) 564-6290 to confirm hours and ask how to get help.",
+      "The office is on the 5th floor of the Livingston Street building.",
+      "Hours of operation are not listed in the available information, so it is best to confirm by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una oficina de Brooklyn Defender Services que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas que pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los honorarios no aparecen en la información disponible. Llame al (718) 564-6290 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cómo puedo pedir una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Se recomienda llamar al (718) 564-6290 para preguntar cómo recibir ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a Brooklyn Defender Services office that appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may give immigration legal help."
+      },
+      {
+        "q": "How much do the services cost?",
+        "a": "Fees are not listed in the available information. Call (718) 564-6290 to ask before going."
+      },
+      {
+        "q": "How can I get an appointment?",
+        "a": "The process for getting an appointment is not listed. It is best to call (718) 564-6290 to ask how to get help."
+      }
+    ]
+  }
+}

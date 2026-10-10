@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-crown-heights-jewish-community-council",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:26.950Z",
+  "facts_hash": "27a54b2bea222fb0",
+  "article": {
+    "title_es": "Crown Heights Jewish Community Council: despensa de alimentos en Brooklyn",
+    "title_en": "Crown Heights Jewish Community Council: food pantry in Brooklyn",
+    "summary_es": "El Crown Heights Jewish Community Council aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn.",
+    "summary_en": "The Crown Heights Jewish Community Council is listed on the City's Food Help NYC map as a food pantry in Brooklyn.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 899 Montgomery St, Brooklyn, NY 11213.",
+      "Atiende los miércoles de 1:30am a 3pm (despensa).",
+      "Puede llamar al (718) 771-9000 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 899 Montgomery St, Brooklyn, NY 11213.",
+      "It is open Wednesdays 1:30am-3pm (pantry).",
+      "You can call (718) 771-9000 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende los miércoles de 1:30am a 3pm, según la lista.",
+      "La dirección es 899 Montgomery St, Brooklyn, NY 11213.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; llame al (718) 771-9000 para preguntar."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesdays 1:30am-3pm, according to the listing.",
+      "The address is 899 Montgomery St, Brooklyn, NY 11213.",
+      "The listing does not say what food is given or if there are requirements; call (718) 771-9000 to ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La lista no lo indica. Llame al (718) 771-9000 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos ni documentos. Se recomienda llamar al (718) 771-9000 para confirmar."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Según la lista, los miércoles de 1:30am a 3pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give?",
+        "a": "The listing does not say. Call (718) 771-9000 to ask before going."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements or documents. It is best to call (718) 771-9000 to confirm."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "According to the listing, Wednesdays 1:30am-3pm."
+      }
+    ]
+  }
+}

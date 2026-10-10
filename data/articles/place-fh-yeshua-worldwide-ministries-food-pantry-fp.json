@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-yeshua-worldwide-ministries-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:37.198Z",
+  "facts_hash": "1ba3ef84ffb17a8c",
+  "article": {
+    "title_es": "YESHUA Worldwide Ministries: despensa de alimentos en Queens",
+    "title_en": "YESHUA Worldwide Ministries: food pantry in Queens",
+    "summary_es": "YESHUA Worldwide Ministries es una despensa de alimentos en Middle Village, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre jueves y sábado de 10am a 1pm.",
+    "summary_en": "YESHUA Worldwide Ministries is a food pantry in Middle Village, Queens, listed on the City's Food Help NYC map. It is open Thursdays and Saturdays from 10am to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los jueves de 10am a 1pm.",
+      "También abre los sábados de 10am a 1pm.",
+      "Está ubicada en 79-11 Caldwell Ave, Middle Village, NY 11379.",
+      "No se indica qué alimentos entrega; llame al (347) 507-1689 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Hands out food on Thursdays from 10am to 1pm.",
+      "Also open Saturdays from 10am to 1pm.",
+      "Located at 79-11 Caldwell Ave, Middle Village, NY 11379.",
+      "What food is given is not listed; call (347) 507-1689 to ask."
+    ],
+    "visit_tips_es": [
+      "Vaya los jueves o sábados entre 10am y 1pm, cuando la despensa está abierta.",
+      "Antes de ir, llame al (347) 507-1689 para confirmar horarios y preguntar qué necesita.",
+      "No se indica si hay requisitos; es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on Thursdays or Saturdays between 10am and 1pm, when the pantry is open.",
+      "Before you go, call (347) 507-1689 to confirm hours and ask what you need.",
+      "Requirements are not listed; it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves y sábados de 10am a 1pm, según la información publicada."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No se indica. Llame al (347) 507-1689 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "No se menciona ningún requisito. Se recomienda llamar al (347) 507-1689 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays and Saturdays from 10am to 1pm, according to the published information."
+      },
+      {
+        "q": "What food does it give out?",
+        "a": "That is not listed. Call (347) 507-1689 to ask before going."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "No requirements are mentioned. It is best to call (347) 507-1689 and ask."
+      }
+    ]
+  }
+}

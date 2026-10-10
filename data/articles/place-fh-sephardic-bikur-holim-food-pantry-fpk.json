@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-sephardic-bikur-holim-food-pantry-fpk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:38.504Z",
+  "facts_hash": "9c27fdda76ad64bb",
+  "article": {
+    "title_es": "Despensa de alimentos Sephardic Bikur Holim en Brooklyn",
+    "title_en": "Sephardic Bikur Holim Food Pantry in Brooklyn",
+    "summary_es": "La despensa de alimentos Sephardic Bikur Holim aparece en el mapa Food Help NYC de la ciudad. Está en 425 Kings Hwy, Brooklyn, y atiende de lunes a viernes.",
+    "summary_en": "The Sephardic Bikur Holim Food Pantry is listed on the City's Food Help NYC map. It is located at 425 Kings Hwy, Brooklyn, and is open Monday through Friday.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 425 Kings Hwy, Brooklyn, NY 11223.",
+      "Abre de lunes a jueves de 9am a 12:30pm y de 1pm a 4:30pm; los viernes de 9am a 1pm.",
+      "Puede llamar al (718) 787-1100 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 425 Kings Hwy, Brooklyn, NY 11223.",
+      "It is open Monday to Thursday 9am-12:30pm and 1pm-4:30pm; Friday 9am-1pm.",
+      "You can call (718) 787-1100 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de lunes a jueves de 9am a 12:30pm y de 1pm a 4:30pm, y los viernes de 9am a 1pm.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; confirme los detalles llamando al (718) 787-1100.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono antes de ir."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Monday to Thursday 9am-12:30pm and 1pm-4:30pm, and Friday 9am-1pm.",
+      "The information was last checked on October 10, 2026; confirm details by calling (718) 787-1100.",
+      "The listing does not say what food is given or if there are any requirements; ask by phone before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 425 Kings Hwy, Brooklyn, New York, 11223."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Lunes a jueves de 9am a 12:30pm y de 1pm a 4:30pm; viernes de 9am a 1pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está indicado en la lista. Llame al (718) 787-1100 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 425 Kings Hwy, Brooklyn, New York, 11223."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Monday to Thursday 9am-12:30pm and 1pm-4:30pm; Friday 9am-1pm."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "This is not listed. Call (718) 787-1100 to ask."
+      }
+    ]
+  }
+}

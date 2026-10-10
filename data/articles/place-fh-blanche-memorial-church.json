@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-blanche-memorial-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:45.913Z",
+  "facts_hash": "e75d14f339cfb254",
+  "article": {
+    "title_es": "Blanche Memorial Church: despensa de alimentos en Jamaica, Queens",
+    "title_en": "Blanche Memorial Church: food pantry in Jamaica, Queens",
+    "summary_es": "Blanche Memorial Church es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Blanche Memorial Church is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 109-74 Sutphin Blvd, Jamaica, Queens.",
+      "Abre los martes de 9am a 10am para la despensa.",
+      "Puede llamar al (718) 658-2458 para preguntar.",
+      "La lista no detalla qué alimentos entrega ni los requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry according to the Food Help NYC map.",
+      "It is located at 109-74 Sutphin Blvd, Jamaica, Queens.",
+      "It is open Tuesdays from 9am to 10am for the pantry.",
+      "You can call (718) 658-2458 with questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los martes de 9am a 10am.",
+      "Llame al (718) 658-2458 antes de ir para confirmar.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Tuesdays from 9am to 10am.",
+      "Call (718) 658-2458 before you go to confirm.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (718) 658-2458 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los martes de 9am a 10am, según la información oficial más reciente."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos. Se recomienda llamar al (718) 658-2458 para confirmar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (718) 658-2458 to ask before you go."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays from 9am to 10am, according to the most recent official information."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "The listing does not mention any requirements. It is best to call (718) 658-2458 to confirm."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-salem-united-methodist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:12.116Z",
+  "facts_hash": "d109be644c0767dd",
+  "article": {
+    "title_es": "Salem United Methodist Church: despensa de alimentos en Manhattan",
+    "title_en": "Salem United Methodist Church: food pantry in Manhattan",
+    "summary_es": "Salem United Methodist Church aparece en el mapa Food Help NYC como despensa de alimentos en Harlem, Manhattan. Abre los martes de 10am a 12pm.",
+    "summary_en": "Salem United Methodist Church is listed on the Food Help NYC map as a food pantry in Manhattan. It is open Tuesdays from 10am to 12pm.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Está en 2190 Adam Clayton Powell Jr Blvd, Nueva York, NY 10027.",
+      "Abre los martes de 10am a 12pm (despensa).",
+      "Puede llamar al (212) 678-2700 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Located at 2190 Adam Clayton Powell Jr Blvd, New York, NY 10027.",
+      "Open Tuesdays 10am-12pm (pantry).",
+      "You can call (212) 678-2700 with questions."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para confirmar los horarios y qué alimentos ofrece.",
+      "La lista no indica qué requisitos hay, si los hay; pregunte por teléfono.",
+      "Los horarios mostrados fueron verificados por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call before you go to confirm hours and what food is offered.",
+      "The listing does not say what requirements there may be; ask by phone.",
+      "The hours shown were last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (212) 678-2700 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos. Se recomienda llamar antes de ir."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los martes de 10am a 12pm (despensa)."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give out?",
+        "a": "The listing does not say. Call (212) 678-2700 to ask."
+      },
+      {
+        "q": "Do I need documents or meet requirements?",
+        "a": "The listing does not mention any requirements. It is best to call before going."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays from 10am to 12pm (pantry)."
+      }
+    ]
+  }
+}

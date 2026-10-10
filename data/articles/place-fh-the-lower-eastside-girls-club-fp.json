@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-lower-eastside-girls-club-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:34.701Z",
+  "facts_hash": "891d4811dea1ab41",
+  "article": {
+    "title_es": "The Lower Eastside Girls Club: despensa de alimentos en Brooklyn",
+    "title_en": "The Lower Eastside Girls Club: food pantry in Brooklyn",
+    "summary_es": "The Lower Eastside Girls Club aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, en la calle East 8th Street. Atiende los miércoles por la mañana y hasta temprano en la tarde.",
+    "summary_en": "The Lower Eastside Girls Club is listed on the City's Food Help NYC map as a food pantry in Brooklyn, on East 8th Street. It is open on Wednesdays in the morning and early afternoon.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 402 East 8th Street, Brooklyn, NY 11218.",
+      "Abre los miércoles de 9 am a 2:30 pm para la despensa.",
+      "Se puede llamar al (212) 982-1633 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 402 East 8th Street, Brooklyn, NY 11218.",
+      "The pantry is open Wednesdays from 9am to 2:30pm.",
+      "You can call (212) 982-1633 to ask questions before going.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Planifique su visita para el miércoles, entre 9 am y 2:30 pm.",
+      "Llame al (212) 982-1633 antes de ir para confirmar los detalles.",
+      "Pregunte por teléfono qué alimentos ofrece y si necesita llevar algo."
+    ],
+    "visit_tips_en": [
+      "Plan your visit for Wednesday, between 9am and 2:30pm.",
+      "Call (212) 982-1633 before going to confirm the details.",
+      "Ask by phone what food is offered and whether you need to bring anything."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos. La lista no detalla qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "La despensa atiende los miércoles de 9 am a 2:30 pm, según la información más reciente."
+      },
+      {
+        "q": "¿Necesito algún requisito o documento?",
+        "a": "La lista no menciona requisitos. Se recomienda llamar al (212) 982-1633 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It appears on the Food Help NYC map as a food pantry. The listing does not detail what food is given."
+      },
+      {
+        "q": "When can I go?",
+        "a": "The pantry is open Wednesdays from 9am to 2:30pm, according to the most recent information."
+      },
+      {
+        "q": "Do I need any requirements or documents?",
+        "a": "The listing does not mention any requirements. It is best to call (212) 982-1633 to ask before going."
+      }
+    ]
+  }
+}

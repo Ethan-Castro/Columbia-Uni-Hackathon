@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-bay-view-houses-resident-association",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:23.291Z",
+  "facts_hash": "cc55a3d3e02af869",
+  "article": {
+    "title_es": "Bay View Houses Resident Association: despensa en Brooklyn",
+    "title_en": "Bay View Houses Resident Association: food pantry in Brooklyn",
+    "summary_es": "Bay View Houses Resident Association es una despensa de alimentos en Brooklyn, en el mapa Food Help NYC de la ciudad. Abre los jueves por la mañana.",
+    "summary_en": "Bay View Houses Resident Association is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It opens on Thursday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 2085 Rockaway Pkwy, Brooklyn, NY 11236.",
+      "Atiende los jueves de 9:30am a 12:30pm (despensa).",
+      "Puede llamar al (347) 307-0030 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 2085 Rockaway Pkwy, Brooklyn, NY 11236.",
+      "It is open Thursdays, 9:30am to 12:30pm (pantry).",
+      "You can call (347) 307-0030 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es jueves de 9:30am a 12:30pm.",
+      "La lista no dice qué alimentos se entregan ni si hay requisitos; llame al (347) 307-0030 para preguntar.",
+      "Verifique el horario antes de ir, por si hay cambios."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Thursdays, 9:30am to 12:30pm.",
+      "The listing does not say what food is given or if there are requirements; call (347) 307-0030 to ask.",
+      "Check the hours before going, in case there are changes."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Brooklyn, incluida en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los jueves de 9:30am a 12:30pm, según la información más reciente (octubre de 2026)."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No aparece en la lista. Llame al (347) 307-0030 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Brooklyn, included on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Thursdays, 9:30am to 12:30pm, according to the most recent information (October 2026)."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "That is not listed. Call (347) 307-0030 to ask before visiting."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-chambers-memorial-baptist-church-love-offeri",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:54.773Z",
+  "facts_hash": "fdae9396a5556fa6",
+  "article": {
+    "title_es": "Chambers Memorial Baptist Church: despensa de alimentos en Manhattan",
+    "title_en": "Chambers Memorial Baptist Church: food pantry in Manhattan",
+    "summary_es": "Chambers Memorial Baptist Church / Love Offering es una despensa de alimentos en East Harlem, Manhattan, que aparece en el mapa Food Help NYC de la ciudad. Atiende los miércoles de 9 am a 11 am.",
+    "summary_en": "Chambers Memorial Baptist Church / Love Offering is a food pantry in East Harlem, Manhattan, listed on the City's Food Help NYC map. It is open Wednesdays from 9am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los miércoles de 9 am a 11 am.",
+      "Está ubicada en 219 E 123rd St, Nueva York, NY 10035.",
+      "Puede llamar al (347) 600-9820 para preguntar antes de ir.",
+      "La lista no dice qué alimentos da ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It distributes food on Wednesdays from 9am to 11am.",
+      "It is located at 219 E 123rd St, New York, NY 10035.",
+      "You can call (347) 600-9820 to ask questions before going.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los miércoles de 9 am a 11 am.",
+      "Llame al (347) 600-9820 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesdays only, 9am to 11am.",
+      "Call (347) 600-9820 before going to confirm hours and ask what you need.",
+      "The information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo atiende la despensa?",
+        "a": "Los miércoles de 9 am a 11 am, según la lista oficial."
+      },
+      {
+        "q": "¿Qué alimentos reparte y hay requisitos?",
+        "a": "No está indicado en la lista. Llame al (347) 600-9820 para preguntar."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 219 E 123rd St, Nueva York, NY 10035, en Manhattan."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 9am to 11am, according to the official listing."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "This is not listed. Call (347) 600-9820 to ask."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 219 E 123rd St, New York, NY 10035, in Manhattan."
+      }
+    ]
+  }
+}

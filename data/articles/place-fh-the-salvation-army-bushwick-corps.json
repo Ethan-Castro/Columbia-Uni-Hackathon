@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-salvation-army-bushwick-corps",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:06.226Z",
+  "facts_hash": "e8329578b00364f4",
+  "article": {
+    "title_es": "The Salvation Army Bushwick Corps: despensa y comedor en Brooklyn",
+    "title_en": "The Salvation Army Bushwick Corps: food pantry and kitchen in Brooklyn",
+    "summary_es": "El Ejército de Salvación en Bushwick, Brooklyn, ofrece una despensa de alimentos y un comedor según el mapa Food Help NYC de la ciudad.",
+    "summary_en": "The Salvation Army in Bushwick, Brooklyn, offers a food pantry and a soup kitchen according to the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos los lunes, martes y jueves de 10am a 11:30am.",
+      "Comedor (sopa de cocina) los lunes, martes, jueves y viernes de 12pm a 1:30pm.",
+      "Está en 1151 Bushwick Ave, Brooklyn, NY 11221.",
+      "Puede llamar al (718) 455-4102 para preguntar.",
+      "La lista no indica qué alimentos dan ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Food pantry on Mondays, Tuesdays and Thursdays from 10am to 11:30am.",
+      "Soup kitchen on Mondays, Tuesdays, Thursdays and Fridays from 12pm to 1:30pm.",
+      "Located at 1151 Bushwick Ave, Brooklyn, NY 11221.",
+      "You can call (718) 455-4102 with questions.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llegue durante el horario de la despensa o del comedor, según lo que necesite.",
+      "Los horarios pueden cambiar; confirme llamando al (718) 455-4102.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go during the pantry or soup kitchen hours, depending on what you need.",
+      "Hours can change; confirm by calling (718) 455-4102.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Una despensa de alimentos y un comedor, según el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Lunes, martes y jueves de 10am a 11:30am. El comedor sirve de 12pm a 1:30pm lunes, martes, jueves y viernes."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La lista no lo indica. Llame al (718) 455-4102 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does it offer?",
+        "a": "A food pantry and a soup kitchen, according to the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Mondays, Tuesdays and Thursdays from 10am to 11:30am. The soup kitchen serves from 12pm to 1:30pm on Mondays, Tuesdays, Thursdays and Fridays."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (718) 455-4102 to ask before going."
+      }
+    ]
+  }
+}

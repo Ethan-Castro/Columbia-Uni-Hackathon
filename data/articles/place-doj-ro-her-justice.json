@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-her-justice",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:29.591Z",
+  "facts_hash": "54abd0896ebd6c23",
+  "article": {
+    "title_es": "Her Justice: organización con ayuda legal en Manhattan",
+    "title_en": "Her Justice: DOJ-listed legal help organization in Manhattan",
+    "summary_es": "Her Justice es una organización sin fines de lucro en Manhattan que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas, lo que significa que sus representantes acreditados pueden dar ayuda legal de inmigración.",
+    "summary_en": "Her Justice is a non-profit organization in Manhattan that appears on the U.S. Department of Justice (EOIR) list of recognized organizations, meaning its accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Es una organización sin fines de lucro que aparece en la lista de organizaciones reconocidas del DOJ (EOIR).",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 100 Broadway, 10th Floor, en Manhattan.",
+      "Puede llamar al (212) 695-3800 para más información.",
+      "Las cuotas y el proceso de admisión no aparecen en la información, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is a non-profit listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its DOJ-accredited representatives may give immigration legal help.",
+      "It is located at 100 Broadway, 10th Floor, in Manhattan.",
+      "You can call (212) 695-3800 for more information.",
+      "Fees and the intake process are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (212) 695-3800 antes de visitar para preguntar por los servicios y cómo recibir ayuda.",
+      "La oficina está en 100 Broadway, 10th Floor, New York, NY 10005.",
+      "El horario no aparece en esta información, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Call (212) 695-3800 before visiting to ask about services and how to get help.",
+      "The office is at 100 Broadway, 10th Floor, New York, NY 10005.",
+      "Hours are not listed in this information, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué significa que Her Justice esté en la lista del DOJ?",
+        "a": "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas cuyos representantes acreditados pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Hay que pagar alguna cuota?",
+        "a": "La información no lo dice. Pregunte directamente cuando llame."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "La información no lo dice. Llame al (212) 695-3800 para preguntar cómo recibir ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does it mean that Her Justice is on the DOJ list?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) list of recognized organizations whose accredited representatives may give immigration legal help."
+      },
+      {
+        "q": "Are there fees?",
+        "a": "The listing does not say. Ask them directly when you call."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The listing does not say. Call (212) 695-3800 to ask how to get help."
+      }
+    ]
+  }
+}

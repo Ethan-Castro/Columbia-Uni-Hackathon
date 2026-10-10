@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-muna-social-service-inc-fph",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:15.824Z",
+  "facts_hash": "5d6579ab76a787b4",
+  "article": {
+    "title_es": "MUNA Social Service Inc (FPH): despensa de alimentos en Brooklyn",
+    "title_en": "MUNA Social Service Inc (FPH): food pantry in Brooklyn",
+    "summary_es": "MUNA SOCIAL SERVICE INC (FPH) es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 3pm a 5pm.",
+    "summary_en": "MUNA SOCIAL SERVICE INC (FPH) is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Wednesdays from 3pm to 5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1033 Glenmore Ave, Brooklyn, NY 11208.",
+      "Abre los miércoles de 3pm a 5pm (despensa).",
+      "Puede llamar al (347) 400-2644 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 1033 Glenmore Ave, Brooklyn, NY 11208.",
+      "It is open Wednesdays 3pm-5pm (pantry).",
+      "You can call (347) 400-2644 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es el miércoles de 3pm a 5pm.",
+      "Llame al (347) 400-2644 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no indica qué alimentos ofrece ni si pide algún documento; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesday 3pm-5pm.",
+      "Call (347) 400-2644 before going to confirm hours and ask what you need.",
+      "The listing does not say what food is offered or if documents are required; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es MUNA SOCIAL SERVICE INC (FPH)?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los miércoles de 3pm a 5pm, según la lista."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La lista no lo indica. Llame al (347) 400-2644 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is MUNA SOCIAL SERVICE INC (FPH)?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays from 3pm to 5pm, according to the listing."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (347) 400-2644 to ask before going."
+      }
+    ]
+  }
+}

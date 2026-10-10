@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-gethsemane-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:05.609Z",
+  "facts_hash": "1b65a0582d9a0d48",
+  "article": {
+    "title_es": "Gethsemane Seventh Day Adventist Church: despensa de alimentos en Brooklyn",
+    "title_en": "Gethsemane Seventh Day Adventist Church: food pantry in Brooklyn",
+    "summary_es": "Esta iglesia en Brooklyn aparece en el mapa Food Help NYC como despensa de alimentos. Atiende los miércoles y los domingos.",
+    "summary_en": "This Brooklyn church appears on the City's Food Help NYC map as a food pantry. It is open on Wednesdays and Sundays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Entrega alimentos los miércoles de 5pm a 6pm.",
+      "También entrega alimentos los domingos de 12pm a 1pm.",
+      "Está ubicada en 357 Empire Blvd, Brooklyn, NY 11225.",
+      "Qué alimentos entrega y si hay requisitos no está indicado; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "Gives out food on Wednesdays from 5pm to 6pm.",
+      "Also gives out food on Sundays from 12pm to 1pm.",
+      "Located at 357 Empire Blvd, Brooklyn, NY 11225.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es limitado: miércoles de 5pm a 6pm y domingo de 12pm a 1pm.",
+      "Llame antes de ir para confirmar el horario y preguntar qué alimentos entrega.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are limited: Wednesdays 5pm-6pm and Sundays 12pm-1pm.",
+      "Call before you go to confirm hours and ask what food is given.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Miércoles de 5pm a 6pm y domingo de 12pm a 1pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 357 Empire Blvd, Brooklyn, NY 11225."
+      },
+      {
+        "q": "¿Qué necesito para recibir alimentos?",
+        "a": "No está indicado. Llame al (718) 467-4181 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays 5pm-6pm and Sundays 12pm-1pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 357 Empire Blvd, Brooklyn, NY 11225."
+      },
+      {
+        "q": "What do I need to receive food?",
+        "a": "That is not listed. Call (718) 467-4181 to ask before you go."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-clements-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:22.736Z",
+  "facts_hash": "b22688976850f40a",
+  "article": {
+    "title_es": "St. Clements Food Pantry: despensa de alimentos en Manhattan",
+    "title_en": "St. Clements Food Pantry: food pantry in Manhattan",
+    "summary_es": "St. Clements Food Pantry es una despensa de alimentos en Manhattan, en la calle 46 Oeste. Abre viernes y sábado.",
+    "summary_en": "St. Clements Food Pantry is a food pantry in Manhattan on West 46th Street. It is open Fridays and Saturdays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está en 423 W 46th St, Nueva York, NY 10036, en Manhattan.",
+      "Abre viernes de 2pm a 6pm y sábado de 8am a 11:30am.",
+      "Puede llamar al (212) 246-7277 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 423 W 46th St, New York, NY 10036, in Manhattan.",
+      "It is open Fridays 2pm-6pm and Saturdays 8am-11:30am.",
+      "You can call (212) 246-7277 to ask before you go.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya en viernes entre 2pm y 6pm, o sábado entre 8am y 11:30am.",
+      "Llame primero al (212) 246-7277 para confirmar horarios y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on a Friday between 2pm and 6pm, or a Saturday between 8am and 11:30am.",
+      "Call (212) 246-7277 first to confirm hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde queda la despensa?",
+        "a": "En 423 W 46th St, Nueva York, NY 10036, en Manhattan."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Viernes de 2pm a 6pm y sábado de 8am a 11:30am."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué requisitos pide?",
+        "a": "No está indicado en la lista. Llame al (212) 246-7277 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 423 W 46th St, New York, NY 10036, in Manhattan."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Fridays 2pm-6pm and Saturdays 8am-11:30am."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "The listing does not say. Call (212) 246-7277 to ask."
+      }
+    ]
+  }
+}

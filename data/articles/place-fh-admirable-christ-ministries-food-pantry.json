@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-admirable-christ-ministries-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:40.856Z",
+  "facts_hash": "c85e1bdfe0d95995",
+  "article": {
+    "title_es": "Admirable Christ Ministries: despensa de alimentos en el Bronx",
+    "title_en": "Admirable Christ Ministries: food pantry in the Bronx",
+    "summary_es": "Despensa de alimentos en el Bronx, abierta los sábados de 2pm a 3:30pm. Está en el mapa de ayuda alimentaria de la Ciudad de Nueva York.",
+    "summary_en": "A food pantry in the Bronx, open Saturdays from 2pm to 3:30pm. It is listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Abre los sábados de 2pm a 3:30pm.",
+      "Está en 2361 Maclay Ave, Bronx, NY 10462.",
+      "Puede llamar al (570) 856-7065 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Open Saturdays from 2pm to 3:30pm.",
+      "Located at 2361 Maclay Ave, Bronx, NY 10462.",
+      "You can call (570) 856-7065 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los sábados de 2pm a 3:30pm.",
+      "Llame antes al (570) 856-7065 para confirmar el horario.",
+      "Pregunte por teléfono qué alimentos dan y si necesita algo para recibirlos."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only Saturdays from 2pm to 3:30pm.",
+      "Call ahead at (570) 856-7065 to confirm the schedule.",
+      "Ask by phone what food is given and if you need anything to receive it."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Es una despensa de alimentos. La lista no detalla qué alimentos entrega, así que es mejor preguntar por teléfono."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los sábados de 2pm a 3:30pm."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos ni documentos. Llame al (570) 856-7065 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is a food pantry. The listing does not say what food is given, so it is best to ask by phone."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 2pm to 3:30pm."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements or documents. Call (570) 856-7065 to ask before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-metro-ministries-international-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:46.438Z",
+  "facts_hash": "ab9871a50791676c",
+  "article": {
+    "title_es": "Metro Ministries International: despensa de alimentos en Brooklyn",
+    "title_en": "Metro Ministries International: food pantry in Brooklyn",
+    "summary_es": "Metro Ministries International es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. Está abierta los sábados de 10:30am a 12pm.",
+    "summary_en": "Metro Ministries International is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Saturdays from 10:30am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "La despensa está abierta los sábados de 10:30am a 12pm.",
+      "Está ubicada en 77 Alabama Ave, Brooklyn, NY 11207.",
+      "Puede llamar al (718) 453-3352 para más información.",
+      "El listado no dice qué alimentos entrega, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "The pantry is open on Saturdays from 10:30am to 12pm.",
+      "It is located at 77 Alabama Ave in Brooklyn, NY 11207.",
+      "You can call (718) 453-3352 for more information.",
+      "The listing does not say what food is given, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es sábado de 10:30am a 12pm.",
+      "Llame al (718) 453-3352 antes de ir para preguntar sobre los alimentos y cualquier requisito.",
+      "El listado no menciona requisitos, así que es mejor preguntar primero."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturday 10:30am-12pm.",
+      "Call (718) 453-3352 ahead to ask about food and any requirements.",
+      "The listing does not list requirements, so it is best to ask first."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Metro Ministries International?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad, ubicada en 77 Alabama Ave, Brooklyn, NY 11207."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "El listado indica sábado de 10:30am a 12pm para la despensa."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "El listado no dice qué alimentos entrega ni qué se necesita. Llame al (718) 453-3352 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Metro Ministries International?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map, located at 77 Alabama Ave, Brooklyn, NY 11207."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "The listing shows Saturday 10:30am-12pm for the pantry."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "The listing does not say what food is given or what is needed. Call (718) 453-3352 to ask before you go."
+      }
+    ]
+  }
+}

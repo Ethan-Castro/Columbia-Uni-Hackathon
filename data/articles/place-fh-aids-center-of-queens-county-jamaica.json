@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-aids-center-of-queens-county-jamaica",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:59.890Z",
+  "facts_hash": "0c7e20c9064cd663",
+  "article": {
+    "title_es": "AIDS Center of Queens County: despensa de alimentos en Queens",
+    "title_en": "AIDS Center of Queens County: food pantry in Queens",
+    "summary_es": "AIDS Center of Queens County (Jamaica) es una despensa de alimentos en Richmond Hill, Queens, que aparece en el mapa Food Help NYC de la Ciudad. Abre los jueves, de 10am a 11am.",
+    "summary_en": "AIDS Center of Queens County (Jamaica) is a food pantry in Richmond Hill, Queens, listed on the City's Food Help NYC map. It is open Thursdays, 10am-11am.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 91-30 Van Wyck Expy, Richmond Hill, Queens.",
+      "El horario de la despensa es los jueves, de 10am a 11am.",
+      "Puede llamar al (718) 896-2500 para más información.",
+      "La información no indica qué alimentos entrega; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 91-30 Van Wyck Expy, Richmond Hill, Queens.",
+      "Pantry hours are Thursdays, 10am-11am.",
+      "You can call (718) 896-2500 for more information.",
+      "What food is given is not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los jueves, de 10am a 11am; planifique su visita para ese horario.",
+      "Llame al (718) 896-2500 antes de ir para confirmar detalles, ya que la información no incluye requisitos.",
+      "La dirección es 91-30 Van Wyck Expy, Richmond Hill, NY, 11418."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Thursdays, 10am-11am, so plan your visit for that time.",
+      "Call (718) 896-2500 ahead to confirm details, since the listing does not include requirements.",
+      "The address is 91-30 Van Wyck Expy, Richmond Hill, NY, 11418."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves, de 10am a 11am."
+      },
+      {
+        "q": "¿Qué necesito llevar o qué requisitos hay?",
+        "a": "La información no lo dice. Llame al (718) 896-2500 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is listed as a food pantry on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays, 10am-11am."
+      },
+      {
+        "q": "What do I need to bring or qualify?",
+        "a": "The listing does not say. Call (718) 896-2500 to ask before you go."
+      }
+    ]
+  }
+}

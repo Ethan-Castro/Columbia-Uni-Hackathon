@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-our-lady-of-sorrows",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:34.047Z",
+  "facts_hash": "5dc42f2014afdbac",
+  "article": {
+    "title_es": "Our Lady of Sorrows: despensa de alimentos en Manhattan",
+    "title_en": "Our Lady of Sorrows: food pantry in Manhattan",
+    "summary_es": "Our Lady of Sorrows es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la ciudad. Abre como despensa los martes y jueves de 8am a 11am.",
+    "summary_en": "Our Lady of Sorrows is a food pantry in Manhattan listed on the City's Food Help NYC map. It is open for pantry hours on Tuesdays and Thursdays from 8am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 213 Stanton St, en Manhattan, código postal 10002.",
+      "Abre como despensa los martes y jueves, de 8am a 11am.",
+      "Puede llamar al (646) 886-9854 para más información.",
+      "La lista no indica qué alimentos entrega ni los requisitos, así que pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 213 Stanton St in Manhattan, zip code 10002.",
+      "Open for pantry hours Tuesday and Thursday, 8am to 11am.",
+      "You can call (646) 886-9854 for more information.",
+      "What food is given and any requirements are not listed, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los martes de 8am a 11am y los jueves de 8am a 11am.",
+      "Llame al (646) 886-9854 antes de ir para preguntar sobre los requisitos.",
+      "La lista no indica qué alimentos entrega ni qué documentos se necesitan."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday 8am-11am and Thursday 8am-11am.",
+      "Call (646) 886-9854 before visiting to ask about requirements.",
+      "The listing does not say what food is given or what documents are needed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Our Lady of Sorrows?",
+        "a": "Aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "La despensa abre los martes de 8am a 11am y los jueves de 8am a 11am."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "Llame al (646) 886-9854 para preguntar sobre los requisitos y los alimentos que ofrece."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Our Lady of Sorrows?",
+        "a": "It is listed on the City's Food Help NYC map as a food pantry. What food is given is not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Pantry hours are Tuesday 8am-11am and Thursday 8am-11am."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "Call (646) 886-9854 to ask about requirements and what food is offered."
+      }
+    ]
+  }
+}

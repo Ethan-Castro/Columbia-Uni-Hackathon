@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-pb-council-of-peoples-organization-copo",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:47.059Z",
+  "facts_hash": "0fe2bec9b85622d1",
+  "article": {
+    "title_es": "Council of Peoples Organization (COPO): servicios legales pro bono en Brooklyn",
+    "title_en": "Council of Peoples Organization (COPO): pro bono legal services in Brooklyn",
+    "summary_es": "COPO aparece en la lista de proveedores de servicios legales pro bono del Departamento de Justicia de EE. UU. (EOIR). Está ubicado en Brooklyn y puede contactarlo por teléfono.",
+    "summary_en": "COPO appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers. It is located in Brooklyn and can be reached by phone.",
+    "how_they_help_es": [
+      "Aparece en la lista de proveedores pro bono del Departamento de Justicia (EOIR).",
+      "Está ubicado en 1077 Coney Island Avenue, Brooklyn, NY 11230.",
+      "Puede llamar al (718) 434-3266 para hacer preguntas.",
+      "La lista no indica si aceptan nuevos casos ni cómo solicitar una cita.",
+      "Las tarifas y los horarios no aparecen en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) pro bono legal service provider list.",
+      "Located at 1077 Coney Island Avenue, Brooklyn, NY 11230.",
+      "You can call (718) 434-3266 with questions.",
+      "The listing does not say whether they take new cases or how to get an appointment.",
+      "Fees and hours are not listed; ask them directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para preguntar si aceptan nuevos casos y cómo funciona el proceso.",
+      "La lista no indica tarifas ni horarios, así que pregunte por teléfono.",
+      "Verifique la información más reciente antes de su visita."
+    ],
+    "visit_tips_en": [
+      "Call before visiting to ask whether they are taking new cases and how intake works.",
+      "The listing does not show fees or hours, so ask by phone.",
+      "Check for the most up-to-date information before your visit."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es COPO?",
+        "a": "Es una organización que aparece en la lista de proveedores de servicios legales pro bono del Departamento de Justicia de EE. UU. (EOIR)."
+      },
+      {
+        "q": "¿Dónde está y cómo los contacto?",
+        "a": "Está en 1077 Coney Island Avenue, Brooklyn, NY 11230. El teléfono es (718) 434-3266."
+      },
+      {
+        "q": "¿Cuánto cuesta y cómo pido una cita?",
+        "a": "La lista no indica tarifas ni cómo obtener una cita. Llame al (718) 434-3266 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is COPO?",
+        "a": "It is an organization listed on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "It is at 1077 Coney Island Avenue, Brooklyn, NY 11230. The phone number is (718) 434-3266."
+      },
+      {
+        "q": "How much does it cost and how do I get an appointment?",
+        "a": "The listing does not show fees or how to get an appointment. Call (718) 434-3266 to ask."
+      }
+    ]
+  }
+}

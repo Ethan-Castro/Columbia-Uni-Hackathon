@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-treasures-in-earthen-jars-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:01.661Z",
+  "facts_hash": "91b621d51358dd16",
+  "article": {
+    "title_es": "Treasures in Earthen Jars: despensa de alimentos en Brooklyn",
+    "title_en": "Treasures in Earthen Jars: food pantry in Brooklyn",
+    "summary_es": "Treasures in Earthen Jars es una despensa de alimentos en Brooklyn, aparecida en el mapa Food Help NYC de la ciudad. Abre los sábados de 1pm a 3pm.",
+    "summary_en": "Treasures in Earthen Jars is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Saturdays from 1pm to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los sábados de 1pm a 3pm.",
+      "Está ubicada en 4124 Avenue H, Brooklyn, NY 11210.",
+      "Puede llamar al (718) 308-9147 para preguntar antes de ir.",
+      "La lista no dice qué alimentos da ni qué requisitos pide; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Saturdays from 1pm to 3pm.",
+      "It is located at 4124 Avenue H, Brooklyn, NY 11210.",
+      "You can call (718) 308-9147 to ask before you go.",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es sábado de 1pm a 3pm.",
+      "Llame al (718) 308-9147 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturday 1pm-3pm.",
+      "Call (718) 308-9147 before going to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 1pm a 3pm, según la lista."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 4124 Avenue H, Brooklyn, Nueva York, 11210."
+      },
+      {
+        "q": "¿Qué alimentos reparte y qué requisitos pide?",
+        "a": "No está indicado en la lista. Llame al (718) 308-9147 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 1pm to 3pm, according to the listing."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 4124 Avenue H, Brooklyn, New York, 11210."
+      },
+      {
+        "q": "What food does it give and what are the requirements?",
+        "a": "This is not listed. Call (718) 308-9147 to ask."
+      }
+    ]
+  }
+}

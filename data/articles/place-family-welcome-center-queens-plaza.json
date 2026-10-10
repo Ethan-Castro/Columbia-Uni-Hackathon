@@ -1,0 +1,64 @@
+{
+  "place_id": "place-family-welcome-center-queens-plaza",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:57.398Z",
+  "facts_hash": "b3285a2206c4c207",
+  "article": {
+    "title_es": "Family Welcome Center (Distritos 24 y 30): inscripción escolar en Queens",
+    "title_en": "Family Welcome Center (Districts 24, 30): school enrollment in Queens",
+    "summary_es": "Este Family Welcome Center de las escuelas públicas de NYC en Long Island City ayuda a las familias a inscribir a sus hijos en las escuelas públicas, incluso estudiantes nuevos y traslados. Se necesita cita, virtual o en persona.",
+    "summary_en": "This NYC Public Schools Family Welcome Center in Long Island City helps families enroll their children in public schools, including new students and transfers. An appointment, virtual or in person, is needed.",
+    "how_they_help_es": [
+      "Ayuda a inscribir a estudiantes nuevos en las escuelas públicas de NYC.",
+      "Ayuda a estudiantes que regresan a las escuelas públicas.",
+      "Ayuda con traslados entre escuelas públicas de NYC.",
+      "Atiende casos de cambio desde escuelas charter o privadas.",
+      "Puede pedir cita virtual o en persona y enviar documentos en línea."
+    ],
+    "how_they_help_en": [
+      "Helps enroll new students in NYC public schools.",
+      "Helps students returning to public schools.",
+      "Helps with transfers between NYC public schools.",
+      "Handles switching from charter or private schools.",
+      "You can book a virtual or in-person appointment and submit documents online."
+    ],
+    "visit_tips_es": [
+      "Pida una cita virtual o en persona antes de ir; llame al 718-391-6270.",
+      "Horario: lunes a jueves de 8am a 5pm; viernes de 8am a 3pm.",
+      "Si su hijo tiene escuela zonificada o recibió una oferta, comuníquese directamente con esa escuela."
+    ],
+    "visit_tips_en": [
+      "Book a virtual or in-person appointment before going; call 718-391-6270.",
+      "Hours: Monday-Thursday 8am-5pm; Friday 8am-3pm.",
+      "If your child has a zoned school or received an offer, contact that school directly."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Quién puede recibir ayuda aquí?",
+        "a": "Familias que inscriben a un estudiante con necesidades específicas: nuevos, que regresan, que vienen de escuelas charter o privadas, o traslados entre escuelas públicas."
+      },
+      {
+        "q": "¿Cómo pido una cita?",
+        "a": "Se agenda una cita virtual o en persona en cualquier Family Welcome Center. Los documentos requeridos se pueden enviar en línea."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Lunes a jueves de 8am a 5pm; viernes de 8am a 3pm. La dirección es 28-11 Queens Plaza North, 3er piso, Long Island City, NY 11101."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Who can get help here?",
+        "a": "Families enrolling a student with specific needs: new, returning, coming from charter or private schools, or transfers between public schools."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "You schedule a virtual or in-person appointment at any Family Welcome Center. Required documents can be submitted online."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Monday-Thursday 8am-5pm; Friday 8am-3pm. The address is 28-11 Queens Plaza North, 3rd Floor, Long Island City, NY 11101."
+      }
+    ]
+  }
+}

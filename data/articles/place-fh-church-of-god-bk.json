@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-church-of-god-bk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:31.061Z",
+  "facts_hash": "61fb643bd0f9d065",
+  "article": {
+    "title_es": "Church of God (BK): despensa de alimentos en Brooklyn",
+    "title_en": "Church of God (BK): food pantry in Brooklyn",
+    "summary_es": "Church of God (BK) es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 12pm a 2:30pm.",
+    "summary_en": "Church of God (BK) is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Saturdays from 12pm to 2:30pm.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 627 Remsen Ave, Brooklyn, NY 11236.",
+      "Abre los sábados de 12pm a 2:30pm para la despensa.",
+      "Puede llamar al (718) 346-4897 para más información.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 627 Remsen Ave, Brooklyn, NY 11236.",
+      "Open Saturdays from 12pm to 2:30pm for the pantry.",
+      "You can call (718) 346-4897 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los sábados de 12pm a 2:30pm.",
+      "Llame al (718) 346-4897 antes de ir para confirmar los detalles.",
+      "Pregunte qué alimentos hay disponibles y si aplica algún requisito."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Saturdays from 12pm to 2:30pm.",
+      "Call (718) 346-4897 before going to confirm details.",
+      "Ask what food is available and if any requirements apply."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Los sábados de 12pm a 2:30pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "627 Remsen Ave, Brooklyn, New York, 11236."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme con ellos?",
+        "a": "Llame al (718) 346-4897. No se indica qué alimentos entregan ni los requisitos; pregunte por teléfono."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Saturdays from 12pm to 2:30pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "627 Remsen Ave, Brooklyn, New York, 11236."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "Call (718) 346-4897. Details about food and requirements are not listed, so ask by phone."
+      }
+    ]
+  }
+}

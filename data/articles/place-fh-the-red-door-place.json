@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-the-red-door-place",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:14.248Z",
+  "facts_hash": "9a1791ce30563d18",
+  "article": {
+    "title_es": "The Red Door Place: despensa y comedor en Manhattan",
+    "title_en": "The Red Door Place: food pantry and soup kitchen in Manhattan",
+    "summary_es": "The Red Door Place es una despensa de alimentos y comedor de sopa en Manhattan, en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "The Red Door Place is a food pantry and soup kitchen in Manhattan, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos los martes de 2pm a 4:50pm.",
+      "Comedor de sopa los sábados de 12pm a 2pm.",
+      "Aparece en el mapa oficial Food Help NYC de la ciudad.",
+      "Qué alimentos entrega no está indicado; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Food pantry on Tuesdays from 2pm to 4:50pm.",
+      "Soup kitchen on Saturdays from 12pm to 2pm.",
+      "Listed on the City's official Food Help NYC map.",
+      "What food is given is not listed; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Dirección: 201 W 13rd St, New York, NY 10011.",
+      "La despensa es martes; el comedor es sábado. Vaya el día correcto.",
+      "Teléfono: (212) 243-5470. Llame antes para confirmar horarios."
+    ],
+    "visit_tips_en": [
+      "Address: 201 W 13rd St, New York, NY 10011.",
+      "The pantry is on Tuesdays; the soup kitchen is on Saturdays. Go on the right day.",
+      "Phone: (212) 243-5470. Call ahead to confirm hours."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Despensa de alimentos los martes de 2pm a 4:50pm y comedor de sopa los sábados de 12pm a 2pm."
+      },
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 201 W 13rd St, New York, NY 10011, en Manhattan."
+      },
+      {
+        "q": "¿Abre los fines de semana?",
+        "a": "Sí, el comedor de sopa abre los sábados de 12pm a 2pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does it offer?",
+        "a": "A food pantry on Tuesdays from 2pm to 4:50pm and a soup kitchen on Saturdays from 12pm to 2pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 201 W 13rd St, New York, NY 10011, in Manhattan."
+      },
+      {
+        "q": "Is it open on weekends?",
+        "a": "Yes, the soup kitchen is open on Saturdays from 12pm to 2pm."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-hra-benefits-access-center-jamaica",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:49.690Z",
+  "facts_hash": "ea8216dfd245807f",
+  "article": {
+    "title_es": "HRA Benefits Access Center Jamaica: oficina de beneficios en Queens",
+    "title_en": "HRA Benefits Access Center Jamaica: benefits office in Queens",
+    "summary_es": "HRA Benefits Access Center Jamaica es una oficina de beneficios públicos de la Administración de Recursos Humanos (HRA) de la Ciudad de Nueva York, en Queens. Es un lugar oficial del gobierno donde puede acudir o llamar para recibir ayuda con beneficios públicos.",
+    "summary_en": "HRA Benefits Access Center Jamaica is a NYC Human Resources Administration (HRA) public benefits office in Queens. It is an official government location where you can visit or call for help with public benefits.",
+    "how_they_help_es": [
+      "Es una oficina de beneficios públicos de la Administración de Recursos Humanos (HRA) de la ciudad.",
+      "Está ubicada en 165-08 88th Avenue, Queens, NY 11432.",
+      "Abre de lunes a viernes, de 8:30am a 5pm.",
+      "Puede llamar al 718-523-2146 para pedir información.",
+      "La información no menciona programas específicos, así que pregunte por teléfono o en persona."
+    ],
+    "how_they_help_en": [
+      "It is a public benefits office run by NYC's Human Resources Administration (HRA).",
+      "Located at 165-08 88th Avenue, Queens, NY 11432.",
+      "Open Monday through Friday, 8:30am-5pm.",
+      "You can call 718-523-2146 for information.",
+      "The listing does not name specific programs, so ask by phone or in person."
+    ],
+    "visit_tips_es": [
+      "El horario es de lunes a viernes, de 8:30am a 5pm.",
+      "Llame al 718-523-2146 antes de su visita para confirmar los detalles.",
+      "La información no indica qué documentos llevar, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Hours are Monday through Friday, 8:30am-5pm.",
+      "Call 718-523-2146 before your visit to confirm details.",
+      "The listing does not say which documents to bring, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de oficina es esta?",
+        "a": "Es una oficina de beneficios públicos de la Administración de Recursos Humanos (HRA) de la Ciudad de Nueva York."
+      },
+      {
+        "q": "¿Qué beneficios puedo solicitar aquí?",
+        "a": "La información no menciona programas específicos. Llame al 718-523-2146 para preguntar qué hay disponible."
+      },
+      {
+        "q": "¿Qué documentos debo llevar?",
+        "a": "La información no lo indica. Llame antes al 718-523-2146 para preguntar qué llevar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of office is this?",
+        "a": "It is a NYC Human Resources Administration (HRA) public benefits office."
+      },
+      {
+        "q": "What benefits can I apply for here?",
+        "a": "The listing does not name specific programs. Call 718-523-2146 to ask what is available."
+      },
+      {
+        "q": "What documents should I bring?",
+        "a": "The listing does not say. Call ahead at 718-523-2146 to ask what to bring."
+      }
+    ]
+  }
+}

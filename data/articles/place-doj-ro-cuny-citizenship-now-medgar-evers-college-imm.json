@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-cuny-citizenship-now-medgar-evers-college-imm",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:07.633Z",
+  "facts_hash": "f88455a5ee5d8ef9",
+  "article": {
+    "title_es": "CUNY Citizenship Now!: centro de ayuda migratoria en Brooklyn",
+    "title_en": "CUNY Citizenship Now!: immigration help center in Brooklyn",
+    "summary_es": "CUNY Citizenship Now! (extensión de Medgar Evers College) es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal migratoria.",
+    "summary_en": "CUNY Citizenship Now! (Medgar Evers College Extension Office) is a nonprofit listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations that may provide immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal migratoria.",
+      "Está ubicada en 1150 Carroll Street, Room 226, Brooklyn, NY 11225.",
+      "Puede llamar al (646) 664-9400 para preguntar por sus servicios.",
+      "Los honorarios y el proceso para obtener una cita no están en la información disponible; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) Roster of Recognized Organizations and Accredited Representatives.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 1150 Carroll Street, Room 226, Brooklyn, NY 11225.",
+      "You can call (646) 664-9400 to ask about its services.",
+      "Fees and how to get an appointment are not listed; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (646) 664-9400 para preguntar por los servicios y cómo agendar una cita.",
+      "Pregunte si cobran honorarios y cuáles son, ya que no aparecen en la información disponible.",
+      "La dirección exacta es 1150 Carroll Street, Room 226, Brooklyn, NY 11225."
+    ],
+    "visit_tips_en": [
+      "Call first at (646) 664-9400 to ask about services and how to make an appointment.",
+      "Ask whether fees apply and how much, since fees are not listed.",
+      "The exact address is 1150 Carroll Street, Room 226, Brooklyn, NY 11225."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es la oficina de extensión de CUNY Citizenship Now! en Medgar Evers College, en Brooklyn."
+      },
+      {
+        "q": "¿Está reconocida oficialmente?",
+        "a": "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas y representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuesta y cómo saco una cita?",
+        "a": "No está en la información disponible. Llame al (646) 664-9400 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is the CUNY Citizenship Now! extension office at Medgar Evers College, in Brooklyn."
+      },
+      {
+        "q": "Is it officially recognized?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives."
+      },
+      {
+        "q": "How much does it cost and how do I get an appointment?",
+        "a": "That is not listed. Call (646) 664-9400 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-ebenezer-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:56.372Z",
+  "facts_hash": "3732a969fc669dff",
+  "article": {
+    "title_es": "Iglesia Ebenezer Seventh Day Adventist: despensa en Brooklyn",
+    "title_en": "Ebenezer Seventh Day Adventist Church: food pantry in Brooklyn",
+    "summary_es": "La Iglesia Ebenezer Seventh Day Adventist aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, en la avenida New York Este. Atiende los miércoles por la mañana.",
+    "summary_en": "Ebenezer Seventh Day Adventist Church appears on the Food Help NYC map as a food pantry in Brooklyn, on East New York Avenue. It is open on Wednesday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Reparte alimentos los miércoles de 10:30 am a 12:00 pm.",
+      "Está en 1234 E New York Ave, Brooklyn, NY 11212.",
+      "Puede llamar al (718) 879-0542 para preguntar antes de ir.",
+      "La lista no dice qué alimentos da ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It distributes food on Wednesdays from 10:30 am to 12 pm.",
+      "It is located at 1234 E New York Ave, Brooklyn, NY 11212.",
+      "You can call (718) 879-0542 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es miércoles de 10:30 am a 12:00 pm.",
+      "Llame al (718) 879-0542 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesday from 10:30 am to 12 pm.",
+      "Call (718) 879-0542 before going to confirm the schedule and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos. La lista no detalla qué alimentos reparte."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "El horario indicado es miércoles de 10:30 am a 12:00 pm."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos. Le recomendamos llamar al (718) 879-0542 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is listed on the Food Help NYC map as a food pantry. The listing does not detail what food it gives out."
+      },
+      {
+        "q": "When can I go?",
+        "a": "The listed hours are Wednesday from 10:30 am to 12 pm."
+      },
+      {
+        "q": "Do I need any documents or meet any requirements?",
+        "a": "The listing does not mention any requirements. We suggest calling (718) 879-0542 to ask before going."
+      }
+    ]
+  }
+}

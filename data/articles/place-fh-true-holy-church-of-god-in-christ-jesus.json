@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-true-holy-church-of-god-in-christ-jesus",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:01.992Z",
+  "facts_hash": "19357f6224e399a8",
+  "article": {
+    "title_es": "True Holy Church of God in Christ Jesus: despensa de alimentos en Brooklyn",
+    "title_en": "True Holy Church of God in Christ Jesus: food pantry in Brooklyn",
+    "summary_es": "True Holy Church of God in Christ Jesus es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. Abre los sábados de 10am a 12pm.",
+    "summary_en": "True Holy Church of God in Christ Jesus is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Saturdays from 10am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Abre los sábados de 10am a 12pm.",
+      "Está ubicada en 2364 Atlantic Ave, en Brooklyn.",
+      "Puede llamar al (718) 385-0248 para más información.",
+      "Los alimentos que entrega y los requisitos no aparecen en la información, así que pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "A food pantry listed on the City's Food Help NYC map.",
+      "Open Saturdays from 10am to 12pm.",
+      "Located at 2364 Atlantic Ave in Brooklyn.",
+      "You can call (718) 385-0248 for more information.",
+      "What food is given and any requirements are not listed, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los sábados de 10am a 12pm.",
+      "Llame al (718) 385-0248 antes de ir para preguntar qué alimentos entrega y si hay requisitos.",
+      "La dirección es 2364 Atlantic Ave, Brooklyn, NY 11233."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Saturdays from 10am to 12pm.",
+      "Call (718) 385-0248 before you go to ask about the food given and any requirements.",
+      "The address is 2364 Atlantic Ave, Brooklyn, NY 11233."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 10am a 12pm."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "No aparece en la información. Llame al (718) 385-0248 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 10am to 12pm."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "It is not listed. Call (718) 385-0248 to ask."
+      }
+    ]
+  }
+}

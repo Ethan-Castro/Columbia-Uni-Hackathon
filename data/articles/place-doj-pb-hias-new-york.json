@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-pb-hias-new-york",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:19.906Z",
+  "facts_hash": "3e3379b1aa647d5f",
+  "article": {
+    "title_es": "HIAS: servicios legales pro bono en Manhattan",
+    "title_en": "HIAS: pro bono legal services in Manhattan",
+    "summary_es": "HIAS aparece en la lista de proveedores de servicios legales pro bono del Departamento de Justicia de EE. UU. (EOIR). Está ubicado en Manhattan y la lista indica atención en español y ruso.",
+    "summary_en": "HIAS appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers. It is located in Manhattan, and the listing shows Spanish and Russian languages.",
+    "how_they_help_es": [
+      "Aparece en la lista de proveedores pro bono del EOIR del Departamento de Justicia.",
+      "La lista indica idiomas: español y ruso.",
+      "Está ubicado en 1359 Broadway, Suite 810, Nueva York, NY 10018.",
+      "Se puede llamar al (212) 613-1341 para preguntar.",
+      "La lista no indica si aceptan casos nuevos ni las tarifas; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ's EOIR List of Pro Bono Legal Service Providers.",
+      "The listing shows languages: Spanish and Russian.",
+      "Located at 1359 Broadway, Suite 810, New York, NY 10018.",
+      "You can call (212) 613-1341 to ask questions.",
+      "The list does not say if they take new cases or what fees apply; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (212) 613-1341 para confirmar cómo recibir ayuda.",
+      "Pregunte si aceptan casos nuevos y cómo funciona el proceso de admisión.",
+      "El horario de atención no está incluido en la información disponible."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (212) 613-1341 to confirm how to get help.",
+      "Ask whether they are taking new cases and how intake works.",
+      "Hours of operation are not included in the available information."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es HIAS?",
+        "a": "Es una organización que aparece en la lista de proveedores de servicios legales pro bono del Departamento de Justicia (EOIR)."
+      },
+      {
+        "q": "¿En qué idiomas aparece en la lista?",
+        "a": "La lista indica español y ruso."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "No se indica en la lista. Llame al (212) 613-1341 para preguntar sobre tarifas y admisión."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is HIAS?",
+        "a": "It is an organization listed on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers."
+      },
+      {
+        "q": "What languages are listed?",
+        "a": "The listing shows Spanish and Russian."
+      },
+      {
+        "q": "How much do their services cost?",
+        "a": "The list does not say. Call (212) 613-1341 to ask about fees and intake."
+      }
+    ]
+  }
+}

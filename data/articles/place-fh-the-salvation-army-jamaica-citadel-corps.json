@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-salvation-army-jamaica-citadel-corps",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:21.119Z",
+  "facts_hash": "9e0fe50bbf364d30",
+  "article": {
+    "title_es": "The Salvation Army Jamaica Citadel Corps: comida en el Bronx",
+    "title_en": "The Salvation Army Jamaica Citadel Corps: food in the Bronx",
+    "summary_es": "Este lugar aparece en el mapa Food Help NYC como despensa de alimentos y cocina de sopa en el Bronx, en la calle E 161st St.",
+    "summary_en": "This location appears on the City's Food Help NYC map as a food pantry and soup kitchen in the Bronx, on E 161st St.",
+    "how_they_help_es": [
+      "Está en 90 E 161st St, Bronx, NY 10451.",
+      "Cocina de sopa: lunes a miércoles de 12pm a 1pm.",
+      "Despensa de alimentos: martes y jueves de 10am a 12pm.",
+      "Teléfono: (718) 297-4860.",
+      "La lista no indica qué alimentos dan ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Located at 90 E 161st St, Bronx, NY 10451.",
+      "Soup kitchen: Monday to Wednesday, 12pm-1pm.",
+      "Food pantry: Tuesday and Thursday, 10am-12pm.",
+      "Phone: (718) 297-4860.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 297-4860 antes de ir para confirmar los horarios.",
+      "Vaya en el horario indicado: cocina de sopa de lunes a miércoles, despensa martes y jueves.",
+      "Pregunte qué alimentos entregan y si necesita algo para recibirlos."
+    ],
+    "visit_tips_en": [
+      "Call (718) 297-4860 before going to confirm the hours.",
+      "Go at the listed times: soup kitchen Monday-Wednesday, pantry Tuesday and Thursday.",
+      "Ask what food is given and whether anything is needed to receive it."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 90 E 161st St, Bronx, NY 10451."
+      },
+      {
+        "q": "¿Cuándo dan comida?",
+        "a": "Cocina de sopa: lunes a miércoles de 12pm a 1pm. Despensa: martes y jueves de 10am a 12pm."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (718) 297-4860 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it?",
+        "a": "At 90 E 161st St, Bronx, NY 10451."
+      },
+      {
+        "q": "When is food given?",
+        "a": "Soup kitchen: Monday-Wednesday 12pm-1pm. Pantry: Tuesday and Thursday 10am-12pm."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (718) 297-4860 to ask."
+      }
+    ]
+  }
+}

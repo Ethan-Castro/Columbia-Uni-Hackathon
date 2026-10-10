@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-co-counsel-nyc-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:25.945Z",
+  "facts_hash": "28fc5723cacb1681",
+  "article": {
+    "title_es": "Co-Counsel NYC, Inc.: organización legal en Manhattan",
+    "title_en": "Co-Counsel NYC, Inc.: legal organization in Manhattan",
+    "summary_es": "Co-Counsel NYC, Inc. aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en Manhattan y puede llamar al (212) 946-3768.",
+    "summary_en": "Co-Counsel NYC, Inc. appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is in Manhattan and you can call (212) 946-3768.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro con representantes acreditados por el DOJ.",
+      "Está ubicada en 224 W 35th St, Ste 500 #269, Nueva York, NY 10001.",
+      "Puede llamar al (212) 946-3768 para preguntar por sus servicios.",
+      "Las tarifas y el proceso de cita no aparecen en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "Recognized organizations are non-profits with DOJ-accredited representatives.",
+      "Located at 224 W 35th St, Ste 500 #269, New York, NY 10001.",
+      "You can call (212) 946-3768 to ask about its services.",
+      "Fees and the intake process are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (212) 946-3768 antes de visitar, porque los horarios no aparecen en la lista.",
+      "Pregunte por teléfono qué servicios ofrece y si hay costo.",
+      "La dirección exacta es 224 W 35th St, Ste 500 #269, Nueva York, NY 10001."
+    ],
+    "visit_tips_en": [
+      "Call (212) 946-3768 before visiting, since hours are not listed.",
+      "Ask by phone what services it offers and whether there is a cost.",
+      "The exact address is 224 W 35th St, Ste 500 #269, New York, NY 10001."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Co-Counsel NYC, Inc.?",
+        "a": "Es una organización que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas y representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la lista. Llame al (212) 946-3768 para preguntar."
+      },
+      {
+        "q": "¿Qué horarios tiene?",
+        "a": "Los horarios no aparecen en la lista. Se recomienda llamar al (212) 946-3768 antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Co-Counsel NYC, Inc.?",
+        "a": "It is an organization on the U.S. Department of Justice (EOIR) list of recognized organizations and accredited representatives."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (212) 946-3768 to ask."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Hours are not listed. It is best to call (212) 946-3768 before going."
+      }
+    ]
+  }
+}

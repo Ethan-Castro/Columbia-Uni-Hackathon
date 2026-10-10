@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-city-harvest-st-marys-mobile-market",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:47.622Z",
+  "facts_hash": "b14a17ecaf418ac9",
+  "article": {
+    "title_es": "City Harvest - St. Mary's Mobile Market: mercado de alimentos en el Bronx",
+    "title_en": "City Harvest - St. Mary's Mobile Market: food market in the Bronx",
+    "summary_es": "Un mercado móvil de alimentos en el Bronx, parte del mapa Food Help NYC de la ciudad. Atiende los martes y sábados por la mañana, pero solo en fechas específicas del mes.",
+    "summary_en": "A mobile food market in the Bronx, part of the City's Food Help NYC map. It operates Tuesday and Saturday mornings, but only on specific dates each month.",
+    "how_they_help_es": [
+      "Es un mercado móvil de alimentos en el barrio del Bronx.",
+      "Aparece en el mapa oficial Food Help NYC de la ciudad.",
+      "Abre los martes y sábados de 9:30am a 11:30am.",
+      "Atiende solo el cuarto martes y el segundo sábado del mes.",
+      "La lista no dice qué alimentos entrega; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a mobile food market in the Bronx.",
+      "It appears on the City's official Food Help NYC map.",
+      "It is open Tuesdays and Saturdays, 9:30am to 11:30am.",
+      "It operates only on the 4th Tuesday and 2nd Saturday of the month.",
+      "The listing does not say what food is given; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El mercado funciona solo el cuarto martes y el segundo sábado de cada mes, de 9:30am a 11:30am.",
+      "Antes de ir, llame al (646) 412-0740 para confirmar la fecha y qué necesita llevar.",
+      "La dirección es 595 Trinity Ave, Bronx, NY 10455."
+    ],
+    "visit_tips_en": [
+      "The market operates only on the 4th Tuesday and 2nd Saturday of each month, 9:30am-11:30am.",
+      "Before going, call (646) 412-0740 to confirm the date and what to bring.",
+      "The address is 595 Trinity Ave, Bronx, NY 10455."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Martes y sábados de 9:30am a 11:30am, pero solo el cuarto martes y el segundo sábado de cada mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "La lista no lo indica. Llame al (646) 412-0740 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos. Le recomendamos llamar al (646) 412-0740 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays and Saturdays, 9:30am-11:30am, but only on the 4th Tuesday and 2nd Saturday of each month."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "The listing does not say. Call (646) 412-0740 to ask before going."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements. We suggest calling (646) 412-0740 to ask."
+      }
+    ]
+  }
+}

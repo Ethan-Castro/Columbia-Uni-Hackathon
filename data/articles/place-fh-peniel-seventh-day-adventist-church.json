@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-peniel-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:39.457Z",
+  "facts_hash": "73fc459ee2787494",
+  "article": {
+    "title_es": "Iglesia Peniel Adventista del Séptimo Día: despensa en Brooklyn",
+    "title_en": "Peniel Seventh Day Adventist Church: food pantry in Brooklyn",
+    "summary_es": "La Iglesia Peniel Adventista del Séptimo Día aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, en la avenida Utica.",
+    "summary_en": "Peniel Seventh Day Adventist Church appears on the Food Help NYC map as a food pantry in Brooklyn, on Utica Avenue.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 1210 Utica Ave, Brooklyn, NY 11203.",
+      "Abre los viernes de 10am a 12pm para la despensa.",
+      "Puede llamar al (518) 652-3246 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the Food Help NYC map.",
+      "It is located at 1210 Utica Ave, Brooklyn, NY 11203.",
+      "It is open Fridays 10am-12pm for the pantry.",
+      "You can call (518) 652-3246 with questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya el viernes entre 10am y 12pm, que es el horario de la despensa.",
+      "Llame antes al (518) 652-3246 para confirmar horarios y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on Friday between 10am and 12pm, which is the pantry hours.",
+      "Call ahead at (518) 652-3246 to confirm hours and ask what to bring.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo dice. Llame al (518) 652-3246 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los viernes de 10am a 12pm, según el mapa Food Help NYC."
+      },
+      {
+        "q": "¿Necesito algún documento para recibir alimentos?",
+        "a": "La lista no menciona requisitos. Se recomienda llamar con anticipación para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (518) 652-3246 to ask before going."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Fridays 10am-12pm, according to the Food Help NYC map."
+      },
+      {
+        "q": "Do I need any documents to receive food?",
+        "a": "The listing does not mention requirements. It is best to call ahead and ask."
+      }
+    ]
+  }
+}

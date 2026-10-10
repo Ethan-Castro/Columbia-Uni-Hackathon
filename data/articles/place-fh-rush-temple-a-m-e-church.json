@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-rush-temple-a-m-e-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:19.973Z",
+  "facts_hash": "dcd1d220e06618fb",
+  "article": {
+    "title_es": "Rush Temple A.M.E. Church: despensa y comedor en Queens",
+    "title_en": "Rush Temple A.M.E. Church: food pantry and soup kitchen in Queens",
+    "summary_es": "Rush Temple A.M.E. Church aparece en el mapa Food Help NYC de la ciudad con una despensa de alimentos los martes y un comedor los miércoles, en Jamaica, Queens.",
+    "summary_en": "Rush Temple A.M.E. Church appears on the City's Food Help NYC map with a food pantry on Tuesdays and a soup kitchen on Wednesdays, in Jamaica, Queens.",
+    "how_they_help_es": [
+      "Despensa de alimentos los martes de 9am a 10am.",
+      "Comedor (sopa de cocina) los miércoles de 12pm a 1:30pm.",
+      "Está en 119-48 Sutphin Blvd, Jamaica, Queens, NY 11436.",
+      "Puede llamar al (718) 529-5719 para preguntar.",
+      "La lista no dice qué alimentos se entregan ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "Food pantry on Tuesdays from 9am to 10am.",
+      "Soup kitchen on Wednesdays from 12pm to 1:30pm.",
+      "Located at 119-48 Sutphin Blvd, Jamaica, Queens, NY 11436.",
+      "You can call (718) 529-5719 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para confirmar los horarios y preguntar qué necesita.",
+      "La despensa es solo el martes por la mañana; el comedor es el miércoles al mediodía.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call before you go to confirm the hours and ask what you need.",
+      "The pantry is only Tuesday morning; the soup kitchen is Wednesday at midday.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Una despensa de alimentos los martes de 9am a 10am y un comedor los miércoles de 12pm a 1:30pm."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto?",
+        "a": "119-48 Sutphin Blvd, Jamaica, NY 11436. Teléfono: (718) 529-5719."
+      },
+      {
+        "q": "¿Qué alimentos da o qué documentos pide?",
+        "a": "No está en la lista. Llame antes para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does it offer?",
+        "a": "A food pantry on Tuesdays from 9am to 10am and a soup kitchen on Wednesdays from 12pm to 1:30pm."
+      },
+      {
+        "q": "Where is it and how do I contact it?",
+        "a": "119-48 Sutphin Blvd, Jamaica, NY 11436. Phone: (718) 529-5719."
+      },
+      {
+        "q": "What food does it give or what documents does it ask for?",
+        "a": "That is not listed. Call ahead to ask."
+      }
+    ]
+  }
+}

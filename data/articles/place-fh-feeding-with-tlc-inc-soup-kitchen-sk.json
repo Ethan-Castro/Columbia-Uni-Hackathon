@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-feeding-with-tlc-inc-soup-kitchen-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:06.131Z",
+  "facts_hash": "65092e66ae45fc6e",
+  "article": {
+    "title_es": "Feeding With TLC Inc Soup Kitchen: ayuda de comida en Staten Island",
+    "title_en": "Feeding With TLC Inc Soup Kitchen: food help in Staten Island",
+    "summary_es": "Feeding With TLC Inc Soup Kitchen es un lugar de ayuda alimentaria en Staten Island incluido en el mapa Food Help NYC de la ciudad, abierto los sábados de 10:30am a 12:30pm.",
+    "summary_en": "Feeding With TLC Inc Soup Kitchen is a food help location in Staten Island listed on the City's Food Help NYC map, open Saturdays from 10:30am to 12:30pm.",
+    "how_they_help_es": [
+      "Es un comedor de sopa incluido en el mapa Food Help NYC de la ciudad.",
+      "Está ubicado en 175 Beach St, Staten Island, NY, 10304.",
+      "Abre los sábados de 10:30am a 12:30pm.",
+      "Puede llamar al (718) 447-0526 para más información.",
+      "El listado no dice qué alimentos sirve, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is a soup kitchen listed on the City's Food Help NYC map.",
+      "It is located at 175 Beach St, Staten Island, NY, 10304.",
+      "It is open Saturdays from 10:30am to 12:30pm.",
+      "You can call (718) 447-0526 for more information.",
+      "The listing does not say what food is served, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es los sábados de 10:30am a 12:30pm.",
+      "Llame al (718) 447-0526 antes de ir para confirmar horarios y preguntar qué ofrecen.",
+      "El listado no dice qué alimentos entrega ni si hay requisitos."
+    ],
+    "visit_tips_en": [
+      "Hours listed are Saturdays from 10:30am to 12:30pm.",
+      "Call (718) 447-0526 ahead to confirm times and ask what is offered.",
+      "The listing does not say what food is given or if any requirements apply."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de alimentos ofrece?",
+        "a": "El listado dice que es un comedor de sopa abierto los sábados de 10:30am a 12:30pm. No dice qué alimentos sirve."
+      },
+      {
+        "q": "¿Necesito llevar algo o cumplir requisitos?",
+        "a": "El listado no menciona requisitos. Puede llamar al (718) 447-0526 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Está abierto los fines de semana?",
+        "a": "Sí, está abierto los sábados. El listado no muestra horarios entre semana."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of food does it offer?",
+        "a": "The listing says it is a soup kitchen open Saturdays from 10:30am to 12:30pm. It does not say what food is served."
+      },
+      {
+        "q": "Do I need to bring anything or meet requirements?",
+        "a": "The listing does not mention any requirements. You can call (718) 447-0526 to ask before you go."
+      },
+      {
+        "q": "Is it open on weekends?",
+        "a": "Yes, it is open on Saturdays. The listing does not show weekday hours."
+      }
+    ]
+  }
+}

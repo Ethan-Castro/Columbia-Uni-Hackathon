@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-muna-social-services-jackson-heights-communi",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:18.665Z",
+  "facts_hash": "d2563c5570d5c3e6",
+  "article": {
+    "title_es": "MUNA Social Services: despensa de alimentos en Jackson Heights, Queens",
+    "title_en": "MUNA Social Services: food pantry in Jackson Heights, Queens",
+    "summary_es": "MUNA Social Services - Jackson Heights Community es una despensa de alimentos en Queens, según el mapa Food Help NYC de la ciudad.",
+    "summary_en": "MUNA Social Services - Jackson Heights Community is a food pantry in Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 35-35 71st St, Jackson Heights, NY 11372.",
+      "Abre los jueves de 2pm a 3pm, el primer y tercer jueves del mes.",
+      "Puede llamar al (212) 920-6202 para más información.",
+      "La lista no indica qué alimentos entrega ni los requisitos; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 35-35 71st St, Jackson Heights, NY 11372.",
+      "Open Thursdays 2pm-3pm, on the 1st and 3rd Thursdays of the month.",
+      "You can call (212) 920-6202 for more information.",
+      "The listing does not say what food is given or the requirements; ask when you call."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona el primer y tercer jueves del mes, de 2pm a 3pm.",
+      "Llame al (212) 920-6202 antes de ir para confirmar los detalles.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry runs on the 1st and 3rd Thursdays of the month, 2pm-3pm.",
+      "Call (212) 920-6202 before going to confirm details.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 2pm a 3pm, el primer y tercer jueves del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 35-35 71st St, Jackson Heights, NY 11372, en Queens."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La lista no lo indica. Llame al (212) 920-6202 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays 2pm-3pm, on the 1st and 3rd Thursdays of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 35-35 71st St, Jackson Heights, NY 11372, in Queens."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "The listing does not say. Call (212) 920-6202 to ask before going."
+      }
+    ]
+  }
+}

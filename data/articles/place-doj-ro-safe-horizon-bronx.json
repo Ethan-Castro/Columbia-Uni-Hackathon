@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-ro-safe-horizon-bronx",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:37:55.745Z",
+  "facts_hash": "247d4e950298cc66",
+  "article": {
+    "title_es": "Safe Horizon (oficina extensión del Bronx): ayuda legal migratoria",
+    "title_en": "Safe Horizon (Bronx Extension Office): immigration legal help",
+    "summary_es": "Safe Horizon (oficina de extensión del Bronx) aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal migratoria. Está en 900 Sheridan Avenue, Bronx, NY 10451.",
+    "summary_en": "Safe Horizon (Bronx Extension Office) appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help. It is located at 900 Sheridan Avenue, Bronx, NY 10451.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro con representantes acreditados por el DOJ que pueden dar ayuda legal migratoria.",
+      "La lista no indica los honorarios ni el proceso para obtener una cita.",
+      "Llame al (718) 590-2371 para preguntar por sus servicios y cómo pedir una cita."
+    ],
+    "how_they_help_en": [
+      "Appears on the Department of Justice (EOIR) list of recognized organizations.",
+      "Recognized organizations are non-profits with DOJ-accredited representatives who may give immigration legal help.",
+      "The listing does not include fees or how to get an appointment.",
+      "Call (718) 590-2371 to ask about services and how to request an appointment."
+    ],
+    "visit_tips_es": [
+      "La dirección es 900 Sheridan Avenue, Bronx, NY 10451.",
+      "Los horarios no aparecen en la lista; llame antes de ir.",
+      "Los honorarios y el proceso de admisión no están indicados; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The address is 900 Sheridan Avenue, Bronx, NY 10451.",
+      "Hours are not listed; call before visiting.",
+      "Fees and the intake process are not listed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Safe Horizon (oficina de extensión del Bronx)?",
+        "a": "Es una organización que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas con representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los honorarios no aparecen en la lista. Llame al (718) 590-2371 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Llame al (718) 590-2371 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Safe Horizon (Bronx Extension Office)?",
+        "a": "It is an organization listed on the U.S. Department of Justice (EOIR) list of recognized organizations with accredited representatives."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (718) 590-2371 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The appointment process is not listed. Call (718) 590-2371 to ask."
+      }
+    ]
+  }
+}

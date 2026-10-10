@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-inspirational-gospel-assembly",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:14.916Z",
+  "facts_hash": "562a739ae514f9d6",
+  "article": {
+    "title_es": "Inspirational Gospel Assembly: despensa de alimentos en el Bronx",
+    "title_en": "Inspirational Gospel Assembly: food pantry in the Bronx",
+    "summary_es": "Inspirational Gospel Assembly es una despensa de alimentos en el Bronx, en el mapa Food Help NYC de la ciudad. Abre los sábados de 11am a 1pm.",
+    "summary_en": "Inspirational Gospel Assembly is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Saturdays from 11am to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los sábados de 11am a 1pm.",
+      "Está ubicada en 1211 Brook Ave, Bronx, NY 10456.",
+      "Puede llamar al (347) 758-6447 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Saturdays from 11am to 1pm.",
+      "It is located at 1211 Brook Ave, Bronx, NY 10456.",
+      "You can call (347) 758-6447 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los sábados de 11am a 1pm, planifique su visita ese día.",
+      "Llame al (347) 758-6447 antes de ir para confirmar los horarios y preguntar qué alimentos ofrece.",
+      "La lista no indica qué documentos se necesitan ni qué alimentos se dan, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Saturdays from 11am to 1pm, so plan your visit for that day.",
+      "Call (347) 758-6447 before going to confirm the hours and ask what food is offered.",
+      "The listing does not say what documents are needed or what food is given, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 11am a 1pm, según la información de la lista."
+      },
+      {
+        "q": "¿Qué alimentos da y qué necesito llevar?",
+        "a": "No está indicado en la lista. Llame al (347) 758-6447 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 11am to 1pm, according to the listing."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "That is not listed. Call (347) 758-6447 to ask before you go."
+      }
+    ]
+  }
+}

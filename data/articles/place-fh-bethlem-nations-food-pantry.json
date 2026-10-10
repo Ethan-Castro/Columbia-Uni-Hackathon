@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bethlem-nations-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:25.162Z",
+  "facts_hash": "cb6749cd3d3c479a",
+  "article": {
+    "title_es": "Bethlem Nation's Food Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "Bethlem Nation's Food Pantry: food pantry in Brooklyn",
+    "summary_es": "Bethlem Nation's Food Pantry es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. La despensa solo abre el 4.º sábado del mes, de 10am a 12pm.",
+    "summary_en": "Bethlem Nation's Food Pantry is a food pantry in Brooklyn listed on the City's Food Help NYC map. The pantry is only open on the 4th Saturday of the month, from 10am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1962 Linden Blvd, Brooklyn, NY 11207.",
+      "La despensa abre solo el 4.º sábado del mes, de 10am a 12pm.",
+      "Puede llamar al (718) 257-8300 para más información.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1962 Linden Blvd, Brooklyn, NY 11207.",
+      "The pantry is open only on the 4th Saturday of the month, 10am-12pm.",
+      "You can call (718) 257-8300 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa solo abre el 4.º sábado del mes, así que planifique su visita para ese día.",
+      "El horario es de 10am a 12pm los sábados que abre.",
+      "Llame al (718) 257-8300 antes de ir para confirmar detalles, ya que la información no dice qué alimentos entrega ni qué se necesita."
+    ],
+    "visit_tips_en": [
+      "The pantry is only open on the 4th Saturday of the month, so plan your visit for that day.",
+      "Hours are 10am-12pm on Saturdays it is open.",
+      "Call (718) 257-8300 ahead to confirm details, since the listing does not say what food is given or what is needed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de ayuda ofrece este lugar?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "La despensa solo abre el 4.º sábado del mes, de 10am a 12pm."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "La información no dice qué llevar. Puede llamar al (718) 257-8300 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of help does this place offer?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. What food is given is not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "The pantry is only open on the 4th Saturday of the month, from 10am to 12pm."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "The listing does not say what to bring. You can call (718) 257-8300 to ask before you go."
+      }
+    ]
+  }
+}

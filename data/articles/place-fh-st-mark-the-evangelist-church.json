@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-mark-the-evangelist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:38.445Z",
+  "facts_hash": "faf5099bdf84c313",
+  "article": {
+    "title_es": "Iglesia St. Mark the Evangelist: despensa de alimentos en Manhattan",
+    "title_en": "St. Mark the Evangelist Church: food pantry in Manhattan",
+    "summary_es": "La Iglesia St. Mark the Evangelist tiene una despensa de alimentos en Harlem, Manhattan. Abre los sábados por la mañana, solo el 1.º, 2.º, 3.º y 4.º sábado del mes.",
+    "summary_en": "St. Mark the Evangelist Church has a food pantry in Harlem, Manhattan. It is open Saturday mornings, only on the 1st, 2nd, 3rd, and 4th Saturday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está en 67 W 138th St, Nueva York, NY 10037, en Manhattan.",
+      "Abre los sábados de 10am a 12pm.",
+      "Solo abre el 1.º, 2.º, 3.º y 4.º sábado del mes.",
+      "Puede llamar al (212) 281-4931 para preguntar qué alimentos entrega y qué necesita para recibirlos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 67 W 138th St, New York, NY 10037, in Manhattan.",
+      "It is open Saturdays from 10am to 12pm.",
+      "It is only open on the 1st, 2nd, 3rd, and 4th Saturday of the month.",
+      "You can call (212) 281-4931 to ask what food is given and what is needed to receive it."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado entre 10am y 12pm, pero recuerde que no abre el quinto sábado del mes.",
+      "Llame antes al (212) 281-4931 para confirmar el horario y preguntar qué alimentos hay.",
+      "La página no indica qué documentos se necesitan, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday between 10am and 12pm, but remember it is closed on a fifth Saturday of the month.",
+      "Call ahead at (212) 281-4931 to confirm the hours and ask what food is available.",
+      "The listing does not say what documents are needed, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué días abre la despensa?",
+        "a": "Los sábados de 10am a 12pm, pero solo el 1.º, 2.º, 3.º y 4.º sábado del mes. No abre el quinto sábado."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 67 W 138th St, Nueva York, NY 10037, en Manhattan."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "No está indicado en la información disponible. Llame al (212) 281-4931 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What days is the pantry open?",
+        "a": "Saturdays from 10am to 12pm, but only on the 1st, 2nd, 3rd, and 4th Saturday of the month. It is closed on a fifth Saturday."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 67 W 138th St, New York, NY 10037, in Manhattan."
+      },
+      {
+        "q": "What food does it give and what do I need to receive it?",
+        "a": "This is not listed in the available information. Call (212) 281-4931 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-center-for-family-life",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:30.101Z",
+  "facts_hash": "273b2399ef979bfb",
+  "article": {
+    "title_es": "Center for Family Life: despensa de alimentos en Brooklyn",
+    "title_en": "Center for Family Life: food pantry in Brooklyn",
+    "summary_es": "Center for Family Life es una despensa de alimentos en Brooklyn, aparece en el mapa Food Help NYC de la ciudad. Atiende de martes a jueves de 1pm a 4pm.",
+    "summary_en": "Center for Family Life is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Tuesday through Thursday, 1pm to 4pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 443 39th St, Brooklyn, NY 11232.",
+      "La despensa atiende de martes a jueves de 1pm a 4pm.",
+      "Puede llamar al (929) 480-7175 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 443 39th St, Brooklyn, NY 11232.",
+      "The pantry is open Tuesday through Thursday, 1pm to 4pm.",
+      "You can call (929) 480-7175 to ask questions before visiting.",
+      "The listing does not say what food is given or if there are requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "Vaya durante el horario de la despensa: martes a jueves de 1pm a 4pm.",
+      "Llame primero al (929) 480-7175 para confirmar horarios y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "Go during pantry hours: Tuesday through Thursday, 1pm to 4pm.",
+      "Call first at (929) 480-7175 to confirm hours and ask what you need.",
+      "The information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Center for Family Life?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "De martes a jueves, de 1pm a 4pm."
+      },
+      {
+        "q": "¿Necesito algún documento o hay requisitos?",
+        "a": "La lista no indica requisitos ni documentos. Llame al (929) 480-7175 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Center for Family Life?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday through Thursday, 1pm to 4pm."
+      },
+      {
+        "q": "Do I need documents or are there requirements?",
+        "a": "The listing does not mention requirements or documents. Call (929) 480-7175 to ask before going."
+      }
+    ]
+  }
+}

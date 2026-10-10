@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-bronxworks",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:37:53.695Z",
+  "facts_hash": "1b09d6446f5b1f4c",
+  "article": {
+    "title_es": "BronxWorks: organización en la lista del DOJ en el Bronx",
+    "title_en": "BronxWorks: DOJ-listed organization in the Bronx",
+    "summary_es": "BronxWorks es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está ubicada en el Bronx.",
+    "summary_en": "BronxWorks is a nonprofit that appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in the Bronx.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Dirección: 1130 Grand Concourse, Suite 3AL, Bronx, NY 10456.",
+      "Teléfono: (718) 508-3091.",
+      "Los servicios y tarifas no están en la lista; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its DOJ-accredited representatives may give immigration legal help.",
+      "Address: 1130 Grand Concourse, Suite 3AL, Bronx, NY 10456.",
+      "Phone: (718) 508-3091.",
+      "Services and fees are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (718) 508-3091 para preguntar por sus servicios.",
+      "Las tarifas y el proceso para obtener una cita no están en la lista; pregunte directamente.",
+      "Los horarios no están incluidos; confírmelos por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 508-3091 to ask about their services.",
+      "Fees and how to get an appointment are not listed; ask directly.",
+      "Hours are not included; confirm them by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es BronxWorks?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "La lista no detalla los servicios específicos. Llame al (718) 508-3091 para preguntar."
+      },
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "Las tarifas no están en la lista. Pregunte por teléfono antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is BronxWorks?",
+        "a": "It is a nonprofit that appears on the DOJ (EOIR) roster of recognized organizations."
+      },
+      {
+        "q": "What services does it offer?",
+        "a": "The listing does not give specific services. Call (718) 508-3091 to ask."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "Fees are not listed. Ask by phone before visiting."
+      }
+    ]
+  }
+}

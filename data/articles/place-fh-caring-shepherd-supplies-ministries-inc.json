@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-caring-shepherd-supplies-ministries-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:15.613Z",
+  "facts_hash": "721f5f18baf866f8",
+  "article": {
+    "title_es": "Caring Shepherd Supplies Ministries: despensa de alimentos en el Bronx",
+    "title_en": "Caring Shepherd Supplies Ministries: food pantry in the Bronx",
+    "summary_es": "Caring Shepherd Supplies Ministries, Inc es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad. La información indica horas de despensa el viernes por la tarde.",
+    "summary_en": "Caring Shepherd Supplies Ministries, Inc is a food pantry in the Bronx listed on the City's Food Help NYC map. The listing shows pantry hours on Friday afternoons.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 4119 Barnes Ave, en el Bronx.",
+      "Horario indicado de la despensa: viernes de 4pm a 6pm.",
+      "Tiene teléfono para llamar antes de ir: (917) 743-0780.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 4119 Barnes Ave in the Bronx.",
+      "Pantry hours listed: Friday, 4pm-6pm.",
+      "Phone available to call ahead: (917) 743-0780.",
+      "What food is given and any requirements are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Según la información, la despensa atiende viernes de 4pm a 6pm.",
+      "Llame al (917) 743-0780 con anticipación para preguntar qué alimentos entrega y si hay requisitos.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Friday, 4pm-6pm, according to the listing.",
+      "Call (917) 743-0780 ahead to ask what food is given and if there are requirements.",
+      "The information was last checked on October 10, 2026; hours can change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Caring Shepherd Supplies Ministries?",
+        "a": "Aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "La información indica viernes de 4pm a 6pm para la despensa."
+      },
+      {
+        "q": "¿Cómo puedo hacer preguntas antes de visitar?",
+        "a": "Llame al (917) 743-0780 antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Caring Shepherd Supplies Ministries?",
+        "a": "It appears on the City's Food Help NYC map as a food pantry. What food is given is not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "The listing shows Friday, 4pm-6pm, for the pantry."
+      },
+      {
+        "q": "How can I ask questions before visiting?",
+        "a": "Call (917) 743-0780 before you go."
+      }
+    ]
+  }
+}

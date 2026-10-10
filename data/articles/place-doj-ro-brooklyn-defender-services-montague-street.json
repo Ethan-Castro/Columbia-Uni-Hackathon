@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-brooklyn-defender-services-montague-street",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:07.138Z",
+  "facts_hash": "1fb23455afdc3520",
+  "article": {
+    "title_es": "Brooklyn Defender Services: oficina en Montague Street, Brooklyn",
+    "title_en": "Brooklyn Defender Services: Montague Street office, Brooklyn",
+    "summary_es": "Brooklyn Defender Services aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está ubicada en 195 Montague Street, Brooklyn.",
+    "summary_en": "Brooklyn Defender Services appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located at 195 Montague Street, Brooklyn.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados pueden ofrecer ayuda legal de inmigración.",
+      "La dirección es 195 Montague Street, sótano, 5.º piso, Brooklyn, NY 11201.",
+      "El teléfono que aparece en la lista es (718) 254-0700.",
+      "Los servicios específicos, los horarios y las tarifas no aparecen en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations and accredited representatives.",
+      "Recognized organizations are non-profits whose accredited representatives may give immigration legal help.",
+      "The address is 195 Montague Street, Basement 5th Floor, Brooklyn, NY 11201.",
+      "The listed phone number is (718) 254-0700.",
+      "Specific services, hours and fees are not listed; ask the office directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (718) 254-0700 para preguntar por sus servicios y cómo solicitar una cita.",
+      "La oficina está en el sótano, 5.º piso, del edificio de 195 Montague Street.",
+      "Los horarios de atención no aparecen en esta información; confírmelos por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 254-0700 to ask about services and how to request an appointment.",
+      "The office is in the basement, 5th floor, of the building at 195 Montague Street.",
+      "Hours of operation are not listed in this information; confirm them by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas, cuyos representantes acreditados pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas y el proceso para obtener una cita no aparecen en esta información. Llame al (718) 254-0700 para preguntar."
+      },
+      {
+        "q": "¿Dónde está y cómo la contacto?",
+        "a": "Está en 195 Montague Street, sótano, 5.º piso, Brooklyn, NY 11201. Teléfono: (718) 254-0700."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) roster of recognized organizations, whose accredited representatives may provide immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees and the intake process are not listed in this information. Call (718) 254-0700 to ask."
+      },
+      {
+        "q": "Where is it and how do I contact it?",
+        "a": "It is at 195 Montague Street, Basement 5th Floor, Brooklyn, NY 11201. Phone: (718) 254-0700."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-consulate-dominican-republic-new-york",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:44:02.753Z",
+  "facts_hash": "a7e44e6cba517976",
+  "article": {
+    "title_es": "Consulado General de la República Dominicana en Nueva York, Manhattan",
+    "title_en": "Dominican Republic Consulate General in New York, Manhattan",
+    "summary_es": "Este es el Consulado General de la República Dominicana en Nueva York, ubicado en Manhattan. Es una oficina oficial del gobierno dominicano.",
+    "summary_en": "This is the Consulate General of the Dominican Republic in New York, located in Manhattan. It is an official office of the Dominican government.",
+    "how_they_help_es": [
+      "Es una oficina oficial del gobierno de la República Dominicana en Nueva York.",
+      "Está ubicada en 1501 Broadway, Suite 410, Nueva York, NY 10036.",
+      "Abre de lunes a viernes, de 8am a 4pm.",
+      "Puede llamar al (212) 768-2480 para preguntar por sus servicios.",
+      "Los servicios específicos y las reglas de citas no aparecen en esta información; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is an official office of the Dominican Republic government in New York.",
+      "It is located at 1501 Broadway, Suite 410, New York, NY 10036.",
+      "It is open Monday through Friday, 8am-4pm.",
+      "You can call (212) 768-2480 to ask about its services.",
+      "Specific services and appointment rules are not listed here; ask the office directly."
+    ],
+    "visit_tips_es": [
+      "Antes de ir, llame al (212) 768-2480 para confirmar los servicios y si necesita una cita.",
+      "El horario es de lunes a viernes, de 8am a 4pm.",
+      "La dirección exacta es 1501 Broadway, Suite 410, Nueva York, NY 10036."
+    ],
+    "visit_tips_en": [
+      "Before going, call (212) 768-2480 to confirm services and whether you need an appointment.",
+      "Hours are Monday through Friday, 8am-4pm.",
+      "The exact address is 1501 Broadway, Suite 410, New York, NY 10036."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este consulado?",
+        "a": "La lista no indica los servicios específicos. Llame al (212) 768-2480 para preguntar qué trámites ofrece."
+      },
+      {
+        "q": "¿Necesito una cita para ser atendido?",
+        "a": "Las reglas de citas no aparecen en esta información. Se recomienda llamar antes al (212) 768-2480."
+      },
+      {
+        "q": "¿Cuál es el horario y la dirección?",
+        "a": "Está en 1501 Broadway, Suite 410, Nueva York, NY 10036. Abre de lunes a viernes, de 8am a 4pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this consulate offer?",
+        "a": "The listing does not show specific services. Call (212) 768-2480 to ask what services are available."
+      },
+      {
+        "q": "Do I need an appointment to be served?",
+        "a": "Appointment rules are not listed in this information. It is best to call ahead at (212) 768-2480."
+      },
+      {
+        "q": "What are the hours and address?",
+        "a": "It is at 1501 Broadway, Suite 410, New York, NY 10036. Open Monday through Friday, 8am-4pm."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-united-church-of-praise-international-minist",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:18.370Z",
+  "facts_hash": "190345628a06c55f",
+  "article": {
+    "title_es": "United Church of Praise International Ministries: despensa de alimentos en Staten Island",
+    "title_en": "United Church of Praise International Ministries: food pantry in Staten Island",
+    "summary_es": "United Church of Praise International Ministries es una despensa de alimentos en Staten Island, en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "United Church of Praise International Ministries is a food pantry in Staten Island, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los viernes de 1pm a 3pm.",
+      "También reparte alimentos los domingos de 1pm a 3pm.",
+      "Está ubicada en 487 Vanderbilt Ave, Staten Island, NY 10304.",
+      "Qué alimentos entrega y si hay requisitos no está indicado; pregunte llamando al (718) 314-8779."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Distributes food on Fridays from 1pm to 3pm.",
+      "Also distributes food on Sundays from 1pm to 3pm.",
+      "Located at 487 Vanderbilt Ave, Staten Island, NY 10304.",
+      "What food is given and any requirements are not listed; ask by calling (718) 314-8779."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para confirmar los horarios y preguntar qué necesita llevar.",
+      "La despensa abre viernes y domingo de 1pm a 3pm.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call before you go to confirm hours and ask what you need to bring.",
+      "The pantry is open Fridays and Sundays from 1pm to 3pm.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "No está indicado en la información disponible. Llame al (718) 314-8779 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento o cumplir algún requisito?",
+        "a": "No está indicado. Se recomienda llamar antes de ir al (718) 314-8779."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Viernes de 1pm a 3pm y domingo de 1pm a 3pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give?",
+        "a": "That is not listed in the available information. Call (718) 314-8779 to ask."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "That is not listed. It is best to call before going: (718) 314-8779."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Fridays from 1pm to 3pm and Sundays from 1pm to 3pm."
+      }
+    ]
+  }
+}

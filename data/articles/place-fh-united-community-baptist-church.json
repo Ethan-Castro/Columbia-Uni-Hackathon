@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-united-community-baptist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:56.719Z",
+  "facts_hash": "6f0d2c69c52559a6",
+  "article": {
+    "title_es": "United Community Baptist Church: cocina en Brooklyn",
+    "title_en": "United Community Baptist Church: soup kitchen in Brooklyn",
+    "summary_es": "United Community Baptist Church aparece en el mapa Food Help NYC como cocina comunitaria en Brooklyn. Abre los sábados.",
+    "summary_en": "United Community Baptist Church appears on the Food Help NYC map as a soup kitchen in Brooklyn. It is open on Saturdays.",
+    "how_they_help_es": [
+      "Ofrece comida como cocina comunitaria (soup kitchen), según el mapa Food Help NYC.",
+      "Está ubicada en 545 Utica Ave, Brooklyn, NY 11203.",
+      "Abre los sábados de 10am a 12pm.",
+      "Puede llamar al (718) 467-7708 para preguntar antes de ir.",
+      "La lista no indica qué alimentos da ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "Offers food as a soup kitchen, according to the Food Help NYC map.",
+      "Located at 545 Utica Ave, Brooklyn, NY 11203.",
+      "Open Saturdays from 10am to 12pm.",
+      "You can call (718) 467-7708 to ask before visiting.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es el sábado de 10am a 12pm.",
+      "Llame al (718) 467-7708 antes de ir para confirmar el servicio.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The listed hours are Saturday from 10am to 12pm.",
+      "Call (718) 467-7708 before going to confirm the service.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como cocina comunitaria (soup kitchen)."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Los sábados de 10am a 12pm, según la lista."
+      },
+      {
+        "q": "¿Necesito llevar algo o cumplir requisitos?",
+        "a": "La lista no lo indica. Llame al (718) 467-7708 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What does this place offer?",
+        "a": "It appears on the Food Help NYC map as a soup kitchen."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 10am to 12pm, according to the listing."
+      },
+      {
+        "q": "Do I need to bring anything or meet requirements?",
+        "a": "The listing does not say. Call (718) 467-7708 to ask."
+      }
+    ]
+  }
+}

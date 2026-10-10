@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-pb-safe-horizon",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:49.943Z",
+  "facts_hash": "a83b970c1c2d8fb9",
+  "article": {
+    "title_es": "Safe Horizon: servicios legales pro bono en Brooklyn",
+    "title_en": "Safe Horizon: pro bono legal services in Brooklyn",
+    "summary_es": "Safe Horizon aparece en la lista de proveedores de servicios legales pro bono del Departamento de Justicia de EE. UU. (EOIR). Está en Brooklyn y la información sobre la organización está disponible en inglés y español.",
+    "summary_en": "Safe Horizon appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers. It is located in Brooklyn and information about the organization is available in English and Spanish.",
+    "how_they_help_es": [
+      "Aparece en la lista oficial de proveedores pro bono del EOIR.",
+      "La información sobre la organización está disponible en inglés y español.",
+      "Está ubicado en 2 Lafayette Street, 3er piso, Brooklyn, NY 10007.",
+      "Puede llamar al (212) 577-7700 para preguntar por sus servicios.",
+      "La lista no indica cuotas ni cómo obtener una cita; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the official EOIR list of pro bono providers.",
+      "Information about the organization is available in English and Spanish.",
+      "Located at 2 Lafayette Street, 3rd Floor, Brooklyn, NY 10007.",
+      "You can call (212) 577-7700 to ask about their services.",
+      "The list does not show fees or how to get an appointment; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para preguntar si aceptan nuevos casos y cómo funciona la admisión.",
+      "La lista no indica cuotas ni cómo pedir una cita; pregunte por teléfono.",
+      "Verifique el horario antes de visitar, porque no aparece en esta información."
+    ],
+    "visit_tips_en": [
+      "Call before going to ask if they take new cases and how intake works.",
+      "The list does not show fees or how to request an appointment; ask by phone.",
+      "Check the schedule before visiting, since hours are not listed here."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Safe Horizon?",
+        "a": "Es una organización que aparece en la lista de proveedores de servicios legales pro bono del Departamento de Justicia de EE. UU. (EOIR)."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "La lista no indica las cuotas ni si aceptan nuevos casos. Llame al (212) 577-7700 para preguntar."
+      },
+      {
+        "q": "¿En qué idiomas hay información disponible?",
+        "a": "Según la información disponible, hay información en inglés y español."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Safe Horizon?",
+        "a": "It is an organization listed on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers."
+      },
+      {
+        "q": "How much do the services cost?",
+        "a": "The list does not show fees or whether they take new cases. Call (212) 577-7700 to ask."
+      },
+      {
+        "q": "What languages is information available in?",
+        "a": "According to the available information, information is available in English and Spanish."
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "place_id": "place-idnyc-queens-public-library-central",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:44:00.647Z",
+  "facts_hash": "31d3817ccb44b8ef",
+  "article": {
+    "title_es": "Centro de inscripción IDNYC en la Biblioteca Pública de Queens (Central)",
+    "title_en": "IDNYC Enrollment Center at Queens Public Library (Central)",
+    "summary_es": "Este es un centro oficial de la ciudad donde puede solicitar la tarjeta IDNYC, una identificación con foto gratis del gobierno. Según el programa, califican todos los neoyorquinos de 10 años o más.",
+    "summary_en": "This is an official City enrollment center where you can apply for the IDNYC card, a free government-issued photo ID. According to the program, all New Yorkers ages 10 and up qualify.",
+    "how_they_help_es": [
+      "Le ayudan a solicitar la tarjeta IDNYC en persona.",
+      "La IDNYC sirve para servicios de la ciudad, beneficios, tarjetas de biblioteca y descuentos.",
+      "Los viernes se aceptan personas sin cita en esta ubicación.",
+      "Todas las demás ubicaciones requieren cita; se abren nuevos espacios cada viernes.",
+      "La tarjeta es gratis, según la información oficial del programa."
+    ],
+    "how_they_help_en": [
+      "Staff help you apply for the IDNYC card in person.",
+      "The IDNYC works for City services, benefits, library cards, and discounts.",
+      "Walk-ins are welcome at this location on Fridays.",
+      "All other locations require an appointment; new slots open every Friday.",
+      "The card is free, according to the program's official information."
+    ],
+    "visit_tips_es": [
+      "Esta ubicación está en el primer piso: 89-11 Merrick Boulevard, Jamaica, Queens.",
+      "Horario: lunes a viernes, 10am-6pm.",
+      "Según el programa, los viernes aquí se aceptan visitas sin cita; otros días pueden requerir cita.",
+      "Lleve sus documentos a su visita, como indica el programa."
+    ],
+    "visit_tips_en": [
+      "This location is on the 1st floor: 89-11 Merrick Boulevard, Jamaica, Queens.",
+      "Hours: Mon-Fri, 10am-6pm.",
+      "According to the program, walk-ins are welcome here on Fridays; other days may require an appointment.",
+      "Bring your documents to your visit, as the program instructs."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Quién puede obtener la IDNYC?",
+        "a": "Según el programa, todos los neoyorquinos de 10 años o más califican."
+      },
+      {
+        "q": "¿Necesito cita para venir aquí?",
+        "a": "El programa indica que los viernes en esta ubicación se aceptan personas sin cita. Para otras ubicaciones, se requiere cita y se abren nuevos espacios cada viernes."
+      },
+      {
+        "q": "¿Qué documentos debo llevar?",
+        "a": "La información del programa dice que debe llevar sus documentos a su visita, pero no detalla cuáles. Verifique los requisitos en el sitio oficial del programa antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Who can get the IDNYC?",
+        "a": "According to the program, all New Yorkers ages 10 and up qualify."
+      },
+      {
+        "q": "Do I need an appointment to come here?",
+        "a": "The program says walk-ins are welcome at this location on Fridays. Other locations require an appointment, and new slots open every Friday."
+      },
+      {
+        "q": "What documents should I bring?",
+        "a": "The program's information says to bring your documents to your visit but does not list which ones. Check the program's official site for requirements before going."
+      }
+    ]
+  }
+}

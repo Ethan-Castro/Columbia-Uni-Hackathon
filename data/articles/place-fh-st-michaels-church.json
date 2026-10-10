@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-michaels-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:59.691Z",
+  "facts_hash": "db540ea5e7d5c170",
+  "article": {
+    "title_es": "Iglesia St. Michael's: cocina de sopa en Manhattan",
+    "title_en": "St. Michael's Church: soup kitchen in Manhattan",
+    "summary_es": "La Iglesia St. Michael's aparece en el mapa Food Help NYC de la ciudad como cocina de sopa en el Upper West Side de Manhattan. Atiende los sábados por la mañana.",
+    "summary_en": "St. Michael's Church appears on the City's Food Help NYC map as a soup kitchen on Manhattan's Upper West Side. It serves on Saturday mornings.",
+    "how_they_help_es": [
+      "Cocina de sopa según el mapa Food Help NYC de la ciudad.",
+      "Abre los sábados de 10am a 11:30am.",
+      "Dirección: 225 W 99th St, New York, NY 10025.",
+      "Teléfono: (212) 222-2700 para preguntas.",
+      "No se indica qué alimentos da ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Soup kitchen listed on the City's Food Help NYC map.",
+      "Open Saturdays from 10am to 11:30am.",
+      "Address: 225 W 99th St, New York, NY 10025.",
+      "Phone: (212) 222-2700 for questions.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Vaya los sábados entre 10am y 11:30am, que es el horario indicado.",
+      "Llame al (212) 222-2700 antes de ir para confirmar detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on Saturdays between 10am and 11:30am, the listed hours.",
+      "Call (212) 222-2700 before visiting to confirm details.",
+      "Information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de ayuda ofrece?",
+        "a": "Aparece como cocina de sopa en el mapa Food Help NYC de la ciudad. No se indica qué alimentos sirve."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Sábados de 10am a 11:30am, según el horario indicado."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "No se menciona ningún requisito. Llame al (212) 222-2700 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of help does it offer?",
+        "a": "It is listed as a soup kitchen on the City's Food Help NYC map. What food it serves is not listed."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 10am to 11:30am, according to the listed hours."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "No requirements are mentioned. Call (212) 222-2700 to ask before going."
+      }
+    ]
+  }
+}

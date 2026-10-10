@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-cathedral-of-st-john-the-divine",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:58.985Z",
+  "facts_hash": "dcdcba77cf136f5b",
+  "article": {
+    "title_es": "Catedral de St. John the Divine: comedor de sopa en Manhattan",
+    "title_en": "Cathedral of St. John the Divine: soup kitchen in Manhattan",
+    "summary_es": "La Catedral de St. John the Divine aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos en Manhattan. Ofrece un comedor de sopa los domingos.",
+    "summary_en": "The Cathedral of St. John the Divine appears on the City's Food Help NYC map as a food pantry in Manhattan. It offers a soup kitchen on Sundays.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Ofrece un comedor de sopa los domingos de 10am a 3pm.",
+      "Está ubicada en 1047 Amsterdam Ave, Nueva York, NY 10025.",
+      "Puede llamar al (212) 316-7640 para preguntar antes de ir.",
+      "La lista no detalla qué alimentos entrega ni los requisitos."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Offers a soup kitchen on Sundays from 10am to 3pm.",
+      "Located at 1047 Amsterdam Ave, New York, NY 10025.",
+      "You can call (212) 316-7640 to ask before visiting.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "El comedor de sopa funciona los domingos de 10am a 3pm.",
+      "Llame al (212) 316-7640 antes de ir para confirmar detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen runs Sundays from 10am to 3pm.",
+      "Call (212) 316-7640 before going to confirm details.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece como despensa de alimentos en el mapa Food Help NYC y ofrece un comedor de sopa los domingos de 10am a 3pm."
+      },
+      {
+        "q": "¿Dónde está y cómo contacto al lugar?",
+        "a": "Está en 1047 Amsterdam Ave, Nueva York, NY 10025. El teléfono es (212) 316-7640."
+      },
+      {
+        "q": "¿Qué alimentos dan y qué necesito para recibirlos?",
+        "a": "No está indicado en la lista. Llame al (212) 316-7640 para preguntar qué alimentos entrega y si hay requisitos."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is listed as a food pantry on the Food Help NYC map and offers a soup kitchen on Sundays from 10am to 3pm."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "It is at 1047 Amsterdam Ave, New York, NY 10025. The phone number is (212) 316-7640."
+      },
+      {
+        "q": "What food do they give and what do I need?",
+        "a": "That is not listed. Call (212) 316-7640 to ask what food is given and whether there are any requirements."
+      }
+    ]
+  }
+}

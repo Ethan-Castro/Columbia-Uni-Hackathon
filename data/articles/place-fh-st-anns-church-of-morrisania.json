@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-st-anns-church-of-morrisania",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:06.072Z",
+  "facts_hash": "efff0a0971d0f6c5",
+  "article": {
+    "title_es": "St. Ann's Church of Morrisania: despensa y comedor en el Bronx",
+    "title_en": "St. Ann's Church of Morrisania: food pantry in the Bronx",
+    "summary_es": "St. Ann's Church of Morrisania es una despensa de alimentos y comedor de sopa en el Bronx, según el mapa Food Help NYC de la ciudad.",
+    "summary_en": "St. Ann's Church of Morrisania is a food pantry and soup kitchen in the Bronx, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Ofrece una despensa de alimentos los miércoles.",
+      "Ofrece un comedor de sopa los domingos.",
+      "Está ubicada en 295 St Anns Ave, Bronx, NY 10454.",
+      "Se puede llamar para más información: (718) 585-5632."
+    ],
+    "how_they_help_en": [
+      "Offers a food pantry on Wednesdays.",
+      "Offers a soup kitchen on Sundays.",
+      "Located at 295 St Anns Ave, Bronx, NY 10454.",
+      "Can be called for more information: (718) 585-5632."
+    ],
+    "visit_tips_es": [
+      "Horario de la despensa: miércoles de 10am a 1pm y de 5pm a 6pm.",
+      "Horario del comedor de sopa: domingo de 11am a 1pm.",
+      "Qué alimentos dan y si hay requisitos no están indicados; llame al (718) 585-5632 antes de ir."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Wed 10am-1pm, 5pm-6pm.",
+      "Soup kitchen hours: Sun 11am-1pm.",
+      "What food is given and any requirements are not listed; call (718) 585-5632 before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 295 St Anns Ave, Bronx, New York, 10454."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Despensa: miércoles 10am-1pm y 5pm-6pm. Comedor de sopa: domingo 11am-1pm."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "No se indica. Llame al (718) 585-5632 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 295 St Anns Ave, Bronx, New York, 10454."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Pantry: Wed 10am-1pm and 5pm-6pm. Soup kitchen: Sun 11am-1pm."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "It is not listed. Call (718) 585-5632 to ask."
+      }
+    ]
+  }
+}

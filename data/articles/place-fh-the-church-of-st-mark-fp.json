@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-church-of-st-mark-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:57.539Z",
+  "facts_hash": "68ecddeca452cf87",
+  "article": {
+    "title_es": "The Church of St. Mark: despensa de alimentos en Brooklyn",
+    "title_en": "The Church of St. Mark: food pantry in Brooklyn",
+    "summary_es": "La Iglesia de San Marcos es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la Ciudad. Abre los viernes de 11:30am a 1:30pm, el 1.º, 2.º, 3.º y 4.º viernes del mes.",
+    "summary_en": "The Church of St. Mark is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open on Fridays, 11:30am-1:30pm, on the 1st, 2nd, 3rd and 4th Friday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 1417 Union St, Brooklyn, NY 11213.",
+      "Abre los viernes de 11:30am a 1:30pm, el 1.º, 2.º, 3.º y 4.º viernes del mes.",
+      "Puede llamar al (718) 756-6607 para más información.",
+      "La información no indica qué alimentos entrega ni si hay requisitos, así que es mejor preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1417 Union St, Brooklyn, NY 11213.",
+      "It is open Fridays, 11:30am-1:30pm, on the 1st, 2nd, 3rd and 4th Friday of the month.",
+      "You can call (718) 756-6607 for more information.",
+      "What food is given and any requirements are not listed, so it is best to ask."
+    ],
+    "visit_tips_es": [
+      "La despensa abre el 1.º, 2.º, 3.º y 4.º viernes del mes, de 11:30am a 1:30pm.",
+      "Llame al (718) 756-6607 antes de ir para preguntar sobre los alimentos y si hay requisitos.",
+      "La dirección es 1417 Union St, Brooklyn, NY 11213."
+    ],
+    "visit_tips_en": [
+      "The pantry is open on the 1st, 2nd, 3rd and 4th Friday of the month, from 11:30am to 1:30pm.",
+      "Call (718) 756-6607 ahead of time to ask about the food given and any requirements.",
+      "The address is 1417 Union St, Brooklyn, NY 11213."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de alimentos entrega?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Necesito llevar algo o inscribirme?",
+        "a": "La información no lo dice. Puede llamar al (718) 756-6607 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los viernes, de 11:30am a 1:30pm, el 1.º, 2.º, 3.º y 4.º viernes del mes."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of food does it give?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. What food is given is not listed."
+      },
+      {
+        "q": "Do I need to bring anything or sign up?",
+        "a": "The listing does not say. You can call (718) 756-6607 to ask before you go."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Fridays, 11:30am-1:30pm, on the 1st, 2nd, 3rd and 4th Friday of the month."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-james-church-community-kitchen-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:21.573Z",
+  "facts_hash": "733e4d811e97c8ce",
+  "article": {
+    "title_es": "St. James Church: cocina comunitaria en Manhattan",
+    "title_en": "St. James Church: community kitchen in Manhattan",
+    "summary_es": "St. James Church aparece en el mapa Food Help NYC como despensa/cocina comunitaria en Manhattan. Sirve comidas los martes y viernes.",
+    "summary_en": "St. James Church appears on the City's Food Help NYC map as a food pantry/soup kitchen in Manhattan. It serves meals on Tuesdays and Fridays.",
+    "how_they_help_es": [
+      "Es una cocina comunitaria (soup kitchen) según el mapa Food Help NYC de la Ciudad.",
+      "Sirve comidas: martes de 12pm a 1pm y viernes de 6:30pm a 7:30pm.",
+      "Está ubicada en 865 Madison Ave, Nueva York, NY 10021.",
+      "Puede llamar al (212) 774-4200 para preguntar antes de ir.",
+      "La lista no indica qué alimentos da ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is listed as a soup kitchen on the City's Food Help NYC map.",
+      "Meals are served: Tuesdays 12pm-1pm and Fridays 6:30pm-7:30pm.",
+      "It is located at 865 Madison Ave, New York, NY 10021.",
+      "You can call (212) 774-4200 to ask before visiting.",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "Vaya en horario de comida: martes 12pm-1pm o viernes 6:30pm-7:30pm.",
+      "Llame al (212) 774-4200 antes de ir para confirmar detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go during meal times: Tuesday 12pm-1pm or Friday 6:30pm-7:30pm.",
+      "Call (212) 774-4200 before visiting to confirm details.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Aparece en el mapa Food Help NYC como cocina comunitaria (soup kitchen)."
+      },
+      {
+        "q": "¿Cuándo sirve comidas?",
+        "a": "Martes de 12pm a 1pm y viernes de 6:30pm a 7:30pm."
+      },
+      {
+        "q": "¿Hay requisitos o documentos?",
+        "a": "No aparecen en la lista. Llame al (212) 774-4200 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does it offer?",
+        "a": "It is listed on the Food Help NYC map as a soup kitchen."
+      },
+      {
+        "q": "When are meals served?",
+        "a": "Tuesdays 12pm-1pm and Fridays 6:30pm-7:30pm."
+      },
+      {
+        "q": "Are there requirements or documents?",
+        "a": "None are listed. Call (212) 774-4200 to ask."
+      }
+    ]
+  }
+}

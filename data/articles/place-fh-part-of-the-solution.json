@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-part-of-the-solution",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:05.305Z",
+  "facts_hash": "fb3fa369b7b95547",
+  "article": {
+    "title_es": "Part of the Solution: comedor y despensa de alimentos en el Bronx",
+    "title_en": "Part of the Solution: soup kitchen and food pantry in the Bronx",
+    "summary_es": "Part of the Solution es un comedor y despensa de alimentos en el Bronx, aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Part of the Solution is a soup kitchen and food pantry in the Bronx, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Ofrece comidas en su comedor social (soup kitchen).",
+      "Entrega alimentos en su despensa (pantry).",
+      "Está abierto de lunes a sábado.",
+      "Aparece en el mapa oficial Food Help NYC de la ciudad."
+    ],
+    "how_they_help_en": [
+      "Serves meals through its soup kitchen.",
+      "Provides food through its pantry.",
+      "Open Monday through Saturday.",
+      "Listed on the City's official Food Help NYC map."
+    ],
+    "visit_tips_es": [
+      "Comedor: lunes a sábado de 12:30pm a 3pm.",
+      "Despensa: lunes a sábado de 8:30am a 11am.",
+      "Llame al (929) 566-7980 antes de ir para confirmar detalles.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Soup kitchen: Monday to Saturday, 12:30pm to 3pm.",
+      "Pantry: Monday to Saturday, 8:30am to 11am.",
+      "Call (929) 566-7980 before visiting to confirm details.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 2759 Webster Ave, Bronx, New York, 10458."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Comedor: lunes a sábado de 12:30pm a 3pm. Despensa: lunes a sábado de 8:30am a 11am."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "No se indica ningún requisito en la lista. Llame al (929) 566-7980 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 2759 Webster Ave, Bronx, New York, 10458."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Soup kitchen: Monday to Saturday, 12:30pm to 3pm. Pantry: Monday to Saturday, 8:30am to 11am."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "The listing does not mention any requirements. Call (929) 566-7980 to ask."
+      }
+    ]
+  }
+}

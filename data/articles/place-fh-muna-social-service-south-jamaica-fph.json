@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-muna-social-service-south-jamaica-fph",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:34.995Z",
+  "facts_hash": "75da6d7d25b33998",
+  "article": {
+    "title_es": "MUNA Social Service South Jamaica: despensa de alimentos en Queens",
+    "title_en": "MUNA Social Service South Jamaica: food pantry in Queens",
+    "summary_es": "MUNA Social Service South Jamaica (FPH) es una despensa de alimentos en Queens que aparece en el mapa Food Help NYC de la ciudad. Abre los miércoles de 4pm a 5pm, y la despensa funciona solo el primer y el tercer miércoles del mes.",
+    "summary_en": "MUNA Social Service South Jamaica (FPH) is a food pantry in Queens listed on the City's Food Help NYC map. It is open Wednesdays from 4pm to 5pm, with the pantry only on the 1st and 3rd Wednesday of the month.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está en 164-38 108th Ave, en Jamaica, Queens.",
+      "Abre los miércoles de 4pm a 5pm; la despensa solo el primer y tercer miércoles.",
+      "Puede llamar al (212) 920-6202 para más información.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 164-38 108th Ave in Jamaica, Queens.",
+      "Open Wednesdays 4pm-5pm, pantry on the 1st and 3rd Wednesday only.",
+      "You can call (212) 920-6202 for more information.",
+      "What food is given and any requirements are not listed, so ask ahead."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona solo el primer y el tercer miércoles del mes; planifique su visita para esos días.",
+      "Llame al (212) 920-6202 antes de ir para preguntar qué alimentos entrega y si hay requisitos.",
+      "Los horarios de la información se verificaron por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is only on the 1st and 3rd Wednesday of the month, so plan your visit for those days.",
+      "Call (212) 920-6202 ahead to ask about the food given and any requirements.",
+      "Hours in the listing were last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 4pm a 5pm, pero la despensa abre solo el primer y el tercer miércoles del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "Está en el mapa Food Help NYC de la ciudad como despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos; es mejor preguntar por teléfono."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme con ellos?",
+        "a": "La información no incluye un sitio web ni un correo electrónico. Puede llamar al (212) 920-6202 para más información."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Wednesdays from 4pm to 5pm, but the pantry is open only on the 1st and 3rd Wednesday of the month."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "It is listed on the City's Food Help NYC map as a food pantry. What food is given and any requirements are not listed, so it is best to ask by phone."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "The listing does not give a website or email. You can call (212) 920-6202 for more information."
+      }
+    ]
+  }
+}

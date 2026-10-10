@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-gospel-assembly-queens",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:06.559Z",
+  "facts_hash": "9b428e7389e951f6",
+  "article": {
+    "title_es": "Gospel Assembly Queens: despensa de alimentos en Saint Albans",
+    "title_en": "Gospel Assembly Queens: food pantry in Saint Albans",
+    "summary_es": "Gospel Assembly - Queens es una despensa de alimentos en Saint Albans, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre miércoles, jueves y sábado por la mañana.",
+    "summary_en": "Gospel Assembly - Queens is a food pantry in Saint Albans, Queens, listed on the City's Food Help NYC map. It is open Wednesday, Thursday and Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos los miércoles y jueves de 10am a 12pm.",
+      "También abre los sábados de 10am a 12pm.",
+      "Puede llamar al (718) 454-0192 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Wednesdays and Thursdays from 10am to 12pm.",
+      "It is also open on Saturdays from 10am to 12pm.",
+      "You can call (718) 454-0192 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "Horario de la despensa: miércoles y jueves de 10am a 12pm, y sábado de 10am a 12pm.",
+      "Dirección: 109-14 Farmers Blvd, Saint Albans, New York, 11412.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos; llame primero para preguntar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Wednesdays and Thursdays 10am to 12pm, and Saturdays 10am to 12pm.",
+      "Address: 109-14 Farmers Blvd, Saint Albans, New York, 11412.",
+      "The listing does not say what food is given or if there are requirements; call ahead to ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Miércoles y jueves de 10am a 12pm, y sábado de 10am a 12pm."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "Puede llamar al (718) 454-0192. No hay correo electrónico ni sitio web en la lista."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. What food is given and any requirements are not listed."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays and Thursdays from 10am to 12pm, and Saturdays from 10am to 12pm."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "You can call (718) 454-0192. No email or website is listed."
+      }
+    ]
+  }
+}

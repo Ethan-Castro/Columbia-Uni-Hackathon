@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-anns-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:40.367Z",
+  "facts_hash": "785911205adc3cc6",
+  "article": {
+    "title_es": "ST. ANN'S Food Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "ST. ANN'S Food Pantry: food pantry in Brooklyn",
+    "summary_es": "ST. ANN'S Food Pantry es una despensa de alimentos en Brooklyn, aparece en el mapa Food Help NYC de la ciudad. Reparte alimentos los martes por la mañana.",
+    "summary_en": "ST. ANN'S Food Pantry is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It distributes food on Tuesday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 157 Montague St, Brooklyn, NY 11201.",
+      "Abre los martes de 10:30am a 12pm para la despensa.",
+      "Puede llamar al (718) 875-6960 para preguntar.",
+      "La lista no indica qué alimentos entrega ni requisitos; pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 157 Montague St, Brooklyn, NY 11201.",
+      "It is open Tuesdays 10:30am-12pm for the pantry.",
+      "You can call (718) 875-6960 with questions.",
+      "The listing does not say what food is given or any requirements; ask before going."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes de 10:30am a 12pm.",
+      "Llame al (718) 875-6960 antes de ir para confirmar detalles.",
+      "La lista no menciona documentos ni requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesdays 10:30am-12pm.",
+      "Call (718) 875-6960 before going to confirm details.",
+      "The listing does not mention documents or requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 157 Montague St, Brooklyn, NY 11201."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los martes de 10:30am a 12pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "No está en la lista. Llame al (718) 875-6960 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 157 Montague St, Brooklyn, NY 11201."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays 10:30am-12pm."
+      },
+      {
+        "q": "What food is given and what should I bring?",
+        "a": "Not listed. Call (718) 875-6960 to ask."
+      }
+    ]
+  }
+}

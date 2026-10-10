@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-payo-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:26.565Z",
+  "facts_hash": "4f3f6648b3998150",
+  "article": {
+    "title_es": "PAYO Food Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "PAYO Food Pantry: food pantry in Brooklyn",
+    "summary_es": "PAYO Food Pantry es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los jueves de 3pm a 5pm.",
+    "summary_en": "PAYO Food Pantry is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open Thursdays from 3pm to 5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1045 Coney Island Ave, Brooklyn, NY 11230.",
+      "Abre los jueves de 3pm a 5pm.",
+      "Puede llamar al (718) 713-2000 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1045 Coney Island Ave, Brooklyn, NY 11230.",
+      "It is open Thursdays from 3pm to 5pm.",
+      "You can call (718) 713-2000 to ask questions before visiting.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es jueves de 3pm a 5pm.",
+      "Llame al (718) 713-2000 antes de ir para confirmar detalles.",
+      "La lista no menciona documentos ni requisitos; pregunte por teléfono qué necesita."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Thursday, 3pm to 5pm.",
+      "Call (718) 713-2000 before going to confirm details.",
+      "The listing does not mention documents or requirements; ask by phone what you need."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está PAYO Food Pantry?",
+        "a": "En 1045 Coney Island Ave, Brooklyn, New York, 11230."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los jueves de 3pm a 5pm, según la lista."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "La lista no lo indica. Llame al (718) 713-2000 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is PAYO Food Pantry?",
+        "a": "At 1045 Coney Island Ave, Brooklyn, New York, 11230."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Thursdays from 3pm to 5pm, according to the listing."
+      },
+      {
+        "q": "What food does it give and what do I need to receive it?",
+        "a": "The listing does not say. Call (718) 713-2000 to ask."
+      }
+    ]
+  }
+}

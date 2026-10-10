@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-african-services-committee",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:22.228Z",
+  "facts_hash": "3e00e3d3fcdf1594",
+  "article": {
+    "title_es": "African Services Committee: ayuda legal de inmigración en Manhattan",
+    "title_en": "African Services Committee: immigration legal help in Manhattan",
+    "summary_es": "African Services Committee aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas cuyos representantes acreditados pueden brindar ayuda legal de inmigración. Está en Harlem, Manhattan.",
+    "summary_en": "African Services Committee appears on the U.S. Department of Justice (EOIR) list of recognized organizations whose accredited representatives may provide immigration legal help. It is located in Harlem, Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Es una organización sin fines de lucro.",
+      "La dirección es 429 West 127th Street, New York, NY 10027.",
+      "Los servicios y tarifas no están en esta información; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Its DOJ-accredited representatives may provide immigration legal help.",
+      "It is a non-profit organization.",
+      "The address is 429 West 127th Street, New York, NY 10027.",
+      "Services and fees are not listed here; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir: (212) 222-3882.",
+      "Pregunte cómo pedir una cita y si hay algún costo.",
+      "El horario de atención no está incluido; confírmelo por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call before you go: (212) 222-3882.",
+      "Ask how to make an appointment and whether there is any cost.",
+      "Hours are not included; confirm them by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están incluidas en esta información. Llame al (212) 222-3882 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Llame al (212) 222-3882 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit that appears on the DOJ (EOIR) roster of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in this information. Call (212) 222-3882 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. Call (212) 222-3882 to ask."
+      }
+    ]
+  }
+}

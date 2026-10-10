@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-church-of-the-atonement-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:08.784Z",
+  "facts_hash": "07265f207a3707f4",
+  "article": {
+    "title_es": "Church of the Atonement Food Pantry: despensa de alimentos en el Bronx",
+    "title_en": "Church of the Atonement Food Pantry: food pantry in the Bronx",
+    "summary_es": "Church of the Atonement Food Pantry es una despensa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la ciudad. Abre el segundo y el cuarto sábado del mes.",
+    "summary_en": "Church of the Atonement Food Pantry is a food pantry in the Bronx listed on the City's Food Help NYC map. It is open on the 2nd and 4th Saturday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1344 Beach Ave, en el Bronx.",
+      "Abre el segundo y el cuarto sábado del mes, de 10am a 12pm.",
+      "Puede llamar al (718) 828-6078 para más información.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1344 Beach Ave in the Bronx.",
+      "It is open on the 2nd and 4th Saturday of the month, 10am to 12pm.",
+      "You can call (718) 828-6078 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa solo abre el segundo y el cuarto sábado del mes.",
+      "El horario es de 10am a 12pm esos sábados.",
+      "Llame al (718) 828-6078 antes de ir para confirmar los detalles."
+    ],
+    "visit_tips_en": [
+      "The pantry is only open the 2nd and 4th Saturday of the month.",
+      "Hours are 10am to 12pm on those Saturdays.",
+      "Call (718) 828-6078 ahead to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Abre el segundo y el cuarto sábado de cada mes, de 10am a 12pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "Está en 1344 Beach Ave, Bronx, New York, 10472."
+      },
+      {
+        "q": "¿Cómo puedo confirmar los detalles?",
+        "a": "Llame al (718) 828-6078 antes de su visita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "It is open on the 2nd and 4th Saturday of each month, from 10am to 12pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "It is listed at 1344 Beach Ave, Bronx, New York, 10472."
+      },
+      {
+        "q": "How can I confirm the details?",
+        "a": "Call (718) 828-6078 before your visit."
+      }
+    ]
+  }
+}

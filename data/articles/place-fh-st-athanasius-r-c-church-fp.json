@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-athanasius-r-c-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:42.520Z",
+  "facts_hash": "42ba9c883a6efff3",
+  "article": {
+    "title_es": "Iglesia St. Athanasius: despensa de alimentos en Brooklyn",
+    "title_en": "St. Athanasius R.C. Church: food pantry in Brooklyn",
+    "summary_es": "La Iglesia St. Athanasius tiene una despensa de alimentos en Brooklyn, en el mapa Food Help NYC de la ciudad. Reparte alimentos los lunes por la tarde.",
+    "summary_en": "St. Athanasius R.C. Church has a food pantry in Brooklyn, listed on the City's Food Help NYC map. It distributes food on Monday afternoons.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 2154 61st street, Brooklyn, NY 11204.",
+      "Abre los lunes de 3:15pm a 5pm.",
+      "No hay distribución de la despensa el quinto lunes del mes.",
+      "Qué alimentos da y si hay requisitos no están indicados; pregunte llamando."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 2154 61st street, Brooklyn, NY 11204.",
+      "Open Mondays from 3:15pm to 5pm.",
+      "No pantry distribution on the 5th Monday of the month.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 236-0124 antes de ir para confirmar el horario.",
+      "Recuerde que no hay distribución el quinto lunes del mes.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call (718) 236-0124 before going to confirm the schedule.",
+      "Remember there is no distribution on the 5th Monday of the month.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "No está indicado en la información disponible. Llame al (718) 236-0124 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los lunes de 3:15pm a 5pm, sin distribución el quinto lunes del mes."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "No se indican requisitos. Llame al (718) 236-0124 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give out?",
+        "a": "That is not listed in the available information. Call (718) 236-0124 to ask."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Mondays from 3:15pm to 5pm, with no distribution on the 5th Monday of the month."
+      },
+      {
+        "q": "Do I need documents or meet requirements?",
+        "a": "No requirements are listed. Call (718) 236-0124 to ask before going."
+      }
+    ]
+  }
+}

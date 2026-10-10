@@ -1,0 +1,66 @@
+{
+  "place_id": "place-hra-queens-snap-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:56.521Z",
+  "facts_hash": "eaa78634803faa51",
+  "article": {
+    "title_es": "Centro HRA de SNAP en Queens: oficina de beneficios en LIC",
+    "title_en": "HRA Queens SNAP Center: benefits office in LIC",
+    "summary_es": "Este es un centro de beneficios de la Agencia de Recursos Humanos (HRA) de la Ciudad de Nueva York, donde puede solicitar SNAP (cupones de alimentos). Ofrece beneficios mensuales en una tarjeta EBT para comprar comida.",
+    "summary_en": "This is a New York City Human Resources Administration (HRA) benefits office where you can apply for SNAP (food stamps). It provides monthly benefits on an EBT card to buy groceries.",
+    "how_they_help_es": [
+      "Es una oficina pública de beneficios de la HRA de la Ciudad de Nueva York.",
+      "Puede solicitar SNAP, que da beneficios mensuales en una tarjeta EBT para comprar comida.",
+      "La elegibilidad para SNAP depende principalmente de sus ingresos y del número de personas en su hogar.",
+      "Puede aplicar en línea por ACCESS HRA, en persona en un centro SNAP, o por correo.",
+      "La decisión sobre su solicitud llega dentro de 30 días."
+    ],
+    "how_they_help_en": [
+      "This is a public benefits office of the NYC Human Resources Administration (HRA).",
+      "You can apply for SNAP, which gives monthly benefits on an EBT card to buy groceries.",
+      "SNAP eligibility is based mainly on your income and the number of people in your household.",
+      "You can apply online through ACCESS HRA, in person at a SNAP Center, or by mail.",
+      "You will receive a decision on your application within 30 days."
+    ],
+    "visit_tips_es": [
+      "La dirección es 32-20 Northern Blvd., 2do piso, LIC, NY 11101.",
+      "La entrada está en One Honeywell Street.",
+      "Horario: lunes a viernes, 8:30 a.m. a 5 p.m.",
+      "Si ya recibe beneficios, reporte cualquier cambio en sus ingresos, ahorros, dirección o personas en el hogar, y responda a los avisos de recertificación lo antes posible."
+    ],
+    "visit_tips_en": [
+      "The address is 32-20 Northern Blvd., 2nd Fl., LIC, NY 11101.",
+      "The entrance is on One Honeywell Street.",
+      "Hours: Mon-Fri 8:30am-5pm.",
+      "If you already get benefits, report any changes in your income, savings, address, or household members, and respond to recertification notices as soon as possible."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es SNAP?",
+        "a": "Es un programa que da beneficios mensuales en una tarjeta EBT para comprar comida. Depende principalmente de sus ingresos y del tamaño de su hogar."
+      },
+      {
+        "q": "¿Cómo puedo solicitar SNAP?",
+        "a": "En línea por ACCESS HRA, en persona en un centro SNAP u organización comunitaria, o por correo. También puede llamar a la línea de información de HRA: 718-557-1399."
+      },
+      {
+        "q": "¿Cuándo recibiré una respuesta?",
+        "a": "Recibirá una decisión dentro de 30 días. Si se aprueba, la tarjeta EBT llega por correo en hasta cinco días hábiles."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is SNAP?",
+        "a": "A program that gives monthly benefits on an EBT card to buy groceries. It depends mainly on your income and household size."
+      },
+      {
+        "q": "How can I apply for SNAP?",
+        "a": "Online through ACCESS HRA, in person at a SNAP Center or community organization, or by mail. You can also call the HRA Infoline: 718-557-1399."
+      },
+      {
+        "q": "When will I get an answer?",
+        "a": "You will receive a decision within 30 days. If approved, the EBT card arrives by mail in up to five business days."
+      }
+    ]
+  }
+}

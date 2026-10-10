@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-city-harvest-stapleton-mobile-market",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:50.780Z",
+  "facts_hash": "d4404f05d434c8c4",
+  "article": {
+    "title_es": "City Harvest - Stapleton Mobile Market: despensa en Staten Island",
+    "title_en": "City Harvest - Stapleton Mobile Market: food pantry in Staten Island",
+    "summary_es": "City Harvest - Stapleton Mobile Market es una despensa de alimentos en Staten Island que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "City Harvest - Stapleton Mobile Market is a food pantry in Staten Island listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 75 Hill St, Staten Island, NY 10304.",
+      "Abre martes y sábado de 9:30am a 11:30am.",
+      "La despensa funciona solo el primer martes y el tercer sábado del mes.",
+      "Qué alimentos entrega y si hay requisitos no están indicados; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 75 Hill St, Staten Island, NY 10304.",
+      "It is open Tuesdays and Saturdays, 9:30am-11:30am.",
+      "The pantry operates only the 1st Tuesday and 3rd Saturday of the month.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Vaya solo el primer martes o el tercer sábado del mes, de 9:30am a 11:30am.",
+      "Llame al (646) 412-0740 antes de ir para confirmar detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go only on the 1st Tuesday or 3rd Saturday of the month, 9:30am-11:30am.",
+      "Call (646) 412-0740 before visiting to confirm details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Martes y sábado de 9:30am a 11:30am, pero la despensa solo funciona el primer martes y el tercer sábado del mes."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "El teléfono indicado es (646) 412-0740. No se indica un sitio web ni un correo electrónico."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays and Saturdays, 9:30am-11:30am, but the pantry operates only the 1st Tuesday and 3rd Saturday of the month."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "The phone number listed is (646) 412-0740. No website or email is listed."
+      }
+    ]
+  }
+}

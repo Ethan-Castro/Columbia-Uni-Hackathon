@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-elohim-foundation-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:36.077Z",
+  "facts_hash": "a31d28d77369fbe5",
+  "article": {
+    "title_es": "ELOHIM FOUNDATION INC: despensa de alimentos en Brooklyn",
+    "title_en": "ELOHIM FOUNDATION INC: food pantry in Brooklyn",
+    "summary_es": "ELOHIM FOUNDATION INC es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "ELOHIM FOUNDATION INC is a food pantry in Brooklyn listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 4415 Glenwood Rd, Brooklyn, NY 11203.",
+      "Abre los lunes de 1pm a 2pm para la despensa.",
+      "Puede llamar al (929) 343-9393 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 4415 Glenwood Rd, Brooklyn, NY 11203.",
+      "It is open Mondays 1pm-2pm for the pantry.",
+      "You can call (929) 343-9393 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es solo los lunes de 1pm a 2pm.",
+      "Llame antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are only Mondays 1pm-2pm.",
+      "Call before you go to confirm hours and ask what you need.",
+      "The listing does not mention documents or requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 4415 Glenwood Rd, Brooklyn, NY 11203."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los lunes de 1pm a 2pm, según la lista."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No está indicado en la lista. Llame al (929) 343-9393 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 4415 Glenwood Rd, Brooklyn, NY 11203."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Mondays 1pm-2pm, according to the listing."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "That is not listed. Call (929) 343-9393 to ask."
+      }
+    ]
+  }
+}

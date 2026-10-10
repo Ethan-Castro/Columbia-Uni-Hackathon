@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-cabrini-immigrant-services",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:25.546Z",
+  "facts_hash": "c5c80a65f9087680",
+  "article": {
+    "title_es": "Cabrini Immigrant Services: ayuda legal de inmigración en Manhattan",
+    "title_en": "Cabrini Immigrant Services: immigration legal help in Manhattan",
+    "summary_es": "Cabrini Immigrant Services aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración. Está ubicada en 701 Fort Washington Ave, Nueva York, NY 10040, en Manhattan.",
+    "summary_en": "Cabrini Immigrant Services appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help. It is located at 701 Fort Washington Ave, New York, NY 10040, in Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Los representantes acreditados por el DOJ de organizaciones sin fines de lucro pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 701 Fort Washington Ave, Nueva York, NY 10040, en Manhattan.",
+      "Teléfono: (212) 791-4590.",
+      "Los costos y el proceso para obtener una cita no están indicados; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations and accredited representatives.",
+      "DOJ-accredited representatives of non-profits may give immigration legal help.",
+      "Located at 701 Fort Washington Ave, New York, NY 10040, in Manhattan.",
+      "Phone: (212) 791-4590.",
+      "Fees and the intake process are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir para preguntar por los servicios y cómo solicitar una cita.",
+      "La información de esta página fue verificada por última vez el 10 de octubre de 2026.",
+      "Pregunte por teléfono sobre costos, horarios y documentos antes de su visita."
+    ],
+    "visit_tips_en": [
+      "Call before you go to ask about services and how to request an appointment.",
+      "The information on this page was last checked on October 10, 2026.",
+      "Ask by phone about costs, hours, and documents before your visit."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas y representantes acreditados que pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los costos no están indicados en la información disponible. Llame al (212) 791-4590 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Llame al (212) 791-4590 para preguntar cómo solicitar ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is an organization listed on the U.S. Department of Justice (EOIR) roster of recognized organizations and accredited representatives that may provide immigration legal help."
+      },
+      {
+        "q": "How much do the services cost?",
+        "a": "Fees are not listed in the available information. Call (212) 791-4590 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. Call (212) 791-4590 to ask how to request help."
+      }
+    ]
+  }
+}

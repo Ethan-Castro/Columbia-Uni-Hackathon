@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-new-beginning-food-program",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:17.602Z",
+  "facts_hash": "858ec78e4e7d485a",
+  "article": {
+    "title_es": "New Beginning Food Program: despensa de alimentos en Queens",
+    "title_en": "New Beginning Food Program: food pantry in Queens",
+    "summary_es": "New Beginning Food Program es una despensa de alimentos en Queens que aparece en el mapa Food Help NYC de la ciudad. Abre solo el segundo martes de cada mes.",
+    "summary_en": "New Beginning Food Program is a food pantry in Queens listed on the City's Food Help NYC map. It opens only on the 2nd Tuesday of each month.",
+    "how_they_help_es": [
+      "Despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Ubicada en 242-01 Braddock Ave, Bellerose, NY, 11426.",
+      "Abre los martes de 10am a 11:30am.",
+      "La despensa abre solo el segundo martes del mes.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte al visitar."
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the City's Food Help NYC map.",
+      "Located at 242-01 Braddock Ave, Bellerose, NY, 11426.",
+      "Open Tuesday from 10am to 11:30am.",
+      "Pantry is only open on the 2nd Tuesday of the month.",
+      "What food is given and any requirements are not listed, so ask when you visit."
+    ],
+    "visit_tips_es": [
+      "Planifique su visita para el segundo martes del mes, de 10am a 11:30am.",
+      "Los horarios se verificaron por última vez el 2026-10-10; confirme los detalles en el mapa Food Help NYC de la ciudad antes de ir."
+    ],
+    "visit_tips_en": [
+      "Plan your visit for the 2nd Tuesday of the month, from 10am to 11:30am.",
+      "Hours were last checked on 2026-10-10; confirm details on the City's Food Help NYC map before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los martes de 10am a 11:30am, pero solo el segundo martes del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 242-01 Braddock Ave, Bellerose, NY, 11426, en Queens."
+      },
+      {
+        "q": "¿Qué necesito para recibir alimentos?",
+        "a": "No se indican requisitos. Consulte el mapa Food Help NYC de la ciudad o pregunte al visitar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday 10am-11:30am, but only on the 2nd Tuesday of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "242-01 Braddock Ave, Bellerose, NY, 11426, in Queens."
+      },
+      {
+        "q": "What do I need to get food?",
+        "a": "Requirements are not listed. Check the City's Food Help NYC map or ask when you visit."
+      }
+    ]
+  }
+}

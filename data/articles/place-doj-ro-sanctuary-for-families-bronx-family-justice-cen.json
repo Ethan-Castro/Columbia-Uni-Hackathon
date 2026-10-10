@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-sanctuary-for-families-bronx-family-justice-cen",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:14.586Z",
+  "facts_hash": "ce2e7b063b1d27cb",
+  "article": {
+    "title_es": "Sanctuary for Families: oficina en el Bronx (Centro de Justicia Familiar)",
+    "title_en": "Sanctuary for Families: Bronx Family Justice Center Extension Office",
+    "summary_es": "Sanctuary for Families tiene una oficina de extensión en el Centro de Justicia Familiar del Bronx. Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal en inmigración.",
+    "summary_en": "Sanctuary for Families has an extension office at the Bronx Family Justice Center. It appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados por el DOJ pueden dar ayuda legal en inmigración.",
+      "Está ubicada en 198 E. 161 Street, 2nd Floor, Bronx, NY 10451.",
+      "Puede llamar al (718) 508-1220 para preguntar por sus servicios.",
+      "La lista no incluye los servicios específicos ni los costos, así que pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) Roster of Recognized Organizations and Accredited Representatives.",
+      "Recognized organizations are non-profits whose DOJ-accredited representatives may give immigration legal help.",
+      "Located at 198 E. 161 Street, 2nd Floor, Bronx, NY 10451.",
+      "You can call (718) 508-1220 to ask about its services.",
+      "The listing does not include specific services or fees, so ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (718) 508-1220 para preguntar cómo solicitar una cita o ayuda.",
+      "Pregunte por teléfono si hay costos, ya que estos no aparecen en la lista.",
+      "La dirección es 198 E. 161 Street, 2nd Floor, Bronx, NY 10451."
+    ],
+    "visit_tips_en": [
+      "Call (718) 508-1220 first to ask how to request an appointment or help.",
+      "Ask by phone whether there are fees, since fees are not listed.",
+      "The address is 198 E. 161 Street, 2nd Floor, Bronx, NY 10451."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es la oficina de extensión de Sanctuary for Families en el Centro de Justicia Familiar del Bronx."
+      },
+      {
+        "q": "¿Está reconocida oficialmente?",
+        "a": "Sí, aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas y representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los costos no aparecen en la lista. Llame al (718) 508-1220 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is the Sanctuary for Families extension office at the Bronx Family Justice Center."
+      },
+      {
+        "q": "Is it officially recognized?",
+        "a": "Yes, it appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (718) 508-1220 to ask."
+      }
+    ]
+  }
+}

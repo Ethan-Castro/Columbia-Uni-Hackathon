@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-in-the-beginning-outreach-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:43.981Z",
+  "facts_hash": "31939375aa053cf0",
+  "article": {
+    "title_es": "In The Beginning Outreach: despensa de alimentos en St. Albans, Queens",
+    "title_en": "In The Beginning Outreach: food pantry in St. Albans, Queens",
+    "summary_es": "In The Beginning Outreach, Inc. es una despensa de alimentos en St. Albans, Queens, que aparece en el mapa Food Help NYC. Abre los miércoles de 12:30pm a 2pm.",
+    "summary_en": "In The Beginning Outreach, Inc. is a food pantry in St. Albans, Queens, listed on the Food Help NYC map. It is open Wednesdays from 12:30pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 189-13 Liberty Ave, St. Albans, NY 11412.",
+      "Atiende los miércoles de 12:30pm a 2pm.",
+      "Se puede llamar al (516) 303-5202 para preguntar.",
+      "La lista no dice qué alimentos entrega ni qué requisitos hay; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 189-13 Liberty Ave, St. Albans, NY 11412.",
+      "It is open Wednesdays from 12:30pm to 2pm.",
+      "You can call (516) 303-5202 with questions.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es miércoles de 12:30pm a 2pm.",
+      "Llame al (516) 303-5202 antes de ir para confirmar el horario y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesdays from 12:30pm to 2pm.",
+      "Call (516) 303-5202 before going to confirm hours and ask what to bring.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (516) 303-5202 para preguntar qué alimentos ofrece."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los miércoles de 12:30pm a 2pm, según la lista."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos. Se recomienda llamar antes de ir para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (516) 303-5202 to ask what food is offered."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays from 12:30pm to 2pm, according to the listing."
+      },
+      {
+        "q": "Do I need any documents or meet requirements?",
+        "a": "The listing does not mention any requirements. It is best to call before going to ask."
+      }
+    ]
+  }
+}

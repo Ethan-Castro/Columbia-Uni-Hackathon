@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-masbia-of-flatbush",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:45.312Z",
+  "facts_hash": "3252183039ba6042",
+  "article": {
+    "title_es": "Masbia of Flatbush: despensa y comedor en Brooklyn",
+    "title_en": "Masbia of Flatbush: food pantry and soup kitchen in Brooklyn",
+    "summary_es": "Masbia of Flatbush es una despensa de alimentos y comedor de sopa en Brooklyn, en la avenida Coney Island. Atiende de lunes a jueves y los domingos, con horario por la tarde y noche.",
+    "summary_en": "Masbia of Flatbush is a food pantry and soup kitchen in Brooklyn, on Coney Island Avenue. It is open Monday through Thursday and on Sundays, in the afternoon and evening.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "También funciona como comedor de sopa (soup kitchen).",
+      "Está ubicado en 1372 Coney Island Ave, Brooklyn, NY 11230.",
+      "Abre de lunes a jueves y los domingos, de 12pm a 9pm.",
+      "La lista no indica qué alimentos entrega ni los requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "It also operates as a soup kitchen.",
+      "Located at 1372 Coney Island Ave, Brooklyn, NY 11230.",
+      "Open Monday through Thursday and Sundays, 12pm to 9pm.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Horario de despensa: lunes a jueves y domingo, 12pm a 9pm.",
+      "Horario del comedor: lunes a jueves y domingo, 4pm a 9pm.",
+      "Antes de ir, llame al (718) 972-4446 para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Monday to Thursday and Sunday, 12pm to 9pm.",
+      "Soup kitchen hours: Monday to Thursday and Sunday, 4pm to 9pm.",
+      "Before going, call (718) 972-4446 to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece Masbia of Flatbush?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos y también un comedor de sopa."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Despensa: lunes a jueves y domingo, 12pm a 9pm. Comedor: lunes a jueves y domingo, 4pm a 9pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué requisitos hay?",
+        "a": "La lista no indica requisitos ni documentos. Llame al (718) 972-4446 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does Masbia of Flatbush offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry and also a soup kitchen."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Pantry: Monday to Thursday and Sunday, 12pm to 9pm. Soup kitchen: Monday to Thursday and Sunday, 4pm to 9pm."
+      },
+      {
+        "q": "What should I bring or what are the requirements?",
+        "a": "The listing does not mention requirements or documents. Call (718) 972-4446 to ask before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-siloam-presbyterian-church-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:54.072Z",
+  "facts_hash": "5d9f694d7c5df510",
+  "article": {
+    "title_es": "Siloam Presbyterian Church: despensa de alimentos en Brooklyn",
+    "title_en": "Siloam Presbyterian Church: food pantry in Brooklyn",
+    "summary_es": "La iglesia Siloam Presbyterian tiene una despensa de alimentos en Brooklyn que abre los miércoles. Llame para confirmar detalles antes de ir.",
+    "summary_en": "Siloam Presbyterian Church runs a food pantry in Brooklyn that opens on Wednesdays. Call ahead to confirm details before visiting.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC.",
+      "Entrega alimentos los miércoles de 10am a 12pm.",
+      "Está en 260 Jefferson Ave, Brooklyn, NY 11216.",
+      "Puede llamar al (718) 789-7050 para preguntar.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It gives out food on Wednesdays from 10am to 12pm.",
+      "It is located at 260 Jefferson Ave, Brooklyn, NY 11216.",
+      "You can call (718) 789-7050 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los miércoles de 10am a 12pm.",
+      "Llame primero al (718) 789-7050 para confirmar el horario.",
+      "Pregunte por teléfono qué alimentos dan y si necesita algo para recibirlos."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesdays from 10am to 12pm.",
+      "Call (718) 789-7050 first to confirm the schedule.",
+      "Ask by phone what food is given and if you need anything to receive it."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 10am a 12pm, según la información oficial."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 260 Jefferson Ave, Brooklyn, NY 11216."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La lista no lo indica. Llame al (718) 789-7050 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 10am to 12pm, according to the official listing."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 260 Jefferson Ave, Brooklyn, NY 11216."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (718) 789-7050 to ask before you go."
+      }
+    ]
+  }
+}

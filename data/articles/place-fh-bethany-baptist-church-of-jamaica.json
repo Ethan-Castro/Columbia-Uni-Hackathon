@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-bethany-baptist-church-of-jamaica",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:46.031Z",
+  "facts_hash": "a6b2f5747c7c6571",
+  "article": {
+    "title_es": "Bethany Baptist Church of Jamaica: despensa de alimentos en Queens",
+    "title_en": "Bethany Baptist Church of Jamaica: food pantry in Queens",
+    "summary_es": "Bethany Baptist Church of Jamaica es una despensa de alimentos en Queens que aparece en el mapa Food Help NYC de la ciudad. Atiende los martes y miércoles de 11am a 2pm.",
+    "summary_en": "Bethany Baptist Church of Jamaica is a food pantry in Queens listed on the City's Food Help NYC map. It is open for pantry service Tuesday and Wednesday from 11am to 2pm.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 157-11 111th Ave, Jamaica, Queens, NY 11433.",
+      "Abre para servicio de despensa martes y miércoles de 11am a 2pm.",
+      "Puede llamar al (718) 659-6099 para más información."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 157-11 111th Ave, Jamaica, Queens, NY 11433.",
+      "Open for pantry service Tuesday and Wednesday, 11am to 2pm.",
+      "You can call (718) 659-6099 for more information."
+    ],
+    "visit_tips_es": [
+      "Vaya durante el horario de la despensa: martes y miércoles de 11am a 2pm.",
+      "Llame antes al (718) 659-6099 para preguntar qué alimentos entregan y si hay requisitos.",
+      "La información no indica qué documentos se necesitan, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go during pantry hours: Tuesday and Wednesday, 11am to 2pm.",
+      "Call (718) 659-6099 ahead to ask what food is given and any requirements.",
+      "The listing does not say what documents are needed, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Bethany Baptist Church of Jamaica?",
+        "a": "Es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "El horario de la despensa es martes y miércoles de 11am a 2pm."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La información no lo indica. Llame al (718) 659-6099 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Bethany Baptist Church of Jamaica?",
+        "a": "It is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Pantry hours are Tuesday and Wednesday, 11am to 2pm."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (718) 659-6099 to ask before you go."
+      }
+    ]
+  }
+}

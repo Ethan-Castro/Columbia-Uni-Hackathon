@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-way-out-church-ministries-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:43.388Z",
+  "facts_hash": "29f1060d1d0b08c9",
+  "article": {
+    "title_es": "WAY OUT CHURCH MINISTRIES: despensa de alimentos en el Bronx",
+    "title_en": "WAY OUT CHURCH MINISTRIES: food pantry in the Bronx",
+    "summary_es": "WAY OUT CHURCH MINISTRIES, INC es una despensa de alimentos en el Bronx, en la calle 520 E 148th St. Abre los miércoles y viernes por la mañana.",
+    "summary_en": "WAY OUT CHURCH MINISTRIES, INC is a food pantry in the Bronx, at 520 E 148th St. It opens Wednesday and Friday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Entrega alimentos los miércoles de 9am a 10:30am.",
+      "También abre los viernes de 9am a 10:30am.",
+      "Puede llamar al (718) 665-8069 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It gives out food on Wednesdays from 9am to 10:30am.",
+      "It is also open on Fridays from 9am to 10:30am.",
+      "You can call (718) 665-8069 to ask questions."
+    ],
+    "visit_tips_es": [
+      "La dirección es 520 E 148th St, Bronx, New York, 10455.",
+      "Vaya durante el horario de despensa: miércoles o viernes de 9am a 10:30am.",
+      "Llame antes al (718) 665-8069 para confirmar qué alimentos dan y si necesita algo."
+    ],
+    "visit_tips_en": [
+      "The address is 520 E 148th St, Bronx, New York, 10455.",
+      "Go during pantry hours: Wednesday or Friday from 9am to 10:30am.",
+      "Call ahead at (718) 665-8069 to confirm what food is given and if you need anything."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no dice qué alimentos da. Llame al (718) 665-8069 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Miércoles y viernes de 9am a 10:30am, como despensa de alimentos."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos. Llame al (718) 665-8069 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say what food is given. Call (718) 665-8069 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesday and Friday from 9am to 10:30am, as a food pantry."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements. Call (718) 665-8069 to ask before going."
+      }
+    ]
+  }
+}

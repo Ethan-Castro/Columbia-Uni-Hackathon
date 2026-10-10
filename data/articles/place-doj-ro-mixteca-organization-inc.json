@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-mixteca-organization-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:19.615Z",
+  "facts_hash": "891e476a915f6c7e",
+  "article": {
+    "title_es": "Mixteca Organization Inc.: organización en la lista del DOJ en Brooklyn",
+    "title_en": "Mixteca Organization Inc.: DOJ-listed organization in Brooklyn",
+    "summary_es": "Mixteca Organization Inc. es una organización sin fines de lucro de Brooklyn que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+    "summary_en": "Mixteca Organization Inc. is a non-profit in Brooklyn that appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Los representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 245 23rd Street, 2nd Floor, Brooklyn, NY 11215.",
+      "Teléfono: (718) 965-4795.",
+      "Los servicios y las tarifas no están detallados en esta información; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 245 23rd Street, 2nd Floor, Brooklyn, NY 11215.",
+      "Phone: (718) 965-4795.",
+      "Services and fees are not detailed here; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (718) 965-4795 para preguntar por sus servicios.",
+      "Las tarifas y el proceso para obtener una cita no aparecen en esta información.",
+      "El horario de atención no está incluido; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 965-4795 to ask about their services.",
+      "Fees and how to get an appointment are not listed in this information.",
+      "Hours are not included; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Mixteca Organization Inc.?",
+        "a": "Es una organización sin fines de lucro de Brooklyn que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en esta información. Llame al (718) 965-4795 para preguntar."
+      },
+      {
+        "q": "¿Cómo puedo obtener una cita?",
+        "a": "El proceso para obtener una cita no está listado. Llame al (718) 965-4795 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Mixteca Organization Inc.?",
+        "a": "It is a non-profit in Brooklyn that appears on the DOJ (EOIR) roster of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in this information. Call (718) 965-4795 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The appointment process is not listed. Call (718) 965-4795 to ask."
+      }
+    ]
+  }
+}

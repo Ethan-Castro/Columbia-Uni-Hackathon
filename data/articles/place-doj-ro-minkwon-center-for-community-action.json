@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-minkwon-center-for-community-action",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:19.825Z",
+  "facts_hash": "cf24afa6e526577f",
+  "article": {
+    "title_es": "MinKwon Center for Community Action: ayuda legal de inmigración en Queens",
+    "title_en": "MinKwon Center for Community Action: immigration legal help in Queens",
+    "summary_es": "El MinKwon Center for Community Action es una organización sin fines de lucro en Flushing, Queens, que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración.",
+    "summary_en": "The MinKwon Center for Community Action is a non-profit organization in Flushing, Queens, that appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 133-29 41st Avenue, Suite 202, Flushing, NY 11355.",
+      "Se puede llamar al (718) 460-5600 para preguntar por sus servicios.",
+      "Los servicios, horarios y costos no están en esta información; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations and accredited representatives.",
+      "Recognized organizations are non-profits whose DOJ-accredited representatives may give immigration legal help.",
+      "Located at 133-29 41st Avenue, Suite 202, Flushing, NY 11355.",
+      "You can call (718) 460-5600 to ask about their services.",
+      "Services, hours, and costs are not listed here; ask the organization directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (718) 460-5600 para confirmar cómo recibir ayuda y si necesita una cita.",
+      "La dirección es 133-29 41st Avenue, Suite 202, Flushing, NY 11355, en Queens.",
+      "Los horarios de atención no están incluidos en esta información; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (718) 460-5600 to confirm how to get help and whether you need an appointment.",
+      "The address is 133-29 41st Avenue, Suite 202, Flushing, NY 11355, in Queens.",
+      "Hours of operation are not listed in this information; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los costos no están incluidos en esta información. Llame al (718) 460-5600 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está listado. Se recomienda llamar al (718) 460-5600 para preguntar cómo recibir ayuda."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit organization that appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in this information. Call (718) 460-5600 to ask before going."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The intake process is not listed. It is best to call (718) 460-5600 to ask how to get help."
+      }
+    ]
+  }
+}

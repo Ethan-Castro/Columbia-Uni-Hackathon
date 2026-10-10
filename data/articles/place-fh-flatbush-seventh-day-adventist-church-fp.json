@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-flatbush-seventh-day-adventist-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:36.931Z",
+  "facts_hash": "76aee99cad2f67a7",
+  "article": {
+    "title_es": "Iglesia Flatbush Seventh Day Adventist: despensa de alimentos en Brooklyn",
+    "title_en": "Flatbush Seventh Day Adventist Church: food pantry in Brooklyn",
+    "summary_es": "La Iglesia Flatbush Seventh Day Adventist aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, con servicio los lunes de 11am a 1pm.",
+    "summary_en": "Flatbush Seventh Day Adventist Church is listed on the Food Help NYC map as a food pantry in Brooklyn, open Mondays from 11am to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Ofrece servicio de despensa los lunes de 11am a 1pm.",
+      "Está ubicada en 261 E 21st St, Brooklyn, NY 11226.",
+      "Puede llamar al (718) 693-9180 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "Pantry service is offered Mondays from 11am to 1pm.",
+      "It is located at 261 E 21st St, Brooklyn, NY 11226.",
+      "You can call (718) 693-9180 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es lunes de 11am a 1pm; llegue dentro de ese horario.",
+      "Llame al (718) 693-9180 antes de ir para confirmar el servicio y preguntar qué necesita llevar.",
+      "La página no indica qué alimentos se entregan ni si hay requisitos."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Mondays 11am-1pm; plan to visit during that time.",
+      "Call (718) 693-9180 before going to confirm service and ask what to bring.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos, con servicio los lunes de 11am a 1pm."
+      },
+      {
+        "q": "¿Necesito hacer una cita o llevar documentos?",
+        "a": "La información no lo indica. Se recomienda llamar al (718) 693-9180 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Qué alimentos entregan y hay algún requisito?",
+        "a": "No está indicado en la información disponible. Llame al (718) 693-9180 para saber más."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is listed on the Food Help NYC map as a food pantry, with service on Mondays from 11am to 1pm."
+      },
+      {
+        "q": "Do I need an appointment or documents?",
+        "a": "The listing does not say. It is best to call (718) 693-9180 to ask before visiting."
+      },
+      {
+        "q": "What food do they give, and are there requirements?",
+        "a": "That is not listed in the available information. Call (718) 693-9180 to find out more."
+      }
+    ]
+  }
+}

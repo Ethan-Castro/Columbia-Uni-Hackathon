@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-north-bronx-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:00.794Z",
+  "facts_hash": "89fdebca70e09c37",
+  "article": {
+    "title_es": "North Bronx Seventh Day Adventist Church: despensa de alimentos en el Bronx",
+    "title_en": "North Bronx Seventh Day Adventist Church: food pantry in the Bronx",
+    "summary_es": "Esta iglesia en el Bronx aparece en el mapa Food Help NYC como despensa de alimentos. Abre los viernes de 9am a 12pm.",
+    "summary_en": "This Bronx church appears on the Food Help NYC map as a food pantry. It is open Fridays from 9am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Reparte alimentos los viernes de 9am a 12pm.",
+      "Está ubicada en 3743 Bronxwood Ave, Bronx, NY 10469.",
+      "Puede llamar al (718) 882-4907 para preguntar.",
+      "La lista no indica qué alimentos da ni qué requisitos pide; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "Food is distributed on Fridays from 9am to 12pm.",
+      "It is located at 3743 Bronxwood Ave, Bronx, NY 10469.",
+      "You can call (718) 882-4907 with questions.",
+      "The listing does not say what food is given or what is required; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los viernes de 9am a 12pm.",
+      "Llame al (718) 882-4907 antes de ir para confirmar horarios y requisitos.",
+      "La dirección es 3743 Bronxwood Ave, Bronx, NY 10469."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Fridays from 9am to 12pm.",
+      "Call (718) 882-4907 before going to confirm hours and requirements.",
+      "The address is 3743 Bronxwood Ave, Bronx, NY 10469."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC de la Ciudad, es una despensa de alimentos."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los viernes de 9am a 12pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué requisitos hay?",
+        "a": "La lista no indica requisitos ni documentos. Llame al (718) 882-4907 antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the City's Food Help NYC map, it is a food pantry."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Fridays from 9am to 12pm."
+      },
+      {
+        "q": "What should I bring or what are the requirements?",
+        "a": "The listing does not mention requirements or documents. Call (718) 882-4907 before going."
+      }
+    ]
+  }
+}

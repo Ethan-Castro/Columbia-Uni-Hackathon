@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-spanish-seventh-day-adventist-church-food-pa",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:38.292Z",
+  "facts_hash": "3d0b41edbef28b65",
+  "article": {
+    "title_es": "Iglesia Adventista del Séptimo Día Hispana: despensa en el Bronx",
+    "title_en": "Spanish Seventh Day Adventist Church: food pantry in the Bronx",
+    "summary_es": "Esta iglesia en el Bronx tiene una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. Abre los jueves de 10am a 1pm.",
+    "summary_en": "This Bronx church has a food pantry listed on the City's Food Help NYC map. It is open Thursdays 10am-1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa oficial Food Help NYC.",
+      "Está en 1038 Prospect Ave, Bronx, NY 10459.",
+      "Abre los jueves de 10am a 1pm.",
+      "Puede llamar al (845) 729-8804 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the official Food Help NYC map.",
+      "It is located at 1038 Prospect Ave, Bronx, NY 10459.",
+      "It is open Thursdays 10am-1pm.",
+      "You can call (845) 729-8804 to ask before going.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los jueves de 10am a 1pm.",
+      "Llame al (845) 729-8804 antes de ir para confirmar el horario.",
+      "La dirección es 1038 Prospect Ave, Bronx, NY 10459."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Thursdays 10am-1pm.",
+      "Call (845) 729-8804 before going to confirm the schedule.",
+      "The address is 1038 Prospect Ave, Bronx, NY 10459."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La lista no lo dice. Puede llamar al (845) 729-8804 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos. Se recomienda llamar antes de ir."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los jueves de 10am a 1pm, según la información oficial."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give?",
+        "a": "The listing does not say. You can call (845) 729-8804 to ask."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements. It is best to call before going."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Thursdays 10am-1pm, according to the official listing."
+      }
+    ]
+  }
+}

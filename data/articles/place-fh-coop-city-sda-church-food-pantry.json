@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-coop-city-sda-church-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:13.922Z",
+  "facts_hash": "d80b2cf43fd3df5c",
+  "article": {
+    "title_es": "Coop City SDA Church: despensa de alimentos en el Bronx",
+    "title_en": "Coop City SDA Church: food pantry in the Bronx",
+    "summary_es": "La iglesia Coop City SDA Church tiene una despensa de alimentos en el Bronx, en 1010 Baychester Ave. Abre los miércoles de 5:30 pm a 7 pm.",
+    "summary_en": "Coop City SDA Church runs a food pantry in the Bronx at 1010 Baychester Ave. It is open on Wednesdays from 5:30pm to 7pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está en 1010 Baychester Ave, Bronx, NY 10475.",
+      "Abre los miércoles de 5:30 pm a 7 pm, solo el primer, segundo, tercer y cuarto miércoles del mes.",
+      "Puede llamar al (718) 320-0518 para preguntar antes de ir.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1010 Baychester Ave, Bronx, NY 10475.",
+      "It is open Wednesdays 5:30pm-7pm, only on the 1st, 2nd, 3rd, and 4th Wednesday of the month.",
+      "You can call (718) 320-0518 to ask before you go.",
+      "The listing does not say what food is given or if there are any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Recuerde que la despensa solo abre el primer, segundo, tercer y cuarto miércoles del mes, no todos los miércoles.",
+      "El horario es de 5:30 pm a 7 pm, así que es una opción para quienes trabajan de día.",
+      "Llame al (718) 320-0518 antes de ir para confirmar los detalles."
+    ],
+    "visit_tips_en": [
+      "Remember the pantry is only open on the 1st, 2nd, 3rd, and 4th Wednesday of the month, not every Wednesday.",
+      "Hours are 5:30pm to 7pm, so it can work for people who are busy during the day.",
+      "Call (718) 320-0518 before you go to confirm the details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La lista no lo indica. Llame al (718) 320-0518 para preguntar qué ofrece."
+      },
+      {
+        "q": "¿Dónde queda la despensa?",
+        "a": "En 1010 Baychester Ave, Bronx, New York, 10475."
+      },
+      {
+        "q": "¿Abre todos los miércoles?",
+        "a": "No. Solo abre el primer, segundo, tercer y cuarto miércoles del mes, de 5:30 pm a 7 pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give out?",
+        "a": "The listing does not say. Call (718) 320-0518 to ask what they offer."
+      },
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 1010 Baychester Ave, Bronx, New York, 10475."
+      },
+      {
+        "q": "Is it open every Wednesday?",
+        "a": "No. It is only open on the 1st, 2nd, 3rd, and 4th Wednesday of the month, from 5:30pm to 7pm."
+      }
+    ]
+  }
+}

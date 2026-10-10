@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-feeding-the-vulnerable-fort-greene",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:35.079Z",
+  "facts_hash": "968c290c82bac680",
+  "article": {
+    "title_es": "Feeding the Vulnerable: despensa de alimentos en Fort Greene, Brooklyn",
+    "title_en": "Feeding the Vulnerable: food pantry in Fort Greene, Brooklyn",
+    "summary_es": "Feeding the Vulnerable es una despensa de alimentos en Fort Greene, Brooklyn, que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados de 9am a 1pm.",
+    "summary_en": "Feeding the Vulnerable is a food pantry in Fort Greene, Brooklyn, listed on the City's Food Help NYC map. It is open Saturdays from 9am to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 141 Flushing Ave, Brooklyn, NY 11205.",
+      "Abre los sábados de 9am a 1pm.",
+      "Puede llamar al (419) 619-3292 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 141 Flushing Ave, Brooklyn, NY 11205.",
+      "It is open Saturdays from 9am to 1pm.",
+      "You can call (419) 619-3292 to ask questions before going.",
+      "The listing does not say what food is given or if there are any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya el sábado entre 9am y 1pm.",
+      "Llame al (419) 619-3292 antes de ir para confirmar horarios y detalles.",
+      "Pregunte qué alimentos ofrece y si necesita algo para recibirlos, porque no está indicado en la lista."
+    ],
+    "visit_tips_en": [
+      "Go on Saturday between 9am and 1pm.",
+      "Call (419) 619-3292 before going to confirm hours and details.",
+      "Ask what food is offered and if anything is needed to receive it, since the listing does not say."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 141 Flushing Ave, Brooklyn, NY 11205."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Sábados de 9am a 1pm."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "No está indicado en la lista. Llame al (419) 619-3292 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry?",
+        "a": "At 141 Flushing Ave, Brooklyn, NY 11205."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Saturdays from 9am to 1pm."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "The listing does not say. Call (419) 619-3292 to ask."
+      }
+    ]
+  }
+}

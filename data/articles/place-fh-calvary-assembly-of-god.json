@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-calvary-assembly-of-god",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:17.462Z",
+  "facts_hash": "bc9802c8af0c2aa6",
+  "article": {
+    "title_es": "Calvary Assembly of God: despensa de alimentos en Staten Island",
+    "title_en": "Calvary Assembly of God: food pantry in Staten Island",
+    "summary_es": "Calvary Assembly of God aparece en el mapa Food Help NYC como despensa de alimentos en Staten Island. Reparte alimentos el segundo y el cuarto miércoles del mes, de 9:00 am a 11:30 am.",
+    "summary_en": "Calvary Assembly of God appears on the Food Help NYC map as a food pantry in Staten Island. It distributes food on the 2nd and 4th Wednesday of the month, from 9am to 11:30am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Reparte alimentos el segundo y el cuarto miércoles del mes.",
+      "Está ubicada en 4055 Richmond Ave, Staten Island, NY 10312.",
+      "Puede llamar al (718) 356-4555 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on the 2nd and 4th Wednesday of the month.",
+      "It is located at 4055 Richmond Ave, Staten Island, NY 10312.",
+      "You can call (718) 356-4555 to ask questions before going."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es miércoles de 9:00 am a 11:30 am, pero la despensa funciona solo el segundo y el cuarto miércoles del mes.",
+      "La lista no dice qué alimentos entrega ni si pide algún requisito; llame al (718) 356-4555 para preguntar.",
+      "Verifique el horario antes de viajar, ya que la información fue revisada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The listed hours are Wednesday 9am-11:30am, but the pantry runs only on the 2nd and 4th Wednesday of the month.",
+      "The listing does not say what food is given or if there are any requirements; call (718) 356-4555 to ask.",
+      "Check the schedule before traveling, since the information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Calvary Assembly of God?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "El horario indicado es miércoles de 9:00 am a 11:30 am, y la despensa funciona el segundo y el cuarto miércoles del mes."
+      },
+      {
+        "q": "¿Qué debo hacer antes de ir?",
+        "a": "La lista no indica qué alimentos entrega ni los requisitos. Llame al (718) 356-4555 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Calvary Assembly of God?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "The listed hours are Wednesday 9am-11:30am, and the pantry runs on the 2nd and 4th Wednesday of the month."
+      },
+      {
+        "q": "What should I do before going?",
+        "a": "The listing does not say what food is given or the requirements. Call (718) 356-4555 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-better-community-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:53.245Z",
+  "facts_hash": "c1d1a741ad583caf",
+  "article": {
+    "title_es": "Better Community Food Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "Better Community Food Pantry: food pantry in Brooklyn",
+    "summary_es": "Better Community Food Pantry es una despensa de alimentos en Brooklyn, NY, que aparece en el mapa Food Help NYC de la Ciudad. Abre los sábados de 9am a 1pm.",
+    "summary_en": "Better Community Food Pantry is a food pantry in Brooklyn, NY, listed on the City's Food Help NYC map. It is open Saturdays from 9am to 1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 218 Buffalo Ave, Brooklyn, NY 11213.",
+      "Abre los sábados de 9am a 1pm (despensa).",
+      "Puede llamar al (347) 240-9352 para más información.",
+      "La información no dice qué alimentos entrega, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 218 Buffalo Ave in Brooklyn, NY 11213.",
+      "It is open Saturdays from 9am to 1pm (pantry).",
+      "You can call (347) 240-9352 for more information.",
+      "The listing does not say what food is given, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los sábados de 9am a 1pm.",
+      "Llame al (347) 240-9352 antes de ir para preguntar qué alimentos entrega y si hay requisitos.",
+      "La dirección es 218 Buffalo Ave, Brooklyn, NY 11213."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Saturdays from 9am to 1pm.",
+      "Call (347) 240-9352 before you go to ask about the food given and any requirements.",
+      "The address is 218 Buffalo Ave, Brooklyn, NY 11213."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Better Community Food Pantry?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad, ubicada en 218 Buffalo Ave, Brooklyn, NY 11213."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Abre los sábados de 9am a 1pm (despensa)."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "La información no dice qué alimentos entrega ni si hay requisitos. Llame al (347) 240-9352 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Better Community Food Pantry?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map, located at 218 Buffalo Ave, Brooklyn, NY 11213."
+      },
+      {
+        "q": "When is it open?",
+        "a": "It is open Saturdays from 9am to 1pm (pantry)."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "The listing does not say what food is given or if there are any requirements. Call (347) 240-9352 to ask."
+      }
+    ]
+  }
+}

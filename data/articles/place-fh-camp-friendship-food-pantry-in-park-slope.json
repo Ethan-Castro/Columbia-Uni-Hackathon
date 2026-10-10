@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-camp-friendship-food-pantry-in-park-slope",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:28.098Z",
+  "facts_hash": "ac72427b3728648b",
+  "article": {
+    "title_es": "Camp Friendship Food Pantry: despensa de alimentos en Park Slope",
+    "title_en": "Camp Friendship Food Pantry: food pantry in Park Slope",
+    "summary_es": "Camp Friendship es una despensa de alimentos en Park Slope, Brooklyn, que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados por la mañana.",
+    "summary_en": "Camp Friendship is a food pantry in Park Slope, Brooklyn, listed on the City's Food Help NYC map. It is open on Saturday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 339 8th St, Brooklyn, NY 11215.",
+      "Abre los sábados de 9am a 12pm para la despensa.",
+      "Puede llamar al (718) 965-3695 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 339 8th St, Brooklyn, NY 11215.",
+      "It is open Saturdays from 9am to 12pm for the pantry.",
+      "You can call (718) 965-3695 to ask before you go.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre solo los sábados de 9am a 12pm, según la información publicada.",
+      "Llame al (718) 965-3695 antes de ir para confirmar los detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open only on Saturdays from 9am to 12pm, according to the listing.",
+      "Call (718) 965-3695 before going to confirm details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde queda la despensa?",
+        "a": "En 339 8th St, Brooklyn, NY 11215, en el barrio de Park Slope."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Sábados de 9am a 12pm para la despensa de alimentos."
+      },
+      {
+        "q": "¿Qué necesito llevar o qué alimentos entregan?",
+        "a": "No está indicado en la lista. Llame al (718) 965-3695 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 339 8th St, Brooklyn, NY 11215, in the Park Slope area."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Saturdays from 9am to 12pm for the food pantry."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "This is not listed. Call (718) 965-3695 to ask."
+      }
+    ]
+  }
+}

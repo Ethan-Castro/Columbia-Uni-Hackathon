@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-church-of-praise-and-worship-god-in-christ",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:31.129Z",
+  "facts_hash": "2202abbb0f8b532c",
+  "article": {
+    "title_es": "Church of Praise and Worship God in Christ: despensa de alimentos en Brooklyn",
+    "title_en": "Church of Praise and Worship God in Christ: food pantry in Brooklyn",
+    "summary_es": "Esta iglesia aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, en la avenida Ralph. Abre los sábados.",
+    "summary_en": "This church is listed on the City's Food Help NYC map as a food pantry in Brooklyn, on Ralph Avenue. It is open on Saturdays.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Está ubicada en 526 Ralph Ave, Brooklyn, NY 11233.",
+      "Abre los sábados de 10 a.m. a 1 p.m. para la despensa.",
+      "Puede llamar al (347) 462-5679 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Located at 526 Ralph Ave, Brooklyn, NY 11233.",
+      "Open Saturdays from 10am to 1pm for the pantry.",
+      "You can call (347) 462-5679 to ask questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los sábados de 10 a.m. a 1 p.m.",
+      "Llame antes al (347) 462-5679 para confirmar horarios y preguntar qué necesita llevar.",
+      "La lista no indica qué alimentos se entregan; pregunte al llegar o por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Saturdays from 10am to 1pm.",
+      "Call ahead at (347) 462-5679 to confirm hours and ask what you need to bring.",
+      "The listing does not say what food is given; ask by phone or when you visit."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los sábados de 10 a.m. a 1 p.m., según la lista."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está indicado en la lista. Llame al (347) 462-5679 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is listed on the Food Help NYC map as a food pantry."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 10am to 1pm, according to the listing."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "This is not listed. Call (347) 462-5679 to ask."
+      }
+    ]
+  }
+}

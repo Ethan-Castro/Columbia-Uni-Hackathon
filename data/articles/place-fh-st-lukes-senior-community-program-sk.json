@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-lukes-senior-community-program-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:09.996Z",
+  "facts_hash": "985e9c21ccac8d6a",
+  "article": {
+    "title_es": "St. Luke's Senior Community Program: comedor en el Bronx",
+    "title_en": "St. Luke's Senior Community Program: soup kitchen in the Bronx",
+    "summary_es": "St. Luke's Senior Community Program es un programa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la Ciudad. Ofrece comedor (soup kitchen) de lunes a viernes de 12pm a 1pm.",
+    "summary_en": "St. Luke's Senior Community Program is a food program in the Bronx listed on the City's Food Help NYC map. It offers a soup kitchen Monday through Friday from 12pm to 1pm.",
+    "how_they_help_es": [
+      "Es un programa de alimentos (despensa/comedor) según el mapa Food Help NYC de la Ciudad.",
+      "El horario indicado es de lunes a viernes, 12pm a 1pm, para el comedor (soup kitchen).",
+      "Está ubicado en 765 E 222nd St, Bronx, NY 10467.",
+      "Puede llamar al (718) 882-3060 para preguntar qué alimentos ofrece y si hay requisitos.",
+      "La lista no detalla los alimentos ni los requisitos, así que conviene preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food program (pantry/soup kitchen) listed on the City's Food Help NYC map.",
+      "The listed hours are Monday through Friday, 12pm to 1pm, for the soup kitchen.",
+      "It is located at 765 E 222nd St, Bronx, NY 10467.",
+      "You can call (718) 882-3060 to ask what food is offered and if there are any requirements.",
+      "The listing does not detail the food or requirements, so it is best to ask before going."
+    ],
+    "visit_tips_es": [
+      "El horario del comedor es corto (12pm a 1pm), planifique su visita dentro de ese horario.",
+      "Llame al (718) 882-3060 antes de ir para confirmar el horario y preguntar qué se ofrece.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen hours are short (12pm to 1pm), so plan your visit within that time.",
+      "Call (718) 882-3060 before going to confirm the hours and ask what is offered.",
+      "The information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de programa es?",
+        "a": "Es un programa de alimentos en el Bronx que aparece en el mapa Food Help NYC de la Ciudad. El horario indicado es para el comedor (soup kitchen)."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "El comedor funciona de lunes a viernes de 12pm a 1pm. No se listan otros horarios."
+      },
+      {
+        "q": "¿Qué necesito para recibir alimentos?",
+        "a": "La lista no indica qué alimentos se dan ni si hay requisitos. Llame al (718) 882-3060 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of program is this?",
+        "a": "It is a food program in the Bronx listed on the City's Food Help NYC map. The listed hours are for the soup kitchen."
+      },
+      {
+        "q": "When is it open?",
+        "a": "The soup kitchen runs Monday through Friday from 12pm to 1pm. No other hours are listed."
+      },
+      {
+        "q": "What do I need to get food?",
+        "a": "The listing does not say what food is given or if there are requirements. Call (718) 882-3060 to ask before going."
+      }
+    ]
+  }
+}

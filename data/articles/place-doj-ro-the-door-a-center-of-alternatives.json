@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-the-door-a-center-of-alternatives",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:43.772Z",
+  "facts_hash": "ba7bba5adf2acbab",
+  "article": {
+    "title_es": "The Door - A Center of Alternatives: organización reconocida por el DOJ en Manhattan",
+    "title_en": "The Door - A Center of Alternatives: DOJ-listed nonprofit in Manhattan",
+    "summary_es": "The Door - A Center of Alternatives es una organización sin fines de lucro en Manhattan que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal migratoria.",
+    "summary_en": "The Door - A Center of Alternatives is a nonprofit in Manhattan that appears on the U.S. Department of Justice (EOIR) list of recognized organizations. Its DOJ-accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+      "Representantes acreditados por el DOJ pueden ofrecer ayuda legal migratoria.",
+      "Ubicada en 121 Avenue of the Americas, Suite 308, en Manhattan.",
+      "Llame al (212) 941-9090 para preguntar por sus servicios.",
+      "Las tarifas y el proceso de admisión no aparecen en la lista; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 121 Avenue of the Americas, Suite 308, in Manhattan.",
+      "Call (212) 941-9090 to ask about services.",
+      "Fees and the intake process are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (212) 941-9090 antes de visitar para confirmar el horario y cómo obtener una cita.",
+      "Pregunte sobre las tarifas y el proceso de admisión, ya que no aparecen en la lista.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call (212) 941-9090 before visiting to confirm hours and how to get an appointment.",
+      "Ask about fees and what the intake process involves, since these are not listed.",
+      "Information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es The Door - A Center of Alternatives?",
+        "a": "Es una organización sin fines de lucro en Manhattan que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al (212) 941-9090 o visite 121 Avenue of the Americas, Suite 308, New York, NY 10013."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la lista. Llame con anticipación al (212) 941-9090 para preguntar sobre costos y cómo obtener una cita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is The Door - A Center of Alternatives?",
+        "a": "It is a nonprofit in Manhattan that appears on the U.S. Department of Justice (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call (212) 941-9090 or visit 121 Avenue of the Americas, Suite 308, New York, NY 10013."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call ahead at (212) 941-9090 to ask about costs and how to get an appointment."
+      }
+    ]
+  }
+}

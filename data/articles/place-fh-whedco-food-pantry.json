@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-whedco-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:47.068Z",
+  "facts_hash": "78862a05c2171bc5",
+  "article": {
+    "title_es": "WHEDco: despensa de alimentos en el Bronx",
+    "title_en": "WHEDco: food pantry in the Bronx",
+    "summary_es": "WHEDco ofrece una despensa de alimentos en el Bronx, en la calle 50 E 168th St. Atiende los miércoles por la mañana.",
+    "summary_en": "WHEDco runs a food pantry in the Bronx at 50 E 168th St. It is open Wednesday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 50 E 168th St, Bronx, NY 10452.",
+      "El horario de la despensa es miércoles de 9:30 am a 10:30 am.",
+      "Puede llamar al (718) 839-1100 para hacer preguntas.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 50 E 168th St, Bronx, NY 10452.",
+      "Pantry hours are Wednesdays from 9:30am to 10:30am.",
+      "You can call (718) 839-1100 with questions.",
+      "The listing does not say what food is given or if there are requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los miércoles de 9:30 am a 10:30 am, según el horario publicado.",
+      "Llame al (718) 839-1100 antes de ir para confirmar el horario y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026; los horarios pueden cambiar."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesdays from 9:30am to 10:30am, according to the posted hours.",
+      "Call (718) 839-1100 before going to confirm the schedule and ask what you need to bring.",
+      "The information was last checked on October 10, 2026; hours may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La lista no lo indica. Llame al (718) 839-1100 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos ni documentos. Se recomienda llamar con anticipación para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Según la información publicada, atiende los miércoles de 9:30 am a 10:30 am."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give out?",
+        "a": "The listing does not say. Call (718) 839-1100 to ask before going."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "The listing does not mention requirements or documents. It is best to call ahead and ask."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "According to the posted information, it is open Wednesdays from 9:30am to 10:30am."
+      }
+    ]
+  }
+}

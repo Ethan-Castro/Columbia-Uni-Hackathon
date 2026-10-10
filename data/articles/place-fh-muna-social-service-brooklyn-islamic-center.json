@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-muna-social-service-brooklyn-islamic-center",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:28.428Z",
+  "facts_hash": "66b0da8eee88d4e5",
+  "article": {
+    "title_es": "MUNA Social Service Brooklyn Islamic Center: despensa en Brooklyn",
+    "title_en": "MUNA Social Service Brooklyn Islamic Center: food pantry in Brooklyn",
+    "summary_es": "MUNA Social Service Brooklyn Islamic Center es una despensa de alimentos en Brooklyn, en 722 Church Ave. Atiende los lunes de 3pm a 4pm, solo el segundo y cuarto lunes del mes.",
+    "summary_en": "MUNA Social Service Brooklyn Islamic Center is a food pantry in Brooklyn, at 722 Church Ave. It is open Mondays 3pm-4pm, on the 2nd and 4th Monday only.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 722 Church Ave, Brooklyn, NY 11218.",
+      "Abre los lunes de 3pm a 4pm, solo el segundo y cuarto lunes del mes.",
+      "Puede llamar al (212) 920-6202 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 722 Church Ave, Brooklyn, NY 11218.",
+      "It is open Mondays 3pm-4pm, on the 2nd and 4th Monday of the month only.",
+      "You can call (212) 920-6202 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya un segundo o cuarto lunes del mes, entre 3pm y 4pm.",
+      "Llame antes al (212) 920-6202 para confirmar que está abierta.",
+      "Pregunte por teléfono qué alimentos dan y si necesita algo para recibirlos."
+    ],
+    "visit_tips_en": [
+      "Go on the 2nd or 4th Monday of the month, between 3pm and 4pm.",
+      "Call ahead at (212) 920-6202 to confirm it is open.",
+      "Ask by phone what food is given and if you need anything to receive it."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Brooklyn, según el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los lunes de 3pm a 4pm, pero solo el segundo y cuarto lunes del mes."
+      },
+      {
+        "q": "¿Qué alimentos dan y hay requisitos?",
+        "a": "No está en la lista. Llame al (212) 920-6202 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Brooklyn, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Mondays 3pm-4pm, but only on the 2nd and 4th Monday of the month."
+      },
+      {
+        "q": "What food is given, and are there requirements?",
+        "a": "That is not listed. Call (212) 920-6202 to ask."
+      }
+    ]
+  }
+}

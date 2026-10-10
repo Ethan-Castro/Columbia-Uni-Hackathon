@@ -1,0 +1,64 @@
+{
+  "place_id": "place-consulate-mexico-new-york",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:44:02.815Z",
+  "facts_hash": "8172043c1bd1b7da",
+  "article": {
+    "title_es": "Consulado General de México en Nueva York: consulado en Manhattan",
+    "title_en": "Consulate General of Mexico in New York: consulate in Manhattan",
+    "summary_es": "El Consulado General de México en Nueva York es un consulado del gobierno de México, ubicado en Manhattan. Atiende de lunes a viernes, y por las tardes con cita previa.",
+    "summary_en": "The Consulate General of Mexico in New York is a consulate of the government of Mexico, located in Manhattan. It is open Monday to Friday, and in the afternoons by appointment.",
+    "how_they_help_es": [
+      "Es un consulado del gobierno de México en la ciudad de Nueva York.",
+      "Está ubicado en 27 East 39th Street, Nueva York, NY 10016, en Manhattan.",
+      "Abre de lunes a viernes de 8am a 1pm, y de 3pm a 7pm con cita.",
+      "Puede llamar al (212) 217 6400 para preguntar por sus servicios.",
+      "Los servicios específicos y las reglas de citas no están en esta información; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a consulate of the government of Mexico in New York City.",
+      "It is located at 27 East 39th Street, New York, NY 10016, in Manhattan.",
+      "It is open Monday to Friday from 8am to 1pm, and from 3pm to 7pm with an appointment.",
+      "You can call (212) 217 6400 to ask about its services.",
+      "Specific services and appointment rules are not listed here; ask directly."
+    ],
+    "visit_tips_es": [
+      "Las visitas por la tarde (3pm a 7pm) requieren cita previa.",
+      "Llame al (212) 217 6400 antes de ir para confirmar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Afternoon visits (3pm to 7pm) require an appointment.",
+      "Call (212) 217 6400 before going to confirm what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este consulado?",
+        "a": "Esta información no detalla los servicios. Llame al (212) 217 6400 o consulte la fuente oficial para saber qué ofrece."
+      },
+      {
+        "q": "¿Necesito cita para ir?",
+        "a": "Por la mañana (8am a 1pm) no se indica si se necesita cita. Por la tarde (3pm a 7pm) sí es con cita previa."
+      },
+      {
+        "q": "¿Dónde está y qué horario tiene?",
+        "a": "Está en 27 East 39th Street, Nueva York, NY 10016, en Manhattan. Abre de lunes a viernes de 8am a 1pm y de 3pm a 7pm con cita."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this consulate offer?",
+        "a": "This information does not list the services. Call (212) 217 6400 or check the official source to find out what it offers."
+      },
+      {
+        "q": "Do I need an appointment to visit?",
+        "a": "For mornings (8am to 1pm), it is not stated whether an appointment is needed. For afternoons (3pm to 7pm), an appointment is required."
+      },
+      {
+        "q": "Where is it and what are the hours?",
+        "a": "It is at 27 East 39th Street, New York, NY 10016, in Manhattan. It is open Monday to Friday from 8am to 1pm and from 3pm to 7pm with an appointment."
+      }
+    ]
+  }
+}

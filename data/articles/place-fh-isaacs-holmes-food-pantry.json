@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-isaacs-holmes-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:31.210Z",
+  "facts_hash": "029ccae9b2692842",
+  "article": {
+    "title_es": "Isaacs Holmes Food Pantry: despensa de alimentos en Manhattan",
+    "title_en": "Isaacs Holmes Food Pantry: food pantry in Manhattan",
+    "summary_es": "Isaacs Holmes Food Pantry es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad. Está en el 415 E 93rd St, en Manhattan, y abre los miércoles de 9am a 11am.",
+    "summary_en": "Isaacs Holmes Food Pantry is a food pantry listed on the City's Food Help NYC map. It is located at 415 E 93rd St in Manhattan and is open Wednesdays from 9am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 415 E 93rd St, Nueva York, NY 10128, en Manhattan.",
+      "El horario de la despensa es miércoles de 9am a 11am.",
+      "Puede llamar al (212) 360-7620 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 415 E 93rd St, New York, NY 10128, in Manhattan.",
+      "Pantry hours are Wednesdays from 9am to 11am.",
+      "You can call (212) 360-7620 to ask before you go.",
+      "The listing does not say what food is given or if there are requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es miércoles de 9am a 11am, así que planifique su visita para ese día.",
+      "Llame al (212) 360-7620 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La lista no menciona requisitos ni documentos, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "The listed hours are Wednesdays from 9am to 11am, so plan your visit for that day.",
+      "Call (212) 360-7620 before going to confirm the hours and ask what you need.",
+      "The listing does not mention requirements or documents, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Isaacs Holmes Food Pantry?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad de Nueva York."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Según la lista, la despensa abre los miércoles de 9am a 11am."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "La lista no lo indica. Llame al (212) 360-7620 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Isaacs Holmes Food Pantry?",
+        "a": "It is a food pantry listed on the City of New York's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "According to the listing, the pantry is open Wednesdays from 9am to 11am."
+      },
+      {
+        "q": "What food does it give and what do I need to receive it?",
+        "a": "The listing does not say. Call (212) 360-7620 to ask before you go."
+      }
+    ]
+  }
+}

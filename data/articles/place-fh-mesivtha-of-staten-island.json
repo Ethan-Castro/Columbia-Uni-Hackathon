@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-mesivtha-of-staten-island",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:42.947Z",
+  "facts_hash": "a2824f722fb531f6",
+  "article": {
+    "title_es": "MESIVTHA OF STATEN ISLAND: despensa de alimentos en Staten Island",
+    "title_en": "MESIVTHA OF STATEN ISLAND: food pantry in Staten Island",
+    "summary_es": "MESIVTHA OF STATEN ISLAND es una despensa de alimentos en Staten Island, en el mapa Food Help NYC de la ciudad. Abre los miércoles de 11am a 12pm.",
+    "summary_en": "MESIVTHA OF STATEN ISLAND is a food pantry in Staten Island, listed on the City's Food Help NYC map. It is open Wednesdays from 11am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 1870 Drumgoole Rd E, Staten Island, NY 10309.",
+      "Abre los miércoles de 11am a 12pm (despensa).",
+      "Puede llamar al (718) 356-5412 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Located at 1870 Drumgoole Rd E, Staten Island, NY 10309.",
+      "Open Wednesdays 11am-12pm (pantry).",
+      "You can call (718) 356-5412 to ask questions."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los miércoles de 11am a 12pm.",
+      "No se indica qué alimentos entrega ni si pide requisitos.",
+      "Llame al (718) 356-5412 antes de ir para confirmar detalles."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesdays 11am-12pm.",
+      "The listing does not say what food is given or if there are requirements.",
+      "Call (718) 356-5412 before going to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La información no lo indica. Llame al (718) 356-5412 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "No se indica ningún requisito. Le recomendamos llamar antes de ir."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los miércoles de 11am a 12pm (despensa)."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (718) 356-5412 to ask."
+      },
+      {
+        "q": "Do I need documents or meet requirements?",
+        "a": "No requirements are listed. We suggest calling before you go."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays from 11am to 12pm (pantry)."
+      }
+    ]
+  }
+}

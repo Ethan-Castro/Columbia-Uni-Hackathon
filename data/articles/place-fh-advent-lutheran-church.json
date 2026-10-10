@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-advent-lutheran-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:12.941Z",
+  "facts_hash": "25faa4dfea492cc1",
+  "article": {
+    "title_es": "Advent Lutheran Church: despensa de alimentos y comedor en Manhattan",
+    "title_en": "Advent Lutheran Church: food pantry and soup kitchen in Manhattan",
+    "summary_es": "Advent Lutheran Church es una despensa de alimentos y un comedor de sopa en Manhattan, incluido en el mapa Food Help NYC de la Ciudad. La despensa y el comedor abren sábados distintos cada mes.",
+    "summary_en": "Advent Lutheran Church is a food pantry and soup kitchen in Manhattan listed on the City's Food Help NYC map. The pantry and soup kitchen open on different Saturdays each month.",
+    "how_they_help_es": [
+      "Despensa de alimentos abierta el 1.er y 3.er sábado del mes, de 10am a 12pm.",
+      "Comedor de sopa abierto el 2.º y 4.º sábado del mes, de 12pm a 1pm.",
+      "Ubicado en 2504 Broadway, New York, NY 10025.",
+      "Teléfono: (212) 665-2504.",
+      "Los alimentos que entregan y los requisitos no aparecen en la lista; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Food pantry open on the 1st and 3rd Saturday of the month, 10am-12pm.",
+      "Soup kitchen open on the 2nd and 4th Saturday of the month, 12pm-1pm.",
+      "Located at 2504 Broadway, New York, NY 10025.",
+      "Phone: (212) 665-2504.",
+      "What food is given and any requirements are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Revise bien el calendario: la despensa y el comedor abren sábados distintos del mes.",
+      "Llame al (212) 665-2504 antes de ir para confirmar el horario.",
+      "Los horarios indicados son solo los sábados; no se indican horarios entre semana."
+    ],
+    "visit_tips_en": [
+      "Check the calendar carefully: the pantry and soup kitchen open on different Saturdays of the month.",
+      "Call (212) 665-2504 ahead to confirm the schedule before you go.",
+      "Hours listed are Saturdays only; no weekday hours are listed."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Solo el 1.er y 3.er sábado del mes, de 10am a 12pm."
+      },
+      {
+        "q": "¿Cuándo abre el comedor de sopa?",
+        "a": "Solo el 2.º y 4.º sábado del mes, de 12pm a 1pm."
+      },
+      {
+        "q": "¿Necesito llevar algo o inscribirme?",
+        "a": "No aparece en la lista. Llame al (212) 665-2504 para preguntar antes de visitar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Only on the 1st and 3rd Saturday of the month, from 10am to 12pm."
+      },
+      {
+        "q": "When is the soup kitchen open?",
+        "a": "Only on the 2nd and 4th Saturday of the month, from 12pm to 1pm."
+      },
+      {
+        "q": "Do I need to bring anything or sign up?",
+        "a": "That is not listed. Call (212) 665-2504 to ask before you visit."
+      }
+    ]
+  }
+}

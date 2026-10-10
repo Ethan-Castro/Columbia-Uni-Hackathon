@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-alliance-tabernacle-of-clarendon-road-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:24.394Z",
+  "facts_hash": "580c7ec899d293b7",
+  "article": {
+    "title_es": "Alliance Tabernacle of Clarendon Road: despensa en Brooklyn",
+    "title_en": "Alliance Tabernacle of Clarendon Road: food pantry in Brooklyn",
+    "summary_es": "Esta iglesia en Brooklyn aparece en el mapa Food Help NYC como despensa de alimentos. Abre los sábados de 12pm a 2pm.",
+    "summary_en": "This Brooklyn church is listed on the City's Food Help NYC map as a food pantry. It is open Saturdays from 12pm to 2pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Entrega alimentos los sábados de 12pm a 2pm.",
+      "Está en 3304 Clarendon Rd, Brooklyn, NY 11203.",
+      "Puede llamar al (718) 469-9251 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Distributes food on Saturdays from 12pm to 2pm.",
+      "Located at 3304 Clarendon Rd, Brooklyn, NY 11203.",
+      "You can call (718) 469-9251 to ask questions before visiting."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es sábado de 12pm a 2pm.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos; pregunte por teléfono.",
+      "Verifique el horario llamando al (718) 469-9251 antes de viajar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Saturday 12pm-2pm.",
+      "The listing does not say what food is given or if there are requirements; ask by phone.",
+      "Confirm hours by calling (718) 469-9251 before you travel."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (718) 469-9251 para preguntar qué ofrecen."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos. Es mejor preguntar por teléfono antes de ir."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 12pm a 2pm, según la información más reciente (octubre de 2026)."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give out?",
+        "a": "The listing does not say. Call (718) 469-9251 to ask what they offer."
+      },
+      {
+        "q": "Do I need documents or meet requirements?",
+        "a": "The listing does not mention any requirements. It is best to ask by phone before going."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 12pm to 2pm, according to the most recent information (October 2026)."
+      }
+    ]
+  }
+}

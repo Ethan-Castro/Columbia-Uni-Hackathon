@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-central-american-legal-assistance",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:08.222Z",
+  "facts_hash": "43908586f1e87b1d",
+  "article": {
+    "title_es": "Central American Legal Assistance: ayuda legal en Brooklyn",
+    "title_en": "Central American Legal Assistance: legal help in Brooklyn",
+    "summary_es": "Central American Legal Assistance es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está ubicada en 240 Hooper Street, Brooklyn, NY 11211.",
+    "summary_en": "Central American Legal Assistance is a non-profit listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations. It is located at 240 Hooper Street, Brooklyn, NY 11211.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Los representantes acreditados por el DOJ de organizaciones sin fines de lucro pueden ofrecer ayuda legal migratoria.",
+      "Dirección: 240 Hooper Street, Brooklyn, NY 11211.",
+      "Teléfono: (718) 486-6800.",
+      "Las tarifas y el proceso para obtener una cita no están indicados; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations.",
+      "DOJ-accredited representatives of recognized non-profits may provide immigration legal help.",
+      "Address: 240 Hooper Street, Brooklyn, NY 11211.",
+      "Phone: (718) 486-6800.",
+      "Fees and how to get an appointment are not listed; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (718) 486-6800 para preguntar por sus servicios y cómo pedir una cita.",
+      "El horario de atención no está indicado en esta información; confírmelo por teléfono.",
+      "Pregunte sobre tarifas y qué servicios ofrece antes de ir."
+    ],
+    "visit_tips_en": [
+      "Call first at (718) 486-6800 to ask about services and how to request an appointment.",
+      "Hours are not listed in this information; confirm by phone.",
+      "Ask about fees and what services are offered before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están indicadas. Llame al (718) 486-6800 para preguntar."
+      },
+      {
+        "q": "¿Cómo consigo una cita?",
+        "a": "El proceso para obtener una cita no está indicado. Llame al (718) 486-6800 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (718) 486-6800 to ask."
+      },
+      {
+        "q": "How do I get an appointment?",
+        "a": "The appointment process is not listed. Call (718) 486-6800 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-bellevue-nyu-program-for-survivors-of-to",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:22.057Z",
+  "facts_hash": "613af74bb9a6bc5c",
+  "article": {
+    "title_es": "Bellevue/NYU Program for Survivors of Torture: ayuda legal en Manhattan",
+    "title_en": "Bellevue/NYU Program for Survivors of Torture: legal help in Manhattan",
+    "summary_es": "El Bellevue/NYU Program for Survivors of Torture (PSOT) aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está en el Bellevue Hospital Center, en Manhattan.",
+    "summary_en": "The Bellevue/NYU Program for Survivors of Torture (PSOT) appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located at Bellevue Hospital Center in Manhattan.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados pueden ofrecer ayuda legal de inmigración.",
+      "Está en el Bellevue Hospital Center, 462 First Avenue, CD 744, Nueva York, NY 10016.",
+      "Teléfono: (212) 562-8487.",
+      "Los servicios, tarifas y cómo pedir una cita no aparecen en la lista; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "Its accredited representatives may provide immigration legal help.",
+      "Located at Bellevue Hospital Center, 462 First Avenue, CD 744, New York, NY 10016.",
+      "Phone: (212) 562-8487.",
+      "Services, fees, and how to get an appointment are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir: (212) 562-8487.",
+      "Pregunte qué servicios ofrece, si hay tarifas y cómo pedir una cita.",
+      "El horario no aparece en la lista; confírmelo por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call before you go: (212) 562-8487.",
+      "Ask what services are offered, whether fees apply, and how to get an appointment.",
+      "Hours are not listed; confirm by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una organización que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas, con representantes acreditados que pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "Las tarifas no aparecen en la lista. Llame al (212) 562-8487 y pregunte."
+      },
+      {
+        "q": "¿Necesito cita?",
+        "a": "No se indica cómo pedir una cita. Llame al (212) 562-8487 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) list of recognized organizations, with accredited representatives who may provide immigration legal help."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "Fees are not listed. Call (212) 562-8487 and ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "How to get an appointment is not listed. Call (212) 562-8487 to ask."
+      }
+    ]
+  }
+}

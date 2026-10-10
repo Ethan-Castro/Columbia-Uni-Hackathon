@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-met-council-brooklyn-hub-fpk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:26.292Z",
+  "facts_hash": "efb604394a7e3de5",
+  "article": {
+    "title_es": "Met Council Brooklyn Hub: despensa de alimentos en Brooklyn",
+    "title_en": "Met Council Brooklyn Hub: food pantry in Brooklyn",
+    "summary_es": "Met Council Brooklyn Hub (FPK) es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Met Council Brooklyn Hub (FPK) is a food pantry in Brooklyn listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 1271 60th St, Brooklyn, NY 11219.",
+      "Abre de martes a jueves de 12:30pm a 4:30pm (despensa).",
+      "La información fue verificada el 10 de octubre de 2026."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 1271 60th St, Brooklyn, NY 11219.",
+      "It is open Tuesday to Thursday, 12:30pm to 4:30pm (pantry).",
+      "The information was last checked on October 10, 2026."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de martes a jueves, 12:30pm a 4:30pm.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte al llegar.",
+      "No hay teléfono en esta información; consulte el mapa Food Help NYC para más detalles."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday to Thursday, 12:30pm to 4:30pm.",
+      "What food is given and any requirements are not listed; ask when you arrive.",
+      "No phone number is listed; check the Food Help NYC map for more details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "De martes a jueves, de 12:30pm a 4:30pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 1271 60th St, Brooklyn, NY 11219."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday to Thursday, from 12:30pm to 4:30pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 1271 60th St, Brooklyn, NY 11219."
+      }
+    ]
+  }
+}

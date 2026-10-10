@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-trinity-human-service-corporation",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:02.558Z",
+  "facts_hash": "18243726188d061c",
+  "article": {
+    "title_es": "Trinity Human Service Corporation: despensa de alimentos en Brooklyn",
+    "title_en": "Trinity Human Service Corporation: food pantry in Brooklyn",
+    "summary_es": "Trinity Human Service Corporation es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Trinity Human Service Corporation is a food pantry in Brooklyn listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Ubicada en 153 Johnson Ave, Brooklyn (código postal 11206).",
+      "Abre de martes a viernes, de 9am a 12pm y de 1pm a 4pm.",
+      "Llame al (718) 388-3176 para más información."
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the City's Food Help NYC map.",
+      "Located at 153 Johnson Ave in Brooklyn (zip 11206).",
+      "Open Tuesday through Friday, 9am-12pm and 1pm-4pm.",
+      "Call (718) 388-3176 for more information."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de martes a viernes, de 9am a 12pm y de 1pm a 4pm.",
+      "Llame antes al (718) 388-3176 para preguntar qué alimentos entrega y si hay requisitos.",
+      "El listado no incluye detalles sobre los alimentos que se entregan, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday-Friday, 9am-12pm and 1pm-4pm.",
+      "Call ahead at (718) 388-3176 to ask what food is given and any requirements.",
+      "The listing does not include details about what food is provided, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Trinity Human Service Corporation?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "De martes a viernes, de 9am a 12pm y de 1pm a 4pm."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "El listado no lo indica. Llame al (718) 388-3176 para preguntar sobre los requisitos."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Trinity Human Service Corporation?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday-Friday, 9am-12pm and 1pm-4pm."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "The listing does not say. Call (718) 388-3176 to ask about requirements."
+      }
+    ]
+  }
+}

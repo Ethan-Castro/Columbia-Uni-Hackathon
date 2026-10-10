@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-lifebridgeny-bkpantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:15.084Z",
+  "facts_hash": "449d49bea5d80135",
+  "article": {
+    "title_es": "LIFEBRIDGENY/BKPANTRY: despensa de alimentos en Brooklyn",
+    "title_en": "LIFEBRIDGENY/BKPANTRY: food pantry in Brooklyn",
+    "summary_es": "LIFEBRIDGENY/BKPANTRY es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Está ubicada en 1895 Flatbush Ave y abre de martes a viernes.",
+    "summary_en": "LIFEBRIDGENY/BKPANTRY is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is located at 1895 Flatbush Ave and opens Tuesday through Friday.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1895 Flatbush Ave, Brooklyn, NY 11210.",
+      "El horario de la despensa es de martes a viernes, 10am-6pm.",
+      "Puede llamar al (718) 233-5004 para más información.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 1895 Flatbush Ave, Brooklyn, NY 11210.",
+      "Pantry hours are Tuesday to Friday, 10am-6pm.",
+      "You can call (718) 233-5004 for more information.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de martes a viernes, 10am-6pm.",
+      "Llame al (718) 233-5004 antes de ir para confirmar los detalles.",
+      "Pregunte qué alimentos ofrece y si hay algún requisito."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday to Friday, 10am-6pm.",
+      "Call (718) 233-5004 before visiting to confirm details.",
+      "Ask what food is offered and if any requirements apply."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es LIFEBRIDGENY/BKPANTRY?",
+        "a": "Una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "De martes a viernes, de 10am a 6pm (horario de la despensa)."
+      },
+      {
+        "q": "¿Cómo puedo comunicarme?",
+        "a": "Llame al (718) 233-5004 o visite 1895 Flatbush Ave, Brooklyn, NY 11210."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is LIFEBRIDGENY/BKPANTRY?",
+        "a": "A food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesday to Friday, 10am-6pm (pantry hours)."
+      },
+      {
+        "q": "How can I contact it?",
+        "a": "Call (718) 233-5004 or visit 1895 Flatbush Ave, Brooklyn, NY 11210."
+      }
+    ]
+  }
+}

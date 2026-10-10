@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-st-stephen-outreach-community-development-co",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:05.840Z",
+  "facts_hash": "00638ec64f7a1f3e",
+  "article": {
+    "title_es": "St. Stephen Outreach: despensa y comedor en Brooklyn",
+    "title_en": "St. Stephen Outreach: food pantry and soup kitchen in Brooklyn",
+    "summary_es": "St. Stephen Outreach Community Development Corporation es una despensa de alimentos y comedor de sopa en Brooklyn, en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "St. Stephen Outreach Community Development Corporation is a food pantry and soup kitchen in Brooklyn, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Ofrece despensa de alimentos los miércoles y viernes de 9am a 10:30am.",
+      "Ofrece comedor de sopa de miércoles a viernes de 11am a 1pm.",
+      "Está en 874 Myrtle Ave, Brooklyn, NY 11206.",
+      "Puede llamar al (718) 938-4532 para preguntar.",
+      "La lista no indica qué alimentos dan ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Offers a food pantry on Wednesdays and Fridays, 9am to 10:30am.",
+      "Offers a soup kitchen Wednesday to Friday, 11am to 1pm.",
+      "Located at 874 Myrtle Ave, Brooklyn, NY 11206.",
+      "You can call (718) 938-4532 with questions.",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "La despensa abre miércoles y viernes de 9am a 10:30am.",
+      "El comedor de sopa abre de miércoles a viernes de 11am a 1pm.",
+      "Llame antes de ir para confirmar los horarios y preguntar qué necesita."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesdays and Fridays, 9am to 10:30am.",
+      "The soup kitchen is open Wednesday to Friday, 11am to 1pm.",
+      "Call before you go to confirm hours and ask what you need."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 874 Myrtle Ave, Brooklyn, New York, 11206."
+      },
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Despensa de alimentos y comedor de sopa, según el mapa Food Help NYC."
+      },
+      {
+        "q": "¿Necesito hacer cita o traer documentos?",
+        "a": "La lista no lo indica. Llame al (718) 938-4532 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 874 Myrtle Ave, Brooklyn, New York, 11206."
+      },
+      {
+        "q": "What services does it offer?",
+        "a": "A food pantry and a soup kitchen, according to the Food Help NYC map."
+      },
+      {
+        "q": "Do I need an appointment or documents?",
+        "a": "The listing does not say. Call (718) 938-4532 to ask."
+      }
+    ]
+  }
+}

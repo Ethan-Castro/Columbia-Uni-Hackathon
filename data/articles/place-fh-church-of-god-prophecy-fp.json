@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-church-of-god-prophecy-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:51.101Z",
+  "facts_hash": "cc886e4de5b683fc",
+  "article": {
+    "title_es": "Church of God Prophecy (FP): despensa de alimentos en Brooklyn",
+    "title_en": "Church of God Prophecy (FP): food pantry in Brooklyn",
+    "summary_es": "Esta iglesia aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn. Abre los martes de 3:30pm a 6pm, pero la despensa solo funciona el segundo y cuarto martes del mes.",
+    "summary_en": "This church is listed on the Food Help NYC map as a food pantry in Brooklyn. It is open Tuesdays 3:30pm-6pm, but the pantry runs only on the 2nd and 4th Tuesday of the month.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Está en 71 Malta St, Brooklyn, NY, 11207.",
+      "Atiende los martes de 3:30pm a 6pm.",
+      "La despensa funciona solo el segundo y cuarto martes del mes.",
+      "Puede llamar al (718) 649-5533 para preguntar qué alimentos dan."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Located at 71 Malta St, Brooklyn, NY, 11207.",
+      "Open Tuesdays 3:30pm-6pm.",
+      "The pantry runs only on the 2nd and 4th Tuesday of the month.",
+      "You can call (718) 649-5533 to ask what food is given."
+    ],
+    "visit_tips_es": [
+      "Planifique su visita para el segundo o cuarto martes del mes.",
+      "El horario es de 3:30pm a 6pm los martes.",
+      "Llame antes al (718) 649-5533 para confirmar los detalles."
+    ],
+    "visit_tips_en": [
+      "Plan your visit for the 2nd or 4th Tuesday of the month.",
+      "Hours are 3:30pm-6pm on Tuesdays.",
+      "Call ahead at (718) 649-5533 to confirm details."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes de 3:30pm a 6pm, pero solo el segundo y cuarto martes del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué requisitos pide?",
+        "a": "No está indicado. Llame al (718) 649-5533 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a food pantry listed on the Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesdays 3:30pm-6pm, but only on the 2nd and 4th Tuesday of the month."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "That is not listed. Call (718) 649-5533 to ask before you go."
+      }
+    ]
+  }
+}

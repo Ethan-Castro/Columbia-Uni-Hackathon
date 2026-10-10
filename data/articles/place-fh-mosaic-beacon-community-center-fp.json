@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-mosaic-beacon-community-center-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:17.334Z",
+  "facts_hash": "a50b40706b31b35c",
+  "article": {
+    "title_es": "MOSAIC Beacon Community Center: despensa de alimentos en el Bronx",
+    "title_en": "MOSAIC Beacon Community Center: food pantry in the Bronx",
+    "summary_es": "MOSAIC Beacon Community Center es una despensa de alimentos en el Bronx, según el mapa Food Help NYC de la ciudad. Abre los viernes de 3pm a 5pm.",
+    "summary_en": "MOSAIC Beacon Community Center is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Fridays from 3pm to 5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 1257 Ogden Ave, Bronx, NY 10452.",
+      "La despensa atiende los viernes de 3pm a 5pm.",
+      "Puede llamar al (917) 962-9955 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 1257 Ogden Ave, Bronx, NY 10452.",
+      "The pantry is open Fridays from 3pm to 5pm.",
+      "You can call (917) 962-9955 with questions.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los viernes de 3pm a 5pm.",
+      "Llame antes al (917) 962-9955 para confirmar horarios y preguntar qué necesita llevar.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Fridays from 3pm to 5pm.",
+      "Call ahead at (917) 962-9955 to confirm hours and ask what you need to bring.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los viernes de 3pm a 5pm."
+      },
+      {
+        "q": "¿Necesito una cita o documentos?",
+        "a": "La lista no lo indica. Llame al (917) 962-9955 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry. What food is given is not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Fridays from 3pm to 5pm."
+      },
+      {
+        "q": "Do I need an appointment or documents?",
+        "a": "The listing does not say. Call (917) 962-9955 to ask before going."
+      }
+    ]
+  }
+}

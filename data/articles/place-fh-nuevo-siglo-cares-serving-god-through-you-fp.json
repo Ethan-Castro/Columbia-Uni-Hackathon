@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-nuevo-siglo-cares-serving-god-through-you-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:16.722Z",
+  "facts_hash": "2e3fe14a4ef886e1",
+  "article": {
+    "title_es": "Nuevo Siglo Cares: despensa de alimentos en Manhattan",
+    "title_en": "Nuevo Siglo Cares: food pantry in Manhattan",
+    "summary_es": "Nuevo Siglo Cares (Serving God Through You) es una despensa de alimentos en Manhattan que aparece en el mapa Food Help NYC de la Ciudad. Abre los viernes de 2pm a 4pm.",
+    "summary_en": "Nuevo Siglo Cares (Serving God Through You) is a food pantry in Manhattan listed on the City's Food Help NYC map. It is open Friday from 2pm to 4pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 213 Sherman Ave, en Manhattan, código postal 10034.",
+      "La despensa abre los viernes de 2pm a 4pm.",
+      "Puede llamar al (347) 856-8500 para más información.",
+      "La información no dice qué alimentos entrega, así que pregunte cuando llame o visite."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 213 Sherman Ave in Manhattan, zip code 10034.",
+      "The pantry is open Friday from 2pm to 4pm.",
+      "You can call (347) 856-8500 for more information.",
+      "The listing does not say what food is given, so ask when you call or visit."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los viernes de 2pm a 4pm, así que planifique su visita para esa hora.",
+      "Llame al (347) 856-8500 con anticipación para preguntar sobre los alimentos.",
+      "La información no describe qué alimentos entrega, así que es mejor preguntar antes de ir."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Friday from 2pm to 4pm, so plan your visit for that time.",
+      "Call (347) 856-8500 ahead to ask about food and any requirements.",
+      "The listing does not describe what food is given, so it is best to ask before going."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Nuevo Siglo Cares?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad. Está en 213 Sherman Ave, New York, NY 10034, en Manhattan."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "El horario de la despensa es los viernes de 2pm a 4pm."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "La información no indica qué alimentos entrega ni si hay requisitos. Puede llamar al (347) 856-8500 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Nuevo Siglo Cares?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. It is located at 213 Sherman Ave, New York, NY 10034, in Manhattan."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "The listed pantry hours are Friday from 2pm to 4pm."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "The listing does not say what food is given or any requirements. You can call (347) 856-8500 to ask before you go."
+      }
+    ]
+  }
+}

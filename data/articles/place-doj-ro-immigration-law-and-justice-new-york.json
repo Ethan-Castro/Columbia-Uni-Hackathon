@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-immigration-law-and-justice-new-york",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:30.438Z",
+  "facts_hash": "82948efa1ebe7be9",
+  "article": {
+    "title_es": "Immigration Law & Justice New York: ayuda legal en Manhattan",
+    "title_en": "Immigration Law & Justice New York: legal help in Manhattan",
+    "summary_es": "Immigration Law & Justice New York es una organización sin fines de lucro en Manhattan que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas y representantes acreditados para ayuda legal de inmigración.",
+    "summary_en": "Immigration Law & Justice New York is a non-profit organization in Manhattan that appears on the U.S. Department of Justice (EOIR) list of recognized organizations and accredited representatives for immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones de esta lista son sin fines de lucro cuyos representantes acreditados por el DOJ pueden ofrecer ayuda legal de inmigración.",
+      "Está ubicada en 475 Riverside Drive, #727, en Manhattan.",
+      "Puede llamar al (212) 870-3785 para más información.",
+      "Las tarifas y el proceso para obtener una cita no están indicados; pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "It is listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives.",
+      "Organizations on this list are non-profits whose DOJ-accredited representatives may give immigration legal help.",
+      "It is located at 475 Riverside Drive, #727, in Manhattan.",
+      "You can call (212) 870-3785 for more information.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (212) 870-3785 antes de visitar, ya que los horarios y las reglas de citas no están indicados.",
+      "Pregunte sobre las tarifas y cómo programar una cita cuando llame.",
+      "La dirección es 475 Riverside Drive, #727, New York, NY 10115."
+    ],
+    "visit_tips_en": [
+      "Call (212) 870-3785 before visiting, since hours and appointment rules are not listed.",
+      "Ask about fees and how to schedule an appointment when you call.",
+      "The address is 475 Riverside Drive, #727, New York, NY 10115."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas y representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuesta y cómo saco una cita?",
+        "a": "Las tarifas y cómo obtener una cita no están indicadas; llame al (212) 870-3785 para preguntar."
+      },
+      {
+        "q": "¿Qué idiomas hablan?",
+        "a": "La información no indica qué idiomas se hablan. Puede preguntar cuando llame."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) list of recognized organizations and accredited representatives."
+      },
+      {
+        "q": "How much does it cost and how do I make an appointment?",
+        "a": "Fees and how to get an appointment are not listed, so call (212) 870-3785 to ask."
+      },
+      {
+        "q": "What languages do they speak?",
+        "a": "The listing does not say which languages are spoken. You can ask when you call."
+      }
+    ]
+  }
+}

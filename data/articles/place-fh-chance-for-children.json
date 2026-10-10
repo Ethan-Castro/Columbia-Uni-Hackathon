@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-chance-for-children",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:52.105Z",
+  "facts_hash": "4cbdc5840772e530",
+  "article": {
+    "title_es": "Chance for Children: despensa de alimentos en Brooklyn",
+    "title_en": "Chance for Children: food pantry in Brooklyn",
+    "summary_es": "Chance for Children es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Atiende los viernes por la mañana.",
+    "summary_en": "Chance for Children is a food pantry in Brooklyn listed on the City's Food Help NYC map. It is open on Friday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 11 Mc Keever Pl, Brooklyn, NY 11225.",
+      "Abre los viernes de 10 am a 12:30 pm para la despensa.",
+      "Puede llamar al (347) 616-3228 para preguntar.",
+      "La lista no detalla qué alimentos entrega ni los requisitos, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 11 Mc Keever Pl, Brooklyn, NY 11225.",
+      "It is open Fridays from 10am to 12:30pm for the pantry.",
+      "You can call (347) 616-3228 with questions.",
+      "The listing does not say what food is given or any requirements, so please ask."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es viernes de 10 am a 12:30 pm.",
+      "Llame al (347) 616-3228 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "No se indica qué documentos llevar; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Fridays from 10am to 12:30pm.",
+      "Call (347) 616-3228 before going to confirm hours and ask what is needed.",
+      "The listing does not say what documents to bring; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Según la lista, es una despensa de alimentos. No se detalla qué alimentos entrega ni los requisitos."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los viernes de 10 am a 12:30 pm para la despensa."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Puede llamar al (347) 616-3228. La lista no incluye un sitio web ni correo electrónico."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "According to the listing, it is a food pantry. What food is given and any requirements are not listed."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays from 10am to 12:30pm for the pantry."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "You can call (347) 616-3228. The listing does not include a website or email."
+      }
+    ]
+  }
+}

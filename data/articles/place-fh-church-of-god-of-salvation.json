@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-church-of-god-of-salvation",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:32.017Z",
+  "facts_hash": "32a1b8189b624688",
+  "article": {
+    "title_es": "Church of God of Salvation: despensa de alimentos en Brooklyn",
+    "title_en": "Church of God of Salvation: food pantry in Brooklyn",
+    "summary_es": "Church of God of Salvation es una despensa de alimentos en Brooklyn, aparecida en el mapa Food Help NYC de la ciudad. Abre los miércoles y jueves según su horario.",
+    "summary_en": "Church of God of Salvation is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open on Wednesdays and Thursdays according to its schedule.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Ofrece servicio de despensa los miércoles de 2pm a 4pm.",
+      "También abre los jueves de 10am a 4pm como despensa.",
+      "Está ubicada en 1615 Nostrand Ave, Brooklyn, NY 11226.",
+      "Se puede llamar al (718) 693-6486 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Pantry service is offered on Wednesdays from 2pm to 4pm.",
+      "It is also open as a pantry on Thursdays from 10am to 4pm.",
+      "It is located at 1615 Nostrand Ave, Brooklyn, NY 11226.",
+      "You can call (718) 693-6486 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "El horario de despensa es miércoles de 2pm a 4pm y jueves de 10am a 4pm.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito; llame al (718) 693-6486 para preguntar.",
+      "Esta información fue verificada por última vez el 10 de octubre de 2026; confirme el horario antes de viajar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Wednesdays 2pm-4pm and Thursdays 10am-4pm.",
+      "The listing does not say what food is given or if there are any requirements; call (718) 693-6486 to ask.",
+      "This information was last checked on October 10, 2026; confirm the schedule before you travel."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Church of God of Salvation?",
+        "a": "Es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Miércoles de 2pm a 4pm y jueves de 10am a 4pm, según el horario publicado."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado en la lista. Llame al (718) 693-6486 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Church of God of Salvation?",
+        "a": "It is a food pantry in Brooklyn listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 2pm to 4pm and Thursdays from 10am to 4pm, according to the posted schedule."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "The listing does not say. Call (718) 693-6486 to ask before you go."
+      }
+    ]
+  }
+}

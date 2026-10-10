@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-ash-shifaa-inc-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:04.106Z",
+  "facts_hash": "7ce866125873d1bc",
+  "article": {
+    "title_es": "ASH-SHIFAA INC FP: despensa de alimentos en el Bronx",
+    "title_en": "ASH-SHIFAA INC FP: food pantry in the Bronx",
+    "summary_es": "ASH-SHIFAA INC FP es una despensa de alimentos en el Bronx, aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "ASH-SHIFAA INC FP is a food pantry in the Bronx, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 2269 Crotona Ave, Bronx, NY 10457.",
+      "Abre de lunes a jueves de 1pm a 5pm y viernes de 2pm a 5pm.",
+      "Puede llamar al (646) 353-0859 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Located at 2269 Crotona Ave, Bronx, NY 10457.",
+      "Open Mon-Thu 1pm-5pm and Fri 2pm-5pm.",
+      "You can call (646) 353-0859 with questions."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es de lunes a jueves de 1pm a 5pm y viernes de 2pm a 5pm.",
+      "Qué alimentos entrega y si pide algún requisito no está indicado; pregunte por teléfono.",
+      "Llame al (646) 353-0859 antes de ir para confirmar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Mon-Thu 1pm-5pm and Fri 2pm-5pm.",
+      "What food is given and any requirements are not listed; ask by phone.",
+      "Call (646) 353-0859 before visiting to confirm."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 2269 Crotona Ave, Bronx, New York, 10457."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Lunes a jueves de 1pm a 5pm; viernes de 2pm a 5pm (despensa)."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "No está indicado. Llame al (646) 353-0859 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it?",
+        "a": "At 2269 Crotona Ave, Bronx, New York, 10457."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Mon-Thu 1pm-5pm; Fri 2pm-5pm (pantry)."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "That is not listed. Call (646) 353-0859 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "place_id": "place-fh-cccs-bronx-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:05.040Z",
+  "facts_hash": "a8bf4a3f2a4658e6",
+  "article": {
+    "title_es": "CCCS Bronx Food Pantry: despensa de alimentos en el Bronx",
+    "title_en": "CCCS Bronx Food Pantry: food pantry in the Bronx",
+    "summary_es": "CCCS Bronx Food Pantry es una despensa de alimentos en el Bronx, aparece en el mapa Food Help NYC de la ciudad. Abre miércoles y jueves a viernes.",
+    "summary_en": "CCCS Bronx Food Pantry is a food pantry in the Bronx, listed on the City's Food Help NYC map. It is open Wednesdays and Thursday to Friday.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 402 E 152nd St, Bronx, NY 10455.",
+      "Abre los miércoles de 4pm a 6pm y jueves a viernes de 10am a 12pm.",
+      "Puede llamar al (718) 292-9090 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 402 E 152nd St, Bronx, NY 10455.",
+      "It is open Wednesdays 4pm-6pm and Thursday-Friday 10am-12pm.",
+      "You can call (718) 292-9090 with questions."
+    ],
+    "visit_tips_es": [
+      "Vaya durante los horarios de despensa: miércoles 4pm-6pm o jueves a viernes 10am-12pm.",
+      "Qué alimentos entrega y si hay requisitos no están indicados; pregunte llamando al (718) 292-9090 antes de ir."
+    ],
+    "visit_tips_en": [
+      "Go during pantry hours: Wednesdays 4pm-6pm or Thursday-Friday 10am-12pm.",
+      "What food is given and any requirements are not listed; call (718) 292-9090 before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "No está indicado en la información disponible. Llame al (718) 292-9090 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Miércoles de 4pm a 6pm y jueves a viernes de 10am a 12pm."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 402 E 152nd St, Bronx, New York, 10455."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "That is not listed in the available information. Call (718) 292-9090 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Wednesdays 4pm-6pm and Thursday-Friday 10am-12pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 402 E 152nd St, Bronx, New York, 10455."
+      }
+    ]
+  }
+}

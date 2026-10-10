@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-hollis-avenue-congregational-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:26.361Z",
+  "facts_hash": "880541507d5cb6a6",
+  "article": {
+    "title_es": "Hollis Avenue Congregational Church: despensa de alimentos en Queens Village",
+    "title_en": "Hollis Avenue Congregational Church: food pantry in Queens Village",
+    "summary_es": "Hollis Avenue Congregational Church es una despensa de alimentos en Queens Village, Queens, que aparece en el mapa Food Help NYC de la Ciudad. Atiende los martes de 8am a 11am.",
+    "summary_en": "Hollis Avenue Congregational Church is a food pantry in Queens Village, Queens, listed on the City's Food Help NYC map. It is open for pantry hours on Tuesday from 8am to 11am.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 211-04 Hollis Ave, Queens Village, Queens.",
+      "El horario de la despensa es los martes de 8am a 11am.",
+      "Puede llamar al (718) 468-1498 si tiene preguntas.",
+      "No se indica qué alimentos entrega ni si hay requisitos, así que pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 211-04 Hollis Ave, Queens Village, Queens.",
+      "Pantry hours are Tuesday, 8am to 11am.",
+      "You can call (718) 468-1498 for questions.",
+      "What food is given and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es los martes de 8am a 11am.",
+      "Llame al (718) 468-1498 antes de ir para preguntar sobre los alimentos y si hay requisitos.",
+      "La dirección es 211-04 Hollis Ave, Queens Village, NY 11429."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday, 8am to 11am.",
+      "Call (718) 468-1498 ahead to ask about food and any requirements.",
+      "The address is 211-04 Hollis Ave, Queens Village, NY 11429."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Hollis Avenue Congregational Church?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la Ciudad. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los martes de 8am a 11am (despensa)."
+      },
+      {
+        "q": "¿Cómo puedo hacer preguntas antes de visitar?",
+        "a": "Llame al (718) 468-1498 antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Hollis Avenue Congregational Church?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map. What food is given is not listed."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday, 8am to 11am (pantry)."
+      },
+      {
+        "q": "How can I ask questions before visiting?",
+        "a": "Call (718) 468-1498 before you go."
+      }
+    ]
+  }
+}

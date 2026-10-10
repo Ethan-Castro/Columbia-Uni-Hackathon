@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-neighbors-together-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:53.816Z",
+  "facts_hash": "1e78b2fbd095ea1a",
+  "article": {
+    "title_es": "Neighbors Together: comedor en Brooklyn",
+    "title_en": "Neighbors Together: soup kitchen in Brooklyn",
+    "summary_es": "Neighbors Together aparece en el mapa Food Help NYC de la Ciudad como despensa de alimentos y ofrece comedor en la dirección 2094 Fulton St, Brooklyn, NY 11233.",
+    "summary_en": "Neighbors Together is listed on the City's Food Help NYC map as a food pantry and offers a soup kitchen at 2094 Fulton St, Brooklyn, NY 11233.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC de la Ciudad como despensa de alimentos.",
+      "Ofrece comedor (soup kitchen) según el horario indicado.",
+      "Está ubicada en 2094 Fulton St, Brooklyn, NY 11233.",
+      "Se puede llamar al (718) 498-7256 para preguntar.",
+      "La lista no dice qué alimentos da ni qué requisitos hay; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the City's Food Help NYC map as a food pantry.",
+      "Offers a soup kitchen according to the listed hours.",
+      "Located at 2094 Fulton St, Brooklyn, NY 11233.",
+      "You can call (718) 498-7256 with questions.",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "Horario del comedor: lunes a jueves de 12pm a 2pm y de 4pm a 6pm; viernes de 12pm a 2pm.",
+      "Llame al (718) 498-7256 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Soup kitchen hours: Monday to Thursday 12pm-2pm and 4pm-6pm; Friday 12pm-2pm.",
+      "Call (718) 498-7256 before going to confirm hours and ask what is needed.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece Neighbors Together?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos, y el horario indicado corresponde a su comedor (soup kitchen)."
+      },
+      {
+        "q": "¿Cuándo está abierto el comedor?",
+        "a": "Lunes a jueves de 12pm a 2pm y de 4pm a 6pm; viernes de 12pm a 2pm."
+      },
+      {
+        "q": "¿Qué debo llevar o qué requisitos hay?",
+        "a": "La lista no menciona requisitos ni documentos. Llame al (718) 498-7256 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does Neighbors Together offer?",
+        "a": "It is listed on the Food Help NYC map as a food pantry, and the listed hours are for its soup kitchen."
+      },
+      {
+        "q": "When is the soup kitchen open?",
+        "a": "Monday to Thursday 12pm-2pm and 4pm-6pm; Friday 12pm-2pm."
+      },
+      {
+        "q": "What should I bring or what are the requirements?",
+        "a": "The listing does not mention requirements or documents. Call (718) 498-7256 to ask before going."
+      }
+    ]
+  }
+}

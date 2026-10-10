@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-pathhseo-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:52.272Z",
+  "facts_hash": "6e647d27979692d9",
+  "article": {
+    "title_es": "PATHHSEO INC: cocina de comidas en el Bronx",
+    "title_en": "PATHHSEO INC: soup kitchen in the Bronx",
+    "summary_es": "PATHHSEO INC es una cocina de comidas en el Bronx, en el mapa Food Help NYC de la ciudad. Abre los sábados de 12pm a 2pm.",
+    "summary_en": "PATHHSEO INC is a soup kitchen in the Bronx, listed on the City's Food Help NYC map. It is open Saturdays from 12pm to 2pm.",
+    "how_they_help_es": [
+      "Ofrece comidas como cocina de comidas (soup kitchen).",
+      "Está en el mapa oficial Food Help NYC de la ciudad.",
+      "Atiende los sábados de 12pm a 2pm.",
+      "Qué alimentos da y si hay requisitos no está indicado; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Provides meals as a soup kitchen.",
+      "Listed on the City's official Food Help NYC map.",
+      "Open Saturdays from 12pm to 2pm.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Dirección: 1357 Southern Blvd, Bronx, NY, 10459.",
+      "Horario: sábados de 12pm a 2pm.",
+      "Antes de ir, puede llamar al (917) 471-9188 para preguntar por los requisitos."
+    ],
+    "visit_tips_en": [
+      "Address: 1357 Southern Blvd, Bronx, NY, 10459.",
+      "Hours: Saturdays from 12pm to 2pm.",
+      "Before visiting, you can call (917) 471-9188 to ask about any requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué comida ofrece PATHHSEO INC?",
+        "a": "Es una cocina de comidas (soup kitchen). Qué alimentos da no está indicado en la información disponible."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Los sábados de 12pm a 2pm."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "No está indicado. Puede llamar al (917) 471-9188 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does PATHHSEO INC provide?",
+        "a": "It is a soup kitchen. What food is given is not listed in the available information."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Saturdays from 12pm to 2pm."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "That is not listed. You can call (917) 471-9188 to ask before visiting."
+      }
+    ]
+  }
+}

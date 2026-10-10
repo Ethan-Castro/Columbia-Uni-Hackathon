@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-jamaica-queens-wesleyan-church-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:55.297Z",
+  "facts_hash": "489f2327d14d00d1",
+  "article": {
+    "title_es": "Jamaica Queens Wesleyan Church Pantry: despensa de alimentos en Queens",
+    "title_en": "Jamaica Queens Wesleyan Church Pantry: food pantry in Queens",
+    "summary_es": "Jamaica Queens Wesleyan Church Pantry es una despensa de alimentos en Laurelton, Queens, incluida en el mapa Food Help NYC de la ciudad. Abre los sábados.",
+    "summary_en": "Jamaica Queens Wesleyan Church Pantry is a food pantry in Laurelton, Queens, listed on the City's Food Help NYC map. It is open on Saturdays.",
+    "how_they_help_es": [
+      "Despensa de alimentos incluida en el mapa Food Help NYC de la ciudad",
+      "Ubicada en 134-49 228th St, Laurelton, NY 11413",
+      "Abre los sábados de 12pm a 1:30pm",
+      "Llame al (718) 712-0335 para más información"
+    ],
+    "how_they_help_en": [
+      "Food pantry listed on the City's Food Help NYC map",
+      "Located at 134-49 228th St, Laurelton, NY 11413",
+      "Open Saturdays from 12pm to 1:30pm",
+      "Call (718) 712-0335 for more information"
+    ],
+    "visit_tips_es": [
+      "La despensa abre los sábados de 12pm a 1:30pm",
+      "Llame antes al (718) 712-0335 para confirmar que está abierta",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte cuando llame"
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Saturdays 12pm-1:30pm",
+      "Call ahead at (718) 712-0335 to confirm the pantry is open",
+      "What food is given and any requirements are not listed, so ask when you call"
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 12pm a 1:30pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 134-49 228th St, Laurelton, NY 11413, en Queens."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "No aparece en la lista. Llame al (718) 712-0335 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 12pm to 1:30pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "134-49 228th St, Laurelton, NY 11413, in Queens."
+      },
+      {
+        "q": "Do I need to bring anything?",
+        "a": "That is not listed. Call (718) 712-0335 to ask before you go."
+      }
+    ]
+  }
+}

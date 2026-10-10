@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-endtime-rescue-international-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:33.502Z",
+  "facts_hash": "4c1df96143623d1d",
+  "article": {
+    "title_es": "Endtime Rescue International Church: despensa de alimentos en Queens",
+    "title_en": "Endtime Rescue International Church: food pantry in Queens",
+    "summary_es": "Endtime Rescue International Church es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad. La despensa abre el tercer viernes del mes, de 10 a.m. a 1 p.m.",
+    "summary_en": "Endtime Rescue International Church is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map. The pantry is open the 3rd Friday of the month, 10am-1pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 140-20 Bascom Ave, Jamaica, NY, 11436.",
+      "Abre el viernes de 10 a.m. a 1 p.m.; la despensa es el tercer viernes del mes.",
+      "Puede llamar al (347) 878-1382 para preguntar.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 140-20 Bascom Ave, Jamaica, NY, 11436.",
+      "It is open Friday 10am-1pm; the pantry is the 3rd Friday of the month.",
+      "You can call (347) 878-1382 with questions.",
+      "What food is given and any requirements are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona solo el tercer viernes del mes, de 10 a.m. a 1 p.m.",
+      "Llame al (347) 878-1382 antes de ir para confirmar los detalles.",
+      "No se indica qué alimentos ofrece ni si pide algún documento; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry runs only the 3rd Friday of the month, 10am-1pm.",
+      "Call (347) 878-1382 before going to confirm details.",
+      "What food is offered and whether any documents are needed are not listed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "El tercer viernes del mes, de 10 a.m. a 1 p.m."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 140-20 Bascom Ave, Jamaica, NY, 11436, en Queens."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué necesito para recibirlos?",
+        "a": "No se indica en la información disponible. Llame al (347) 878-1382 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "The 3rd Friday of the month, 10am-1pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 140-20 Bascom Ave, Jamaica, NY, 11436, in Queens."
+      },
+      {
+        "q": "What food does it give, and what do I need to receive it?",
+        "a": "This is not listed in the available information. Call (347) 878-1382 to ask."
+      }
+    ]
+  }
+}

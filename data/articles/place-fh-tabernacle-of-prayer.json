@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-tabernacle-of-prayer",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:11.843Z",
+  "facts_hash": "ce50d24aa62041d4",
+  "article": {
+    "title_es": "Tabernacle of Prayer: despensa de alimentos en Jamaica, Queens",
+    "title_en": "Tabernacle of Prayer: food pantry in Jamaica, Queens",
+    "summary_es": "Tabernacle of Prayer es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC. Abre los miércoles por la mañana.",
+    "summary_en": "Tabernacle of Prayer is a food pantry in Jamaica, Queens, listed on the Food Help NYC map. It opens Wednesday mornings.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Entrega alimentos los miércoles de 10am a 11:30am.",
+      "Está en 90-07 Merrick Blvd, Jamaica, Nueva York, 11432.",
+      "Puede llamar al (718) 657-4210 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Food is given on Wednesdays from 10am to 11:30am.",
+      "It is located at 90-07 Merrick Blvd, Jamaica, New York, 11432.",
+      "You can call (718) 657-4210 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es miércoles de 10am a 11:30am.",
+      "La página no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono.",
+      "Verifique el horario llamando al (718) 657-4210 antes de viajar."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Wednesdays from 10am to 11:30am.",
+      "The listing does not say what food is given or if there are requirements; ask by phone.",
+      "Confirm the hours by calling (718) 657-4210 before traveling."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 90-07 Merrick Blvd, Jamaica, Nueva York, 11432, en Queens."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 10am a 11:30am, según la información publicada."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado. Llame al (718) 657-4210 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry?",
+        "a": "At 90-07 Merrick Blvd, Jamaica, New York, 11432, in Queens."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 10am to 11:30am, according to the listing."
+      },
+      {
+        "q": "What should I bring or what food is given?",
+        "a": "It is not listed. Call (718) 657-4210 to ask before going."
+      }
+    ]
+  }
+}

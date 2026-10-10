@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-community-help-in-park-slope-inc-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:53.689Z",
+  "facts_hash": "a0b0483de33b9d1b",
+  "article": {
+    "title_es": "Community Help in Park Slope: comedor en Brooklyn",
+    "title_en": "Community Help in Park Slope: soup kitchen in Brooklyn",
+    "summary_es": "Community Help in Park Slope Inc (SK) es un comedor de comida en Brooklyn, NY, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Community Help in Park Slope Inc (SK) is a soup kitchen in Brooklyn, NY, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es un comedor de comida (soup kitchen) según el mapa Food Help NYC.",
+      "Está ubicado en 200 4th Ave, Brooklyn, NY 11217.",
+      "Abre de lunes a sábado, con servicio de 9am a 10:30am y de 11:30am a 1pm.",
+      "Atiende también los fines de semana.",
+      "Qué alimentos ofrece y si hay requisitos no está indicado; pregunte llamando al (718) 237-2962."
+    ],
+    "how_they_help_en": [
+      "It is a soup kitchen listed on the City's Food Help NYC map.",
+      "It is located at 200 4th Ave, Brooklyn, NY 11217.",
+      "Open Monday to Saturday, serving 9am-10:30am and 11:30am-1pm.",
+      "It is open on weekends too.",
+      "What food is given and any requirements are not listed; ask by calling (718) 237-2962."
+    ],
+    "visit_tips_es": [
+      "El horario de servicio es de lunes a sábado: 9am-10:30am y 11:30am-1pm.",
+      "Llame al (718) 237-2962 antes de ir para confirmar los detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Serving hours are Monday to Saturday: 9am-10:30am and 11:30am-1pm.",
+      "Call (718) 237-2962 before going to confirm details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de lugar es?",
+        "a": "Es un comedor de comida (soup kitchen) que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "De lunes a sábado, de 9am a 10:30am y de 11:30am a 1pm. También abre los fines de semana."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "No se indica qué alimentos ofrece ni si hay requisitos. Llame al (718) 237-2962 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of place is this?",
+        "a": "It is a soup kitchen listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Monday to Saturday, 9am-10:30am and 11:30am-1pm. It is also open on weekends."
+      },
+      {
+        "q": "What do I need to bring?",
+        "a": "What food is given and any requirements are not listed. Call (718) 237-2962 to ask before going."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-project-create-anthony-house",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:38.066Z",
+  "facts_hash": "c93a6175d19b7049",
+  "article": {
+    "title_es": "Project Create - Anthony House: despensa de alimentos en Manhattan",
+    "title_en": "Project Create - Anthony House: food pantry in Manhattan",
+    "summary_es": "Project Create - Anthony House es una despensa de alimentos en Manhattan, en la lista Food Help NYC de la ciudad.",
+    "summary_en": "Project Create - Anthony House is a food pantry in Manhattan, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Ofrece servicio de despensa los miércoles de 10am a 12pm.",
+      "Está ubicada en 73 Lenox Ave, Nueva York, NY 10026.",
+      "Puede llamar al (212) 663-1596 para hacer preguntas."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It offers pantry service on Wednesdays from 10am to 12pm.",
+      "It is located at 73 Lenox Ave, New York, NY 10026.",
+      "You can call (212) 663-1596 with questions."
+    ],
+    "visit_tips_es": [
+      "La despensa abre los miércoles de 10am a 12pm.",
+      "Llame antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La página se revisó por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Wednesdays 10am-12pm.",
+      "Call before you go to confirm hours and ask what you need.",
+      "This page was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 10am a 12pm, según la información publicada."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué requisitos hay?",
+        "a": "No está indicado. Llame al (212) 663-1596 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 73 Lenox Ave, Nueva York, NY 10026, en Manhattan."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 10am to 12pm, according to the listing."
+      },
+      {
+        "q": "What food does it give and what are the requirements?",
+        "a": "That is not listed. Call (212) 663-1596 to ask before you go."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 73 Lenox Ave, New York, NY 10026, in Manhattan."
+      }
+    ]
+  }
+}

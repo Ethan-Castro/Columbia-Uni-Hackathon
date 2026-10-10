@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-stapleton-u-a-m-e-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:20.975Z",
+  "facts_hash": "3c7e40a743be01d6",
+  "article": {
+    "title_es": "Iglesia Stapleton U.A.M.E.: despensa de alimentos en Staten Island",
+    "title_en": "Stapleton U.A.M.E. Church: food pantry in Staten Island",
+    "summary_es": "La Iglesia Stapleton U.A.M.E. aparece en el mapa Food Help NYC como despensa de alimentos y cocina comunitaria en Staten Island. Ofrece despensa los martes y viernes y cocina los miércoles.",
+    "summary_en": "Stapleton U.A.M.E. Church appears on the Food Help NYC map as a food pantry and soup kitchen in Staten Island. It offers a pantry on Tuesdays and Fridays and a soup kitchen on Wednesdays.",
+    "how_they_help_es": [
+      "Despensa de alimentos los martes de 10am a 1pm.",
+      "Despensa de alimentos los viernes de 10am a 1pm.",
+      "Cocina comunitaria (sopa) los miércoles de 12pm a 1pm.",
+      "Está ubicada en 49 Tompkins Ave, Staten Island, NY 10304.",
+      "Puede llamar al (718) 273-2857 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Food pantry on Tuesdays from 10am to 1pm.",
+      "Food pantry on Fridays from 10am to 1pm.",
+      "Soup kitchen on Wednesdays from 12pm to 1pm.",
+      "Located at 49 Tompkins Ave, Staten Island, NY 10304.",
+      "You can call (718) 273-2857 with questions."
+    ],
+    "visit_tips_es": [
+      "La despensa abre martes y viernes de 10am a 1pm.",
+      "La cocina comunitaria abre miércoles de 12pm a 1pm.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono antes de ir."
+    ],
+    "visit_tips_en": [
+      "The pantry is open Tuesdays and Fridays from 10am to 1pm.",
+      "The soup kitchen is open Wednesdays from 12pm to 1pm.",
+      "The listing does not say what food is given or if there are requirements; call ahead before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece esta iglesia?",
+        "a": "Según el mapa Food Help NYC, ofrece despensa de alimentos los martes y viernes y cocina comunitaria los miércoles."
+      },
+      {
+        "q": "¿Necesito hacer una cita o traer documentos?",
+        "a": "La lista no menciona citas ni documentos. Puede llamar al (718) 273-2857 para preguntar antes de ir."
+      },
+      {
+        "q": "¿Cuándo y dónde está abierta?",
+        "a": "En 49 Tompkins Ave, Staten Island, NY 10304. Despensa: martes y viernes de 10am a 1pm. Cocina: miércoles de 12pm a 1pm."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this church offer?",
+        "a": "According to the Food Help NYC map, it offers a food pantry on Tuesdays and Fridays and a soup kitchen on Wednesdays."
+      },
+      {
+        "q": "Do I need an appointment or documents?",
+        "a": "The listing does not mention appointments or documents. You can call (718) 273-2857 to ask before going."
+      },
+      {
+        "q": "When and where is it open?",
+        "a": "At 49 Tompkins Ave, Staten Island, NY 10304. Pantry: Tuesdays and Fridays 10am-1pm. Soup kitchen: Wednesdays 12pm-1pm."
+      }
+    ]
+  }
+}

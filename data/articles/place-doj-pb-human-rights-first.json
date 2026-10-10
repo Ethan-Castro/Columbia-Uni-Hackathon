@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-pb-human-rights-first",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:48.972Z",
+  "facts_hash": "c267554fe20d4603",
+  "article": {
+    "title_es": "Human Rights First: lista de proveedores legales pro bono en Manhattan",
+    "title_en": "Human Rights First: pro bono legal provider list in Manhattan",
+    "summary_es": "Human Rights First aparece en la lista de proveedores de servicios legales pro bono del Departamento de Justicia de EE. UU. (EOIR). Está en Manhattan y los idiomas indicados son español, francés y árabe.",
+    "summary_en": "Human Rights First appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers. It is located in Manhattan, and the languages listed are Spanish, French, and Arabic.",
+    "how_they_help_es": [
+      "Aparece en la lista de proveedores pro bono del Departamento de Justicia (EOIR).",
+      "Está ubicado en 147 W. 36th Street, PMB 520, Nueva York, NY 10018.",
+      "Los idiomas indicados en la lista son español, francés y árabe.",
+      "Puede llamar al (212) 845-5200 para preguntar.",
+      "La lista no indica si acepta casos nuevos ni los costos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the Department of Justice (EOIR) pro bono provider list.",
+      "Located at 147 W. 36th Street, PMB 520, New York, NY 10018.",
+      "The languages listed are Spanish, French, and Arabic.",
+      "You can call (212) 845-5200 to ask questions.",
+      "The list does not say if they take new cases or what fees apply; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame antes de ir al (212) 845-5200 para preguntar cómo solicitar sus servicios.",
+      "La dirección exacta es 147 W. 36th Street, PMB 520, Nueva York, NY 10018.",
+      "Los horarios de atención no están indicados; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call ahead at (212) 845-5200 to ask how to request their services.",
+      "The exact address is 147 W. 36th Street, PMB 520, New York, NY 10018.",
+      "Hours of operation are not listed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Human Rights First?",
+        "a": "Es una organización que aparece en la lista de proveedores de servicios legales pro bono del Departamento de Justicia de EE. UU. (EOIR)."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "La lista no indica los costos ni cómo obtener una cita. Llame al (212) 845-5200 para preguntar."
+      },
+      {
+        "q": "¿En qué idiomas están indicados?",
+        "a": "Los idiomas indicados en la lista son español, francés y árabe."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Human Rights First?",
+        "a": "It is an organization listed on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers."
+      },
+      {
+        "q": "How much do their services cost?",
+        "a": "The list does not show fees or how to get an appointment. Call (212) 845-5200 to ask."
+      },
+      {
+        "q": "What languages are listed?",
+        "a": "The languages listed are Spanish, French, and Arabic."
+      }
+    ]
+  }
+}

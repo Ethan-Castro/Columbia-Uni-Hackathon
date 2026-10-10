@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-disciples-of-galilee-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:59.130Z",
+  "facts_hash": "a7d93cef26408a05",
+  "article": {
+    "title_es": "Disciples of Galilee: despensa de alimentos en el Bronx",
+    "title_en": "Disciples of Galilee: food pantry in the Bronx",
+    "summary_es": "Disciples of Galilee, Inc. es una despensa de alimentos en el Bronx, en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Disciples of Galilee, Inc. is a food pantry in the Bronx, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 725 Castle Hill Ave, Bronx, NY 10473.",
+      "Abre el miércoles de 3pm a 4pm y el viernes de 1pm a 2:30pm (despensa).",
+      "Puede llamar al (347) 293-6166 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si hay requisitos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 725 Castle Hill Ave, Bronx, NY 10473.",
+      "Open Wed 3pm-4pm and Fri 1pm-2:30pm (pantry).",
+      "You can call (347) 293-6166 with questions.",
+      "The listing does not say what food is given or any requirements; ask directly."
+    ],
+    "visit_tips_es": [
+      "Vaya durante los horarios de despensa: miércoles 3pm-4pm o viernes 1pm-2:30pm.",
+      "Llame antes al (347) 293-6166 para confirmar horarios y detalles.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go during pantry hours: Wed 3pm-4pm or Fri 1pm-2:30pm.",
+      "Call ahead at (347) 293-6166 to confirm hours and details.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 725 Castle Hill Ave, Bronx, NY 10473."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Despensa: miércoles 3pm-4pm y viernes 1pm-2:30pm."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La lista no lo indica. Llame al (347) 293-6166 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it located?",
+        "a": "At 725 Castle Hill Ave, Bronx, NY 10473."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Pantry: Wed 3pm-4pm and Fri 1pm-2:30pm."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (347) 293-6166 to ask."
+      }
+    ]
+  }
+}

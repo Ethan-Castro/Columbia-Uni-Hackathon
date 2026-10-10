@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-child-development-support-corporation",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:28.868Z",
+  "facts_hash": "81606f98393f8290",
+  "article": {
+    "title_es": "Child Development Support Corporation: despensa de alimentos en Brooklyn",
+    "title_en": "Child Development Support Corporation: food pantry in Brooklyn",
+    "summary_es": "Child Development Support Corporation es una despensa de alimentos en Brooklyn, en el mapa Food Help NYC de la ciudad. Abre los jueves de 11am a 3pm.",
+    "summary_en": "Child Development Support Corporation is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open Thursdays from 11am to 3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está en 358 Classon Ave, Brooklyn, NY 11238.",
+      "Atiende los jueves de 11am a 3pm.",
+      "Puede llamar al (718) 398-2050 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 358 Classon Ave, Brooklyn, NY 11238.",
+      "It is open Thursdays from 11am to 3pm.",
+      "You can call (718) 398-2050 with questions."
+    ],
+    "visit_tips_es": [
+      "Vaya el jueves entre 11am y 3pm, que es el horario de la despensa.",
+      "Llame antes al (718) 398-2050 para confirmar horarios y requisitos.",
+      "La lista no dice qué alimentos entrega ni qué se necesita; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on Thursday between 11am and 3pm, which is the pantry hours.",
+      "Call ahead at (718) 398-2050 to confirm hours and any requirements.",
+      "The listing does not say what food is given or what is needed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega la despensa?",
+        "a": "La lista no lo indica. Llame al (718) 398-2050 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los jueves de 11am a 3pm, según la lista."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 358 Classon Ave, Brooklyn, New York, 11238."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does the pantry give?",
+        "a": "The listing does not say. Call (718) 398-2050 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Thursdays from 11am to 3pm, according to the listing."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 358 Classon Ave, Brooklyn, New York, 11238."
+      }
+    ]
+  }
+}

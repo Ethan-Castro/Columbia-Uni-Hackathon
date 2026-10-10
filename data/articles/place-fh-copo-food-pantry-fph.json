@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-copo-food-pantry-fph",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:32.685Z",
+  "facts_hash": "ba339da93b1a28c0",
+  "article": {
+    "title_es": "COPO Food Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "COPO Food Pantry: food pantry in Brooklyn",
+    "summary_es": "COPO FOOD PANTRY (FPH) es una despensa de alimentos en Brooklyn, aparece en el mapa Food Help NYC de la ciudad. Abre los viernes.",
+    "summary_en": "COPO FOOD PANTRY (FPH) is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It is open on Fridays.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 1077 Coney Island Ave, Brooklyn, NY 11230.",
+      "Abre los viernes de 10:30am a 4:30pm.",
+      "Puede llamar al (718) 434-3266 para preguntar.",
+      "No se indica qué alimentos entrega ni si pide requisitos."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "Located at 1077 Coney Island Ave, Brooklyn, NY 11230.",
+      "Open Fridays 10:30am-4:30pm.",
+      "You can call (718) 434-3266 to ask questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya los viernes entre 10:30am y 4:30pm.",
+      "Llame antes al (718) 434-3266 para confirmar horarios y preguntar qué necesita.",
+      "La lista no menciona documentos ni requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on Fridays between 10:30am and 4:30pm.",
+      "Call ahead at (718) 434-3266 to confirm hours and ask what you need.",
+      "The listing does not mention documents or requirements; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué alimentos entrega esta despensa?",
+        "a": "La lista no lo indica. Llame al (718) 434-3266 para preguntar."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los viernes de 10:30am a 4:30pm, según la lista."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "La lista no menciona requisitos. Se recomienda llamar antes para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What food does this pantry give?",
+        "a": "The listing does not say. Call (718) 434-3266 to ask."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Fridays from 10:30am to 4:30pm, according to the listing."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "The listing does not mention requirements. It is best to call ahead and ask."
+      }
+    ]
+  }
+}

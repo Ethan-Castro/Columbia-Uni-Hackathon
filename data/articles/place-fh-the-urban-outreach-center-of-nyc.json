@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-the-urban-outreach-center-of-nyc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:18.445Z",
+  "facts_hash": "1b750df9626794f3",
+  "article": {
+    "title_es": "The Urban Outreach Center: despensa de alimentos en Manhattan",
+    "title_en": "The Urban Outreach Center: food pantry in Manhattan",
+    "summary_es": "The Urban Outreach Center ofrece despensa de alimentos y cocina solidaria en el Upper East Side de Manhattan. Atiende martes por la tarde, miércoles y viernes por la mañana.",
+    "summary_en": "The Urban Outreach Center offers a food pantry and soup kitchen on Manhattan's Upper East Side. It is open Tuesday evenings and Wednesday and Friday mornings.",
+    "how_they_help_es": [
+      "Despensa de alimentos los miércoles y viernes de 9am a 1pm.",
+      "Cocina solidaria los martes de 5:30pm a 6:30pm.",
+      "Ubicado en 1745 1st Ave, Nueva York, NY 10128.",
+      "Teléfono: (212) 288-6743 para preguntas.",
+      "La lista no indica qué alimentos se entregan ni los requisitos; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Food pantry on Wednesdays and Fridays, 9am to 1pm.",
+      "Soup kitchen on Tuesdays, 5:30pm to 6:30pm.",
+      "Located at 1745 1st Ave, New York, NY 10128.",
+      "Phone: (212) 288-6743 for questions.",
+      "The listing does not say what food is given or any requirements; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Confirme los horarios llamando al (212) 288-6743 antes de ir.",
+      "El horario de la cocina solidaria es por la tarde, útil si trabaja de día.",
+      "Pregunte qué documentos se necesitan, ya que la lista no lo indica."
+    ],
+    "visit_tips_en": [
+      "Confirm hours by calling (212) 288-6743 before you go.",
+      "The soup kitchen hours are in the evening, helpful if you work during the day.",
+      "Ask what documents are needed, since the listing does not say."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo puedo recibir alimentos?",
+        "a": "Despensa: miércoles y viernes de 9am a 1pm. Cocina solidaria: martes de 5:30pm a 6:30pm."
+      },
+      {
+        "q": "¿Dónde está ubicado?",
+        "a": "En 1745 1st Ave, Nueva York, NY 10128, en Manhattan."
+      },
+      {
+        "q": "¿Qué necesito llevar?",
+        "a": "La lista no lo indica. Llame al (212) 288-6743 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When can I get food?",
+        "a": "Pantry: Wednesdays and Fridays, 9am to 1pm. Soup kitchen: Tuesdays, 5:30pm to 6:30pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 1745 1st Ave, New York, NY 10128, in Manhattan."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (212) 288-6743 to ask before you go."
+      }
+    ]
+  }
+}

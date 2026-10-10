@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-east-new-york-wesleyan-church-new-hope-famil",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:34.775Z",
+  "facts_hash": "b29a3a7847a1ed6e",
+  "article": {
+    "title_es": "East New York Wesleyan Church: despensa de alimentos en Brooklyn",
+    "title_en": "East New York Wesleyan Church: food pantry in Brooklyn",
+    "summary_es": "East New York Wesleyan Church / New Hope Family Worship Center es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad. Abre los sábados.",
+    "summary_en": "East New York Wesleyan Church / New Hope Family Worship Center is a food pantry in Brooklyn listed on the City's Food Help NYC map. It opens on Saturdays.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 817 Livonia Ave, Brooklyn (código postal 11207).",
+      "El horario de la despensa es sábado, de 11am a 1pm.",
+      "Puede llamar al (718) 342-1305 para más información."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the City's Food Help NYC map.",
+      "Located at 817 Livonia Ave in Brooklyn (zip 11207).",
+      "Pantry hours are Saturday, 11am to 1pm.",
+      "You can call (718) 342-1305 for more information."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es sábado, de 11am a 1pm.",
+      "Llame al (718) 342-1305 antes de ir para preguntar qué alimentos entregan y si hay requisitos.",
+      "El listado no indica qué documentos se necesitan, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Saturday, 11am to 1pm.",
+      "Call (718) 342-1305 ahead to ask what food is given and any requirements.",
+      "The listing does not say what documents are needed, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa de alimentos?",
+        "a": "Sábado, de 11am a 1pm."
+      },
+      {
+        "q": "¿Cómo los contacto?",
+        "a": "Llame al (718) 342-1305 o visite 817 Livonia Ave, Brooklyn, NY 11207."
+      },
+      {
+        "q": "¿Qué alimentos entregan?",
+        "a": "No está en el listado. Llame antes para preguntar qué ofrecen y si hay requisitos."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the food pantry open?",
+        "a": "Saturday, 11am to 1pm."
+      },
+      {
+        "q": "How do I contact them?",
+        "a": "Call (718) 342-1305 or visit 817 Livonia Ave, Brooklyn, NY 11207."
+      },
+      {
+        "q": "What food do they give?",
+        "a": "That is not listed. Call ahead to ask what is offered and any requirements."
+      }
+    ]
+  }
+}

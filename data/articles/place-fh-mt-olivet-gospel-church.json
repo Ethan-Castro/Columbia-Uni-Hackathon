@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-mt-olivet-gospel-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:02.099Z",
+  "facts_hash": "866eeadb72ef1899",
+  "article": {
+    "title_es": "Mt. Olivet Gospel Church: despensa de alimentos en Corona, Queens",
+    "title_en": "Mt. Olivet Gospel Church: food pantry in Corona, Queens",
+    "summary_es": "Mt. Olivet Gospel Church es una despensa de alimentos en Corona, Queens, que aparece en el mapa Food Help NYC de la Ciudad.",
+    "summary_en": "Mt. Olivet Gospel Church is a food pantry in Corona, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Aparece como despensa de alimentos en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicada en 33-27 97th St, Corona, Queens.",
+      "Abre de lunes a miércoles, de 10am a 2pm.",
+      "Puede llamar al (718) 478-0780 para más información.",
+      "No se indica qué alimentos da ni si hay requisitos; pregunte antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 33-27 97th St, Corona, Queens.",
+      "It is open Monday to Wednesday, 10am to 2pm.",
+      "You can call (718) 478-0780 for more information.",
+      "What food is given and any requirements are not listed, so ask before visiting."
+    ],
+    "visit_tips_es": [
+      "Visite en horario: de lunes a miércoles, de 10am a 2pm.",
+      "Llame al (718) 478-0780 antes de ir para preguntar qué alimentos dan y si hay requisitos.",
+      "La información no indica qué documentos se necesitan, así que es mejor preguntar por teléfono."
+    ],
+    "visit_tips_en": [
+      "Visit during open hours: Monday to Wednesday, 10am to 2pm.",
+      "Call (718) 478-0780 ahead to ask about the food given and any requirements.",
+      "The listing does not say what documents are needed, so it is best to ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de ayuda ofrece este lugar?",
+        "a": "Aparece como despensa de alimentos en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "De lunes a miércoles, de 10am a 2pm."
+      },
+      {
+        "q": "¿Cómo puedo saber qué alimentos dan o qué se necesita?",
+        "a": "Llame al (718) 478-0780 antes de visitar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of help does this place offer?",
+        "a": "It is listed as a food pantry on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Monday to Wednesday, 10am to 2pm."
+      },
+      {
+        "q": "How can I find out what food they give or what is needed?",
+        "a": "Call (718) 478-0780 before visiting."
+      }
+    ]
+  }
+}

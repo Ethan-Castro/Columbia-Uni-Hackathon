@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-pb-catholic-migration-services-queens",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:46.951Z",
+  "facts_hash": "395f511f29614e93",
+  "article": {
+    "title_es": "Catholic Migration Services: oficina legal en Queens",
+    "title_en": "Catholic Migration Services: legal office in Queens",
+    "summary_es": "Catholic Migration Services tiene una oficina en Sunnyside, Queens, y aparece en la lista de proveedores legales pro bono del Departamento de Justicia de EE. UU. (EOIR).",
+    "summary_en": "Catholic Migration Services has an office in Sunnyside, Queens, and appears on the U.S. Department of Justice (EOIR) List of Pro Bono Legal Service Providers.",
+    "how_they_help_es": [
+      "Aparece en la lista de proveedores legales pro bono del DOJ (EOIR).",
+      "Está ubicada en 47-01 Queens Blvd., Suite 203, Sunnyside, NY 11104.",
+      "Puede llamar al (347) 472-3500 para preguntar.",
+      "La lista no indica si aceptan casos nuevos ni los costos; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) List of Pro Bono Legal Service Providers.",
+      "Located at 47-01 Queens Blvd., Suite 203, Sunnyside, NY 11104.",
+      "You can call (347) 472-3500 to ask questions.",
+      "The list does not say if they take new cases or what fees apply; ask directly."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (347) 472-3500 para confirmar cómo recibir atención.",
+      "Los horarios no aparecen en la información disponible; pregunte por teléfono.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call first at (347) 472-3500 to confirm how to get help.",
+      "Hours are not listed in the available information; ask by phone.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es la oficina de Queens de Catholic Migration Services, en Sunnyside. Aparece en la lista pro bono del DOJ (EOIR)."
+      },
+      {
+        "q": "¿Cómo contacto a la oficina?",
+        "a": "Puede llamar al (347) 472-3500 o visitar 47-01 Queens Blvd., Suite 203, Sunnyside, NY 11104."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "No aparece información sobre costos ni sobre cómo pedir una cita. Llame para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is the Queens office of Catholic Migration Services, in Sunnyside. It appears on the DOJ (EOIR) pro bono list."
+      },
+      {
+        "q": "How do I contact the office?",
+        "a": "You can call (347) 472-3500 or visit 47-01 Queens Blvd., Suite 203, Sunnyside, NY 11104."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "No information about fees or how to get an appointment is listed. Call to ask."
+      }
+    ]
+  }
+}

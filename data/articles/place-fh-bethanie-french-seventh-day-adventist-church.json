@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bethanie-french-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:24.144Z",
+  "facts_hash": "f8b4e13052e7ccc0",
+  "article": {
+    "title_es": "Bethanie French Seventh-Day Adventist Church: despensa de alimentos en Brooklyn",
+    "title_en": "Bethanie French Seventh-Day Adventist Church: food pantry in Brooklyn",
+    "summary_es": "Esta iglesia en Brooklyn aparece en el mapa Food Help NYC como despensa de alimentos. La despensa funciona el primer y tercer jueves del mes.",
+    "summary_en": "This Brooklyn church is listed on the City's Food Help NYC map as a food pantry. The pantry runs on the 1st and 3rd Thursday of the month.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Está ubicada en 2059 Bedford Ave, Brooklyn, NY 11226.",
+      "Abre los jueves de 10am a 12pm.",
+      "La despensa funciona solo el primer y tercer jueves del mes.",
+      "Puede llamar al (929) 340-4778 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Located at 2059 Bedford Ave, Brooklyn, NY 11226.",
+      "Open Thursdays 10am-12pm.",
+      "The pantry runs on the 1st and 3rd Thursday of the month only.",
+      "You can call (929) 340-4778 to ask questions."
+    ],
+    "visit_tips_es": [
+      "Vaya un primer o tercer jueves entre 10am y 12pm.",
+      "Llame antes al (929) 340-4778 para confirmar qué alimentos dan y si necesita algo.",
+      "La lista no dice qué alimentos ofrece ni qué requisitos hay."
+    ],
+    "visit_tips_en": [
+      "Go on a 1st or 3rd Thursday between 10am and 12pm.",
+      "Call ahead at (929) 340-4778 to confirm what food is given and if you need anything.",
+      "The listing does not say what food is offered or what requirements there are."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 10am a 12pm, pero la despensa funciona solo el primer y tercer jueves del mes."
+      },
+      {
+        "q": "¿Dónde está?",
+        "a": "En 2059 Bedford Ave, Brooklyn, New York, 11226."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "La lista no lo indica. Llame al (929) 340-4778 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays 10am-12pm, but the pantry runs on the 1st and 3rd Thursday of the month only."
+      },
+      {
+        "q": "Where is it?",
+        "a": "At 2059 Bedford Ave, Brooklyn, New York, 11226."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "The listing does not say. Call (929) 340-4778 to ask before you go."
+      }
+    ]
+  }
+}

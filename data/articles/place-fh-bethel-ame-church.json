@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-bethel-ame-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:48.861Z",
+  "facts_hash": "6fc86a37cbfb0434",
+  "article": {
+    "title_es": "Bethel AME Church: despensa de alimentos en Manhattan",
+    "title_en": "Bethel AME Church: food pantry in Manhattan",
+    "summary_es": "Bethel AME Church aparece en el mapa Food Help NYC de la ciudad como despensa de alimentos en Harlem, Manhattan. Atiende los jueves por la mañana.",
+    "summary_en": "Bethel AME Church is listed on the City's Food Help NYC map as a food pantry in Manhattan. It is open on Thursday mornings.",
+    "how_they_help_es": [
+      "Está en 54-60 W 132nd St, Nueva York, NY 10037.",
+      "La despensa funciona los jueves de 9:30am a 11:30am.",
+      "Puede llamar al (212) 862-0100 para preguntar.",
+      "La lista no dice qué alimentos entrega ni si pide requisitos.",
+      "Verifique los detalles antes de ir."
+    ],
+    "how_they_help_en": [
+      "Located at 54-60 W 132nd St, New York, NY 10037.",
+      "The pantry is open Thursdays from 9:30am to 11:30am.",
+      "You can call (212) 862-0100 with questions.",
+      "The listing does not say what food is given or any requirements.",
+      "Check the details before you go."
+    ],
+    "visit_tips_es": [
+      "Vaya el jueves entre 9:30am y 11:30am.",
+      "Llame primero al (212) 862-0100 para confirmar el horario.",
+      "Pregunte qué alimentos ofrece y si necesita algo para participar."
+    ],
+    "visit_tips_en": [
+      "Go on Thursday between 9:30am and 11:30am.",
+      "Call (212) 862-0100 first to confirm the hours.",
+      "Ask what food is offered and if anything is needed to participate."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 54-60 W 132nd St, Nueva York, NY 10037, en Manhattan."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 9:30am a 11:30am, según la lista."
+      },
+      {
+        "q": "¿Qué alimentos da?",
+        "a": "No está en la lista. Llame al (212) 862-0100 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it?",
+        "a": "At 54-60 W 132nd St, New York, NY 10037, in Manhattan."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 9:30am to 11:30am, according to the listing."
+      },
+      {
+        "q": "What food does it give?",
+        "a": "That is not listed. Call (212) 862-0100 to ask."
+      }
+    ]
+  }
+}

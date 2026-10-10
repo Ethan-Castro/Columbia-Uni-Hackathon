@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-open-door-to-heaven-outreach-ministry-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:19.807Z",
+  "facts_hash": "dc0a01ed3182bf70",
+  "article": {
+    "title_es": "Open Door to Heaven Outreach Ministry: despensa en Brooklyn",
+    "title_en": "Open Door to Heaven Outreach Ministry: food pantry in Brooklyn",
+    "summary_es": "Open Door to Heaven Outreach Ministry Inc es una despensa de alimentos en Brooklyn, en el mapa Food Help NYC de la ciudad. Reparte alimentos el tercer sábado del mes.",
+    "summary_en": "Open Door to Heaven Outreach Ministry Inc is a food pantry in Brooklyn, listed on the City's Food Help NYC map. It gives out food on the 3rd Saturday of the month.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está en 474 Shepherd Ave, Brooklyn, NY 11208.",
+      "Abre los sábados de 1pm a 2pm; la despensa es el tercer sábado del mes.",
+      "Puede llamar al (347) 822-0714 para preguntar.",
+      "No se indica qué alimentos da ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 474 Shepherd Ave, Brooklyn, NY 11208.",
+      "Open Saturdays 1pm-2pm; the pantry runs on the 3rd Saturday of the month.",
+      "You can call (347) 822-0714 with questions.",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "La despensa funciona el tercer sábado del mes, de 1pm a 2pm.",
+      "Llame antes al (347) 822-0714 para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry runs on the 3rd Saturday of the month, 1pm-2pm.",
+      "Call ahead at (347) 822-0714 to confirm hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 1pm a 2pm, y la despensa reparte el tercer sábado del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega?",
+        "a": "No se indica en la información disponible. Llame al (347) 822-0714 para preguntar."
+      },
+      {
+        "q": "¿Necesito algún documento?",
+        "a": "No se menciona ningún requisito. Le recomendamos llamar antes para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays 1pm-2pm, with the pantry distribution on the 3rd Saturday of the month."
+      },
+      {
+        "q": "What food does it give out?",
+        "a": "That is not listed in the available information. Call (347) 822-0714 to ask."
+      },
+      {
+        "q": "Do I need any documents?",
+        "a": "No requirements are mentioned. We suggest calling ahead to ask."
+      }
+    ]
+  }
+}

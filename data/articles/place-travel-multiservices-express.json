@@ -1,0 +1,62 @@
+{
+  "place_id": "place-travel-multiservices-express",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:44:02.404Z",
+  "facts_hash": "ecf739920120a82c",
+  "article": {
+    "title_es": "Travel Multiservices Express: envíos de dinero en Corona, Queens",
+    "title_en": "Travel Multiservices Express: money transfers in Corona, Queens",
+    "summary_es": "Travel Multiservices Express (agente de Western Union) es un negocio de envíos de dinero en Corona, Queens. Es un negocio, por lo que sus servicios tienen un costo.",
+    "summary_en": "Travel Multiservices Express (Western Union agent) is a money transfer business in Corona, Queens. It is a business, so fees apply to its services.",
+    "how_they_help_es": [
+      "Aparece como agente de envíos de dinero (remesas) y agente de Western Union.",
+      "Está ubicado en 9220 Corona Suite A, Corona, NY 11368, en Queens.",
+      "Puede llamar al 718-592-7460 para preguntar por sus servicios.",
+      "Se cobran tarifas, y el listado no incluye precios, así que pregunte por los costos antes de enviar dinero."
+    ],
+    "how_they_help_en": [
+      "It is listed as a money transfer (remittance) agent and a Western Union agent.",
+      "It is located at 9220 Corona Suite A, Corona, NY 11368, in Queens.",
+      "You can call 718-592-7460 to ask about its services.",
+      "Fees apply, and the listing does not include prices, so ask about costs before sending money."
+    ],
+    "visit_tips_es": [
+      "Llame antes al 718-592-7460 para confirmar horarios y servicios.",
+      "Pregunte por las tarifas y el tipo de cambio antes de hacer una transferencia.",
+      "El listado no incluye horarios, así que confírmelos por teléfono."
+    ],
+    "visit_tips_en": [
+      "Call ahead at 718-592-7460 to confirm hours and services.",
+      "Ask about fees and exchange rates before making a transfer.",
+      "The listing does not include hours, so confirm them by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Travel Multiservices Express?",
+        "a": "Es un negocio de envíos de dinero (remesas) en Corona, Queens, listado como agente de Western Union. Se cobran tarifas."
+      },
+      {
+        "q": "¿Cuánto cuesta enviar dinero?",
+        "a": "Los precios no están en el listado. Llame al 718-592-7460 y pregunte por las tarifas antes de enviar dinero."
+      },
+      {
+        "q": "¿Cuáles son los horarios?",
+        "a": "Los horarios no están en el listado. Llame al 718-592-7460 para confirmar antes de visitar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Travel Multiservices Express?",
+        "a": "It is a money transfer (remittance) business in Corona, Queens, listed as a Western Union agent. Fees apply."
+      },
+      {
+        "q": "How much does it cost to send money?",
+        "a": "Prices are not listed. Call 718-592-7460 and ask about fees before sending money."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Hours are not listed. Call 718-592-7460 to confirm before visiting."
+      }
+    ]
+  }
+}

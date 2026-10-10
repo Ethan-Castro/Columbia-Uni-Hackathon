@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-macedonia-ame-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:19.129Z",
+  "facts_hash": "9d95db9176dc82e8",
+  "article": {
+    "title_es": "Macedonia AME Church: despensa de alimentos en Queens",
+    "title_en": "Macedonia AME Church: food pantry in Queens",
+    "summary_es": "Macedonia AME Church es una despensa de alimentos y un comedor en Jamaica, Queens, que aparece en el mapa Food Help NYC de la Ciudad.",
+    "summary_en": "Macedonia AME Church is a food pantry and soup kitchen in Jamaica, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Tiene una despensa de alimentos los lunes y martes.",
+      "Tiene un comedor los martes.",
+      "Aparece en el mapa Food Help NYC de la Ciudad.",
+      "Puede llamar antes al (718) 353-5870 si tiene preguntas."
+    ],
+    "how_they_help_en": [
+      "Runs a food pantry on Mondays and Tuesdays.",
+      "Runs a soup kitchen on Tuesdays.",
+      "Listed on the City's Food Help NYC map.",
+      "You can call ahead at (718) 353-5870 with questions."
+    ],
+    "visit_tips_es": [
+      "La despensa atiende lunes y martes de 12pm a 2pm.",
+      "El comedor atiende martes de 9am a 11am.",
+      "La información no indica qué alimentos entregan ni qué se necesita, así que llame al (718) 353-5870 para preguntar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Monday and Tuesday, 12pm-2pm.",
+      "Soup kitchen hours are Tuesday, 9am-11am.",
+      "The listing does not say what food is given or what is required, so call (718) 353-5870 to ask."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Macedonia AME Church?",
+        "a": "Es una despensa de alimentos y un comedor que aparece en el mapa Food Help NYC de la Ciudad, en Jamaica, Queens."
+      },
+      {
+        "q": "¿Cuándo entregan alimentos?",
+        "a": "Despensa: lunes y martes de 12pm a 2pm. Comedor: martes de 9am a 11am."
+      },
+      {
+        "q": "¿Qué más debo saber?",
+        "a": "La información no indica qué alimentos entregan ni qué se necesita. Llame al (718) 353-5870 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Macedonia AME Church?",
+        "a": "It is a food pantry and soup kitchen listed on the City's Food Help NYC map, located in Jamaica, Queens."
+      },
+      {
+        "q": "When is food given?",
+        "a": "Pantry: Monday and Tuesday, 12pm-2pm. Soup kitchen: Tuesday, 9am-11am."
+      },
+      {
+        "q": "What else should I know?",
+        "a": "The listing does not say what food is given or what is required. Call (718) 353-5870 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-doj-ro-federation-of-italian-american-organizat",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:12.639Z",
+  "facts_hash": "e7a1743a72cf9821",
+  "article": {
+    "title_es": "Federation of Italian-American Organizations: ayuda legal en Brooklyn",
+    "title_en": "Federation of Italian-American Organizations: legal help in Brooklyn",
+    "summary_es": "La Federation of Italian-American Organizations of Brooklyn, Ltd. aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración. Está ubicada en 8711 18th Avenue, Brooklyn, NY 11214.",
+    "summary_en": "The Federation of Italian-American Organizations of Brooklyn, Ltd. appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives, which are non-profits whose DOJ-accredited representatives may give immigration legal help. It is located at 8711 18th Avenue, Brooklyn, NY 11214.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Es una organización sin fines de lucro según la descripción de la lista.",
+      "La lista no indica los servicios exactos ni los horarios; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations.",
+      "Its DOJ-accredited representatives may give immigration legal help.",
+      "It is a non-profit according to the roster description.",
+      "The roster does not list exact services or hours; ask directly."
+    ],
+    "visit_tips_es": [
+      "Dirección: 8711 18th Avenue, Brooklyn, NY 11214.",
+      "Teléfono: (718) 259-2828. Llame antes de ir para preguntar por servicios y citas.",
+      "La lista no indica horarios, tarifas ni cómo pedir una cita; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Address: 8711 18th Avenue, Brooklyn, NY 11214.",
+      "Phone: (718) 259-2828. Call before visiting to ask about services and appointments.",
+      "The roster does not list hours, fees, or how to get an appointment; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas y representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la lista. Llame al (718) 259-2828 para preguntar."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "La lista no indica cómo pedir una cita. Se recomienda llamar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It is a non-profit listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations and Accredited Representatives."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (718) 259-2828 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "The roster does not say how to get an appointment. It is best to call before visiting."
+      }
+    ]
+  }
+}

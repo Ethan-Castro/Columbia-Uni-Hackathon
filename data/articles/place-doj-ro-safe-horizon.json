@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-safe-horizon",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:12.713Z",
+  "facts_hash": "568da94a8290273e",
+  "article": {
+    "title_es": "Safe Horizon: organización reconocida por el DOJ en Brooklyn",
+    "title_en": "Safe Horizon: DOJ-recognized organization in Brooklyn",
+    "summary_es": "Safe Horizon es una organización sin fines de lucro en Brooklyn que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal migratoria.",
+    "summary_en": "Safe Horizon is a non-profit organization in Brooklyn that appears on the U.S. Department of Justice (EOIR) list of recognized organizations. Its DOJ-accredited representatives may be able to give immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados por el DOJ pueden ofrecer ayuda legal migratoria.",
+      "Está ubicada en 50 Court Street, 8th Floor, Brooklyn, NY 11201.",
+      "Teléfono: (718) 943-8632.",
+      "Las tarifas y cómo obtener una cita no aparecen en la lista, así que pregunte cuando llame."
+    ],
+    "how_they_help_en": [
+      "Appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "DOJ-accredited representatives may give immigration legal help.",
+      "Located at 50 Court Street, 8th Floor, Brooklyn, NY 11201.",
+      "Phone: (718) 943-8632.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame al (718) 943-8632 antes de visitar para preguntar sobre los servicios y las citas.",
+      "Pregunte sobre las tarifas y el proceso de admisión, ya que no aparecen en la lista.",
+      "La oficina está en el 8.º piso de 50 Court Street en Brooklyn."
+    ],
+    "visit_tips_en": [
+      "Call (718) 943-8632 before visiting to ask about services and appointments.",
+      "Ask about fees and the intake process, since these are not listed.",
+      "The office is on the 8th floor at 50 Court Street in Brooklyn."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Safe Horizon?",
+        "a": "Es una organización sin fines de lucro en Brooklyn que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cómo hago una cita?",
+        "a": "El proceso de admisión no aparece en la lista. Llame al (718) 943-8632 para preguntar cómo recibir ayuda."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no aparecen en la lista. Pregunte sobre los costos cuando llame."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Safe Horizon?",
+        "a": "It is a non-profit organization in Brooklyn that appears on the U.S. Department of Justice (EOIR) list of recognized organizations."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The intake process is not listed. Call (718) 943-8632 to ask how to get help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Ask about costs when you call."
+      }
+    ]
+  }
+}

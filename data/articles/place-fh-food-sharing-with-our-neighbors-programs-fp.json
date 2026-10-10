@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-food-sharing-with-our-neighbors-programs-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:04.202Z",
+  "facts_hash": "ca3a3d1ec246e063",
+  "article": {
+    "title_es": "Food Sharing With Our Neighbors: despensa de alimentos en Flushing, Queens",
+    "title_en": "Food Sharing With Our Neighbors: food pantry in Flushing, Queens",
+    "summary_es": "Food Sharing With Our Neighbors Programs (FP) es una despensa de alimentos en Flushing, Queens, que aparece en el mapa Food Help NYC de la Ciudad. Abre los jueves de 10am a 12pm.",
+    "summary_en": "Food Sharing With Our Neighbors Programs (FP) is a food pantry in Flushing, Queens, listed on the City's Food Help NYC map. It is open Thursdays from 10am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Reparte alimentos los jueves de 10am a 12pm.",
+      "Está ubicada en 38-24 149th St, Flushing, Queens, código postal 11354.",
+      "Puede llamar al (718) 939-8599 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It distributes food on Thursdays from 10am to 12pm.",
+      "It is located at 38-24 149th St, Flushing, Queens, ZIP code 11354.",
+      "You can call (718) 939-8599 to ask questions before going."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es jueves de 10am a 12pm; planifique su visita en ese horario.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono al (718) 939-8599.",
+      "Verifique la dirección: 38-24 149th St, Flushing, New York, 11354."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Thursday 10am-12pm; plan your visit during that time.",
+      "The listing does not say what food is given or if there are any requirements; call (718) 939-8599 to ask.",
+      "Double-check the address: 38-24 149th St, Flushing, New York, 11354."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es este lugar?",
+        "a": "Es una despensa de alimentos en Flushing, Queens, que aparece en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los jueves de 10am a 12pm, según la información de la despensa."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado en la lista. Llame al (718) 939-8599 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this place?",
+        "a": "It is a food pantry in Flushing, Queens, listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Thursdays from 10am to 12pm, according to the listing."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "That is not listed. Call (718) 939-8599 to ask before going."
+      }
+    ]
+  }
+}

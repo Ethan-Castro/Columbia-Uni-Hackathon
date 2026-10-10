@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-grand-concourse-seventh-day-adventist-church",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:14.351Z",
+  "facts_hash": "6f83c1cfc82a239d",
+  "article": {
+    "title_es": "Grand Concourse Seventh Day Adventist Church: despensa en el Bronx",
+    "title_en": "Grand Concourse Seventh Day Adventist Church: pantry in the Bronx",
+    "summary_es": "Esta iglesia en el Bronx aparece en el mapa Food Help NYC como despensa de alimentos. Abre los miércoles de 1:30pm a 4pm.",
+    "summary_en": "This Bronx church appears on the Food Help NYC map as a food pantry. It is open Wednesdays from 1:30pm to 4pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 1275 Grand Conc, Bronx, NY 10452.",
+      "Abre los miércoles de 1:30pm a 4pm; cierra el quinto miércoles del mes.",
+      "Puede llamar al (718) 681-2232 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It is located at 1275 Grand Conc, Bronx, NY 10452.",
+      "It is open Wednesdays from 1:30pm to 4pm; closed on the 5th Wednesday.",
+      "You can call (718) 681-2232 to ask before visiting.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya los miércoles entre 1:30pm y 4pm; la despensa cierra el quinto miércoles del mes.",
+      "Llame al (718) 681-2232 antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on Wednesdays between 1:30pm and 4pm; the pantry is closed on the 5th Wednesday.",
+      "Call (718) 681-2232 before going to confirm hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos. No se indica qué alimentos entrega ni si hay requisitos."
+      },
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Los miércoles de 1:30pm a 4pm. Cierra el quinto miércoles del mes."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "Puede llamar al (718) 681-2232. No hay sitio web ni correo electrónico en la lista."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It appears on the Food Help NYC map as a food pantry. The listing does not say what food is given or if there are requirements."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 1:30pm to 4pm. It is closed on the 5th Wednesday of the month."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "You can call (718) 681-2232. No website or email is listed."
+      }
+    ]
+  }
+}

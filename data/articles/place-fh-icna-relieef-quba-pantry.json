@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-icna-relieef-quba-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:45.748Z",
+  "facts_hash": "47b38bb42146a459",
+  "article": {
+    "title_es": "ICNA Relief Quba Pantry: despensa de alimentos en Brooklyn",
+    "title_en": "ICNA Relief Quba Pantry: food pantry in Brooklyn",
+    "summary_es": "ICNA Relief Quba Pantry es una despensa de alimentos en Brooklyn, en 634 Rugby Rd. Abre los martes de 1pm a 3pm.",
+    "summary_en": "ICNA Relief Quba Pantry is a food pantry in Brooklyn, at 634 Rugby Rd. It is open Tuesdays 1pm-3pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos que aparece en el mapa Food Help NYC.",
+      "Está ubicada en 634 Rugby Rd, Brooklyn, NY 11230.",
+      "Atiende los martes de 1pm a 3pm.",
+      "Puede llamar al (212) 463-3227 para preguntar.",
+      "La lista no dice qué alimentos entrega ni qué requisitos pide; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 634 Rugby Rd, Brooklyn, NY 11230.",
+      "It is open Tuesdays 1pm-3pm.",
+      "You can call (212) 463-3227 with questions.",
+      "The listing does not say what food is given or any requirements; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es martes de 1pm a 3pm.",
+      "Llame antes de ir para confirmar el horario y preguntar qué necesita.",
+      "La página fue revisada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Tuesday 1pm-3pm.",
+      "Call before you go to confirm hours and ask what you need.",
+      "This page was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 634 Rugby Rd, Brooklyn, NY 11230."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los martes de 1pm a 3pm, según la lista."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito llevar?",
+        "a": "No está en la lista. Llame al (212) 463-3227 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry?",
+        "a": "At 634 Rugby Rd, Brooklyn, NY 11230."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Tuesdays 1pm-3pm, according to the listing."
+      },
+      {
+        "q": "What food does it give and what should I bring?",
+        "a": "That is not listed. Call (212) 463-3227 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-ascension-outreach-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:53.928Z",
+  "facts_hash": "b481fa1047d229c5",
+  "article": {
+    "title_es": "Ascension Outreach: despensa de alimentos en Manhattan",
+    "title_en": "Ascension Outreach: food pantry in Manhattan",
+    "summary_es": "Ascension Outreach, Inc. es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad. Está en el 12 W 11th St, Nueva York, NY 10011.",
+    "summary_en": "Ascension Outreach, Inc. is a food pantry listed on the City's Food Help NYC map. It is located at 12 W 11th St, New York, NY 10011.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en el 12 W 11th St, Nueva York, NY 10011, en Manhattan.",
+      "Abre los sábados de 8:30am a 9am.",
+      "La despensa solo abre el primer y el tercer sábado del mes.",
+      "Puede llamar al (347) 254-8620 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 12 W 11th St, New York, NY 10011, in Manhattan.",
+      "It is open Saturdays from 8:30am to 9am.",
+      "The pantry is only open on the 1st and 3rd Saturday of the month.",
+      "You can call (347) 254-8620 to ask questions."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado de 8:30am a 9am; recuerde que solo abre el primer y el tercer sábado del mes.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos; pregunte por teléfono antes de ir.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday from 8:30am to 9am; remember the pantry is only open on the 1st and 3rd Saturday of the month.",
+      "The listing does not say what food is given or if there are any requirements; call ahead to ask.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Ascension Outreach, Inc.?",
+        "a": "Es una despensa de alimentos que aparece en el mapa Food Help NYC de la ciudad."
+      },
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los sábados de 8:30am a 9am, pero solo el primer y el tercer sábado del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está indicado en la lista. Llame al (347) 254-8620 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Ascension Outreach, Inc.?",
+        "a": "It is a food pantry listed on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is the pantry open?",
+        "a": "Saturdays from 8:30am to 9am, but only on the 1st and 3rd Saturday of the month."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "This is not listed. Call (347) 254-8620 to ask before you go."
+      }
+    ]
+  }
+}

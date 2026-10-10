@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-eastchester-presbyterian-church-sk",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:52.790Z",
+  "facts_hash": "1032f1530d5b3220",
+  "article": {
+    "title_es": "Eastchester Presbyterian Church (SK): comedor de sopa en el Bronx",
+    "title_en": "Eastchester Presbyterian Church (SK): soup kitchen in the Bronx",
+    "summary_es": "Eastchester Presbyterian Church (SK) es un comedor de sopa (soup kitchen) en el Bronx que aparece en el mapa Food Help NYC de la Ciudad. Abre los jueves de 5pm a 6pm.",
+    "summary_en": "Eastchester Presbyterian Church (SK) is a soup kitchen in the Bronx listed on the City's Food Help NYC map. It is open Thursdays from 5pm to 6pm.",
+    "how_they_help_es": [
+      "Aparece como comedor de sopa (soup kitchen) en el mapa Food Help NYC de la Ciudad.",
+      "Está ubicado en 3154 Fish Ave, en el Bronx, código postal 10469.",
+      "Abre los jueves de 5pm a 6pm.",
+      "Puede llamar al (718) 798-1855 para más información.",
+      "La lista no indica qué alimentos ofrece ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a soup kitchen on the City's Food Help NYC map.",
+      "Located at 3154 Fish Ave in the Bronx, zip code 10469.",
+      "Open Thursdays from 5pm to 6pm.",
+      "You can call (718) 798-1855 for more information.",
+      "What food is served and any requirements are not listed, so ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario es limitado: jueves de 5pm a 6pm.",
+      "Llame al (718) 798-1855 antes de ir para confirmar los detalles.",
+      "La lista no indica qué alimentos se entregan ni si hay requisitos."
+    ],
+    "visit_tips_en": [
+      "Hours are limited: Thursdays, 5pm-6pm.",
+      "Call (718) 798-1855 ahead to confirm details.",
+      "The listing does not say what food is given or if there are requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué tipo de ayuda con alimentos ofrece este lugar?",
+        "a": "Aparece como comedor de sopa (soup kitchen) en el mapa Food Help NYC de la Ciudad."
+      },
+      {
+        "q": "¿Cuándo está abierto?",
+        "a": "Abre los jueves de 5pm a 6pm."
+      },
+      {
+        "q": "¿Necesito llevar algo o registrarme?",
+        "a": "Llame al (718) 798-1855 antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What kind of food help does this place offer?",
+        "a": "It is listed as a soup kitchen on the City's Food Help NYC map."
+      },
+      {
+        "q": "When is it open?",
+        "a": "It is open Thursdays, 5pm-6pm."
+      },
+      {
+        "q": "Do I need to bring anything or sign up?",
+        "a": "Call (718) 798-1855 before you go."
+      }
+    ]
+  }
+}

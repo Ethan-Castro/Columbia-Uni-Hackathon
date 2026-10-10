@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-peniel-haitian-church-of-c-and-ma",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:36.423Z",
+  "facts_hash": "a316323e32af2cca",
+  "article": {
+    "title_es": "Iglesia Peniel Haitiana: despensa de alimentos en Brooklyn",
+    "title_en": "Peniel Haitian Church: food pantry in Brooklyn",
+    "summary_es": "La Iglesia Peniel Haitiana aparece en el mapa Food Help NYC como despensa de alimentos en Brooklyn, en la calle Albemarle Rd. Abre los sábados.",
+    "summary_en": "Peniel Haitian Church appears on the Food Help NYC map as a food pantry in Brooklyn, on Albemarle Rd. It is open on Saturdays.",
+    "how_they_help_es": [
+      "Está en la lista oficial Food Help NYC como despensa de alimentos.",
+      "La dirección es 2741 Albemarle Rd, Brooklyn, NY 11226.",
+      "Abre los sábados de 10 am a 12 pm y de 1 pm a 3 pm.",
+      "La despensa de 1 pm a 3 pm funciona solo el segundo sábado del mes.",
+      "Puede llamar al (718) 469-3685 para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed on the official Food Help NYC map as a food pantry.",
+      "Located at 2741 Albemarle Rd, Brooklyn, NY 11226.",
+      "Open Saturdays 10am-12pm and 1pm-3pm.",
+      "The 1-3pm pantry hours are on the 2nd Saturday only.",
+      "You can call (718) 469-3685 with questions."
+    ],
+    "visit_tips_es": [
+      "Vaya un sábado: de 10 am a 12 pm o de 1 pm a 3 pm.",
+      "Recuerde que el horario de 1 pm a 3 pm es solo el segundo sábado del mes.",
+      "Llame antes al (718) 469-3685 para confirmar qué alimentos dan y si hay requisitos."
+    ],
+    "visit_tips_en": [
+      "Go on a Saturday: 10am-12pm or 1pm-3pm.",
+      "Remember the 1-3pm hours are only on the 2nd Saturday of the month.",
+      "Call ahead at (718) 469-3685 to confirm what food is given and any requirements."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está?",
+        "a": "En 2741 Albemarle Rd, Brooklyn, NY 11226."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Sábados de 10 am a 12 pm y de 1 pm a 3 pm; la despensa de 1 a 3 pm es solo el segundo sábado del mes."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué requisitos pide?",
+        "a": "No está en la lista. Llame al (718) 469-3685 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is it?",
+        "a": "At 2741 Albemarle Rd, Brooklyn, NY 11226."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Saturdays 10am-12pm and 1pm-3pm; the 1-3pm pantry is on the 2nd Saturday only."
+      },
+      {
+        "q": "What food does it give, and are there requirements?",
+        "a": "Not listed. Call (718) 469-3685 to ask."
+      }
+    ]
+  }
+}

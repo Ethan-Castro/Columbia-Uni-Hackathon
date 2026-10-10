@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-jewish-community-council-of-the-rockaway-pen",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:43.267Z",
+  "facts_hash": "dac1f83a92f56f5b",
+  "article": {
+    "title_es": "Jewish Community Council of the Rockaway Peninsula: despensa de alimentos en Far Rockaway",
+    "title_en": "Jewish Community Council of the Rockaway Peninsula: food pantry in Far Rockaway",
+    "summary_es": "El Jewish Community Council of the Rockaway Peninsula es una despensa de alimentos en Far Rockaway, Queens, que aparece en el mapa Food Help NYC de la ciudad. Atiende los martes y jueves de 9:30am a 1:30pm.",
+    "summary_en": "The Jewish Community Council of the Rockaway Peninsula is a food pantry in Far Rockaway, Queens, listed on the City's Food Help NYC map. It is open on Tuesdays and Thursdays from 9:30am to 1:30pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Ofrece servicio de despensa los martes de 9:30am a 1:30pm.",
+      "También atiende los jueves de 9:30am a 1:30pm.",
+      "Está ubicada en 15-25 Central Ave, Far Rockaway, NY, 11691.",
+      "No se indica qué alimentos entrega ni si hay requisitos; llame para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Pantry service is offered on Tuesdays from 9:30am to 1:30pm.",
+      "It is also open on Thursdays from 9:30am to 1:30pm.",
+      "It is located at 15-25 Central Ave, Far Rockaway, NY, 11691.",
+      "The listing does not say what food is given or if there are requirements; call to ask."
+    ],
+    "visit_tips_es": [
+      "Horario de despensa: martes y jueves de 9:30am a 1:30pm.",
+      "Antes de ir, puede llamar al (718) 327-7755 para confirmar el horario y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours are Tuesday and Thursday, 9:30am to 1:30pm.",
+      "Before going, you can call (718) 327-7755 to confirm the hours and ask what you need.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está ubicada la despensa?",
+        "a": "En 15-25 Central Ave, Far Rockaway, NY, 11691, en Queens."
+      },
+      {
+        "q": "¿Qué días atiende?",
+        "a": "Los martes y jueves de 9:30am a 1:30pm, según el horario de despensa indicado."
+      },
+      {
+        "q": "¿Qué alimentos entrega y qué necesito para recibirlos?",
+        "a": "No aparece en la información disponible. Llame al (718) 327-7755 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry located?",
+        "a": "At 15-25 Central Ave, Far Rockaway, NY, 11691, in Queens."
+      },
+      {
+        "q": "What days is it open?",
+        "a": "Tuesdays and Thursdays from 9:30am to 1:30pm, according to the listed pantry hours."
+      },
+      {
+        "q": "What food does it give and what do I need to receive it?",
+        "a": "That is not listed in the available information. Call (718) 327-7755 to ask before going."
+      }
+    ]
+  }
+}

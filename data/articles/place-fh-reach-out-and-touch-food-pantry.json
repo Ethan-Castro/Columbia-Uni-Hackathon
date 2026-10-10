@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-reach-out-and-touch-food-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:31.506Z",
+  "facts_hash": "01b9dfdcdaa4a2fc",
+  "article": {
+    "title_es": "Reach Out and Touch: despensa de alimentos en Staten Island",
+    "title_en": "Reach Out and Touch: food pantry in Staten Island",
+    "summary_es": "Reach Out and Touch Food Pantry es una despensa de alimentos en Staten Island, en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Reach Out and Touch Food Pantry is a food pantry in Staten Island, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la ciudad.",
+      "Está ubicada en 51 Cottage Pl, Staten Island, NY, 10302.",
+      "Abre los sábados; la despensa funciona el 3er sábado de 11:00AM a 1:00PM.",
+      "Puede llamar al (718) 442-5007 para preguntar antes de ir."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 51 Cottage Pl, Staten Island, NY, 10302.",
+      "It is open on Saturdays; the pantry runs the 3rd Saturday from 11:00AM to 1:00PM.",
+      "You can call (718) 442-5007 to ask before you go."
+    ],
+    "visit_tips_es": [
+      "El horario indicado es: Sat 12pm-1pm (despensa: 3er sábado 11:00AM - 1:00PM).",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono.",
+      "Verifique el horario antes de ir, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "The listed hours are: Sat 12pm-1pm (pantry: 3rd Saturday 11:00AM - 1:00PM).",
+      "What food is given and any requirements are not listed; ask by phone.",
+      "Check the hours before going, as they may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está la despensa?",
+        "a": "En 51 Cottage Pl, Staten Island, NY, 10302."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Sat 12pm-1pm (despensa: 3er sábado 11:00AM - 1:00PM)."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "No está indicado. Llame al (718) 442-5007 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is the pantry?",
+        "a": "At 51 Cottage Pl, Staten Island, NY, 10302."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Sat 12pm-1pm (pantry: 3rd Saturday 11:00AM - 1:00PM)."
+      },
+      {
+        "q": "What should I bring, and what food do they give?",
+        "a": "This is not listed. Call (718) 442-5007 to ask."
+      }
+    ]
+  }
+}

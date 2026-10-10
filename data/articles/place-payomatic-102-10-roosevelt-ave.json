@@ -1,0 +1,62 @@
+{
+  "place_id": "place-payomatic-102-10-roosevelt-ave",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:44:26.292Z",
+  "facts_hash": "ff49d022e03b10d0",
+  "article": {
+    "title_es": "PAYOMATIC (102-10 Roosevelt Ave): negocio de cobro de cheques en Queens",
+    "title_en": "PAYOMATIC (102-10 Roosevelt Ave): check cashing business in Queens",
+    "summary_es": "PAYOMATIC es un negocio autorizado de cobro de cheques en Corona, Queens. Cobra tarifas por sus servicios.",
+    "summary_en": "PAYOMATIC is a licensed check cashing business in Corona, Queens. Fees apply for its services.",
+    "how_they_help_es": [
+      "Es un negocio autorizado de cobro de cheques.",
+      "Está ubicado en 102-10 Roosevelt Ave, Corona, NY 11368.",
+      "Abre temprano y hasta tarde, incluyendo fines de semana.",
+      "Tiene teléfono: (516) 496-1970 para preguntas."
+    ],
+    "how_they_help_en": [
+      "It is a licensed check cashing business.",
+      "Located at 102-10 Roosevelt Ave, Corona, NY 11368.",
+      "Open early and late, including weekends.",
+      "Phone available: (516) 496-1970 for questions."
+    ],
+    "visit_tips_es": [
+      "Recuerde que este negocio cobra tarifas por sus servicios.",
+      "Llame al (516) 496-1970 antes de ir para confirmar servicios y tarifas.",
+      "Los horarios pueden cambiar; confirme por teléfono."
+    ],
+    "visit_tips_en": [
+      "Remember this business charges fees for its services.",
+      "Call (516) 496-1970 before going to confirm services and fees.",
+      "Hours may change; confirm by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cobra tarifas?",
+        "a": "Sí. Es un negocio de cobro de cheques y se aplican tarifas. Pregunte por teléfono cuáles son."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Dom-mar 7am-11pm; mié-vie 7am-12am; sáb 7am-11pm."
+      },
+      {
+        "q": "¿Qué otros servicios ofrece?",
+        "a": "La información no lo indica. Llame al (516) 496-1970 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Does it charge fees?",
+        "a": "Yes. It is a check cashing business and fees apply. Call to ask what they are."
+      },
+      {
+        "q": "What are the hours?",
+        "a": "Sun-Tue 7am-11pm; Wed-Fri 7am-12am; Sat 7am-11pm."
+      },
+      {
+        "q": "What other services does it offer?",
+        "a": "The listing does not say. Call (516) 496-1970 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-holy-apostles-soup-kitchen-pantry",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:11.426Z",
+  "facts_hash": "019053ab32b5f211",
+  "article": {
+    "title_es": "Holy Apostles Soup Kitchen Pantry: comida en Manhattan",
+    "title_en": "Holy Apostles Soup Kitchen Pantry: food help in Manhattan",
+    "summary_es": "Holy Apostles Soup Kitchen Pantry es un comedor y despensa de alimentos en Manhattan, en la lista Food Help NYC de la ciudad.",
+    "summary_en": "Holy Apostles Soup Kitchen Pantry is a soup kitchen and food pantry in Manhattan, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Comedor de sopa: lunes a viernes de 10:30 am a 12:30 pm.",
+      "Despensa de alimentos: martes a jueves de 9:30 am a 11:00 am.",
+      "Está en 296 9th Ave, Nueva York, NY 10001, en Manhattan.",
+      "Puede llamar al (646) 998-6105 para preguntar.",
+      "La lista no dice qué alimentos dan ni si hay requisitos."
+    ],
+    "how_they_help_en": [
+      "Soup kitchen: Monday to Friday, 10:30 am to 12:30 pm.",
+      "Food pantry: Tuesday to Thursday, 9:30 am to 11:00 am.",
+      "Located at 296 9th Ave, New York, NY 10001, in Manhattan.",
+      "You can call (646) 998-6105 with questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "El comedor y la despensa tienen horarios distintos; planifique su visita.",
+      "Llame antes para confirmar los horarios y preguntar qué necesita.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The soup kitchen and pantry have different hours; plan your visit.",
+      "Call ahead to confirm hours and ask what you need.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo está abierta la despensa?",
+        "a": "Martes a jueves, de 9:30 am a 11:00 am."
+      },
+      {
+        "q": "¿Cuándo funciona el comedor?",
+        "a": "Lunes a viernes, de 10:30 am a 12:30 pm."
+      },
+      {
+        "q": "¿Qué documentos necesito?",
+        "a": "No está en la lista. Llame al (646) 998-6105 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Tuesday to Thursday, 9:30 am to 11:00 am."
+      },
+      {
+        "q": "When is the soup kitchen open?",
+        "a": "Monday to Friday, 10:30 am to 12:30 pm."
+      },
+      {
+        "q": "What documents do I need?",
+        "a": "Not listed. Call (646) 998-6105 to ask."
+      }
+    ]
+  }
+}

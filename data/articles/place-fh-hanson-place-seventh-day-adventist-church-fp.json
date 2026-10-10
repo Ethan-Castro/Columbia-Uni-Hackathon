@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-hanson-place-seventh-day-adventist-church-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:07.764Z",
+  "facts_hash": "e998b84231dd91d6",
+  "article": {
+    "title_es": "Iglesia Hanson Place Seventh Day Adventist: despensa en Brooklyn",
+    "title_en": "Hanson Place Seventh Day Adventist Church: pantry in Brooklyn",
+    "summary_es": "Esta iglesia en Brooklyn aparece en el mapa Food Help NYC como despensa de alimentos. Reparte alimentos los jueves de 1:30pm a 5pm.",
+    "summary_en": "This church in Brooklyn appears on the Food Help NYC map as a food pantry. It distributes food on Thursdays from 1:30pm to 5pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC de la Ciudad.",
+      "Reparte alimentos los jueves de 1:30pm a 5pm.",
+      "Está ubicada en 88 Hanson Pl, Brooklyn, NY, 11217.",
+      "Puede llamar al (718) 230-0229 para preguntar antes de ir.",
+      "La lista no dice qué alimentos da ni qué requisitos pide; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "It is listed as a food pantry on the City's Food Help NYC map.",
+      "It distributes food on Thursdays from 1:30pm to 5pm.",
+      "It is located at 88 Hanson Pl, Brooklyn, NY, 11217.",
+      "You can call (718) 230-0229 to ask before you go.",
+      "The listing does not say what food is given or what is required; ask by phone."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es jueves de 1:30pm a 5pm.",
+      "Llame al (718) 230-0229 antes de ir para confirmar el servicio.",
+      "La información fue verificada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are Thursday 1:30pm-5pm.",
+      "Call (718) 230-0229 before going to confirm the service.",
+      "This information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos. No se indica qué alimentos reparte."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "La despensa atiende los jueves de 1:30pm a 5pm."
+      },
+      {
+        "q": "¿Necesito algún documento o cumplir algún requisito?",
+        "a": "No está indicado en la lista. Llame al (718) 230-0229 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It appears on the Food Help NYC map as a food pantry. What food it gives out is not listed."
+      },
+      {
+        "q": "When can I go?",
+        "a": "The pantry is open on Thursdays from 1:30pm to 5pm."
+      },
+      {
+        "q": "Do I need any documents or meet any requirements?",
+        "a": "That is not listed. Call (718) 230-0229 to ask before you go."
+      }
+    ]
+  }
+}

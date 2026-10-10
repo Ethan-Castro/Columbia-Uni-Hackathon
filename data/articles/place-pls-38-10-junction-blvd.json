@@ -1,0 +1,66 @@
+{
+  "place_id": "place-pls-38-10-junction-blvd",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:57.478Z",
+  "facts_hash": "7dbdf87285d4444b",
+  "article": {
+    "title_es": "PLS Check Cashers (38-10 Junction Blvd): negocio de chequeos en Queens",
+    "title_en": "PLS Check Cashers (38-10 Junction Blvd): check cashing business in Queens",
+    "summary_es": "PLS Check Cashers es un negocio autorizado de cobro de cheques en Corona, Queens, abierto las 24 horas. Se aplican tarifas por sus servicios.",
+    "summary_en": "PLS Check Cashers is a licensed check cashing business in Corona, Queens, open 24 hours. Fees apply for its services.",
+    "how_they_help_es": [
+      "Es un negocio autorizado de cobro de cheques, según el listado.",
+      "Está ubicado en 38-10 Junction Blvd., Corona, NY 11368.",
+      "Abre las 24 horas, los 7 días de la semana.",
+      "Puede llamar al 718-898-0100 para preguntar por los servicios.",
+      "El listado no detalla servicios ni tarifas; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It is a licensed check cashing business, according to the listing.",
+      "It is located at 38-10 Junction Blvd., Corona, NY 11368.",
+      "It is open 24 hours, 7 days a week.",
+      "You can call 718-898-0100 to ask about services.",
+      "The listing does not detail services or fees; ask directly."
+    ],
+    "visit_tips_es": [
+      "Está abierto 24 horas al día, los 7 días de la semana.",
+      "Llame al 718-898-0100 antes de ir para confirmar el horario y preguntar por los servicios.",
+      "Es un negocio con fines de lucro: se aplican tarifas por los servicios.",
+      "La información de esta página no ha sido verificada; confirme los detalles directamente con el negocio."
+    ],
+    "visit_tips_en": [
+      "It is open 24 hours a day, 7 days a week.",
+      "Call 718-898-0100 before going to confirm hours and ask about services.",
+      "This is a for-profit business: fees apply for services.",
+      "The information on this page has not been verified; confirm details directly with the business."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cobra tarifas por sus servicios?",
+        "a": "Sí. Es un negocio con fines de lucro y se aplican tarifas. El listado no indica los montos; llame al 718-898-0100 para preguntar."
+      },
+      {
+        "q": "¿Qué horario tiene?",
+        "a": "Según el listado, está abierto 24/7, incluyendo noches y fines de semana."
+      },
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "El listado solo indica que es un negocio de cobro de cheques. No detalla otros servicios; llame para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Does it charge fees for its services?",
+        "a": "Yes. It is a for-profit business and fees apply. The listing does not give amounts; call 718-898-0100 to ask."
+      },
+      {
+        "q": "What are its hours?",
+        "a": "According to the listing, it is open 24/7, including evenings and weekends."
+      },
+      {
+        "q": "What services does it offer?",
+        "a": "The listing only says it is a check cashing business. It does not detail other services; call to ask."
+      }
+    ]
+  }
+}

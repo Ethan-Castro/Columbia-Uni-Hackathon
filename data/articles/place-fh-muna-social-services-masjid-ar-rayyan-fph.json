@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-muna-social-services-masjid-ar-rayyan-fph",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:30.439Z",
+  "facts_hash": "5b55caa955fa08e4",
+  "article": {
+    "title_es": "MUNA Social Services Masjid Ar-Rayyan: despensa en Queens",
+    "title_en": "MUNA Social Services Masjid Ar-Rayyan: food pantry in Queens",
+    "summary_es": "MUNA Social Services Masjid Ar-Rayyan es una despensa de alimentos en Hollis, Queens, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "MUNA Social Services Masjid Ar-Rayyan is a food pantry in Hollis, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 196-43 Foothill Ave, Hollis, NY, 11423.",
+      "Abre los miércoles de 2pm a 3pm.",
+      "La despensa funciona solo el primer y tercer miércoles del mes.",
+      "Qué alimentos entrega no está indicado; pregunte llamando al (212) 920-6202."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 196-43 Foothill Ave, Hollis, NY, 11423.",
+      "It is open Wednesdays from 2pm to 3pm.",
+      "The pantry runs on the 1st and 3rd Wednesday only.",
+      "What food is given is not listed; ask by calling (212) 920-6202."
+    ],
+    "visit_tips_es": [
+      "Vaya un miércoles de 2pm a 3pm, pero recuerde que la despensa solo opera el primer y tercer miércoles.",
+      "Llame al (212) 920-6202 antes de ir para confirmar los días y horarios.",
+      "No se indica qué alimentos ofrece ni si hay requisitos; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on a Wednesday from 2pm to 3pm, but remember the pantry runs on the 1st and 3rd Wednesday only.",
+      "Call (212) 920-6202 before visiting to confirm days and times.",
+      "What food is offered and any requirements are not listed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 2pm a 3pm, pero solo el primer y tercer miércoles del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 196-43 Foothill Ave, Hollis, NY, 11423, en Queens."
+      },
+      {
+        "q": "¿Qué alimentos entrega o qué necesito llevar?",
+        "a": "No está indicado en la información disponible. Llame al (212) 920-6202 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays from 2pm to 3pm, but only on the 1st and 3rd Wednesday of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 196-43 Foothill Ave, Hollis, NY, 11423, in Queens."
+      },
+      {
+        "q": "What food does it give, and what should I bring?",
+        "a": "That is not listed in the available information. Call (212) 920-6202 to ask."
+      }
+    ]
+  }
+}

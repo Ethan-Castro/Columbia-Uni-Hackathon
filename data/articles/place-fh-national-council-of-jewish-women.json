@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-national-council-of-jewish-women",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:15.847Z",
+  "facts_hash": "bcdafb82246e9b1c",
+  "article": {
+    "title_es": "National Council of Jewish Women: despensa y comidas en Manhattan",
+    "title_en": "National Council of Jewish Women: pantry and meals in Manhattan",
+    "summary_es": "National Council of Jewish Women aparece en el mapa Food Help NYC como despensa de alimentos y cocina de sopa en el Upper West Side de Manhattan. Ofrece despensa los lunes y comidas los miércoles y domingos.",
+    "summary_en": "National Council of Jewish Women appears on the Food Help NYC map as a food pantry and soup kitchen on Manhattan's Upper West Side. It offers pantry service on Mondays and meals on Wednesdays and Sundays.",
+    "how_they_help_es": [
+      "Despensa de alimentos los lunes de 9:30am a 1:30pm.",
+      "Cocina de sopa los miércoles de 4:30pm a 5pm.",
+      "Cocina de sopa los domingos de 11:30am a 12:30pm.",
+      "Abre los fines de semana (domingo).",
+      "Qué alimentos entrega y si hay requisitos no están indicados; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Food pantry on Mondays from 9:30am to 1:30pm.",
+      "Soup kitchen on Wednesdays from 4:30pm to 5pm.",
+      "Soup kitchen on Sundays from 11:30am to 12:30pm.",
+      "Open on weekends (Sunday).",
+      "What food is given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Llame al (212) 799-7205 antes de ir para confirmar los horarios.",
+      "Los horarios de despensa y de cocina de sopa son distintos; planifique su visita según el día.",
+      "La dirección es 241 W 72nd St, New York, NY 10023."
+    ],
+    "visit_tips_en": [
+      "Call (212) 799-7205 before going to confirm the hours.",
+      "Pantry and soup kitchen hours are different; plan your visit by day.",
+      "The address is 241 W 72nd St, New York, NY 10023."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "Según el mapa Food Help NYC, es una despensa de alimentos y una cocina de sopa."
+      },
+      {
+        "q": "¿Cuándo está abierta?",
+        "a": "Despensa: lunes 9:30am-1:30pm. Cocina de sopa: miércoles 4:30pm-5pm y domingo 11:30am-12:30pm."
+      },
+      {
+        "q": "¿Cómo puedo contactarlos?",
+        "a": "El teléfono indicado es (212) 799-7205. Llame para confirmar detalles antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does it offer?",
+        "a": "According to the Food Help NYC map, it is a food pantry and a soup kitchen."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Pantry: Monday 9:30am-1:30pm. Soup kitchen: Wednesday 4:30pm-5pm and Sunday 11:30am-12:30pm."
+      },
+      {
+        "q": "How can I contact them?",
+        "a": "The listed phone number is (212) 799-7205. Call to confirm details before going."
+      }
+    ]
+  }
+}

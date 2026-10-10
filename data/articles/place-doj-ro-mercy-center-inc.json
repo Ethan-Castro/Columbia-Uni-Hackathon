@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-mercy-center-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:09.919Z",
+  "facts_hash": "928f0ee415f1abef",
+  "article": {
+    "title_es": "Mercy Center, Inc.: ayuda legal de inmigración en el Bronx",
+    "title_en": "Mercy Center, Inc.: immigration legal help in the Bronx",
+    "summary_es": "Mercy Center, Inc. aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas que pueden ofrecer ayuda legal de inmigración. Está en el Bronx.",
+    "summary_en": "Mercy Center, Inc. appears on the U.S. Department of Justice (EOIR) list of recognized organizations that may provide immigration legal help. It is located in the Bronx.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas.",
+      "Sus representantes acreditados pueden ofrecer ayuda legal de inmigración.",
+      "Está ubicada en 377 East 145th Street, Bronx, NY 10454.",
+      "Puede llamar al (718) 993-2789 para preguntar por sus servicios.",
+      "Los detalles de servicios y costos no están en la información disponible."
+    ],
+    "how_they_help_en": [
+      "Appears on the DOJ (EOIR) list of recognized organizations.",
+      "Its accredited representatives may provide immigration legal help.",
+      "Located at 377 East 145th Street, Bronx, NY 10454.",
+      "You can call (718) 993-2789 to ask about its services.",
+      "Service and fee details are not listed in the available information."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (718) 993-2789 para preguntar cómo obtener una cita.",
+      "Pregunte por teléfono qué servicios ofrece y si hay costos.",
+      "La información fue revisada por última vez el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Call first at (718) 993-2789 to ask how to get an appointment.",
+      "Ask by phone what services are offered and whether there are fees.",
+      "The information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Mercy Center, Inc.?",
+        "a": "Es una organización que aparece en la lista del DOJ (EOIR) de organizaciones reconocidas con representantes acreditados en inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los costos no están en la información disponible. Llame al (718) 993-2789 para preguntar."
+      },
+      {
+        "q": "¿Cómo puedo obtener una cita?",
+        "a": "El proceso para obtener una cita no está en la información disponible. Llame al (718) 993-2789 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Mercy Center, Inc.?",
+        "a": "It is an organization listed on the DOJ (EOIR) roster of recognized organizations with accredited immigration representatives."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in the available information. Call (718) 993-2789 to ask."
+      },
+      {
+        "q": "How can I get an appointment?",
+        "a": "The intake process is not listed in the available information. Call (718) 993-2789 to ask."
+      }
+    ]
+  }
+}

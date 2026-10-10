@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-evangelical-crusade-food-pantry-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:42:20.999Z",
+  "facts_hash": "47552047c11fdd1a",
+  "article": {
+    "title_es": "Evangelical Crusade Food Pantry: despensa en Brooklyn",
+    "title_en": "Evangelical Crusade Food Pantry: pantry in Brooklyn",
+    "summary_es": "Una despensa de alimentos en Brooklyn, incluida en el mapa Food Help NYC de la ciudad. Abre los miércoles, según el horario indicado.",
+    "summary_en": "A food pantry in Brooklyn, listed on the City's Food Help NYC map. It opens on Wednesdays, according to the listed hours.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 557 E 31st St, Brooklyn, NY 11210.",
+      "Abre los miércoles de 2pm a 4pm, solo el segundo y cuarto miércoles del mes.",
+      "Puede llamar al (718) 434-7250 para preguntar antes de ir.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "It is located at 557 E 31st St, Brooklyn, NY 11210.",
+      "It is open Wednesdays 2pm-4pm, on the 2nd and 4th Wednesday only.",
+      "You can call (718) 434-7250 to ask before visiting.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "Vaya un segundo o cuarto miércoles del mes, de 2pm a 4pm.",
+      "Llame primero al (718) 434-7250 para confirmar que está abierta.",
+      "Pregunte por teléfono qué alimentos dan y si necesita llevar algo."
+    ],
+    "visit_tips_en": [
+      "Go on the 2nd or 4th Wednesday of the month, 2pm-4pm.",
+      "Call (718) 434-7250 first to confirm it is open.",
+      "Ask by phone what food is given and if you need to bring anything."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los miércoles de 2pm a 4pm, pero solo el segundo y cuarto miércoles de cada mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 557 E 31st St, Brooklyn, Nueva York, 11210."
+      },
+      {
+        "q": "¿Qué debo llevar o qué alimentos dan?",
+        "a": "La lista no lo indica. Llame al (718) 434-7250 para preguntar antes de ir."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Wednesdays 2pm-4pm, but only on the 2nd and 4th Wednesday of each month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 557 E 31st St, Brooklyn, New York, 11210."
+      },
+      {
+        "q": "What should I bring, and what food is given?",
+        "a": "The listing does not say. Call (718) 434-7250 to ask before going."
+      }
+    ]
+  }
+}

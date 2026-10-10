@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-first-united-methodist-church-of-jamaica-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:41:49.052Z",
+  "facts_hash": "429f91a45a0a1322",
+  "article": {
+    "title_es": "First United Methodist Church of Jamaica: despensa en Queens",
+    "title_en": "First United Methodist Church of Jamaica: food pantry in Queens",
+    "summary_es": "Esta iglesia en Jamaica, Queens, aparece en el mapa Food Help NYC como despensa de alimentos. Abre los lunes de 8:30 a.m. a 9:30 a.m.",
+    "summary_en": "This church in Jamaica, Queens, is listed on the City's Food Help NYC map as a food pantry. It is open Mondays from 8:30am to 9:30am.",
+    "how_they_help_es": [
+      "Aparece en el mapa Food Help NYC como despensa de alimentos.",
+      "Está ubicada en 162-10 Highland Ave, Jamaica, Queens.",
+      "Atiende los lunes de 8:30 a.m. a 9:30 a.m.",
+      "Puede llamar al (718) 739-2269 para preguntar.",
+      "La lista no indica qué alimentos entrega ni sus requisitos."
+    ],
+    "how_they_help_en": [
+      "Listed on the Food Help NYC map as a food pantry.",
+      "Located at 162-10 Highland Ave, Jamaica, Queens.",
+      "Open Mondays from 8:30am to 9:30am.",
+      "You can call (718) 739-2269 with questions.",
+      "The listing does not say what food is given or any requirements."
+    ],
+    "visit_tips_es": [
+      "El horario de la despensa es corto: lunes de 8:30 a.m. a 9:30 a.m.",
+      "Llame antes al (718) 739-2269 para confirmar detalles.",
+      "No se indica qué alimentos da ni si piden algo; pregunte al llegar o por teléfono."
+    ],
+    "visit_tips_en": [
+      "The pantry hours are short: Mondays from 8:30am to 9:30am.",
+      "Call ahead at (718) 739-2269 to confirm details.",
+      "The listing does not say what food is given or if anything is required; ask by phone or when you arrive."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "Los lunes de 8:30 a.m. a 9:30 a.m."
+      },
+      {
+        "q": "¿Necesito algo para recibir alimentos?",
+        "a": "La lista no menciona requisitos. Llame al (718) 739-2269 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is listed on the Food Help NYC map as a food pantry. The listing does not say what food is given."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Mondays from 8:30am to 9:30am."
+      },
+      {
+        "q": "Do I need anything to receive food?",
+        "a": "The listing does not mention any requirements. Call (718) 739-2269 to ask."
+      }
+    ]
+  }
+}

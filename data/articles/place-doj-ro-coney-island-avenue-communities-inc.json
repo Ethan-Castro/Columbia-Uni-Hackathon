@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-coney-island-avenue-communities-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:08.180Z",
+  "facts_hash": "ebd5d33052cf1176",
+  "article": {
+    "title_es": "Coney Island Avenue Communities Inc.: ayuda legal en Brooklyn",
+    "title_en": "Coney Island Avenue Communities Inc.: legal help in Brooklyn",
+    "summary_es": "Coney Island Avenue Communities Inc. aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está ubicada en Brooklyn.",
+    "summary_en": "Coney Island Avenue Communities Inc. appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in Brooklyn.",
+    "how_they_help_es": [
+      "Aparece en la lista de organizaciones reconocidas del DOJ (EOIR).",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro con representantes acreditados por el DOJ.",
+      "Dirección: 42 West Street, Suite 320, Brooklyn, NY 11222.",
+      "Teléfono: (917) 440-9002.",
+      "Los honorarios y el proceso para obtener una cita no están indicados; pregunte al llamar."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) roster of recognized organizations.",
+      "Recognized organizations are non-profits with DOJ-accredited representatives.",
+      "Address: 42 West Street, Suite 320, Brooklyn, NY 11222.",
+      "Phone: (917) 440-9002.",
+      "Fees and how to get an appointment are not listed; ask when you call."
+    ],
+    "visit_tips_es": [
+      "Llame primero al (917) 440-9002 para preguntar por los servicios y las citas.",
+      "El horario no está indicado en la información disponible.",
+      "Pregunte si hay honorarios por los servicios."
+    ],
+    "visit_tips_en": [
+      "Call first at (917) 440-9002 to ask about services and appointments.",
+      "Hours are not listed in the available information.",
+      "Ask whether there are fees for services."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta organización?",
+        "a": "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas con representantes acreditados."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Los honorarios no están indicados. Llame al (917) 440-9002 para preguntar."
+      },
+      {
+        "q": "¿Cómo hago una cita?",
+        "a": "El proceso de admisión no está indicado. Llame al (917) 440-9002 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this organization?",
+        "a": "It appears on the DOJ (EOIR) roster of recognized organizations with accredited representatives."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (917) 440-9002 to ask."
+      },
+      {
+        "q": "How do I make an appointment?",
+        "a": "The intake process is not listed. Call (917) 440-9002 to ask."
+      }
+    ]
+  }
+}

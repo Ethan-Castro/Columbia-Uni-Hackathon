@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-urban-justice-center-williams-street",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:40.214Z",
+  "facts_hash": "987d305ef57bc40a",
+  "article": {
+    "title_es": "Urban Justice Center: oficina de ayuda legal de inmigración en Manhattan",
+    "title_en": "Urban Justice Center: immigration legal help office in Manhattan",
+    "summary_es": "El Urban Justice Center (Williams Street Extension Office) en Manhattan aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas cuyos representantes acreditados pueden dar ayuda legal de inmigración.",
+    "summary_en": "The Urban Justice Center (Williams Street Extension Office) in Manhattan appears on the U.S. Department of Justice (EOIR) list of recognized organizations whose accredited representatives may give immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas.",
+      "Representantes acreditados por el DOJ allí pueden dar ayuda legal de inmigración.",
+      "Está en 123 Williams Street, piso 16, en Manhattan.",
+      "Llame al (646) 602-5600 para preguntar por servicios y citas.",
+      "Las cuotas y el proceso de admisión no aparecen, así que pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "It appears on the U.S. Department of Justice (EOIR) list of recognized organizations.",
+      "DOJ-accredited representatives there may give immigration legal help.",
+      "Located at 123 Williams Street, 16th Floor, in Manhattan.",
+      "Call (646) 602-5600 to ask about services and appointments.",
+      "Fees and the intake process are not listed, so ask directly."
+    ],
+    "visit_tips_es": [
+      "La dirección es 123 Williams Street, piso 16, New York, NY 10038.",
+      "Llame al (646) 602-5600 antes de visitar; el horario no aparece.",
+      "Las cuotas y cómo obtener una cita no aparecen, así que pregunte cuando llame."
+    ],
+    "visit_tips_en": [
+      "The address is 123 Williams Street, 16th Floor, New York, NY 10038.",
+      "Call (646) 602-5600 before visiting; hours are not listed.",
+      "Fees and how to get an appointment are not listed, so ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es el Urban Justice Center?",
+        "a": "Aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas cuyos representantes acreditados pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuesta y cómo saco una cita?",
+        "a": "La lista no incluye cuotas ni cómo obtener una cita. Llame al (646) 602-5600 para preguntar."
+      },
+      {
+        "q": "¿Qué servicios ofrecen?",
+        "a": "La lista no dice qué servicios ofrece. Llame antes para preguntar qué ayuda está disponible."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is the Urban Justice Center?",
+        "a": "It appears on the U.S. Department of Justice (EOIR) list of recognized organizations whose accredited representatives may give immigration legal help."
+      },
+      {
+        "q": "How much does it cost and how do I make an appointment?",
+        "a": "The listing does not include fees or how to get an appointment. Call (646) 602-5600 to ask."
+      },
+      {
+        "q": "What services do they offer?",
+        "a": "The listing does not say which services are offered. Call ahead to ask what help is available."
+      }
+    ]
+  }
+}

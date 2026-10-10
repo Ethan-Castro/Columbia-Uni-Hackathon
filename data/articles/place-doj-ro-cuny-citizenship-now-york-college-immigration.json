@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-cuny-citizenship-now-york-college-immigration",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:18.485Z",
+  "facts_hash": "e658c3792e08b33c",
+  "article": {
+    "title_es": "CUNY Citizenship Now!: centro de ayuda migratoria en Queens",
+    "title_en": "CUNY Citizenship Now!: immigration help center in Queens",
+    "summary_es": "CUNY Citizenship Now! (York College Immigration Center Extension Office) aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Está ubicado en Jamaica, Queens.",
+    "summary_en": "CUNY Citizenship Now! (York College Immigration Center Extension Office) appears on the U.S. Department of Justice (EOIR) list of recognized organizations. It is located in Jamaica, Queens.",
+    "how_they_help_es": [
+      "Aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados.",
+      "Las organizaciones reconocidas son organizaciones sin fines de lucro cuyos representantes acreditados por el DOJ pueden ofrecer ayuda legal migratoria.",
+      "Dirección: 94-20 Guy R. Brewer Blvd, Jamaica, NY 11451.",
+      "Teléfono: (646) 664-9400.",
+      "La lista no indica tarifas ni cómo pedir una cita; llame para preguntar."
+    ],
+    "how_they_help_en": [
+      "Listed on the DOJ (EOIR) Roster of Recognized Organizations and Accredited Representatives.",
+      "Recognized organizations are non-profits whose DOJ-accredited representatives may give immigration legal help.",
+      "Address: 94-20 Guy R. Brewer Blvd, Jamaica, NY 11451.",
+      "Phone: (646) 664-9400.",
+      "The roster does not list fees or how to get an appointment; call to ask."
+    ],
+    "visit_tips_es": [
+      "Llame al (646) 664-9400 antes de ir para preguntar por servicios, tarifas y citas.",
+      "El horario no está incluido en esta información, así que confírmelo por teléfono.",
+      "Lleve esta dirección: 94-20 Guy R. Brewer Blvd, Jamaica, NY 11451."
+    ],
+    "visit_tips_en": [
+      "Call (646) 664-9400 before going to ask about services, fees, and appointments.",
+      "Hours are not included in this information, so confirm them by phone.",
+      "Bring this address: 94-20 Guy R. Brewer Blvd, Jamaica, NY 11451."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es esta oficina?",
+        "a": "Es una extensión de CUNY Citizenship Now! en York College, en Jamaica, Queens, y aparece en la lista del DOJ (EOIR) de organizaciones reconocidas."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están incluidas en la lista. Llame al (646) 664-9400 para preguntar."
+      },
+      {
+        "q": "¿Necesito una cita?",
+        "a": "El proceso para obtener una cita no está incluido en la lista. Llame antes de ir para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is this office?",
+        "a": "It is an extension office of CUNY Citizenship Now! at York College, in Jamaica, Queens, and appears on the DOJ (EOIR) roster of recognized organizations."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed. Call (646) 664-9400 to ask."
+      },
+      {
+        "q": "Do I need an appointment?",
+        "a": "How to get an appointment is not listed. Call before going to ask."
+      }
+    ]
+  }
+}

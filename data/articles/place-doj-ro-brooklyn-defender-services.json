@@ -1,0 +1,64 @@
+{
+  "place_id": "place-doj-ro-brooklyn-defender-services",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:38:05.547Z",
+  "facts_hash": "ccd1b02d71d78a21",
+  "article": {
+    "title_es": "Brooklyn Defender Services: ayuda legal de inmigración en Brooklyn",
+    "title_en": "Brooklyn Defender Services: immigration legal help in Brooklyn",
+    "summary_es": "Brooklyn Defender Services es una organización sin fines de lucro que aparece en la lista del Departamento de Justicia de EE. UU. (EOIR) de organizaciones reconocidas. Sus representantes acreditados pueden ofrecer ayuda legal de inmigración.",
+    "summary_en": "Brooklyn Defender Services is a non-profit listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations. Its accredited representatives may provide immigration legal help.",
+    "how_they_help_es": [
+      "Aparece en la lista del Departamento de Justicia (EOIR) de organizaciones reconocidas.",
+      "Representantes acreditados por el DOJ pueden dar ayuda legal de inmigración.",
+      "Está ubicada en 177 Livingston Street, 7th Floor, Brooklyn, NY 11201.",
+      "Se puede llamar al (718) 254-0700 para preguntar.",
+      "Los servicios, tarifas y proceso de admisión no están en la lista; pregunte directamente."
+    ],
+    "how_they_help_en": [
+      "Listed on the U.S. Department of Justice (EOIR) Roster of Recognized Organizations.",
+      "DOJ-accredited representatives may provide immigration legal help.",
+      "Located at 177 Livingston Street, 7th Floor, Brooklyn, NY 11201.",
+      "You can call (718) 254-0700 with questions.",
+      "Services, fees and intake process are not listed; ask directly."
+    ],
+    "visit_tips_es": [
+      "La dirección es 177 Livingston Street, 7th Floor, Brooklyn, NY 11201.",
+      "Llame al (718) 254-0700 antes de ir, para confirmar cómo recibir ayuda.",
+      "Las tarifas y el proceso para obtener una cita no están indicados; pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "The address is 177 Livingston Street, 7th Floor, Brooklyn, NY 11201.",
+      "Call (718) 254-0700 before visiting to confirm how to get help.",
+      "Fees and how to get an appointment are not listed; ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es Brooklyn Defender Services?",
+        "a": "Es una organización sin fines de lucro en la lista del DOJ (EOIR) de organizaciones reconocidas, con representantes acreditados que pueden dar ayuda legal de inmigración."
+      },
+      {
+        "q": "¿Cuánto cuestan los servicios?",
+        "a": "Las tarifas no están indicadas en esta información. Llame al (718) 254-0700 para preguntar."
+      },
+      {
+        "q": "¿Dónde está y cómo los contacto?",
+        "a": "Está en 177 Livingston Street, 7th Floor, Brooklyn, NY 11201. Teléfono: (718) 254-0700."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What is Brooklyn Defender Services?",
+        "a": "It is a non-profit on the DOJ (EOIR) Roster of Recognized Organizations, with accredited representatives who may provide immigration legal help."
+      },
+      {
+        "q": "How much do services cost?",
+        "a": "Fees are not listed in this information. Call (718) 254-0700 to ask."
+      },
+      {
+        "q": "Where is it and how do I contact them?",
+        "a": "It is at 177 Livingston Street, 7th Floor, Brooklyn, NY 11201. Phone: (718) 254-0700."
+      }
+    ]
+  }
+}

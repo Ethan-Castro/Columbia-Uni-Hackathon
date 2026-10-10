@@ -1,0 +1,62 @@
+{
+  "place_id": "place-atn-check-cashing-7",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:59.341Z",
+  "facts_hash": "eb3eb6acadd5ca6a",
+  "article": {
+    "title_es": "ATN Check Cashing #7: negocio de cobro de cheques en Elmhurst",
+    "title_en": "ATN Check Cashing #7: check cashing business in Elmhurst",
+    "summary_es": "ATN Check Cashing #7 es un negocio con licencia de cobro de cheques en Elmhurst, Queens. Es un negocio y se cobran tarifas por sus servicios.",
+    "summary_en": "ATN Check Cashing #7 is a licensed check cashing business in Elmhurst, Queens. It is a business and fees apply for its services.",
+    "how_they_help_es": [
+      "Es un negocio con licencia de cobro de cheques.",
+      "Está ubicado en 9472 Corona Ave, Elmhurst, NY 11373.",
+      "Puede llamar al 718-271-2824 para preguntar por sus servicios.",
+      "La lista no indica qué servicios ofrece ni cuáles son las tarifas."
+    ],
+    "how_they_help_en": [
+      "It is a licensed check cashing business.",
+      "It is located at 9472 Corona Ave, Elmhurst, NY 11373.",
+      "You can call 718-271-2824 to ask about its services.",
+      "The listing does not say which services it offers or what the fees are."
+    ],
+    "visit_tips_es": [
+      "Recuerde que es un negocio y se cobran tarifas.",
+      "Pregunte por teléfono las tarifas antes de ir, al 718-271-2824.",
+      "El horario no está en la lista; pregunte al llamar."
+    ],
+    "visit_tips_en": [
+      "Remember this is a business and fees apply.",
+      "Ask about fees by phone before going, at 718-271-2824.",
+      "Hours are not listed; ask when you call."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece ATN Check Cashing #7?",
+        "a": "La lista dice que es un negocio con licencia de cobro de cheques. No indica otros servicios; llame al 718-271-2824 para preguntar."
+      },
+      {
+        "q": "¿Cobra tarifas?",
+        "a": "Sí. Es un negocio y se cobran tarifas. Las tarifas no están en la lista; pregunte por teléfono."
+      },
+      {
+        "q": "¿Cuál es su horario?",
+        "a": "El horario no está en la lista. Puede llamar al 718-271-2824 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does ATN Check Cashing #7 offer?",
+        "a": "The listing says it is a licensed check cashing business. It does not list other services; call 718-271-2824 to ask."
+      },
+      {
+        "q": "Does it charge fees?",
+        "a": "Yes. It is a business and fees apply. The fees are not listed; ask by phone."
+      },
+      {
+        "q": "What are its hours?",
+        "a": "Hours are not listed. You can call 718-271-2824 to ask."
+      }
+    ]
+  }
+}

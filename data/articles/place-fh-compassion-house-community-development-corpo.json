@@ -1,0 +1,64 @@
+{
+  "place_id": "place-fh-compassion-house-community-development-corpo",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:39:34.102Z",
+  "facts_hash": "06e1a49fa948d645",
+  "article": {
+    "title_es": "Compassion House: despensa de alimentos en Brooklyn",
+    "title_en": "Compassion House: food pantry in Brooklyn",
+    "summary_es": "Compassion House Community Development Corporation es una despensa de alimentos en Brooklyn que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Compassion House Community Development Corporation is a food pantry in Brooklyn listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 43 George St, Brooklyn, NY 11206.",
+      "Abre los jueves de 9am a 11:30am.",
+      "La despensa funciona el primer y tercer jueves del mes.",
+      "Puede llamar al (718) 386-8151 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the Food Help NYC map.",
+      "It is located at 43 George St, Brooklyn, NY 11206.",
+      "It is open Thursdays from 9am to 11:30am.",
+      "The pantry runs on the 1st and 3rd Thursday of the month.",
+      "You can call (718) 386-8151 with questions."
+    ],
+    "visit_tips_es": [
+      "Vaya un primer o tercer jueves, entre 9am y 11:30am.",
+      "Llame antes para confirmar el horario y preguntar qué alimentos dan.",
+      "La lista no indica qué requisitos hay, así que pregunte por teléfono."
+    ],
+    "visit_tips_en": [
+      "Go on a 1st or 3rd Thursday, between 9am and 11:30am.",
+      "Call ahead to confirm the schedule and ask what food is given.",
+      "The listing does not say what the requirements are, so ask by phone."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los jueves de 9am a 11:30am. La despensa funciona el primer y tercer jueves del mes."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 43 George St, Brooklyn, NY 11206."
+      },
+      {
+        "q": "¿Qué necesito para recibir alimentos?",
+        "a": "No está indicado en la lista. Llame al (718) 386-8151 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Thursdays from 9am to 11:30am. The pantry runs on the 1st and 3rd Thursday of the month."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 43 George St, Brooklyn, NY 11206."
+      },
+      {
+        "q": "What do I need to receive food?",
+        "a": "It is not listed. Call (718) 386-8151 to ask."
+      }
+    ]
+  }
+}

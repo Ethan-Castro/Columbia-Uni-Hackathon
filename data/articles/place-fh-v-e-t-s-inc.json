@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-v-e-t-s-inc",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:56:37.833Z",
+  "facts_hash": "b5a5c60ed80020e4",
+  "article": {
+    "title_es": "V.E.T.S. INC: despensa de alimentos en Jamaica, Queens",
+    "title_en": "V.E.T.S. INC: food pantry in Jamaica, Queens",
+    "summary_es": "V.E.T.S. INC es una despensa de alimentos en Jamaica, Queens, que aparece en el mapa Food Help NYC de la ciudad. Abre los viernes de 10am a 12pm.",
+    "summary_en": "V.E.T.S. INC is a food pantry in Jamaica, Queens, listed on the City's Food Help NYC map. It is open Fridays from 10am to 12pm.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Reparte alimentos los viernes de 10am a 12pm.",
+      "Está ubicada en 111-16 173rd St, Jamaica, Queens.",
+      "No se indica qué alimentos entrega ni si hay requisitos; pregunte por teléfono."
+    ],
+    "how_they_help_en": [
+      "Listed as a food pantry on the Food Help NYC map.",
+      "Distributes food on Fridays from 10am to 12pm.",
+      "Located at 111-16 173rd St, Jamaica, Queens.",
+      "The food given and any requirements are not listed; ask by phone."
+    ],
+    "visit_tips_es": [
+      "Horario de despensa: viernes de 10am a 12pm.",
+      "Llame al (718) 206-2376 antes de ir para confirmar detalles.",
+      "La información fue verificada el 10 de octubre de 2026."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Fridays from 10am to 12pm.",
+      "Call (718) 206-2376 before visiting to confirm details.",
+      "Information was last checked on October 10, 2026."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo abre la despensa?",
+        "a": "Los viernes de 10am a 12pm."
+      },
+      {
+        "q": "¿Dónde está ubicada?",
+        "a": "En 111-16 173rd St, Jamaica, Nueva York, 11433 (Queens)."
+      },
+      {
+        "q": "¿Qué alimentos entrega y hay requisitos?",
+        "a": "No está indicado en la información disponible. Llame al (718) 206-2376 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "When is the pantry open?",
+        "a": "Fridays from 10am to 12pm."
+      },
+      {
+        "q": "Where is it located?",
+        "a": "At 111-16 173rd St, Jamaica, New York, 11433 (Queens)."
+      },
+      {
+        "q": "What food is given and are there requirements?",
+        "a": "This is not listed in the available information. Call (718) 206-2376 to ask."
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "place_id": "place-fh-hour-children-community-outreach-fp",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:40:19.564Z",
+  "facts_hash": "b6244c216ae21cd8",
+  "article": {
+    "title_es": "Hour Children Community Outreach: despensa de alimentos en Astoria",
+    "title_en": "Hour Children Community Outreach: food pantry in Astoria",
+    "summary_es": "Hour Children Community Outreach es una despensa de alimentos en Astoria, Queens, que aparece en el mapa Food Help NYC de la ciudad.",
+    "summary_en": "Hour Children Community Outreach is a food pantry in Astoria, Queens, listed on the City's Food Help NYC map.",
+    "how_they_help_es": [
+      "Es una despensa de alimentos según el mapa Food Help NYC.",
+      "Está ubicada en 36-49 11th St, Astoria, Queens, 11106.",
+      "Atiende en horarios de despensa lunes, martes y jueves.",
+      "Puede llamar al (718) 482-8226 para preguntar."
+    ],
+    "how_they_help_en": [
+      "It is a food pantry listed on the City's Food Help NYC map.",
+      "Located at 36-49 11th St, Astoria, Queens, 11106.",
+      "Pantry hours are on Mondays, Tuesdays, and Thursdays.",
+      "You can call (718) 482-8226 with questions."
+    ],
+    "visit_tips_es": [
+      "Horario de despensa: lunes de 2am a 4pm; martes de 10:30am a 12:30pm; jueves de 2pm a 4pm.",
+      "La lista no indica qué alimentos entrega ni si pide algún requisito; pregunte por teléfono antes de ir.",
+      "Verifique el horario llamando al (718) 482-8226, ya que puede cambiar."
+    ],
+    "visit_tips_en": [
+      "Pantry hours: Mon 2am-4pm; Tue 10:30am-12:30pm; Thu 2pm-4pm.",
+      "The listing does not say what food is given or if there are any requirements; call ahead to ask.",
+      "Confirm hours by calling (718) 482-8226, as they may change."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué servicios ofrece este lugar?",
+        "a": "Aparece en el mapa Food Help NYC como despensa de alimentos. No se indica qué alimentos entrega."
+      },
+      {
+        "q": "¿Cuándo puedo ir?",
+        "a": "Despensa: lunes de 2am a 4pm, martes de 10:30am a 12:30pm y jueves de 2pm a 4pm."
+      },
+      {
+        "q": "¿Necesito algún documento o requisito?",
+        "a": "La lista no menciona requisitos ni documentos. Llame al (718) 482-8226 para preguntar."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What services does this place offer?",
+        "a": "It is listed on the Food Help NYC map as a food pantry. What food is given is not stated."
+      },
+      {
+        "q": "When can I go?",
+        "a": "Pantry hours: Mon 2am-4pm, Tue 10:30am-12:30pm, and Thu 2pm-4pm."
+      },
+      {
+        "q": "Do I need documents or meet any requirements?",
+        "a": "The listing does not mention requirements or documents. Call (718) 482-8226 to ask."
+      }
+    ]
+  }
+}

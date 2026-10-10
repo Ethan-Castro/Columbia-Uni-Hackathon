@@ -1,0 +1,62 @@
+{
+  "place_id": "place-urban-health-plan-plaza-del-sol",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-10-10T18:43:43.902Z",
+  "facts_hash": "da8cb7436cfc53dd",
+  "article": {
+    "title_es": "Urban Health Plan - Plaza Del Sol Family Health Center: clínica en Queens",
+    "title_en": "Urban Health Plan - Plaza Del Sol Family Health Center: clinic in Queens",
+    "summary_es": "Urban Health Plan - Plaza Del Sol Family Health Center es una clínica de salud en Corona, Queens. Abre de lunes a viernes y los sábados.",
+    "summary_en": "Urban Health Plan - Plaza Del Sol Family Health Center is a health clinic in Corona, Queens. It is open Monday through Friday and on Saturdays.",
+    "how_they_help_es": [
+      "Es una clínica de salud que forma parte de Urban Health Plan.",
+      "Está ubicada en 37-12 108th Street, Corona, NY 11368.",
+      "Abre entre semana de 7am a 5pm y los sábados de 7am a 1:30pm.",
+      "Los servicios específicos, costos y requisitos no están indicados, así que pregunte directamente en la clínica."
+    ],
+    "how_they_help_en": [
+      "It is a health clinic listed under Urban Health Plan.",
+      "It is located at 37-12 108th Street, Corona, NY 11368.",
+      "It is open weekdays from 7am to 5pm and Saturdays from 7am to 1:30pm.",
+      "Specific services, costs and eligibility are not listed, so ask the clinic directly."
+    ],
+    "visit_tips_es": [
+      "Revise los horarios antes de ir: de lunes a viernes de 7am a 5pm; sábados de 7am a 1:30pm.",
+      "Pregunte en la clínica qué servicios ofrecen y cuánto cuestan.",
+      "Esta información no ha sido verificada, así que confirme los detalles antes de visitar."
+    ],
+    "visit_tips_en": [
+      "Check the hours before you go: Mon-Fri 7am-5pm; Sat 7am-1:30pm.",
+      "Ask the clinic which services are available and what they cost.",
+      "This listing has not been verified, so confirm details before visiting."
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está esta clínica?",
+        "a": "En 37-12 108th Street, Corona, NY 11368, en Queens."
+      },
+      {
+        "q": "¿Cuándo abre?",
+        "a": "De lunes a viernes de 7am a 5pm; sábados de 7am a 1:30pm."
+      },
+      {
+        "q": "¿Qué servicios ofrece?",
+        "a": "La información no lo indica. Comuníquese con la clínica para preguntar por servicios y costos."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Where is this clinic?",
+        "a": "At 37-12 108th Street, Corona, NY 11368, in Queens."
+      },
+      {
+        "q": "When is it open?",
+        "a": "Mon-Fri 7am-5pm; Sat 7am-1:30pm."
+      },
+      {
+        "q": "What services does it offer?",
+        "a": "The listing does not say. Contact the clinic to ask about services and costs."
+      }
+    ]
+  }
+}
