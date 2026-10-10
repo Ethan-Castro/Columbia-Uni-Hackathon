@@ -1,0 +1,53 @@
+// Base44 function config: nightly Scout runs, one query per automation.
+// Format: https://docs.base44.com/developers/backend/resources/backend-functions/automations
+// Times are UTC. 07:00 UTC = 3:00 AM New York (EDT), 2:00 AM (EST).
+// function_args reach entry.ts as body.args.
+// is_active is false until the PORTING auth change lands (a scheduled run has
+// no signed-in admin, so requireAdmin would reject it; see functions/scout/entry.ts).
+// Local dev ignores this file.
+{
+  "name": "scout",
+  "entry": "entry.ts",
+  "automations": [
+    {
+      "type": "scheduled",
+      "name": "scout_food_pantry_corona",
+      "description": "Nightly: find food pantries in Corona, Queens and queue them for review",
+      "function_args": { "query": "food pantry Corona Queens", "max_results": 5 },
+      "is_active": false,
+      "schedule_mode": "recurring",
+      "schedule_type": "cron",
+      "cron_expression": "0 7 * * *"
+    },
+    {
+      "type": "scheduled",
+      "name": "scout_free_legal_queens",
+      "description": "Nightly: find free immigration legal help in Queens and queue it for review",
+      "function_args": { "query": "free immigration legal help Queens", "max_results": 5 },
+      "is_active": false,
+      "schedule_mode": "recurring",
+      "schedule_type": "cron",
+      "cron_expression": "10 7 * * *"
+    },
+    {
+      "type": "scheduled",
+      "name": "scout_wic_clinic_queens",
+      "description": "Nightly: find WIC clinics in Queens and queue them for review",
+      "function_args": { "query": "WIC clinic Queens", "max_results": 5 },
+      "is_active": false,
+      "schedule_mode": "recurring",
+      "schedule_type": "cron",
+      "cron_expression": "20 7 * * *"
+    },
+    {
+      "type": "scheduled",
+      "name": "scout_idnyc_queens",
+      "description": "Nightly: find IDNYC enrollment sites in Queens and queue them for review",
+      "function_args": { "query": "IDNYC enrollment Queens", "max_results": 5 },
+      "is_active": false,
+      "schedule_mode": "recurring",
+      "schedule_type": "cron",
+      "cron_expression": "30 7 * * *"
+    }
+  ]
+}

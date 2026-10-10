@@ -1,0 +1,6 @@
+// GENERATED from functions/scout/function.jsonc by scripts/base44-sync.ts.
+// "automations" removed: this app uses Base44 Workflows, which reject legacy automations.
+{
+  "name": "scout",
+  "entry": "entry.ts"
+}

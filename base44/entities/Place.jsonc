@@ -1,0 +1,123 @@
+// Base44 entity schema. Keep in sync with shared/schema.ts. Built-in fields (id, created_date, ...) are not defined here.
+{
+  "name": "Place",
+  "type": "object",
+  "title": "Place",
+  "description": "A physical place (CSV contract: places.csv). CSV ids are stored in key as place-<slug>.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Our CSV id, like place-<slug>. Base44 assigns its own id; functions look records up by key.",
+      "pattern": "^place-[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "org": {
+      "type": "string"
+    },
+    "org_type": {
+      "type": "string",
+      "enum": [
+        "doj_roster",
+        "doj_pro_bono",
+        "pantry",
+        "consulate",
+        "clinic",
+        "benefits_office",
+        "idnyc",
+        "remittance",
+        "check_casher",
+        "school",
+        "other"
+      ],
+      "default": "other"
+    },
+    "address": {
+      "type": "string"
+    },
+    "borough": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string",
+      "pattern": "^[0-9]{5}$"
+    },
+    "lat": {
+      "type": "number"
+    },
+    "lng": {
+      "type": "number"
+    },
+    "hours": {
+      "type": "string",
+      "description": "Human-readable hours"
+    },
+    "open_evenings": {
+      "type": "boolean",
+      "default": false
+    },
+    "open_weekends": {
+      "type": "boolean",
+      "default": false
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Language codes, e.g. es, en, qu, quc, zh"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "trust": {
+      "type": "string",
+      "enum": [
+        "official",
+        "verified",
+        "community",
+        "unverified"
+      ],
+      "default": "unverified"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "last_checked": {
+      "type": "string",
+      "format": "date",
+      "description": "YYYY-MM-DD"
+    },
+    "needs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "food",
+          "legal",
+          "health",
+          "benefits",
+          "money",
+          "school",
+          "id",
+          "housing",
+          "work",
+          "transit"
+        ]
+      },
+      "description": "Optional. Set when a community submission is approved; most places serve needs through Link(offers)."
+    }
+  },
+  "required": [
+    "key",
+    "name",
+    "org_type",
+    "zip",
+    "trust",
+    "source_url",
+    "last_checked"
+  ]
+}

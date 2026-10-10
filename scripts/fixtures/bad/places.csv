@@ -1,0 +1,10 @@
+id,name,org,org_type,address,borough,zip,lat,lng,hours,open_evenings,open_weekends,languages,phone,trust,source_url,last_checked
+place-bad-ok,Good Place,Org,pantry,"1 Fixture Ave, Corona, NY 11368",Queens,11368,40.75,-73.86,Mon 9am-5pm,false,false,es|Spanish|en,555-0301,verified,https://example.com/fixture/place-bad-ok,2026-10-01
+place-bad-enum,Typo Place,Org,panty,2 Fixture Ave,Queens,11368,40.75,-73.86,Mon 9am-5pm,false,false,es,555-0302,verified,https://example.com/fixture/a,2026-10-01
+place-bad-bool,Bad Bool Place,Org,clinic,3 Fixture Ave,Queens,11368,40.75,-73.86,Mon 9am-5pm,maybe,false,es,555-0303,official,https://example.com/fixture/b,2026-10-01
+place-bad-dupe,GOOD PLACE,Org,pantry,"1 Fixture Avenue, Corona, NY 11368",Queens,11368,40.75,-73.86,Mon 9am-5pm,false,false,es,555-0304,verified,https://example.com/fixture/c,2026-10-01
+place-bad-extra,Extra Column Place,Org,pantry,4 Fixture Ave, Corona,Queens,11368,40.75,-73.86,Mon 9am-5pm,false,false,es,555-0305,verified,https://example.com/fixture/d,2026-10-01
+place-bad-loose,Loose Bool Place,Org,school,5 Fixture Ave,,11372,-73.88,40.749,Mon-Fri 8am-3pm,No,FALSE,es|en,555-0306,official,https://example.com/fixture/e,2026-10-01
+place-bad-geo,Far Away Place,Org,clinic,6 Fixture Ave,Queens,11368,34.05,-118.24,Mon 9am-5pm,false,false,es,555-0307,verified,ftp://example.com/f,2026-13-01
+place-bad-quote,"Unclosed Quote Place,Org,pantry,7 Fixture Ave,Queens,11368,40.75,-73.86,Mon 9am-5pm,false,false,es,555-0308,verified,https://example.com/fixture/g,2026-10-01
+place-bad-after,After Quote Place,Org,idnyc,8 Fixture Ave,Queens,11373,40.74,-73.88,Mon 9am-5pm,false,false,es,555-0309,official,https://example.com/fixture/h,2026-10-01

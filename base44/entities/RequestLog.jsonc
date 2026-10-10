@@ -1,0 +1,58 @@
+// Base44 entity schema. Keep in sync with shared/schema.ts. Built-in fields (id, created_date, ...) are not defined here.
+{
+  "name": "RequestLog",
+  "type": "object",
+  "title": "RequestLog",
+  "description": "One anonymous row per request. Never names, phones, or free text.",
+  "properties": {
+    "needs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "food",
+          "legal",
+          "health",
+          "benefits",
+          "money",
+          "school",
+          "id",
+          "housing",
+          "work",
+          "transit"
+        ]
+      }
+    },
+    "zip": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string",
+      "enum": [
+        "mcp",
+        "whatsapp",
+        "voice",
+        "web"
+      ]
+    },
+    "results_found": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "unmet": {
+      "type": "boolean",
+      "default": false
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "channel",
+    "created_at"
+  ]
+}

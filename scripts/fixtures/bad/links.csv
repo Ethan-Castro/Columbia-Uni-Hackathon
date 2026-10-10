@@ -1,0 +1,6 @@
+from_id,to_id,type,reason
+place-bad-ok,prog-bad-ok,offers,Good link.
+place-bad-ok,place-does-not-exist,refers_to,Dangling link.
+prog-bad-ok,place-bad-after,unlock,Typo in type.
+place-bad-ok,place-bad-ok,refers_to,Self link.
+place-bad-ok,prog-bad-ok,offers,Same link again (wins).

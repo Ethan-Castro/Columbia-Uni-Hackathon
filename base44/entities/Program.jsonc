@@ -1,0 +1,73 @@
+// Base44 entity schema. Keep in sync with shared/schema.ts. Built-in fields (id, created_date, ...) are not defined here.
+{
+  "name": "Program",
+  "type": "object",
+  "title": "Program",
+  "description": "A program or service line (CSV contract: programs.csv). CSV ids are stored in key as prog-<slug>.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Our CSV id, like prog-<slug>. Base44 assigns its own id; functions look records up by key.",
+      "pattern": "^prog-[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "needs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "food",
+          "legal",
+          "health",
+          "benefits",
+          "money",
+          "school",
+          "id",
+          "housing",
+          "work",
+          "transit"
+        ]
+      }
+    },
+    "who_can_use": {
+      "type": "string"
+    },
+    "status_note": {
+      "type": "string"
+    },
+    "bring": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "how_to_apply": {
+      "type": "string"
+    },
+    "summary_es": {
+      "type": "string"
+    },
+    "summary_en": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "last_checked": {
+      "type": "string",
+      "format": "date",
+      "description": "YYYY-MM-DD"
+    }
+  },
+  "required": [
+    "key",
+    "name",
+    "needs",
+    "source_url",
+    "last_checked"
+  ]
+}

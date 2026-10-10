@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+node_modules/
+web/dist/
+web/node_modules/
+.DS_Store
+data/*.lock
+data/*.tmp-*
+data/import-report.json
+
+# Base44 app link (per developer)
+base44/.app.jsonc

@@ -1,0 +1,5 @@
+from_id,to_id,type,reason
+prog-fixture-city-id,prog-fixture-wic,unlocks,"IDNYC works as ID for WIC, and for many other offices."
+place-fixture-health-center,prog-fixture-wic,offers,The health center has a WIC office.
+place-fixture-pro-bono,prog-fixture-legal-screening,offers,Free screenings on Saturdays.
+prog-fixture-legal-screening,place-fixture-legal-clinic,refers_to,"Screening refers people to the clinic for full representation | follow-up."

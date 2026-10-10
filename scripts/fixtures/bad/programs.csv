@@ -1,0 +1,7 @@
+ID,Name,Needs,Who_Can_Use,Status_Note,Bring,How_To_Apply,Summary_ES,Summary_EN,Source_URL,Last_Checked,notes
+prog-bad-ok,Valid Program,food,Anyone.,,ID,Walk in.,Comida.,Food.,https://example.com/fixture/prog-bad-ok,2026-10-01,first version
+prog_bad_id,Bad Id Program,food,Anyone.,,ID,Walk in.,Comida.,Food.,https://example.com/fixture/x,2026-10-01,
+prog-bad-enum,Bad Enum Program,food|comida,Anyone.,,ID,Walk in.,Comida.,Food.,https://example.com/fixture/y,2026-10-01,
+prog-bad-date,Bad Date Program,legal,Anyone.,,ID,Call.,Legal.,Legal.,https://example.com/fixture/z,2026-02-30,
+prog-no-source,No Source Program,health,Anyone.,,ID,Call.,Salud.,Health.,,2026-10-01,
+prog-bad-ok,Valid Program (second),FOOD|Benefits,Anyone.,,ID|lease,Walk in.,Comida.,Food.,https://example.com/fixture/prog-bad-ok,10/9/2026,second version

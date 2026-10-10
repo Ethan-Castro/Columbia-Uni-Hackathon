@@ -1,0 +1,101 @@
+[
+  {
+    "id": "link-01",
+    "from_id": "prog-idnyc",
+    "to_id": "prog-library-card",
+    "type": "unlocks",
+    "reason": "IDNYC is accepted as ID for a library card.",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "link-02",
+    "from_id": "prog-idnyc",
+    "to_id": "prog-bank-account",
+    "type": "unlocks",
+    "reason": "Some banks and credit unions accept IDNYC to open an account.",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "link-03",
+    "from_id": "prog-wic",
+    "to_id": "prog-child-health-plus",
+    "type": "pairs_with",
+    "reason": "Families getting WIC often qualify their children for Child Health Plus.",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "link-04",
+    "from_id": "prog-school-enrollment",
+    "to_id": "prog-mckinney-vento-transit",
+    "type": "pairs_with",
+    "reason": "Enroll and ask for transportation at the same visit if housing is temporary.",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "link-05",
+    "from_id": "prog-free-legal-screening",
+    "to_id": "place-queens-immigrant-legal-clinic",
+    "type": "refers_to",
+    "reason": "Screenings refer full cases to a recognized legal provider.",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "link-07",
+    "from_id": "place-corona-idnyc-enrollment",
+    "to_id": "prog-idnyc",
+    "type": "offers",
+    "reason": "IDNYC enrollment desk.",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "link-08",
+    "from_id": "place-junction-family-health-center",
+    "to_id": "prog-wic",
+    "type": "offers",
+    "reason": "On-site WIC office.",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "link-09",
+    "from_id": "place-junction-family-health-center",
+    "to_id": "prog-child-health-plus",
+    "type": "offers",
+    "reason": "Enrollment helpers for Child Health Plus.",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "link-10",
+    "from_id": "place-corona-family-welcome-center",
+    "to_id": "prog-school-enrollment",
+    "type": "offers",
+    "reason": "Public school enrollment.",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "link-11",
+    "from_id": "place-corona-family-welcome-center",
+    "to_id": "prog-mckinney-vento-transit",
+    "type": "offers",
+    "reason": "Transportation for students in temporary housing.",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "link-12",
+    "from_id": "place-roosevelt-pro-bono-project",
+    "to_id": "prog-free-legal-screening",
+    "type": "offers",
+    "reason": "Walk-in legal screening.",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  }
+]

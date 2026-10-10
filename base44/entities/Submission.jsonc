@@ -1,0 +1,135 @@
+// Base44 entity schema. Keep in sync with shared/schema.ts. Built-in fields (id, created_date, ...) are not defined here.
+{
+  "name": "Submission",
+  "type": "object",
+  "title": "Submission",
+  "description": "A community or Scout submitted place. Never shown until a human approves it.",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "org": {
+      "type": "string"
+    },
+    "org_type": {
+      "type": "string",
+      "enum": [
+        "doj_roster",
+        "doj_pro_bono",
+        "pantry",
+        "consulate",
+        "clinic",
+        "benefits_office",
+        "idnyc",
+        "remittance",
+        "check_casher",
+        "school",
+        "other"
+      ],
+      "default": "other"
+    },
+    "address": {
+      "type": "string"
+    },
+    "borough": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string",
+      "pattern": "^([0-9]{5})?$",
+      "description": "5 digits, or empty when unknown"
+    },
+    "lat": {
+      "type": "number"
+    },
+    "lng": {
+      "type": "number"
+    },
+    "hours": {
+      "type": "string",
+      "description": "Human-readable hours"
+    },
+    "open_evenings": {
+      "type": "boolean",
+      "default": false
+    },
+    "open_weekends": {
+      "type": "boolean",
+      "default": false
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Language codes, e.g. es, en, qu, quc, zh"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "trust": {
+      "type": "string",
+      "enum": [
+        "official",
+        "verified",
+        "community",
+        "unverified"
+      ],
+      "default": "community"
+    },
+    "source_url": {
+      "type": "string",
+      "description": "Where the info came from (may be empty for community submissions)"
+    },
+    "last_checked": {
+      "type": "string",
+      "format": "date",
+      "description": "YYYY-MM-DD"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ],
+      "default": "pending"
+    },
+    "needs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "food",
+          "legal",
+          "health",
+          "benefits",
+          "money",
+          "school",
+          "id",
+          "housing",
+          "work",
+          "transit"
+        ]
+      },
+      "description": "What the place helps with (reviewer hint)"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Internal note, e.g. which Scout query found it"
+    },
+    "place_id": {
+      "type": "string",
+      "description": "key of the Place created when approved (place-<slug>)"
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "name",
+    "status"
+  ]
+}

@@ -1,0 +1,35 @@
+// Base44 entity schema. Keep in sync with shared/schema.ts. Built-in fields (id, created_date, ...) are not defined here.
+{
+  "name": "Link",
+  "type": "object",
+  "title": "Link",
+  "description": "A typed edge between programs and places (CSV contract: links.csv).",
+  "properties": {
+    "from_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "to_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "offers",
+        "unlocks",
+        "pairs_with",
+        "requires",
+        "refers_to"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "from_id",
+    "to_id",
+    "type"
+  ]
+}
