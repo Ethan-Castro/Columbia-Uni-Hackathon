@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How We Built It · NYC Navigator</title>
+<meta name="description" content="How NYC Navigator uses Base44, Claude, ChatGPT, Twilio, ElevenLabs, Tavily and OpenRouter to bring New York's services to immigrant families.">
+<link rel="icon" href="icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+:root{--bg:#fcf5eb;--card:#fff;--fg:#111b21;--muted:#54656f;--line:#1c1e21;--soft:#f3ede4;--brand:#008069;--green:#25d366}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b141a;--card:#111b21;--fg:#e9edef;--muted:#8696a0;--line:#3b4a54;--soft:#202c33;--brand:#00a884}}
+:root[data-theme="dark"]{--bg:#0b141a;--card:#111b21;--fg:#e9edef;--muted:#8696a0;--line:#3b4a54;--soft:#202c33;--brand:#00a884}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--fg);font-weight:500;text-decoration:underline;text-decoration-color:var(--green);text-decoration-thickness:2px;text-underline-offset:4px}
+.wrap{max-width:960px;margin:0 auto;padding:16px 16px 64px}
+header.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:6px 0 16px;border-bottom:1px solid color-mix(in srgb,var(--fg) 12%,transparent)}
+.brand{font-weight:700;text-decoration:none;color:var(--brand)}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--card)}
+.lang button{font:inherit;font-size:14px;border:0;background:none;color:var(--muted);padding:6px 14px;border-radius:999px;cursor:pointer;min-height:36px}
+.lang button[aria-pressed="true"]{background:var(--green);color:#111b21;font-weight:600}
+.hero{text-align:center;padding:56px 0 24px}
+.hero h1{font-size:clamp(2rem,6vw,3.4rem);line-height:1.08;font-weight:500;letter-spacing:-.03em;margin:0 0 14px}
+.hero h1 em{font-style:normal;color:var(--brand)}
+.hero p{color:var(--muted);max-width:620px;margin:0 auto;font-size:1.08rem}
+.strip{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:28px 0 8px}
+.strip .logo{width:52px;height:52px}
+h2{font-size:1.6rem;font-weight:500;letter-spacing:-.02em;margin:56px 0 6px}
+.kicker{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--brand);margin:56px 0 0}
+.kicker+h2{margin-top:4px}
+.intro{color:var(--muted);margin:0 0 20px;max-width:640px}
+figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px}
+figure svg{width:100%;height:auto;display:block;color:var(--fg)}
+figcaption{color:var(--muted);font-size:14px;margin-top:10px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.card .head{display:flex;flex-wrap:wrap;align-items:center;gap:12px}.card .head>div{flex:1;min-width:170px}
+.card h3{margin:0;font-size:1.15rem;font-weight:600}
+.card .role{color:var(--muted);font-size:14px;margin:0}
+.card ul{margin:0;padding-left:18px;font-size:15px}
+.card li{margin:4px 0}
+.card .num{font-weight:600}
+.logo{flex:none;width:48px;height:48px;border-radius:14px;display:grid;place-items:center;border:1px solid color-mix(in srgb,var(--fg) 12%,transparent);background:#fff;overflow:hidden}
+.logo i{display:block;width:58%;height:58%;background:var(--c,#111);-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat}
+.logo img{width:100%;height:100%;object-fit:cover}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.steps li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:16px 18px 16px 64px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:18px;top:15px;width:30px;height:30px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-weight:600;font-size:14px}
+.steps b{display:block}
+.rules{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.rule{background:var(--soft);border-radius:18px;padding:14px 16px;font-size:15px}
+.rule b{display:block;margin-bottom:2px}
+.cta{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px}
+.btn{display:inline-flex;align-items:center;min-height:48px;padding:0 22px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--fg);text-decoration:none;font-weight:600}
+.btn.p{background:var(--green);color:#111b21}
+footer{margin-top:56px;padding-top:16px;border-top:1px solid color-mix(in srgb,var(--fg) 12%,transparent);color:var(--muted);font-size:14px}
+[data-l="es"]{display:none}
+html[lang="es"] [data-l="en"]{display:none}
+html[lang="es"] [data-l="es"]{display:revert}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="./">NYC Navigator</a>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-set="es" aria-pressed="false">Español</button>
+    <button type="button" data-set="en" aria-pressed="true">English</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1><span data-l="en">How we built it: <em>one map, every door</em></span><span data-l="es">Cómo lo hicimos: <em>un mapa, todas las puertas</em></span></h1>
+  <p data-l="en">A family asks for help in Claude, ChatGPT, WhatsApp, a phone call or our voice app. Every one of those doors reads the same map of New York services, kept on Base44. Here is what each tool does.</p>
+  <p data-l="es">Una familia pide ayuda en Claude, ChatGPT, WhatsApp, por teléfono o en nuestra app de voz. Todas esas puertas leen el mismo mapa de servicios de Nueva York, guardado en Base44. Esto es lo que hace cada herramienta.</p>
+  <div class="strip" aria-hidden="true">
+    <span class="logo"><img src="logos/base44.png" alt=""></span>
+    <span class="logo"><i style="--m:url(logos/claude.svg);--c:#D97757"></i></span>
+    <span class="logo"><i style="--m:url(logos/openai.svg);--c:#111"></i></span>
+    <span class="logo"><i style="--m:url(logos/whatsapp.svg);--c:#25D366"></i></span>
+    <span class="logo"><i style="--m:url(logos/twilio.svg);--c:#F22F46"></i></span>
+    <span class="logo"><i style="--m:url(logos/elevenlabs.svg);--c:#111"></i></span>
+    <span class="logo"><img src="logos/tavily.png" alt=""></span>
+    <span class="logo"><img src="logos/openrouter.png" alt=""></span>
+  </div>
+</section>
+
+<p class="kicker" data-l="en">The big picture</p><p class="kicker" data-l="es">El panorama</p>
+<h2 data-l="en">Four doors, one brain</h2><h2 data-l="es">Cuatro puertas, un cerebro</h2>
+<p class="intro" data-l="en">Every door calls the same small set of tools on our server. The server reads the map and answers with places, hours, a source link and the date we last checked.</p>
+<p class="intro" data-l="es">Cada puerta llama a las mismas herramientas en nuestro servidor. El servidor lee el mapa y responde con lugares, horarios, la fuente y la fecha de la última revisión.</p>
+<figure>
+  <svg viewBox="0 0 900 330" role="img" aria-label="Claude, ChatGPT, WhatsApp and voice all call one MCP server on Base44, which reads the shared database; Tavily and people add new places through a review queue.">
+    <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+    <g font-family="Inter,system-ui,sans-serif" font-size="13" fill="currentColor" text-anchor="middle">
+      <g fill="none" stroke="currentColor" stroke-width="1.4">
+        <rect x="20" y="20" width="170" height="52" rx="26"/><rect x="20" y="96" width="170" height="52" rx="26"/>
+        <rect x="20" y="172" width="170" height="52" rx="26"/><rect x="20" y="248" width="170" height="52" rx="26"/>
+        <rect x="330" y="105" width="220" height="110" rx="22" stroke="#00a884" stroke-width="2.2"/>
+        <rect x="680" y="40" width="200" height="90" rx="22"/><rect x="680" y="190" width="200" height="90" rx="22"/>
+        <line x1="190" y1="46" x2="328" y2="140" marker-end="url(#a)"/><line x1="190" y1="122" x2="328" y2="152" marker-end="url(#a)"/>
+        <line x1="190" y1="198" x2="328" y2="168" marker-end="url(#a)"/><line x1="190" y1="274" x2="328" y2="182" marker-end="url(#a)"/>
+        <line x1="550" y1="140" x2="678" y2="95" marker-end="url(#a)"/>
+        <line x1="680" y1="235" x2="552" y2="190" marker-end="url(#a)" stroke-dasharray="5 4"/>
+        <line x1="780" y1="190" x2="780" y2="132" marker-end="url(#a)" stroke-dasharray="5 4"/>
+      </g>
+      <text x="105" y="51">Claude</text><text x="105" y="127">ChatGPT</text>
+      <text x="105" y="203">WhatsApp · Twilio</text><text x="105" y="279">Voice · ElevenLabs</text>
+      <text x="440" y="148" font-weight="600" font-size="15">MCP server</text>
+      <text x="440" y="170">on Base44</text><text x="440" y="190" font-size="12" opacity=".7">find · plan · check · send</text>
+      <text x="780" y="80" font-weight="600">Database</text><text x="780" y="100" font-size="12" opacity=".7">places · programs · links</text>
+      <text x="780" y="230" font-weight="600">Review queue</text><text x="780" y="250" font-size="12" opacity=".7">Tavily + people suggest</text>
+      <text x="610" y="105" font-size="12">reads</text><text x="610" y="232" font-size="12">asks</text>
+      <text x="828" y="166" font-size="12">human approves</text>
+    </g>
+  </svg>
+  <figcaption data-l="en">Solid arrows: answering a question. Dashed: how new places get in (only after a person approves them).</figcaption>
+  <figcaption data-l="es">Flechas sólidas: responder una pregunta. Punteadas: cómo entran lugares nuevos (solo cuando una persona los aprueba).</figcaption>
+</figure>
+
+<p class="kicker" data-l="en">The tools</p><p class="kicker" data-l="es">Las herramientas</p>
+<h2 data-l="en">What each one does</h2><h2 data-l="es">Qué hace cada una</h2>
+<div class="grid">
+
+  <article class="card">
+    <div class="head"><span class="logo"><img src="logos/base44.png" alt="Base44 logo"></span><div><h3>Base44</h3><p class="role" data-l="en">Our whole backend and host</p><p class="role" data-l="es">Todo nuestro backend y hosting</p></div></div>
+    <ul data-l="en">
+      <li><span class="num">Database</span> of 951 places, 105 programs and the links between them</li>
+      <li><span class="num">16 server functions</span>: the MCP server, WhatsApp webhook, voice, search, review queue</li>
+      <li>Hosts this website, the 666 place pages and the voice app</li>
+      <li>Keeps every API key as a secret, and serves our domain <b>inmigracion-nyc.com</b></li>
+    </ul>
+    <ul data-l="es">
+      <li><span class="num">Base de datos</span> con 951 lugares, 105 programas y sus conexiones</li>
+      <li><span class="num">16 funciones</span>: el servidor MCP, WhatsApp, voz, búsqueda y la cola de revisión</li>
+      <li>Aloja este sitio, las 666 páginas de lugares y la app de voz</li>
+      <li>Guarda las claves como secretos y sirve el dominio <b>inmigracion-nyc.com</b></li>
+    </ul>
+  </article>
+
+  <article class="card">
+    <div class="head"><span class="logo"><i style="--m:url(logos/claude.svg);--c:#D97757"></i></span><span class="logo"><i style="--m:url(logos/openai.svg);--c:#111"></i></span><div><h3>Claude &amp; ChatGPT</h3><p class="role" data-l="en">Where people already ask questions</p><p class="role" data-l="es">Donde la gente ya pregunta</p></div></div>
+    <ul data-l="en">
+      <li>Added as a connector (Claude) or app (ChatGPT) with one link: <code>inmigracion-nyc.com/functions/mcp</code></li>
+      <li>Tools: <b>find resources</b>, <b>make a plan</b>, <b>check a provider</b> (spots notario fraud), <b>send to my phone</b></li>
+      <li>Answers show as cards: tap to call, map, hours, source</li>
+    </ul>
+    <ul data-l="es">
+      <li>Se agrega como conector (Claude) o app (ChatGPT) con un enlace: <code>inmigracion-nyc.com/functions/mcp</code></li>
+      <li>Herramientas: <b>buscar recursos</b>, <b>armar un plan</b>, <b>revisar un proveedor</b> (detecta fraude de notarios), <b>enviar a mi teléfono</b></li>
+      <li>Las respuestas salen como tarjetas: llamar, mapa, horario, fuente</li>
+    </ul>
+  </article>
+
+  <article class="card">
+    <div class="head"><span class="logo"><i style="--m:url(logos/twilio.svg);--c:#F22F46"></i></span><span class="logo"><i style="--m:url(logos/whatsapp.svg);--c:#25D366"></i></span><div><h3>Twilio · WhatsApp</h3><p class="role" data-l="en">Help by text message, no app to download</p><p class="role" data-l="es">Ayuda por mensaje, sin bajar apps</p></div></div>
+    <ul data-l="en">
+      <li>Someone texts "necesito comida en 11368"; Twilio sends it to our webhook</li>
+      <li>We check Twilio's signature, find places, and reply in the same chat</li>
+      <li>"Send to my phone" from Claude or ChatGPT texts the plan, only after the person says yes</li>
+    </ul>
+    <ul data-l="es">
+      <li>Alguien escribe "necesito comida en 11368"; Twilio lo manda a nuestro servidor</li>
+      <li>Verificamos la firma de Twilio, buscamos lugares y respondemos en el mismo chat</li>
+      <li>"Enviar a mi teléfono" desde Claude o ChatGPT manda el plan, solo si la persona acepta</li>
+    </ul>
+  </article>
+
+  <article class="card">
+    <div class="head"><span class="logo"><i style="--m:url(logos/elevenlabs.svg);--c:#111"></i></span><div><h3>ElevenLabs</h3><p class="role" data-l="en">A natural voice for people who would rather talk</p><p class="role" data-l="es">Una voz natural para quien prefiere hablar</p></div></div>
+    <ul data-l="en">
+      <li><b>Phone line:</b> an ElevenLabs voice agent answers calls and uses our MCP tools</li>
+      <li><b>Voice app (<a href="voz/">/voz</a>):</b> no text at all. Tap the orb, say what you need, a green button calls the closest place</li>
+      <li>Speech to text (Scribe) hears the request; Multilingual v2 speaks the answer</li>
+    </ul>
+    <ul data-l="es">
+      <li><b>Línea telefónica:</b> un agente de voz de ElevenLabs contesta y usa nuestras herramientas MCP</li>
+      <li><b>App de voz (<a href="voz/">/voz</a>):</b> sin texto. Toque el círculo, diga lo que necesita y un botón verde llama al lugar más cercano</li>
+      <li>Scribe entiende lo que dice; Multilingual v2 le responde en voz</li>
+    </ul>
+  </article>
+
+  <article class="card">
+    <div class="head"><span class="logo"><img src="logos/tavily.png" alt="Tavily logo"></span><div><h3>Tavily</h3><p class="role" data-l="en">Searching all of New York for more help</p><p class="role" data-l="es">Busca más ayuda en toda Nueva York</p></div></div>
+    <ul data-l="en">
+      <li>Our "Scout" ran <span class="num">120 web searches</span>: 24 topics (pantries, legal aid, clinics, ESL, tax help…) × 5 boroughs</li>
+      <li>It found about <span class="num">565 new places</span> and saved them as drafts</li>
+      <li>On "Suggest a resource", paste a link and Tavily reads the page to fill the form</li>
+    </ul>
+    <ul data-l="es">
+      <li>Nuestro "Explorador" hizo <span class="num">120 búsquedas</span>: 24 temas (despensas, ayuda legal, clínicas, inglés, impuestos…) × 5 condados</li>
+      <li>Encontró unos <span class="num">565 lugares nuevos</span> y los guardó como borradores</li>
+      <li>En "Sugerir un recurso", pegue un enlace y Tavily lee la página para llenar el formulario</li>
+    </ul>
+  </article>
+
+  <article class="card">
+    <div class="head"><span class="logo"><img src="logos/openrouter.png" alt="OpenRouter logo"></span><div><h3>OpenRouter</h3><p class="role" data-l="en">The language models behind the words</p><p class="role" data-l="es">Los modelos de lenguaje detrás de las palabras</p></div></div>
+    <ul data-l="en">
+      <li><b>Claude Haiku</b> understands WhatsApp messages and writes one-line summaries in the person's language</li>
+      <li><b>GLM Flash</b> wrote a bilingual page for each of the 666 places, so Google and AI search can find them</li>
+      <li>Only facts from our map go in, so the model can't invent fees or hours</li>
+    </ul>
+    <ul data-l="es">
+      <li><b>Claude Haiku</b> entiende los mensajes de WhatsApp y escribe resúmenes de una línea en el idioma de la persona</li>
+      <li><b>GLM Flash</b> escribió una página bilingüe para cada uno de los 666 lugares, para que Google y la búsqueda con IA los encuentren</li>
+      <li>Solo recibe datos de nuestro mapa, así no inventa precios ni horarios</li>
+    </ul>
+  </article>
+
+  <article class="card">
+    <div class="head"><span class="logo"><img src="icon.svg" alt="NYC Navigator logo"></span><div><h3 data-l="en">Public data</h3><h3 data-l="es">Datos públicos</h3><p class="role" data-l="en">Where the map starts</p><p class="role" data-l="es">De dónde sale el mapa</p></div></div>
+    <ul data-l="en">
+      <li>NYC Open Data and Food Help NYC for pantries, clinics, IDNYC and city offices</li>
+      <li>The Department of Justice (EOIR) lists of free legal providers and accredited organizations</li>
+      <li>NYC's own basemap for the maps on every card and page</li>
+    </ul>
+    <ul data-l="es">
+      <li>NYC Open Data y Food Help NYC para despensas, clínicas, IDNYC y oficinas de la ciudad</li>
+      <li>Las listas del Departamento de Justicia (EOIR) de proveedores legales gratuitos y organizaciones acreditadas</li>
+      <li>El mapa base de la Ciudad para los mapas de cada tarjeta y página</li>
+    </ul>
+  </article>
+</div>
+
+<p class="kicker" data-l="en">One question, start to finish</p><p class="kicker" data-l="es">Una pregunta, de principio a fin</p>
+<h2 data-l="en">Rosa's morning</h2><h2 data-l="es">La mañana de Rosa</h2>
+<ol class="steps" data-l="en">
+  <li><b>She asks on WhatsApp.</b> "Acabo de llegar a Corona con mis dos hijos. Necesito comida, médico y una identificación." (I just arrived in Corona with my two kids. I need food, a doctor and an ID.) Twilio passes it to Base44.</li>
+  <li><b>The model understands it.</b> Claude Haiku (via OpenRouter) pulls out three needs (food, health, ID) and the place: Corona, 11368.</li>
+  <li><b>The map answers.</b> Our plan tool ranks verified places nearest first: IDNYC, then Bethany Pantry, then a WIC clinic, in the right order (ID first, because other services ask for it).</li>
+  <li><b>She gets a plan she can use.</b> Three steps, each with hours, address, a call link, the source and the date we checked it.</li>
+</ol>
+<ol class="steps" data-l="es">
+  <li><b>Pregunta por WhatsApp.</b> "Acabo de llegar a Corona con mis dos hijos. Necesito comida, médico y una identificación." Twilio lo pasa a Base44.</li>
+  <li><b>El modelo lo entiende.</b> Claude Haiku (vía OpenRouter) saca tres necesidades (comida, salud, identificación) y el lugar: Corona, 11368.</li>
+  <li><b>El mapa responde.</b> Nuestra herramienta de plan ordena los lugares verificados más cercanos: IDNYC, luego Bethany Pantry, luego una clínica WIC, en el orden correcto (la identificación primero, porque otros servicios la piden).</li>
+  <li><b>Recibe un plan que puede usar.</b> Tres pasos, cada uno con horario, dirección, enlace para llamar, la fuente y la fecha de revisión.</li>
+</ol>
+
+<p class="kicker" data-l="en">Built to be safe</p><p class="kicker" data-l="es">Hecho para ser seguro</p>
+<h2 data-l="en">Our rules</h2><h2 data-l="es">Nuestras reglas</h2>
+<div class="rules" data-l="en">
+  <div class="rule"><b>A person approves every new place</b>AI and web search only make drafts.</div>
+  <div class="rule"><b>We never ask about immigration status</b>Not in any door, not in any form.</div>
+  <div class="rule"><b>No phone numbers or messages stored</b>Logs keep only the need and the zip code.</div>
+  <div class="rule"><b>Information, not legal advice</b>Legal answers point to DOJ-listed free providers.</div>
+</div>
+<div class="rules" data-l="es">
+  <div class="rule"><b>Una persona aprueba cada lugar nuevo</b>La IA y la búsqueda web solo hacen borradores.</div>
+  <div class="rule"><b>Nunca preguntamos el estatus migratorio</b>En ninguna puerta ni formulario.</div>
+  <div class="rule"><b>No guardamos teléfonos ni mensajes</b>Solo la necesidad y el código postal.</div>
+  <div class="rule"><b>Información, no asesoría legal</b>Para temas legales, proveedores gratuitos de la lista del DOJ.</div>
+</div>
+
+<div class="cta">
+  <a class="btn p" href="./#/directory"><span data-l="en">Find a service</span><span data-l="es">Buscar un servicio</span></a>
+  <a class="btn" href="voz/"><span data-l="en">Try the voice app</span><span data-l="es">Probar la app de voz</span></a>
+  <a class="btn" href="lugares/index.html"><span data-l="en">All places (A–Z)</span><span data-l="es">Todos los lugares (A–Z)</span></a>
+</div>
+
+<footer>
+  <span data-l="en">Built at the Latinos x AI NYC hackathon, October 10, 2026. Logos belong to their owners.</span>
+  <span data-l="es">Hecho en el hackatón Latinos x AI NYC, 10 de octubre de 2026. Los logos pertenecen a sus dueños.</span>
+</footer>
+</div>
+<script>
+(function () {
+  var html = document.documentElement, btns = document.querySelectorAll(".lang button");
+  function set(l) {
+    html.lang = l;
+    btns.forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.set === l)); });
+    try { localStorage.setItem("navLang", l); } catch (e) {}
+  }
+  var saved = null; try { saved = localStorage.getItem("navLang"); } catch (e) {}
+  var q = new URLSearchParams(location.search).get("lang");
+  set(q === "es" || q === "en" ? q : saved || (/^es/i.test(navigator.language) ? "es" : "en"));
+  btns.forEach(function (b) { b.addEventListener("click", function () { set(b.dataset.set); }); });
+})();
+</script>
+</body>
+</html>

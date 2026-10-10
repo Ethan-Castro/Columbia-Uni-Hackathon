@@ -299,7 +299,7 @@ export function Home() {
           </div>
         </div>
         <p className="text-muted-foreground mx-auto mt-10 max-w-3xl text-center text-xs">
-          {c.builtWith} · <a href="lugares/index.html">{lang === "es" ? "Todos los lugares (A–Z)" : "All places (A–Z)"}</a> · <a href="privacy.html">{c.privacy}</a> · <a href="terms.html">{c.terms}</a>
+          {c.builtWith} · <a href="lugares/index.html">{lang === "es" ? "Todos los lugares (A–Z)" : "All places (A–Z)"}</a> · <a href={`como-lo-hicimos.html?lang=${lang}`}>{lang === "es" ? "Cómo lo hicimos" : "How we built it"}</a> · <a href="privacy.html">{c.privacy}</a> · <a href="terms.html">{c.terms}</a>
         </p>
       </section>
     </div>

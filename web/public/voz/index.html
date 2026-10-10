@@ -71,7 +71,7 @@ body.found #again, body.error #again { display:grid; }
 <body>
 <main>
   <span class="ring" aria-hidden="true"></span><span class="ring" aria-hidden="true"></span><span class="ring" aria-hidden="true"></span>
-  <button id="orb" type="button" aria-label="Toque y diga lo que necesita">
+  <button id="orb" type="button" aria-label="Toque para hablar; toque otra vez para colgar">
     <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
   </button>
   <a id="call" href="#" aria-label="Llamar">
@@ -253,10 +253,93 @@ body.found #again, body.error #again { display:grid; }
       .catch(function () { fail(); });
   }
 
-  orb.addEventListener("click", start);
-  again.addEventListener("click", function () { busy = false; state(""); start(); });
+  // Live conversation (ElevenLabs agent) first; the one-shot flow above is the fallback.
+  window.__vozLegacy = function () { busy = false; state(""); start(); };
+  function go() { if (window.__vozLive) window.__vozLive.toggle(); else start(); }
+  orb.addEventListener("click", go);
+  again.addEventListener("click", function () { if (window.__vozLive) window.__vozLive.restart(); else { busy = false; state(""); start(); } });
   call.addEventListener("click", function (e) { if (call.getAttribute("href") === "#") e.preventDefault(); });
 })();
+</script>
+<script type="module">
+// Live, two-way voice: ElevenLabs Conversational AI agent (Gil's "Navegador NYC").
+// Talk any time, interrupt it mid-sentence; when it finds a place it calls the
+// show_call_button client tool and the green button appears. Tap the orb to hang up.
+import { Conversation } from "https://cdn.jsdelivr.net/npm/@elevenlabs/client@1.25.0/+esm";
+
+const AGENT_ID = "agent_4901m4kbv17ef29rxzvn7tz8n4qs";
+const BASE = /(^|\.)base44\.app$|(^|\.)inmigracion-nyc\.com$/.test(location.hostname)
+  ? "/api/apps/6aca64c59c3d35bc8bab2330/functions/" : "https://inmigracion-nyc.com/functions/";
+const body = document.body, orb = document.getElementById("orb"), call = document.getElementById("call"),
+  live = document.getElementById("live");
+let convo = null, starting = false, found = false, raf = 0;
+
+const setState = (s) => { body.className = (found ? "found " : "") + s; };
+const zipFromPhone = () => new Promise((res) => {
+  if (!navigator.geolocation) return res(null);
+  navigator.geolocation.getCurrentPosition(async (p) => {
+    try {
+      const r = await fetch(BASE + "voice", { method: "POST", headers: { "content-type": "application/json" },
+        body: JSON.stringify({ where: true, lat: p.coords.latitude, lng: p.coords.longitude }) });
+      const d = await r.json(); res(d.ok ? d.zip : null);
+    } catch { res(null); }
+  }, () => res(null), { enableHighAccuracy: true, timeout: 8000, maximumAge: 300000 });
+});
+
+function meter() {
+  cancelAnimationFrame(raf);
+  const tick = () => {
+    if (!convo) { orb.style.setProperty("--lvl", 1); return; }
+    const v = Math.max(convo.getInputVolume?.() ?? 0, convo.getOutputVolume?.() ?? 0);
+    orb.style.setProperty("--lvl", (1 + Math.min(v, 1) * 0.22).toFixed(3));
+    raf = requestAnimationFrame(tick);
+  };
+  tick();
+}
+
+async function startLive() {
+  if (convo || starting) return;
+  starting = true; found = false; setState("thinking");
+  const where = zipFromPhone();
+  try {
+    await navigator.mediaDevices.getUserMedia({ audio: true }).then((s) => s.getTracks().forEach((t) => t.stop()));
+    convo = await Conversation.startSession({
+      agentId: AGENT_ID,
+      connectionType: "webrtc",
+      clientTools: {
+        show_call_button: ({ name, phone }) => {
+          const digits = String(phone || "").replace(/\D/g, "").replace(/^1(?=\d{10}$)/, "");
+          if (digits.length !== 10) return "No se pudo mostrar: número no válido.";
+          call.href = "tel:+1" + digits;
+          call.setAttribute("aria-label", "Llamar a " + (name || "el lugar"));
+          found = true; setState("listening");
+          live.textContent = "Botón para llamar a " + (name || "el lugar");
+          return "Listo: la persona ve el botón verde para llamar a " + (name || "el lugar") + ".";
+        },
+      },
+      onConnect: async () => {
+        setState("listening"); meter();
+        const zip = await where;
+        if (zip && convo) convo.sendContextualUpdate(
+          `Ubicación del teléfono: código postal ${zip}. Úsalo como "near" en las herramientas; no preguntes dónde está la persona salvo que diga otro lugar.`);
+      },
+      onModeChange: ({ mode }) => setState(mode === "speaking" ? "speaking" : "listening"),
+      onDisconnect: () => { convo = null; cancelAnimationFrame(raf); orb.style.setProperty("--lvl", 1); body.className = found ? "found" : ""; },
+      onError: (e) => console.warn("voz live error", e),
+    });
+  } catch (e) {
+    console.warn("live voice unavailable, using one-shot mode", e);
+    convo = null; window.__vozLive = null; window.__vozLegacy();
+  } finally { starting = false; }
+}
+async function stopLive() { const c = convo; convo = null; if (c) await c.endSession().catch(() => {}); }
+
+window.__vozLive = {
+  toggle: () => (convo ? stopLive() : startLive()),
+  restart: async () => { await stopLive(); found = false; body.className = ""; startLive(); },
+};
+// Hang up the agent when the person taps the green button to dial.
+call.addEventListener("click", () => { if (call.getAttribute("href") !== "#") stopLive(); });
 </script>
 </body>
 </html>

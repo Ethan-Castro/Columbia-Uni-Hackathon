@@ -69,6 +69,8 @@ export async function voiceQuery(req: Request, body: Body) {
   const lat = Number(body.lat), lng = Number(body.lng);
   const hasLoc = Number.isFinite(lat) && Number.isFinite(lng) &&
     lat > NYC.minLat && lat < NYC.maxLat && lng > NYC.minLng && lng < NYC.maxLng;
+  // { where: true, lat, lng } -> just the nearest zip (the live voice agent uses it as "near").
+  if (body.where === true) return hasLoc ? { ok: true, zip: nearestZip(lat, lng) } : { ok: false, reason: "location" };
   const u = await understand(req, text || "hola");
   // The phone's language wins; otherwise the language the person spoke.
   const lang: Lang = body.language === "en" || body.language === "es" ? body.language : u.language === "en" ? "en" : "es";
