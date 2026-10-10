@@ -4,6 +4,7 @@ import { HREF, useRoute } from "./router.ts";
 import type { Route } from "./router.ts";
 import { Home } from "./pages/Home.tsx";
 import { Directory } from "./pages/Directory.tsx";
+import { Graph } from "./pages/Graph.tsx";
 import { Submit } from "./pages/Submit.tsx";
 import { Admin } from "./pages/Admin.tsx";
 import { InsightsPage } from "./pages/Insights.tsx";
@@ -15,6 +16,7 @@ export function App() {
   const nav: Array<[Route, string]> = [
     ["home", t("nav_home")],
     ["directory", t("nav_directory")],
+    ["graph", lang === "es" ? "Mapa" : "Graph"],
     ["submit", t("nav_submit")],
     ["insights", t("nav_insights")],
   ];
@@ -64,6 +66,7 @@ export function App() {
       ) : (
         <main id="main" className="main">
         {route === "directory" && <Directory />}
+        {route === "graph" && <Graph />}
         {route === "submit" && <Submit />}
         {route === "admin" && <Admin />}
         {route === "insights" && <InsightsPage />}
