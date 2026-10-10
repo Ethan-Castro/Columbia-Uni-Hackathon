@@ -1,0 +1,422 @@
+{
+ "excluded_outside_nyc": [
+  {
+   "org": "Catholic Charities of the Diocese of Albany",
+   "office": "Principal Office",
+   "city": "Albany",
+   "zip": "12203"
+  },
+  {
+   "org": "Prisoners' Legal Services of New York",
+   "office": "Principal Office",
+   "city": "Albany",
+   "zip": "12207"
+  },
+  {
+   "org": "Refugee and Immigrant Support Services of Emmaus, Inc.",
+   "office": "Principal Office",
+   "city": "Albany",
+   "zip": "12208"
+  },
+  {
+   "org": "The New York Immigration Coalition",
+   "office": "NYIC - Albany Extension Office",
+   "city": "Albany",
+   "zip": "12207"
+  },
+  {
+   "org": "U.S. Committee for Refugees and Immigrants",
+   "office": "Principal Office",
+   "city": "Albany",
+   "zip": "12207"
+  },
+  {
+   "org": "Catholic Charities of Long Island",
+   "office": "Principal Office",
+   "city": "Amityville",
+   "zip": "11701"
+  },
+  {
+   "org": "Erie County Bar Association Volunteer Lawyers Project, Inc.",
+   "office": "Batavia Extension Office",
+   "city": "Batavia",
+   "zip": "14020"
+  },
+  {
+   "org": "American Civic Association",
+   "office": "Principal Office",
+   "city": "Binghamton",
+   "zip": "13905"
+  },
+  {
+   "org": "Journey's End Refugee Services, Inc.",
+   "office": "Binghamton Extension Office",
+   "city": "Binghamton",
+   "zip": "13901"
+  },
+  {
+   "org": "Central American Refugee Center (CARECEN) NY",
+   "office": "Brentwood Extension Office",
+   "city": "Brentwood",
+   "zip": "11717"
+  },
+  {
+   "org": "Make the Road New York",
+   "office": "Brentwood Extension Office",
+   "city": "Brentwood",
+   "zip": "11717"
+  },
+  {
+   "org": "Sisters of St. Joseph - Long Island Immigration Clinic",
+   "office": "Principal Office",
+   "city": "Brentwood",
+   "zip": "11717"
+  },
+  {
+   "org": "Catholic Charities of Buffalo",
+   "office": "Principal Office",
+   "city": "Buffalo",
+   "zip": "14213"
+  },
+  {
+   "org": "Erie County Bar Association Volunteer Lawyers Project, Inc.",
+   "office": "Principal Office",
+   "city": "Buffalo",
+   "zip": "14202"
+  },
+  {
+   "org": "Jericho Road Ministries, Inc.",
+   "office": "Principal Office",
+   "city": "Buffalo",
+   "zip": "14213"
+  },
+  {
+   "org": "Jericho Road Ministries, Inc.",
+   "office": "Main Street / Buffalo Extension Office",
+   "city": "Buffalo",
+   "zip": "14202"
+  },
+  {
+   "org": "Jericho Road Ministries, Inc.",
+   "office": "West Ferry Street / Buffalo Extension Office",
+   "city": "Buffalo",
+   "zip": "14213"
+  },
+  {
+   "org": "Journey's End Refugee Services, Inc.",
+   "office": "Principal Office",
+   "city": "Buffalo",
+   "zip": "14214"
+  },
+  {
+   "org": "Journey's End Refugee Services, Inc.",
+   "office": "VIVE Extension Office",
+   "city": "Buffalo",
+   "zip": "14209"
+  },
+  {
+   "org": "Legal Aid Bureau of Buffalo, Inc.",
+   "office": "Principal Office",
+   "city": "Buffalo",
+   "zip": "14202"
+  },
+  {
+   "org": "Prisoners' Legal Services of New York",
+   "office": "Buffalo Extension Office",
+   "city": "Buffalo",
+   "zip": "14203"
+  },
+  {
+   "org": "The New York Immigration Coalition",
+   "office": "NYIC - Buffalo Extension Office",
+   "city": "Buffalo",
+   "zip": "14202"
+  },
+  {
+   "org": "North Eastern Expansion Development",
+   "office": "Principal Office",
+   "city": "Dover Plains",
+   "zip": "12522"
+  },
+  {
+   "org": "Literacy Solutions NY, Inc.",
+   "office": "Haverstraw Extension Office",
+   "city": "Haverstraw",
+   "zip": "10927"
+  },
+  {
+   "org": "Worker Justice Center of New York",
+   "office": "Hawthorne Extension Office",
+   "city": "Hawthorne",
+   "zip": "10532"
+  },
+  {
+   "org": "Central American Refugee Center (CARECEN) NY",
+   "office": "Principal Office",
+   "city": "Hempstead",
+   "zip": "11550"
+  },
+  {
+   "org": "Immigrant Justice Corps",
+   "office": "IJC/CARECEN Extension Office",
+   "city": "Hempstead",
+   "zip": "11550"
+  },
+  {
+   "org": "The New York Immigration Coalition",
+   "office": "NYIC - Hempstead, Long Island Extension Office",
+   "city": "Hempstead",
+   "zip": "11550"
+  },
+  {
+   "org": "Columbia County Sanctuary Movement",
+   "office": "Principal Office",
+   "city": "Hudson",
+   "zip": "12534"
+  },
+  {
+   "org": "Catholic Charities Tompkins/Tioga",
+   "office": "Principal Office",
+   "city": "Ithaca",
+   "zip": "14850"
+  },
+  {
+   "org": "Journey's End Refugee Services, Inc.",
+   "office": "Ithaca Satellite Extension Office",
+   "city": "Ithaca",
+   "zip": "14850"
+  },
+  {
+   "org": "Legal Services of the Hudson Valley",
+   "office": "Kingston Extension Office",
+   "city": "Kingston",
+   "zip": "12401"
+  },
+  {
+   "org": "Worker Justice Center of New York",
+   "office": "Kingston Extension Office",
+   "city": "Kingston",
+   "zip": "12401"
+  },
+  {
+   "org": "ACCESS of WNY",
+   "office": "Principal Office",
+   "city": "Lackawanna",
+   "zip": "14218"
+  },
+  {
+   "org": "Hispanic Resource Center of Larchmont & Mamaroneck, Inc.",
+   "office": "Principal Office",
+   "city": "Mamaroneck",
+   "zip": "10543"
+  },
+  {
+   "org": "Neighbors Link Corp. d/b/a Neighbors Link Northern Westchester",
+   "office": "Principal Office",
+   "city": "Mt. Kisco",
+   "zip": "10549"
+  },
+  {
+   "org": "Legal Services of the Hudson Valley",
+   "office": "Nanuet Extension Office",
+   "city": "Nanuet",
+   "zip": "10954"
+  },
+  {
+   "org": "The New York Immigration Coalition",
+   "office": "NYIC Mid-Hudson Office, Newburgh Extension Office",
+   "city": "Newburgh",
+   "zip": "12550"
+  },
+  {
+   "org": "Neighbors Link Corp. d/b/a Neighbors Link Northern Westchester",
+   "office": "Ossining Extension Office",
+   "city": "Ossining",
+   "zip": "10562"
+  },
+  {
+   "org": "Legal Services of the Hudson Valley",
+   "office": "Peekskill Extension Office",
+   "city": "Peekskill",
+   "zip": "10566"
+  },
+  {
+   "org": "Saathi of Rochester, Inc.",
+   "office": "Principal Office",
+   "city": "Pittsford",
+   "zip": "14534"
+  },
+  {
+   "org": "Legal Services of the Hudson Valley",
+   "office": "Poughkeepsie Extension Office",
+   "city": "Poughkeepsie",
+   "zip": "12601"
+  },
+  {
+   "org": "Catholic Charities Family and Community Services (CCFCS)",
+   "office": "Principal Office",
+   "city": "Rochester",
+   "zip": "14604"
+  },
+  {
+   "org": "Enlace Services, Inc.",
+   "office": "Principal Office",
+   "city": "Rochester",
+   "zip": "14508"
+  },
+  {
+   "org": "Journey's End Refugee Services, Inc.",
+   "office": "Rochester Extension Office",
+   "city": "Rochester",
+   "zip": "14604"
+  },
+  {
+   "org": "Legal Aid Society of Rochester, Inc.",
+   "office": "Principal Office",
+   "city": "Rochester",
+   "zip": "14614"
+  },
+  {
+   "org": "Mary's Place Refugee Outreach",
+   "office": "Principal Office",
+   "city": "Rochester",
+   "zip": "14613"
+  },
+  {
+   "org": "New Hope Free Methodist Church",
+   "office": "Principal Office",
+   "city": "Rochester",
+   "zip": "14607"
+  },
+  {
+   "org": "Rochester Refugee Resettlement Services",
+   "office": "Principal Office",
+   "city": "Rochester",
+   "zip": "14613"
+  },
+  {
+   "org": "Succor Immigration Services Inc.",
+   "office": "Principal Office",
+   "city": "Rochester",
+   "zip": "14626"
+  },
+  {
+   "org": "The New York Immigration Coalition",
+   "office": "NYIC - Rochester Extension Office",
+   "city": "Rochester",
+   "zip": "14607"
+  },
+  {
+   "org": "Worker Justice Center of New York",
+   "office": "Principal Office",
+   "city": "Rochester",
+   "zip": "14609"
+  },
+  {
+   "org": "The Capital District Women's Bar Association Legal Project, Inc.",
+   "office": "Principal Office",
+   "city": "Schenectady",
+   "zip": "12305"
+  },
+  {
+   "org": "Konbit Neg Lakay, Inc.",
+   "office": "Principal Office",
+   "city": "Spring Valley",
+   "zip": "10977"
+  },
+  {
+   "org": "Catholic Charities of Onondaga County",
+   "office": "Principal Office",
+   "city": "Syracuse",
+   "zip": "13208"
+  },
+  {
+   "org": "Frank H. Hiscock Legal Aid Society",
+   "office": "Principal Office",
+   "city": "Syracuse",
+   "zip": "13202"
+  },
+  {
+   "org": "InterFaith Works of Central New York",
+   "office": "Principal Office",
+   "city": "Syracuse",
+   "zip": "13203"
+  },
+  {
+   "org": "The New York Immigration Coalition",
+   "office": "NYIC - Syracuse Extension Office",
+   "city": "Syracuse",
+   "zip": "13210"
+  },
+  {
+   "org": "Volunteer Lawyers Project of CNY, Inc.",
+   "office": "Principal Office",
+   "city": "Syracuse",
+   "zip": "13202"
+  },
+  {
+   "org": "Church Communities International",
+   "office": "Principal Office",
+   "city": "Ulster Park",
+   "zip": "12487"
+  },
+  {
+   "org": "Mohawk Valley Resource Center for Refugees, Inc.",
+   "office": "Principal Office",
+   "city": "Utica",
+   "zip": "13501"
+  },
+  {
+   "org": "Legal Services of the Hudson Valley",
+   "office": "Principal Office",
+   "city": "White Plains",
+   "zip": "10601"
+  },
+  {
+   "org": "Make the Road New York",
+   "office": "White Plains Extension Office",
+   "city": "White Plains",
+   "zip": "10605"
+  },
+  {
+   "org": "My Sisters' Place",
+   "office": "Principal Office",
+   "city": "White Plains",
+   "zip": "10601"
+  },
+  {
+   "org": "Bible Fellowship Pentecostal Assembly of New York, Inc.",
+   "office": "Principal Office",
+   "city": "Yonkers",
+   "zip": "10701"
+  },
+  {
+   "org": "Empire Justice Center",
+   "office": "Principal Office",
+   "city": "Yonkers",
+   "zip": "10701"
+  },
+  {
+   "org": "Literacy Solutions NY, Inc.",
+   "office": "Principal Office",
+   "city": "Yonkers",
+   "zip": "10701"
+  },
+  {
+   "org": "My Sisters' Place",
+   "office": "Yonkers Extension Office",
+   "city": "Yonkers",
+   "zip": "10705"
+  },
+  {
+   "org": "Neighbors Link Corp. d/b/a Neighbors Link Northern Westchester",
+   "office": "Yonkers Extension Office",
+   "city": "Yonkers",
+   "zip": "10701"
+  }
+ ],
+ "unmatched_orgs": [],
+ "alpha_org_count": 951,
+ "alpha_rep_count": 2638,
+ "state_roster_ny_records": 170
+}

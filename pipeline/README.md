@@ -16,6 +16,8 @@ Put the Tavily key in `pipeline/.env` as `TAVILY_API_KEY=...`. The file is git-i
 ```
 python3 scripts/fetch_raw.py        # downloads raw sources (skips files already present; --force to refresh)
 python3 scripts/build_programs.py   # phase 1 -> out/programs.csv
+python3 scripts/build_places_doj.py # phase 2 -> out/places.csv (DOJ rows) + out/places_doj_detail.csv (geocodes cached in raw/geocode/)
+python3 scripts/report_phase2.py    # phase 2 checks + out/phase2_review.md (exits non-zero if a scope check fails)
 ```
 
 ## Phase 1 notes (programs.csv)
@@ -28,3 +30,16 @@ python3 scripts/build_programs.py   # phase 1 -> out/programs.csv
   NYS DREAM Act (HESC), McKinney-Vento transit help (NYC Public Schools), NYC Schools Account (NYC Public Schools),
   tandas (NYC DCA Immigrant Financial Services Study, 2013), and lending circles (Mission Asset Fund).
 - If the dataset gains new rows, `build_programs.py` stops and lists the rows that need curation.
+
+## Phase 2 notes (DOJ places)
+- Sources, all from justice.gov:
+  - The roster **by State and City**. The alphabetical roster has no addresses, so it can't place offices in NYC.
+  - The **alphabetical roster**, used only for accredited representatives.
+  - The **pro bono list**. Its index page links one nationwide PDF, and the New York court sections are parsed from it.
+- `trust=official` means only that the listing came from an official DOJ source. It is not a DOJ endorsement. It does not mean the provider has current openings or that every service is free. Someone missing from these lists is not evidence of fraud.
+- Row kinds, distinguished by id prefix: `place-doj-ro-` (recognized-organization office), `place-doj-pb-` (pro bono office), `place-doj-rep-` (accredited representative).
+  Representative rows have no address, borough or coordinates, because the roster links a representative to an organization and never to an office.
+- NYC scope: an office counts as NYC only when the stated city, the stated ZIP and the Census geocoder county agree on one borough.
+  - Conflicts are kept with borough and coordinates blank, and listed in `out/phase2_review.md`.
+  - Pro bono offices outside NYC that are listed for a NYC court are kept with borough blank and are never counted as NYC.
+- `out/places_doj_detail.csv` holds what the contract can't: record kind, courts, "DHS only" accreditation, expiration dates, review flags, geocoder match and source page.

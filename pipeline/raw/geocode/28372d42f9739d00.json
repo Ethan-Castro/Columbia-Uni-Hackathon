@@ -1,0 +1,75 @@
+{
+ "query": "252 West 37th Street, Suite 1500, New York, NY 10018",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "252 West 37th Street, Suite 1500, New York, NY 10018"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59658578"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36061",
+        "CENTLAT": "+40.7739865",
+        "AREAWATER": 29010414,
+        "STATE": "36",
+        "BASENAME": "New York",
+        "OID": "27590460844234",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.7765730",
+        "NAME": "New York County",
+        "OBJECTID": 1681,
+        "CENTLON": "-073.9700438",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974129",
+        "AREALAND": 58683887,
+        "INTPTLON": "-073.9702623",
+        "MTFCC": "G4020",
+        "COUNTY": "061"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.990780531002,
+      "y": 40.753477847684
+     },
+     "addressComponents": {
+      "zip": "10018",
+      "streetName": "37TH",
+      "preType": "",
+      "city": "NEW YORK",
+      "preDirection": "W",
+      "suffixDirection": "",
+      "fromAddress": "200",
+      "state": "NY",
+      "suffixType": "ST",
+      "toAddress": "298",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "252 W 37TH ST, NEW YORK, NY, 10018"
+    }
+   ]
+  }
+ }
+}

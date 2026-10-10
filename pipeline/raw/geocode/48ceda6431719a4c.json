@@ -1,0 +1,75 @@
+{
+ "query": "108-25 62nd Drive, Forest Hills, NY 11375",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "108-25 62nd Drive, Forest Hills, NY 11375"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59705811"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36081",
+        "CENTLAT": "+40.6545736",
+        "AREAWATER": 188444380,
+        "STATE": "36",
+        "BASENAME": "Queens",
+        "OID": "27590307869814",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.6546581",
+        "NAME": "Queens County",
+        "OBJECTID": 440,
+        "CENTLON": "-073.8408699",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974139",
+        "AREALAND": 281594058,
+        "INTPTLON": "-073.8412089",
+        "MTFCC": "G4020",
+        "COUNTY": "081"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.850443110441,
+      "y": 40.735891554775
+     },
+     "addressComponents": {
+      "zip": "11375",
+      "streetName": "62ND",
+      "preType": "",
+      "city": "FOREST HILLS",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "108-01",
+      "state": "NY",
+      "suffixType": "DR",
+      "toAddress": "108-99",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "108-25 62ND DR, FOREST HILLS, NY, 11375"
+    }
+   ]
+  }
+ }
+}

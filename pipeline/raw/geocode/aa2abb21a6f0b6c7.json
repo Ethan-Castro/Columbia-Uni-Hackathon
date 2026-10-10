@@ -1,0 +1,75 @@
+{
+ "query": "8711 18th Avenue, Brooklyn, NY 11214",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "8711 18th Avenue, Brooklyn, NY 11214"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59088151"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36047",
+        "CENTLAT": "+40.6343536",
+        "AREAWATER": 71158757,
+        "STATE": "36",
+        "BASENAME": "Kings",
+        "OID": "27590297862198",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.6350451",
+        "NAME": "Kings County",
+        "OBJECTID": 1841,
+        "CENTLON": "-073.9502286",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974122",
+        "AREALAND": 179684484,
+        "INTPTLON": "-073.9506398",
+        "MTFCC": "G4020",
+        "COUNTY": "047"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -74.004828020963,
+      "y": 40.605084757476
+     },
+     "addressComponents": {
+      "zip": "11214",
+      "streetName": "18TH",
+      "preType": "",
+      "city": "BROOKLYN",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "8697",
+      "state": "NY",
+      "suffixType": "AVE",
+      "toAddress": "8711",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "8711 18TH AVE, BROOKLYN, NY, 11214"
+    }
+   ]
+  }
+ }
+}

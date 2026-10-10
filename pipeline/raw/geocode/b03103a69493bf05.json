@@ -1,0 +1,369 @@
+{
+ "query": "475 Riverside Drive, #727, New York, NY 10115",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "475 Riverside Drive, #727, New York, NY 10115"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "R",
+      "tigerLineId": "154228523"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36045",
+        "CENTLAT": "+43.9986380",
+        "AREAWATER": 1524534721,
+        "STATE": "36",
+        "BASENAME": "Jefferson",
+        "OID": "27590690825219",
+        "LSADC": "06",
+        "FUNCSTAT": "A",
+        "INTPTLAT": "+43.9963890",
+        "NAME": "Jefferson County",
+        "OBJECTID": 2293,
+        "CENTLON": "-076.0531312",
+        "COUNTYCC": "H1",
+        "COUNTYNS": "00974121",
+        "AREALAND": 3283928401,
+        "INTPTLON": "-076.0529678",
+        "MTFCC": "G4020",
+        "COUNTY": "045"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -76.087646368861,
+      "y": 44.242466518047
+     },
+     "addressComponents": {
+      "zip": "13624",
+      "streetName": "RIVERSIDE",
+      "preType": "",
+      "city": "CLAYTON",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "499",
+      "state": "NY",
+      "suffixType": "DR",
+      "toAddress": "409",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "475 RIVERSIDE DR, CLAYTON, NY, 13624"
+    },
+    {
+     "tigerLine": {
+      "side": "R",
+      "tigerLineId": "655455974"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36105",
+        "CENTLAT": "+41.7162456",
+        "AREAWATER": 73737483,
+        "STATE": "36",
+        "BASENAME": "Sullivan",
+        "OID": "27590737032446",
+        "LSADC": "06",
+        "FUNCSTAT": "A",
+        "INTPTLAT": "+41.7199928",
+        "NAME": "Sullivan County",
+        "OBJECTID": 2472,
+        "CENTLON": "-074.7680375",
+        "COUNTYCC": "H1",
+        "COUNTYNS": "00974150",
+        "AREALAND": 2507484136,
+        "INTPTLON": "-074.7715769",
+        "MTFCC": "G4020",
+        "COUNTY": "105"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -74.600897351506,
+      "y": 41.731578914898
+     },
+     "addressComponents": {
+      "zip": "12733",
+      "streetName": "RIVERSIDE",
+      "preType": "",
+      "city": "FALLSBURG",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "499",
+      "state": "NY",
+      "suffixType": "DR",
+      "toAddress": "301",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "475 RIVERSIDE DR, FALLSBURG, NY, 12733"
+    },
+    {
+     "tigerLine": {
+      "side": "R",
+      "tigerLineId": "46340372"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36007",
+        "CENTLAT": "+42.1602019",
+        "AREAWATER": 25078248,
+        "STATE": "36",
+        "BASENAME": "Broome",
+        "OID": "27590738244855",
+        "LSADC": "06",
+        "FUNCSTAT": "A",
+        "INTPTLAT": "+42.1619773",
+        "NAME": "Broome County",
+        "OBJECTID": 1588,
+        "CENTLON": "-075.8192987",
+        "COUNTYCC": "H1",
+        "COUNTYNS": "00974102",
+        "AREALAND": 1827626584,
+        "INTPTLON": "-075.8302833",
+        "MTFCC": "G4020",
+        "COUNTY": "007"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -75.963741993079,
+      "y": 42.104245039927
+     },
+     "addressComponents": {
+      "zip": "13790",
+      "streetName": "RIVERSIDE",
+      "preType": "",
+      "city": "JOHNSON CITY",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "451",
+      "state": "NY",
+      "suffixType": "DR",
+      "toAddress": "477",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "475 RIVERSIDE DR, JOHNSON CITY, NY, 13790"
+    },
+    {
+     "tigerLine": {
+      "side": "R",
+      "tigerLineId": "114024585"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36103",
+        "CENTLAT": "+40.9409757",
+        "AREAWATER": 3787486264,
+        "STATE": "36",
+        "BASENAME": "Suffolk",
+        "OID": "27590498683575",
+        "LSADC": "06",
+        "FUNCSTAT": "A",
+        "INTPTLAT": "+40.9435540",
+        "NAME": "Suffolk County",
+        "OBJECTID": 1938,
+        "CENTLON": "-072.6868445",
+        "COUNTYCC": "H1",
+        "COUNTYNS": "00974149",
+        "AREALAND": 2359209021,
+        "INTPTLON": "-072.6922183",
+        "MTFCC": "G4020",
+        "COUNTY": "103"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -72.641387062541,
+      "y": 40.920465925476
+     },
+     "addressComponents": {
+      "zip": "11901",
+      "streetName": "RIVERSIDE",
+      "preType": "",
+      "city": "RIVERHEAD",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "465",
+      "state": "NY",
+      "suffixType": "DR",
+      "toAddress": "499",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "475 RIVERSIDE DR, RIVERHEAD, NY, 11901"
+    },
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "171522575"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36065",
+        "CENTLAT": "+43.2415084",
+        "AREAWATER": 117357244,
+        "STATE": "36",
+        "BASENAME": "Oneida",
+        "OID": "27590717363637",
+        "LSADC": "06",
+        "FUNCSTAT": "A",
+        "INTPTLAT": "+43.2427273",
+        "NAME": "Oneida County",
+        "OBJECTID": 2216,
+        "CENTLON": "-075.4358384",
+        "COUNTYCC": "H1",
+        "COUNTYNS": "00974131",
+        "AREALAND": 3140211176,
+        "INTPTLON": "-075.4342824",
+        "MTFCC": "G4020",
+        "COUNTY": "065"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -75.440633690143,
+      "y": 43.215257033321
+     },
+     "addressComponents": {
+      "zip": "13440",
+      "streetName": "RIVERSIDE",
+      "preType": "",
+      "city": "ROME",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "409",
+      "state": "NY",
+      "suffixType": "DR",
+      "toAddress": "499",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "475 RIVERSIDE DR, ROME, NY, 13440"
+    },
+    {
+     "tigerLine": {
+      "side": "R",
+      "tigerLineId": "635763276"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36009",
+        "CENTLAT": "+42.2485430",
+        "AREAWATER": 36783591,
+        "STATE": "36",
+        "BASENAME": "Cattaraugus",
+        "OID": "27590493909795",
+        "LSADC": "06",
+        "FUNCSTAT": "A",
+        "INTPTLAT": "+42.2390986",
+        "NAME": "Cattaraugus County",
+        "OBJECTID": 1853,
+        "CENTLON": "-078.6788667",
+        "COUNTYCC": "H1",
+        "COUNTYNS": "00974103",
+        "AREALAND": 3388177044,
+        "INTPTLON": "-078.6623320",
+        "MTFCC": "G4020",
+        "COUNTY": "009"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -78.416610862933,
+      "y": 42.069459735247
+     },
+     "addressComponents": {
+      "zip": "14760",
+      "streetName": "RIVERSIDE",
+      "preType": "",
+      "city": "OLEAN",
+      "preDirection": "E",
+      "suffixDirection": "",
+      "fromAddress": "499",
+      "state": "NY",
+      "suffixType": "DR",
+      "toAddress": "305",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "475 E RIVERSIDE DR, OLEAN, NY, 14760"
+    },
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "122032015"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36009",
+        "CENTLAT": "+42.2485430",
+        "AREAWATER": 36783591,
+        "STATE": "36",
+        "BASENAME": "Cattaraugus",
+        "OID": "27590493909795",
+        "LSADC": "06",
+        "FUNCSTAT": "A",
+        "INTPTLAT": "+42.2390986",
+        "NAME": "Cattaraugus County",
+        "OBJECTID": 1853,
+        "CENTLON": "-078.6788667",
+        "COUNTYCC": "H1",
+        "COUNTYNS": "00974103",
+        "AREALAND": 3388177044,
+        "INTPTLON": "-078.6623320",
+        "MTFCC": "G4020",
+        "COUNTY": "009"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -78.439269967243,
+      "y": 42.071251723584
+     },
+     "addressComponents": {
+      "zip": "14760",
+      "streetName": "RIVERSIDE",
+      "preType": "",
+      "city": "OLEAN",
+      "preDirection": "W",
+      "suffixDirection": "",
+      "fromAddress": "401",
+      "state": "NY",
+      "suffixType": "DR",
+      "toAddress": "499",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "475 W RIVERSIDE DR, OLEAN, NY, 14760"
+    }
+   ]
+  }
+ }
+}

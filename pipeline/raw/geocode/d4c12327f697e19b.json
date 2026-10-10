@@ -1,0 +1,75 @@
+{
+ "query": "55 Exchange Place, Suite 501, New York, NY 10005",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "55 Exchange Place, Suite 501, New York, NY 10005"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "R",
+      "tigerLineId": "652205206"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36061",
+        "CENTLAT": "+40.7739865",
+        "AREAWATER": 29010414,
+        "STATE": "36",
+        "BASENAME": "New York",
+        "OID": "27590460844234",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.7765730",
+        "NAME": "New York County",
+        "OBJECTID": 1681,
+        "CENTLON": "-073.9700438",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974129",
+        "AREALAND": 58683887,
+        "INTPTLON": "-073.9702623",
+        "MTFCC": "G4020",
+        "COUNTY": "061"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -74.010478246286,
+      "y": 40.706082732944
+     },
+     "addressComponents": {
+      "zip": "10005",
+      "streetName": "EXCHANGE",
+      "preType": "",
+      "city": "NEW YORK",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "43",
+      "state": "NY",
+      "suffixType": "PL",
+      "toAddress": "99",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "55 EXCHANGE PL, NEW YORK, NY, 10005"
+    }
+   ]
+  }
+ }
+}

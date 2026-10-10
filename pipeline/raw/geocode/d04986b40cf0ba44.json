@@ -1,0 +1,75 @@
+{
+ "query": "1077 Coney Island Avenue, Brooklyn, NY 11230",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "1077 Coney Island Avenue, Brooklyn, NY 11230"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59081126"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36047",
+        "CENTLAT": "+40.6343536",
+        "AREAWATER": 71158757,
+        "STATE": "36",
+        "BASENAME": "Kings",
+        "OID": "27590297862198",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.6350451",
+        "NAME": "Kings County",
+        "OBJECTID": 1841,
+        "CENTLON": "-073.9502286",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974122",
+        "AREALAND": 179684484,
+        "INTPTLON": "-073.9506398",
+        "MTFCC": "G4020",
+        "COUNTY": "047"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.966447123572,
+      "y": 40.631321975031
+     },
+     "addressComponents": {
+      "zip": "11230",
+      "streetName": "CONEY ISLAND",
+      "preType": "",
+      "city": "BROOKLYN",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "1053",
+      "state": "NY",
+      "suffixType": "AVE",
+      "toAddress": "1151",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "1077 CONEY ISLAND AVE, BROOKLYN, NY, 11230"
+    }
+   ]
+  }
+ }
+}

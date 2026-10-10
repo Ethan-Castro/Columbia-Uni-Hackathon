@@ -1,0 +1,75 @@
+{
+ "query": "244 5th Avenue, Suite 2774, New York City, NY 10001",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "244 5th Avenue, Suite 2774, New York City, NY 10001"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59653461"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36061",
+        "CENTLAT": "+40.7739865",
+        "AREAWATER": 29010414,
+        "STATE": "36",
+        "BASENAME": "New York",
+        "OID": "27590460844234",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.7765730",
+        "NAME": "New York County",
+        "OBJECTID": 1681,
+        "CENTLON": "-073.9700438",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974129",
+        "AREALAND": 58683887,
+        "INTPTLON": "-073.9702623",
+        "MTFCC": "G4020",
+        "COUNTY": "061"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.987454332813,
+      "y": 40.744585799286
+     },
+     "addressComponents": {
+      "zip": "10001",
+      "streetName": "5TH",
+      "preType": "",
+      "city": "NEW YORK",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "232",
+      "state": "NY",
+      "suffixType": "AVE",
+      "toAddress": "246",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "244 5TH AVE, NEW YORK, NY, 10001"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "query": "545 60th Street, Suite 108, Brooklyn, NY 11220",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "545 60th Street, Suite 108, Brooklyn, NY 11220"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59094509"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36047",
+        "CENTLAT": "+40.6343536",
+        "AREAWATER": 71158757,
+        "STATE": "36",
+        "BASENAME": "Kings",
+        "OID": "27590297862198",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.6350451",
+        "NAME": "Kings County",
+        "OBJECTID": 1841,
+        "CENTLON": "-073.9502286",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974122",
+        "AREALAND": 179684484,
+        "INTPTLON": "-073.9506398",
+        "MTFCC": "G4020",
+        "COUNTY": "047"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -74.015123545684,
+      "y": 40.638927087808
+     },
+     "addressComponents": {
+      "zip": "11220",
+      "streetName": "60TH",
+      "preType": "",
+      "city": "BROOKLYN",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "501",
+      "state": "NY",
+      "suffixType": "ST",
+      "toAddress": "599",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "545 60TH ST, BROOKLYN, NY, 11220"
+    }
+   ]
+  }
+ }
+}

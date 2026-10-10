@@ -1,0 +1,75 @@
+{
+ "query": "14 Wall Street, Suite 5E, New York, NY 10005",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "14 Wall Street, Suite 5E, New York, NY 10005"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59659656"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36061",
+        "CENTLAT": "+40.7739865",
+        "AREAWATER": 29010414,
+        "STATE": "36",
+        "BASENAME": "New York",
+        "OID": "27590460844234",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.7765730",
+        "NAME": "New York County",
+        "OBJECTID": 1681,
+        "CENTLON": "-073.9700438",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974129",
+        "AREALAND": 58683887,
+        "INTPTLON": "-073.9702623",
+        "MTFCC": "G4020",
+        "COUNTY": "061"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -74.010815333263,
+      "y": 40.70728681815
+     },
+     "addressComponents": {
+      "zip": "10005",
+      "streetName": "WALL",
+      "preType": "",
+      "city": "NEW YORK",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "4",
+      "state": "NY",
+      "suffixType": "ST",
+      "toAddress": "18",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "14 WALL ST, NEW YORK, NY, 10005"
+    }
+   ]
+  }
+ }
+}
