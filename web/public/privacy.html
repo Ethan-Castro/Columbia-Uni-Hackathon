@@ -64,7 +64,9 @@
 <h2>Sus opciones</h2>
 <ul>
   <li>Puede usar Navegador NYC sin dar su nombre ni su teléfono.</li>
-  <li>No envíe por WhatsApp si no quiere: el envío solo ocurre si usted dice que sí.</li>
+  <li>Solo le enviamos un WhatsApp si usted dice que sí. Usamos su número para ese envío y no lo guardamos.</li>
+  <li>Si envía un lugar con el formulario de la comunidad, guardamos los datos del lugar (no los suyos) para que una persona lo revise antes de publicarlo.</li>
+  <li>La línea de voz (en pruebas) usa ElevenLabs y Twilio para la llamada; no guardamos grabaciones.</li>
   <li>Puede quitar el conector en la configuración de Claude o ChatGPT cuando quiera.</li>
 </ul>
 
@@ -100,6 +102,8 @@
   <li><strong>Your WhatsApp number:</strong> used only to send the message you asked for, and only after you say yes. We never store or log it.</li>
   <li><strong>What you tell us about your situation</strong> for a legal-appointment summary: sent to our AI provider to write the summary, and not stored.</li>
   <li><strong>The name of a notario or consultant</strong> you want checked: compared with the Department of Justice (DOJ) lists and not stored.</li>
+  <li><strong>Community submissions:</strong> if you send us a place through the form, we store the place's details (not yours) so a person can review it before it goes live.</li>
+  <li><strong>Voice line (in testing):</strong> calls run through ElevenLabs and Twilio; we keep no recordings.</li>
 </ul>
 
 <h2>Who we share data with (processors)</h2>
@@ -108,6 +112,7 @@
   <li><strong>OpenRouter</strong> (and the AI model it routes to) or Base44's built-in AI: receive place details and, if you ask for a legal plan, what you said about your situation, to write short summaries.</li>
   <li><strong>Twilio and WhatsApp (Meta):</strong> receive your number and the plan text to deliver it.</li>
   <li><strong>Tavily:</strong> used by our service finder to search the public web. It receives no user data.</li>
+  <li><strong>ElevenLabs:</strong> runs the Spanish voice agent on the test phone line, if you call it.</li>
 </ul>
 <p>Each processor handles data under its own policy and may keep normal technical records (for example delivery or connection logs). If you use NYC Navigator inside Claude or ChatGPT, your conversation is governed by Anthropic's or OpenAI's policy; we only receive the data the tool needs.</p>
 <p>We do not sell data. We show no ads. We use no tracking cookies or analytics.</p>

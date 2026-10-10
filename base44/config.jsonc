@@ -4,5 +4,11 @@
   "name": "NYC Navigator",
   "description": "Living map of services for immigrant New Yorkers",
   // Public (no login) so Claude and ChatGPT can call /functions/mcp anonymously.
-  "visibility": "public"
+  "visibility": "public",
+  // The web app (web/) is built with the Base44 functions path and served as the site.
+  "site": {
+    "installCommand": "npm --prefix web install",
+    "buildCommand": "VITE_FUNCTIONS_BASE=/api/apps/6aca64c59c3d35bc8bab2330/functions/ npm --prefix web run build",
+    "outputDirectory": "./web/dist"
+  }
 }

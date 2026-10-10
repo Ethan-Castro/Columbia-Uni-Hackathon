@@ -21,6 +21,10 @@ import type {
   SubmitResult,
 } from "./types.ts";
 
+// Where functions live. Locally "/functions/" (Vite proxy). On Base44 the site is
+// built with VITE_FUNCTIONS_BASE=/api/apps/<app id>/functions/ (same origin).
+const FUNCTIONS_BASE: string = import.meta.env.VITE_FUNCTIONS_BASE || "/functions/";
+
 export class ApiError extends Error {
   constructor(public status: number, message: string) {
     super(message);
@@ -56,7 +60,7 @@ async function call<T>(name: string, body: object, opts: { admin?: boolean } = {
   if (opts.admin) headers["x-admin-token"] = getAdminToken();
   let res: Response;
   try {
-    res = await fetch(`/functions/${name}`, { method: "POST", headers, body: JSON.stringify(body) });
+    res = await fetch(`${FUNCTIONS_BASE}${name}`, { method: "POST", headers, body: JSON.stringify(body) });
   } catch {
     throw new ApiError(0, "network");
   }
