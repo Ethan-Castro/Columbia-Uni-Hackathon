@@ -7,7 +7,7 @@
 import { getDb } from "../shared/db.ts";
 import { mentionsStatus, redactStatus } from "../shared/redact.ts";
 import { MAX_MESSAGE_CHARS, maskPhone, normalizePhone, sendToPhone } from "../shared/tools/send_to_phone.ts";
-import handler from "../functions/send_to_phone/entry.ts";
+import handler from "../handlers/send_to_phone/entry.ts";
 
 function ok(cond: unknown, msg = "") {
   if (!cond) throw new Error(`assertion failed ${msg}`);

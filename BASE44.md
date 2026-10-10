@@ -7,7 +7,7 @@ All the code lives in this repo. Base44 gets a generated copy of it, and nobody 
 
 | What | Where |
 |---|---|
-| Our code (edit this) | `functions/`, `shared/` |
+| Our code (edit this) | `handlers/`, `shared/` |
 | Base44-only versions of 4 files | `base44-overrides/shared/` (`db.ts`, `auth.ts`, `logRequest.ts`, `llm.ts`) |
 | Generated copy that gets deployed (never edit) | `base44/functions/`, `base44/shared/` (see `base44/GENERATED.md`) |
 | Entity schemas | `base44/entities/*.jsonc` |
@@ -32,7 +32,7 @@ deno run -A scripts/base44-sync.ts --deploy   # same, then: base44 deploy -y --n
 ```
 
 What the sync does:
-- It wipes and regenerates `base44/functions/` and `base44/shared/`. It copies every `functions/<name>/` that has an `entry.ts`, including its `function.jsonc`, and all of `shared/`.
+- It wipes and regenerates `base44/functions/` and `base44/shared/`. It copies every `handlers/<name>/` that has an `entry.ts`, including its `function.jsonc`, and all of `shared/`.
 - It copies `base44-overrides/shared/*` on top:
   - `db.ts` uses `createClientFromRequest(req).asServiceRole.entities`.
   - `auth.ts` accepts either `x-admin-token` or a signed-in Base44 user with role admin.

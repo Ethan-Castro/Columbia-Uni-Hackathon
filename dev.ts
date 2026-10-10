@@ -1,5 +1,5 @@
 // Local dev server. Mimics Base44 function hosting:
-//   POST|GET|... /functions/<name>[/sub/path]        -> functions/<name>/entry.ts
+//   POST|GET|... /functions/<name>[/sub/path]        -> handlers/<name>/entry.ts
 //   POST|GET|... /api/apps/<appId>/functions/<name>  -> same (Base44's alternate path)
 //   GET /                                            -> JSON list of functions
 // Every method is passed through; each function decides what it accepts.
@@ -10,7 +10,7 @@ import { CORS_HEADERS } from "./shared/http.ts";
 type Handler = (req: Request) => Promise<Response> | Response;
 
 const ROOT = new URL("./", import.meta.url);
-const FUNCTIONS_DIR = new URL("./functions/", ROOT);
+const FUNCTIONS_DIR = new URL("./handlers/", ROOT);
 // Flat function names only (health, mcp, findResources). Base44 also allows
 // nested names like email/send; we don't use them.
 const NAME_RE = /^[A-Za-z0-9_-]+$/;
@@ -79,7 +79,7 @@ async function loadHandler(name: string): Promise<Handler | null> {
   if (!handlers.has(name)) {
     const p = import(file.href).then((mod) => {
       if (typeof mod.default !== "function") {
-        throw new Error(`functions/${name}/entry.ts has no default export function`);
+        throw new Error(`handlers/${name}/entry.ts has no default export function`);
       }
       return mod.default as Handler;
     });

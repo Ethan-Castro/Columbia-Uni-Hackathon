@@ -7,7 +7,7 @@ import { getDb } from "../shared/db.ts";
 import { resolveNear } from "../shared/geo.ts";
 import type { Place } from "../shared/schema.ts";
 import { checkProvider, matchProvider, pickProviders } from "../shared/tools/check_provider.ts";
-import handler from "../functions/check_provider/entry.ts";
+import handler from "../handlers/check_provider/entry.ts";
 
 function ok(cond: unknown, msg = "") {
   if (!cond) throw new Error(`assertion failed ${msg}`);

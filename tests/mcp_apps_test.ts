@@ -1,9 +1,9 @@
-// Tests for the MCP Apps surface of functions/mcp (ChatGPT plugin + Claude connector):
+// Tests for the MCP Apps surface of handlers/mcp (ChatGPT plugin + Claude connector):
 // initialize capabilities, resources/list|read, tools/list titles/annotations/_meta,
 // and tools/call structuredContent for the three UI tools. Run: deno task test
 // With --allow-write the data dir is copied to a temp dir (DATA_DIR) first, so
 // RequestLog rows never land in the real data/. No network: LLM calls fall back to templates.
-import handler from "../functions/mcp/entry.ts";
+import handler from "../handlers/mcp/entry.ts";
 import { CARD_HTML, CARD_MIME, CARD_URI } from "../shared/ui/card.ts";
 import { summarize } from "../shared/ui/result.ts";
 

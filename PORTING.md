@@ -15,7 +15,7 @@ Never copy files into `base44/` by hand. `deno run -A scripts/base44-sync.ts` do
 
 | From | To | Notes |
 | --- | --- | --- |
-| `functions/<name>/` | `base44/functions/<name>/` | Copies `entry.ts` and `function.jsonc`. The `automations` block is stripped (see section 6). |
+| `handlers/<name>/` | `base44/functions/<name>/` | Copies `entry.ts` and `function.jsonc`. The `automations` block is stripped (see section 6). |
 | `shared/` | `base44/shared/` | Relative imports (`../../shared/x.ts`) still resolve. They cannot point outside `base44/`. |
 | `base44-overrides/shared/*.ts` | on top of `base44/shared/` | These are the Base44 versions of 4 files (section 2). When an override imports `./x.local.ts`, the sync copies the repo-root original next to it under that name. |
 | `base44/entities/*.jsonc` | stays where it is | Already in place, ready for `base44 entities push`. |
@@ -104,7 +104,7 @@ How it works:
 
 ## 6. Nightly Scout
 
-- `functions/scout/function.jsonc` has 4 daily schedules, 07:00 to 07:30 UTC, one query each. They use the documented automation format. Each is `is_active: false` in the repo.
+- `handlers/scout/function.jsonc` has 4 daily schedules, 07:00 to 07:30 UTC, one query each. They use the documented automation format. Each is `is_active: false` in the repo.
 - **This app has Base44 Workflows enabled.** Legacy `automations` make the deploy fail with HTTP 409, so the sync strips the block. Recreate the 4 runs as Workflows that call `scout` with the body `{"args": {"query": "food pantry Corona Queens", "max_results": 5, "scout_token": "<SCOUT_TOKEN>"}}`. Use the other 3 queries from `function.jsonc` for the rest. The exact Workflow step config has not been verified **(unconfirmed)**. `base44 workflows list` and `base44 workflows runs` show what exists and what ran.
 - Auth: a scheduled run has no signed-in admin. `scout` accepts either `requireAdmin` or the `SCOUT_TOKEN` secret, compared in constant time. The token can come from `args.scout_token`, `scout_token` or the `x-scout-token` header. Put the token only in the Base44 dashboard, never in `function.jsonc`. With `SCOUT_TOKEN` unset, only admins can run Scout.
 - Limits from the docs: Builder plan or higher, each run at most 3 minutes, 1 integration credit per run. Scout only creates `pending` Submissions, and nothing goes live without approval.

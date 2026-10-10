@@ -10,6 +10,8 @@ import type { ImportReport } from "./import.ts";
 
 const ROOT = decodeURIComponent(new URL("../", import.meta.url).pathname);
 const REAL_DATA = `${ROOT}data`;
+// Seed from the sample fixture: data/ now holds the real imported graph.
+const SEED_DATA = `${ROOT}tests/fixtures/sample-data`;
 const GOOD = `${ROOT}scripts/fixtures/good`;
 const BAD = `${ROOT}scripts/fixtures/bad`;
 const NOW = new Date("2026-10-10T16:00:00Z");
@@ -44,7 +46,7 @@ const realBefore = await hashDir(REAL_DATA, IMPORT_FILES);
 async function dataCopy(): Promise<string> {
   const dir = await Deno.makeTempDir({ dir: Deno.env.get("TEST_TMPDIR") || undefined, prefix: "import-test-" });
   for (const n of ["Program", "Place", "Link", "Submission", "RequestLog"]) {
-    await Deno.copyFile(`${REAL_DATA}/${n}.json`, `${dir}/${n}.json`);
+    await Deno.copyFile(`${SEED_DATA}/${n}.json`, `${dir}/${n}.json`);
   }
   return dir;
 }

@@ -1,5 +1,5 @@
 // Base44 project config. functions/ and shared/ here are GENERATED from the
-// repo-root functions/ and shared/ by scripts/base44-sync.ts. Edit the root copies.
+// repo-root handlers/ and shared/ by scripts/base44-sync.ts. Edit the root copies.
 {
   "name": "NYC Navigator",
   "description": "Living map of services for immigrant New Yorkers",
