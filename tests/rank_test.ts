@@ -10,7 +10,7 @@ function eq(actual: unknown, expected: unknown, msg = "") {
 }
 
 Deno.test("isStatusDependent: every sample status_note is read correctly", async () => {
-  const programs = JSON.parse(await Deno.readTextFile(new URL("../data/Program.json", import.meta.url))) as Array<
+  const programs = JSON.parse(await Deno.readTextFile(new URL("./fixtures/sample-data/Program.json", import.meta.url))) as Array<
     { id: string; status_note: string }
   >;
   // None of the sample programs depend on status (school, WIC, CHP, IDNYC... are open to all).

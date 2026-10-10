@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Privacidad · Navegador NYC</title>
+<link rel="icon" href="icon.svg">
+<!-- Plain bilingual privacy policy. Keep it true to the code: RequestLog fields
+     (shared/logRequest.ts), send_to_phone (number never stored), make_plan
+     (situation sent to the AI, never stored), check_provider (name never logged). -->
+<style>
+  :root{color-scheme:light dark;--fg:#16201f;--bg:#fff;--muted:#4d5b59;--accent:#1f5f5b}
+  @media (prefers-color-scheme:dark){:root{--fg:#eef2f1;--bg:#151a19;--muted:#a9b6b4;--accent:#5fb8b0}}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+  h1{font-size:26px;margin:0 0 4px} h2{font-size:19px;margin:28px 0 6px} .muted{color:var(--muted)}
+  a{color:var(--accent)} nav a{margin-right:12px} hr{border:0;border-top:1px solid color-mix(in srgb,var(--fg) 15%,transparent);margin:40px 0}
+  ul{padding-left:22px}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#es">Español</a><a href="#en">English</a><a href="terms.html">Términos / Terms</a><a href="support.html">Ayuda / Support</a></nav>
+
+<section id="es" lang="es">
+<h1>Política de privacidad</h1>
+<p class="muted">Navegador NYC (NYC Navigator). Vigente desde el 10 de octubre de 2026.</p>
+
+<p>Navegador NYC ayuda a inmigrantes en Nueva York a encontrar servicios gratuitos (comida, salud, ayuda legal, identificación y más). Funciona dentro de Claude, ChatGPT, WhatsApp y nuestra página web. Damos información y referidos, nunca consejo legal. <strong>Nunca preguntamos por su situación migratoria.</strong></p>
+
+<h2>Lo que guardamos</h2>
+<p>Por cada consulta guardamos una sola fila anónima con:</p>
+<ul>
+  <li>el tipo de ayuda (por ejemplo, comida o salud),</li>
+  <li>el código postal, solo si son exactamente 5 dígitos,</li>
+  <li>el idioma de la respuesta,</li>
+  <li>el canal (Claude/ChatGPT, WhatsApp, voz o web),</li>
+  <li>cuántos resultados encontramos y si la necesidad quedó sin cubrir,</li>
+  <li>la fecha y hora.</li>
+</ul>
+<p>Usamos estas filas para ver dónde faltan servicios. <strong>No guardamos nombres, teléfonos, direcciones, el texto de sus mensajes ni direcciones IP.</strong></p>
+
+<h2>Lo que usamos pero no guardamos</h2>
+<ul>
+  <li><strong>Su número de WhatsApp:</strong> solo se usa para enviar el mensaje que usted pidió, y solo después de que usted diga que sí. No lo guardamos ni lo registramos.</li>
+  <li><strong>Lo que cuenta de su situación</strong> para preparar un resumen para una cita legal: se envía a nuestro proveedor de inteligencia artificial para escribir el resumen y no lo guardamos.</li>
+  <li><strong>El nombre de un notario o consultor</strong> que usted quiere revisar: se compara con las listas del Departamento de Justicia (DOJ) y no se guarda.</li>
+</ul>
+
+<h2>Con quién compartimos datos (proveedores)</h2>
+<ul>
+  <li><strong>Base44:</strong> aloja nuestras funciones y nuestra base de datos.</li>
+  <li><strong>OpenRouter</strong> (y el modelo de IA al que dirige la solicitud) o la IA integrada de Base44: reciben los datos de los lugares y, si usted pide un plan legal, lo que contó de su situación, para escribir resúmenes cortos.</li>
+  <li><strong>Twilio y WhatsApp (Meta):</strong> reciben su número y el texto del plan para entregarlo.</li>
+  <li><strong>Tavily:</strong> nuestro buscador de nuevos servicios lo usa para buscar en la web pública. No recibe datos de usuarios.</li>
+</ul>
+<p>Cada proveedor trata los datos según su propia política, y puede guardar registros técnicos normales (por ejemplo, de entrega o de conexión). Si usa Navegador NYC dentro de Claude o ChatGPT, su conversación se rige por la política de Anthropic o de OpenAI; nosotros solo recibimos los datos que la herramienta necesita.</p>
+<p>No vendemos datos. No mostramos anuncios. No usamos cookies de seguimiento ni analítica.</p>
+
+<h2>Cuánto tiempo</h2>
+<p>Las filas anónimas se guardan mientras funcione el proyecto; todavía no tienen una fecha de borrado automático. Como no tienen datos personales, no podemos encontrar la fila de una persona.</p>
+
+<h2>Sus opciones</h2>
+<ul>
+  <li>Puede usar Navegador NYC sin dar su nombre ni su teléfono.</li>
+  <li>No envíe por WhatsApp si no quiere: el envío solo ocurre si usted dice que sí.</li>
+  <li>Puede quitar el conector en la configuración de Claude o ChatGPT cuando quiera.</li>
+</ul>
+
+<h2>Menores</h2>
+<p>El servicio no está dirigido a menores de 13 años.</p>
+
+<h2>Contacto</h2>
+<p>Preguntas sobre privacidad: vea la <a href="support.html">página de ayuda</a>.</p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>Privacy policy</h1>
+<p class="muted">NYC Navigator (Navegador NYC). Effective October 10, 2026.</p>
+
+<p>NYC Navigator helps immigrant New Yorkers find free services (food, health, legal help, ID and more). It works inside Claude, ChatGPT, WhatsApp and our website. We give information and referrals, never legal advice. <strong>We never ask about immigration status.</strong></p>
+
+<h2>What we store</h2>
+<p>For each request we store one anonymous row with:</p>
+<ul>
+  <li>the kind of help (for example food or health),</li>
+  <li>the zip code, only if it is exactly 5 digits,</li>
+  <li>the answer language,</li>
+  <li>the channel (Claude/ChatGPT, WhatsApp, voice or web),</li>
+  <li>how many results we found and whether the need went unmet,</li>
+  <li>the date and time.</li>
+</ul>
+<p>We use these rows to see where services are missing. <strong>We do not store names, phone numbers, addresses, message text or IP addresses.</strong></p>
+
+<h2>What we use but do not store</h2>
+<ul>
+  <li><strong>Your WhatsApp number:</strong> used only to send the message you asked for, and only after you say yes. We never store or log it.</li>
+  <li><strong>What you tell us about your situation</strong> for a legal-appointment summary: sent to our AI provider to write the summary, and not stored.</li>
+  <li><strong>The name of a notario or consultant</strong> you want checked: compared with the Department of Justice (DOJ) lists and not stored.</li>
+</ul>
+
+<h2>Who we share data with (processors)</h2>
+<ul>
+  <li><strong>Base44:</strong> hosts our functions and database.</li>
+  <li><strong>OpenRouter</strong> (and the AI model it routes to) or Base44's built-in AI: receive place details and, if you ask for a legal plan, what you said about your situation, to write short summaries.</li>
+  <li><strong>Twilio and WhatsApp (Meta):</strong> receive your number and the plan text to deliver it.</li>
+  <li><strong>Tavily:</strong> used by our service finder to search the public web. It receives no user data.</li>
+</ul>
+<p>Each processor handles data under its own policy and may keep normal technical records (for example delivery or connection logs). If you use NYC Navigator inside Claude or ChatGPT, your conversation is governed by Anthropic's or OpenAI's policy; we only receive the data the tool needs.</p>
+<p>We do not sell data. We show no ads. We use no tracking cookies or analytics.</p>
+
+<h2>How long</h2>
+<p>Anonymous rows are kept while the project runs; there is no automatic deletion date yet. Because they hold no personal data, we cannot find any one person's row.</p>
+
+<h2>Your choices</h2>
+<ul>
+  <li>You can use NYC Navigator without giving your name or phone number.</li>
+  <li>WhatsApp messages are only sent if you say yes.</li>
+  <li>You can remove the connector in Claude or ChatGPT settings at any time.</li>
+</ul>
+
+<h2>Children</h2>
+<p>The service is not directed to children under 13.</p>
+
+<h2>Contact</h2>
+<p>Privacy questions: see the <a href="support.html">support page</a>.</p>
+</section>
+</main>
+</body>
+</html>

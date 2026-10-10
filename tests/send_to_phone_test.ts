@@ -19,13 +19,16 @@ function eq(actual: unknown, expected: unknown, msg = "") {
 }
 
 const CAN_WRITE = (await Deno.permissions.query({ name: "write" })).state === "granted";
-const SRC_DATA = new URL("../data/", import.meta.url).pathname;
+const SRC_DATA = new URL("./fixtures/sample-data/", import.meta.url).pathname;
 if (CAN_WRITE) {
   const dir = await Deno.makeTempDir({ prefix: "send_to_phone_test_" });
   for await (const f of Deno.readDir(SRC_DATA)) {
     if (f.isFile && f.name.endsWith(".json")) await Deno.copyFile(SRC_DATA + f.name, `${dir}/${f.name}`);
   }
   Deno.env.set("DATA_DIR", dir);
+} else {
+  // Read-only run: point at the fixture itself (log writes fail quietly).
+  Deno.env.set("DATA_DIR", SRC_DATA);
 }
 
 // Fake Twilio config (the real .env is never loaded by tests).

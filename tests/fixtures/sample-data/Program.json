@@ -1,0 +1,171 @@
+[
+  {
+    "id": "prog-idnyc",
+    "name": "IDNYC",
+    "needs": [
+      "id"
+    ],
+    "who_can_use": "New York City residents age 10 and older.",
+    "status_note": "Immigration status is not asked and not needed.",
+    "bring": [
+      "proof of identity (passport or consular ID)",
+      "proof of NYC address (lease, utility bill or letter)"
+    ],
+    "how_to_apply": "Make an appointment at an enrollment center and bring your documents.",
+    "summary_es": "Identificación gratuita de la ciudad. Sirve para la biblioteca, museos y abrir algunas cuentas de banco.",
+    "summary_en": "Free city ID card. Works for the library, museums and opening some bank accounts.",
+    "source_url": "https://example.org/sample/prog-idnyc",
+    "last_checked": "2026-10-10",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "prog-library-card",
+    "name": "Public library card",
+    "needs": [
+      "id",
+      "school",
+      "work"
+    ],
+    "who_can_use": "Anyone who lives, works or studies in the city.",
+    "status_note": "Immigration status is not asked.",
+    "bring": [
+      "IDNYC or other photo ID",
+      "proof of address"
+    ],
+    "how_to_apply": "Ask at any library branch desk.",
+    "summary_es": "Tarjeta de biblioteca gratis: libros, computadoras, clases de inglés y ayuda para buscar trabajo.",
+    "summary_en": "Free library card: books, computers, English classes and job search help.",
+    "source_url": "https://example.org/sample/prog-library-card",
+    "last_checked": "2026-10-10",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "prog-bank-account",
+    "name": "Starter bank account",
+    "needs": [
+      "money"
+    ],
+    "who_can_use": "Adults with an accepted photo ID.",
+    "status_note": "Some banks and credit unions accept IDNYC or a consular ID; ask before you go.",
+    "bring": [
+      "IDNYC or consular ID",
+      "proof of address",
+      "small opening deposit"
+    ],
+    "how_to_apply": "Visit a participating bank or credit union branch.",
+    "summary_es": "Cuenta de banco básica. Es más seguro que guardar efectivo y puede bajar el costo de enviar dinero.",
+    "summary_en": "Basic bank account. Safer than keeping cash and can lower the cost of sending money home.",
+    "source_url": "https://example.org/sample/prog-bank-account",
+    "last_checked": "2026-10-10",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "prog-wic",
+    "name": "WIC (food for women, infants and children)",
+    "needs": [
+      "food",
+      "health"
+    ],
+    "who_can_use": "Pregnant people, new parents, and children under 5 with limited income.",
+    "status_note": "Immigration status does not matter for WIC.",
+    "bring": [
+      "photo ID",
+      "proof of address",
+      "proof of income",
+      "child's health record if you have it"
+    ],
+    "how_to_apply": "Call or visit a WIC office for an appointment.",
+    "summary_es": "Comida saludable, fórmula y consejos de nutrición para embarazadas y niños menores de 5 años.",
+    "summary_en": "Healthy food, formula and nutrition advice for pregnant people and children under 5.",
+    "source_url": "https://example.org/sample/prog-wic",
+    "last_checked": "2026-10-10",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "prog-child-health-plus",
+    "name": "Child Health Plus",
+    "needs": [
+      "health"
+    ],
+    "who_can_use": "Children and teens under 19 in New York State.",
+    "status_note": "Children can enroll regardless of immigration status.",
+    "bring": [
+      "child's birth certificate or passport",
+      "proof of address",
+      "proof of household income"
+    ],
+    "how_to_apply": "Apply with an enrollment helper at a clinic or through the state marketplace.",
+    "summary_es": "Seguro médico gratis o de bajo costo para niños menores de 19 años.",
+    "summary_en": "Free or low-cost health insurance for children under 19.",
+    "source_url": "https://example.org/sample/prog-child-health-plus",
+    "last_checked": "2026-10-10",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "prog-school-enrollment",
+    "name": "Public school enrollment",
+    "needs": [
+      "school"
+    ],
+    "who_can_use": "Children ages 4 to 21 living in the city.",
+    "status_note": "Schools do not ask about immigration status.",
+    "bring": [
+      "child's birth certificate or passport",
+      "proof of address",
+      "vaccination records if you have them"
+    ],
+    "how_to_apply": "Go to a Family Welcome Center with your child's documents.",
+    "summary_es": "Todos los niños de 4 a 21 años tienen derecho a escuela pública gratis.",
+    "summary_en": "Every child ages 4 to 21 has the right to free public school.",
+    "source_url": "https://example.org/sample/prog-school-enrollment",
+    "last_checked": "2026-10-10",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "prog-mckinney-vento-transit",
+    "name": "Students in temporary housing (transportation)",
+    "needs": [
+      "transit",
+      "school",
+      "housing"
+    ],
+    "who_can_use": "Students living in a shelter, doubled up with another family, or without a fixed home.",
+    "status_note": "Immigration status is not asked.",
+    "bring": [
+      "nothing required; tell the school about your housing situation"
+    ],
+    "how_to_apply": "Tell the school or Family Welcome Center that your housing is temporary.",
+    "summary_es": "Si su familia vive en albergue o con otra familia, sus hijos pueden recibir MetroCard o bus escolar.",
+    "summary_en": "If your family lives in a shelter or with another family, your children can get a MetroCard or school bus.",
+    "source_url": "https://example.org/sample/prog-mckinney-vento-transit",
+    "last_checked": "2026-10-10",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  },
+  {
+    "id": "prog-free-legal-screening",
+    "name": "Free immigration legal screening",
+    "needs": [
+      "legal"
+    ],
+    "who_can_use": "Anyone who wants to understand their options, by appointment or walk-in.",
+    "status_note": "Information and referrals only. A screening is not legal advice; a verified provider reviews your case.",
+    "bring": [
+      "any immigration papers you have",
+      "photo ID if you have one"
+    ],
+    "how_to_apply": "Call or walk in during screening hours at a free provider.",
+    "summary_es": "Revisión gratis con un proveedor legal acreditado. Evite a los notarios: no pueden darle consejo legal.",
+    "summary_en": "Free review with an accredited legal provider. Avoid notarios: they cannot give legal advice.",
+    "source_url": "https://example.org/sample/prog-free-legal-screening",
+    "last_checked": "2026-10-10",
+    "created_date": "2026-10-10T11:00:00.000Z",
+    "updated_date": "2026-10-10T11:00:00.000Z"
+  }
+]

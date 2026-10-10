@@ -81,7 +81,7 @@ Deno.test("isOpenAt / evenings / weekends", () => {
 });
 
 Deno.test("hours derivations match sample Place booleans", async () => {
-  const places = JSON.parse(await Deno.readTextFile(new URL("../data/Place.json", import.meta.url)));
+  const places = JSON.parse(await Deno.readTextFile(new URL("./fixtures/sample-data/Place.json", import.meta.url)));
   for (const p of places) {
     eq(opensEvenings(p.hours), p.open_evenings, `${p.id} evenings`);
     eq(opensWeekends(p.hours), p.open_weekends, `${p.id} weekends`);

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Navegador NYC">
+  <!-- Navegador NYC icon: a map pin with a check (verified places) on the brand teal. Square, full bleed. -->
+  <rect width="512" height="512" fill="#1f5f5b"/>
+  <path d="M256 84c-70 0-126 55-126 124 0 92 126 220 126 220s126-128 126-220c0-69-56-124-126-124z" fill="#ffffff"/>
+  <circle cx="256" cy="208" r="66" fill="#1f5f5b"/>
+  <path d="M224 210l24 24 44-48" fill="none" stroke="#ffffff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
