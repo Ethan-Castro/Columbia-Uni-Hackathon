@@ -40,6 +40,7 @@ const COPY = {
     copy: "Copiar dirección",
     copied: "Copiada",
     openWa: "Abrir WhatsApp",
+    openVoice: "Abrir la app de voz",
     howKicker: "Cómo funciona",
     howTitle: "Del mensaje al plan en segundos",
     steps: [
@@ -92,6 +93,7 @@ const COPY = {
     copy: "Copy URL",
     copied: "Copied",
     openWa: "Open WhatsApp",
+    openVoice: "Open the voice app",
     howKicker: "How it works",
     howTitle: "From a message to a plan in seconds",
     steps: [
@@ -192,12 +194,17 @@ export function Home() {
           {c.doors.map((d, i) => {
             const Icon = DOOR_ICONS[i];
             return (
-              <div key={d.name} className="bg-card border-border flex min-w-0 flex-col rounded-xl border p-5 shadow-sm">
+              <div key={d.name} className="bg-card border-border flex min-w-0 flex-col rounded-xl border p-5">
                 <div className="bg-muted mb-4 grid size-10 place-items-center rounded-lg"><Icon className="size-5" /></div>
                 <h3 className="text-base font-semibold">{d.name}</h3>
                 <p className="text-muted-foreground mt-1 flex-1 text-sm">{d.body}</p>
                 <p className="text-foreground mt-3 text-xs font-medium">{d.how}</p>
                 {i < 2 && <CopyUrl label={c.copy} done={c.copied} />}
+                {i === 3 && (
+                  <Button asChild variant="outline" size="sm" className="mt-3 no-underline">
+                    <a href="voz/">{c.openVoice}<ArrowRight className="ml-1.5 size-4" /></a>
+                  </Button>
+                )}
                 {i === 2 && (
                   <Button asChild variant="outline" size="sm" className="mt-3 no-underline">
                     <a href={WA_LINK} target="_blank" rel="noreferrer">{c.openWa}<ArrowRight className="ml-1.5 size-4" /></a>
@@ -215,9 +222,9 @@ export function Home() {
             {c.steps.map((s, i) => {
               const Icon = STEP_ICONS[i];
               return (
-                <li key={s.t} className="bg-card border-border relative rounded-xl border p-5 shadow-sm">
+                <li key={s.t} className="bg-card border-border relative rounded-xl border p-5">
                   <div className="mb-4 flex items-center gap-3">
-                    <span className="bg-primary text-primary-foreground grid size-7 place-items-center rounded-md text-xs font-semibold">{i + 1}</span>
+                    <span className="border-foreground grid size-9 place-items-center rounded-full border text-sm font-medium">{i + 1}</span>
                     <Icon className="text-muted-foreground size-5" />
                   </div>
                   <h3 className="text-base font-semibold">{s.t}</h3>
@@ -230,7 +237,7 @@ export function Home() {
       </div>
 
       <Section kicker={c.checkKicker} title={c.checkTitle}>
-        <div className="bg-card border-border mx-auto grid max-w-4xl items-center gap-6 rounded-2xl border p-6 shadow-sm sm:grid-cols-[1fr_auto] sm:p-8">
+        <div className="bg-card border-border mx-auto grid max-w-4xl items-center gap-6 rounded-2xl border p-6 sm:grid-cols-[1fr_auto] sm:p-8">
           <p className="text-muted-foreground text-sm sm:text-base">{c.checkBody}</p>
           <div className="bg-muted flex max-w-xs items-start gap-2 rounded-xl p-4 text-sm">
             <Search className="text-muted-foreground mt-0.5 size-4 shrink-0" />

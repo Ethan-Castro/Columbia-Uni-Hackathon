@@ -190,7 +190,7 @@ export function Hero10({
           <Balancer>
             {titleLine2Prefix && <span>{titleLine2Prefix} </span>}
             {titleHighlight && (
-              <span className="text-brand italic">{titleHighlight}</span>
+              <span className="text-brand">{titleHighlight}</span>
             )}
           </Balancer>
         </>

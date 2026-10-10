@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Voz NYC">
+<meta name="theme-color" content="#04110f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<title>Voz NYC</title>
+<style>
+/* Voice app: no visible text. One orb; a green call button when we find a place. */
+:root { --bg1:#04110f; --bg2:#0b2a26; --teal:#2dd4bf; --teal2:#0f766e; --green:#22c55e; --amber:#f59e0b; }
+* { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html,body { margin:0; height:100%; background:radial-gradient(120% 90% at 50% 40%, var(--bg2), var(--bg1)); overflow:hidden;
+  touch-action:manipulation; -webkit-user-select:none; user-select:none; }
+main { position:fixed; inset:0; display:grid; place-items:center; padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom); }
+.sr { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+
+/* The orb */
+#orb { position:relative; width:min(62vw,300px); aspect-ratio:1; border:0; border-radius:50%; padding:0; cursor:pointer;
+  background:radial-gradient(circle at 35% 30%, #a7f3d0 0%, var(--teal) 28%, var(--teal2) 62%, #053b35 100%);
+  box-shadow:0 0 40px 6px rgba(45,212,191,.35), 0 0 120px 30px rgba(45,212,191,.12), inset 0 -18px 40px rgba(0,0,0,.35);
+  transform:scale(var(--lvl,1)); transition:transform .08s linear, filter .3s, opacity .3s; animation:breathe 4s ease-in-out infinite; }
+#orb:focus-visible { outline:4px solid #fff; outline-offset:8px; }
+#orb svg { position:absolute; inset:0; margin:auto; width:30%; height:30%; fill:none; stroke:rgba(255,255,255,.92); stroke-width:1.6;
+  stroke-linecap:round; stroke-linejoin:round; transition:opacity .3s; }
+@keyframes breathe { 50% { box-shadow:0 0 60px 12px rgba(45,212,191,.45), 0 0 160px 50px rgba(45,212,191,.16), inset 0 -18px 40px rgba(0,0,0,.35); } }
+
+/* Rings that ripple while listening / speaking */
+.ring { position:absolute; width:min(62vw,300px); aspect-ratio:1; border-radius:50%; border:2px solid rgba(45,212,191,.5);
+  opacity:0; pointer-events:none; }
+body.listening .ring, body.speaking .ring { animation:ripple 2.2s ease-out infinite; }
+body.listening .ring:nth-of-type(2), body.speaking .ring:nth-of-type(2) { animation-delay:.73s; }
+body.listening .ring:nth-of-type(3), body.speaking .ring:nth-of-type(3) { animation-delay:1.46s; }
+@keyframes ripple { from { transform:scale(1); opacity:.7; } to { transform:scale(1.9); opacity:0; } }
+
+body.listening #orb { animation:none; filter:saturate(1.3) brightness(1.15); }
+body.thinking #orb { animation:spin 1.4s linear infinite; filter:hue-rotate(25deg); }
+body.thinking #orb svg { opacity:0; }
+@keyframes spin { to { transform:rotate(360deg); } }
+body.speaking #orb { animation:talk .5s ease-in-out infinite alternate; }
+@keyframes talk { to { transform:scale(1.05); } }
+body.error #orb { animation:shake .5s; background:radial-gradient(circle at 35% 30%, #fde68a, var(--amber) 40%, #92400e); }
+@keyframes shake { 20%,60% { transform:translateX(-14px); } 40%,80% { transform:translateX(14px); } }
+body.found #orb { transform:translateY(calc(-1 * min(42vw,200px))) scale(.38); opacity:.55; animation:none; }
+
+/* The green call button */
+#call { position:absolute; width:min(52vw,240px); aspect-ratio:1; border-radius:50%; display:grid; place-items:center;
+  background:radial-gradient(circle at 35% 30%, #bbf7d0, var(--green) 45%, #15803d); text-decoration:none;
+  box-shadow:0 0 50px 12px rgba(34,197,94,.45), 0 0 140px 40px rgba(34,197,94,.18);
+  transform:scale(0); transition:transform .45s cubic-bezier(.2,1.4,.4,1); animation:callpulse 1.6s ease-in-out infinite; }
+body.found #call { transform:scale(1); }
+#call svg { width:38%; height:38%; fill:#fff; }
+@keyframes callpulse { 50% { box-shadow:0 0 70px 20px rgba(34,197,94,.6), 0 0 170px 60px rgba(34,197,94,.22); } }
+
+/* Small round "start over" button */
+#again { position:absolute; bottom:calc(36px + env(safe-area-inset-bottom)); width:64px; height:64px; border-radius:50%;
+  border:1px solid rgba(255,255,255,.25); background:rgba(255,255,255,.08); display:none; place-items:center; cursor:pointer; }
+#again svg { width:28px; height:28px; stroke:#fff; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+body.found #again, body.error #again { display:grid; }
+
+@media (prefers-reduced-motion: reduce) {
+  #orb, #call, .ring { animation:none !important; }
+}
+</style>
+</head>
+<body>
+<main>
+  <span class="ring" aria-hidden="true"></span><span class="ring" aria-hidden="true"></span><span class="ring" aria-hidden="true"></span>
+  <button id="orb" type="button" aria-label="Toque y diga lo que necesita">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+  </button>
+  <a id="call" href="#" aria-label="Llamar">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+  </a>
+  <button id="again" type="button" aria-label="Empezar de nuevo">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
+  </button>
+  <p id="live" class="sr" aria-live="assertive"></p>
+</main>
+<script>
+(function () {
+  // Where the backend lives: same origin on Base44 / our domain, else the Base44 app.
+  var BASE = /(^|\.)base44\.app$|(^|\.)inmigracion-nyc\.com$/.test(location.hostname)
+    ? "/api/apps/6aca64c59c3d35bc8bab2330/functions/"
+    : (location.hostname === "localhost" ? "/functions/" : "https://inmigracion-nyc.com/functions/");
+  var LANG = /^en/i.test(navigator.language || "") ? "en" : "es";
+  var P = LANG === "en"
+    ? { ask: "What do you need?", where: "I need your location to find help near you.", fail: "Sorry, I didn't catch that. Tap and try again." }
+    : { ask: "¿Qué necesita?", where: "Necesito su ubicación para buscar ayuda cerca.", fail: "No le entendí. Toque y vuelva a intentarlo." };
+
+  var body = document.body, orb = document.getElementById("orb"), call = document.getElementById("call"),
+      again = document.getElementById("again"), live = document.getElementById("live");
+  var audio = new Audio(); audio.playsInline = true;
+  var pos = null, busy = false, elevenOk = true;
+
+  function state(s) { body.className = s || ""; }
+  function announce(t) { live.textContent = ""; setTimeout(function () { live.textContent = t; }, 50); }
+
+  // ---- voice out: ElevenLabs via /speak, else the phone's own voice ----
+  function speakDevice(text) {
+    return new Promise(function (res) {
+      if (!("speechSynthesis" in window)) return res();
+      var u = new SpeechSynthesisUtterance(text);
+      u.lang = LANG === "en" ? "en-US" : "es-US"; u.rate = 0.98;
+      u.onend = u.onerror = function () { res(); };
+      speechSynthesis.cancel(); speechSynthesis.speak(u);
+    });
+  }
+  function say(text) {
+    announce(text);
+    state(body.classList.contains("found") ? "found speaking" : "speaking");
+    var done = function () { body.classList.remove("speaking"); };
+    if (!elevenOk) return speakDevice(text).then(done);
+    return fetch(BASE + "speak", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ text: text }) })
+      .then(function (r) { if (!r.ok) { elevenOk = false; throw 0; } return r.blob(); })
+      .then(function (b) {
+        return new Promise(function (res) {
+          audio.src = URL.createObjectURL(b);
+          audio.onended = audio.onerror = function () { res(); };
+          audio.play().catch(function () { speakDevice(text).then(res); });
+        });
+      })
+      .catch(function () { return speakDevice(text); })
+      .then(done);
+  }
+
+  // ---- voice in: on-device recognition, else record + ElevenLabs Scribe ----
+  var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  function listenDevice() {
+    return new Promise(function (res, rej) {
+      var r = new SR(); r.lang = LANG === "en" ? "en-US" : "es-US"; r.interimResults = false; r.maxAlternatives = 1;
+      var got = false;
+      r.onresult = function (e) { got = true; res(e.results[0][0].transcript || ""); };
+      r.onerror = function () { if (!got) rej(); };
+      r.onend = function () { if (!got) rej(); };
+      r.start();
+      setTimeout(function () { try { r.stop(); } catch (e) {} }, 7000);
+    });
+  }
+  function listenRecord() {
+    return navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+      return new Promise(function (res, rej) {
+        var mime = MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported("audio/mp4") ? "audio/mp4" : "audio/webm";
+        var rec = new MediaRecorder(stream, { mimeType: mime }), chunks = [];
+        meter(stream);
+        rec.ondataavailable = function (e) { if (e.data.size) chunks.push(e.data); };
+        rec.onstop = function () {
+          stream.getTracks().forEach(function (t) { t.stop(); });
+          var blob = new Blob(chunks, { type: mime }), fr = new FileReader();
+          fr.onload = function () {
+            var b64 = String(fr.result).split(",")[1] || "";
+            state("thinking");
+            fetch(BASE + "transcribe", { method: "POST", headers: { "content-type": "application/json" },
+              body: JSON.stringify({ audio: b64, mime: mime, language: LANG }) })
+              .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+              .then(function (d) { res(d.text || ""); }, rej);
+          };
+          fr.readAsDataURL(blob);
+        };
+        rec.start();
+        setTimeout(function () { if (rec.state !== "inactive") rec.stop(); }, 4500);
+      });
+    });
+  }
+  // Orb swells with the voice level while recording.
+  function meter(stream) {
+    try {
+      var ctx = new (window.AudioContext || window.webkitAudioContext)(), an = ctx.createAnalyser(), data = new Uint8Array(256);
+      ctx.createMediaStreamSource(stream).connect(an);
+      (function tick() {
+        if (!stream.active) { orb.style.setProperty("--lvl", 1); ctx.close(); return; }
+        an.getByteTimeDomainData(data);
+        var peak = 0; for (var i = 0; i < data.length; i++) peak = Math.max(peak, Math.abs(data[i] - 128));
+        orb.style.setProperty("--lvl", (1 + Math.min(peak / 128, 1) * 0.25).toFixed(3));
+        requestAnimationFrame(tick);
+      })();
+    } catch (e) {}
+  }
+  function listen() {
+    state("listening");
+    if (SR) return listenDevice().catch(function () { return listenRecord(); });
+    return listenRecord();
+  }
+
+  function locate() {
+    if (pos) return Promise.resolve(pos);
+    return new Promise(function (res) {
+      if (!navigator.geolocation) return res(null);
+      navigator.geolocation.getCurrentPosition(function (p) { pos = { lat: p.coords.latitude, lng: p.coords.longitude }; res(pos); },
+        function () { res(null); }, { enableHighAccuracy: true, timeout: 8000, maximumAge: 300000 });
+    });
+  }
+
+  function fail(text) { state("error"); return say(text || P.fail).then(function () { state("error"); busy = false; }); }
+
+  function start() {
+    if (busy) return; busy = true;
+    // iOS: unlock audio inside the tap so later playback is allowed.
+    audio.src = "data:audio/mp3;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4Ljc2LjEwMAAAAAAAAAAAAAAA"; audio.play().catch(function () {});
+    if ("speechSynthesis" in window) speechSynthesis.speak(new SpeechSynthesisUtterance(""));
+    var where = locate();
+    say(P.ask)
+      .then(listen)
+      .then(function (text) {
+        if (!text) throw "heard";
+        state("thinking");
+        return where.then(function (p) {
+          return fetch(BASE + "voice", { method: "POST", headers: { "content-type": "application/json" },
+            body: JSON.stringify({ text: text, lat: p ? p.lat : null, lng: p ? p.lng : null, language: LANG }) });
+        });
+      })
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        if (d && d.ok && d.place && d.place.tel) {
+          call.href = d.place.tel;
+          call.setAttribute("aria-label", (LANG === "en" ? "Call " : "Llamar a ") + d.place.name);
+          state("found");
+          return say(d.say).then(function () { body.className = "found"; busy = false; });
+        }
+        return fail(d && d.say);
+      })
+      .catch(function () { fail(); });
+  }
+
+  orb.addEventListener("click", start);
+  again.addEventListener("click", function () { busy = false; state(""); start(); });
+  call.addEventListener("click", function (e) { if (call.getAttribute("href") === "#") e.preventDefault(); });
+})();
+</script>
+</body>
+</html>
