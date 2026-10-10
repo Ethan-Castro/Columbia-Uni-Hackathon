@@ -45,6 +45,7 @@ export function App() {
                 {label}
               </a>
             ))}
+            <a href={`como-lo-hicimos.html?lang=${lang}`}>{lang === "es" ? "Cómo funciona" : "How it works"}</a>
           </nav>
           <div className="lang-switch" role="group" aria-label={lang === "es" ? "Idioma" : "Language"}>
             {(["es", "en"] as const).map((l) => (

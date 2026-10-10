@@ -15,8 +15,9 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%}
 a{color:var(--fg);font-weight:500;text-decoration:underline;text-decoration-color:var(--green);text-decoration-thickness:2px;text-underline-offset:4px}
-.wrap{max-width:960px;margin:0 auto;padding:16px 16px 64px}
-header.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:6px 0 16px;border-bottom:1px solid color-mix(in srgb,var(--fg) 12%,transparent)}
+.wrap{max-width:1110px;margin:0 auto;padding:16px 16px 64px}
+header.top{display:flex;flex-wrap:wrap;min-width:0;justify-content:space-between;align-items:center;gap:12px;padding:6px 0 16px;border-bottom:1px solid color-mix(in srgb,var(--fg) 12%,transparent)}
+.pills{order:3;flex:1 1 100%;min-width:0;max-width:100%;display:flex;gap:2px;padding:3px;border:1px solid var(--line);border-radius:999px;background:var(--card);overflow-x:auto;scrollbar-width:none}.pills a{flex:none;padding:8px 14px;border-radius:999px;font-size:14px;font-weight:500;color:var(--muted);text-decoration:none;white-space:nowrap}.pills a:hover{color:var(--fg);background:var(--soft)}.pills a.on{background:var(--green);color:#111b21}@media(min-width:1060px){.pills{order:0;flex:0 1 auto}}
 .brand{font-weight:700;text-decoration:none;color:var(--brand)}
 .lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--card)}
 .lang button{font:inherit;font-size:14px;border:0;background:none;color:var(--muted);padding:6px 14px;border-radius:999px;cursor:pointer;min-height:36px}
@@ -65,6 +66,15 @@ html[lang="es"] [data-l="es"]{display:revert}
 <div class="wrap">
 <header class="top">
   <a class="brand" href="./">NYC Navigator</a>
+  <nav class="pills" aria-label="Menu">
+    <a href="./#/"><span data-l="en">Home</span><span data-l="es">Inicio</span></a>
+    <a href="./#/directory"><span data-l="en">Search</span><span data-l="es">Buscar</span></a>
+    <a href="./#/graph"><span data-l="en">Graph</span><span data-l="es">Mapa</span></a>
+    <a href="./#/submit"><span data-l="en">Suggest a resource</span><span data-l="es">Sugerir un recurso</span></a>
+    <a href="./#/community"><span data-l="en">Community</span><span data-l="es">Comunidad</span></a>
+    <a href="./#/insights"><span data-l="en">Insights</span><span data-l="es">Datos</span></a>
+    <a class="on" aria-current="page" href="como-lo-hicimos.html"><span data-l="en">How it works</span><span data-l="es">Cómo funciona</span></a>
+  </nav>
   <div class="lang" role="group" aria-label="Language">
     <button type="button" data-set="es" aria-pressed="false">Español</button>
     <button type="button" data-set="en" aria-pressed="true">English</button>
