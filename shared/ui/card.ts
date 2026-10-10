@@ -15,7 +15,7 @@
 // The page lives in String.raw, so the inline JS must never contain a backtick
 // or a dollar sign followed by a brace.
 
-export const CARD_URI = "ui://navigator/card-v1.html";
+export const CARD_URI = "ui://navigator/card-v2.html";
 export const CARD_MIME = "text/html;profile=mcp-app";
 
 /** resources/list entry. */
@@ -23,7 +23,7 @@ export const CARD_RESOURCE = {
   uri: CARD_URI,
   name: "navigator_card",
   title: "Tarjeta de resultados",
-  description: "Lugares gratuitos, plan paso a paso u opciones en las listas del DOJ, con fuente y fecha de revisión.",
+  description: "Lugares, plan paso a paso u opciones de las listas del DOJ, con fuente y fecha de revisión.",
   mimeType: CARD_MIME,
 };
 
@@ -31,8 +31,8 @@ export const CARD_RESOURCE = {
 export const CARD_META = {
   ui: { prefersBorder: true, csp: { connectDomains: [], resourceDomains: [] } },
   "openai/widgetDescription":
-    "Muestra lugares gratuitos con dirección, horario, idiomas, fuente y fecha de revisión; o un plan paso a paso; " +
-    "o si un notario o consultor aparece en las listas del DOJ, con opciones gratuitas cerca.",
+    "Muestra lugares con dirección, horario, idiomas, fuente y fecha de revisión; o un plan paso a paso; " +
+    "o si un notario o consultor aparece en las listas del DOJ, con opciones de esas listas cerca.",
   "openai/widgetPrefersBorder": true,
   // openExternal destinations ChatGPT should trust. Real source_url hosts go here once the data is real.
   "openai/widgetCSP": {
@@ -145,7 +145,7 @@ var S = {
     listed: "Aparece en una lista del DOJ", notListed: "No aparece en las listas del DOJ que revisamos",
     options: "Opciones en las listas del DOJ", similar: "Nombres parecidos", verify: "Cómo verificarlo usted",
     list: "Lista", fee: "Costo", intake: "Cómo pedir cita", unknown: "No sabemos; pregunte al llamar",
-    lawyer: "Para el abogado (en inglés)", plan: "Su plan", step: "Paso", legal: "Ayuda legal gratuita",
+    lawyer: "Para el abogado (en inglés)", plan: "Su plan", step: "Paso", legal: "Ayuda legal",
     km: "km"
   },
   en: {
@@ -157,7 +157,7 @@ var S = {
     listed: "Appears on a DOJ list", notListed: "Not on the DOJ lists we checked",
     options: "Options on the DOJ lists", similar: "Similar names", verify: "Check it yourself",
     list: "List", fee: "Cost", intake: "How to get an appointment", unknown: "Unknown; ask when you call",
-    lawyer: "For the lawyer (English)", plan: "Your plan", step: "Step", legal: "Free legal help",
+    lawyer: "For the lawyer (English)", plan: "Your plan", step: "Step", legal: "Legal help",
     km: "km"
   }
 };

@@ -252,7 +252,7 @@ export function sourceOf(p: { source_url?: string; last_checked?: string }, lang
 }
 
 /**
- * The free legal provider block every legal answer ends with. `verified` and
+ * The DOJ-listed option block every legal answer ends with. `verified` and
  * the note's heading follow the data: "verified" only for official/verified places.
  */
 export function verifiedProviderOut(r: Ranked, lang: string) {
@@ -264,6 +264,9 @@ export function verifiedProviderOut(r: Ranked, lang: string) {
     phone: p.phone ?? "",
     hours: p.hours ?? "",
     on_doj_list: DOJ_ORG_TYPES.includes(p.org_type),
+    list_checked: p.last_checked ?? "",
+    fee: lang.startsWith("en") ? "unknown" : "no sabemos",
+    intake: lang.startsWith("en") ? "unknown" : "no sabemos",
     trust: p.trust,
     trust_label: trustLabel(lang, p.trust),
     verified: trustRank(p.trust) === 0,
@@ -385,7 +388,7 @@ const ORG_TYPE_LABELS: Record<Lang, Record<string, string>> = {
   es: {
     pantry: "Despensa de comida",
     doj_roster: "Proveedor legal reconocido por el DOJ",
-    doj_pro_bono: "Servicio legal gratuito (lista pro bono del DOJ)",
+    doj_pro_bono: "Servicio legal (lista pro bono del DOJ)",
     consulate: "Ayuda consular",
     clinic: "Clínica de salud",
     benefits_office: "Oficina de beneficios",
@@ -398,7 +401,7 @@ const ORG_TYPE_LABELS: Record<Lang, Record<string, string>> = {
   en: {
     pantry: "Food pantry",
     doj_roster: "DOJ-recognized legal provider",
-    doj_pro_bono: "Free legal service (DOJ pro bono list)",
+    doj_pro_bono: "Legal service (DOJ pro bono list)",
     consulate: "Consular help",
     clinic: "Health clinic",
     benefits_office: "Benefits office",
@@ -414,7 +417,7 @@ const ORG_TYPE_LABELS: Record<Lang, Record<string, string>> = {
 export const ORG_TYPE_DESCRIPTIONS_EN: Record<string, string> = {
   pantry: "food pantry that gives free groceries",
   doj_roster: "nonprofit legal provider recognized by the U.S. Department of Justice (DOJ)",
-  doj_pro_bono: "free legal services provider on the DOJ pro bono list",
+  doj_pro_bono: "legal services provider on the DOJ pro bono list",
   consulate: "consular services such as passports and consular IDs",
   clinic: "community health clinic",
   benefits_office: "office where people apply for public benefits such as food, cash and health coverage",

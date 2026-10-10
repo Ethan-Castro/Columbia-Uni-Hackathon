@@ -84,8 +84,8 @@ Deno.test("check_provider: notario not found (Spanish) + log row", opts, async (
   eq(r.match, null);
   ok(r.warning.includes("notarios") && r.warning.includes("arreglar los papeles"), "warning es");
   ok(r.what_this_means.includes("Jose Perez Notario"));
-  eq(r.free_legal_providers.length, 2, "only 2 DOJ places in sample data");
-  for (const p of r.free_legal_providers) ok(p.source_url && p.last_checked && p.trust_label, "source + date");
+  eq(r.doj_listed_options.length, 2, "only 2 DOJ places in sample data");
+  for (const p of r.doj_listed_options) ok(p.source_url && p.last_checked && p.trust_label, "source + date");
   ok(r.trust_note, "sample places are unverified -> trust_note");
   eq(r.how_to_verify.map((l: { url: string }) => l.url), [
     "https://www.justice.gov/eoir/recognition-and-accreditation-roster-reports",
@@ -112,7 +112,7 @@ Deno.test("check_provider: found (English)", opts, async () => {
   eq(r.warning, null);
   ok(r.what_this_means.includes("pro bono") && r.what_this_means.includes("confirm in person"));
   ok(r.disclaimer.startsWith("This is information"));
-  eq(r.free_legal_providers[0].id, "place-roosevelt-pro-bono-project");
+  eq(r.doj_listed_options[0].id, "place-roosevelt-pro-bono-project");
 });
 
 Deno.test("check_provider HTTP entry", opts, async () => {
@@ -125,5 +125,27 @@ Deno.test("check_provider HTTP entry", opts, async () => {
   );
   eq(res.status, 200);
   const body = await res.json();
-  eq([body.found, body.free_legal_providers.length > 0, body.near], [false, true, null]);
+  eq([body.found, body.doj_listed_options.length > 0, body.near], [false, true, null]);
+});
+
+Deno.test("legal wording: DOJ-listed options, list name + date, unknown fee, no fraud claim, no 'free'", async () => {
+  const r = await run({ name: "Señor de la agencia de viajes Pérez", near: "Corona", language: "es" });
+  const text = JSON.stringify(r);
+  ok(r.what_this_means.includes("no aparece en las listas del DOJ que revisamos"), "not-found wording");
+  ok(r.what_this_means.includes("no prueba un fraude"), "not proof of fraud line");
+  ok(r.options_title.startsWith("Opciones de las listas del DOJ"), "options title");
+  for (const p of r.doj_listed_options) {
+    ok(p.list_name && p.list_checked && p.fee === "no sabemos" && p.intake === "no sabemos", "list + date + unknowns");
+  }
+  ok(!/gratuit|verificad[oa]s? cerca|estaf/i.test(text), "no free/verified/scam claims");
+});
+
+Deno.test("tie-break: the organization's own row beats its representatives", () => {
+  const base = { org_type: "doj_roster", trust: "official", source_url: "https://x", last_checked: "2026-10-10" };
+  const places = [
+    { ...base, id: "place-doj-ro-gomez", name: "Gomez, Javier Conrado", org: "HANAC, Inc.", address: "" },
+    { ...base, id: "place-doj-ro-hanac", name: "HANAC, Inc.", org: "HANAC, Inc.", address: "23-16 30th Avenue, Astoria" },
+  ] as unknown as Parameters<typeof matchProvider>[1];
+  const { match } = matchProvider("HANAC, Inc.", places);
+  eq(match?.place.id, "place-doj-ro-hanac", "org row wins");
 });

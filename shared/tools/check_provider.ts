@@ -1,4 +1,9 @@
-// check_provider: is this person or office on the DOJ lists? Plus up to 3 free legal providers nearby.
+// check_provider: is this person or office on the DOJ lists? Plus up to 3 DOJ-listed options nearby.
+//
+// Wording rules (immigration attorney on the panel): options are "DOJ-listed",
+// each names its list and our check date; fee and intake are "unknown" unless a
+// source says otherwise; a name that isn't found is "not on the lists we
+// searched", never called a fraud.
 //
 // Fast and deterministic (no LLM). Fuzzy-matches the name against Places whose
 // org_type is doj_roster (DOJ recognized organizations / accredited
@@ -20,12 +25,12 @@
 import { getDb } from "../db.ts";
 import { distanceKm, nearRank, resolveNear } from "../geo.ts";
 import type { NearResult } from "../geo.ts";
-import { disclaimer, freeProvidersTitle, langOf, trustLabel } from "../i18n.ts";
+import { disclaimer, langOf, trustLabel } from "../i18n.ts";
 import type { Lang } from "../i18n.ts";
 import { logRequest } from "../logRequest.ts";
 import type { Place } from "../schema.ts";
 import { sourceOf, speaks } from "../rank.ts";
-import { ratio, similarity, tokens } from "../text.ts";
+import { normalize, ratio, similarity, tokens } from "../text.ts";
 import { getLanguage, getString } from "./input.ts";
 import type { Tool } from "./types.ts";
 
@@ -78,36 +83,56 @@ const HOW_TO_VERIFY = {
   ],
 } as const;
 
+/** The two DOJ lists we search, named the way a person would recognize them. */
+const LIST_NAME: Record<string, Record<Lang, string>> = {
+  doj_roster: {
+    es: "Lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados",
+    en: "DOJ EOIR roster of recognized organizations and accredited representatives",
+  },
+  doj_pro_bono: {
+    es: "Lista pro bono del DOJ (EOIR) de proveedores de servicios legales",
+    en: "DOJ EOIR list of pro bono legal service providers",
+  },
+};
+
 const TEXT: Record<Lang, Record<string, string>> = {
   es: {
     found_roster:
-      "\"{match}\" aparece en la lista del Departamento de Justicia (DOJ) de organizaciones reconocidas y representantes acreditados, que sí pueden dar ayuda legal de inmigración. Aun así, confirme en persona que es la misma oficina (nombre y dirección) antes de pagar o firmar algo.",
+      "\"{match}\" aparece en la lista del DOJ (EOIR) de organizaciones reconocidas y representantes acreditados (revisada el {date}). Las organizaciones reconocidas y sus representantes acreditados sí pueden dar ayuda legal de inmigración. Aun así, confirme en persona que es la misma oficina (nombre y dirección) antes de pagar o firmar algo. Estar en la lista no dice si es gratis ni si están aceptando casos.",
+    found_rep:
+      "\"{match}\" aparece en la lista del DOJ (EOIR) como representante acreditado de {org} (revisada el {date}). Los representantes acreditados sí pueden dar ayuda legal de inmigración por medio de su organización. Confirme en persona que trabaja en esa organización antes de pagar o firmar algo.",
     found_pro_bono:
-      "\"{match}\" aparece en la lista de proveedores legales gratuitos (pro bono) de la corte de inmigración (EOIR, Departamento de Justicia). Aun así, confirme en persona que es la misma oficina (nombre y dirección) antes de firmar algo.",
+      "\"{match}\" aparece en la lista pro bono del DOJ (EOIR) de proveedores de servicios legales (revisada el {date}). Aun así, confirme en persona que es la misma oficina (nombre y dirección) antes de firmar algo, y pregunte el costo y si están aceptando casos.",
     not_found:
-      "No encontramos \"{name}\" en las listas del Departamento de Justicia (DOJ) de organizaciones reconocidas, representantes acreditados y proveedores gratuitos. Si dice que es abogado, búsquelo en el directorio de abogados de las cortes de Nueva York (enlace abajo).",
+      "\"{name}\" no aparece en las listas del DOJ que revisamos: la lista de la EOIR de organizaciones reconocidas y representantes acreditados, y la lista pro bono de la EOIR (revisadas el {date}). Eso solo no prueba un fraude: un abogado con licencia puede no estar en estas listas; búsquelo en el directorio de abogados de las cortes de Nueva York (enlace abajo).",
     possible: " Hay nombres parecidos abajo; revise si es exactamente la misma oficina y dirección.",
     warning:
-      "Solo los abogados con licencia y los representantes acreditados por el Departamento de Justicia (DOJ) pueden dar ayuda legal de inmigración. Los notarios, las agencias de viajes y los \"consultores\" no pueden, aunque digan que sí. Nunca pague a nadie que le prometa \"arreglar los papeles\". Antes de pagar o firmar algo, hable con uno de los proveedores gratuitos de abajo.",
+      "Solo los abogados con licencia y los representantes acreditados por el DOJ pueden dar ayuda legal de inmigración. Los notarios, las agencias de viajes y los \"consultores\" no pueden, aunque digan que sí. Nunca pague a nadie que le prometa \"arreglar los papeles\". Antes de pagar o firmar algo, consulte una de las opciones de las listas del DOJ de abajo.",
+    options_title: "Opciones de las listas del DOJ cerca de usted. No sabemos el costo ni si están aceptando casos: llame para confirmar.",
     trust_note:
-      "Algunos de estos proveedores están en las listas del DOJ, pero nuestro equipo todavía no revisó sus datos. Llame antes de ir.",
+      "Algunas de estas opciones están en las listas del DOJ, pero nuestro equipo todavía no revisó sus datos. Llame antes de ir.",
     none_nearby:
-      "Todavía no tenemos proveedores legales gratuitos en nuestra lista. Puede llamar al 311 y pedir \"ayuda legal de inmigración gratis\" (ActionNYC).",
+      "Todavía no tenemos opciones de las listas del DOJ con dirección en esta zona. Puede llamar al 311 y pedir ayuda legal de inmigración (ActionNYC).",
+    unknown: "no sabemos",
   },
   en: {
     found_roster:
-      "\"{match}\" appears on the Department of Justice (DOJ) roster of recognized organizations and accredited representatives, who can give immigration legal help. Still, confirm in person that it is the same office (name and address) before you pay or sign anything.",
+      "\"{match}\" appears on the DOJ EOIR roster of recognized organizations and accredited representatives (checked {date}). Recognized organizations and their accredited representatives can give immigration legal help. Still, confirm in person that it is the same office (name and address) before you pay or sign anything. Being listed doesn't say whether it's free or taking cases.",
+    found_rep:
+      "\"{match}\" appears on the DOJ EOIR roster as an accredited representative of {org} (checked {date}). Accredited representatives can give immigration legal help through their organization. Confirm in person that they work there before you pay or sign anything.",
     found_pro_bono:
-      "\"{match}\" appears on the immigration court's (EOIR, Department of Justice) list of free (pro bono) legal providers. Still, confirm in person that it is the same office (name and address) before you sign anything.",
+      "\"{match}\" appears on the DOJ EOIR list of pro bono legal service providers (checked {date}). Still, confirm in person that it is the same office (name and address) before you sign anything, and ask about cost and whether they are taking cases.",
     not_found:
-      "We did not find \"{name}\" on the Department of Justice (DOJ) lists of recognized organizations, accredited representatives, and free providers. If they say they are a lawyer, look them up in the NY courts attorney search (link below).",
+      "\"{name}\" is not on the DOJ lists we searched: the EOIR roster of recognized organizations and accredited representatives, and the EOIR pro bono list (checked {date}). That alone isn't proof of fraud: a licensed attorney may not appear on these lists, so look them up in the NY courts attorney search (link below).",
     possible: " There are similar names below; check that it is exactly the same office and address.",
     warning:
-      "Only licensed attorneys and DOJ-accredited representatives can give immigration legal help. Notarios, travel agencies, and \"consultants\" cannot, even if they say they can. Never pay anyone who promises to \"fix your papers\". Before you pay or sign anything, talk with one of the free providers below.",
+      "Only licensed attorneys and DOJ-accredited representatives can give immigration legal help. Notarios, travel agencies, and \"consultants\" cannot, even if they say they can. Never pay anyone who promises to \"fix your papers\". Before you pay or sign anything, contact one of the DOJ-listed options below.",
+    options_title: "DOJ-listed options near you. We don't know the cost or whether they are taking cases: call to confirm.",
     trust_note:
-      "Some of these providers are on the DOJ lists, but our team has not reviewed their details yet. Call before you go.",
+      "Some of these options are on the DOJ lists, but our team has not reviewed their details yet. Call before you go.",
     none_nearby:
-      "We do not have free legal providers on our list yet. You can call 311 and ask for \"free immigration legal help\" (ActionNYC).",
+      "We don't have DOJ-listed options with an address in this area yet. You can call 311 and ask for immigration legal help (ActionNYC).",
+    unknown: "unknown",
   },
 };
 
@@ -151,7 +176,12 @@ export function matchProvider(query: string, places: Place[]): { match: ScoredPl
   const scored = places
     .map((p) => scorePlace(query, p))
     .filter((s) => s.score >= POSSIBLE_THRESHOLD)
-    .sort((a, b) => Number(b.strong) - Number(a.strong) || b.score - a.score);
+    .sort((a, b) =>
+      Number(b.strong) - Number(a.strong) || b.score - a.score ||
+      // Ties (an org and its representatives all match the org field): the org's own row wins.
+      similarity(query, b.place.name) - similarity(query, a.place.name) ||
+      Number(Boolean(b.place.address)) - Number(Boolean(a.place.address))
+    );
   const match = scored[0]?.strong ? scored[0] : null;
   const possible = scored.filter((s) => s !== match).slice(0, MAX_POSSIBLE);
   return { match, possible };
@@ -176,7 +206,10 @@ function isVerified(p: Place): boolean {
  * places, each showing its trust level, and a trust_note says so.
  */
 export function pickProviders(places: Place[], near: NearResult): Place[] {
+  places = places.filter((p) => p.zip && p.address);
   const trustOrder = (p: Place) => (p.trust === "official" ? 0 : p.trust === "verified" ? 1 : p.trust === "community" ? 2 : 3);
+  // One option per office: an org on both DOJ lists shows once (both list names, see providerView).
+  const seen = new Set<string>();
   return [...places]
     .sort((a, b) =>
       Number(isVerified(b)) - Number(isVerified(a)) ||
@@ -185,10 +218,24 @@ export function pickProviders(places: Place[], near: NearResult): Place[] {
       trustOrder(a) - trustOrder(b) ||
       String(a.name).localeCompare(String(b.name))
     )
+    .filter((p) => {
+      const key = `${normalize(p.name)}|${normalize(p.address)}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
     .slice(0, MAX_PROVIDERS);
 }
 
-function providerView(p: Place, near: NearResult, lang: Lang) {
+/** Every DOJ list an office is on (an org can be on the roster and the pro bono list). */
+function listsFor(p: Place, all: Place[], lang: Lang): string {
+  const key = `${normalize(p.name)}|${normalize(p.address)}`;
+  const types = new Set(all.filter((q) => `${normalize(q.name)}|${normalize(q.address)}` === key).map((q) => q.org_type));
+  types.add(p.org_type);
+  return [...types].map((t) => LIST_NAME[t]?.[lang]).filter(Boolean).join("; ");
+}
+
+function providerView(p: Place, near: NearResult, lang: Lang, all: Place[] = []) {
   const km = distanceKm(p, near);
   return {
     id: p.id,
@@ -203,6 +250,10 @@ function providerView(p: Place, near: NearResult, lang: Lang) {
     languages: p.languages,
     trust: p.trust,
     trust_label: trustLabel(lang, p.trust),
+    list_name: listsFor(p, all, lang),
+    list_checked: p.last_checked,
+    fee: TEXT[lang].unknown,
+    intake: TEXT[lang].unknown,
     ...(km !== undefined ? { distance_km: km } : {}),
     ...sourceOf(p, lang),
     last_checked: p.last_checked,
@@ -218,8 +269,10 @@ export const checkProvider: Tool = {
       "says they can fix papers (\"me arregla los papeles\", \"someone says they can fix my papers\"), or asks \"is " +
       "this person legit?\" / \"¿es de confianza?\", especially if they ask for money. Looks the name up in the " +
       "Department of Justice lists (recognized organizations, accredited representatives, EOIR pro bono list) and " +
-      "returns up to 3 free legal providers nearby (DOJ-listed; verified ones first, each with its trust level) " +
-      "plus links to verify. End your answer with one of those free providers. Only licensed attorneys and " +
+      "returns up to 3 DOJ-listed options nearby, each with the list it is on and the date we checked it (fee and " +
+      "intake capacity are unknown), plus links to verify. End your answer with those DOJ-listed options. If the " +
+      "name is not found, say it is not on the lists we searched; never call anyone a fraud, since licensed " +
+      "attorneys may not appear on these lists. Only licensed attorneys and " +
       "DOJ-accredited representatives can give immigration legal help; notarios cannot. Do not ask about the " +
       "person's immigration status. Information and referrals only, not legal advice.",
     inputSchema: {
@@ -231,7 +284,7 @@ export const checkProvider: Tool = {
         },
         near: {
           type: "string",
-          description: "Zip code, neighborhood, or borough for nearby free providers, e.g. '11368' or 'Corona'.",
+          description: "Zip code, neighborhood, or borough for nearby DOJ-listed options, e.g. '11368' or 'Corona'.",
         },
         language: {
           type: "string",
@@ -258,11 +311,16 @@ export const checkProvider: Tool = {
     const providers = pickProviders(places, near);
     const found = match !== null;
 
+    // Our check date for the lists: the newest last_checked among DOJ rows.
+    const listsChecked = places.reduce((d, p) => (p.last_checked > d ? p.last_checked : d), "");
+    const isRep = found && match.place.org && match.place.name !== match.place.org &&
+      similarity(name, match.place.org) >= similarity(name, match.place.name);
     let what = found
-      ? fill(match.place.org_type === "doj_pro_bono" ? text.found_pro_bono : text.found_roster, {
-        match: displayName(match.place),
-      })
-      : fill(text.not_found, { name });
+      ? fill(
+        match.place.org_type === "doj_pro_bono" ? text.found_pro_bono : isRep ? text.found_rep : text.found_roster,
+        { match: displayName(match.place), org: match.place.org, date: match.place.last_checked || listsChecked },
+      )
+      : fill(text.not_found, { name, date: listsChecked });
     if (!found && possible.length) what += text.possible;
 
     const result = {
@@ -273,6 +331,8 @@ export const checkProvider: Tool = {
           name: match.place.name,
           org: match.place.org,
           org_type: match.place.org_type,
+          list_name: LIST_NAME[match.place.org_type]?.[lang] ?? "",
+          list_checked: match.place.last_checked,
           address: match.place.address,
           phone: match.place.phone,
           trust: match.place.trust,
@@ -292,9 +352,8 @@ export const checkProvider: Tool = {
       })),
       what_this_means: what,
       warning: found ? null : text.warning,
-      // "verified" only when every listed provider is official/verified; otherwise "on the DOJ lists".
-      free_providers_title: providers.length ? freeProvidersTitle(lang, providers.map((p) => p.trust)) : text.none_nearby,
-      free_legal_providers: providers.map((p) => providerView(p, near, lang)),
+      options_title: providers.length ? text.options_title : text.none_nearby,
+      doj_listed_options: providers.map((p) => providerView(p, near, lang, places)),
       ...(providers.some((p) => !isVerified(p)) ? { trust_note: text.trust_note } : {}),
       how_to_verify: HOW_TO_VERIFY[lang],
       near: near.matched ? near.label : null,

@@ -13,10 +13,10 @@ const es = {
   disclaimer:
     "Esto es información y referidos, no es consejo legal. Para ayuda legal, hable con un abogado con licencia o con un representante acreditado por el Departamento de Justicia (DOJ).",
   notario_warning:
-    "Cuidado: solo los abogados con licencia y los representantes acreditados por el Departamento de Justicia (DOJ) pueden dar ayuda legal de inmigración. Los notarios no pueden, aunque se anuncien como expertos. No pague ni firme nada hasta hablar con un proveedor legal gratuito y verificado.",
+    "Cuidado: solo los abogados con licencia y los representantes acreditados por el Departamento de Justicia (DOJ) pueden dar ayuda legal de inmigración. Los notarios no pueden, aunque se anuncien como expertos. No pague ni firme nada hasta hablar con un abogado con licencia o un representante acreditado por el DOJ.",
   status_note_prefix: "Antes de aplicar:",
   status_talk_to_provider:
-    "Este programa puede depender de su situación. Antes de aplicar, hable con un proveedor legal gratuito y verificado.",
+    "Este programa puede depender de su situación. Antes de aplicar, hable con un abogado con licencia o un representante acreditado por el DOJ (vea las opciones de las listas del DOJ).",
   no_results: "No encontramos lugares para {need} cerca de {near} todavía. Le mostramos opciones en toda la ciudad.",
   no_results_anywhere:
     "Todavía no tenemos lugares para {need}. Puede llamar al 311 y pedir ayuda en español.",
@@ -29,8 +29,8 @@ const es = {
   provider_found: "\"{name}\" aparece en la lista oficial del Departamento de Justicia (DOJ).",
   provider_not_found:
     "No encontramos \"{name}\" en las listas oficiales del Departamento de Justicia (DOJ) de abogados y representantes acreditados.",
-  free_providers_nearby: "Proveedores legales gratuitos y verificados cerca de usted:",
-  free_providers_doj: "Proveedores legales gratuitos en las listas del Departamento de Justicia (DOJ) cerca de usted:",
+  free_providers_nearby: "Opciones de las listas del DOJ cerca de usted (verificadas por nuestro equipo):",
+  free_providers_doj: "Opciones de las listas del DOJ cerca de usted:",
   source_community: "Enviado por la comunidad y revisado por nuestro equipo el {date}.",
   plan_intro: "Su plan, paso a paso. El primer paso le ayuda con los siguientes.",
   intake_title_person: "Resumen para llevar a su cita legal",
@@ -84,10 +84,10 @@ const en: Record<I18nKey, string> = {
   disclaimer:
     "This is information and referrals, not legal advice. For legal help, talk with a licensed attorney or a DOJ-accredited representative.",
   notario_warning:
-    "Careful: only licensed attorneys and DOJ-accredited representatives can give immigration legal help. Notarios cannot, even if they advertise as experts. Do not pay or sign anything until you talk with a free, verified legal provider.",
+    "Careful: only licensed attorneys and DOJ-accredited representatives can give immigration legal help. Notarios cannot, even if they advertise as experts. Do not pay or sign anything until you talk with a licensed attorney or a DOJ-accredited representative.",
   status_note_prefix: "Before you apply:",
   status_talk_to_provider:
-    "This program may depend on your situation. Before you apply, talk with a free, verified legal provider.",
+    "This program may depend on your situation. Before you apply, talk with a licensed attorney or a DOJ-accredited representative (see the DOJ-listed options).",
   no_results: "We did not find places for {need} near {near} yet. Here are options across the city.",
   no_results_anywhere: "We do not have places for {need} yet. You can call 311 and ask for help in your language.",
   unknown_location: "We did not recognize \"{near}\". Try a zip code (for example 11368) or a neighborhood.",
@@ -98,8 +98,8 @@ const en: Record<I18nKey, string> = {
   provider_found: "\"{name}\" appears on the official Department of Justice (DOJ) list.",
   provider_not_found:
     "We did not find \"{name}\" on the official Department of Justice (DOJ) lists of attorneys and accredited representatives.",
-  free_providers_nearby: "Free, verified legal providers near you:",
-  free_providers_doj: "Free legal providers on the Department of Justice (DOJ) lists near you:",
+  free_providers_nearby: "DOJ-listed options near you (checked by our team):",
+  free_providers_doj: "DOJ-listed options near you:",
   source_community: "Sent by the community and reviewed by our team on {date}.",
   plan_intro: "Your plan, step by step. The first step helps with the next ones.",
   intake_title_person: "Summary to bring to your legal appointment",
@@ -170,7 +170,7 @@ export function needLabel(lang: unknown, need: string): string {
 }
 
 /**
- * Heading for a list of free legal providers. Says "verified" only when every
+ * Heading for DOJ-listed options. Says "checked by our team" only when every
  * provider listed is official or verified; otherwise "on the DOJ lists".
  */
 export function freeProvidersTitle(lang: unknown, trusts: unknown[]): string {

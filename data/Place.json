@@ -320,8 +320,8 @@
     "org": "South Bronx United, Inc.",
     "org_type": "doj_roster",
     "address": "PO Box 1267, Bronx, NY 10451",
-    "borough": "Bronx",
-    "zip": "10451",
+    "borough": "",
+    "zip": "",
     "lat": null,
     "lng": null,
     "hours": "",
@@ -333,7 +333,7 @@
     "source_url": "https://www.justice.gov/eoir/media/1398081/dl?inline#page=102",
     "last_checked": "2026-10-10",
     "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "updated_date": "2026-10-10T17:20:35.806Z"
   },
   {
     "id": "place-doj-ro-the-bronx-defenders",
@@ -1622,8 +1622,8 @@
     "org": "Jacob A. Riis Neighborhood Settlement",
     "org_type": "doj_roster",
     "address": "10-25 41st Ave, New York, NY 11101",
-    "borough": "Queens",
-    "zip": "11101",
+    "borough": "",
+    "zip": "",
     "lat": null,
     "lng": null,
     "hours": "",
@@ -1635,7 +1635,7 @@
     "source_url": "https://www.justice.gov/eoir/media/1398081/dl?inline#page=110",
     "last_checked": "2026-10-10",
     "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "updated_date": "2026-10-10T17:20:35.806Z"
   },
   {
     "id": "place-doj-ro-legal-services-nyc",
@@ -1958,8 +1958,8 @@
     "org": "Urban Justice Center",
     "org_type": "doj_roster",
     "address": "40 Rector Street, 9th Floor, New York, NY 11206",
-    "borough": "Brooklyn",
-    "zip": "11206",
+    "borough": "",
+    "zip": "",
     "lat": null,
     "lng": null,
     "hours": "",
@@ -1971,7 +1971,7 @@
     "source_url": "https://www.justice.gov/eoir/media/1398081/dl?inline#page=111",
     "last_checked": "2026-10-10",
     "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "updated_date": "2026-10-10T17:20:35.806Z"
   },
   {
     "id": "place-doj-ro-urban-justice-center-williams-street",
@@ -2214,8 +2214,8 @@
     "org": "Safe Horizon",
     "org_type": "doj_pro_bono",
     "address": "2 Lafayette Street, 3rd Floor, Brooklyn, NY 10007",
-    "borough": "Manhattan",
-    "zip": "10007",
+    "borough": "",
+    "zip": "",
     "lat": null,
     "lng": null,
     "hours": "",
@@ -2230,7 +2230,7 @@
     "source_url": "https://www.justice.gov/eoir/file/probonofulllist/download#page=95",
     "last_checked": "2026-10-10",
     "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "updated_date": "2026-10-10T17:20:35.806Z"
   },
   {
     "id": "place-doj-pb-hias-new-york",
@@ -19941,5 +19941,49 @@
     "last_checked": "2026-10-10",
     "created_date": "2026-10-10T17:00:38.501Z",
     "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "place-doj-pb-la-victoria-foundation",
+    "name": "La Victoria Foundation",
+    "org": "La Victoria Foundation",
+    "org_type": "doj_pro_bono",
+    "address": "3753 90th Street, Suite 13B, Jackson Heights, NY 11372",
+    "borough": "Queens",
+    "zip": "11372",
+    "lat": 40.74942,
+    "lng": -73.876592,
+    "hours": "",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [
+      "es"
+    ],
+    "phone": "(347) 985-4079",
+    "trust": "official",
+    "source_url": "https://www.justice.gov/eoir/file/probonofulllist/download#page=94",
+    "last_checked": "2026-10-10",
+    "created_date": "2026-10-10T17:20:35.806Z",
+    "updated_date": "2026-10-10T17:20:35.806Z"
+  },
+  {
+    "id": "place-doj-pb-the-legal-aid-society",
+    "name": "The Legal Aid Society",
+    "org": "The Legal Aid Society",
+    "org_type": "doj_pro_bono",
+    "address": "49 Thomas Street, 5th Floor, New York, NY 10013",
+    "borough": "Manhattan",
+    "zip": "10013",
+    "lat": 40.716611,
+    "lng": -74.006699,
+    "hours": "",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "(212) 577-3300",
+    "trust": "official",
+    "source_url": "https://www.justice.gov/eoir/file/probonofulllist/download#page=96",
+    "last_checked": "2026-10-10",
+    "created_date": "2026-10-10T17:20:35.806Z",
+    "updated_date": "2026-10-10T17:20:35.806Z"
   }
 ]
