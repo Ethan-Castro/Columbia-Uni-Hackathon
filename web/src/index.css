@@ -25,7 +25,7 @@
   --color-destructive-foreground: #ffffff;
   --color-brand: var(--brand);
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-sans: "Inter", "Helvetica Neue", Helvetica, ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Inter", "Helvetica Neue", Helvetica, ui-sans-serif, system-ui, sans-serif;
   --radius-lg: var(--radius);
   --radius-xl: 28px;
   --radius-2xl: 32px;

@@ -7,7 +7,6 @@ import {
   ArrowRight, Bot, Check, Copy, Database, MessageCircle, MessagesSquare, Phone, Search, Send, ShieldCheck, Sparkles, Users,
 } from "lucide-react";
 import { Hero10 } from "@/components/ui/hero-10";
-import { ChatGPTTile, ClaudeTile, PhoneTile, WhatsAppTile } from "@/components/ui/app-tiles";
 import { Button } from "@/components/ui/button";
 import { getHealth } from "../api.ts";
 import { useI18n } from "../i18n.tsx";
@@ -135,7 +134,7 @@ function Section({ id, kicker, title, intro, children }: { id?: string; kicker: 
     <section id={id} className="mx-auto w-full max-w-6xl scroll-mt-28 px-6 py-16 sm:py-20">
       <div className="mx-auto mb-10 max-w-2xl text-center">
         <p className="text-brand mb-2 text-xs font-semibold uppercase tracking-widest">{kicker}</p>
-        <h2 className="font-sans text-3xl font-bold tracking-tight sm:text-4xl">{title}</h2>
+        <h2 className="font-serif text-3xl font-normal tracking-tight sm:text-4xl">{title}</h2>
         {intro && <p className="text-muted-foreground mt-3">{intro}</p>}
       </div>
       {children}
@@ -177,16 +176,13 @@ export function Home() {
     <div className="home">
       <Hero10
         title={c.title}
-        titleNode={lang === "en"
-          ? <>Help in <ClaudeTile /> New York, <ChatGPTTile /> in your <WhatsAppTile /> language <PhoneTile /></>
-          : <>Ayuda en <ClaudeTile /> Nueva York, <ChatGPTTile /> en su <WhatsAppTile /> idioma <PhoneTile /></>}
         titleLine2Prefix={c.line2}
         titleHighlight={c.highlight}
         description={c.description}
         socialProof={c.proof(counts.Place, counts.Program)}
         images={["hero/wa.png", "hero/claude.png", "hero/directory.png"]}
         imageAlts={c.alts}
-        animation="none"
+        animation="subtle"
         primaryCTA={{ ctaEnabled: true, text: c.cta1, link: HREF.directory, variant: "default", size: "lg" }}
         secondaryCTA={{ ctaEnabled: true, text: c.cta2, link: "#how", variant: "outline", size: "lg" }}
       />
@@ -267,7 +263,7 @@ export function Home() {
       <section className="mx-auto w-full max-w-6xl px-6 py-16 sm:py-20">
         <div className="bg-primary text-primary-foreground flex flex-col items-center gap-5 rounded-2xl px-6 py-12 text-center">
           <Users className="size-7 opacity-80" />
-          <h2 className="font-sans text-3xl font-bold tracking-tight sm:text-4xl">{c.orgTitle}</h2>
+          <h2 className="font-serif text-3xl font-normal tracking-tight sm:text-4xl">{c.orgTitle}</h2>
           <p className="max-w-xl text-sm opacity-80 sm:text-base">{c.orgBody}</p>
           <div className="flex flex-wrap justify-center gap-3">
             <Button asChild size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 no-underline">

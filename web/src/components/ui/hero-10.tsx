@@ -10,8 +10,6 @@ import { Cta, type CtaProps } from '@/components/ui/hero-10-utils/cta'
 
 export interface Hero10Props {
   title: string
-  /** Replaces the text title (e.g. a headline with inline icons). */
-  titleNode?: React.ReactNode
   titleLine2Prefix?: string
   titleHighlight?: string
   description: string
@@ -27,8 +25,8 @@ export interface Hero10Props {
 const variantStyles = {
   standard: {
     section: 'py-20 sm:py-28',
-    title: 'text-[2.6rem] sm:text-6xl md:text-7xl',
-    description: 'max-w-xl text-base sm:text-xl',
+    title: 'text-3xl sm:text-4xl md:text-5xl',
+    description: 'max-w-lg text-sm sm:text-base',
     header: 'gap-5',
     content: 'gap-8 sm:gap-10',
     fan: 'max-w-3xl',
@@ -163,7 +161,6 @@ function ImageFan({
 
 export function Hero10({
   title,
-  titleNode,
   titleLine2Prefix,
   titleHighlight,
   description,
@@ -179,12 +176,10 @@ export function Hero10({
   const animate = animation === 'subtle' && !reduce
   const vs = variantStyles[variant]
 
-  const titleElement = titleNode ? (
-    <h1 className={cn('text-foreground font-sans font-extrabold leading-[1.04] tracking-[-0.045em]', vs.title)}>{titleNode}</h1>
-  ) : title && (
+  const titleElement = title && (
     <h1
       className={cn(
-        'text-foreground font-sans font-bold tracking-tight text-balance',
+        'text-foreground font-serif font-normal tracking-tight text-balance',
         vs.title,
       )}
     >
