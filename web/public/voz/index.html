@@ -102,22 +102,47 @@ body.found #again, body.error #again { display:grid; }
   function announce(t) { live.textContent = ""; setTimeout(function () { live.textContent = t; }, 50); }
 
   // ---- voice out: ElevenLabs via /speak, else the phone's own voice ----
+  // Phone voice fallback: pick the most natural installed voice (iOS "Enhanced"/"Premium"/Siri voices first).
+  var deviceVoice = null;
+  function pickVoice() {
+    if (!("speechSynthesis" in window)) return;
+    var want = LANG === "en" ? /^en[-_]US/i : /^es[-_](US|MX)/i, any = LANG === "en" ? /^en/i : /^es/i;
+    var vs = speechSynthesis.getVoices().filter(function (v) { return any.test(v.lang); });
+    var score = function (v) {
+      return (/premium|enhanced|mejorad|siri|neural|natural/i.test(v.name) ? 10 : 0) + (want.test(v.lang) ? 3 : 0) +
+        (/paulina|m[oó]nica|samantha|ava|zoe|google/i.test(v.name) ? 2 : 0) + (v.localService ? 1 : 0);
+    };
+    vs.sort(function (a, b) { return score(b) - score(a); });
+    deviceVoice = vs[0] || null;
+  }
+  if ("speechSynthesis" in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
   function speakDevice(text) {
     return new Promise(function (res) {
       if (!("speechSynthesis" in window)) return res();
       var u = new SpeechSynthesisUtterance(text);
-      u.lang = LANG === "en" ? "en-US" : "es-US"; u.rate = 0.98;
+      u.lang = deviceVoice ? deviceVoice.lang : (LANG === "en" ? "en-US" : "es-US");
+      if (deviceVoice) u.voice = deviceVoice;
+      u.rate = 1; u.pitch = 1;
       u.onend = u.onerror = function () { res(); };
       speechSynthesis.cancel(); speechSynthesis.speak(u);
     });
+  }
+  // ElevenLabs audio, cached per sentence (the opening question is fetched before the first tap).
+  var cache = {};
+  function fetchVoice(text) {
+    if (!cache[text]) {
+      cache[text] = fetch(BASE + "speak", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ text: text }) })
+        .then(function (r) { if (!r.ok) { elevenOk = false; throw 0; } return r.blob(); });
+      cache[text].catch(function () { delete cache[text]; });
+    }
+    return cache[text];
   }
   function say(text) {
     announce(text);
     state(body.classList.contains("found") ? "found speaking" : "speaking");
     var done = function () { body.classList.remove("speaking"); };
     if (!elevenOk) return speakDevice(text).then(done);
-    return fetch(BASE + "speak", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ text: text }) })
-      .then(function (r) { if (!r.ok) { elevenOk = false; throw 0; } return r.blob(); })
+    return fetchVoice(text)
       .then(function (b) {
         return new Promise(function (res) {
           audio.src = URL.createObjectURL(b);
@@ -128,6 +153,7 @@ body.found #again, body.error #again { display:grid; }
       .catch(function () { return speakDevice(text); })
       .then(done);
   }
+  fetchVoice(P.ask).catch(function () {});
 
   // ---- voice in: on-device recognition, else record + ElevenLabs Scribe ----
   var SR = window.SpeechRecognition || window.webkitSpeechRecognition;

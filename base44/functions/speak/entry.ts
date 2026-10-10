@@ -16,7 +16,7 @@ export default async function handler(req: Request): Promise<Response> {
       String(body?.text ?? ""),
       key,
       getSecret("ELEVENLABS_VOICE_ID") || "21m00Tcm4TlvDq8ikWAM",
-      getSecret("ELEVENLABS_MODEL") || "eleven_flash_v2_5",
+      getSecret("ELEVENLABS_MODEL") || "eleven_multilingual_v2",
     );
   } catch (err) {
     return errorResponse(err);

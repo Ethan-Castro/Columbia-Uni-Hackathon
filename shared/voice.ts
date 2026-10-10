@@ -25,14 +25,14 @@ const SECONDARY_PENALTY_KM = 1.5;
 
 const SAY: Record<Lang, Record<string, string>> = {
   es: {
-    found: "Encontré {name}, a {km} kilómetros. Toque el botón verde para llamar.",
+    found: "Encontré {name}, {dist}. Toque el botón verde para llamar.",
     found_close: "Encontré {name}, muy cerca de usted. Toque el botón verde para llamar.",
     what: "No le entendí bien. ¿Qué necesita? Por ejemplo: comida, un médico o un abogado.",
     none: "No encontré un lugar con teléfono cerca para eso. Llame al tres uno uno.",
     where: "Necesito saber dónde está. Permita la ubicación, o diga su barrio.",
   },
   en: {
-    found: "I found {name}, {km} kilometers away. Tap the green button to call.",
+    found: "I found {name}, {dist}. Tap the green button to call.",
     found_close: "I found {name}, very close to you. Tap the green button to call.",
     what: "Sorry, I didn't catch that. What do you need? For example: food, a doctor or a lawyer.",
     none: "I couldn't find a place with a phone nearby for that. Call three one one.",
@@ -92,7 +92,12 @@ export async function voiceQuery(req: Request, body: Body) {
 
   const { p, km } = scored[0];
   const name = spokenName(p.name);
-  const kmText = km < 10 ? km.toFixed(1).replace(".", lang === "es" ? "," : ".") : String(Math.round(km));
+  // How people say it in NYC: minutes on foot when walkable, else miles.
+  const minutes = Math.max(2, Math.round((km * 1.25 / 5)* 60)); // street grid ~1.25x straight line, 5 km/h
+  const miles = Math.max(1, Math.round(km * 1.25 / 1.609));
+  const dist = minutes <= 25
+    ? (lang === "es" ? `a unos ${minutes} minutos caminando` : `about a ${minutes} minute walk`)
+    : (lang === "es" ? `a unas ${miles} ${miles === 1 ? "milla" : "millas"}` : `about ${miles} ${miles === 1 ? "mile" : "miles"} away`);
   return {
     ok: true,
     need,
@@ -100,7 +105,7 @@ export async function voiceQuery(req: Request, body: Body) {
       id: p.id, name: p.name, phone: p.phone, tel: telOf(p.phone ?? ""), address: p.address ?? "",
       distance_km: Math.round(km * 10) / 10, trust: p.trust, last_checked: p.last_checked ?? "",
     },
-    say: fill(km < 0.3 ? say.found_close : say.found, { name, km: kmText }),
+    say: fill(km < 0.3 ? say.found_close : say.found, { name, dist }),
   };
 }
 
@@ -111,7 +116,7 @@ export async function speak(text: string, apiKey: string, voiceId: string, model
   const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${encodeURIComponent(voiceId)}?output_format=mp3_44100_64`, {
     method: "POST",
     headers: { "xi-api-key": apiKey, "content-type": "application/json", accept: "audio/mpeg" },
-    body: JSON.stringify({ text: clean, model_id: modelId, voice_settings: { stability: 0.5, similarity_boost: 0.75 } }),
+    body: JSON.stringify({ text: clean, model_id: modelId, voice_settings: { stability: 0.4, similarity_boost: 0.8, style: 0.2, use_speaker_boost: true } }),
     signal: AbortSignal.timeout(15_000),
   });
   if (!res.ok) throw new HttpError(502, `ElevenLabs error ${res.status}`);
