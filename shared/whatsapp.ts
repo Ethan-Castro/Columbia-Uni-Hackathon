@@ -44,10 +44,10 @@ const TEXT: Record<Lang, Record<string, string>> = {
     help:
       "Hola, soy NYC Navigator. Le ayudo a encontrar servicios para inmigrantes en Nueva York.\n\n" +
       "Escríbame qué necesita y su código postal o barrio, en un solo mensaje. Por ejemplo:\n" +
-      "• comida en Corona\n• acabo de llegar con mis hijos a 11368, necesito comida, médico e identificación\n" +
-      "• ¿es legítimo el notario Juan Pérez en Queens?\n\n" +
+      "• comida en el Bronx\n• acabo de llegar con mis hijos a Sunset Park, necesito comida, médico e identificación\n" +
+      "• ¿es legítimo el notario Juan Pérez en Washington Heights?\n\n" +
       "Nunca le preguntamos por su estatus migratorio.",
-    need_near: "¿En qué código postal o barrio está? Escríbame lo que necesita y el lugar en un solo mensaje, por ejemplo: comida en 11368.",
+    need_near: "¿En qué código postal, barrio o condado está? Escríbame lo que necesita y el lugar en un solo mensaje, por ejemplo: comida en 10032 o comida en Bushwick.",
     need_what: "¿Qué necesita? Por ejemplo: comida, ayuda legal, salud, identificación, escuela o dinero. Escríbalo junto con su código postal o barrio.",
     found: "Cerca de {near}:",
     none: "No encontré lugares para eso cerca de {near}. Pruebe con otro barrio o llame al 311.",
@@ -62,10 +62,10 @@ const TEXT: Record<Lang, Record<string, string>> = {
     help:
       "Hi, I'm NYC Navigator. I help immigrant New Yorkers find services.\n\n" +
       "Text me what you need and your zip code or neighborhood, in one message. For example:\n" +
-      "• food in Corona\n• just arrived with my kids in 11368, need food, a doctor and an ID\n" +
+      "• food in the Bronx\n• just arrived with my kids in Sunset Park, need food, a doctor and an ID\n" +
       "• is the notario Juan Perez in Queens legit?\n\n" +
       "We never ask about immigration status.",
-    need_near: "Which zip code or neighborhood are you in? Send what you need and where in one message, e.g. food in 11368.",
+    need_near: "Which zip code, neighborhood or borough are you in? Send what you need and where in one message, e.g. food in 10032 or food in Bushwick.",
     need_what: "What do you need? For example: food, legal help, health care, ID, school or money. Send it with your zip code or neighborhood.",
     found: "Near {near}:",
     none: "I couldn't find places for that near {near}. Try another neighborhood or call 311.",
