@@ -75,7 +75,25 @@ const MAX_DRAFTS = 15;
 
 // ---------- input ----------
 
+/** Citywide sweep: every borough x the needs people ask for most. One per run, rotating. */
+export const CITYWIDE_QUERIES: string[] = (() => {
+  const topics = ["food pantry", "free immigration legal help", "WIC office", "IDNYC enrollment site", "free health clinic", "ESL classes for adults", "worker center", "tenant help"];
+  const places = ["Queens", "Brooklyn", "Bronx", "Manhattan", "Staten Island"];
+  return topics.flatMap((t) => places.map((p) => `${t} ${p}`));
+})();
+
+/** The citywide query for this run: an explicit index, else rotate by the current 10-minute slot. */
+export function citywideQuery(index?: unknown): { query: string; index: number } {
+  const n = CITYWIDE_QUERIES.length;
+  const raw = Number(index);
+  const i = Number.isInteger(raw) ? ((raw % n) + n) % n : Math.floor(Date.now() / 600_000) % n;
+  return { query: CITYWIDE_QUERIES[i], index: i };
+}
+
 export function parseScoutInput(input: Record<string, unknown>): Required<ScoutInput> {
+  if ((input.citywide === true || input.citywide === "true") && !input.query) {
+    input = { ...input, query: citywideQuery(input.index).query };
+  }
   const query = typeof input.query === "string" ? input.query.trim().slice(0, 200) : "";
   if (!query) throw new HttpError(400, `"query" is required, e.g. "food pantry Corona Queens"`);
   const raw = Number(input.max_results ?? 5);

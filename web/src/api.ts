@@ -114,3 +114,10 @@ export interface ResourceDraft {
 export function draftResource(input: { url?: string; text?: string; ui_language?: string }) {
   return call<{ draft: ResourceDraft; filled: string[] }>("draft_resource", input);
 }
+
+/** Admin: one citywide Scout run (Tavily search -> drafts in the review queue). */
+export function runCitywideScout() {
+  return call<{ query: string; drafted: number; skipped_duplicates: number; submissions: Array<{ id: string | null; name: string; source_url: string }> }>(
+    "scout", { citywide: true, max_results: 5 }, { admin: true },
+  );
+}

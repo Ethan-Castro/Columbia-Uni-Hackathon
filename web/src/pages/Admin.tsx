@@ -1,7 +1,7 @@
 // Admin review queue: approve (optionally with edits) or reject community
 // submissions. Approving publishes a Place with trust "community".
 import { useCallback, useEffect, useState } from "react";
-import { ApiError, approveSubmission, listSubmissions, rejectSubmission } from "../api.ts";
+import { ApiError, approveSubmission, listSubmissions, rejectSubmission, runCitywideScout } from "../api.ts";
 import { AdminGate } from "../components/AdminGate.tsx";
 import { useI18n } from "../i18n.tsx";
 import { HREF } from "../router.ts";
@@ -24,7 +24,11 @@ export function Admin() {
 }
 
 function Queue({ signOut }: { signOut: (msg?: string) => void }) {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
+  const [scouting, setScouting] = useState(false);
+  const SC = lang === "en"
+    ? { title: "Find new resources across NYC", body: "Tavily searches the web for one topic in one borough (it rotates through all five boroughs and every need). New places land here as pending; nothing goes live until you approve it.", btn: "Search all of NYC now", busy: "Searching the web… (up to a minute)", done: (q: string, n: number, d: number) => `Searched “${q}”: ${n} new drafts, ${d} already known.` }
+    : { title: "Buscar nuevos recursos en toda la ciudad", body: "Tavily busca en la web un tema en un condado (va rotando por los cinco condados y todas las necesidades). Los lugares nuevos llegan aquí como pendientes; nada se publica hasta que usted lo apruebe.", btn: "Buscar en todo NYC ahora", busy: "Buscando en la web… (hasta un minuto)", done: (q: string, n: number, d: number) => `Buscamos “${q}”: ${n} borradores nuevos, ${d} ya conocidos.` };
   const [status, setStatus] = useState<Status>("pending");
   const [data, setData] = useState<ReviewListResult | null>(null);
   const [loading, setLoading] = useState(true);
@@ -51,8 +55,30 @@ function Queue({ signOut }: { signOut: (msg?: string) => void }) {
     ["rejected", t("adm_rejected")],
   ];
 
+  const scout = async () => {
+    setScouting(true);
+    setError("");
+    try {
+      const r = await runCitywideScout();
+      setFlash(SC.done(r.query, r.drafted, r.skipped_duplicates));
+      setStatus("pending");
+      load();
+    } catch (err) {
+      onError(err);
+    } finally {
+      setScouting(false);
+    }
+  };
+
   return (
     <>
+      <section className="card ai-fill" aria-labelledby="scout-title">
+        <h2 id="scout-title">{SC.title}</h2>
+        <p className="muted small">{SC.body}</p>
+        <div className="actions">
+          <button type="button" className="btn btn-primary" onClick={scout} disabled={scouting}>{scouting ? SC.busy : SC.btn}</button>
+        </div>
+      </section>
       <div className="tabs" role="tablist">
         {tabs.map(([s, name]) => (
           <button key={s} type="button" role="tab" aria-selected={status === s} className="tab" onClick={() => setStatus(s)}>
