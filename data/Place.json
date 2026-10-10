@@ -8675,16 +8675,16 @@
     "zip": "11373",
     "lat": 40.741423,
     "lng": -73.873064,
-    "hours": "Sat 9am-10am (pantry)",
+    "hours": "Sat 9am-10am (pantry; you can call ahead to have a bag prepared)",
     "open_evenings": false,
     "open_weekends": true,
     "languages": [],
     "phone": "(917) 533-1679",
-    "trust": "official",
+    "trust": "verified",
     "source_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D36&outFields=*&f=json",
     "last_checked": "2026-10-10",
     "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "updated_date": "2026-10-10T18:10:51.305Z"
   },
   {
     "id": "place-fh-first-presbyterian-russell-sage-memorial-chu",
