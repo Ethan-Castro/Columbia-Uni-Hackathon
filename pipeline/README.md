@@ -59,3 +59,10 @@ Order matters: `build_places_doj.py` rewrites places.csv with DOJ rows only; `bu
 ## Phase 4 notes (links)
 - `scripts/build_links.py` lists each relationship with the quote that supports it, taken from a NYC Benefits dataset row or a saved page. "Offers" links for WIC sites, IDNYC centers, SNAP centers and Family Welcome Centers come from the Phase 3 curation.
 - Deliberately not linked (no source): IDNYC unlocks a bank account (the City list exists, but there's no named bank's own page yet), and WIC pairs_with Child Health Plus.
+
+## Live import rules (after Ethan's 2:05 PM update)
+- Ethan's importer (`scripts/import.ts` at the repo root) fills a blank borough from the ZIP and rejects rows outside NYC. So `build_places_local.py` applies these rules before writing `places.csv`:
+  - DOJ rows with a city/ZIP conflict, or a PO Box only: the ZIP is blanked, so they stay in for the notario name check but out of location search until reviewed.
+  - Rows outside NYC, rows with no ZIP, conflicting-source rows, and a roster row that duplicates its pro bono row: moved to `out/places_held.csv`, each with a `held_reason`.
+- Check a handoff with Ethan's importer (Deno): `deno run --allow-read --allow-write --allow-env scripts/import.ts pipeline/out --dry-run --report=/tmp/import-report.json`
+- Send updates by committing on `main`, then `git pull --rebase && git push origin main`, then tell Ethan "pushed".

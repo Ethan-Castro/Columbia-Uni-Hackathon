@@ -184,13 +184,40 @@ def main():
     vfile = ROOT / "scripts" / "verified_ids.txt"
     if vfile.exists():
         verified = {l.split("#")[0].strip() for l in vfile.read_text().splitlines() if l.split("#")[0].strip()}
-    # rows marked hold=True (conflicting sources) stay out of the live import until resolved
-    held_ids = {p["id"] for p in PLACES if p.get("hold")}
-    held = [r for r in hs if r["id"] in held_ids]
-    hs = [r for r in hs if r["id"] not in held_ids]
+    # ---- live-import rules (Ethan's importer fills a blank borough from the ZIP and rejects non-NYC rows)
+    doj_det = {d["id"]: d for d in csv.DictReader((OUT / "places_doj_detail.csv").open(encoding="utf-8"))}
+    held, reasons = [], {}
+    def hold(r, why):
+        held.append(r); reasons[r["id"]] = why
+    for p in PLACES:                                   # conflicting sources (hold=True in the curation)
+        if p.get("hold"):
+            reasons[p["id"]] = "conflicting sources: " + p.get("review", "")
+    keep_doj = []
+    pb_keys = {(r["name"].lower(), r["address"].lower()) for r in doj if r["org_type"] == "doj_pro_bono"}
+    for r in doj:
+        scope = doj_det.get(r["id"], {}).get("nyc_scope", "")
+        if scope == "outside_nyc":
+            hold(r, "office outside NYC (listed for a NYC court)"); continue
+        if r["org_type"] == "doj_roster" and r["address"] and (r["name"].lower(), r["address"].lower()) in pb_keys:
+            hold(r, "same name and address as its pro bono list row, which is kept"); continue
+        if scope in ("nyc_uncertain", "mailing_only"):
+            r = {**r, "zip": ""}    # keeps it for the notario name check, out of location search, until reviewed
+        keep_doj.append(r)
+    doj = keep_doj
+    keep_hs = []
+    for r in hs:
+        if r["id"] in reasons:
+            hold(r, reasons[r["id"]])
+        elif not r["zip"]:
+            hold(r, "source gives no ZIP")
+        else:
+            keep_hs.append(r)
+    hs = keep_hs
+    held_ids = {r["id"] for r in held}
     offers = [o for o in offers if o["from_id"] not in held_ids]
     with (OUT / "places_held.csv").open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=COLUMNS); w.writeheader(); w.writerows(held)
+        w = csv.DictWriter(f, fieldnames=COLUMNS + ["held_reason"]); w.writeheader()
+        w.writerows({**r, "held_reason": reasons[r["id"]]} for r in held)
     rows = doj + fh + hs
     for r in rows:
         if r["id"] in verified:
@@ -201,7 +228,7 @@ def main():
     with (OUT / "places_local_detail.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(det[0].keys())); w.writeheader(); w.writerows(det)
     (OUT / "phase3_offers.json").write_text(json.dumps(offers, indent=1))
-    print(f"wrote out/places.csv: {len(rows)} rows ({len(doj)} DOJ, {len(fh)} Food Help NYC, {len(hs)} hand-sourced, {len(held)} held out in out/places_held.csv); "
+    print(f"wrote out/places.csv: {len(rows)} rows ({len(doj)} DOJ, {len(fh)} Food Help NYC, {len(hs)} hand-sourced; {len(held)} held out in out/places_held.csv); "
           f"{len(verified & {r['id'] for r in rows})} marked verified")
     report(rows + held, det, doj)
 

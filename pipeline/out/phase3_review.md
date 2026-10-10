@@ -13,7 +13,7 @@
 | rest of NYC | 523 | {'pantry': 508, 'idnyc': 2, 'benefits_office': 5, 'school': 3, 'consulate': 5} |
 | **total new** | 556 | |
 
-DOJ rows from Phase 2 kept unchanged: 399. Demo-zip DOJ offices: place-doj-ro-make-the-road-new-york-corona, place-doj-ro-world-immigration-center, place-doj-ro-la-victoria-foundation, place-doj-pb-la-victoria-foundation
+DOJ rows from Phase 2 kept unchanged: 395. Demo-zip DOJ offices: place-doj-ro-make-the-road-new-york-corona, place-doj-ro-world-immigration-center, place-doj-pb-la-victoria-foundation
 
 ## Source checks
 
@@ -23,7 +23,6 @@ DOJ rows from Phase 2 kept unchanged: 399. Demo-zip DOJ offices: place-doj-ro-ma
 
 ## Possible duplicates (same street address, kept as separate rows)
 
-- place-doj-ro-jacob-a-riis-neighborhood-settlement, place-fh-city-harvest-mobile-market-queensbridge-hous
 - place-fh-cathedral-of-st-john-the-divine, place-fh-cathedral-community-cares
 - place-fh-calvarys-mission, place-fh-evangelical-free-church-of-america-community
 - place-fh-eastchester-presbyterian-church-sk, place-fh-eastchester-presbyterian-church-fp
