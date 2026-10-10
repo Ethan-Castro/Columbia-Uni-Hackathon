@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<!-- Unlisted page: no menu link, not in sitemap.xml, not indexed. Reached only by typing /huggingface (or /hugging face, /hugging-face). -->
+<meta name="robots" content="noindex, nofollow">
+<title>Datos abiertos en Hugging Face | Mapa de Servicios NYC</title>
+<meta name="description" content="El grafo de conocimiento detrás del Mapa de Servicios NYC, publicado como datos abiertos en Hugging Face (CC BY 4.0).">
+<link rel="icon" href="/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>:root{--bg:#fcf5eb;--card:#fff;--fg:#111b21;--muted:#54656f;--line:#1c1e21;--soft:#f3ede4;--accent:#008069;--green:#25d366;--accent-soft:#e7fcef}
+@media (prefers-color-scheme:dark){:root{--bg:#0b141a;--card:#111b21;--fg:#e9edef;--muted:#8696a0;--line:#3b4a54;--soft:#202c33;--accent:#00a884;--green:#25d366;--accent-soft:#0f2a20}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--fg);font-weight:500;text-decoration:underline;text-decoration-color:var(--green);text-decoration-thickness:2px;text-underline-offset:4px}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.wrap{max-width:860px;margin:0 auto;padding:16px 16px 48px}
+header.top{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;padding:4px 0 16px;border-bottom:1px solid var(--line);margin-bottom:20px}
+.brand{font-weight:700;text-decoration:none;color:var(--fg)}
+nav.top a{margin-left:12px;font-size:14px;color:var(--muted)}nav.top a:first-child{margin-left:0}
+h1{font-size:30px;line-height:1.15;margin:0 0 10px;letter-spacing:-.02em;font-weight:700}h2{font-size:20px;margin:28px 0 8px;letter-spacing:-.03em;font-weight:700}
+.eyebrow{font-size:13px;font-weight:600;color:var(--muted);margin:0 0 6px}
+.lead{font-size:18px;margin:0 0 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:22px;margin:16px 0}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0}
+.stat{border:1px solid var(--line);border-radius:22px;padding:14px 16px}.stat b{display:block;font-size:28px;font-weight:700;color:var(--accent);letter-spacing:-.03em;line-height:1.1}.stat span{font-size:14px;color:var(--muted)}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.btn{display:inline-flex;align-items:center;min-height:48px;padding:0 22px;border-radius:999px;font:inherit;font-weight:600;text-decoration:none;border:1px solid var(--line);color:var(--fg);background:var(--card);cursor:pointer}.btn.p{background:var(--green);border-color:var(--line);color:#111b21}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}.tabs button{min-height:40px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--fg);font:inherit;font-size:14px;font-weight:500;cursor:pointer}.tabs button[aria-pressed="true"]{background:var(--green);color:#111b21;border-color:var(--line)}
+.search{width:100%;min-height:48px;padding:0 16px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--fg);font:inherit;margin:0 0 10px}
+.table-wrap{border:1px solid var(--line);border-radius:22px;overflow:auto;max-height:560px}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;vertical-align:top;padding:8px 12px;border-bottom:1px solid var(--soft)}th{position:sticky;top:0;background:var(--soft);font-weight:600;white-space:nowrap}td{min-width:120px}td.wide{min-width:260px}
+tr:last-child td{border-bottom:0}
+pre{margin:8px 0;padding:14px 16px;border-radius:14px;background:var(--soft);overflow-x:auto;font-size:14px;line-height:1.5}code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+ul{padding-left:22px;margin:8px 0}li{margin:4px 0}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.muted{color:var(--muted)}.small{font-size:13px}.note{font-size:14px;padding:12px 14px;border-radius:14px;background:var(--soft)}
+hr{border:0;border-top:1px solid var(--line);margin:40px 0}
+footer{margin-top:40px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:520px){.stats{grid-template-columns:1fr}h1{font-size:30px}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><a class="brand" href="/">Mapa de Servicios NYC</a><nav class="top"><a href="/">Inicio</a><a href="/lugares/index.html">Lugares</a><a href="#en" hreflang="en">English</a></nav></header>
+<main>
+
+<section lang="es">
+<p class="eyebrow">🤗 Hugging Face</p>
+<h1>Datos abiertos en Hugging Face</h1>
+<p class="lead">Los programas, lugares y conexiones detrás de este mapa están publicados como un conjunto de datos abierto. Cualquier persona puede verlos, descargarlos y usarlos (licencia CC BY 4.0).</p>
+
+<div class="stats">
+<div class="stat"><b>105</b><span>programas y beneficios</span></div>
+<div class="stat"><b>661</b><span>lugares con dirección</span></div>
+<div class="stat"><b>38</b><span>conexiones entre programas</span></div>
+</div>
+
+<div class="btns">
+<a class="btn p" href="https://huggingface.co/datasets/Felixr1/nyc-immigrant-services" target="_blank" rel="noopener">Ver en Hugging Face</a>
+<a class="btn" href="https://huggingface.co/datasets/Felixr1/nyc-immigrant-services/resolve/main/places.csv">Descargar places.csv</a>
+<a class="btn" href="https://huggingface.co/datasets/Felixr1/nyc-immigrant-services/resolve/main/programs.csv">Descargar programs.csv</a>
+</div>
+
+<h2>Vea los datos aquí</h2>
+<div class="tabs" role="group" aria-label="Tabla">
+<button type="button" data-config="places" aria-pressed="true">Lugares · places</button>
+<button type="button" data-config="programs" aria-pressed="false">Programas · programs</button>
+<button type="button" data-config="links" aria-pressed="false">Conexiones · links</button>
+</div>
+<label class="sr-only" for="q">Buscar</label>
+<input class="search" id="q" type="search" placeholder="Buscar: Corona, 11368, WIC, legal…" autocomplete="off">
+<p class="small muted" id="status" role="status" aria-live="polite">Cargando datos de Hugging Face…</p>
+<div class="table-wrap"><table id="table"><thead></thead><tbody></tbody></table></div>
+<p class="small muted">Los datos se cargan directamente de Hugging Face. Se muestran hasta 50 filas; descargue el archivo para verlas todas.</p>
+
+<h2>Qué hay en cada archivo</h2>
+<ul>
+<li><b>places.csv</b>: despensas de comida, clínicas de WIC, oficinas de ayuda legal de la lista del DOJ, centros de IDNYC y HRA, bibliotecas, consulados. Cada fila tiene su fuente (<code>source_url</code>) y la fecha de revisión (<code>last_checked</code>).</li>
+<li><b>programs.csv</b>: beneficios y programas (SNAP, WIC, IDNYC, NYS DREAM Act, tandas…) explicados en español e inglés: quién puede usarlos, qué llevar y cómo aplicar.</li>
+<li><b>links.csv</b>: cómo se conectan, por ejemplo qué programa abre la puerta a otro (IDNYC antes de una cuenta de banco).</li>
+</ul>
+
+<h2>Qué no incluye</h2>
+<ul>
+<li>Ningún dato de las personas que usan el mapa.</li>
+<li>Nombres de representantes acreditados individuales del DOJ. Para revisar a alguien, use la <a href="https://www.justice.gov/eoir/recognition-accreditation-roster-reports" target="_blank" rel="noopener">lista oficial del DOJ</a>.</li>
+<li>Lugares sacados del localizador de una empresa de envío de dinero.</li>
+</ul>
+
+<h2>Para programadores</h2>
+<pre><code>from datasets import load_dataset
+
+places = load_dataset("Felixr1/nyc-immigrant-services", "places")
+programs = load_dataset("Felixr1/nyc-immigrant-services", "programs")</code></pre>
+
+<p class="note">Es información de referencia, no consejo legal. Los horarios y teléfonos cambian: llame antes de ir.</p>
+</section>
+
+<hr>
+
+<section lang="en" id="en">
+<h2 style="font-size:28px;margin-top:0">Open data on Hugging Face</h2>
+<p class="lead">The programs, places and links behind this map are published as an open dataset. Anyone can view, download and reuse them (CC BY 4.0 license).</p>
+<ul>
+<li><b>105</b> programs and benefits, with plain-language summaries in Spanish and English.</li>
+<li><b>661</b> places with an address, each with a source link and a last-checked date (653 from official sources, 1 confirmed by phone, 7 from a provider's own site).</li>
+<li><b>38</b> typed links between programs and places (<code>offers</code>, <code>unlocks</code>, <code>pairs_with</code>, <code>requires</code>, <code>refers_to</code>).</li>
+</ul>
+<p>Left out on purpose: anything about the people who use the navigator, names of individual DOJ-accredited representatives, and locations from a money-transfer company's agent locator.</p>
+<div class="btns">
+<a class="btn p" href="https://huggingface.co/datasets/Felixr1/nyc-immigrant-services" target="_blank" rel="noopener">Open on Hugging Face</a>
+</div>
+<p class="note">Reference data, not legal advice. Hours and phone numbers change; call ahead.</p>
+</section>
+
+</main>
+<footer>Hecho en el Latinos x AI Hackathon NYC 2026 (Immigration track). · <a href="/">Mapa de Servicios NYC</a></footer>
+</div>
+<script>
+// Small table over the dataset's CSVs, loaded straight from Hugging Face.
+(function () {
+  var BASE = "https://huggingface.co/datasets/Felixr1/nyc-immigrant-services/resolve/main/";
+  var COLS = {
+    places: [["name", "Nombre"], ["org_type", "Tipo"], ["address", "Dirección", "wide"], ["borough", "Condado"], ["hours", "Horario", "wide"], ["phone", "Teléfono"], ["trust", "Confianza"], ["source_url", "Fuente"], ["last_checked", "Revisado"]],
+    programs: [["name", "Programa"], ["needs", "Necesidad"], ["summary_es", "Resumen", "wide"], ["who_can_use", "Quién puede usarlo", "wide"], ["source_url", "Fuente"], ["last_checked", "Revisado"]],
+    links: [["from_id", "Desde"], ["type", "Tipo"], ["to_id", "Hacia"], ["reason", "Por qué", "wide"]]
+  };
+  var MAX = 50, cache = {}, current = "places";
+  var q = document.getElementById("q"), status = document.getElementById("status");
+  var thead = document.querySelector("#table thead"), tbody = document.querySelector("#table tbody");
+  var buttons = document.querySelectorAll(".tabs button");
+
+  function parseCsv(text) {
+    var rows = [], row = [], field = "", i = 0, quoted = false, c;
+    for (; i < text.length; i++) {
+      c = text[i];
+      if (quoted) {
+        if (c === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else quoted = false; }
+        else field += c;
+      } else if (c === '"') quoted = true;
+      else if (c === ",") { row.push(field); field = ""; }
+      else if (c === "\n") { row.push(field); rows.push(row); row = []; field = ""; }
+      else if (c !== "\r") field += c;
+    }
+    if (field || row.length) { row.push(field); rows.push(row); }
+    var head = rows.shift() || [];
+    return rows.filter(function (r) { return r.length > 1; }).map(function (r) {
+      var o = {}; head.forEach(function (h, k) { o[h] = r[k] || ""; }); return o;
+    });
+  }
+
+  function load(name) {
+    if (!cache[name]) {
+      cache[name] = fetch(BASE + name + ".csv").then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.text();
+      }).then(parseCsv);
+      cache[name].catch(function () { delete cache[name]; });
+    }
+    return cache[name];
+  }
+
+  function render() {
+    var name = current, cols = COLS[name];
+    status.textContent = "Cargando datos de Hugging Face…";
+    load(name).then(function (rows) {
+      if (name !== current) return;
+      var words = q.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").split(/\s+/).filter(Boolean);
+      var hits = rows.filter(function (r) {
+        var hay = Object.values(r).join(" ").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        return words.every(function (w) { return hay.indexOf(w) !== -1; });
+      });
+      var tr = document.createElement("tr");
+      cols.forEach(function (c) { var th = document.createElement("th"); th.textContent = c[1]; tr.appendChild(th); });
+      thead.replaceChildren(tr);
+      tbody.replaceChildren.apply(tbody, hits.slice(0, MAX).map(function (r) {
+        var row = document.createElement("tr");
+        cols.forEach(function (c) {
+          var td = document.createElement("td"), v = r[c[0]] || "";
+          if (c[2]) td.className = c[2];
+          if (c[0] === "source_url" && /^https?:\/\//.test(v)) {
+            var a = document.createElement("a"); a.href = v; a.target = "_blank"; a.rel = "noopener"; a.textContent = "Ver"; td.appendChild(a);
+          } else td.textContent = v.replace(/\|/g, ", ");
+          row.appendChild(td);
+        });
+        return row;
+      }));
+      status.textContent = hits.length + " de " + rows.length + " filas" + (hits.length > MAX ? " (se muestran " + MAX + ")" : "") + ".";
+    }).catch(function () {
+      if (name !== current) return;
+      thead.replaceChildren(); tbody.replaceChildren();
+      status.textContent = "No pudimos cargar los datos ahora. Ábralos en Hugging Face con el botón de arriba.";
+    });
+  }
+
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      buttons.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+      current = b.getAttribute("data-config");
+      render();
+    });
+  });
+  var t; q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(render, 150); });
+  render();
+})();
+</script>
+</body>
+</html>

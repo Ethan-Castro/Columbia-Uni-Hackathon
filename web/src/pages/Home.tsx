@@ -63,6 +63,9 @@ const COPY = {
       { t: "Una persona revisa todo", b: "Nada nuevo se publica sin que alguien lo apruebe." },
       { t: "Sin nombres ni teléfonos", b: "Solo contamos qué se busca y en qué código postal, para que la ciudad vea lo que falta." },
     ],
+    commTitle: "Comunidad de Corona",
+    commBody: "Pregunte a sus vecinos sobre vivienda, comida, escuela o trabajo, y avise si algo del mapa está mal.",
+    commCta: "Entrar a la comunidad",
     orgTitle: "¿Su organización ayuda a inmigrantes?",
     orgBody: "Sugiera su despensa, clínica o programa. Lo revisamos y aparece en Claude, ChatGPT, WhatsApp y la línea de voz.",
     orgCta: "Sugerir un recurso",
@@ -116,6 +119,9 @@ const COPY = {
       { t: "A person reviews everything", b: "Nothing new goes live until someone approves it." },
       { t: "No names, no phone numbers", b: "We only count what's searched and in which zip code, so the city can see the gaps." },
     ],
+    commTitle: "Corona community",
+    commBody: "Ask your neighbors about housing, food, school or work, and tell us when something on the map is wrong.",
+    commCta: "Join the community",
     orgTitle: "Does your organization help immigrants?",
     orgBody: "Suggest your pantry, clinic or program. We review it, and it shows up in Claude, ChatGPT, WhatsApp and the voice line.",
     orgCta: "Suggest a resource",
@@ -188,6 +194,24 @@ export function Home() {
       />
 
       <div className="border-border border-t" />
+
+      <section className="mx-auto w-full max-w-6xl px-6 pt-12 sm:pt-16" aria-labelledby="community-band">
+        <a
+          href={HREF.community}
+          className="bg-card border-foreground text-foreground flex flex-col gap-6 rounded-3xl border p-8 no-underline sm:flex-row sm:items-center sm:justify-between sm:p-10"
+        >
+          <div className="flex min-w-0 items-start gap-4">
+            <Users className="text-brand mt-1 size-8 shrink-0" />
+            <div className="min-w-0">
+              <h2 id="community-band" className="font-sans text-3xl font-bold tracking-tight sm:text-4xl">{c.commTitle}</h2>
+              <p className="text-muted-foreground mt-2 max-w-2xl text-base sm:text-lg">{c.commBody}</p>
+            </div>
+          </div>
+          <span className="bg-primary text-primary-foreground border-foreground inline-flex min-h-14 shrink-0 items-center justify-center rounded-full border px-8 text-lg font-semibold">
+            {c.commCta}<ArrowRight className="ml-2 size-5" />
+          </span>
+        </a>
+      </section>
 
       <Section kicker={c.doorsKicker} title={c.doorsTitle} intro={c.doorsIntro}>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
