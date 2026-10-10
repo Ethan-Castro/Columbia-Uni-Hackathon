@@ -4,11 +4,14 @@
 // PORTING: not needed in Base44 (src/api.ts switches to base44.functions.invoke).
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import { fileURLToPath } from "node:url";
 
 const target = process.env.VITE_API_TARGET || "http://localhost:8787";
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
+  resolve: { alias: { "@": fileURLToPath(new URL("./src", import.meta.url)) } },
   base: "./",
   server: {
     port: 5180,

@@ -2,6 +2,7 @@
 import { useI18n } from "./i18n.tsx";
 import { HREF, useRoute } from "./router.ts";
 import type { Route } from "./router.ts";
+import { Home } from "./pages/Home.tsx";
 import { Directory } from "./pages/Directory.tsx";
 import { Submit } from "./pages/Submit.tsx";
 import { Admin } from "./pages/Admin.tsx";
@@ -12,6 +13,7 @@ export function App() {
   const route = useRoute();
 
   const nav: Array<[Route, string]> = [
+    ["home", t("nav_home")],
     ["directory", t("nav_directory")],
     ["submit", t("nav_submit")],
     ["admin", t("nav_admin")],
@@ -23,7 +25,7 @@ export function App() {
       <a className="skip" href="#main">{lang === "es" ? "Ir al contenido" : "Skip to content"}</a>
       <header className="header">
         <div className="header-inner">
-          <a className="brand" href={HREF.directory}>
+          <a className="brand" href={HREF.home}>
             <svg className="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
               <circle cx="16" cy="13" r="8" fill="currentColor" />
               <path d="M16 30 L9 18 H23 Z" fill="currentColor" />
@@ -58,14 +60,18 @@ export function App() {
         </nav>
       </header>
 
-      <main id="main" className="main">
+      {route === "home" ? (
+        <main id="main"><Home /></main>
+      ) : (
+        <main id="main" className="main">
         {route === "directory" && <Directory />}
         {route === "submit" && <Submit />}
         {route === "admin" && <Admin />}
         {route === "insights" && <InsightsPage />}
       </main>
+      )}
 
-      <footer className="footer">
+      <footer className="footer" hidden={route === "home"}>
         <h2>{t("footer_rules_title")}</h2>
         <ul>
           <li>{t("footer_rule_info")}</li>

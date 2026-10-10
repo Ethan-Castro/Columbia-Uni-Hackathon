@@ -97,3 +97,7 @@ export function rejectSubmission(id: string) {
 export function getInsights() {
   return call<Insights>("insights", {}, { admin: true });
 }
+
+export function getHealth() {
+  return call<{ ok: boolean; counts?: { Program?: number; Place?: number; Link?: number } }>("health", {});
+}

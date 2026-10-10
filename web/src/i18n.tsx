@@ -12,6 +12,7 @@ export type Lang = "es" | "en";
 const es = {
   app_name: "Mapa de Servicios NYC",
   app_tagline: "Servicios para inmigrantes en Nueva York, en español e inglés",
+  nav_home: "Inicio",
   nav_directory: "Directorio",
   nav_submit: "Sugerir un recurso",
   nav_admin: "Revisión",
@@ -197,6 +198,7 @@ export type Key = keyof typeof es;
 const en: Record<Key, string> = {
   app_name: "NYC Services Map",
   app_tagline: "Services for immigrant New Yorkers, in Spanish and English",
+  nav_home: "Home",
   nav_directory: "Directory",
   nav_submit: "Suggest a resource",
   nav_admin: "Review",
