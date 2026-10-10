@@ -100,7 +100,7 @@ Always confirm: still operating at this address; phone answers; hours as listed;
    - 38-23 104 Street, Corona, NY 11368 | (718) 426-2844 | hours: Tue 1pm-6pm; Wed 10am-6pm; Thu 12pm-8pm; Fri 10am-6pm; Sat 10am-5pm
    - source: https://www.queenslibrary.org/about-us/locations/corona
    - check: languages not stated
-25. [ ] **ATN Check Cashing #5** (`place-atn-check-cashing-5`, check_casher, trust unverified)
-   - 9703 57th Ave, Corona, NY 11368 | 718-699-0062 | hours: unknown
-   - source: https://location.westernunion.com/us/ny/corona
-   - check: hours unknown: get the weekly schedule; languages not stated
+25. [ ] **Queens Public Library at Elmhurst** (`place-queens-public-library-elmhurst`, other, trust unverified)
+   - 86-07 Broadway, Elmhurst, NY 11373 | (718) 271-1020 | hours: Tue 1pm-6pm; Wed 10am-6pm; Thu 12pm-8pm; Fri 10am-6pm; Sat 10am-5pm
+   - source: https://www.queenslibrary.org/about-us/locations/elmhurst
+   - check: languages not stated

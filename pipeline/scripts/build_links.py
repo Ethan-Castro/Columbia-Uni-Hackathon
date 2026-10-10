@@ -74,6 +74,10 @@ LINKS = [
     # ---------------- place -> program offers (beyond phase3_curation)
     ("place-queens-public-library-corona", "prog-library-card", "offers", "A public library in NYC, where an IDNYC card can be used.",
      IDNYC_BENEFITS, "You can use your IDNYC card at any public library in New York City"),
+    ("place-queens-public-library-elmhurst", "prog-library-card", "offers", "A public library in NYC, where an IDNYC card can be used.",
+     IDNYC_BENEFITS, "You can use your IDNYC card at any public library in New York City"),
+    ("place-queens-public-library-jackson-heights", "prog-library-card", "offers", "A public library in NYC, where an IDNYC card can be used.",
+     IDNYC_BENEFITS, "You can use your IDNYC card at any public library in New York City"),
     ("place-nyc-hh-elmhurst-hospital", "prog-nyc-care", "offers", "NYC Care services are at NYC Health + Hospitals locations.",
      "dataset:prog-nyc-care", "services at NYC Health + Hospitals locations citywide"),
     ("place-nyc-hh-gotham-jackson-heights", "prog-nyc-care", "offers", "NYC Care services are at NYC Health + Hospitals locations.",

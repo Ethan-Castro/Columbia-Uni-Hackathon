@@ -13,6 +13,8 @@ HH_CENTERS = "https://www.nychealthandhospitals.org/elmhurst/community-medical-c
 HH_ELMHURST = "https://www.nychealthandhospitals.org/elmhurst/"
 UHP = "https://www.urbanhealthplan.org/locations/plaza-del-sol-family-health-center"
 QPL = "https://www.queenslibrary.org/about-us/locations/corona"
+QPL_ELM = "https://www.queenslibrary.org/about-us/locations/elmhurst"
+QPL_JH = "https://www.queenslibrary.org/about-us/locations/jackson-heights"
 IDNYC = "https://www.nyc.gov/site/idnyc/card/locations.page"
 HRA = "https://www.nyc.gov/site/hra/locations/job-locations.page"
 HRA_SNAP = "https://www.nyc.gov/site/hra/locations/snap-locations.page"
@@ -166,6 +168,41 @@ PLACES = [
          address="10220 37th Ave Rear Store, Corona, NY 11368", zip="11368", phone="347-258-2888", trust="unverified",
          source_url=WU,
          evidence={"name": "ECUAPRINTING INC", "address": "10220 37th Ave Rear Store, Corona NY , 11368", "phone": "347-258-2888"}),
+    # ---------------- more Western Union agent locations in the demo zips (same rendered WU locator page)
+    dict(id="place-ideal-food-basket", name="Ideal Food Basket (Western Union agent)", org="Ideal Food Basket", org_type="remittance",
+         address="9930 Corona Ave, Corona, NY 11368", zip="11368", phone="718-271-5854", trust="unverified", source_url=WU,
+         evidence={"name": "IDEAL FOOD BASKET", "address": "9930 Corona Ave, Corona", "phone": "718-271-5854"}),
+    dict(id="place-national-pharmacy", name="National Pharmacy (Western Union agent)", org="National Pharmacy", org_type="remittance",
+         address="4015 National St, Corona, NY 11368", zip="11368", phone="718-779-9080", trust="unverified", source_url=WU,
+         evidence={"name": "NATIONAL PHARMACY", "address": "4015 National St, Corona", "phone": "718-779-9080"}),
+    dict(id="place-walgreens-7294-roosevelt-ave", name="Walgreens #7294 (Western Union agent)", org="Walgreens #7294", org_type="remittance",
+         address="10314 Roosevelt Ave, Corona, NY 11368", zip="11368", phone="718-426-4271", trust="unverified", source_url=WU,
+         evidence={"name": "WALGREENS #7294", "address": "10314 Roosevelt Ave, Corona", "phone": "718-426-4271"}),
+    dict(id="place-grace-pharmacy", name="Grace Pharmacy (Western Union agent)", org="Grace Pharmacy", org_type="remittance",
+         address="9101 43rd Ave, Elmhurst, NY 11373", zip="11373", phone="718-426-1073", trust="unverified", source_url=WU,
+         evidence={"name": "GRACE PHARMACY", "address": "9101 43rd Ave, Elmhurst", "phone": "718-426-1073"}),
+    dict(id="place-myven-wellness", name="Myven Wellness (Western Union agent)", org="Myven Wellness", org_type="remittance",
+         address="3535b Junction Blvd, Corona, NY 11368", zip="11368", phone="718-779-8050", trust="unverified", source_url=WU,
+         evidence={"name": "MYVEN WELLNESS CORP", "address": "3535b Junction Blvd, Corona", "phone": "718-779-8050"}),
+    dict(id="place-franklin-pharmacy", name="Franklin Pharmacy (Western Union agent)", org="Franklin Pharmacy", org_type="remittance",
+         address="9431 59th Ave, Elmhurst, NY 11373", zip="11373", phone="718-592-7200", trust="unverified", source_url=WU,
+         evidence={"name": "FRANKLIN PHARMACY", "address": "9431 59th Ave, Elmhurst", "phone": "718-592-7200"}),
+    dict(id="place-7-mobile-electronics", name="7 Mobile Electronics and Variety (Western Union agent)", org="7 Mobile Electronics and Variety", org_type="remittance",
+         address="9013 Elmhurst Ave, Jackson Heights, NY 11372", zip="11372", phone="347-808-7007", trust="unverified", source_url=WU,
+         evidence={"name": "7 MOBILE ELECTRONICS AND VARIE", "address": "9013 Elmhurst Ave, Jackson Heights", "phone": "347-808-7007"}),
+    # ---------------- Queens Public Library branches in the demo zips (IDNYC works as a library card at any NYC public library)
+    dict(id="place-queens-public-library-elmhurst", name="Queens Public Library at Elmhurst", org="Queens Public Library",
+         org_type="other", address="86-07 Broadway, Elmhurst, NY 11373", zip="11373", phone="(718) 271-1020",
+         hours="Tue 1pm-6pm; Wed 10am-6pm; Thu 12pm-8pm; Fri 10am-6pm; Sat 10am-5pm", open_evenings="true",
+         open_weekends="true", trust="unverified", source_url=QPL_ELM,
+         evidence={"address": "86-07 Broadway Elmhurst, NY 11373", "phone": "(718) 271-1020",
+                   "hours": "Sunday: Closed Monday: Closed Tuesday: 1:00 pm/6:00 pm Wednesday: 10:00 am/6:00 pm Thursday: 12:00 pm/8:00 pm Friday: 10:00 am/6:00 pm Saturday: 10:00 am/5:00 pm"}),
+    dict(id="place-queens-public-library-jackson-heights", name="Queens Public Library at Jackson Heights", org="Queens Public Library",
+         org_type="other", address="35-51 81 Street, Jackson Heights, NY 11372", zip="11372", phone="(718) 899-2500",
+         hours="Sun 12pm-5pm; Mon 10am-6pm; Tue 1pm-6pm; Wed 10am-6pm; Thu 12pm-8pm; Fri 10am-6pm; Sat 10am-5pm",
+         open_evenings="true", open_weekends="true", trust="unverified", source_url=QPL_JH,
+         evidence={"address": "35-51 81 Street Jackson Heights, NY 11372", "phone": "(718) 899-2500",
+                   "hours": "Sunday: 12:00 pm/5:00 pm Monday: 10:00 am/6:00 pm Tuesday: 1:00 pm/6:00 pm Wednesday: 10:00 am/6:00 pm Thursday: 12:00 pm/8:00 pm Friday: 10:00 am/6:00 pm Saturday: 10:00 am/5:00 pm"}),
     # ---------------- food: provider page (City layer lists this program as Inactive -> review)
     dict(id="place-new-life-cdc-food-pantry", name="New Life Food Pantry (New Life CDC)", org="New Life Community Development Corporation",
          org_type="pantry", address="82-10 Queens Blvd, Elmhurst, NY 11373", zip="11373",

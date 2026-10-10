@@ -6,18 +6,18 @@
 
 | area | places | by org_type |
 |---|---|---|
-| Corona (11368) | 17 | {'pantry': 4, 'clinic': 4, 'other': 1, 'check_casher': 5, 'remittance': 3} |
+| Corona (11368) | 21 | {'pantry': 4, 'clinic': 4, 'other': 1, 'check_casher': 5, 'remittance': 7} |
 | nearby: East Elmhurst | 3 | {'pantry': 3} |
-| nearby: Elmhurst | 7 | {'pantry': 4, 'clinic': 2, 'check_casher': 1} |
-| nearby: Jackson Heights | 6 | {'pantry': 5, 'clinic': 1} |
+| nearby: Elmhurst | 10 | {'pantry': 4, 'clinic': 2, 'check_casher': 1, 'remittance': 2, 'other': 1} |
+| nearby: Jackson Heights | 8 | {'pantry': 5, 'clinic': 1, 'remittance': 1, 'other': 1} |
 | rest of NYC | 523 | {'pantry': 508, 'idnyc': 2, 'benefits_office': 5, 'school': 3, 'consulate': 5} |
-| **total new** | 556 | |
+| **total new** | 565 | |
 
 DOJ rows from Phase 2 kept unchanged: 395. Demo-zip DOJ offices: place-doj-ro-make-the-road-new-york-corona, place-doj-ro-world-immigration-center, place-doj-pb-la-victoria-foundation
 
 ## Source checks
 
-- Hand-sourced rows: 33, every field quote found in the saved source page: True
+- Hand-sourced rows: 42, every field quote found in the saved source page: True
 - Food Help NYC rows: 523 open sites from the City layer; coordinates kept only when the layer's address score is 95 or higher (519 with coordinates).
 - Every row has an http(s) source_url: True
 

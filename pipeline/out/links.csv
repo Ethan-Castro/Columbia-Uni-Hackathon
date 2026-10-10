@@ -22,6 +22,8 @@ prog-child-tax-credit,prog-free-tax-prep,refers_to,Get help claiming the Child T
 prog-tandas,prog-lending-circles,pairs_with,Lending Circles turn the community practice of lending in a group into a credit-building loan.
 prog-idnyc-bank-account,prog-financial-empowerment-centers,refers_to,The City points people opening a bank account to its Financial Empowerment Centers.
 place-queens-public-library-corona,prog-library-card,offers,"A public library in NYC, where an IDNYC card can be used."
+place-queens-public-library-elmhurst,prog-library-card,offers,"A public library in NYC, where an IDNYC card can be used."
+place-queens-public-library-jackson-heights,prog-library-card,offers,"A public library in NYC, where an IDNYC card can be used."
 place-nyc-hh-elmhurst-hospital,prog-nyc-care,offers,NYC Care services are at NYC Health + Hospitals locations.
 place-nyc-hh-gotham-jackson-heights,prog-nyc-care,offers,NYC Care services are at NYC Health + Hospitals locations.
 place-nyc-hh-gotham-womens-health-corona,prog-nyc-care,offers,NYC Care services are at NYC Health + Hospitals locations.

@@ -1,0 +1,75 @@
+{
+ "query": "9431 59th Ave, Elmhurst, NY 11373",
+ "response": {
+  "result": {
+   "input": {
+    "address": {
+     "address": "9431 59th Ave, Elmhurst, NY 11373"
+    },
+    "vintage": {
+     "isDefault": true,
+     "id": "4",
+     "vintageName": "Current_Current",
+     "vintageDescription": "Current Vintage - Current Benchmark"
+    },
+    "benchmark": {
+     "isDefault": true,
+     "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+     "id": "4",
+     "benchmarkName": "Public_AR_Current"
+    }
+   },
+   "addressMatches": [
+    {
+     "tigerLine": {
+      "side": "L",
+      "tigerLineId": "59704887"
+     },
+     "geographies": {
+      "Counties": [
+       {
+        "GEOID": "36081",
+        "CENTLAT": "+40.6545736",
+        "AREAWATER": 188444380,
+        "STATE": "36",
+        "BASENAME": "Queens",
+        "OID": "27590307869814",
+        "LSADC": "06",
+        "FUNCSTAT": "C",
+        "INTPTLAT": "+40.6546581",
+        "NAME": "Queens County",
+        "OBJECTID": 440,
+        "CENTLON": "-073.8408699",
+        "COUNTYCC": "H6",
+        "COUNTYNS": "00974139",
+        "AREALAND": 281594058,
+        "INTPTLON": "-073.8412089",
+        "MTFCC": "G4020",
+        "COUNTY": "081"
+       }
+      ]
+     },
+     "coordinates": {
+      "x": -73.86633343943,
+      "y": 40.73503675204
+     },
+     "addressComponents": {
+      "zip": "11373",
+      "streetName": "59TH",
+      "preType": "",
+      "city": "ELMHURST",
+      "preDirection": "",
+      "suffixDirection": "",
+      "fromAddress": "94-01",
+      "state": "NY",
+      "suffixType": "AVE",
+      "toAddress": "94-99",
+      "suffixQualifier": "",
+      "preQualifier": ""
+     },
+     "matchedAddress": "94-31 59TH AVE, ELMHURST, NY, 11373"
+    }
+   ]
+  }
+ }
+}
