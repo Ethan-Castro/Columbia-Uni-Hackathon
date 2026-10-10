@@ -4,98 +4,323 @@
     "from_id": "prog-idnyc",
     "to_id": "prog-library-card",
     "type": "unlocks",
-    "reason": "IDNYC is accepted as ID for a library card.",
+    "reason": "An IDNYC card works at any public library in New York City.",
     "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T11:00:00.000Z"
+    "updated_date": "2026-10-10T17:00:38.501Z"
   },
   {
-    "id": "link-02",
+    "id": "link-prog-idnyc-unlocks-prog-snap",
     "from_id": "prog-idnyc",
-    "to_id": "prog-bank-account",
+    "to_id": "prog-snap",
     "type": "unlocks",
-    "reason": "Some banks and credit unions accept IDNYC to open an account.",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T11:00:00.000Z"
+    "reason": "IDNYC can be used as ID when applying for SNAP.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
   },
   {
-    "id": "link-03",
-    "from_id": "prog-wic",
-    "to_id": "prog-child-health-plus",
-    "type": "pairs_with",
-    "reason": "Families getting WIC often qualify their children for Child Health Plus.",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T11:00:00.000Z"
+    "id": "link-prog-idnyc-unlocks-prog-cash-assistance",
+    "from_id": "prog-idnyc",
+    "to_id": "prog-cash-assistance",
+    "type": "unlocks",
+    "reason": "IDNYC can be used as ID when applying for Cash Assistance.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
   },
   {
-    "id": "link-04",
+    "id": "link-prog-idnyc-unlocks-prog-section-8",
+    "from_id": "prog-idnyc",
+    "to_id": "prog-section-8",
+    "type": "unlocks",
+    "reason": "IDNYC can be used as ID when applying for Section 8.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-idnyc-unlocks-prog-nycsa",
+    "from_id": "prog-idnyc",
+    "to_id": "prog-nycsa",
+    "type": "unlocks",
+    "reason": "IDNYC is one of the photo IDs accepted to register for a NYC Schools Account at school.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-nycsa-requires-prog-school-enrollment",
+    "from_id": "prog-nycsa",
+    "to_id": "prog-school-enrollment",
+    "type": "requires",
+    "reason": "NYCSA registration needs your child's NYC student ID number, so the child must be enrolled first.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-school-enrollment-pairs_with-prog-sth-transportation",
     "from_id": "prog-school-enrollment",
-    "to_id": "prog-mckinney-vento-transit",
+    "to_id": "prog-sth-transportation",
     "type": "pairs_with",
-    "reason": "Enroll and ask for transportation at the same visit if housing is temporary.",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T11:00:00.000Z"
+    "reason": "Students in temporary housing can enroll right away and have a right to transportation to school.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
   },
   {
-    "id": "link-05",
-    "from_id": "prog-free-legal-screening",
-    "to_id": "place-queens-immigrant-legal-clinic",
+    "id": "link-prog-cash-assistance-pairs_with-prog-snap",
+    "from_id": "prog-cash-assistance",
+    "to_id": "prog-snap",
+    "type": "pairs_with",
+    "reason": "One ACCESS HRA application covers Cash Assistance, SNAP and Medicaid.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-cash-assistance-pairs_with-prog-medicaid",
+    "from_id": "prog-cash-assistance",
+    "to_id": "prog-medicaid",
+    "type": "pairs_with",
+    "reason": "One ACCESS HRA application covers Cash Assistance, SNAP and Medicaid.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-snap-unlocks-prog-wic",
+    "from_id": "prog-snap",
+    "to_id": "prog-wic",
+    "type": "unlocks",
+    "reason": "Being in SNAP counts toward WIC eligibility.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-medicaid-unlocks-prog-wic",
+    "from_id": "prog-medicaid",
+    "to_id": "prog-wic",
+    "type": "unlocks",
+    "reason": "Being in Medicaid counts toward WIC eligibility.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-essential-plan-unlocks-prog-wic",
+    "from_id": "prog-essential-plan",
+    "to_id": "prog-wic",
+    "type": "unlocks",
+    "reason": "Being in the Essential Plan counts toward WIC eligibility.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-snap-unlocks-prog-summer-ebt",
+    "from_id": "prog-snap",
+    "to_id": "prog-summer-ebt",
+    "type": "unlocks",
+    "reason": "Children enrolled in SNAP are approved for Summer EBT automatically.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-medicaid-unlocks-prog-summer-ebt",
+    "from_id": "prog-medicaid",
+    "to_id": "prog-summer-ebt",
+    "type": "unlocks",
+    "reason": "Children enrolled in Medicaid are approved for Summer EBT automatically.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-snap-unlocks-prog-head-start",
+    "from_id": "prog-snap",
+    "to_id": "prog-head-start",
+    "type": "unlocks",
+    "reason": "Families receiving SNAP can qualify for Head Start or Early Head Start.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-child-health-plus-refers_to-prog-medicaid",
+    "from_id": "prog-child-health-plus",
+    "to_id": "prog-medicaid",
     "type": "refers_to",
-    "reason": "Screenings refer full cases to a recognized legal provider.",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T11:00:00.000Z"
+    "reason": "Child Health Plus is for children who don't qualify for Medicaid, so check Medicaid too.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
   },
   {
-    "id": "link-07",
-    "from_id": "place-corona-idnyc-enrollment",
-    "to_id": "prog-idnyc",
+    "id": "link-prog-essential-plan-refers_to-prog-medicaid",
+    "from_id": "prog-essential-plan",
+    "to_id": "prog-medicaid",
+    "type": "refers_to",
+    "reason": "The Essential Plan is for people not eligible for Medicaid or Child Health Plus.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-nurse-family-partnership-pairs_with-prog-wic",
+    "from_id": "prog-nurse-family-partnership",
+    "to_id": "prog-wic",
+    "type": "pairs_with",
+    "reason": "Nurse-Family Partnership asks whether you are or may be eligible for Medicaid or WIC.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-eitc-refers_to-prog-free-tax-prep",
+    "from_id": "prog-eitc",
+    "to_id": "prog-free-tax-prep",
+    "type": "refers_to",
+    "reason": "Get help claiming the EITC through NYC Free Tax Prep.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-child-tax-credit-refers_to-prog-free-tax-prep",
+    "from_id": "prog-child-tax-credit",
+    "to_id": "prog-free-tax-prep",
+    "type": "refers_to",
+    "reason": "Get help claiming the Child Tax Credit through NYC Free Tax Prep.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-tandas-pairs_with-prog-lending-circles",
+    "from_id": "prog-tandas",
+    "to_id": "prog-lending-circles",
+    "type": "pairs_with",
+    "reason": "Lending Circles turn the community practice of lending in a group into a credit-building loan.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-prog-idnyc-bank-account-refers_to-prog-financial-empowerment-centers",
+    "from_id": "prog-idnyc-bank-account",
+    "to_id": "prog-financial-empowerment-centers",
+    "type": "refers_to",
+    "reason": "The City points people opening a bank account to its Financial Empowerment Centers.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-place-queens-public-library-corona-offers-prog-library-card",
+    "from_id": "place-queens-public-library-corona",
+    "to_id": "prog-library-card",
     "type": "offers",
-    "reason": "IDNYC enrollment desk.",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T11:00:00.000Z"
+    "reason": "A public library in NYC, where an IDNYC card can be used.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
   },
   {
-    "id": "link-08",
-    "from_id": "place-junction-family-health-center",
+    "id": "link-place-nyc-hh-elmhurst-hospital-offers-prog-nyc-care",
+    "from_id": "place-nyc-hh-elmhurst-hospital",
+    "to_id": "prog-nyc-care",
+    "type": "offers",
+    "reason": "NYC Care services are at NYC Health + Hospitals locations.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-place-nyc-hh-gotham-jackson-heights-offers-prog-nyc-care",
+    "from_id": "place-nyc-hh-gotham-jackson-heights",
+    "to_id": "prog-nyc-care",
+    "type": "offers",
+    "reason": "NYC Care services are at NYC Health + Hospitals locations.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-place-nyc-hh-gotham-womens-health-corona-offers-prog-nyc-care",
+    "from_id": "place-nyc-hh-gotham-womens-health-corona",
+    "to_id": "prog-nyc-care",
+    "type": "offers",
+    "reason": "NYC Care services are at NYC Health + Hospitals locations.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-place-phs-neighborhood-wic-corona-offers-prog-wic",
+    "from_id": "place-phs-neighborhood-wic-corona",
     "to_id": "prog-wic",
     "type": "offers",
-    "reason": "On-site WIC office.",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T11:00:00.000Z"
+    "reason": "Listed as a WIC site by its official source.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
   },
   {
-    "id": "link-09",
-    "from_id": "place-junction-family-health-center",
-    "to_id": "prog-child-health-plus",
+    "id": "link-place-urban-health-plan-wic-corona-offers-prog-wic",
+    "from_id": "place-urban-health-plan-wic-corona",
+    "to_id": "prog-wic",
     "type": "offers",
-    "reason": "Enrollment helpers for Child Health Plus.",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T11:00:00.000Z"
+    "reason": "Listed as a WIC site by its official source.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
   },
   {
-    "id": "link-10",
-    "from_id": "place-corona-family-welcome-center",
+    "id": "link-place-nyc-hh-elmhurst-wic-offers-prog-wic",
+    "from_id": "place-nyc-hh-elmhurst-wic",
+    "to_id": "prog-wic",
+    "type": "offers",
+    "reason": "Listed as a WIC site by its official source.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-place-idnyc-queens-public-library-central-offers-prog-idnyc",
+    "from_id": "place-idnyc-queens-public-library-central",
+    "to_id": "prog-idnyc",
+    "type": "offers",
+    "reason": "Listed by the City as an IDNYC enrollment center.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-place-idnyc-queens-business-center-offers-prog-idnyc",
+    "from_id": "place-idnyc-queens-business-center",
+    "to_id": "prog-idnyc",
+    "type": "offers",
+    "reason": "Listed by the City as an IDNYC enrollment center.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-place-hra-queens-snap-center-offers-prog-snap",
+    "from_id": "place-hra-queens-snap-center",
+    "to_id": "prog-snap",
+    "type": "offers",
+    "reason": "Listed by HRA as a SNAP center.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-place-hra-jamaica-snap-center-offers-prog-snap",
+    "from_id": "place-hra-jamaica-snap-center",
+    "to_id": "prog-snap",
+    "type": "offers",
+    "reason": "Listed by HRA as a SNAP center.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
+  },
+  {
+    "id": "link-place-family-welcome-center-queens-plaza-offers-prog-school-enrollment",
+    "from_id": "place-family-welcome-center-queens-plaza",
     "to_id": "prog-school-enrollment",
     "type": "offers",
-    "reason": "Public school enrollment.",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T11:00:00.000Z"
+    "reason": "NYC Public Schools Family Welcome Center that helps families enroll students.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
   },
   {
-    "id": "link-11",
-    "from_id": "place-corona-family-welcome-center",
-    "to_id": "prog-mckinney-vento-transit",
+    "id": "link-place-family-welcome-center-linden-place-offers-prog-school-enrollment",
+    "from_id": "place-family-welcome-center-linden-place",
+    "to_id": "prog-school-enrollment",
     "type": "offers",
-    "reason": "Transportation for students in temporary housing.",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T11:00:00.000Z"
+    "reason": "NYC Public Schools Family Welcome Center that helps families enroll students.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
   },
   {
-    "id": "link-12",
-    "from_id": "place-roosevelt-pro-bono-project",
-    "to_id": "prog-free-legal-screening",
+    "id": "link-place-family-welcome-center-sutphin-offers-prog-school-enrollment",
+    "from_id": "place-family-welcome-center-sutphin",
+    "to_id": "prog-school-enrollment",
     "type": "offers",
-    "reason": "Walk-in legal screening.",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T11:00:00.000Z"
+    "reason": "NYC Public Schools Family Welcome Center that helps families enroll students.",
+    "created_date": "2026-10-10T17:00:38.501Z",
+    "updated_date": "2026-10-10T17:00:38.501Z"
   }
 ]

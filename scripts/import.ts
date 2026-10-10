@@ -333,10 +333,11 @@ class RowCheck {
     return v;
   }
 
-  zip(col: string): string {
+  zip(col: string, required = true): string {
     const v = this.raw(col);
     if (!v) {
-      this.error(col, "missing", `${col} is required (5 digits)`);
+      if (required) this.error(col, "missing", `${col} is required (5 digits)`);
+      else this.warn(col, "doj_no_address", `${col} blank: kept for name checks (check_provider), left out of location search`);
       return "";
     }
     if (/^\d{5}$/.test(v)) return v;
@@ -452,7 +453,10 @@ function validateProgram(c: RowCheck): Row {
 function validatePlace(c: RowCheck): Row {
   c.id = c.raw("id") || undefined;
   c.id = c.idField("id", "place") || c.id;
-  const zip = c.zip("zip");
+  // DOJ roster / pro bono entries often list no street address. Keep them so the
+  // notario check can match names; without a zip they never appear in location search.
+  const isDoj = /^doj[_ ]?(roster|pro[_ ]?bono)$/i.test(c.raw("org_type").trim());
+  const zip = c.zip("zip", !isDoj);
   const hours = c.str("hours");
   const { lat, lng } = c.coords();
   const r: Row = {

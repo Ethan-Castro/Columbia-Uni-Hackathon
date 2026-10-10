@@ -42,7 +42,7 @@
     },
     "zip": {
       "type": "string",
-      "pattern": "^[0-9]{5}$"
+      "pattern": "^([0-9]{5})?$"
     },
     "lat": {
       "type": "number"
@@ -115,7 +115,6 @@
     "key",
     "name",
     "org_type",
-    "zip",
     "trust",
     "source_url",
     "last_checked"
