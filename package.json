@@ -10,8 +10,8 @@
     "lint": "node -e \"const fs=require('fs');const files=['web/index.html','web/src/main.tsx','web/package.json','web/vite.config.ts'];const missing=files.filter(f=>!fs.existsSync(f));if(missing.length){console.error('lint: missing '+missing.join(', '));process.exit(1)}console.log('lint: ok (web app source present; vite build is the source of truth)')\""
   },
   "dependencies": {
-    "@base44/sdk": "^0.8.53",
-    "@base44/vite-plugin": "^1.0.44",
+    "@base44/sdk": "^0.8.54",
+    "@base44/vite-plugin": "^1.0.47",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
