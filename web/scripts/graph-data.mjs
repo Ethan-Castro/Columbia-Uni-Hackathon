@@ -64,15 +64,32 @@ function isPerson(p) {
   return PERSON_RE.test(p.name) && !ORG_WORD_RE.test(p.name);
 }
 
-const keptPlaces = places.filter((p) => !isPerson(p));
+// The knowledge graph export (scripts/graph-export.ts) is the source of truth for who is a person,
+// organizations, documents and inferred connections. Without it, fall back to the simple rules here.
+let kg = null;
+try {
+  kg = read("../public/graph/knowledge-graph.json");
+} catch {
+  console.warn("graph-data: no public/graph/knowledge-graph.json; run deno run -A scripts/graph-export.ts for the full graph");
+}
+const kgPlaces = kg ? new Set(kg.nodes.filter((n) => n.kind === "place").map((n) => n.id.slice("place:".length))) : null;
+const keptPlaces = places.filter((p) => (kgPlaces ? kgPlaces.has(p.id) : !isPerson(p)));
+const kgNode = new Map((kg?.nodes ?? []).map((n) => [n.id, n]));
+const orgOfPlace = new Map((kg?.edges ?? []).filter((e) => e.rel === "branch_of").map((e) => [e.from.slice("place:".length), kgNode.get(e.to)]));
+const DOC_LABELS = new Map((kg?.nodes ?? []).filter((n) => n.kind === "doc").map((n) => [n.id.slice("doc:".length), { en: n.label, es: n.label_es }]));
 const programById = new Map(programs.map((g) => [g.id, g]));
 const placeIds = new Set(keptPlaces.map((p) => p.id));
 
 const offers = new Map(); // place id -> program ids
-for (const l of links) {
+// Inferred connections from the knowledge graph (an IDNYC desk offers IDNYC; IDNYC before WIC), with their reasons.
+const inferred = (kg?.edges ?? [])
+  .filter((e) => e.source === "inferred" && (e.rel === "offers" || e.rel === "unlocks"))
+  .map((e) => ({ from_id: e.from.replace(/^(place|program):/, ""), to_id: e.to.replace(/^(place|program):/, ""), type: e.rel, reason: e.why }));
+const allLinks = [...links, ...inferred.filter((x) => !links.some((l) => l.from_id === x.from_id && l.to_id === x.to_id && l.type === x.type))];
+for (const l of allLinks) {
   if (l.type === "offers" && placeIds.has(l.from_id) && programById.has(l.to_id)) {
     if (!offers.has(l.from_id)) offers.set(l.from_id, []);
-    offers.get(l.from_id).push(l.to_id);
+    if (!offers.get(l.from_id).includes(l.to_id)) offers.get(l.from_id).push(l.to_id);
   }
 }
 
@@ -93,13 +110,20 @@ for (const g of programs) {
     who: clean(g.who_can_use),
     source_url: clean(g.source_url),
     last_checked: clean(g.last_checked),
+    ...(() => {
+      const docs = kgNode.get(`program:${g.id}`)?.documents ?? [];
+      return docs.length
+        ? { docs_es: docs.map((d) => DOC_LABELS.get(d)?.es ?? d), docs_en: docs.map((d) => DOC_LABELS.get(d)?.en ?? d) }
+        : {};
+    })(),
   });
 }
 
 for (const p of keptPlaces) {
-  const needs = new Set(PLACE_ORG_NEEDS[p.org_type] ?? []);
+  // Same rule as shared/rank.ts placeNeeds: a place's own needs replace the org_type default.
+  const own = Array.isArray(p.needs) ? p.needs.filter((n) => NEEDS.includes(n)) : [];
+  const needs = new Set(own.length ? own : PLACE_ORG_NEEDS[p.org_type] ?? []);
   for (const gid of offers.get(p.id) ?? []) for (const n of programById.get(gid).needs ?? []) needs.add(n);
-  if (Array.isArray(p.needs)) for (const n of p.needs) if (NEEDS.includes(n)) needs.add(n);
   const node = {
     id: p.id,
     type: "place",
@@ -118,12 +142,18 @@ for (const p of keptPlaces) {
     last_checked: clean(p.last_checked),
   };
   if (clean(p.org) && clean(p.org) !== node.label) node.org = clean(p.org);
+  const org = orgOfPlace.get(p.id);
+  if (org?.locations > 1) {
+    node.org = org.label;
+    node.org_locations = org.locations;
+  }
+  if (org?.accredited_reps) node.accredited_reps = org.accredited_reps;
   for (const k of Object.keys(node)) if (node[k] === "" || (Array.isArray(node[k]) && !node[k].length && k !== "needs")) delete node[k];
   nodes.push(node);
 }
 
 const ids = new Set(nodes.map((n) => n.id));
-for (const l of links) {
+for (const l of allLinks) {
   if (!ids.has(l.from_id) || !ids.has(l.to_id)) continue;
   edges.push({ source: l.from_id, target: l.to_id, type: l.type, ...(l.reason ? { reason: l.reason } : {}) });
 }

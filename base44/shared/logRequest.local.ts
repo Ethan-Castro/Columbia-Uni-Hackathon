@@ -11,6 +11,7 @@
 // `req` is required: on Base44, getDb(req) needs the real incoming request.
 
 import { getDb } from "./db.ts";
+import { getSecret } from "./secrets.ts";
 import { CHANNELS, NEEDS } from "./schema.ts";
 import type { Channel, Need, RequestLog } from "./schema.ts";
 
@@ -48,6 +49,16 @@ export function toLogRow(input: LogInput): Omit<RequestLog, "id"> {
 }
 
 /**
+ * Load tests (scripts/load-test.ts) send x-load-test with the ADMIN_TOKEN so their
+ * thousands of calls never show up as demand on the insights page.
+ */
+export function isLoadTest(req: Request): boolean {
+  const sent = req.headers.get("x-load-test");
+  const token = getSecret("ADMIN_TOKEN");
+  return !!sent && !!token && sent === token;
+}
+
+/**
  * Write one RequestLog row. Never throws or rejects, even if getDb(req) throws
  * synchronously (as createClientFromRequest does on Base44 without app headers).
  * Returns the promise so callers may await it in tests; tools should call it
@@ -55,6 +66,7 @@ export function toLogRow(input: LogInput): Omit<RequestLog, "id"> {
  */
 export async function logRequest(req: Request, input: LogInput): Promise<void> {
   try {
+    if (isLoadTest(req)) return;
     await getDb(req).RequestLog.create(toLogRow(input ?? {}));
   } catch (err) {
     console.error("logRequest: write failed:", err instanceof Error ? err.name : "unknown");

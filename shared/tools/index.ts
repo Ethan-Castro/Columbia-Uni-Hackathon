@@ -12,10 +12,12 @@ import { findResources } from "./find_resources.ts";
 import { makePlan } from "./make_plan.ts";
 import { checkProvider } from "./check_provider.ts";
 import { sendToPhone } from "./send_to_phone.ts";
+import { reportFeedback } from "./report_feedback.ts";
+import { explore } from "./explore.ts";
 import { CARD_URI } from "../ui/card.ts";
 import { OUTPUT_SCHEMA, UI_KIND } from "../ui/result.ts";
 
-export const TOOLS: Tool[] = [findResources, makePlan, checkProvider, sendToPhone, ping];
+export const TOOLS: Tool[] = [findResources, makePlan, checkProvider, explore, reportFeedback, sendToPhone, ping];
 
 export function findTool(name: string): Tool | undefined {
   return TOOLS.find((t) => t.definition.name === name);
@@ -39,6 +41,12 @@ const LISTING: Record<
     annotations: READ_ONLY,
     invoking: "Revisando las listas del DOJ…",
     invoked: "Revisión lista",
+  },
+  explore: { title: "Ver conexiones", annotations: READ_ONLY, invoking: "Buscando conexiones…", invoked: "Conexiones" },
+  // Writes one anonymous row; nothing leaves our system.
+  report_feedback: {
+    title: "Avisar si sirvió",
+    annotations: { readOnlyHint: false, destructiveHint: false, idempotentHint: false, openWorldHint: false },
   },
   // Sends a message that cannot be undone, to an outside number.
   send_to_phone: {

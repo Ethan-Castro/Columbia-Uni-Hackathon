@@ -1,0 +1,44 @@
+// Base44 entity schema. Keep in sync with shared/schema.ts. Built-in fields (id, created_date, ...) are not defined here.
+{
+  "name": "Feedback",
+  "type": "object",
+  "title": "Feedback",
+  "description": "One anonymous 'did this help?' or 'this is wrong' answer about a place. Never names, phones, or free text.",
+  "properties": {
+    "place_id": {
+      "type": "string",
+      "description": "Our place id (place-...), or empty when the person only said helpful / not helpful"
+    },
+    "need": {
+      "type": "string",
+      "enum": ["food", "legal", "health", "benefits", "money", "school", "id", "housing", "work", "transit"]
+    },
+    "helpful": {
+      "type": "boolean"
+    },
+    "issue": {
+      "type": "string",
+      "enum": ["closed", "wrong_hours", "wrong_phone", "wrong_address", "turned_away", "other"]
+    },
+    "channel": {
+      "type": "string",
+      "enum": ["mcp", "whatsapp", "voice", "web"]
+    },
+    "language": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["open", "resolved"],
+      "default": "open"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": ["channel", "status", "created_at"]
+}

@@ -13,8 +13,8 @@
     "summary_en": "Free government-issued photo ID for anyone 10 and older living in NYC. Use it for City services, benefits applications, library cards, and discounts.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P032en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T16:30:12.975000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-library-card",
@@ -33,8 +33,8 @@
     "summary_en": "Your IDNYC card can be used at any public library in New York City.",
     "source_url": "https://www.nyc.gov/site/idnyc/benefits/benefits.page",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T16:30:12.975000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-wic",
@@ -54,8 +54,8 @@
     "summary_en": "Monthly food benefits, nutrition and breastfeeding support, and health screenings for pregnant people and families with children ages 0 to 5.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P022en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T16:30:12.975000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-child-health-plus",
@@ -72,8 +72,8 @@
     "summary_en": "Health insurance for children 18 and under in New York State, regardless of immigration status. Cost depends on household income; no copays.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P060en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T16:30:12.975000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-school-enrollment",
@@ -89,8 +89,8 @@
     "summary_en": "Family Welcome Centers help you enroll a child in NYC public schools, including new students and transfers. Book a virtual or in-person appointment.",
     "source_url": "https://www.schools.nyc.gov/enrollment/enrollment-help/family-welcome-centers",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T11:00:00.000Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T16:30:12.975000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-child-dependent-care-credit",
@@ -108,8 +108,8 @@
     "summary_en": "Tax credit that gives money back if you paid for child care or care of a disabled dependent so you could work or look for work.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P001en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-earlylearn-infant-toddler",
@@ -125,8 +125,8 @@
     "summary_en": "Free or low-cost early care and education for children 6 weeks to 5 years, up to 10 hours a day, year-round.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P003en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-child-tax-credit",
@@ -144,8 +144,8 @@
     "summary_en": "Federal and Empire State tax credits worth up to $3,200 per child under 4 and up to $2,700 per child ages 4 to 16. Claim when you file taxes.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P004en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-drie",
@@ -163,8 +163,8 @@
     "summary_en": "Rent freeze for New Yorkers with disabilities who receive a qualifying disability benefit and live in certain apartments.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P005en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-eitc",
@@ -182,8 +182,8 @@
     "summary_en": "Tax credit worth up to $11,000 for people who work full time, part time, or are self-employed.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P006en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-snap",
@@ -200,8 +200,8 @@
     "summary_en": "Monthly benefits on an EBT card to buy groceries. Eligibility is based mainly on household income and size.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P007en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-head-start",
@@ -217,8 +217,8 @@
     "summary_en": "Free early childhood education for low-income families with children ages 5 and under.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P008en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-compass",
@@ -236,8 +236,8 @@
     "summary_en": "Free after-school programs with homework help, sports, and arts for NYC students in kindergarten to 12th grade.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P009en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-cash-assistance",
@@ -256,8 +256,8 @@
     "summary_en": "Cash help to pay rent, utilities, and other emergency expenses. Adults who can work must work, study, or join a training program.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P010en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-qualified-health-plans",
@@ -273,8 +273,8 @@
     "summary_en": "Health insurance with a fixed monthly payment for New York residents who do not qualify for Medicaid, the Essential Plan, or Child Health Plus.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P011en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-star",
@@ -293,8 +293,8 @@
     "summary_en": "Yearly STAR credit payment that helps eligible New York State homeowners pay their property taxes.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P012en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-section-8",
@@ -311,8 +311,8 @@
     "summary_en": "Section 8 helps lower-income families pay part of their rent when renting from a private landlord.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P013en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-sche",
@@ -331,8 +331,8 @@
     "summary_en": "Lower property taxes for senior homeowners whose income is under a set limit.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P014en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-scrie",
@@ -350,8 +350,8 @@
     "summary_en": "Rent freeze for seniors 62 and older who live in certain rentals, so they can stay in their homes.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P015en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-pre-k",
@@ -369,8 +369,8 @@
     "summary_en": "Free, full-day Pre-K. Children can start in the calendar year they turn four, including children with disabilities and new English speakers.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P016en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-dhe",
@@ -389,8 +389,8 @@
     "summary_en": "Lower property taxes for homeowners with disabilities whose income is under a set limit.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P017en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-veterans-property-tax-exemption",
@@ -409,8 +409,8 @@
     "summary_en": "Lower property taxes for qualifying veterans who served in certain conflicts.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P018en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-heap",
@@ -430,8 +430,8 @@
     "summary_en": "Helps eligible households pay the cost of heating their homes.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P019en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-school-food",
@@ -448,8 +448,8 @@
     "summary_en": "Free breakfast and lunch every school day for NYC students.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P020en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-unemployment-insurance",
@@ -469,8 +469,8 @@
     "summary_en": "Temporary income for up to 26 weeks while you look for a new job after losing your old one.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P021en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-summer-meals",
@@ -486,8 +486,8 @@
     "summary_en": "Free breakfast and lunch for kids and teens at sites across NYC in summer. No paperwork or income requirements.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P023en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-nycha-rees",
@@ -506,8 +506,8 @@
     "summary_en": "Job, money, and business training programs for NYCHA public housing residents.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P024en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-older-adult-employment",
@@ -523,8 +523,8 @@
     "summary_en": "Free job training and placement help for adults 55 and older.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P025en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-workforce1",
@@ -542,8 +542,8 @@
     "summary_en": "Career centers that connect you with jobs in NYC and help you prepare for them.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P026en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-csfp",
@@ -560,8 +560,8 @@
     "summary_en": "Food packages for low-income adults ages 60 and older.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P027en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-learn-and-earn",
@@ -580,8 +580,8 @@
     "summary_en": "Year-round college and job prep for NYC high school juniors and seniors, ages 16 to 21, at risk of dropping out.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P028en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-nurse-family-partnership",
@@ -597,8 +597,8 @@
     "summary_en": "Your own personal nurse at no cost for eligible pregnant people and new parents in NYC.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P029en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-syep",
@@ -614,8 +614,8 @@
     "summary_en": "Up to six weeks of paid summer work experience for young people ages 14 to 24.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P030en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-family-planning-benefit",
@@ -633,8 +633,8 @@
     "summary_en": "Free, confidential family planning services for New York residents who are not enrolled in Medicaid.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P031en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-family-justice-centers",
@@ -652,8 +652,8 @@
     "summary_en": "Free, confidential help for survivors of domestic and gender-based violence: counseling, legal help, safety planning, and housing. No appointment needed.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P034en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-nyc-988",
@@ -669,8 +669,8 @@
     "summary_en": "Free, private mental health support by call, text, or chat, any time. Counselors speak English, Spanish, and Chinese.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P035en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-child-support-services",
@@ -688,8 +688,8 @@
     "summary_en": "Services and financial support for parents, guardians, and caretakers with child support cases.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P037en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-community-food-connection",
@@ -705,8 +705,8 @@
     "summary_en": "Free food from food pantries and community kitchens across NYC.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P039en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-hasa",
@@ -723,8 +723,8 @@
     "summary_en": "Helps people living with HIV or AIDS get health care and other public benefits.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P040en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-adult-protective-services",
@@ -741,8 +741,8 @@
     "summary_en": "Help for adults who may be in danger of abuse, neglect, or exploitation. Anyone can refer someone, even anonymously.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P041en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-access-a-ride",
@@ -761,8 +761,8 @@
     "summary_en": "Paratransit rides for people with disabilities who can't use public transit, within NYC and nearby parts of Nassau and Westchester.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P042en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-beacon",
@@ -778,8 +778,8 @@
     "summary_en": "School-based community centers for young people ages 5 to 21.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P046en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-free-tax-prep",
@@ -797,8 +797,8 @@
     "summary_en": "Free tax preparation at over 140 NYC locations, in person, online, or by phone.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P047en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.104000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-cuny-fatherhood-academy",
@@ -815,8 +815,8 @@
     "summary_en": "Education, job, and parenting help for fathers ages 18 to 30.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P051en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-newborn-home-visiting",
@@ -832,8 +832,8 @@
     "summary_en": "Free home visits for first-time parents of newborns up to 3 months old: breastfeeding, health, and safety support.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P053en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-cyshcn",
@@ -849,8 +849,8 @@
     "summary_en": "Help for children with medical conditions that require special medical services.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P054en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-youth-outpatient-mental-health",
@@ -866,8 +866,8 @@
     "summary_en": "Outpatient help for young people with emotional, behavioral, and mental health challenges.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P059en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-youth-primary-care",
@@ -883,8 +883,8 @@
     "summary_en": "Health care for children and youth at clinics and school-based health centers, regardless of immigration status or ability to pay.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P062en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-lyfe",
@@ -902,8 +902,8 @@
     "summary_en": "Free early childhood education for children of student-parents, ages 6 weeks to 4 years.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P064en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-family-resource-centers",
@@ -919,8 +919,8 @@
     "summary_en": "Peer-led support for parents and children facing emotional, behavioral, or mental health challenges.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P068en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-family-assessment",
@@ -936,8 +936,8 @@
     "summary_en": "Help for families with problems like a child skipping school or substance use, without involving the courts. No open ACS case needed.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P073en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-cornerstone",
@@ -953,8 +953,8 @@
     "summary_en": "Year-round programs for youth and adults at NYCHA public housing community centers.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P077en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-early-intervention",
@@ -970,8 +970,8 @@
     "summary_en": "Free support for infants and toddlers with disabilities or developmental delays, and their families.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P081en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-home-care-services",
@@ -987,8 +987,8 @@
     "summary_en": "Health care at home for seniors and people with disabilities.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P082en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-nycha-public-housing",
@@ -1006,8 +1006,8 @@
     "summary_en": "Affordable public housing for low- and moderate-income New Yorkers. Rent is based on your family's income.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P083en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-face-centers",
@@ -1023,8 +1023,8 @@
     "summary_en": "Information and resources for young people with disabilities, ages 0 to 21, and their families and caregivers.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P084en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-3k",
@@ -1042,8 +1042,8 @@
     "summary_en": "Free, full-day, high-quality education for New York City three-year-olds.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P085en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-cuny-asap",
@@ -1059,8 +1059,8 @@
     "summary_en": "Financial, academic, and personal support to help CUNY students finish an associate degree.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P088en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-cuny-start",
@@ -1076,8 +1076,8 @@
     "summary_en": "Helps CUNY students meet proficiency standards and prepare for college-level courses.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P089en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-train-and-earn",
@@ -1094,8 +1094,8 @@
     "summary_en": "Job training, employment help, and high school equivalency test prep for young people who are not working or in school.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P095en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-ladders-for-leaders",
@@ -1113,8 +1113,8 @@
     "summary_en": "Paid summer internships at NYC companies, nonprofits, and government agencies for high school and college students.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P097en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-youth-action-50",
@@ -1130,8 +1130,8 @@
     "summary_en": "Lets young people help their communities by shaping policy, practice, and advocacy for citywide change.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P098en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-jobs-plus",
@@ -1147,8 +1147,8 @@
     "summary_en": "Employment program that helps NYCHA residents find jobs and increase their earnings.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P099en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-cte",
@@ -1165,8 +1165,8 @@
     "summary_en": "Hands-on career training while finishing high school or a high school equivalency (HSE).",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P101en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-hud-vash",
@@ -1182,8 +1182,8 @@
     "summary_en": "Help for homeless veterans and their families to find and keep permanent housing.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P103en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-cooling-assistance",
@@ -1203,8 +1203,8 @@
     "summary_en": "Helps eligible households buy and install an air conditioner or fan to stay cool during hot weather.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P105en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-nyc-care",
@@ -1222,8 +1222,8 @@
     "summary_en": "Affordable health care at NYC Health + Hospitals for New Yorkers who don't have and can't afford health insurance.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P107en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-moia-legal-support",
@@ -1239,8 +1239,8 @@
     "summary_en": "Free immigration legal screenings at over 20 centers. Lawyers help with citizenship, green cards, DACA, TPS, and more.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P119en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-fair-fares",
@@ -1260,8 +1260,8 @@
     "summary_en": "Low-income New Yorkers ages 18 to 64 save 50% on subway, eligible bus fares, and Access-A-Ride trips.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P120en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-we-speak-nyc",
@@ -1277,8 +1277,8 @@
     "summary_en": "Free English classes, online and in person, for learners 16 and older, with materials about City services.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P121en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-homebase",
@@ -1296,8 +1296,8 @@
     "summary_en": "Support for people at risk of homelessness to stay out of shelter and keep stable housing.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P122en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-stem-matters",
@@ -1313,8 +1313,8 @@
     "summary_en": "Hands-on STEM programs for K-12 students during spring break and summer.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P125en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-covid-funeral-assistance",
@@ -1330,8 +1330,8 @@
     "summary_en": "Up to $9,000 for each funeral related to COVID-19. Income does not affect eligibility.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P128en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-lifeline",
@@ -1350,8 +1350,8 @@
     "summary_en": "A monthly discount of up to $9.25 on phone or internet service for eligible households.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P131en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-child-care-vouchers",
@@ -1368,8 +1368,8 @@
     "summary_en": "Vouchers that cover most or all child care costs at licensed centers, home-based providers, or with family and friends.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P133en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-financial-empowerment-centers",
@@ -1385,8 +1385,8 @@
     "summary_en": "Free one-on-one financial counseling to manage money, improve credit, and budget, in your preferred language. For adults who live or work in NYC.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P134en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-nfip",
@@ -1403,8 +1403,8 @@
     "summary_en": "Flood insurance that covers damage to your home and belongings.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P137en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-fheps",
@@ -1421,8 +1421,8 @@
     "summary_en": "Pays part or all of the rent for eligible families at risk of eviction, being evicted, or living in an HRA shelter.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P138en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-paid-family-leave",
@@ -1441,8 +1441,8 @@
     "summary_en": "Up to 12 weeks of paid, job-protected time off to care for a new child, a sick family member, and other situations.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P139en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-family-type-homes",
@@ -1458,8 +1458,8 @@
     "summary_en": "Supportive housing for adults who cannot live alone due to old age, developmental disabilities, or physical or mental health.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P140en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-child-care-connect",
@@ -1475,8 +1475,8 @@
     "summary_en": "Online tool to find child care programs in your community and stay informed about them.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P141en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-cnycn",
@@ -1492,8 +1492,8 @@
     "summary_en": "Help for homeowners avoiding foreclosure, dealing with late mortgage payments, and preventing scams.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P142en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-one-shot-deal",
@@ -1513,8 +1513,8 @@
     "summary_en": "Emergency cash help for an expense you can't pay because of an unexpected event, such as when you might lose your housing.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P143en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-rhy-drop-in-centers",
@@ -1530,8 +1530,8 @@
     "summary_en": "Emergency shelter and support services for young people ages 14 to 24 experiencing homelessness.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P144en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-ny-connects",
@@ -1548,8 +1548,8 @@
     "summary_en": "Free help for older adults and people with disabilities to stay independent at home and in their community.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P145en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-homeless-intake",
@@ -1565,8 +1565,8 @@
     "summary_en": "Apply for shelter or get help finding stable housing if you are homeless or in a housing crisis. Interpreters are available.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P146en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-housing-connect",
@@ -1584,8 +1584,8 @@
     "summary_en": "Online portal to find and apply for affordable apartments and homes to rent or buy in all five boroughs.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P147en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-homefirst",
@@ -1604,8 +1604,8 @@
     "summary_en": "Up to $100,000 toward the down payment or closing costs on a new home.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P148en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-mitchell-lama",
@@ -1621,8 +1621,8 @@
     "summary_en": "Rental and co-op homes for moderate- and middle-income families. Apply to each development's waiting list; it can take years.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P149en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-text-2-work",
@@ -1638,8 +1638,8 @@
     "summary_en": "Free text alerts for NYC job openings in healthcare, retail, customer service, food service, and more. Open to all NYC residents.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P153en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-silver-corps",
@@ -1655,8 +1655,8 @@
     "summary_en": "For unemployed or underemployed New Yorkers 55 and older: volunteer 15+ hours a week and get job training and credentials.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P154en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-medicaid",
@@ -1675,8 +1675,8 @@
     "summary_en": "Health coverage for doctor and clinic visits, checkups, immunizations, and more for New York residents who meet income limits. Enroll any time.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P155en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-big-apple-connect",
@@ -1692,8 +1692,8 @@
     "summary_en": "Home internet and basic cable for as low as $0 a month for residents of participating NYCHA developments, through Optimum or Spectrum.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P156en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-essential-plan",
@@ -1711,8 +1711,8 @@
     "summary_en": "Health insurance with $0 monthly premiums and low costs for New York residents ages 19 to 64. Enroll any time of year.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P160en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-nyc-ferry-discount",
@@ -1729,8 +1729,8 @@
     "summary_en": "Discounted NYC Ferry fares for seniors 65+, people with disabilities, high school students, and Fair Fares NYC participants.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P161en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-mta-reduced-fare",
@@ -1749,8 +1749,8 @@
     "summary_en": "Reduced MTA fares for anyone 65 or older or with a qualifying disability.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P162en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-paid-prenatal-leave",
@@ -1767,8 +1767,8 @@
     "summary_en": "By New York State law, workers get 20 hours of paid prenatal leave every year.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P163en",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-affordable-broadband-act",
@@ -1784,8 +1784,8 @@
     "summary_en": "Discounted home internet if you receive SNAP, Medicaid, or other benefits.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P164",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-summer-ebt",
@@ -1802,8 +1802,8 @@
     "summary_en": "Eligible kids ages 6 to 16 get $120 for groceries when school is out for the summer.",
     "source_url": "https://data.cityofnewyork.us/resource/kvhd-5fmu.json?unique_id_number=P165",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-nys-dream-act",
@@ -1822,8 +1822,8 @@
     "summary_en": "Undocumented and other students who finished high school or a GED in New York can get state college aid like TAP and Excelsior. Apply once, any time.",
     "source_url": "https://hesc.ny.gov/applying-aid/nys-dream-act",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-sth-transportation",
@@ -1842,8 +1842,8 @@
     "summary_en": "Students in temporary housing ride free to school by school bus or student OMNY card. Parents of 3-K to 12th graders without busing can get OMNY too.",
     "source_url": "https://www.schools.nyc.gov/school-life/transportation/transportation-rights",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-nycsa",
@@ -1861,8 +1861,8 @@
     "summary_en": "One login to see your child's grades and test scores, update emergency contacts, get school forms, and report bullying.",
     "source_url": "https://www.schools.nyc.gov/learning/student-journey/nyc-schools-account",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-tandas",
@@ -1878,8 +1878,8 @@
     "summary_en": "A tanda is an informal savings group: members pay into a shared fund and each receives it in turn. No interest, but informal savings can be risky.",
     "source_url": "https://www.nyc.gov/assets/dca/downloads/pdf/partners/Research-ImmigrantFinancialStudy-FullReport.pdf",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-lending-circles",
@@ -1895,8 +1895,8 @@
     "summary_en": "Zero-interest loans of $300 to $2,400 shared by groups of 6 to 12 people. Payments are reported to all three major credit bureaus to build credit.",
     "source_url": "https://www.missionassetfund.org/lending-circles/",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   },
   {
     "id": "prog-idnyc-bank-account",
@@ -1915,7 +1915,7 @@
     "summary_en": "Some NYC banks and credit unions accept IDNYC as primary ID to open an account. They may also ask for proof of address, SSN or ITIN.",
     "source_url": "https://www.nyc.gov/site/idnyc/benefits/banks-and-credit-unions.page",
     "last_checked": "2026-10-10",
-    "created_date": "2026-10-10T17:00:38.501Z",
-    "updated_date": "2026-10-10T17:00:38.501Z"
+    "created_date": "2026-10-10T17:00:49.105000",
+    "updated_date": "2026-10-10T18:10:57.706000"
   }
 ]

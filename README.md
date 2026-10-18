@@ -14,6 +14,34 @@ The data is a graph:
 
 > Everything in `data/` right now is **sample data**. All places are fictional, have names ending in "(sample)", and have `trust = unverified`. Felix's real CSVs replace it through `deno task import`.
 
+### The knowledge graph (`shared/graph.ts`)
+
+Every request builds (and caches for 60 s) a graph over Places, Programs and Links. On the live data it has about 2,000 nodes and 3,500 edges.
+
+- **Nodes:** need, program, organization, place, zip, neighborhood, borough, language, and document.
+- **Organizations:** branches group under one organization (BronxWorks has 13 locations). Search returns one location per organization and says how many others it has.
+- **Documents:** read from each program's "what to bring" text, with where to get them (a photo ID from IDNYC). These produce "do this first" chains: WIC asks for a photo ID, IDNYC gives you one, so IDNYC comes first in a plan.
+- **Inferred offers:** an IDNYC desk offers IDNYC, and an HRA SNAP center offers SNAP, even with no curated Link.
+- **Provenance:** every edge says where it came from: `link` (curated, official), `data` (a field on the record) or `inferred` (a written rule, with its reason). No rule adds a fact that is not already in a record.
+- **People:** individual people (DOJ accredited representatives listed by name) are never nodes or results. Their organization carries a count.
+- **Open data:** `deno run -A scripts/graph-export.ts` writes `web/public/graph/knowledge-graph.json`, `nodes.csv` and `edges.csv`.
+
+### Keeping it true
+
+- `deno run -A scripts/base44-pull.ts` copies the live catalog into `data/` (approved places included).
+- `deno run -A scripts/recheck.ts [--write]` re-verifies places against their sources:
+  - All 523 pantries are checked against the City's Food Help layer in one query (open status, name, phone, address, edits since our check).
+  - Web-page sources must still load and still mention the place.
+  - Confirmed places get `last_checked` = today. Anything changed lands in `data/recheck-report.json` for a person.
+- Answers carry `check_first` ("call before you go") when a place was checked more than 90 days ago, has seasonal date-bound hours, or has an open report.
+- Approving a submission with no zip geocodes the address with the City's GeoSearch. One that matches a published place is linked, not duplicated.
+- `#/insights` shows:
+  - coverage gaps (neighborhood × need: places vs. requests)
+  - feedback
+  - freshness
+  - graph size
+- `scripts/load-test.ts` measures the live hot path without writing RequestLog rows. Costs, hosting and funding are in `docs/SUSTAINABILITY.md`.
+
 ## Quick start
 
 Requires [Deno](https://deno.com) 2.x and Node 18+ (for the web app only).
@@ -110,6 +138,8 @@ curl -s -X POST <url> -H 'content-type: application/json' -d '{"jsonrpc":"2.0","
 | `find_resources` | Top 5 places for one need near a zip, neighborhood or borough: official/verified first, then nearest, then open now and evening/weekend hours when `open_now`. Each has hours, languages, what to bring, trust, source and last-checked date, plus a 1-2 sentence summary in the person's language. Lists related programs when few places match. |
 | `make_plan` | One best place per need, ordered by Links so the step that unlocks the others comes first (IDNYC before WIC or a bank account). With legal, adds an intake summary (English for the lawyer, Spanish for the person) built only from what the person said, never stored. Returns `plan_text` ready for WhatsApp. |
 | `check_provider` | Fuzzy-matches a notario, consultant or lawyer name against the DOJ roster and pro bono list. Returns found or not, the match, a plain warning when not found, and up to 3 free DOJ-listed legal providers nearby. |
+| `explore` | Walks the knowledge graph from one place or program: its organization and other locations, programs offered, documents a program asks for and where to get each one, what to do first, what it opens up, places nearby. Each connection says whether it comes from an official source, the record, or a written rule. |
+| `report_feedback` | "Did this help?" or "this is wrong" (closed, wrong hours/phone/address, turned away). Anonymous, fixed choices only. An open report puts "call before you go" on that place's answers until a person re-checks it in `#/admin`. |
 | `send_to_phone` | Sends a plan by WhatsApp (Twilio sandbox) only when `consent` is the boolean `true`. Strips anything about immigration status, never logs the number. |
 | `ping` | Connectivity check. |
 

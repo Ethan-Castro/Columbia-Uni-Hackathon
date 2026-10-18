@@ -27,29 +27,9 @@ export async function loadCatalog(): Promise<Catalog> {
   return { places, programs, links, programById: new Map(programs.map((p) => [p.id, p])) };
 }
 
-/** Words that mark an organization name, not a person. */
-const ORG_WORDS =
-  /\b(inc|llc|llp|pllc|pc|corp|ltd|co|ny|nyc|center|centre|services?|church|society|association|council|foundation|fund|project|network|coalition|legal|law|aid|committee|office|program|department|university|college|school|house|alliance|league|institute|catholic|charities|ministr\w*)\b\.?/i;
-
-/** "Last, First" style names (DOJ accredited representatives). */
-export function looksLikePerson(name: string): boolean {
-  const n = name.trim();
-  if (!/^[^,()0-9]+,\s*[^,()0-9]+$/.test(n)) return false;
-  return !ORG_WORDS.test(n);
-}
-
-/**
- * Individual people are never published. DOJ accredited representatives are
- * listed as persons (place-doj-rep-*, "Last, First", name differs from org,
- * and they carry no address of their own).
- */
-export function isPerson(p: Place): boolean {
-  if (p.org_type !== "doj_roster" && p.org_type !== "doj_pro_bono") return false;
-  if (p.id.startsWith("place-doj-rep-")) return true;
-  if (looksLikePerson(p.name) && p.name !== p.org) return true;
-  if (looksLikePerson(p.name) && !p.address) return true;
-  return false;
-}
+// One rule for who is a person, shared with search and the knowledge graph.
+import { isPerson, looksLikePerson } from "../shared/graph.ts";
+export { isPerson, looksLikePerson };
 
 /** Places that get an article and a page: a street address and not a person. */
 export function eligiblePlaces(places: Place[]): Place[] {

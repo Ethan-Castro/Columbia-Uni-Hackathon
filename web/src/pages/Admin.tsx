@@ -1,12 +1,12 @@
 // Admin review queue: approve (optionally with edits) or reject community
 // submissions. Approving publishes a Place with trust "community".
 import { useCallback, useEffect, useState } from "react";
-import { ApiError, approveSubmission, listSubmissions, rejectSubmission, runCitywideScout } from "../api.ts";
+import { ApiError, approveSubmission, listReports, listSubmissions, rejectSubmission, resolveReports, runCitywideScout } from "../api.ts";
 import { AdminGate } from "../components/AdminGate.tsx";
 import { useI18n } from "../i18n.tsx";
 import { HREF } from "../router.ts";
 import { BOROUGHS, ORG_TYPES } from "../types.ts";
-import type { ReviewListResult, Submission, SubmissionEdits } from "../types.ts";
+import type { ReportGroup, ReviewListResult, Submission, SubmissionEdits } from "../types.ts";
 
 type Status = "pending" | "approved" | "rejected";
 
@@ -18,7 +18,7 @@ export function Admin() {
         <h1>{t("adm_title")}</h1>
         <p>{t("adm_intro")}</p>
       </section>
-      <AdminGate>{(signOut) => <Queue signOut={signOut} />}</AdminGate>
+      <AdminGate>{(signOut) => <><Reports signOut={signOut} /><Queue signOut={signOut} /></>}</AdminGate>
     </>
   );
 }
@@ -229,5 +229,57 @@ function SubmissionCard({ sub, onDone, onError }: {
         </>
       )}
     </article>
+  );
+}
+
+/**
+ * "This is wrong" reports from people (Feedback), grouped by place. A person calls or checks the
+ * source, fixes the place if needed, then resolves: "Still correct" also marks it checked today.
+ */
+function Reports({ signOut }: { signOut: (msg?: string) => void }) {
+  const { lang } = useI18n();
+  const en = lang === "en";
+  const S = en
+    ? { title: "Reports from people", none: "No open reports.", body: "Someone said these places have wrong information. While a report is open, answers tell people to call first.", ok: "Checked: still correct", fixed: "Fixed / close report", source: "Source", checked: "last checked" }
+    : { title: "Reportes de la gente", none: "No hay reportes abiertos.", body: "Alguien dijo que estos lugares tienen información equivocada. Mientras un reporte está abierto, las respuestas dicen que llamen antes de ir.", ok: "Revisado: sigue bien", fixed: "Corregido / cerrar reporte", source: "Fuente", checked: "revisado" };
+  const [reports, setReports] = useState<ReportGroup[] | null>(null);
+  const [error, setError] = useState("");
+  const load = useCallback(() => {
+    listReports().then((r) => setReports(r.reports)).catch((err) => {
+      if (err instanceof ApiError && err.status === 401) return signOut();
+      setError(err instanceof Error ? err.message : String(err));
+    });
+  }, [signOut]);
+  useEffect(load, [load]);
+  const resolve = async (id: string, confirmed: boolean) => {
+    try {
+      await resolveReports(id, confirmed);
+      load();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : String(err));
+    }
+  };
+  if (error) return <p className="error" role="alert">{error}</p>;
+  if (!reports) return null;
+  return (
+    <section className="card" aria-labelledby="reports-title" style={{ marginBottom: 16 }}>
+      <h2 id="reports-title">{S.title} ({reports.length})</h2>
+      <p className="muted small">{S.body}</p>
+      {!reports.length && <p className="muted">{S.none}</p>}
+      {reports.map((r) => (
+        <article key={r.place_id} className="card" style={{ marginTop: 8 }}>
+          <strong>{r.name}</strong>
+          <p className="small">{r.address}{r.phone ? ` · ${r.phone}` : ""}{r.hours ? ` · ${r.hours}` : ""}</p>
+          <p className="small muted">
+            {Object.entries(r.issues).map(([k, v]) => `${k} ×${v}`).join(", ")} · {S.checked} {r.last_checked}
+            {r.source_url.startsWith("http") && <> · <a href={r.source_url} target="_blank" rel="noopener noreferrer">{S.source}</a></>}
+          </p>
+          <div className="actions">
+            <button type="button" className="btn btn-secondary" onClick={() => resolve(r.place_id, true)}>{S.ok}</button>
+            <button type="button" className="btn btn-link" onClick={() => resolve(r.place_id, false)}>{S.fixed}</button>
+          </div>
+        </article>
+      ))}
+    </section>
   );
 }

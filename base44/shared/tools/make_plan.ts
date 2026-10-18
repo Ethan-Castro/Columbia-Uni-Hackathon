@@ -22,6 +22,7 @@ import {
   bestDojProvider,
   bringOf,
   cleanLLMText,
+  documentsOf,
   hasSampleData,
   inAreaAndLanguage,
   isSensitive,
@@ -81,7 +82,10 @@ function buildEdges(cat: Catalog, drafts: Draft[]): { edges: Edge[]; notes: Map<
   const add = (from: number, to: number, reason: string) => {
     if (from !== to && !edges.some((e) => e.from === from && e.to === to)) edges.push({ from, to, reason });
   };
-  for (const l of cat.links) {
+  const offeredAnywhere = new Set([...cat.offers.values()].flatMap((list) => list.map((p) => p.id)));
+  // Curated Links, plus the graph's document chains: "WIC asks for a photo ID; IDNYC gives you one."
+  const docLinks = cat.graph.inferredUnlocks.map((u) => ({ from_id: u.from, to_id: u.to, type: "unlocks" as const, reason: u.why }));
+  for (const l of [...cat.links, ...docLinks]) {
     if (l.type === "offers") continue;
     for (const a of drafts) {
       for (const b of drafts) {
@@ -96,8 +100,10 @@ function buildEdges(cat: Catalog, drafts: Draft[]): { edges: Edge[]; notes: Map<
           continue;
         }
         if (b.nodes.has(l.to_id)) add(a.index, b.index, l.reason);
-        else if (l.type === "unlocks") {
-          // IDNYC unlocks "bank account": counts for a money step even if that program was not chosen.
+        else if (l.type === "unlocks" && !b.programs.length && !offeredAnywhere.has(l.to_id)) {
+          // IDNYC unlocks "bank account": counts for a money step even if that program was not chosen,
+          // but only for do-it-anywhere programs no place offers. Otherwise "IDNYC helps with SNAP"
+          // would be the reason to go before a food pantry, which never asks for SNAP.
           const target = cat.programById.get(l.to_id);
           if (target && (target.needs ?? []).includes(b.need)) add(a.index, b.index, l.reason);
         }
@@ -186,19 +192,27 @@ function planText(steps: Array<{ need: Need; place: PlaceOut | null; bring: stri
     if (s.place.address) lines.push(`   ${t(language, "label_address")}: ${s.place.address}`);
     if (s.place.hours) lines.push(`   ${t(language, "label_hours")}: ${s.place.hours}`);
     if (s.place.phone) lines.push(`   ${t(language, "label_phone")}: ${s.place.phone}`);
+    else if (s.place.call_hint) lines.push(`   ${s.place.call_hint}`);
+    if (s.place.check_first) lines.push(`   ${s.place.check_first}`);
     const bring = s.bring.filter((b) => !isSensitive(b));
     if (bring.length) lines.push(`   ${t(language, "label_bring")}: ${bring.join("; ")}`);
-    if (s.place.last_checked) lines.push(`   ${t(language, "label_last_checked")}: ${s.place.last_checked}`);
+    if (s.place.last_checked) lines.push(`   ${t(language, "label_last_checked")}: ${s.place.last_checked} · ${en ? "code" : "código"} ${s.place.code}`);
   });
   return lines.join("\n");
 }
 
-/** The LLM's translation of a bring list, only if it kept every item (same count, short strings). */
-function translatedBring(v: unknown, original: string[], language: string): string[] {
+/**
+ * The LLM's translation of a bring list, only if it kept every item (same count,
+ * short strings). Without it, a non-English answer lists the documents the text
+ * names (graph labels, e.g. "Identificación con foto") instead of English sentences.
+ */
+function translatedBring(v: unknown, original: string[], language: string, programs: Program[]): string[] {
   if (langOf(language) === "en") return original;
-  if (!Array.isArray(v) || v.length !== original.length) return original;
-  const out = v.map((x) => cleanLLMText(x, 200));
-  return out.every((x): x is string => x !== null) ? out : original;
+  if (Array.isArray(v) && v.length === original.length) {
+    const out = v.map((x) => cleanLLMText(x, 200));
+    if (out.every((x): x is string => x !== null)) return out;
+  }
+  return original.length ? documentsOf(programs, language) : original;
 }
 
 /** Trimmed place for a plan step. */
@@ -344,7 +358,7 @@ export const makePlan: Tool = {
         : null;
       const place = d.best ? placeOut(d.best, language, "") : null;
       const programsOut = d.programs.map((p) => programOut(p, language));
-      const bring = translatedBring(fromAI?.bring, bringOf(d.programs), language);
+      const bring = translatedBring(fromAI?.bring, bringOf(d.programs), language, d.programs);
       const title = cleanLLMText(fromAI?.title, 120) ?? templateTitle(d.need, d.best?.place.name, language);
       const summary = cleanLLMText(fromAI?.summary, 400) ??
         (d.best ? templateSummary(d.best, language) : t(language, "no_results_anywhere", { need: needLabel(language, d.need) }));

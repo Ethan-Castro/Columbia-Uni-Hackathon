@@ -40,6 +40,12 @@ interface GNode {
   summary_es?: string;
   summary_en?: string;
   who?: string;
+  /** Programs: documents the "what to bring" text names (knowledge graph). */
+  docs_es?: string[];
+  docs_en?: string[];
+  /** Places: locations of the same organization, and its DOJ accredited representatives (a count). */
+  org_locations?: number;
+  accredited_reps?: number;
   x: number;
   y: number;
   r: number;
@@ -690,6 +696,12 @@ function Article({ node, graph, S, dark, onOpen, onClose, onFilterNeed }: {
             <p className="text-sm">{node.who}</p>
           </>
         )}
+        {(lang === "es" ? node.docs_es : node.docs_en)?.length ? (
+          <>
+            <h4 className="mb-1 mt-3 text-sm font-semibold">{lang === "es" ? "Qué piden" : "What they ask for"}</h4>
+            <p className="text-sm">{(lang === "es" ? node.docs_es : node.docs_en)!.join(" · ")}</p>
+          </>
+        ) : null}
         {offeredBy.length > 0 && (
           <>
             <h4 className="mb-1.5 mt-3 text-sm font-semibold">{S.placesHere}</h4>
@@ -728,7 +740,15 @@ function Article({ node, graph, S, dark, onOpen, onClose, onFilterNeed }: {
         <p className="text-sm text-muted-foreground">
           {node.org_type ? label("org", node.org_type) : S.typePlace}
           {node.org ? ` · ${node.org}` : ""}
+          {node.org_locations ? ` · ${node.org_locations} ${lang === "es" ? "sedes" : "locations"}` : ""}
         </p>
+        {node.accredited_reps ? (
+          <p className="text-xs text-muted-foreground">
+            {lang === "es"
+              ? `La lista del DOJ registra ${node.accredited_reps} representantes acreditados en esta organización.`
+              : `The DOJ roster lists ${node.accredited_reps} accredited representatives at this organization.`}
+          </p>
+        ) : null}
         {needChips}
         {programs.length > 0 && (
           <>

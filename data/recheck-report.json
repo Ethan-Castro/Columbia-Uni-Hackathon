@@ -1,0 +1,92 @@
+{
+  "checked_on": "2026-10-17",
+  "pantries_checked": 523,
+  "pages_checked": 60,
+  "confirmed": 569,
+  "closed": 0,
+  "missing": 0,
+  "changed": 1,
+  "broken_source": 1,
+  "not_on_page": 9,
+  "doj_roster_places": 115,
+  "doj_note": "DOJ roster entries come from EOIR's PDF roster: re-import the newest roster to refresh them.",
+  "findings": [
+    {
+      "id": "place-fh-iglesia-cristiana-evangelica",
+      "name": "IGLESIA CRISTIANA EVANGELICA",
+      "source_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D33&outFields=*&f=json",
+      "kind": "changed",
+      "detail": "phone now \"(347) 938-9368\""
+    },
+    {
+      "id": "place-hra-benefits-access-center-queens",
+      "name": "HRA Benefits Access Center Queens",
+      "source_url": "https://www.nyc.gov/site/hra/locations/job-locations.page",
+      "kind": "not_on_page",
+      "detail": "The source page loads but no longer mentions this place."
+    },
+    {
+      "id": "place-hra-benefits-access-center-jamaica",
+      "name": "HRA Benefits Access Center Jamaica",
+      "source_url": "https://www.nyc.gov/site/hra/locations/job-locations.page",
+      "kind": "not_on_page",
+      "detail": "The source page loads but no longer mentions this place."
+    },
+    {
+      "id": "place-hra-benefits-access-center-rockaway",
+      "name": "HRA Benefits Access Center Rockaway",
+      "source_url": "https://www.nyc.gov/site/hra/locations/job-locations.page",
+      "kind": "not_on_page",
+      "detail": "The source page loads but no longer mentions this place."
+    },
+    {
+      "id": "place-travel-multiservices-express",
+      "name": "Travel Multiservices Express (Western Union agent)",
+      "source_url": "https://location.westernunion.com/us/ny/corona",
+      "kind": "not_on_page",
+      "detail": "The source page loads but no longer mentions this place."
+    },
+    {
+      "id": "place-ginbri-express",
+      "name": "Ginbri Express (Western Union agent)",
+      "source_url": "https://location.westernunion.com/us/ny/corona",
+      "kind": "not_on_page",
+      "detail": "The source page loads but no longer mentions this place."
+    },
+    {
+      "id": "place-ecuaprinting",
+      "name": "Ecuaprinting (Western Union agent)",
+      "source_url": "https://location.westernunion.com/us/ny/corona",
+      "kind": "not_on_page",
+      "detail": "The source page loads but no longer mentions this place."
+    },
+    {
+      "id": "place-asian-american-legal-defense-and-education-fund-aaldef",
+      "name": "Asian American Legal Defense and Education Fund (AALDEF)",
+      "source_url": "https://www.justia.com/lawyers/immigration-law/new-york/new-york-city/legal-aid-and-pro-bono-services",
+      "kind": "broken_source",
+      "detail": "HTTP 403"
+    },
+    {
+      "id": "place-bronx-library-center",
+      "name": "Bronx Library Center",
+      "source_url": "https://www.nypl.org/locations/bronx-library-center",
+      "kind": "not_on_page",
+      "detail": "The source page loads but no longer mentions this place."
+    },
+    {
+      "id": "place-nyc-hh-gotham-jackson-heights",
+      "name": "NYC Health + Hospitals/Gotham Health (Jackson Heights)",
+      "source_url": "https://www.nychealthandhospitals.org/elmhurst/community-medical-centers",
+      "kind": "not_on_page",
+      "detail": "The source page loads but no longer mentions this place."
+    },
+    {
+      "id": "place-nyc-hh-gotham-womens-health-corona",
+      "name": "NYC Health + Hospitals/Gotham Health (Women's Health Center)",
+      "source_url": "https://www.nychealthandhospitals.org/elmhurst/community-medical-centers",
+      "kind": "not_on_page",
+      "detail": "The source page loads but no longer mentions this place."
+    }
+  ]
+}

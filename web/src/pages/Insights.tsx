@@ -101,6 +101,85 @@ function Dashboard({ signOut }: { signOut: (msg?: string) => void }) {
           />
         </div>
       )}
+
+      <GraphSections data={data} />
+    </>
+  );
+}
+
+/** Supply vs demand, feedback and freshness: computed on the server from the knowledge graph. */
+function GraphSections({ data }: { data: Insights }) {
+  const { label, lang } = useI18n();
+  const en = lang === "en";
+  const S = en
+    ? {
+      gaps: "Where we are thin", gapsNote: "Neighborhood + need: places we list inside its zips vs. requests from there. Asked-for and empty first.",
+      hood: "Neighborhood", need: "Need", places: "Places", req: "Requests", fb: "Did it help?", yes: "Helpful", no: "Not helpful",
+      open: "Open reports", resolved: "Resolved reports", fresh: "Freshness", stale: "Checked > 90 days ago", seasonal: "Seasonal hours",
+      noPhone: "No phone", noHours: "No hours", ages: "Days since last check", graph: "Knowledge graph", nodes: "Nodes", edges: "Edges by source",
+      issues: "Reports by issue",
+    }
+    : {
+      gaps: "Dónde nos falta", gapsNote: "Barrio + necesidad: lugares dentro de sus códigos postales frente a búsquedas desde ahí. Primero lo que se pidió y no hay.",
+      hood: "Barrio", need: "Necesidad", places: "Lugares", req: "Búsquedas", fb: "¿Les sirvió?", yes: "Sí sirvió", no: "No sirvió",
+      open: "Reportes abiertos", resolved: "Reportes resueltos", fresh: "Qué tan al día", stale: "Revisados hace más de 90 días", seasonal: "Horario por temporada",
+      noPhone: "Sin teléfono", noHours: "Sin horario", ages: "Días desde la última revisión", graph: "Grafo de conocimiento", nodes: "Nodos", edges: "Conexiones por origen",
+      issues: "Reportes por tipo",
+    };
+  const f = data.feedback, fr = data.freshness, g = data.graph;
+  return (
+    <>
+      {f && (
+        <section className="card" style={{ marginTop: 16 }}>
+          <h2>{S.fb}</h2>
+          <div className="tiles">
+            <div className="card tile"><span className="tile-label">{S.yes}</span><span className="tile-value">{f.helpful}</span></div>
+            <div className="card tile"><span className="tile-label">{S.no}</span><span className="tile-value">{f.not_helpful}</span></div>
+            <div className="card tile"><span className="tile-label">{S.open}</span><span className="tile-value">{f.reports_open}</span></div>
+            <div className="card tile"><span className="tile-label">{S.resolved}</span><span className="tile-value">{f.reports_resolved}</span></div>
+          </div>
+          {f.by_issue.length > 0 && <BarChart title={S.issues} rows={f.by_issue.map((c) => ({ key: c.key, label: c.key, value: c.count }))} />}
+        </section>
+      )}
+      {data.gaps && data.gaps.length > 0 && (
+        <section className="card" style={{ marginTop: 16 }}>
+          <h2>{S.gaps}</h2>
+          <p className="muted small">{S.gapsNote}</p>
+          <div style={{ overflowX: "auto" }}>
+            <table>
+              <thead><tr><th>{S.hood}</th><th>{S.need}</th><th>{S.places}</th><th>{S.req}</th></tr></thead>
+              <tbody>
+                {data.gaps.map((x) => (
+                  <tr key={`${x.neighborhood}-${x.need}`}>
+                    <td>{x.neighborhood}</td><td>{label("need", x.need)}</td><td>{x.places}</td><td>{x.requests}{x.unmet ? ` (${x.unmet} ✗)` : ""}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+      {fr && (
+        <section className="card" style={{ marginTop: 16 }}>
+          <h2>{S.fresh}</h2>
+          <div className="tiles">
+            <div className="card tile"><span className="tile-label">{S.stale}</span><span className="tile-value">{fr.stale}</span><span className="tile-sub">/ {fr.places}</span></div>
+            <div className="card tile"><span className="tile-label">{S.seasonal}</span><span className="tile-value">{fr.seasonal_hours}</span></div>
+            <div className="card tile"><span className="tile-label">{S.noPhone}</span><span className="tile-value">{fr.no_phone}</span></div>
+            <div className="card tile"><span className="tile-label">{S.noHours}</span><span className="tile-value">{fr.no_hours}</span></div>
+          </div>
+          <BarChart title={S.ages} rows={fr.by_age.map((c) => ({ key: c.key, label: c.key, value: c.count }))} />
+        </section>
+      )}
+      {g && (
+        <section className="card" style={{ marginTop: 16 }}>
+          <h2>{S.graph}</h2>
+          <div className="charts">
+            <BarChart title={S.nodes} rows={Object.entries(g.nodes).sort((a, b) => b[1] - a[1]).map(([k, v]) => ({ key: k, label: k, value: v }))} />
+            <BarChart title={S.edges} rows={Object.entries(g.edges).map(([k, v]) => ({ key: k, label: k, value: v }))} />
+          </div>
+        </section>
+      )}
     </>
   );
 }

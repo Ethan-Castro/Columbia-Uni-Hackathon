@@ -1,7 +1,9 @@
 // One place in the directory: what it is, when it is open, what to bring,
 // how much to trust it, and where the information came from.
+import { useState } from "react";
+import { reportFeedback } from "../api.ts";
 import { useI18n } from "../i18n.tsx";
-import type { DirectoryPlace } from "../types.ts";
+import type { DirectoryPlace, FeedbackIssue } from "../types.ts";
 
 export function TrustBadge({ trust }: { trust: string }) {
   const { label } = useI18n();
@@ -30,10 +32,13 @@ export function PlaceCard({ place }: { place: DirectoryPlace }) {
           <p className="muted">
             {label("org", place.org_type)}
             {place.org && place.org !== place.name ? ` · ${place.org}` : ""}
+            {place.org_locations ? ` · ${lang === "en" ? `${place.org_locations} locations` : `${place.org_locations} sedes`}` : ""}
           </p>
         </div>
         <TrustBadge trust={place.trust} />
       </div>
+
+      {place.check_first && <p className="small status-advice" role="note">⚠ {place.check_first}</p>}
 
       <p className="place-address">
         {place.address}
@@ -66,7 +71,17 @@ export function PlaceCard({ place }: { place: DirectoryPlace }) {
         <div>
           <dt>{t("card_bring")}</dt>
           <dd>
-            {place.bring.length
+            {/* Spanish: the document list the graph reads from the (English) source text; the full text stays one tap away. */}
+            {lang !== "en" && place.documents?.length
+              ? (
+                <>
+                  <ul className="bring">{place.documents.map((d) => <li key={d}>{d}</li>)}</ul>
+                  <details className="small"><summary className="muted">Texto original (inglés)</summary>
+                    <ul className="bring">{place.bring.map((b) => <li key={b} lang="en">{b}</li>)}</ul>
+                  </details>
+                </>
+              )
+              : place.bring.length
               ? <ul className="bring">{place.bring.map((b) => <li key={b} lang="en">{b}</li>)}</ul>
               : <span className="muted">{t("card_bring_unknown")}</span>}
           </dd>
@@ -99,6 +114,62 @@ export function PlaceCard({ place }: { place: DirectoryPlace }) {
           {place.last_checked && <> · {t("card_checked", { date: date(place.last_checked) })}</>}
         </p>
       </div>
+      <FeedbackRow placeId={place.id} />
     </article>
+  );
+}
+
+const ISSUES: FeedbackIssue[] = ["closed", "wrong_hours", "wrong_phone", "wrong_address", "turned_away", "other"];
+const FB = {
+  es: {
+    ask: "¿Le sirvió?", yes: "Sí", no: "No", wrong: "Algo está mal", pick: "¿Qué está mal?",
+    issues: { closed: "Cerró o ya no está", wrong_hours: "Otro horario", wrong_phone: "Teléfono equivocado", wrong_address: "Dirección equivocada", turned_away: "No me atendieron", other: "Otra cosa" },
+    privacy: "Anónimo: no guardamos nombres ni teléfonos.",
+  },
+  en: {
+    ask: "Did this help?", yes: "Yes", no: "No", wrong: "Something is wrong", pick: "What is wrong?",
+    issues: { closed: "Closed or gone", wrong_hours: "Different hours", wrong_phone: "Wrong phone", wrong_address: "Wrong address", turned_away: "They turned me away", other: "Something else" },
+    privacy: "Anonymous: we never keep names or phone numbers.",
+  },
+};
+
+/** "Did this help?" with one tap; "something is wrong" opens fixed choices (no free text, ever). */
+function FeedbackRow({ placeId }: { placeId: string }) {
+  const { lang } = useI18n();
+  const S = FB[lang === "en" ? "en" : "es"];
+  const [state, setState] = useState<"idle" | "pick" | "sending" | "done">("idle");
+  const [message, setMessage] = useState("");
+  const send = async (input: { helpful?: boolean; issue?: FeedbackIssue }) => {
+    setState("sending");
+    try {
+      const r = await reportFeedback({ place_id: placeId, language: lang, ...input });
+      setMessage(r.message);
+    } catch {
+      setMessage(lang === "en" ? "Could not send. Please try again later." : "No se pudo enviar. Intente más tarde.");
+    }
+    setState("done");
+  };
+  if (state === "done") return <p className="small muted feedback-row" role="status">{message}</p>;
+  return (
+    <div className="feedback-row small">
+      {state === "pick"
+        ? (
+          <>
+            <span className="muted">{S.pick}</span>{" "}
+            {ISSUES.map((i) => (
+              <button key={i} type="button" className="btn btn-link" onClick={() => send({ issue: i })}>{S.issues[i]}</button>
+            ))}
+          </>
+        )
+        : (
+          <>
+            <span className="muted">{S.ask}</span>{" "}
+            <button type="button" className="btn btn-link" disabled={state === "sending"} onClick={() => send({ helpful: true })}>{S.yes}</button>
+            <button type="button" className="btn btn-link" disabled={state === "sending"} onClick={() => send({ helpful: false })}>{S.no}</button>
+            <button type="button" className="btn btn-link" disabled={state === "sending"} onClick={() => setState("pick")}>{S.wrong}</button>
+          </>
+        )}
+      <span className="muted"> · {S.privacy}</span>
+    </div>
   );
 }

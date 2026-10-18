@@ -47,6 +47,12 @@ export interface DirectoryPlace {
   phone: string;
   needs: Need[];
   bring: string[];
+  /** Document labels in the UI language (from the knowledge graph). */
+  documents?: string[];
+  /** "Call before you go" note when the record may be out of date. */
+  check_first?: string;
+  /** Locations of the same organization, when more than one. */
+  org_locations?: number;
   programs: DirectoryProgram[];
   trust: "official" | "verified" | "community" | "unverified" | string;
   trust_label: string;
@@ -143,6 +149,41 @@ export interface Insights {
   languages: Count[];
   channels: Count[];
   by_day: Count[];
+  gaps?: Array<{ neighborhood: string; need: string; places: number; requests: number; unmet: number }>;
+  feedback?: {
+    helpful: number;
+    not_helpful: number;
+    reports_open: number;
+    reports_resolved: number;
+    by_issue: Count[];
+    helpful_by_channel: Array<{ channel: string; helpful: number; not_helpful: number }>;
+  };
+  freshness?: {
+    places: number;
+    stale: number;
+    seasonal_hours: number;
+    no_phone: number;
+    no_hours: number;
+    by_age: Count[];
+    oldest: Array<{ id: string; name: string; last_checked: string }>;
+  };
+  graph?: { nodes: Record<string, number>; edges: Record<string, number> };
+}
+
+export type FeedbackIssue = "closed" | "wrong_hours" | "wrong_phone" | "wrong_address" | "turned_away" | "other";
+
+export interface ReportGroup {
+  place_id: string;
+  name: string;
+  address: string;
+  phone: string;
+  hours: string;
+  source_url: string;
+  last_checked: string;
+  issues: Record<string, number>;
+  total: number;
+  first_at: string;
+  last_at: string;
 }
 
 export type CommunityKind = "question" | "correction" | "reply";

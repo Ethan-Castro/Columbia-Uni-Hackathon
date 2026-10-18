@@ -52,6 +52,19 @@ export type CommunityStatus = typeof COMMUNITY_STATUS[number];
 export const CHANNELS = ["mcp", "whatsapp", "voice", "web"] as const;
 export type Channel = typeof CHANNELS[number];
 
+/** What a person can say is wrong about a place. Fixed choices: no free text is ever stored. */
+export const FEEDBACK_ISSUES = [
+  "closed", // closed for good / not there
+  "wrong_hours",
+  "wrong_phone",
+  "wrong_address",
+  "turned_away", // they would not help me
+  "other",
+] as const;
+export type FeedbackIssue = typeof FEEDBACK_ISSUES[number];
+export const FEEDBACK_STATUS = ["open", "resolved"] as const;
+export type FeedbackStatus = typeof FEEDBACK_STATUS[number];
+
 export const ID_PATTERNS = {
   program: /^prog-[a-z0-9]+(?:-[a-z0-9]+)*$/,
   place: /^place-[a-z0-9]+(?:-[a-z0-9]+)*$/,
@@ -128,6 +141,24 @@ export interface RequestLog extends BuiltIn {
   channel: Channel;
   results_found: number;
   unmet: boolean;
+  created_at: string; // ISO datetime
+}
+
+/**
+ * One "did this help?" / "this is wrong" answer about a place. Anonymous: no
+ * names, phones or free text, the same rule as RequestLog. A row with an
+ * `issue` is a report: it stays "open" until a person re-checks the place, and
+ * while open the place's answers say "call before you go".
+ */
+export interface Feedback extends BuiltIn {
+  place_id: string; // "" when the person only answered helpful / not helpful
+  need?: Need;
+  helpful?: boolean;
+  issue?: FeedbackIssue;
+  channel: Channel;
+  language: string;
+  zip: string;
+  status: FeedbackStatus;
   created_at: string; // ISO datetime
 }
 
@@ -234,7 +265,7 @@ export const PROGRAM_ENUMS = { needs: NEEDS } as const;
 export const PLACE_ENUMS = { org_type: ORG_TYPES, trust: TRUST } as const;
 export const LINK_ENUMS = { type: LINK_TYPES } as const;
 
-export const ENTITY_NAMES = ["Program", "Place", "Link", "Submission", "RequestLog", "CommunityPost"] as const;
+export const ENTITY_NAMES = ["Program", "Place", "Link", "Submission", "RequestLog", "CommunityPost", "Feedback"] as const;
 export type EntityName = typeof ENTITY_NAMES[number];
 
 export interface EntityMap {
@@ -244,4 +275,5 @@ export interface EntityMap {
   Submission: Submission;
   RequestLog: RequestLog;
   CommunityPost: CommunityPost;
+  Feedback: Feedback;
 }

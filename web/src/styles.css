@@ -264,6 +264,8 @@ input[type="checkbox"], input[type="radio"] { width: 18px; min-height: 18px; hei
 .source { font-size: 0.8125rem; color: var(--muted-foreground); margin: 0; }
 .notes { white-space: pre-wrap; }
 .status-advice { background: var(--warn-soft); color: var(--warn); border: 1px solid var(--warn-line); border-radius: var(--radius); padding: 8px 12px; }
+.feedback-row { margin-top: 10px; padding-top: 8px; border-top: 1px solid color-mix(in srgb, var(--border) 20%, transparent); display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
+.feedback-row .btn-link { padding: 2px 4px; }
 
 /* Admin: shadcn Tabs */
 .admin-bar { display: flex; justify-content: flex-end; margin-top: -8px; }

@@ -24,6 +24,7 @@ import { checkProvider } from "./tools/check_provider.ts";
 import { findResources } from "./tools/find_resources.ts";
 import { parseNeed } from "./tools/input.ts";
 import { makePlan } from "./tools/make_plan.ts";
+import { recordFeedback } from "./tools/report_feedback.ts";
 import { summarize } from "./ui/result.ts";
 
 export const MAX_REPLY_CHARS = 1500;
@@ -56,6 +57,9 @@ const TEXT: Record<Lang, Record<string, string>> = {
     call_ahead: "Llame antes para confirmar.",
     more: "Para un plan con varios pasos, escriba todo lo que necesita.",
     footer: "Info y referidos, no asesoría legal.",
+    feedback: "¿Le sirvió? Responda SI o NO. ¿Algo está mal? Responda MAL y el código, por ejemplo MAL {code}.",
+    code: "código",
+    need_code: "Para avisarnos qué está mal, responda MAL y el código de 4 letras que aparece junto al lugar, por ejemplo MAL K7Q2.",
     error: "Lo siento, ahora no pude buscar. Intente de nuevo en un minuto o llame al 311.",
   },
   en: {
@@ -74,6 +78,9 @@ const TEXT: Record<Lang, Record<string, string>> = {
     call_ahead: "Call ahead to confirm.",
     more: "For a step-by-step plan, text everything you need.",
     footer: "Info and referrals, not legal advice.",
+    feedback: "Did it help? Reply YES or NO. Something wrong? Reply WRONG and the code, e.g. WRONG {code}.",
+    code: "code",
+    need_code: "To tell us what is wrong, reply WRONG and the 4-letter code shown next to the place, e.g. WRONG K7Q2.",
     error: "Sorry, I couldn't search right now. Try again in a minute or call 311.",
   },
 };
@@ -177,10 +184,28 @@ function formatPlaces(d: Data, l: Lang): string {
     if (str(p.address)) lines.push(`   ${str(p.address)}`);
     lines.push(`   ${s.hours}: ${str(p.hours) || s.call_ahead}`);
     if (str(p.phone)) lines.push(`   ${s.phone} ${str(p.phone)}`);
-    if (str(p.last_checked)) lines.push(`   ✓ ${str(p.last_checked)}`);
+    if (!str(p.phone) && str(p.call_hint)) lines.push(`   ${str(p.call_hint)}`);
+    if (str(p.check_first)) lines.push(`   ⚠ ${str(p.check_first)}`);
+    const checked = str(p.last_checked) ? `✓ ${str(p.last_checked)} · ` : "";
+    lines.push(`   ${checked}${s.code} ${str(p.code)}`);
   });
-  lines.push("", s.more);
+  lines.push("", s.more, fill(s.feedback, { code: str(results[0].code) }));
   return lines.join("\n");
+}
+
+// "SI", "NO K7Q2", "MAL K7Q2", "CERRADO K7Q2": feedback about an earlier answer. Stateless: the
+// 4-character code in our reply names the place, so we never keep who was sent what.
+const FEEDBACK_RE = /^\s*(s[ií]|yes|no|mal|wrong|cerrado|closed)(?=$|[\s:.,!-])[\s:.,!-]*([A-Za-z0-9]{4})?\s*[.!]*\s*$/i;
+
+export function parseFeedback(text: string): { helpful?: boolean; issue?: "closed" | "other"; code: string; language: Lang } | null {
+  const m = text.match(FEEDBACK_RE);
+  if (!m) return null;
+  const word = m[1].toLowerCase();
+  const language: Lang = ["yes", "wrong", "closed"].includes(word) ? "en" : "es";
+  const code = (m[2] ?? "").toUpperCase();
+  if (word === "mal" || word === "wrong") return { issue: "other", code, language };
+  if (word === "cerrado" || word === "closed") return { issue: "closed", code, language };
+  return { helpful: word !== "no", code, language };
 }
 
 /** Run the right tool and format the answer for a phone. Never throws. */
@@ -188,6 +213,19 @@ export async function answerMessage(req: Request, rawText: string): Promise<stri
   const text = withoutStatus(String(rawText ?? "").slice(0, 1000));
   const fallbackLang: Lang = parseKeywords(text || "hola").language;
   if (!text) return TEXT[fallbackLang].help;
+  const fb = parseFeedback(text);
+  if (fb) {
+    if (fb.issue && !fb.code) return TEXT[fb.language].need_code;
+    try {
+      const res = await recordFeedback(req, { ...(fb.code ? { code: fb.code } : {}), helpful: fb.helpful, issue: fb.issue, language: fb.language }, "whatsapp");
+      return res.message;
+    } catch (err) {
+      const e = err as { status?: unknown; message?: string } | null;
+      if (e?.status === 404 && e.message) return e.message;
+      if (fb.code) return TEXT[fb.language].need_code;
+      return TEXT[fb.language].error;
+    }
+  }
   let u: Understood;
   try {
     u = await understand(req, text);
@@ -208,7 +246,9 @@ export async function answerMessage(req: Request, rawText: string): Promise<stri
     if (!u.near) return s.need_near;
     if (u.intent === "plan" && u.needs.length > 1) {
       const data = await makePlan.run(req, { needs: u.needs, near: u.near, language: l }, ctx) as Data;
-      return capReply(`${str(data.plan_text)}\n\n${s.footer}`);
+      const first = ((Array.isArray(data.steps) ? data.steps : []) as Data[]).map((x) => x.place as Data | null).find((p) => p?.code);
+      const ask = first ? `\n${fill(s.feedback, { code: str(first.code) })}` : "";
+      return capReply(`${str(data.plan_text)}${ask}\n\n${s.footer}`);
     }
     const data = await findResources.run(req, { need: u.needs[0], near: u.near, language: l }, ctx) as Data;
     return capReply(`${formatPlaces(data, l)}\n\n${s.footer}`);

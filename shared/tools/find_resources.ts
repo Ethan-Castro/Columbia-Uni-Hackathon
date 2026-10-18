@@ -21,6 +21,7 @@ import {
   languageName,
   llmJson,
   loadCatalog,
+  onePerOrg,
   ORG_TYPE_DESCRIPTIONS_EN,
   placeOut,
   programOut,
@@ -198,10 +199,14 @@ export const findResources: Tool = {
     // Among equally near places, ones whose own type serves the need first (pantry before a WIC clinic for food).
     let ranked = rankPlaces(cat, need, near, { language, openNow, preferPrimary: "within_area" });
     // A named place ("¿está la despensa de la Iglesia San Pablo?") goes first when it matches; the rest keep their order.
+    const keep = new Set<string>();
     if (wanted) {
       const named = ranked.filter((r) => Math.max(similarity(wanted, r.place.name), similarity(wanted, r.place.org ?? "")) >= 0.6);
       ranked = [...named, ...ranked.filter((r) => !named.includes(r))];
+      for (const r of named) keep.add(r.place.id);
     }
+    // One location per organization (the best-ranked one); each result says how many others it has.
+    ranked = onePerOrg(cat, ranked, keep);
     let top = ranked.slice(0, limit);
 
     // Legal: make sure a DOJ-listed provider (official/verified first) is in the list when one exists.

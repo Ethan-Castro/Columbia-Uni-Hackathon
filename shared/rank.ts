@@ -11,6 +11,7 @@
 // (llmJson) and the plain template summaries used when the LLM is slow/off.
 
 import { getDb } from "./db.ts";
+import { NEEDS } from "./schema.ts";
 import type { Link, Need, Place, Program } from "./schema.ts";
 import type { NearResult } from "./geo.ts";
 import { distanceKm, nearRank, zipToNeighborhood } from "./geo.ts";
@@ -18,6 +19,8 @@ import { isOpenAt, isOpenLaterToday, parseHours, placeOpenEvenings, placeOpenWee
 import type { Lang } from "./i18n.ts";
 import { freeProvidersTitle, langOf, needLabel, t, trustLabel } from "./i18n.ts";
 import { invokeLLM } from "./llm.ts";
+import { buildGraph, docLabel, extractDocs, isSensitiveDoc } from "./graph.ts";
+import type { KnowledgeGraph } from "./graph.ts";
 
 // ---------- catalog ----------
 
@@ -27,31 +30,66 @@ export interface Catalog {
   links: Link[];
   programById: Map<string, Program>;
   placeById: Map<string, Place>;
-  /** place id -> programs it offers (Link type "offers"). */
+  /** place id -> programs it offers (Link type "offers", plus the graph's inferred offers). */
   offers: Map<string, Program[]>;
+  /** The knowledge graph over the same rows (shared/graph.ts). */
+  graph: KnowledgeGraph;
+  /** place id -> open "information is wrong" reports (filled by loadCatalog when Feedback is readable). */
+  reports?: Map<string, number>;
 }
 
-/** Load Places, Programs and Links once per request (small tables). */
-export async function loadCatalog(req: Request): Promise<Catalog> {
+/** How long one isolate reuses the catalog it read (Base44 rate-limits; the catalog changes a few times a day). */
+export const CATALOG_TTL_MS = 60_000;
+let cached: { at: number; cat: Promise<Catalog> } | null = null;
+
+/**
+ * Places, Programs, Links (and open reports) with the knowledge graph built over
+ * them. Reused for CATALOG_TTL_MS within one isolate, so a busy minute reads the
+ * database once instead of four calls per request. Tests and scripts that write
+ * data call clearCatalogCache().
+ */
+export function loadCatalog(req: Request): Promise<Catalog> {
+  const now = Date.now();
+  if (cached && now - cached.at < CATALOG_TTL_MS) return cached.cat;
+  const cat = readCatalog(req);
+  cached = { at: now, cat };
+  cat.catch(() => {
+    if (cached?.cat === cat) cached = null;
+  });
+  return cat;
+}
+
+export function clearCatalogCache(): void {
+  cached = null;
+}
+
+async function readCatalog(req: Request): Promise<Catalog> {
   const db = getDb(req);
   // Explicit limit: Base44's default page size is small.
-  const [places, programs, links] = await Promise.all([
+  const [places, programs, links, openReports] = await Promise.all([
     db.Place.list("name", 5000),
     db.Program.list("name", 5000),
     db.Link.list("from_id", 5000),
+    // Open "wrong info" reports put a "call before you go" note on the place. Never blocks search.
+    db.Feedback.filter({ status: "open" }, "-created_date", 1000).catch(() => []),
   ]);
+  const reports = new Map<string, number>();
+  for (const f of openReports) if (f.place_id && f.issue) reports.set(f.place_id, (reports.get(f.place_id) ?? 0) + 1);
   const programById = new Map(programs.map((p) => [p.id, p]));
   const placeById = new Map(places.map((p) => [p.id, p]));
   const offers = new Map<string, Program[]>();
-  for (const l of links) {
-    if (l.type !== "offers") continue;
-    const prog = programById.get(l.to_id);
-    if (!prog || !placeById.has(l.from_id)) continue;
-    const list = offers.get(l.from_id) ?? [];
+  const offer = (placeId: string, progId: string) => {
+    const prog = programById.get(progId);
+    if (!prog || !placeById.has(placeId)) return;
+    const list = offers.get(placeId) ?? [];
     if (!list.includes(prog)) list.push(prog);
-    offers.set(l.from_id, list);
-  }
-  return { places, programs, links, programById, placeById, offers };
+    offers.set(placeId, list);
+  };
+  for (const l of links) if (l.type === "offers") offer(l.from_id, l.to_id);
+  const graph = buildGraph({ places, programs, links });
+  // An IDNYC desk with no curated Link still offers IDNYC (graph.OFFER_RULES).
+  for (const [placeId, list] of graph.inferredOffers) for (const o of list) offer(placeId, o.program);
+  return { places, programs, links, programById, placeById, offers, graph, reports };
 }
 
 /** org_type -> needs it serves by default (consulates count for ID only, not legal help). */
@@ -71,15 +109,22 @@ export const PLACE_ORG_NEEDS: Record<string, Need[]> = {
 
 export const DOJ_ORG_TYPES = ["doj_roster", "doj_pro_bono"];
 
+const NEED_SET: Record<string, true> = Object.fromEntries(NEEDS.map((n) => [n, true]));
+
 function asList(v: unknown): string[] {
   if (Array.isArray(v)) return v.map(String);
   if (typeof v === "string" && v.trim()) return v.split("|").map((s) => s.trim()).filter(Boolean);
   return [];
 }
 
-/** All needs a place serves: org_type defaults plus offered programs' needs. */
+/**
+ * All needs a place serves: its own `needs` (an approved submission says what it
+ * does: a "clinic" doing legal intake) or else the org_type defaults, plus
+ * offered programs' needs.
+ */
 export function placeNeeds(cat: Catalog, place: Place): Set<Need> {
-  const out = new Set<Need>(PLACE_ORG_NEEDS[place.org_type] ?? []);
+  const own = asList((place as Place & { needs?: unknown }).needs).filter((n) => n in NEED_SET) as Need[];
+  const out = new Set<Need>(own.length ? own : PLACE_ORG_NEEDS[place.org_type] ?? []);
   for (const prog of cat.offers.get(place.id) ?? []) for (const n of asList(prog.needs)) out.add(n as Need);
   return out;
 }
@@ -144,6 +189,10 @@ export interface Ranked {
   openWeekends: boolean | null;
   speaksLanguage: boolean;
   distanceKm?: number;
+  /** Public locations of the same organization in the catalog (graph). */
+  orgLocations: number;
+  /** Open "this is wrong" reports for the place (Feedback). */
+  reports: number;
 }
 
 /** official/verified 0, community 1, unverified 2, anything else 3. */
@@ -179,7 +228,8 @@ export function rankPlaces(cat: Catalog, need: Need, near: NearResult, opts: Ran
   const now = opts.now ?? new Date();
   const rows: Array<Ranked & { keys: number[] }> = [];
   for (const place of cat.places) {
-    if (!placeNeeds(cat, place).has(need)) continue;
+    // People (DOJ accredited representatives listed by name) are never results; their organization is.
+    if (cat.graph.people.has(place.id) || !placeNeeds(cat, place).has(need)) continue;
     const parsed = parseHours(place.hours ?? "");
     const r: Ranked = {
       place,
@@ -192,6 +242,8 @@ export function rankPlaces(cat: Catalog, need: Need, near: NearResult, opts: Ran
       openWeekends: placeOpenWeekends(place),
       speaksLanguage: speaks(place, opts.language),
       distanceKm: distanceKm(place, near),
+      orgLocations: orgLocations(cat, place.id),
+      reports: cat.reports?.get(place.id) ?? 0,
     };
     const primary = (PLACE_ORG_NEEDS[place.org_type] ?? []).includes(need) ? 0 : 1;
     const keys = [
@@ -233,6 +285,31 @@ export function inAreaAndLanguage(r: Ranked, near: NearResult): boolean {
   if (near.primaryZips.length) return r.near === 0;
   if (near.borough) return r.near <= 2;
   return true; // citywide
+}
+
+/**
+ * Keep the best-ranked location of each organization, so five results are five
+ * different places to try, not five BronxWorks offices. `keep` ids (a place the
+ * person named) always stay.
+ */
+export function onePerOrg(cat: Catalog, ranked: Ranked[], keep: Set<string> = new Set()): Ranked[] {
+  const seen = new Set<string>();
+  return ranked.filter((r) => {
+    const org = cat.graph.orgOf.get(r.place.id) ?? r.place.id;
+    if (keep.has(r.place.id)) {
+      seen.add(org);
+      return true;
+    }
+    if (seen.has(org)) return false;
+    seen.add(org);
+    return true;
+  });
+}
+
+/** How many public locations the place's organization has in the catalog (1 = just this one). */
+export function orgLocations(cat: Catalog, placeId: string): number {
+  const org = cat.graph.orgOf.get(placeId);
+  return org ? Math.max(1, cat.graph.branches(org).length) : 1;
 }
 
 /** Best official/verified DOJ provider (trust first, then nearest); any DOJ-listed place if none is verified. */
@@ -339,12 +416,66 @@ export interface PlaceOut {
   lat?: number;
   lng?: number;
   bring: string[];
+  /** The documents the bring text names, as short labels in the answer language (graph DOC_PATTERNS). */
+  documents: string[];
   programs: ProgramOut[];
   summary: string;
   source_url: string;
   /** Only when there is no http(s) source link (e.g. an approved community submission). */
   source_label?: string;
   last_checked: string;
+  /** Present when the person should call first: stale check, seasonal hours, or an open report. */
+  check_first?: string;
+  /** Present when the organization has more than one location; the note says so. */
+  org_locations?: number;
+  org_locations_note?: string;
+  /** Government desks without a phone of their own: how to reach them. */
+  call_hint?: string;
+  /** Short code a person can text back about this place (WhatsApp feedback: "MAL K7Q2"). */
+  code: string;
+}
+
+/** Document labels (answer language) the programs' bring text names; nothing about immigration status. */
+export function documentsOf(programs: Program[], lang: string): string[] {
+  const ids = extractDocs(programs.flatMap((p) => asList(p.bring)));
+  return ids.filter((id) => !isSensitiveDoc(id)).map((id) => docLabel(id, lang));
+}
+
+// ---------- freshness ----------
+
+/** Older than this (days since last_checked) and the answer says to call first. */
+export const STALE_DAYS = 90;
+const MONTH_DATE_RE =
+  /\b(jan(uary)?|feb(ruary)?|mar(ch)?|apr(il)?|may|june?|july?|aug(ust)?|sept?(ember)?|oct(ober)?|nov(ember)?|dec(ember)?|enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\.?\s+\d{1,2}\b/i;
+
+export function daysSince(date: string | undefined, now = new Date()): number | null {
+  if (!date || !/^\d{4}-\d{2}-\d{2}$/.test(date)) return null;
+  return Math.floor((now.getTime() - Date.parse(`${date}T12:00:00Z`)) / 86_400_000);
+}
+
+/** "Call before you go" when the record may be out of date; undefined when it looks current. */
+export function checkFirst(p: Pick<Place, "last_checked" | "hours">, reports: number, lang: string, now = new Date()): string | undefined {
+  if (reports > 0) return t(lang, "check_reported");
+  const days = daysSince(p.last_checked, now);
+  if (days !== null && days > STALE_DAYS) return t(lang, "check_stale", { months: String(Math.floor(STALE_DAYS / 30)) });
+  if (MONTH_DATE_RE.test(p.hours ?? "")) return t(lang, "check_seasonal");
+  return undefined;
+}
+
+/** City desks reached through 311 when the record has no phone of its own. */
+const CALL_311_TYPES = new Set(["idnyc", "benefits_office"]);
+
+const CODE_ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+/** Stable 4-character code for a place id (no I/O/0/1), for texting feedback back without us storing anything. */
+export function placeCode(id: string): string {
+  let h = 2166136261;
+  for (let i = 0; i < id.length; i++) h = Math.imul(h ^ id.charCodeAt(i), 16777619) >>> 0;
+  let out = "";
+  for (let i = 0; i < 4; i++) {
+    out += CODE_ALPHABET[h % 32];
+    h = Math.floor(h / 32);
+  }
+  return out;
 }
 
 /** Unique "what to bring" items across programs, input order kept. */
@@ -376,11 +507,20 @@ export function placeOut(r: Ranked, lang: string, summary: string): PlaceOut {
     trust: p.trust,
     trust_label: trustLabel(lang, p.trust),
     bring: bringOf(r.programs),
+    documents: documentsOf(r.programs, lang),
     programs: r.programs.map((prog) => programOut(prog, lang)),
     summary,
     ...sourceOf(p, lang),
     last_checked: p.last_checked ?? "",
+    code: placeCode(p.id),
   };
+  const check = checkFirst(p, r.reports, lang);
+  if (check) out.check_first = check;
+  if (r.orgLocations > 1) {
+    out.org_locations = r.orgLocations;
+    out.org_locations_note = t(lang, "org_locations", { org: p.org || p.name, n: String(r.orgLocations) });
+  }
+  if (!p.phone && CALL_311_TYPES.has(p.org_type)) out.call_hint = t(lang, "call_311");
   if (r.distanceKm !== undefined) out.distance_km = r.distanceKm;
   if (typeof p.lat === "number" && typeof p.lng === "number") {
     out.lat = p.lat;

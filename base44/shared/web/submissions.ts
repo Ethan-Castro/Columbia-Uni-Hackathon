@@ -14,9 +14,12 @@ import { nyClock, placeOpenEvenings, placeOpenWeekends } from "../hours.ts";
 import { langOf } from "../i18n.ts";
 import { ORG_TYPES } from "../schema.ts";
 import type { Need, OrgType, Place, Submission } from "../schema.ts";
-import { stripAccents } from "../text.ts";
+import { similarity, stripAccents } from "../text.ts";
+import { geocodeNyc } from "../geocode.ts";
 import { getNeeds } from "../tools/input.ts";
 import { requireAdmin } from "../auth.ts";
+import { clearCatalogCache } from "../rank.ts";
+import { listReports, resolveReports } from "./feedback.ts";
 import { languageCode } from "./directory.ts";
 import type { Body } from "./handler.ts";
 
@@ -227,7 +230,23 @@ export async function reviewQueue(req: Request, body: Body) {
       : {};
     const m = { ...sub, ...edits } as SubmissionRow & CleanFields;
     if (!m.name) throw new HttpError(400, "name is required to publish");
+    if ((!m.zip || !/^\d{5}$/.test(m.zip)) && m.address) {
+      // "86-07 Broadway" with no zip: the City's geocoder gives zip, borough and a real point.
+      const geo = await geocodeNyc(m.address, m.borough);
+      if (geo) Object.assign(m, { zip: geo.zip, borough: geo.borough, ...(typeof m.lat === "number" ? {} : { lat: geo.lat, lng: geo.lng }) });
+    }
     if (!m.zip || !/^\d{5}$/.test(m.zip)) throw new HttpError(400, "A 5-digit zip is required to publish. Add it in edits.");
+    // Same organization at the same zip already published: link the submission to it instead of a duplicate.
+    const twin = (await db.Place.filter({ zip: m.zip }, "name", 200)).find((p) => similarity(p.name, m.name) >= 0.85);
+    if (twin) {
+      const submission = await db.Submission.update(sub.id, {
+        status: "approved",
+        place_id: twin.id,
+        reviewed_at: new Date().toISOString(),
+        notes: [m.notes, `duplicate of ${twin.id}`].filter(Boolean).join(" | "),
+      } as Partial<SubmissionRow>);
+      return { ok: true, duplicate_of: twin.id, place: twin, submission };
+    }
 
     const taken = new Set((await db.Place.list("id", 5000, 0, ["id"])).map((p) => p.id));
     const id = uniquePlaceId(m.name, taken);
@@ -258,6 +277,7 @@ export async function reviewQueue(req: Request, body: Body) {
       ...(m.needs?.length ? { needs: m.needs } : {}),
     };
     const created = await db.Place.create(place);
+    clearCatalogCache();
     const submission = await db.Submission.update(sub.id, {
       status: "approved",
       place_id: created.id,
@@ -275,5 +295,8 @@ export async function reviewQueue(req: Request, body: Body) {
     return { ok: true, submission };
   }
 
-  throw new HttpError(400, "action must be list, approve or reject");
+  if (action === "feedback") return await listReports(req);
+  if (action === "resolve_feedback") return await resolveReports(req, body);
+
+  throw new HttpError(400, "action must be list, approve, reject, feedback or resolve_feedback");
 }

@@ -13,7 +13,8 @@ import { normalizeBorough, zipToBorough } from "../geo.ts";
 import { isOpenAt, isOpenLaterToday, placeOpenEvenings, placeOpenWeekends } from "../hours.ts";
 import { disclaimer, langOf, t, trustLabel } from "../i18n.ts";
 import { logRequest } from "../logRequest.ts";
-import { bringOf, isStatusDependent, loadCatalog, offeredFor, trustRank } from "../rank.ts";
+import { bringOf, checkFirst, documentsOf, isStatusDependent, loadCatalog, offeredFor, orgLocations, trustRank } from "../rank.ts";
+import type { Catalog } from "../rank.ts";
 import type { Need, Place, Program } from "../schema.ts";
 import { normalize } from "../text.ts";
 import { parseNeed } from "../tools/input.ts";
@@ -75,6 +76,9 @@ export interface DirectoryPlace {
   phone: string;
   needs: Need[];
   bring: string[];
+  documents: string[];
+  check_first?: string;
+  org_locations?: number;
   programs: DirectoryProgram[];
   trust: string;
   trust_label: string;
@@ -125,6 +129,8 @@ export async function listPlaces(req: Request, body: Body) {
 
   const results: DirectoryPlace[] = [];
   for (const place of places) {
+    // Individual people (DOJ accredited representatives) are never listed; their organization is.
+    if (cat.graph.people.has(place.id)) continue;
     const needs = directoryNeeds(cat, place);
     if (need && !needs.includes(need)) continue;
 
@@ -143,7 +149,7 @@ export async function listPlaces(req: Request, body: Body) {
       if (!qTokens.every((tok) => hay.includes(tok))) continue;
     }
 
-    results.push(toDirectoryPlace(place, placeBorough, needs, offered, ui));
+    results.push(toDirectoryPlace(place, placeBorough, needs, offered, ui, cat));
   }
 
   results.sort((a, b) =>
@@ -182,7 +188,10 @@ function toDirectoryPlace(
   needs: Need[],
   offered: Program[],
   ui: "es" | "en",
+  cat: Catalog,
 ): DirectoryPlace {
+  const check = checkFirst(place, cat.reports?.get(place.id) ?? 0, ui);
+  const locations = orgLocations(cat, place.id);
   return {
     id: place.id,
     name: place.name,
@@ -201,7 +210,10 @@ function toDirectoryPlace(
     phone: place.phone ?? "",
     needs,
     bring: bringOf(offered),
+    documents: documentsOf(offered, ui),
     programs: offered.map((p) => toProgram(p, ui)),
+    ...(check ? { check_first: check } : {}),
+    ...(locations > 1 ? { org_locations: locations } : {}),
     trust: place.trust,
     trust_label: trustLabel(ui, place.trust),
     source_url: place.source_url ?? "",

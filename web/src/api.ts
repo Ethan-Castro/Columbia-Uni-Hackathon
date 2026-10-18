@@ -14,8 +14,10 @@
 import type {
   CommunityPost,
   CommunityPostInput,
+  FeedbackIssue,
   Insights,
   ListPlacesResult,
+  ReportGroup,
   ReviewActionResult,
   ReviewListResult,
   SubmissionEdits,
@@ -110,6 +112,19 @@ export function approveSubmission(id: string, edits: SubmissionEdits = {}) {
 
 export function rejectSubmission(id: string) {
   return call<ReviewActionResult>("review_queue", { action: "reject", id }, { admin: true });
+}
+
+/** Anonymous "did this help?" / "this is wrong" (fixed choices only; never free text). */
+export function reportFeedback(input: { place_id: string; helpful?: boolean; issue?: FeedbackIssue; language: string }) {
+  return call<{ ok: boolean; message: string }>("report_feedback", { ...input, channel: "web" });
+}
+
+export function listReports() {
+  return call<{ reports: ReportGroup[]; open: number }>("review_queue", { action: "feedback" }, { admin: true });
+}
+
+export function resolveReports(place_id: string, confirmed: boolean) {
+  return call<{ ok: boolean; resolved: number }>("review_queue", { action: "resolve_feedback", place_id, confirmed }, { admin: true });
 }
 
 export function getInsights() {

@@ -36,6 +36,11 @@ const es = {
   intake_title_person: "Resumen para llevar a su cita legal",
   intake_title_lawyer: "Intake summary for the attorney",
   sample_data_note: "Datos de ejemplo para la demostración.",
+  check_stale: "Revisamos este lugar hace más de {months} meses. Llame antes de ir.",
+  check_seasonal: "El horario es por temporada (fechas fijas). Llame para confirmar antes de ir.",
+  check_reported: "Alguien nos avisó que esta información puede estar mal. La estamos revisando: llame antes de ir.",
+  call_311: "Para preguntas o citas, llame al 311.",
+  org_locations: "{org} tiene {n} sedes. Esta es la más cercana; si no le queda bien, pregunte por las otras.",
 
   // Labels
   label_hours: "Horario",
@@ -105,6 +110,11 @@ const en: Record<I18nKey, string> = {
   intake_title_person: "Summary to bring to your legal appointment",
   intake_title_lawyer: "Intake summary for the attorney",
   sample_data_note: "Sample data for the demo.",
+  check_stale: "We last checked this place more than {months} months ago. Call before you go.",
+  check_seasonal: "These hours are seasonal (set dates). Call to confirm before you go.",
+  check_reported: "Someone told us this information may be wrong. We are checking it: call before you go.",
+  call_311: "For questions or appointments, call 311.",
+  org_locations: "{org} has {n} locations. This is the closest; if it does not work for you, ask about the others.",
 
   label_hours: "Hours",
   label_languages: "Languages",

@@ -6,13 +6,14 @@
 
 import { waitUntil } from "base44:runtime";
 import { getDb } from "./db.ts";
-import { toLogRow } from "./logRequest.local.ts";
+import { isLoadTest, toLogRow } from "./logRequest.local.ts";
 import type { LogInput } from "./logRequest.local.ts";
 
 export * from "./logRequest.local.ts";
 
 async function write(req: Request, input: LogInput): Promise<void> {
   try {
+    if (isLoadTest(req)) return;
     await getDb(req).RequestLog.create(toLogRow(input ?? {}));
   } catch (err) {
     console.error("logRequest: write failed:", err instanceof Error ? err.name : "unknown");

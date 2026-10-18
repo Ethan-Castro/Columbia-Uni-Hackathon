@@ -11,6 +11,11 @@ Local-only tools. Nothing in this folder is copied to Base44.
 | `fixtures/bad/` | One of each problem: wrong enum, bad id, bad date, missing source_url, bad boolean, dangling link, duplicate id, duplicate name+address, unclosed quote, extra column/value |
 | `articles.ts` | One short bilingual article per addressed place (OpenRouter, facts only, fact-checked), cached in `data/articles/` |
 | `build-pages.ts` | Static SEO pages `web/public/lugares/*.html`, index and hubs, `sitemap.xml`, `robots.txt` |
+| `base44-pull.ts` | Copies the live Base44 catalog (Program, Place, Link) into `data/*.json` |
+| `recheck.ts` | Re-verifies places against their sources; `--write` marks confirmed ones checked today; report in `data/recheck-report.json` |
+| `graph-export.ts` | Knowledge graph as open data: `web/public/graph/knowledge-graph.json`, `nodes.csv`, `edges.csv` |
+| `load-test.ts` | Latency and error rates of the live hot path at rising concurrency (no RequestLog rows) |
+| `approve-all.ts` | Approves every pending submission (a person decided they are all OK) |
 | `places-lib.ts` | Shared helpers for the two above (eligibility, never publish people, facts) |
 
 ```sh
