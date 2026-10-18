@@ -71,7 +71,9 @@ const localLinks = new Map(
 );
 const files: Record<string, Row[]> = {
   Program: pulled.Program.map((r) => tidy(r, true)).sort(sortBy("id")),
+  // A key stored twice on Base44 (an old double import) comes back once.
   Place: pulled.Place.map((r) => tidy(r, true)).filter((r) => typeof r.id === "string" && r.id.startsWith("place-"))
+    .filter((r, i, all) => all.findIndex((x) => x.id === r.id) === i)
     .sort(sortBy("id")),
   Link: pulled.Link.map((r) => localLinks.get(linkKey(r)) ?? tidy(r, false)),
 };

@@ -12,6 +12,9 @@ Local-only tools. Nothing in this folder is copied to Base44.
 | `articles.ts` | One short bilingual article per addressed place (OpenRouter, facts only, fact-checked), cached in `data/articles/` |
 | `build-pages.ts` | Static SEO pages `web/public/lugares/*.html`, index and hubs, `sitemap.xml`, `robots.txt` |
 | `base44-pull.ts` | Copies the live Base44 catalog (Program, Place, Link) into `data/*.json` |
+| `import-facilities.ts` | Official service sites from the City's Facilities Database (health centers, H+H, SNAP/Medicaid offices, Job Centers, Workforce1, Homebase, legal and immigrant services, ESL, libraries) into `data/Place.json` |
+| `base44-delete-places.ts` | Deletes named Places from the live app (fixing an import; community places are refused) |
+| `scout-sweep.ts --gaps` | Web search (Tavily, via the live scout) for every neighborhood + need with nothing listed; results wait as pending submissions |
 | `recheck.ts` | Re-verifies places against their sources; `--write` marks confirmed ones checked today; report in `data/recheck-report.json` |
 | `graph-export.ts` | Knowledge graph as open data: `web/public/graph/knowledge-graph.json`, `nodes.csv`, `edges.csv` |
 | `load-test.ts` | Latency and error rates of the live hot path at rising concurrency (no RequestLog rows) |

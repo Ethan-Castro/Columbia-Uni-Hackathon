@@ -14,6 +14,7 @@
 
 import type { Need, Place, Program } from "../shared/schema.ts";
 import {
+  ARTICLES,
   type Article,
   type Catalog,
   eligiblePlaces,
@@ -259,6 +260,8 @@ hr{border:0;border-top:1px solid var(--line);margin:40px 0}
 .az{columns:2 260px;column-gap:24px;padding-left:0;list-style:none}.az li{break-inside:avoid;margin:0 0 8px}.az .muted{font-size:13px;display:block}
 .letters a{display:inline-block;min-width:28px;text-align:center;margin:2px}
 footer{margin-top:40px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}`;
+/** Cache-buster for lugares.css: changes whenever the CSS does. */
+const CSS_VERSION = [...CSS].reduce((h, c) => (Math.imul(h, 31) + c.charCodeAt(0)) >>> 0, 7).toString(36);
 
 function head(o: { title: string; description: string; canonical: string; jsonld?: unknown[] }): string {
   const ld = (o.jsonld ?? []).map((j) =>
@@ -284,7 +287,7 @@ function head(o: { title: string; description: string; canonical: string; jsonld
 <meta property="og:locale:alternate" content="en_US">
 <meta name="twitter:card" content="summary">
 ${FONT}
-<style>${CSS}</style>
+<link rel="stylesheet" href="/lugares/lugares.css?v=${CSS_VERSION}">
 ${ld}
 </head>
 <body>
@@ -638,7 +641,17 @@ function hubPage(o: { file: string; titleEs: string; titleEn: string; intro: str
 // ---------- main ----------
 
 const cat = await loadCatalog();
-const places = eligiblePlaces(cat.places);
+// The site upload takes about 1,000 files, so at most MAX_PAGES place pages. Every place stays in the
+// app, the chat doors and the directory either way. Kept first: places with a written article, then
+// with a phone, then the scarcer needs (health, legal, benefits, housing, work), then the rest.
+const MAX_PAGES = Number(Deno.env.get("MAX_PAGES") ?? 880);
+const allEligible = eligiblePlaces(cat.places);
+const SCARCE = new Set(["health", "legal", "benefits", "housing", "work"]);
+const hasArticle = new Set<string>();
+for await (const e of Deno.readDir(ARTICLES)) if (e.name.endsWith(".json")) hasArticle.add(e.name.slice(0, -5));
+const pageRank = (p: Place) =>
+  (hasArticle.has(p.id) ? 0 : 4) + (p.phone ? 0 : 2) + (placeNeeds(cat, p).some((n) => SCARCE.has(n)) ? 0 : 1);
+const places = [...allEligible].sort((a, b) => pageRank(a) - pageRank(b) || byName(a, b)).slice(0, MAX_PAGES);
 const needsOf = new Map(places.map((p) => [p.id, placeNeeds(cat, p)]));
 
 function relatedFor(p: Place): Place[] {
@@ -728,6 +741,8 @@ for (const [n, ps] of needs) {
   written.add(file);
 }
 await Deno.writeTextFile(new URL("index.html", OUT), indexPage(places, boroughs, needs));
+// One shared stylesheet instead of the same 3.7 KB in every page (the site upload has a size cap).
+await Deno.writeTextFile(new URL("lugares.css", OUT), CSS);
 written.add("index.html");
 
 // Remove pages for places that are gone (or no longer eligible).

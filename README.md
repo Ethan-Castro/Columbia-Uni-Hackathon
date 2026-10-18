@@ -29,6 +29,9 @@ Every request builds (and caches for 60 s) a graph over Places, Programs and Lin
 ### Keeping it true
 
 - `deno run -A scripts/base44-pull.ts` copies the live catalog into `data/` (approved places included).
+- Finding everything:
+  - `deno run -A scripts/import-facilities.ts --write` adds the City's own service sites (Facilities Database) for the needs that were thin: health, benefits, work, housing, legal, and adult classes.
+  - `deno run -A scripts/scout-sweep.ts --gaps` then web-searches each neighborhood + need that still has nothing listed. Those results wait for a person in `#/admin`.
 - `deno run -A scripts/recheck.ts [--write]` re-verifies places against their sources:
   - All 523 pantries are checked against the City's Food Help layer in one query (open status, name, phone, address, edits since our check).
   - Web-page sources must still load and still mention the place.

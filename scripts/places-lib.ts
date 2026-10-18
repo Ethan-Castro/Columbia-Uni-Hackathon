@@ -32,6 +32,10 @@ import { isPerson, looksLikePerson } from "../shared/graph.ts";
 export { isPerson, looksLikePerson };
 
 /** Places that get an article and a page: a street address and not a person. */
+const ORG_TYPE_NEEDS_SET: Record<string, true> = Object.fromEntries(
+  ["food", "legal", "health", "benefits", "money", "school", "id", "housing", "work", "transit"].map((n) => [n, true]),
+);
+
 export function eligiblePlaces(places: Place[]): Place[] {
   return places.filter((p) => (p.address ?? "").trim() !== "" && !isPerson(p));
 }
@@ -45,7 +49,9 @@ export function offeredPrograms(cat: Catalog, placeId: string): Program[] {
 }
 
 export function placeNeeds(cat: Catalog, p: Place): Need[] {
-  const set = new Set<Need>(ORG_TYPE_NEEDS[p.org_type] ?? []);
+  // Same rule as shared/rank.ts: a place's own needs replace the org_type default.
+  const own = ((p as Place & { needs?: Need[] }).needs ?? []).filter((n) => n in ORG_TYPE_NEEDS_SET);
+  const set = new Set<Need>(own.length ? own : ORG_TYPE_NEEDS[p.org_type] ?? []);
   for (const prog of offeredPrograms(cat, p.id)) for (const n of prog.needs) set.add(n);
   return [...set];
 }

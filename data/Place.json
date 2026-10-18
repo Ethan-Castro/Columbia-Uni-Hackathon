@@ -111,8 +111,7 @@
     "needs": [
       "legal",
       "school",
-      "housing",
-      "benefits"
+      "housing"
     ],
     "created_date": "2026-10-10T17:01:26.610000",
     "updated_date": "2026-10-10T18:10:58.746000"
@@ -314,11 +313,7 @@
     "trust": "official",
     "source_url": "https://www.justice.gov/eoir/media/1398081/dl?inline#page=102",
     "last_checked": "2026-10-10",
-    "needs": [
-      "legal",
-      "health",
-      "housing"
-    ],
+    "needs": [],
     "created_date": "2026-10-10T17:01:26.610000",
     "updated_date": "2026-10-10T18:10:58.746000"
   },
@@ -942,11 +937,7 @@
     "trust": "official",
     "source_url": "https://www.justice.gov/eoir/media/1398081/dl?inline#page=104",
     "last_checked": "2026-10-10",
-    "needs": [
-      "legal",
-      "health",
-      "housing"
-    ],
+    "needs": [],
     "created_date": "2026-10-10T17:01:26.610000",
     "updated_date": "2026-10-10T18:10:58.746000"
   },
@@ -1948,11 +1939,7 @@
     "trust": "official",
     "source_url": "https://www.justice.gov/eoir/media/1398081/dl?inline#page=111",
     "last_checked": "2026-10-10",
-    "needs": [
-      "legal",
-      "health",
-      "housing"
-    ],
+    "needs": [],
     "created_date": "2026-10-10T17:01:26.612000",
     "updated_date": "2026-10-10T18:10:58.746000"
   },
@@ -10118,50 +10105,6 @@
     "updated_date": "2026-10-10T18:11:00.970000"
   },
   {
-    "id": "place-fh-st-jerome-h-a-n-d-s-community-center",
-    "name": "ST. JEROME H.A.N.D.S. COMMUNITY CENTER",
-    "org": "ST. JEROME H.A.N.D.S. COMMUNITY CENTER",
-    "org_type": "pantry",
-    "address": "330 E 138th St, Bronx, New York, 10454",
-    "borough": "Bronx",
-    "zip": "10454",
-    "lat": 40.809894,
-    "lng": -73.924898,
-    "hours": "Wed 10am-1pm (pantry)",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "(718) 402-7866",
-    "trust": "official",
-    "source_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D194&outFields=*&f=json",
-    "last_checked": "2026-10-10",
-    "needs": [],
-    "created_date": "2026-10-10T17:01:31.288000",
-    "updated_date": "2026-10-10T18:11:00.970000"
-  },
-  {
-    "id": "place-fh-st-lukes-food-pantry",
-    "name": "ST. LUKES FOOD PANTRY",
-    "org": "ST. LUKES FOOD PANTRY",
-    "org_type": "pantry",
-    "address": "623 E 138th St, Bronx, New York, 10454",
-    "borough": "Bronx",
-    "zip": "10454",
-    "lat": 40.806195,
-    "lng": -73.91557,
-    "hours": "Fri 10am-1pm (pantry)",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "(718) 665-6677",
-    "trust": "official",
-    "source_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D195&outFields=*&f=json",
-    "last_checked": "2026-10-10",
-    "needs": [],
-    "created_date": "2026-10-10T17:01:31.288000",
-    "updated_date": "2026-10-10T18:11:00.970000"
-  },
-  {
     "id": "place-fh-st-lukes-food-pantry",
     "name": "ST. LUKES FOOD PANTRY",
     "org": "ST. LUKES FOOD PANTRY",
@@ -10244,28 +10187,6 @@
     "phone": "(718) 542-0828",
     "trust": "official",
     "source_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D203&outFields=*&f=json",
-    "last_checked": "2026-10-10",
-    "needs": [],
-    "created_date": "2026-10-10T17:01:31.288000",
-    "updated_date": "2026-10-10T18:11:00.970000"
-  },
-  {
-    "id": "place-fh-thorpe-family-residence",
-    "name": "THORPE FAMILY RESIDENCE",
-    "org": "THORPE FAMILY RESIDENCE",
-    "org_type": "pantry",
-    "address": "406 E 184th St, Bronx, New York, 10458",
-    "borough": "Bronx",
-    "zip": "10458",
-    "lat": 40.85643,
-    "lng": -73.894679,
-    "hours": "Wed 7:30am-9:30am (pantry)",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "(718) 295-2550",
-    "trust": "official",
-    "source_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D204&outFields=*&f=json",
     "last_checked": "2026-10-10",
     "needs": [],
     "created_date": "2026-10-10T17:01:31.288000",
@@ -22716,9 +22637,7 @@
     "source_url": "https://www.nyc.gov/site/idnyc/card/locations.page",
     "last_checked": "2026-10-10",
     "needs": [
-      "id",
-      "benefits",
-      "food"
+      "id"
     ],
     "created_date": "2026-10-10T19:21:21.572000",
     "updated_date": "2026-10-10T19:21:21.572000"
@@ -22740,9 +22659,7 @@
     "source_url": "https://www.nyc.gov/site/idnyc/card/locations.page",
     "last_checked": "2026-10-10",
     "needs": [
-      "id",
-      "benefits",
-      "health"
+      "id"
     ],
     "created_date": "2026-10-10T19:21:21.375000",
     "updated_date": "2026-10-10T19:21:21.375000"
@@ -27159,8 +27076,7 @@
     "last_checked": "2026-10-18",
     "needs": [
       "school",
-      "legal",
-      "benefits"
+      "legal"
     ]
   },
   {
@@ -28594,28 +28510,6 @@
     ]
   },
   {
-    "id": "place-fac-bay-ridge-sunset-park-dialysis-center-11220",
-    "name": "Bay Ridge Sunset Park Dialysis Center (health center)",
-    "org": "Bay Ridge Sunset Park Dialysis Center",
-    "org_type": "clinic",
-    "address": "140 58 Street, Brooklyn, NY 11220",
-    "borough": "Brooklyn",
-    "zip": "11220",
-    "lat": 40.6455077087,
-    "lng": -74.0238996982,
-    "hours": "",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "",
-    "trust": "official",
-    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=01d7cee2a2d8ea2796f206b2212c9f9a",
-    "last_checked": "2026-10-18",
-    "needs": [
-      "health"
-    ]
-  },
-  {
     "id": "place-fac-joseph-p-addabbo-family-health-center-11692",
     "name": "Joseph P Addabbo-family Health Center",
     "org": "Joseph P Addabbo Family Health Center Inc.",
@@ -29320,28 +29214,6 @@
     ]
   },
   {
-    "id": "place-fac-comprehensive-health-care-rehabilitation-services-11237",
-    "name": "Comprehensive Health Care & Rehabilitation Services, Llc",
-    "org": "Comprehensive Health Care & Rehabilitative Services, Llc",
-    "org_type": "clinic",
-    "address": "148 Wilson Avenue, Brooklyn, NY 11237",
-    "borough": "Brooklyn",
-    "zip": "11237",
-    "lat": 40.7002315736,
-    "lng": -73.925396391,
-    "hours": "",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "",
-    "trust": "official",
-    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=8dba343b9dfae3a324daa61948c73d21",
-    "last_checked": "2026-10-18",
-    "needs": [
-      "health"
-    ]
-  },
-  {
     "id": "place-fac-aids-healthcare-foundation-10451",
     "name": "Aids Healthcare Foundation",
     "org": "Aids Healthcare Foundation",
@@ -29826,28 +29698,6 @@
     ]
   },
   {
-    "id": "place-fac-utica-avenue-dialysis-clinic-11203",
-    "name": "Utica Avenue Dialysis Clinic (health center)",
-    "org": "Empire State Dc, Inc.",
-    "org_type": "clinic",
-    "address": "1305 Utica Avenue, Brooklyn, NY 11203",
-    "borough": "Brooklyn",
-    "zip": "11203",
-    "lat": 40.6406733072,
-    "lng": -73.9288534591,
-    "hours": "",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "",
-    "trust": "official",
-    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=f6bc63cca09fd9683bf57d27859aa7d1",
-    "last_checked": "2026-10-18",
-    "needs": [
-      "health"
-    ]
-  },
-  {
     "id": "place-fac-roosevelt-community-health-center-of-excellence-11372",
     "name": "Roosevelt Community Health Center of Excellence",
     "org": "New York City Health and Hospitals Corporation",
@@ -30240,9 +30090,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=19bbfbefcf21ea8d4edf0a0aea87c116",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "health",
-      "housing"
+      "legal"
     ]
   },
   {
@@ -30264,9 +30112,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=39c79f4de87e63d523f99f17ded879f8",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "health",
-      "housing"
+      "legal"
     ]
   },
   {
@@ -30288,9 +30134,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=4617c9a9ba0d6cb0db5e558259474d86",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "health",
-      "housing"
+      "legal"
     ]
   },
   {
@@ -30312,9 +30156,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=48fe3c5f5f8f41a78d135c4df23c59f7",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "health",
-      "housing"
+      "legal"
     ]
   },
   {
@@ -30336,9 +30178,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=6440fd7d16098189d97ad0cf7537b41d",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "health",
-      "housing"
+      "legal"
     ]
   },
   {
@@ -30360,9 +30200,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=ae4b795d3807828a6ae6e8865d30f710",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "health",
-      "housing"
+      "legal"
     ]
   },
   {
@@ -30384,9 +30222,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=b2090f0895170997ed2c23448d22ab68",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "health",
-      "housing"
+      "legal"
     ]
   },
   {
@@ -30408,9 +30244,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=bea71dfa2ab0233c487f6ea1fdec3192",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "health",
-      "housing"
+      "legal"
     ]
   },
   {
@@ -30432,9 +30266,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=e4e8eac067cdc2cf0a38f827118d1c22",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "health",
-      "housing"
+      "legal"
     ]
   },
   {
@@ -30456,9 +30288,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=f2b4ed7591d130c9880602b1b0be1c93",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "health",
-      "housing"
+      "legal"
     ]
   },
   {
@@ -30480,9 +30310,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=fc3483acc8a81000c237d677d546e1c5",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "health",
-      "housing"
+      "legal"
     ]
   },
   {
@@ -30904,28 +30732,6 @@
     ]
   },
   {
-    "id": "place-fac-memorial-hospital-for-cancer-and-allied-diseases-10065",
-    "name": "Memorial Hospital for Cancer and Allied Diseases",
-    "org": "Memorial Hospital for Cancer and Allied Diseases Inc.",
-    "org_type": "clinic",
-    "address": "1275 York Avenue, New York, NY 10065",
-    "borough": "Manhattan",
-    "zip": "10065",
-    "lat": 40.7644035458,
-    "lng": -73.9568537903,
-    "hours": "",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "",
-    "trust": "official",
-    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=07695ebb231de01998276167d9380e39",
-    "last_checked": "2026-10-18",
-    "needs": [
-      "health"
-    ]
-  },
-  {
     "id": "place-fac-nyu-langone-hospital-brooklyn-11220",
     "name": "Nyu Langone Hospital-brooklyn",
     "org": "Nyu Langone Hospitals",
@@ -31052,28 +30858,6 @@
     "phone": "",
     "trust": "official",
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=2e5ef01c1110cceaa57585d5d4e340a6",
-    "last_checked": "2026-10-18",
-    "needs": [
-      "health"
-    ]
-  },
-  {
-    "id": "place-fac-calvary-hospital-inc-10461",
-    "name": "Calvary Hospital Inc.",
-    "org": "Calvary Hospital Inc.",
-    "org_type": "clinic",
-    "address": "1740 Eastchester Road, Bronx, NY 10461",
-    "borough": "Bronx",
-    "zip": "10461",
-    "lat": 40.8479383062,
-    "lng": -73.8439176564,
-    "hours": "",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "",
-    "trust": "official",
-    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=39435311267b2bacfe9a5d97447f871f",
     "last_checked": "2026-10-18",
     "needs": [
       "health"
@@ -31256,28 +31040,6 @@
     ]
   },
   {
-    "id": "place-fac-hospital-for-special-surgery-10021",
-    "name": "Hospital for Special Surgery",
-    "org": "NY Society for the Relief of the Ruptured & Crippled",
-    "org_type": "clinic",
-    "address": "535 East 70 Street, New York, NY 10021",
-    "borough": "Manhattan",
-    "zip": "10021",
-    "lat": 40.7650577987,
-    "lng": -73.9525611611,
-    "hours": "",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "",
-    "trust": "official",
-    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=5829c126738e41739950d09b01b55990",
-    "last_checked": "2026-10-18",
-    "needs": [
-      "health"
-    ]
-  },
-  {
     "id": "place-fac-richmond-university-medical-center-10310",
     "name": "Richmond University Medical Center (hospital)",
     "org": "Richmond University Medical Center",
@@ -31382,28 +31144,6 @@
     "phone": "",
     "trust": "official",
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=7c67f75fa93e564427e460091c2e7235",
-    "last_checked": "2026-10-18",
-    "needs": [
-      "health"
-    ]
-  },
-  {
-    "id": "place-fac-new-york-eye-and-ear-infirmary-of-mount-sinai-10003",
-    "name": "New York Eye and Ear Infirmary of Mount Sinai (hospital)",
-    "org": "NY Eye and Ear Infirmary Inc.",
-    "org_type": "clinic",
-    "address": "310 East 14 Street, New York, NY 10003",
-    "borough": "Manhattan",
-    "zip": "10003",
-    "lat": 40.7318833184,
-    "lng": -73.9846008141,
-    "hours": "",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "",
-    "trust": "official",
-    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=7cf0a1c866fa118c927bcd1dabbb42b4",
     "last_checked": "2026-10-18",
     "needs": [
       "health"
@@ -31674,28 +31414,6 @@
     ]
   },
   {
-    "id": "place-fac-nyu-langone-orthopedic-hospital-10003",
-    "name": "Nyu Langone Orthopedic Hospital",
-    "org": "Nyu Langone Hospitals",
-    "org_type": "clinic",
-    "address": "301 East 17 Street, New York, NY 10003",
-    "borough": "Manhattan",
-    "zip": "10003",
-    "lat": 40.734397691,
-    "lng": -73.982972687,
-    "hours": "",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "",
-    "trust": "official",
-    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=b8aacbd7d25cf9fa7ca212185af8c7a5",
-    "last_checked": "2026-10-18",
-    "needs": [
-      "health"
-    ]
-  },
-  {
     "id": "place-fac-new-york-presbyterian-hospital-columbia-presbyteri-10032",
     "name": "New York-presbyterian Hospital - Columbia Presbyterian Center",
     "org": "The New York and Presbyterian Hospital",
@@ -31894,28 +31612,6 @@
     ]
   },
   {
-    "id": "place-fac-calvary-hospital-11220",
-    "name": "Calvary Hospital",
-    "org": "Calvary Hospital Inc.",
-    "org_type": "clinic",
-    "address": "150 55 Street, Brooklyn, NY 11220",
-    "borough": "Brooklyn",
-    "zip": "11220",
-    "lat": 40.646552092,
-    "lng": -74.0210877868,
-    "hours": "",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "",
-    "trust": "official",
-    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=d4b3e88c28e6fbb90526c42319a8f5dd",
-    "last_checked": "2026-10-18",
-    "needs": [
-      "health"
-    ]
-  },
-  {
     "id": "place-fac-long-island-jewish-medical-center-11004",
     "name": "Long Island Jewish Medical Center (hospital)",
     "org": "Long Island Jewish Medical Center",
@@ -31976,28 +31672,6 @@
     "phone": "",
     "trust": "official",
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=da96550809892dab5192b30cb39a741e",
-    "last_checked": "2026-10-18",
-    "needs": [
-      "health"
-    ]
-  },
-  {
-    "id": "place-fac-david-h-koch-center-for-cancer-care-10021",
-    "name": "David H. Koch Center for Cancer Care (hospital)",
-    "org": "Memorial Hospital for Cancer and Allied Diseases Inc.",
-    "org_type": "clinic",
-    "address": "530 East 74 Street, New York, NY 10021",
-    "borough": "Manhattan",
-    "zip": "10021",
-    "lat": 40.7670421603,
-    "lng": -73.9510399426,
-    "hours": "",
-    "open_evenings": false,
-    "open_weekends": false,
-    "languages": [],
-    "phone": "",
-    "trust": "official",
-    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=e1445b03b4187b83b5c8c1fe70ca5ce8",
     "last_checked": "2026-10-18",
     "needs": [
       "health"
@@ -32132,8 +31806,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=0ca26c210ed243b24817c406f4f6c780",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "benefits"
+      "legal"
     ]
   },
   {
@@ -32155,8 +31828,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=38fe0a6e9339ec58540b36654625b68f",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "benefits"
+      "legal"
     ]
   },
   {
@@ -32178,8 +31850,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=503ead58d67568dc109a70ad38265f0c",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "benefits"
+      "legal"
     ]
   },
   {
@@ -32201,8 +31872,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=661c10fb3aa2ae0d5abc872fc5214825",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "benefits"
+      "legal"
     ]
   },
   {
@@ -32224,8 +31894,7 @@
     "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=fbdf85c4b012ff865f56b0e89c5892dc",
     "last_checked": "2026-10-18",
     "needs": [
-      "legal",
-      "benefits"
+      "legal"
     ]
   },
   {
@@ -33275,8 +32944,31 @@
     ]
   },
   {
-    "id": "place-fac-kings-county-hospital-11203",
-    "name": "Kings County Hospital (Medicaid office)",
+    "id": "place-fac-hra-staten-island-10301",
+    "name": "HRA Staten Island : (Medicaid office)",
+    "org": "NYC Human Resources Administration",
+    "org_type": "benefits_office",
+    "address": "215 Bay Street, Staten Island, NY 10301",
+    "borough": "Staten Island",
+    "zip": "10301",
+    "lat": 40.6369141779,
+    "lng": -74.0758122343,
+    "hours": "",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "official",
+    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=0fd3104b81dbb5be12f53b03f7c578a5",
+    "last_checked": "2026-10-18",
+    "needs": [
+      "benefits",
+      "health"
+    ]
+  },
+  {
+    "id": "place-fac-hra-kings-county-hospital-11203",
+    "name": "HRA Kings County Hospital (Medicaid office)",
     "org": "NYC Human Resources Administration",
     "org_type": "benefits_office",
     "address": "441 Clarkson Avenue, Brooklyn, NY 11203",
@@ -33298,8 +32990,8 @@
     ]
   },
   {
-    "id": "place-fac-chinatown-10002",
-    "name": "Chinatown (Medicaid office)",
+    "id": "place-fac-hra-chinatown-10002",
+    "name": "HRA Chinatown (Medicaid office)",
     "org": "NYC Human Resources Administration",
     "org_type": "benefits_office",
     "address": "115 Chrystie Street, New York, NY 10002",
@@ -33321,8 +33013,8 @@
     ]
   },
   {
-    "id": "place-fac-east-new-york-11208",
-    "name": "East New York (Medicaid office)",
+    "id": "place-fac-hra-east-new-york-11208",
+    "name": "HRA East New York (Medicaid office)",
     "org": "NYC Human Resources Administration",
     "org_type": "benefits_office",
     "address": "404 Pine Street, Brooklyn, NY 11208",
@@ -33344,8 +33036,8 @@
     ]
   },
   {
-    "id": "place-fac-rider-community-10451",
-    "name": "Rider Community (Medicaid office)",
+    "id": "place-fac-hra-rider-community-10451",
+    "name": "HRA Rider Community (Medicaid office)",
     "org": "NYC Human Resources Administration",
     "org_type": "benefits_office",
     "address": "305 Rider Avenue, Bronx, NY 10451",
@@ -37481,6 +37173,29 @@
     ]
   },
   {
+    "id": "place-fac-hra-east-new-york-snap-center-11233",
+    "name": "HRA East New York SNAP Center",
+    "org": "NYC Human Resources Administration",
+    "org_type": "benefits_office",
+    "address": "2400 Fulton Street, Brooklyn, NY 11233",
+    "borough": "Brooklyn",
+    "zip": "11233",
+    "lat": 40.6775409667,
+    "lng": -73.9040827048,
+    "hours": "",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "official",
+    "source_url": "https://data.cityofnewyork.us/resource/ji82-xba5.json?uid=1648b84fc537589e3b03595fd204649c",
+    "last_checked": "2026-10-18",
+    "needs": [
+      "benefits",
+      "food"
+    ]
+  },
+  {
     "id": "place-fac-workforce1-healthcare-career-center-10038",
     "name": "Workforce1 Healthcare Career Center",
     "org": "NYC Department of Small Business Services",
@@ -38249,5 +37964,398 @@
     "needs": [
       "work"
     ]
+  },
+  {
+    "id": "place-333-bowery-street-adult-families-intake",
+    "name": "333 Bowery Street (adult families intake)",
+    "org": "NYC Department of Homeless Services",
+    "org_type": "other",
+    "address": "333 Bowery Street, Manhattan",
+    "borough": "Manhattan",
+    "zip": "10003",
+    "lat": 40.725835,
+    "lng": -73.991554,
+    "hours": "",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "212-577-3300",
+    "trust": "community",
+    "source_url": "https://legalaidnyc.org/get-help/housing-problems/what-you-need-to-know-about-nyc-dhs-shelter-intake-for-single-adults-and-adult-families",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "housing"
+    ],
+    "created_date": "2026-10-18T03:36:35.686000",
+    "updated_date": "2026-10-18T03:36:35.686000"
+  },
+  {
+    "id": "place-aarp-foundation-tax-aide-briarwood",
+    "name": "AARP Foundation Tax-Aide - Briarwood",
+    "org": "AARP Foundation",
+    "org_type": "other",
+    "address": "85-12 Main Street",
+    "borough": "Queens",
+    "zip": "11435",
+    "lat": 40.710015,
+    "lng": -73.819478,
+    "hours": "Mondays, February 6, 13, 27; March 6, 13, 20, 27; April 3, 10, 17; 10:15am-1pm",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "community",
+    "source_url": "https://connect.queenslibrary.org/1392",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "benefits"
+    ],
+    "created_date": "2026-10-18T03:36:31.055000",
+    "updated_date": "2026-10-18T03:36:31.055000"
+  },
+  {
+    "id": "place-aarp-foundation-tax-aide-fresh-meadows",
+    "name": "AARP Foundation Tax-Aide - Fresh Meadows",
+    "org": "AARP Foundation",
+    "org_type": "other",
+    "address": "193-20 Horace Harding Expressway",
+    "borough": "Queens",
+    "zip": "11365",
+    "lat": 40.741559,
+    "lng": -73.782268,
+    "hours": "Thursdays, February 2, 9, 16, 23; March 2, 9, 16, 23, 30; April 6, 13; 12:15pm-3pm",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "community",
+    "source_url": "https://connect.queenslibrary.org/1392",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "benefits"
+    ],
+    "created_date": "2026-10-18T03:36:32.236000",
+    "updated_date": "2026-10-18T03:36:32.236000"
+  },
+  {
+    "id": "place-aarp-foundation-tax-aide-glen-oaks",
+    "name": "AARP Foundation Tax-Aide - Glen Oaks",
+    "org": "AARP Foundation",
+    "org_type": "other",
+    "address": "256-04 Union Turnpike",
+    "borough": "Queens",
+    "zip": "11004",
+    "lat": 40.745152,
+    "lng": -73.714847,
+    "hours": "Thursdays, February 2, 9, 16, 23; March 2, 9, 16, 23, 30; April 6, 13; 12:30pm-3pm",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "community",
+    "source_url": "https://connect.queenslibrary.org/1392",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "benefits"
+    ],
+    "created_date": "2026-10-18T03:36:31.337000",
+    "updated_date": "2026-10-18T03:36:31.337000"
+  },
+  {
+    "id": "place-aarp-foundation-tax-aide-hollis",
+    "name": "AARP Foundation Tax-Aide - Hollis",
+    "org": "AARP Foundation",
+    "org_type": "other",
+    "address": "202-05 Hillside Avenue",
+    "borough": "Queens",
+    "zip": "11423",
+    "lat": 40.720192,
+    "lng": -73.762327,
+    "hours": "Tuesdays: February 7, 14, 21, 28; March 7, 14, 21, 28; April 4, 11; 1:15pm-4pm",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "community",
+    "source_url": "https://connect.queenslibrary.org/1392",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "benefits"
+    ],
+    "created_date": "2026-10-18T03:36:30.061000",
+    "updated_date": "2026-10-18T03:36:30.061000"
+  },
+  {
+    "id": "place-aarp-foundation-tax-aide-howard-beach",
+    "name": "AARP Foundation Tax-Aide - Howard Beach",
+    "org": "AARP Foundation",
+    "org_type": "other",
+    "address": "9206 156 Avenue",
+    "borough": "Queens",
+    "zip": "11414",
+    "lat": 40.663819,
+    "lng": -73.841802,
+    "hours": "Wednesdays, February 1, 8, 15, 22; March 1, 8, 15, 22, 29; April 5, 12; 10:15am-3pm",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "community",
+    "source_url": "https://connect.queenslibrary.org/1392",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "benefits"
+    ],
+    "created_date": "2026-10-18T03:36:32.497000",
+    "updated_date": "2026-10-18T03:36:32.497000"
+  },
+  {
+    "id": "place-aarp-foundation-tax-aide-jackson-heights",
+    "name": "AARP Foundation Tax-Aide - Jackson Heights",
+    "org": "AARP Foundation",
+    "org_type": "other",
+    "address": "3551 81th Street",
+    "borough": "Queens",
+    "zip": "11101",
+    "lat": 40.754132,
+    "lng": -73.923766,
+    "hours": "Fridays, February 3, 10, 17, 24; March 3, 10, 17, 24, 31; April 7, 14; 10:15am-3pm",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "community",
+    "source_url": "https://connect.queenslibrary.org/1392",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "benefits"
+    ],
+    "created_date": "2026-10-18T03:36:31.179000",
+    "updated_date": "2026-10-18T03:36:31.179000"
+  },
+  {
+    "id": "place-aarp-foundation-tax-aide-kew-gardens-hills",
+    "name": "AARP Foundation Tax-Aide - Kew Gardens Hills",
+    "org": "AARP Foundation",
+    "org_type": "other",
+    "address": "7233 Vleigh Place",
+    "borough": "Queens",
+    "zip": "11367",
+    "lat": 40.72595,
+    "lng": -73.82076,
+    "hours": "Tuesdays, February 7, 14, 21, 28; March 7, 14, 21, 28; April 4, 11, 18; 1:15pm-4pm",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "community",
+    "source_url": "https://connect.queenslibrary.org/1392",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "benefits"
+    ],
+    "created_date": "2026-10-18T03:36:30.048000",
+    "updated_date": "2026-10-18T03:36:30.048000"
+  },
+  {
+    "id": "place-aarp-foundation-tax-aide-north-forest-park",
+    "name": "AARP Foundation Tax-Aide - North Forest Park",
+    "org": "AARP Foundation",
+    "org_type": "other",
+    "address": "9827 Metropolitan Avenue",
+    "borough": "Queens",
+    "zip": "11375",
+    "lat": 40.711201,
+    "lng": -73.853673,
+    "hours": "Thursdays, February 2, 9, 16, 23; March 2, 9, 16, 23, 30; April 6, 13; 12:15pm-3pm",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "community",
+    "source_url": "https://connect.queenslibrary.org/1392",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "benefits"
+    ],
+    "created_date": "2026-10-18T03:36:32.276000",
+    "updated_date": "2026-10-18T03:36:32.276000"
+  },
+  {
+    "id": "place-brooklyn-college-library-vita-site",
+    "name": "Brooklyn College Library VITA Site",
+    "org": "Brooklyn College VITA",
+    "org_type": "other",
+    "address": "384 Brooklyn College Library",
+    "borough": "Brooklyn",
+    "zip": "11210",
+    "lat": 40.631331,
+    "lng": -73.950057,
+    "hours": "Every Tuesday between 10 a.m.-6 p.m. from February 3 to April 14",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "800.290.7189",
+    "trust": "community",
+    "source_url": "https://www.brooklyn.edu/vita",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "money",
+      "benefits"
+    ],
+    "created_date": "2026-10-18T03:36:34.688000",
+    "updated_date": "2026-10-18T03:36:34.688000"
+  },
+  {
+    "id": "place-fh-st-edmunds-youth-program-inc",
+    "name": "ST. EDMUNDS YOUTH PROGRAM INC",
+    "org": "ST. EDMUNDS YOUTH PROGRAM INC",
+    "org_type": "pantry",
+    "address": "1905 Morris Ave, Bronx, New York, 10453",
+    "borough": "Bronx",
+    "zip": "10453",
+    "lat": 40.849923,
+    "lng": -73.90809,
+    "hours": "Thu 12pm-2pm (pantry)",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "(718) 466-9370",
+    "trust": "official",
+    "source_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Food_Help_Programs_PROD_view/FeatureServer/0/query?where=FID%3D192&outFields=*&f=json",
+    "last_checked": "2026-10-10",
+    "needs": [],
+    "created_date": "2026-10-10T17:01:31.288000",
+    "updated_date": "2026-10-10T18:11:00.970000"
+  },
+  {
+    "id": "place-langston-hughes-library-room-a",
+    "name": "Langston Hughes Library, Room A",
+    "org": "National Association of Black Accountants (NABA)",
+    "org_type": "other",
+    "address": "100-01 Northern Boulevard",
+    "borough": "Queens",
+    "zip": "11368",
+    "lat": 40.757656,
+    "lng": -73.868174,
+    "hours": "Saturdays, January 28; February 4, 11, 18, 25; March 4, 11, 18, 25 April 1, 8, 15; 11am-4pm",
+    "open_evenings": false,
+    "open_weekends": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "phone": "929-630-3753",
+    "trust": "community",
+    "source_url": "https://connect.queenslibrary.org/1392",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "benefits"
+    ],
+    "created_date": "2026-10-18T03:36:33.589000",
+    "updated_date": "2026-10-18T03:36:33.589000"
+  },
+  {
+    "id": "place-nys-dept-of-taxation-and-finance-elmhurst-3rd-floor-meeting",
+    "name": "NYS Dept of Taxation and Finance - Elmhurst, 3rd Floor Meeting Room",
+    "org": "New York State Department of Taxation and Finance",
+    "org_type": "other",
+    "address": "86-07 Broadway",
+    "borough": "Queens",
+    "zip": "11373",
+    "lat": 40.738556,
+    "lng": -73.876826,
+    "hours": "Thursdays, February 2, 9, 16, 23; March 2, 9, 16, 23, 30; April 6, 13; 12pm-7pm",
+    "open_evenings": true,
+    "open_weekends": false,
+    "languages": [
+      "en",
+      "zh",
+      "ko",
+      "es"
+    ],
+    "phone": "",
+    "trust": "community",
+    "source_url": "https://connect.queenslibrary.org/1392",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "benefits"
+    ],
+    "created_date": "2026-10-18T03:36:29.948000",
+    "updated_date": "2026-10-18T03:36:29.948000"
+  },
+  {
+    "id": "place-path-intake-center",
+    "name": "PATH intake center",
+    "org": "NYC Department of Homeless Services",
+    "org_type": "other",
+    "address": "151 East 151st Street, Bronx, NY",
+    "borough": "Bronx",
+    "zip": "10451",
+    "lat": 40.821684,
+    "lng": -73.927585,
+    "hours": "Open 24 hours per day, seven days a week; applications processed 9:00am-5:00pm",
+    "open_evenings": true,
+    "open_weekends": true,
+    "languages": [],
+    "phone": "718.503.6400",
+    "trust": "community",
+    "source_url": "https://www.1degree.org/opp/get-temporary-shelter-for-single-parent-henry-street-settlement-new-york-new-york",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "housing"
+    ],
+    "created_date": "2026-10-18T03:36:35.024000",
+    "updated_date": "2026-10-18T03:36:35.024000"
+  },
+  {
+    "id": "place-project-hospitality-food-pantry-25-central-avenue-project-ho",
+    "name": "Project Hospitality Food Pantry – 25 Central Avenue (Project Hospitality, Staten Island)",
+    "org": "Project Hospitality",
+    "org_type": "other",
+    "address": "25 Central Avenue, Staten Island",
+    "borough": "Staten Island",
+    "zip": "10301",
+    "lat": 40.64118,
+    "lng": -74.07656,
+    "hours": "",
+    "open_evenings": false,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "community",
+    "source_url": "https://sanctuaryforfamilies.org/about-us/locations",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "housing",
+      "food"
+    ],
+    "created_date": "2026-10-18T03:36:33.698000",
+    "updated_date": "2026-10-18T03:36:33.698000"
+  },
+  {
+    "id": "place-the-gathering-place",
+    "name": "The Gathering Place",
+    "org": "",
+    "org_type": "other",
+    "address": "2402 Atlantic Avenue, Brooklyn",
+    "borough": "Brooklyn",
+    "zip": "11233",
+    "lat": 40.675755,
+    "lng": -73.905331,
+    "hours": "Drop-in center open from 7:30 am – 8:30 pm",
+    "open_evenings": true,
+    "open_weekends": false,
+    "languages": [],
+    "phone": "",
+    "trust": "community",
+    "source_url": "https://www.nyc.gov/site/brooklyncb16/resources/homeless-shelters.page",
+    "last_checked": "2026-10-17",
+    "needs": [
+      "housing",
+      "food"
+    ],
+    "created_date": "2026-10-18T03:36:34.932000",
+    "updated_date": "2026-10-18T03:36:34.932000"
   }
 ]

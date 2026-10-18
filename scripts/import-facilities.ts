@@ -34,6 +34,10 @@ interface Kind {
 const FQHC_NAMES =
   /health center|healthcare|health care|community health|family health|medical center|clinic|ryan|urban health|charles b\.? wang|betances|morris heights|ezra|addabbo|sunset park|lutheran|nyu langone family|institute for family health|community healthcare network|planned parenthood|callen-lorde|apicha|bronx-lebanon|metropolitan|union community|settlement health|harlem united|segundo ruiz belvis|la casa de salud/i;
 
+/** Specialty centers that share the "diagnostic and treatment center" license but are not a doctor's visit. */
+const NOT_PRIMARY_CARE =
+  /dialysis|renal|kidney|surg|imaging|radiolog|mri\b|endoscop|lithotrip|laborator|oncolog|cancer|infusion|fertility|ivf|eye|vision|lasik|rehabilita|methadone|opioid|cardiac|cardio|vascular|sleep|pain|orthop|podiatr|hearing|dental lab|calvary|hospice|special surgery|eye and ear|psychiatric/i;
+
 const TYPES: Record<string, Kind> = {
   "SNAP CENTER": { org_type: "benefits_office", needs: ["benefits", "food"], en: "SNAP center" },
   "MEDICAID OFFICE": { org_type: "benefits_office", needs: ["benefits", "health"], en: "Medicaid office" },
@@ -46,9 +50,10 @@ const TYPES: Record<string, Kind> = {
   "DROP-IN CENTER": { org_type: "other", needs: ["housing"], en: "drop-in center" },
   "DROP-IN CENTERS": { org_type: "other", needs: ["housing"], en: "drop-in center" },
   "LEGAL SERVICES": { org_type: "other", needs: ["legal"], en: "legal services" },
-  "FAMILY JUSTICE CENTER": { org_type: "other", needs: ["legal", "health", "housing"], en: "Family Justice Center" },
+  // Domestic and gender-based violence help (legal, safety planning): not a housing office.
+  "FAMILY JUSTICE CENTER": { org_type: "other", needs: ["legal"], en: "Family Justice Center" },
   "IMMIGRANT SERVICES": { org_type: "other", needs: ["legal"], en: "immigrant services" },
-  "IMMIGRANT FAMILY SERVICES": { org_type: "other", needs: ["legal", "benefits"], en: "immigrant family services" },
+  "IMMIGRANT FAMILY SERVICES": { org_type: "other", needs: ["legal"], en: "immigrant family services" },
   "LEGAL SERVICES FOR IMMIGRANT YOUTH": { org_type: "other", needs: ["legal"], en: "legal services for immigrant youth" },
   "CIVICS CLASSES": { org_type: "other", needs: ["school"], en: "civics classes" },
   "ADULT LITERACY - ENGLISH FOR SPEAKERS OF OTHER LANGUAGES": { org_type: "other", needs: ["school"], en: "English classes (ESL)" },
@@ -56,9 +61,10 @@ const TYPES: Record<string, Kind> = {
   "ADULT LITERACY": { org_type: "other", needs: ["school"], en: "adult literacy" },
   "PUBLIC LIBRARY": { org_type: "other", needs: ["school"], en: "public library" },
   "CHILD HEALTH CENTER": { org_type: "clinic", needs: ["health"], en: "child health center" },
-  "ACUTE CARE HOSPITAL": { org_type: "clinic", needs: ["health"], en: "hospital" },
+  "ACUTE CARE HOSPITAL": { org_type: "clinic", needs: ["health"], en: "hospital", keep: /./ },
   "DIAGNOSTIC & TREATMENT CENTER": { org_type: "clinic", needs: ["health"], en: "health center" },
-  "HOSPITAL": { org_type: "clinic", needs: ["health"], en: "hospital" },
+  // Hospitals: general ones only (not cancer, hospice, orthopedic or eye hospitals).
+  "HOSPITAL": { org_type: "clinic", needs: ["health"], en: "hospital", keep: /./ },
   "DIAGNOSTIC AND TREATMENT CENTER": { org_type: "clinic", needs: ["health"], en: "health center", keep: FQHC_NAMES },
 };
 
@@ -107,11 +113,13 @@ let filtered = 0;
 for (const r of rows) {
   const kind = TYPES[r.factype];
   if (!kind || !/^\d{5}$/.test(r.zipcode ?? "") || !r.address) continue;
-  if (kind.keep && !kind.keep.test(r.facname ?? "")) {
+  if (kind.keep && (!kind.keep.test(r.facname ?? "") || NOT_PRIMARY_CARE.test(r.facname ?? ""))) {
     filtered++;
     continue;
   }
-  const name = titleCase(r.facname ?? "");
+  // HRA offices are listed by neighborhood only ("East New York"): say whose office it is.
+  const raw = titleCase(r.facname ?? "");
+  const name = kind.org_type === "benefits_office" && !/\bHRA\b|human resources/i.test(raw) ? `HRA ${raw}` : raw;
   const key = `${slug(r.opname || r.facname)}|${streetKey(r.address)}|${r.zipcode}`;
   const s = sites.get(key) ?? {
     name,

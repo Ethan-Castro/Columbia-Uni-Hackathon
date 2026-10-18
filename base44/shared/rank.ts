@@ -224,8 +224,23 @@ const triRank = (v: boolean | null) => (v === true ? 0 : v === null ? 1 : 2);
  *   5. (openNow) open right now, then evening + weekend hours
  *   6. open later today, speaks the requested language, distance, name
  */
-export function rankPlaces(cat: Catalog, need: Need, near: NearResult, opts: RankOptions): Ranked[] {
+/**
+ * The asked zip's center. geo.ts knows the centers of the zips we started with; for any other zip,
+ * the mean position of the catalog's places in it (so "Bay Ridge" still ranks by real distance).
+ */
+export function nearPoint(cat: Catalog, near: NearResult): NearResult {
+  if (near.lat !== undefined || !near.primaryZips.length) return near;
+  const zips = new Set(near.primaryZips);
+  const pts = cat.places.filter((p) => zips.has(p.zip) && typeof p.lat === "number" && typeof p.lng === "number");
+  if (!pts.length) return near;
+  const lat = pts.reduce((a, p) => a + p.lat, 0) / pts.length;
+  const lng = pts.reduce((a, p) => a + p.lng, 0) / pts.length;
+  return { ...near, lat, lng };
+}
+
+export function rankPlaces(cat: Catalog, need: Need, nearIn: NearResult, opts: RankOptions): Ranked[] {
   const now = opts.now ?? new Date();
+  const near = nearPoint(cat, nearIn);
   const rows: Array<Ranked & { keys: number[] }> = [];
   for (const place of cat.places) {
     // People (DOJ accredited representatives listed by name) are never results; their organization is.
@@ -245,7 +260,9 @@ export function rankPlaces(cat: Catalog, need: Need, near: NearResult, opts: Ran
       orgLocations: orgLocations(cat, place.id),
       reports: cat.reports?.get(place.id) ?? 0,
     };
-    const primary = (PLACE_ORG_NEEDS[place.org_type] ?? []).includes(need) ? 0 : 1;
+    // "Primary": the place's own job is this need (its own needs, else its type), not only a side program.
+    const own = asList((place as Place & { needs?: unknown }).needs);
+    const primary = (own.length ? own : PLACE_ORG_NEEDS[place.org_type] ?? []).includes(need) ? 0 : 1;
     const keys = [
       r.trustRank,
       need === "legal" ? (DOJ_ORG_TYPES.includes(place.org_type) ? 0 : 1) : 0,
