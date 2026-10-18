@@ -29,7 +29,8 @@ export function Directory() {
   const S = lang === "en"
     ? { step1: "1. What do you need?", step2: "2. Where?", more: "More filters (borough, language)", start: "Choose what you need, or type a zip code, neighborhood or name.", showMore: "Show more", of: "Showing {a} of {b}" }
     : { step1: "1. ¿Qué necesita?", step2: "2. ¿Dónde?", more: "Más filtros (condado, idioma)", start: "Elija lo que necesita, o escriba un código postal, un barrio o un nombre.", showMore: "Mostrar más", of: "Mostrando {a} de {b}" };
-  const [need, setNeed] = useState("");
+  // "#/directory?need=food" (the home page's need buttons) opens with that need picked.
+  const [need, setNeed] = useState(() => new URLSearchParams(window.location.hash.split("?")[1] ?? "").get("need") ?? "");
   const [borough, setBorough] = useState("");
   const [language, setLanguage] = useState("");
   const [q, setQ] = useState("");

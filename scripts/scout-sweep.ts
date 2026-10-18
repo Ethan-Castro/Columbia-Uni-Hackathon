@@ -2,6 +2,12 @@
 // Nothing goes live: every draft waits in the review queue for a person.
 //
 //   deno run -A scripts/scout-sweep.ts [--url https://inmigracion-nyc.com/functions/scout] [--concurrency 3]
+//   deno run -A scripts/scout-sweep.ts --gaps [--max 60]   # only neighborhood + need pairs with nothing listed
+//
+// --gaps reads data/*.json (run scripts/base44-pull.ts first) and builds the knowledge graph, then
+// searches each neighborhood + need that has no place yet, core needs first (food, health, legal,
+// then housing, work, benefits, id, school). That is the search that fills the holes the
+// insights page shows.
 //
 // Reads ADMIN_TOKEN from .env. Prints one line per query (counts only).
 
@@ -26,8 +32,44 @@ const TOPICS = [
 const BOROUGHS = ["Queens", "Brooklyn", "Bronx", "Manhattan", "Staten Island"];
 // --queries <file>: one query per line (e.g. to retry the ones that failed).
 const qfile = arg("queries", "");
+const GAP_TOPICS: Record<string, string> = {
+  food: "free food pantry",
+  health: "community health center low cost clinic",
+  legal: "free immigration legal services",
+  housing: "tenant help housing assistance",
+  work: "job training employment center",
+  benefits: "SNAP Medicaid enrollment help",
+  id: "IDNYC enrollment",
+  school: "free ESL English classes adults",
+};
+
+async function gapQueries(max: number): Promise<string[]> {
+  const { buildGraph, graphNeeds } = await import("../shared/graph.ts");
+  const { NEIGHBORHOOD_ZIPS, zipToBorough } = await import("../shared/geo.ts");
+  const read = async (n: string) => JSON.parse(await Deno.readTextFile(new URL(`../data/${n}.json`, import.meta.url)));
+  const places = await read("Place");
+  const g = buildGraph({ places, programs: await read("Program"), links: await read("Link") });
+  const zipHood = new Map<string, string>();
+  for (const [h, zs] of Object.entries(NEIGHBORHOOD_ZIPS)) for (const z of zs) if (!zipHood.has(z)) zipHood.set(z, h);
+  const have = new Set<string>();
+  for (const p of places) {
+    const h = zipHood.get(p.zip);
+    if (h && !g.people.has(p.id)) for (const n of graphNeeds(g, p.id)) have.add(`${h}|${n}`);
+  }
+  const out: string[] = [];
+  for (const need of Object.keys(GAP_TOPICS)) {
+    for (const [hood, zips] of Object.entries(NEIGHBORHOOD_ZIPS)) {
+      if (!have.has(`${hood}|${need}`)) out.push(`${GAP_TOPICS[need]} ${hood} ${zipToBorough(zips[0]) ?? ""}`.trim());
+    }
+  }
+  console.log(`${out.length} neighborhood + need pairs with nothing listed; searching the first ${Math.min(max, out.length)}`);
+  return out.slice(0, max);
+}
+
 const queries = qfile
   ? (await Deno.readTextFile(qfile)).split("\n").map((l) => l.trim()).filter(Boolean)
+  : Deno.args.includes("--gaps")
+  ? await gapQueries(Number(arg("max", "60")))
   : TOPICS.flatMap((t) => BOROUGHS.map((b) => `${t} ${b}`));
 
 let done = 0, drafted = 0, dupes = 0, failed = 0;

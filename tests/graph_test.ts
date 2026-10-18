@@ -107,3 +107,12 @@ Deno.test("parseFeedback: SI / NO / MAL code, nothing else", () => {
   eq(parseFeedback("necesito comida en Corona"), null);
   eq(parseFeedback("no tengo comida"), null);
 });
+
+Deno.test("WhatsApp menu numbers map to needs; anything else is not a menu reply", async () => {
+  const { menuNeeds } = await import("../shared/whatsapp.ts");
+  eq(menuNeeds("1"), ["food"]);
+  eq(menuNeeds("2 y 3"), ["health", "legal"]);
+  eq(menuNeeds("4,4"), ["id"]);
+  eq(menuNeeds("11368"), null);
+  eq(menuNeeds("comida"), null);
+});

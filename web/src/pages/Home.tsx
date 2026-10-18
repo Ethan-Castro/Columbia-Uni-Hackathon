@@ -47,7 +47,7 @@ const COPY = {
     line2: "en",
     highlight: "su idioma y su teléfono",
     description:
-      "Un mapa vivo de comida, ayuda legal, salud, IDNYC y más para familias inmigrantes. Pregunte en Claude, ChatGPT, WhatsApp o por teléfono: todas las puertas usan el mismo mapa, con la fuente y la fecha de cada dato.",
+      "Comida, doctores, ayuda legal, identificación y más, cerca de usted. Es gratis. No le preguntamos por sus papeles ni le pedimos su nombre.",
     proof: (p: number, g: number) => `${p} lugares · ${g} programas · revisados el 10 oct 2026`,
     cta1: "Buscar un servicio",
     cta2: "Cómo funciona",
@@ -103,7 +103,7 @@ const COPY = {
     line2: "in",
     highlight: "your language, on your phone",
     description:
-      "A living map of food, legal help, health care, IDNYC and more for immigrant families. Ask in Claude, ChatGPT, WhatsApp or by phone: every door reads the same map, with the source and check date on every fact.",
+      "Food, doctors, legal help, ID and more, near you. It's free. We never ask about immigration status or your name.",
     proof: (p: number, g: number) => `${p} places · ${g} programs · checked Oct 10, 2026`,
     cta1: "Find a service",
     cta2: "How it works",
@@ -155,6 +155,68 @@ const COPY = {
     terms: "Terms",
   },
 };
+
+const HELP = {
+  es: {
+    title: "¿Necesita ayuda hoy?",
+    reassure: ["Es gratis", "No preguntamos por su estatus", "No le pedimos su nombre"],
+    call: "Llamar y hablar en español",
+    wa: "Escribir por WhatsApp",
+    waNote: "En prueba: la primera vez, mande el mensaje que ya viene escrito.",
+    pick: "O toque lo que necesita:",
+    needs: { food: "Comida", health: "Doctor o clínica", legal: "Abogado gratis", id: "Identificación", school: "Escuela", housing: "Vivienda", money: "Dinero o banco", work: "Trabajo" },
+    danger: "Si está en peligro, llame al 911. Si necesita hablar con alguien ahora, llame o escriba al 988.",
+  },
+  en: {
+    title: "Need help today?",
+    reassure: ["It's free", "We never ask about immigration status", "We don't ask for your name"],
+    call: "Call and talk (Spanish or English)",
+    wa: "Text us on WhatsApp",
+    waNote: "Testing: the first time, send the message that's already typed.",
+    pick: "Or tap what you need:",
+    needs: { food: "Food", health: "Doctor or clinic", legal: "Free lawyer", id: "ID", school: "School", housing: "Housing", money: "Money or bank", work: "Work" },
+    danger: "If you are in danger, call 911. If you need to talk to someone now, call or text 988.",
+  },
+};
+
+/** The first thing a nervous visitor sees: what it costs (nothing), what we won't ask, and three big ways in. */
+function HelpNow() {
+  const { lang } = useI18n();
+  const h = HELP[lang];
+  return (
+    <section className="mx-auto w-full max-w-4xl px-6 pb-12" aria-labelledby="help-now">
+      <div className="bg-card border-foreground rounded-3xl border p-6 sm:p-8">
+        <h2 id="help-now" className="font-sans text-2xl font-bold tracking-tight sm:text-3xl">{h.title}</h2>
+        <ul className="m-0 mt-3 flex list-none flex-wrap gap-x-5 gap-y-1 p-0 text-base">
+          {h.reassure.map((r) => (
+            <li key={r} className="flex items-center gap-1.5"><ShieldCheck className="text-brand size-5 shrink-0" />{r}</li>
+          ))}
+        </ul>
+        <div className="mt-5 grid gap-3 sm:grid-cols-3">
+          <a href={`tel:${VOICE_NUMBER.replace(/[^\d+]/g, "")}`} className="bg-primary text-primary-foreground border-foreground flex min-h-14 items-center justify-center gap-2 rounded-full border px-5 text-center text-lg font-semibold no-underline">
+            <Phone className="size-5 shrink-0" />{h.call}
+          </a>
+          <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="border-foreground text-foreground flex min-h-14 items-center justify-center gap-2 rounded-full border px-5 text-center text-lg font-semibold no-underline">
+            <MessageCircle className="size-5 shrink-0" />{h.wa}
+          </a>
+          <a href="/voz/" className="border-foreground text-foreground flex min-h-14 items-center justify-center gap-2 rounded-full border px-5 text-center text-lg font-semibold no-underline">
+            <Search className="size-5 shrink-0" />{lang === "es" ? "Pedir ayuda con la voz" : "Ask with your voice"}
+          </a>
+        </div>
+        <p className="text-muted-foreground mt-2 text-sm">{h.waNote}</p>
+        <p className="mt-5 mb-2 text-base font-semibold">{h.pick}</p>
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+          {(Object.keys(h.needs) as Array<keyof typeof h.needs>).map((n) => (
+            <a key={n} href={`${HREF.directory}?need=${n}`} className="border-border text-foreground flex min-h-12 items-center justify-center rounded-xl border px-3 text-center text-base font-medium no-underline">
+              {h.needs[n]}
+            </a>
+          ))}
+        </div>
+        <p className="text-muted-foreground mt-5 mb-0 text-sm">{h.danger}</p>
+      </div>
+    </section>
+  );
+}
 
 const DOOR_ICONS = [Bot, MessagesSquare, MessageCircle, Phone];
 const STEP_ICONS = [MessageCircle, Database, Send, Sparkles];
@@ -216,6 +278,8 @@ export function Home() {
         primaryCTA={{ ctaEnabled: true, text: c.cta1, link: HREF.directory, variant: "default", size: "lg" }}
         secondaryCTA={{ ctaEnabled: true, text: c.cta2, link: "#how", variant: "outline", size: "lg" }}
       />
+
+      <HelpNow />
 
       <div className="border-border border-t" />
 

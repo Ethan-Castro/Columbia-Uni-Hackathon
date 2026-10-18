@@ -32,6 +32,8 @@ export interface Entity<T> {
   update(id: string, data: Partial<T>): Promise<T>;
   /** count(query?) -> number of matching records */
   count(query?: Query): Promise<number>;
+  /** delete(id) -> removes the record; throws DbError(404) when missing */
+  delete(id: string): Promise<void>;
 }
 
 export type Db = { [K in EntityName]: Entity<EntityMap[K]> };
@@ -267,6 +269,15 @@ function makeEntity<T>(entity: EntityName): Entity<T> {
         rows[i] = row;
         await writeAll(entity, rows);
         return row as T;
+      });
+    },
+    delete(id) {
+      return serialize(entity, async () => {
+        const rows = await readAll(entity);
+        const i = rows.findIndex((r) => r.id === id);
+        if (i === -1) throw new DbError(`${entity} ${id} not found`, 404);
+        rows.splice(i, 1);
+        await writeAll(entity, rows);
       });
     },
   };

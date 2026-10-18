@@ -229,6 +229,15 @@ export const OFFER_RULES: Array<{ program: string; test: (p: Place) => boolean; 
   },
   { program: "prog-wic", test: (p) => /\bWIC\b/.test(p.name), why: "Named as a WIC site." },
   {
+    program: "prog-medicaid",
+    test: (p) => p.org_type === "benefits_office" && /\bmedicaid\b/i.test(p.name),
+    why: "Named as an HRA Medicaid office.",
+  },
+  { program: "prog-workforce1", test: (p) => /\bworkforce ?1\b/i.test(p.name), why: "Named as a Workforce1 career center." },
+  { program: "prog-homebase", test: (p) => /\bhomebase\b/i.test(p.name), why: "Listed by the City as a Homebase site." },
+  { program: "prog-family-justice-centers", test: (p) => /family justice center/i.test(p.name), why: "Listed by the City as a Family Justice Center." },
+  { program: "prog-jobs-plus", test: (p) => /\bjobs[- ]plus\b/i.test(p.name), why: "Listed by the City as a Jobs-Plus site." },
+  {
     program: "prog-nyc-care",
     test: (p) => /NYC Health ?\+ ?Hospitals|\bNYC H ?\+ ?H\b/i.test(`${p.name} ${p.org ?? ""}`),
     why: "NYC Care services are at NYC Health + Hospitals locations.",

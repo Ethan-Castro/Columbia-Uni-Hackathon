@@ -12,7 +12,8 @@
 // stored. Sentences that state an immigration status are dropped before the
 // text reaches the LLM. Information and referrals only.
 
-import { resolveNear } from "./geo.ts";
+import { haversineKm, resolveNear, ZIP_CENTROIDS } from "./geo.ts";
+import { clearSession, getSession, saveSession } from "./wa-session.ts";
 import { langOf } from "./i18n.ts";
 import type { Lang } from "./i18n.ts";
 import { llmJson } from "./rank.ts";
@@ -43,13 +44,15 @@ export interface Understood {
 const TEXT: Record<Lang, Record<string, string>> = {
   es: {
     help:
-      "Hola, soy NYC Navigator. Le ayudo a encontrar servicios para inmigrantes en Nueva York.\n\n" +
-      "Escríbame qué necesita y su código postal o barrio, en un solo mensaje. Por ejemplo:\n" +
-      "• comida en el Bronx\n• acabo de llegar con mis hijos a Sunset Park, necesito comida, médico e identificación\n" +
-      "• ¿es legítimo el notario Juan Pérez en Washington Heights?\n\n" +
-      "Nunca le preguntamos por su estatus migratorio.",
-    need_near: "¿En qué código postal, barrio o condado está? Escríbame lo que necesita y el lugar en un solo mensaje, por ejemplo: comida en 10032 o comida en Bushwick.",
-    need_what: "¿Qué necesita? Por ejemplo: comida, ayuda legal, salud, identificación, escuela o dinero. Escríbalo junto con su código postal o barrio.",
+      "Hola 👋 Soy el Navegador de NYC. Es gratis, y nunca le preguntamos por sus papeles.\n\n" +
+      "¿Qué necesita? Responda con un número:\n" +
+      "1 Comida\n2 Doctor o clínica\n3 Abogado o ayuda legal\n4 Identificación (IDNYC)\n5 Escuela\n" +
+      "6 Dinero o banco\n7 Vivienda o renta\n8 Trabajo\n9 Beneficios (SNAP, Medicaid)\n\n" +
+      "O escríbalo con sus palabras, por ejemplo: necesito comida en Corona.",
+    need_near: "¿En qué barrio o código postal está? Por ejemplo: Corona o 11368. También puede mandar su ubicación 📍.",
+    need_what: "¿Qué necesita? Responda con un número: 1 Comida, 2 Doctor, 3 Abogado, 4 Identificación, 5 Escuela, 6 Dinero, 7 Vivienda, 8 Trabajo, 9 Beneficios.",
+    stopped: "Listo. No le escribiremos más. No guardamos su número. Si algún día necesita ayuda, escriba HOLA.",
+    voice_failed: "No pude escuchar el audio. ¿Me lo puede escribir? Por ejemplo: comida en Corona.",
     found: "Cerca de {near}:",
     none: "No encontré lugares para eso cerca de {near}. Pruebe con otro barrio o llame al 311.",
     hours: "Horario",
@@ -64,13 +67,15 @@ const TEXT: Record<Lang, Record<string, string>> = {
   },
   en: {
     help:
-      "Hi, I'm NYC Navigator. I help immigrant New Yorkers find services.\n\n" +
-      "Text me what you need and your zip code or neighborhood, in one message. For example:\n" +
-      "• food in the Bronx\n• just arrived with my kids in Sunset Park, need food, a doctor and an ID\n" +
-      "• is the notario Juan Perez in Queens legit?\n\n" +
-      "We never ask about immigration status.",
-    need_near: "Which zip code, neighborhood or borough are you in? Send what you need and where in one message, e.g. food in 10032 or food in Bushwick.",
-    need_what: "What do you need? For example: food, legal help, health care, ID, school or money. Send it with your zip code or neighborhood.",
+      "Hi 👋 I'm the NYC Navigator. It's free, and we never ask about immigration status.\n\n" +
+      "What do you need? Reply with a number:\n" +
+      "1 Food\n2 Doctor or clinic\n3 Lawyer or legal help\n4 ID (IDNYC)\n5 School\n" +
+      "6 Money or bank\n7 Housing or rent\n8 Work\n9 Benefits (SNAP, Medicaid)\n\n" +
+      "Or say it in your own words, e.g. I need food in Corona.",
+    need_near: "Which neighborhood or zip code are you in? For example: Corona or 11368. You can also send your location 📍.",
+    need_what: "What do you need? Reply with a number: 1 Food, 2 Doctor, 3 Lawyer, 4 ID, 5 School, 6 Money, 7 Housing, 8 Work, 9 Benefits.",
+    stopped: "Done. We won't message you again, and we don't keep your number. If you ever need help, text HI.",
+    voice_failed: "I couldn't hear the audio. Can you type it? For example: food in Corona.",
     found: "Near {near}:",
     none: "I couldn't find places for that near {near}. Try another neighborhood or call 311.",
     hours: "Hours",
@@ -93,7 +98,9 @@ export function withoutStatus(text: string): string {
 }
 
 const EN_WORDS = /\b(i|my|need|help|food|where|near|the|is|legit|just|arrived|kids|doctor|lawyer|hi|hello)\b/i;
-const ES_WORDS = /\b(necesito|ayuda|comida|donde|dónde|cerca|mis|hijos|abogado|hola|el|la|es|para|llegu[eé]|acabo)\b/i;
+const ES_WORDS = /\b(necesito|ayuda|comida|donde|dónde|cerca|mis|hijos|abogado|hola|el|la|es|para|llegu[eé]|acabo|y|un|una|quiero|busco|m[eé]dico|cl[ií]nica|tambi[eé]n|otro|otra)\b/i;
+/** Clearly English, enough to switch a Spanish conversation ("y un doctor" stays Spanish). */
+const STRONG_EN = /\b(i|i'm|my|need|please|where|the|and|hello|hi|thanks)\b/i;
 const CHECK_WORDS = /\b(notari[oa]s?|legit\w*|leg[ií]tim\w*|verdad|real|fraud\w*|estafa|scam|revis\w*|check|verify|verific\w*|consultor\w*|consultant)\b/i;
 const PLAN_WORDS = /\b(acabo de llegar|reci[eé]n llegad\w*|just arrived|new here|plan|pasos|steps|qu[eé] hago primero|what do i do first)\b/i;
 const GREETING = /^(hola|hello|hi|hey|buenas|buenos d[ií]as|buenas tardes|ayuda|help|menu|men[uú]|info|start)\W*$/i;
@@ -208,12 +215,36 @@ export function parseFeedback(text: string): { helpful?: boolean; issue?: "close
   return { helpful: word !== "no", code, language };
 }
 
+/** Menu numbers from the help message ("1", "1 y 2", "3,4"). */
+const MENU: Need[] = ["food", "health", "legal", "id", "school", "money", "housing", "work", "benefits"];
+export function menuNeeds(text: string): Need[] | null {
+  const t = text.trim();
+  if (!/^[1-9](\s*(,|y|and|&|\s)\s*[1-9])*\s*$/i.test(t)) return null;
+  return [...new Set((t.match(/[1-9]/g) ?? []).map((d) => MENU[Number(d) - 1]))];
+}
+
+const STOP_RE = /^\s*(stop|baja|alto|parar|cancelar|unsubscribe|no m[aá]s mensajes)\s*[.!]*\s*$/i;
+
+export interface MessageContext {
+  /** HMAC of the sender (shared/wa-session.ts sessionKey), for the 30-minute memory. Never the number. */
+  sessionKey?: string | null;
+  /** A shared WhatsApp location pin. */
+  location?: { lat: number; lng: number };
+}
+
 /** Run the right tool and format the answer for a phone. Never throws. */
-export async function answerMessage(req: Request, rawText: string): Promise<string> {
+export async function answerMessage(req: Request, rawText: string, mc: MessageContext = {}): Promise<string> {
   const text = withoutStatus(String(rawText ?? "").slice(0, 1000));
-  const fallbackLang: Lang = parseKeywords(text || "hola").language;
-  if (!text) return TEXT[fallbackLang].help;
-  const fb = parseFeedback(text);
+  const key = mc.sessionKey ?? null;
+  const session = await getSession(req, key);
+  const fallbackLang: Lang = text ? parseKeywords(text).language : session?.language ?? "es";
+  if (text && STOP_RE.test(text)) {
+    await clearSession(req, key);
+    return TEXT[fallbackLang].stopped;
+  }
+  const pinNear = mc.location ? nearestZipTo(mc.location.lat, mc.location.lng) : "";
+  if (!text && !pinNear) return TEXT[fallbackLang].help;
+  const fb = text ? parseFeedback(text) : null;
   if (fb) {
     if (fb.issue && !fb.code) return TEXT[fb.language].need_code;
     try {
@@ -227,24 +258,52 @@ export async function answerMessage(req: Request, rawText: string): Promise<stri
     }
   }
   let u: Understood;
-  try {
-    u = await understand(req, text);
-  } catch {
-    u = parseKeywords(text);
+  const menu = text ? menuNeeds(text) : null;
+  if (menu) u = { intent: menu.length > 1 ? "plan" : "find", needs: menu, near: "", name: "", language: session?.language ?? "es" };
+  else if (!text) u = { intent: "find", needs: [], near: "", name: "", language: session?.language ?? "es" };
+  else {
+    try {
+      u = await understand(req, text);
+    } catch {
+      u = parseKeywords(text);
+    }
+  }
+  // One question at a time: what was said a moment ago fills in what this message leaves out.
+  if (pinNear) u.near = pinNear;
+  if (session) {
+    if (!u.needs.length && (u.intent === "find" || u.intent === "plan" || u.intent === "help") && u.near) {
+      u.needs = session.needs;
+      u.intent = session.needs.length > 1 ? "plan" : "find";
+    }
+    if (!u.near && u.needs.length) u.near = session.near;
+    if (!menu && text.length < 4 && u.intent === "help") u.language = session.language;
+    // A follow-up keeps the conversation's language unless it is clearly the other one.
+    if (text && u.language !== session.language && !(u.language === "en" && STRONG_EN.test(text))) u.language = session.language;
   }
   const l = langOf(u.language);
   const s = TEXT[l];
   const ctx = { channel: "whatsapp" as const };
   try {
-    if (u.intent === "help") return s.help;
+    if (u.intent === "help" && !(u.near && session?.needs.length)) {
+      await clearSession(req, key);
+      return s.help;
+    }
     if (u.intent === "check_provider") {
       if (!u.name) return s.help;
       const data = await checkProvider.run(req, { name: u.name, near: u.near, language: l }, ctx);
       return capReply(summarize("check_provider", data, l));
     }
-    if (!u.needs.length) return s.need_what;
-    if (!u.near) return s.need_near;
-    if (u.intent === "plan" && u.needs.length > 1) {
+    if (!u.needs.length) {
+      if (u.near) await saveSession(req, key, { needs: [], near: u.near, language: l });
+      return s.need_what;
+    }
+    if (!u.near) {
+      await saveSession(req, key, { needs: u.needs, near: "", language: l });
+      return s.need_near;
+    }
+    // Answered: keep the place (so "y un doctor?" works next), forget the needs.
+    await saveSession(req, key, { needs: [], near: u.near, language: l });
+    if (u.needs.length > 1) {
       const data = await makePlan.run(req, { needs: u.needs, near: u.near, language: l }, ctx) as Data;
       const first = ((Array.isArray(data.steps) ? data.steps : []) as Data[]).map((x) => x.place as Data | null).find((p) => p?.code);
       const ask = first ? `\n${fill(s.feedback, { code: str(first.code) })}` : "";
@@ -253,10 +312,24 @@ export async function answerMessage(req: Request, rawText: string): Promise<stri
     const data = await findResources.run(req, { need: u.needs[0], near: u.near, language: l }, ctx) as Data;
     return capReply(`${formatPlaces(data, l)}\n\n${s.footer}`);
   } catch (err) {
-    if ((err as { status?: unknown } | null)?.status === 400) return s.need_near;
+    if ((err as { status?: unknown } | null)?.status === 400) {
+      await saveSession(req, key, { needs: u.needs, near: "", language: l });
+      return s.need_near;
+    }
     console.error("whatsapp: tool failed:", err instanceof Error ? err.name : "unknown");
     return s.error;
   }
+}
+
+/** The zip whose center is closest to a shared location pin (NYC only). */
+function nearestZipTo(lat: number, lng: number): string {
+  if (!(lat > 40.4 && lat < 41.0 && lng > -74.3 && lng < -73.65)) return "";
+  let best = "", bestKm = Infinity;
+  for (const [zip, [zlat, zlng]] of Object.entries(ZIP_CENTROIDS)) {
+    const km = haversineKm(lat, lng, zlat, zlng);
+    if (km < bestKm) [best, bestKm] = [zip, km];
+  }
+  return best;
 }
 
 // ---------- Twilio webhook signature (X-Twilio-Signature) ----------

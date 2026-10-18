@@ -1,0 +1,18 @@
+// Base44 entity schema. Keep in sync with shared/schema.ts. Built-in fields (id, created_date, ...) are not defined here.
+{
+  "name": "WaSession",
+  "type": "object",
+  "title": "WaSession",
+  "description": "30-minute WhatsApp conversation memory. key is an HMAC of the phone number (never the number); no message text.",
+  "properties": {
+    "key": { "type": "string", "description": "HMAC-SHA256 of the number with a server secret (32 hex)" },
+    "needs": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["food", "legal", "health", "benefits", "money", "school", "id", "housing", "work", "transit"] }
+    },
+    "near": { "type": "string", "description": "Zip, neighborhood or borough the person named; never a street address" },
+    "language": { "type": "string", "enum": ["es", "en"] },
+    "expires_at": { "type": "string", "format": "date-time" }
+  },
+  "required": ["key", "expires_at"]
+}

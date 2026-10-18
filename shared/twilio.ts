@@ -2,9 +2,13 @@
 //
 //   const { sid, status } = await sendWhatsApp("+17185550101", "Hola ...");
 //
-// Uses the Twilio WhatsApp Sandbox: TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN,
-// TWILIO_WHATSAPP_FROM (e.g. whatsapp:+14155238886). In the sandbox the
-// recipient must first send "join <sandbox-word>" to the sandbox number.
+// TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_WHATSAPP_FROM. Two modes:
+//   - Sandbox (from whatsapp:+14155238886): the recipient must first send "join <word>".
+//   - Production sender (our own approved number): a free-form message works within 24 h
+//     of the person writing to us. Outside that window WhatsApp only allows an approved
+//     template, so when Twilio answers 63016 and TWILIO_WHATSAPP_TEMPLATE_SID is set (a
+//     Content template whose body is "{{1}}"-style), the same text goes out as that template.
+//     docs/WHATSAPP_SETUP.md has the template text to submit.
 //
 // Privacy: the phone number is never logged, and errors never echo it (Twilio's
 // own error messages can contain the number, so we only pass on its code).
@@ -41,6 +45,16 @@ const KNOWN_CODES: Record<number, string> = {
 /** Sandbox-related codes: tell the person to join the sandbox. */
 export const SANDBOX_CODES = new Set([63015, 63016, 63003]);
 
+export const SANDBOX_NUMBER = "+14155238886";
+
+/** True while TWILIO_WHATSAPP_FROM is Twilio's shared sandbox number (answers mention "join"). */
+export function isSandbox(): boolean {
+  return (getSecret("TWILIO_WHATSAPP_FROM") ?? "").replace(/^whatsapp:/, "") === SANDBOX_NUMBER;
+}
+
+/** WhatsApp template variables are capped (1024 chars for the whole body): leave room for the template's own words. */
+const TEMPLATE_VAR_MAX = 900;
+
 export interface WhatsAppResult {
   sid: string;
   status: string;
@@ -59,7 +73,23 @@ export async function sendWhatsApp(to: string, body: string): Promise<WhatsAppRe
   if (!sid || !token || !fromRaw) throw new TwilioError(503, "WhatsApp sending is not configured");
   const from = fromRaw.startsWith("whatsapp:") ? fromRaw : `whatsapp:${fromRaw}`;
 
-  const form = new URLSearchParams({ From: from, To: `whatsapp:${to}`, Body: body });
+  try {
+    return await postMessage(sid, token, new URLSearchParams({ From: from, To: `whatsapp:${to}`, Body: body }));
+  } catch (err) {
+    const template = getSecret("TWILIO_WHATSAPP_TEMPLATE_SID");
+    if (!(err instanceof TwilioError) || err.code !== 63016 || !template || isSandbox()) throw err;
+    // Outside the 24-hour window: the approved template carries the same text.
+    const text = body.length > TEMPLATE_VAR_MAX ? body.slice(0, TEMPLATE_VAR_MAX - 1).trimEnd() + "…" : body;
+    return await postMessage(sid, token, new URLSearchParams({
+      From: from,
+      To: `whatsapp:${to}`,
+      ContentSid: template,
+      ContentVariables: JSON.stringify({ 1: text }),
+    }));
+  }
+}
+
+async function postMessage(sid: string, token: string, form: URLSearchParams): Promise<WhatsAppResult> {
   let res: Response;
   try {
     res = await fetch(`https://api.twilio.com/2010-04-01/Accounts/${encodeURIComponent(sid)}/Messages.json`, {

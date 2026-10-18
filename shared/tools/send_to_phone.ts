@@ -12,7 +12,7 @@ import { langOf, t } from "../i18n.ts";
 import type { Lang } from "../i18n.ts";
 import { logRequest } from "../logRequest.ts";
 import { redactStatus } from "../redact.ts";
-import { sendWhatsApp, SANDBOX_CODES, TwilioError } from "../twilio.ts";
+import { isSandbox, sendWhatsApp, SANDBOX_CODES, TwilioError } from "../twilio.ts";
 import { getLanguage, getString } from "./input.ts";
 import type { Tool } from "./types.ts";
 
@@ -161,7 +161,7 @@ export const sendToPhone: Tool = {
         chars: message.length,
         text_sent: message,
         message: t(lang, "sent_ok"),
-        delivery_note: TEXT[lang].delivery_note,
+        ...(isSandbox() ? { delivery_note: TEXT[lang].delivery_note } : {}),
       });
     } catch (err) {
       const code = err instanceof TwilioError ? err.code : undefined;
@@ -176,7 +176,7 @@ export const sendToPhone: Tool = {
         removed_status_items: removed,
         message: notConfigured
           ? TEXT[lang].not_configured
-          : t(lang, "send_failed") + (code !== undefined && SANDBOX_CODES.has(code) ? TEXT[lang].sandbox : ""),
+          : t(lang, "send_failed") + (code !== undefined && SANDBOX_CODES.has(code) && isSandbox() ? TEXT[lang].sandbox : ""),
       });
     }
   },

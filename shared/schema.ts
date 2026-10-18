@@ -163,6 +163,19 @@ export interface Feedback extends BuiltIn {
 }
 
 /**
+ * WhatsApp conversation memory (shared/wa-session.ts). `key` is an HMAC of the
+ * phone number (never the number), the rest is fixed words and a place label.
+ * Expires after 30 minutes. Never the message text.
+ */
+export interface WaSession extends BuiltIn {
+  key: string;
+  needs: Need[];
+  near: string;
+  language: "es" | "en";
+  expires_at: string; // ISO datetime
+}
+
+/**
  * A post on the community page: a local question, a resource correction, or a
  * reply. Discussion only: posts never become directory results (only an
  * approved Submission does). No names, phones or emails are stored.
@@ -265,7 +278,7 @@ export const PROGRAM_ENUMS = { needs: NEEDS } as const;
 export const PLACE_ENUMS = { org_type: ORG_TYPES, trust: TRUST } as const;
 export const LINK_ENUMS = { type: LINK_TYPES } as const;
 
-export const ENTITY_NAMES = ["Program", "Place", "Link", "Submission", "RequestLog", "CommunityPost", "Feedback"] as const;
+export const ENTITY_NAMES = ["Program", "Place", "Link", "Submission", "RequestLog", "CommunityPost", "Feedback", "WaSession"] as const;
 export type EntityName = typeof ENTITY_NAMES[number];
 
 export interface EntityMap {
@@ -276,4 +289,5 @@ export interface EntityMap {
   RequestLog: RequestLog;
   CommunityPost: CommunityPost;
   Feedback: Feedback;
+  WaSession: WaSession;
 }

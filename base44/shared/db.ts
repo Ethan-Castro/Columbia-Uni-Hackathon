@@ -31,6 +31,8 @@ export interface Entity<T> {
   update(id: string, data: Partial<T>): Promise<T>;
   /** count(query?) -> number of matching records */
   count(query?: Query): Promise<number>;
+  /** delete(id) -> removes the record; throws DbError(404) when missing */
+  delete(id: string): Promise<void>;
 }
 
 export type Db = { [K in EntityName]: Entity<EntityMap[K]> };
@@ -206,6 +208,14 @@ function makeEntity<T>(entity: EntityName, store: () => SdkEntity): Entity<T> {
       if (keyed) delete patch.key;
       try {
         return fromStore(entity, await store().update(raw.id as string, patch)) as T;
+      } catch (err) {
+        throw toDbError(entity, err, id);
+      }
+    },
+    async delete(id) {
+      const raw = await findRaw(id);
+      try {
+        await store().delete(raw.id as string);
       } catch (err) {
         throw toDbError(entity, err, id);
       }
